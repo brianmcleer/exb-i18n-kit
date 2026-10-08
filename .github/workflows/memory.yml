@@ -44,4 +44,14 @@ jobs:
           git add memory/*.json
           git diff --cached --quiet && echo "No new translations" && exit 0
           git commit -m "Translation memory: new strings ($(date -u +%Y-%m-%d))"
-          git push
+          # Other commits may arrive during the long-running translation job.
+          # Rebase the memory commit on the latest main, then retry if it moves.
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then exit 0; fi
+            echo "main moved during push (attempt $attempt); retrying..."
+            sleep 3
+          done
+          echo "Could not push translations after five attempts" >&2
+          exit 1
