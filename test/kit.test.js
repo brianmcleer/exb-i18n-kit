@@ -134,7 +134,7 @@ test('machine translation provider (LibreTranslate protocol) with placeholder gu
       res.setHeader('Content-Type', 'application/json')
       if (req.url === '/languages') return res.end(JSON.stringify([{ code: 'en', targets: ['es', 'fr'] }, { code: 'es', targets: ['en'] }]))
       const q = JSON.parse(body).q
-      const tr = s => s.includes('drawing') ? 'MT ' + s.replace(/<x id="0"><\/x>/, '<x id="0"></x>') : 'MT ' + s
+      const tr = s => 'MT ' + s
       res.end(JSON.stringify({ translatedText: Array.isArray(q) ? q.map(tr) : tr(q) }))
     })
   })
