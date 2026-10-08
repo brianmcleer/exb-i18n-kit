@@ -30,6 +30,7 @@ runs:
       shell: bash
       env:
         EXB_I18N_CACHE: ${{ runner.temp }}/exb-i18n
+        GITHUB_ACTION_PATH: ${{ github.action_path }}
         INPUT_WIDGET: ${{ inputs.widget }}
         INPUT_COMMAND: ${{ inputs.command }}
         INPUT_LOCALES: ${{ inputs.locales }}
@@ -44,7 +45,7 @@ runs:
           args+=(--memory "$INPUT_MEMORY")
         fi
         if [[ "$INPUT_COMMAND" == audit ]]; then args+=(--strict); fi
-        node "${{ github.action_path }}/bin/exb-i18n.js" "${args[@]}"
+        node "$GITHUB_ACTION_PATH/bin/exb-i18n.js" "${args[@]}"
     - name: Commit language files
       if: ${{ inputs.commit == 'true' && inputs.command == 'sync' }}
       shell: bash
