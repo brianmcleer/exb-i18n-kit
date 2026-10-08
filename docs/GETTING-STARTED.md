@@ -27,8 +27,7 @@ in the link, or the Language Switcher widget.
 
 1. Download this kit (green **Code** button > **Download ZIP**) and unzip it.
 2. Drag your widget folder (the one with `manifest.json`) onto `localize.cmd`.
-3. Read what it printed. If it lists "no translator in scope", ask your favorite developer or
-   follow [WIRING.md](WIRING.md), then drag the folder on again.
+3. The kit automatically adds translation hooks to supported exported React function components, including settings components, and creates a settings `default.ts` when required. If it still lists "no translator in scope", the code needs special handling. Follow [WIRING.md](WIRING.md) for class components, nested helpers, and other unsupported patterns.
 4. Restart `pnpm start` and open your app with `?locale=es`.
 
 Changed your mind? Run `node bin\exb-i18n.js restore "<your widget folder>"`.
