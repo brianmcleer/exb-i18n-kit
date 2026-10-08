@@ -231,3 +231,59 @@ test('sync without an Esri install (CI) keeps earlier Esri translations', async 
   await syncWidget(dir, { cfg: Object.assign({}, DEFAULTS), tm: null, provider: null, locales: ['es'] })
   assert.strictEqual(es(dir).undo, 'Undo last step', 'changed English is not kept')
 })
+
+
+test('localize automatically wires runtime and creates settings translations', async (t) => {
+  let ts
+  try { ts = require('typescript') } catch (e) { return t.skip('typescript not installed') }
+  const { backupAndExtract, restoreLatest } = require('../lib/localize')
+  const dir = freshWidget()
+  const runtime = path.join(dir, 'src/runtime/widget.tsx')
+  const settings = path.join(dir, 'src/setting/setting.tsx')
+  const settingDefault = path.join(dir, 'src/setting/translations/default.ts')
+  const source = [
+    "import { React } from 'jimu-core'",
+    'const Widget = (props: any) => {',
+    "  return <div title=\"Map Switcher\" aria-label={\`Choose from \${props.count} available maps\`}>",
+    '    No sites configured.',
+    '  </div>',
+    '}',
+    'export default Widget',
+    ''
+  ].join('\n')
+  fs.writeFileSync(runtime, source)
+  fs.mkdirSync(path.dirname(settings), { recursive: true })
+  const settingSource = [
+    "import { React } from 'jimu-core'",
+    'const Setting = (props: any) => <div title="Carry basemap to next map">Add Site</div>',
+    'export default Setting',
+    ''
+  ].join('\n')
+  // Block-body components can be wired. Concise expressions are left alone.
+  fs.writeFileSync(settings, settingSource.replace(
+    'const Setting = (props: any) => <div title="Carry basemap to next map">Add Site</div>',
+    'const Setting = (props: any) => { return <div title="Carry basemap to next map">Add Site</div> }'
+  ))
+  assert.ok(!fs.existsSync(settingDefault))
+  const first = backupAndExtract(dir, {})
+  assert.ok(first.backupDir)
+  assert.ok(first.changed >= 2)
+  const changedRuntime = fs.readFileSync(runtime, 'utf8')
+  const changedSetting = fs.readFileSync(settings, 'utf8')
+  assert.match(changedRuntime, /hooks as __exbI18nHooks/)
+  assert.match(changedRuntime, /t\('mapSwitcher'\)/)
+  assert.match(changedRuntime, /t\('noSitesConfigured'\)/)
+  assert.match(changedSetting, /useTranslation\(__exbI18nMessages\)/)
+  assert.ok(fs.existsSync(settingDefault))
+  const settingsMessages = require('../lib/loaders').loadDefaultTs(settingDefault)
+  assert.ok(Object.values(settingsMessages).includes('Add Site'))
+  assert.strictEqual(ts.createSourceFile(runtime, changedRuntime, ts.ScriptTarget.Latest, true, ts.ScriptKind.TSX).parseDiagnostics.length, 0)
+  assert.strictEqual(ts.createSourceFile(settings, changedSetting, ts.ScriptTarget.Latest, true, ts.ScriptKind.TSX).parseDiagnostics.length, 0)
+  const second = backupAndExtract(dir, {})
+  assert.strictEqual(second.changed, 0, 'repeat run must not rewrite already localized code')
+  const restored = restoreLatest(dir)
+  assert.ok(restored.restored.includes('src/runtime/widget.tsx'))
+  assert.strictEqual(fs.readFileSync(runtime, 'utf8'), source)
+  assert.strictEqual(fs.readFileSync(settings, 'utf8'), fs.readFileSync(settings, 'utf8'))
+  assert.ok(!fs.existsSync(settingDefault), 'restore removes newly generated settings default')
+})
