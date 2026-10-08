@@ -1,4 +1,10 @@
 {
+ "(Default)": {
+  "t": "(Default)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "{activeLabel}: a check mark and border show the basemap being used.": {
   "t": "{activeLabel}סמן בדיקה וגבול מראים את מפת הבסיס לשימוש.",
   "src": "libretranslate",
@@ -13,6 +19,12 @@
  },
  "{closeCompareLabel}: use the same button again to return to the normal gallery.": {
   "t": "{closeCompareLabel}השתמש באותו כפתור שוב כדי לחזור לגלריה הרגילה.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "{closeLabel}: use the button at the bottom of the guide to return to the gallery.": {
+  "t": "{closeLabel}השתמש הכפתור בתחתית המדריך כדי לחזור לגלריה.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -41,14 +53,44 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "{failedCount} basemap could not be loaded. Check the item IDs in settings.": {
+  "t": "{failedCount} לא ניתן לטעון מפת בסיס. בדוק את מזהה הפריט בהגדרות.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "{failedCount} basemaps could not be loaded. Check the item IDs in settings.": {
+  "t": "{failedCount} לא ניתן לטעון מפת בסיס. בדוק את מזהה הפריט בהגדרות.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "{filterLabel}: type part of a basemap name in the box above the gallery.": {
   "t": "{filterLabel}סוג של שם מפת בסיס בתיבה מעל הגלריה.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "{helpLabel}: use the question mark at the top right of the widget to open this guide again.": {
+  "t": "{helpLabel}השתמש בסימן השאלה בחלק העליון של הווידג'ט כדי לפתוח את המדריך שוב.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "{inserted} inserted, {updated} updated": {
   "t": "{inserted} מוכנס, {updated} מעודכן",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "{loadedCount} basemap loaded.{failedNote} Use arrow keys to navigate, Enter or Space to select.": {
+  "t": "{loadedCount} מפת בסיס טעון.{failedNote} השתמש במפתחי חצים כדי לנווט, להיכנס או לחלל כדי לבחור.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "{loadedCount} basemaps loaded.{failedNote} Use arrow keys to navigate, Enter or Space to select.": {
+  "t": "{loadedCount} מפות בסיס טעון.{failedNote} השתמש במפתחי חצים כדי לנווט, להיכנס או לחלל כדי לבחור.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -61,6 +103,78 @@
  },
  "{removeLabel}: click the star again to return the basemap to its usual place.": {
   "t": "{removeLabel}לחץ על הכוכב שוב כדי להחזיר את מפת הבסיס למקום הרגיל שלו.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "{title} - Current basemap, shown on the right side": {
+  "t": "{title} מפת הבסיס הנוכחית, המוצגת בצד ימין",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "{title} - Currently active basemap (click to reapply)": {
+  "t": "{title} כיום מפת בסיס פעילה (לחץ כדי לחזור)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "{title} - Shown on the left side of the divider": {
+  "t": "{title} מוצג בצד שמאל של המחלק",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "{title} added to favorites and pinned to top": {
+  "t": "{title} הוספת מועדים ונצמדים לפסגה",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "{title} basemap applied to map": {
+  "t": "{title} מפת בסיס שימוש במפה",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "{title} could not be loaded for comparison": {
+  "t": "{title} לא ניתן לטעון להשוואה",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "{title} is already being compared": {
+  "t": "{title} כבר משווים",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "{title} is already the current basemap. Choose a different basemap to compare.": {
+  "t": "{title} זו כבר מפת הבסיס הנוכחית. בחרו מפת בסיס שונה כדי להשוות.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "{title} removed from favorites": {
+  "t": "{title} הוסרו מהאהובים",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "{visibleBasemapsCount} basemap match your search": {
+  "t": "{visibleBasemapsCount} מפת בסיס תואם את החיפוש",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "{visibleBasemapsCount} basemaps match your search": {
+  "t": "{visibleBasemapsCount} מפות בסיס תואמות את החיפוש",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "✓ Added": {
+  "t": "תוספת",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -79,6 +193,12 @@
  },
  "A file: a CSV, a zipped shapefile, a GeoJSON or a KML from your computer.": {
   "t": "קובץ: CSV, zipped shapefile, GeoJSON או KML מהמחשב שלך.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "A guess is filled in from your headings. Look it over before pressing Geocode.": {
+  "t": "ניחוש מלא מהכותרות שלך. ראה זאת לפני לחיצה על Geocode.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -119,6 +239,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Accepted types: CSV, TSV, TXT, XLSX, XLS and ODS.": {
+  "t": "סוגים מקובלים: CSV, TSV, TXT, XLSX, XLS ו- ODS.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Add": {
+  "t": "הוסף",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Add & load new data": {
   "t": "הוסף ו לטעון נתונים חדשים",
   "src": "libretranslate",
@@ -127,6 +259,12 @@
  },
  "Add & load new data takes you back to the first step.": {
   "t": "הוסף ועומס נתונים חדשים מחזירים אותך לשלב הראשון.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Add basemaps in the widget settings.": {
+  "t": "הוסף מפות בסיס בהגדרות widget.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -181,6 +319,18 @@
  },
  "Adding your data": {
   "t": "הוספת הנתונים שלך",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Address Geocoder": {
+  "t": "כתובת Geocoder",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Adjust divider position: {comparePosition}%": {
+  "t": "מיקום דיבידנד: {comparePosition}%%",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -257,6 +407,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Almost any address list out of a spreadsheet works.": {
+  "t": "כמעט כל רשימת כתובות מתוך גיליון אלקטרוני עובדת.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "an item from ArcGIS": {
   "t": "מקור: ArcGIS",
   "src": "libretranslate",
@@ -265,6 +421,12 @@
  },
  "and": {
   "t": "ו",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Appearance": {
+  "t": "הופעה",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -305,8 +467,50 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Base": {
+  "t": "בסיס",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Basemap Gallery Custom": {
   "t": "גלריה Map Custom",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Basemap Gallery Widget": {
+  "t": "גלריה Basemap Widget",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Basemap gallery with {visibleBasemapsCount} basemap available. Use arrow keys to navigate between basemaps. Press Enter or Space to select and apply a basemap to the map. Home key jumps to first basemap, End key jumps to last basemap. Press F to add or remove the focused basemap from favorites. Favorites are pinned to the top of the gallery.": {
+  "t": "גלריית בסיס עם {visibleBasemapsCount} מפת בסיס זמינה השתמש מפתחות חצים כדי לנווט בין מפות בסיס. הקש Enter או Space כדי לבחור וליישם מפת בסיס למפה. מפתח ביתי קופץ אל מפת הבסיס הראשונה, מפתח קצה קופץ למפת הבסיס האחרונה. הקש F כדי להוסיף או להסיר את מפת הבסיס ממוקדת מן המועדפים. המועדפים מוצמדים לראש הגלריה.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Basemap gallery with {visibleBasemapsCount} basemaps available. Use arrow keys to navigate between basemaps. Press Enter or Space to select and apply a basemap to the map. Home key jumps to first basemap, End key jumps to last basemap. Press F to add or remove the focused basemap from favorites. Favorites are pinned to the top of the gallery.": {
+  "t": "גלריית בסיס עם {visibleBasemapsCount} מפות בסיס זמינות השתמש מפתחות חצים כדי לנווט בין מפות בסיס. הקש Enter או Space כדי לבחור וליישם מפת בסיס למפה. מפתח ביתי קופץ אל מפת הבסיס הראשונה, מפתח קצה קופץ למפת הבסיס האחרונה. הקש F כדי להוסיף או להסיר את מפת הבסיס ממוקדת מן המועדפים. המועדפים מוצמדים לראש הגלריה.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Basemap selection gallery - grid view": {
+  "t": "גלריה של Basemap - Network View",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Basemap selection gallery - list view": {
+  "t": "גלריה: תצוגה",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Basemaps could not be loaded": {
+  "t": "מפות בסיס לא ניתן לטעון",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -317,8 +521,44 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Blend": {
+  "t": "בלגן",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Blend mode": {
+  "t": "המונחים:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Blending {title} over the current basemap. Use the slider to adjust transparency.": {
+  "t": "מיזוג {title} מעל מפת הבסיס הנוכחית. השתמש במפרק כדי להתאים את השקיפות.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Both sides look the same: the basemap you chose is already the current basemap. Choose a different one.": {
+  "t": "שני הצדדים נראים אותו הדבר: מפת הבסיס שבחרת היא כבר מפת הבסיס הנוכחית. בחרו אחד אחר.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Browse Portal Items": {
+  "t": "פורטל פריטים Browse",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Build point from X/Y fields": {
   "t": "בניית נקודה מ X/Y",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Cancel": {
+  "t": "ביטול",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -347,8 +587,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Check the item IDs and portal URL in settings.": {
+  "t": "בדוק את מזהה הפריט ואת כתובת אתר פורטל בהגדרות.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Checked {rows} rows, {warnings} warnings": {
   "t": "נבדק {rows} שורות, {warnings} אזהרה",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Checking a list of addresses": {
+  "t": "בדוק רשימה של כתובות",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -395,6 +647,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Choose a file": {
+  "t": "בחר קובץ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Choose a record and change its values in the form. Each change is saved to the layer as you make it.": {
   "t": "בחר רישום ולשנות את ערכיו בצורה. כל שינוי נשמר לשכבה כפי שאתה עושה את זה.",
   "src": "libretranslate",
@@ -409,6 +667,12 @@
  },
  "Choose the background map you want to see in this app.": {
   "t": "בחר את מפת הרקע שברצונך לראות באפליקציית זו.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Clear": {
+  "t": "Clear",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -431,6 +695,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Click ★ to set the default basemap shown when the app loads. Use arrows to reorder.": {
+  "t": "לחץ על ★ כדי להגדיר את מפת בסיס ברירת המחדל המוצגת כאשר האפליקציה נטען. השתמש בחצים כדי לתקן מחדש.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Click or tap a basemap to put it on the map.": {
   "t": "לחץ או הקש על מפת בסיס כדי לשים אותו על המפה.",
   "src": "libretranslate",
@@ -439,6 +709,18 @@
  },
  "Click or tap the name or picture of a basemap to use it right away.": {
   "t": "לחץ או הקש על השם או תמונה של מפת בסיס כדי להשתמש בו מיד.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Click to apply {title} basemap to the map": {
+  "t": "Click to Apply {title} מפת בסיס למפה",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Click to compare {title} with the current basemap": {
+  "t": "לחץ כדי להשוות {title} מפת הבסיס הנוכחית",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -467,14 +749,38 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Compare adds nothing to the saved map. Closing compare returns the map to the current basemap.": {
+  "t": "ההשוואה לא מוסיפה דבר למפה המנצלת. סגירת ההשוואה מחזירה את המפה למפת הבסיס הנוכחית.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Compare basemaps": {
   "t": "השוואת בסיס",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Compare closed. The map shows the current basemap only.": {
+  "t": "השוואה סגורה. המפה מציגה את מפת הבסיס הנוכחית בלבד.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Compare is on in {compareBlendMode} mode: Enter or Space chooses the basemap to compare.": {
+  "t": "לעומת זאת, {compareBlendMode} מצב: כניסה או חלל בוחרים את מפת הבסיס כדי להשוות.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Compare is on now. Clicking a basemap changes the left side instead of the whole map.": {
   "t": "ההשוואה כבר עכשיו. לחיצה על מפת בסיס משנה את הצד השמאלי במקום את כל המפה.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Compare on using {compareBlendMode} mode. Choose a basemap to show on the left side of the map.": {
+  "t": "השוואה לשימוש {compareBlendMode} מצב. בחר מפת בסיס להציג בצד שמאל של המפה.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -487,6 +793,30 @@
  },
  "Compare two basemaps side by side with a divider on the map": {
   "t": "השוואה בין שתי מפות בסיס בצד עם מפיץ על המפה",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Comparing {title} on the left with the current basemap on the right. Drag the divider or use the slider.": {
+  "t": "השוואת {title} משמאל עם מפת הבסיס הנוכחית מימין. הזיזו את המחלק או השתמשו במפרק.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Comparing: {title}. Use the slider to adjust the comparison.": {
+  "t": "השוואת: {title}השתמש במפרק כדי להתאים את ההשוואה.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Comparison:": {
+  "t": "השוואה:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Configuration imported successfully!": {
+  "t": "וידוי ייבא בהצלחה!",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -515,6 +845,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Copy to Clipboard": {
+  "t": "צילום: Clipboard",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Could not read the selected file.": {
   "t": "לא יכול לקרוא את הקובץ שנבחר.",
   "src": "libretranslate",
@@ -539,6 +875,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Currently selected: {title}.": {
+  "t": "נבחר כיום: {title}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Data quality issues by target field": {
   "t": "בעיות איכות נתונים על ידי שדה היעד",
   "src": "libretranslate",
@@ -553,6 +895,12 @@
  },
  "Decimal places": {
   "t": "מקומות דחויים",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Default basemap": {
+  "t": "Default Basemap",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -581,6 +929,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Dismiss this tip": {
+  "t": "אכזב את הטיפ הזה",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Display Mode": {
+  "t": "המונחים: Mode",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Display Size": {
+  "t": "גודל תצוגה",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Display vertices while editing": {
   "t": "מציג אמיתות בעת עריכה",
   "src": "libretranslate",
@@ -595,6 +961,18 @@
  },
  "Download failed rows (CSV)": {
   "t": "הורדת שורות כושלות (CSV)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Download File": {
+  "t": "Download File",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Drag divider side by side": {
+  "t": "הפיצול של דרג לצד",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -689,8 +1067,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Every other column comes along for the ride. Names, phone numbers, notes: all of it lands on the map with the point.": {
+  "t": "כל עמודה אחרת מגיעה לסיבוב. שמות, מספרי טלפון, הערות: כל זה נוחת על המפה עם הנקודה.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Everything you bring in is listed under the button. The trash can next to a name takes it back out.": {
   "t": "כל מה שאתה מביא מופיע תחת הכפתור. זבל יכול ליד שם לוקח את זה בחזרה.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Export Configuration": {
+  "t": "ייצוא Configuration",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -707,8 +1097,26 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Export your basemap configuration to XML for backup or sharing.": {
+  "t": "הייצוא תצורת מפת הבסיס שלך ל-XML עבור גיבוי או שיתוף.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Expression": {
   "t": "ביטוי",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Favorites appear first. The remaining basemaps stay in the order chosen for this app.": {
+  "t": "המועדפים מופיעים ראשונים. מפות הבסיס הנותרים נשארות בסדר שנבחר עבור אפליקציה זו.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Favorites are gone: this browser may have cleared or blocked saved choices. Add the stars again in the browser you plan to use.": {
+  "t": "מועדפים נעלמו: הדפדפן הזה עשוי לנקות או חסום אפשרויות. הוסף את הכוכבים שוב בדפדפן שאתה מתכנן להשתמש.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -757,6 +1165,18 @@
  },
  "Finishing up…": {
   "t": "סיום...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Generate XML": {
+  "t": "יצירת XML",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Geocode": {
+  "t": "Geocode",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -833,6 +1253,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Import / Export Configuration": {
+  "t": "יבוא / סודיות",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Import basemap configuration from XML. This will replace your current basemap selections.": {
+  "t": "תצורת מפת בסיס ייבוא מ-XML. זה יחליף את בחירת מפת הבסיס הנוכחית שלך.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Import Configuration": {
+  "t": "ייבוא Configuration",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Import XML": {
   "t": "ייבוא XML",
   "src": "libretranslate",
@@ -853,6 +1291,12 @@
  },
  "Insert (always add new)": {
   "t": "הכנס (תמיד להוסיף חדש)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "It appears in the map’s layer list like any other layer. Turn it on and off, open its table, and click a point to see the whole row from your file.": {
+  "t": "זה מופיע ברשימת השכבות של המפה כמו כל שכבה אחרת. סובבו אותו וכבו, פתחו את השולחן ולחצו על נקודה כדי לראות את כל השורה מהקובץ שלכם.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -883,6 +1327,12 @@
  },
  "Layer": {
   "t": "שכבה",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Leave a box on (none) if you do not have that piece. Street and city are the two that matter most.": {
+  "t": "השאירו קופסה (none) אם אין לכם את היצירה הזאת. הרחוב והעיר הם שני הדברים החשובים ביותר.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -929,6 +1379,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Load from File": {
+  "t": "תגית: File",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Load into (target layer)": {
   "t": "המונחים:target Layer",
   "src": "libretranslate",
@@ -961,6 +1417,24 @@
  },
  "Loaded {ok} of {attempted} records ({failed} failed).": {
   "t": "טעון {ok} של {attempted} רשומות ({failed} נכשל).",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Loading {title} for comparison": {
+  "t": "טעינה {title} השוואה",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Loading basemaps": {
+  "t": "עקבו אחרי Basemaps",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Loading basemaps...": {
+  "t": "עקבו אחרי Basemaps...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1013,8 +1487,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Low score: the locator found something close but not close enough. MATCH_ADDR shows what it found, which usually points to a typo, a wrong suffix or a missing unit.": {
+  "t": "ציון נמוך: הממצא מצא משהו קרוב אך לא קרוב מספיק. MATCH ADDR מראה את מה שהוא מצא, שבדרך כלל מצביע על טיפוס, נפיחות שגויה או יחידה נעדרת.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Map": {
   "t": "מפה מפה",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Map address fields": {
+  "t": "שדות",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1037,14 +1523,62 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Match rate": {
+  "t": "אחוזי התאמה",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Match rate: matched rows as a share of the whole file. Above 90 percent is a good file.": {
+  "t": "דירוג התאמה: שורות תואמות כחלק מהקובץ כולו. מעל 90% הוא קובץ טוב.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Matched": {
+  "t": "עקבו",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Matched addresses become a real map layer, so there is nothing to download and add back.": {
+  "t": "כתובות ממותגות הופכות לשכבת מפה אמיתית, כך שאין מה להוריד ולוסיף בחזרה.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Matched: rows the geocoder found a place for.": {
+  "t": "שורת הגיאו-קודר מצאה מקום.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Matching the fields": {
   "t": "התאמת שדות",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Matching your columns": {
+  "t": "התאמת העמודות שלך",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Merge tool": {
   "t": "כלי Merge",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Move down": {
+  "t": "מטה מטה",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Move up": {
+  "t": "קדימה",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1073,14 +1607,44 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No basemaps configured": {
+  "t": "שום מפות בסיס לא מוגדרות",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "No basemaps configured: there are no basemaps set up for this gallery. Ask the GIS Division to add them.": {
   "t": "אין מפות בסיס מוגדרות: אין מפות בסיס שנקבעו לגלריה זו. שאל את מחלקת GIS כדי להוסיף אותם.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No basemaps configured.": {
+  "t": "אין מפות בסיס מוגדרות.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "No basemaps could be loaded.": {
+  "t": "לא ניתן לטעון מפת בסיס.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "No basemaps match \"{searchText}\".": {
+  "t": "אין מפות בסיס \"{searchText}\".",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "No basemaps match: the text in \"{filterLabel}\" does not match a name. Clear the box or try a shorter part of the name.": {
   "t": "אין מפות בסיס: הטקסט ב\"{filterLabel}\"אל תתאים לשם. לנקות את הקופסה או לנסות חלק קצר יותר של השם.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "No basemaps selected. Use the Browse Portal Items section above to add basemaps.": {
+  "t": "לא נבחרו מפות בסיס. השתמש בסעיף פריטים פורטל Browse לעיל כדי להוסיף מפות בסיס.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1109,8 +1673,32 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No items found. Try a different search term.": {
+  "t": "לא נמצאו פריטים. נסו מונח חיפוש אחר.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "No map connected: this widget has not been linked to a map. Ask the GIS Division to connect it in the widget settings.": {
   "t": "אין מפה המחוברת: הווידג'ט הזה לא היה קשור למפה. שאל את החטיבה GIS כדי לחבר אותה בהגדרות widget.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "No map connected.": {
+  "t": "אין מפה מחוברת.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "No map widget connected": {
+  "t": "שום מפה לא מחוברת",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "No match: the locator found nothing. Blank address: the row has no address in the mapped columns. Service error: the request failed, so run the file again.": {
+  "t": "לא משחק: הממצא לא מצא דבר. כתובת Blank: לשורה אין כתובת בעמודות המפות. טעות בשירות: הבקשה נכשלה, אז הפעל שוב את הקובץ.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1123,6 +1711,12 @@
  },
  "Not in domain": {
   "t": "לא בתחום",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Note: Importing will replace all current basemap selections but will not change the selected map widget.": {
+  "t": "הערה: יבוא יחליף את כל בחירת מפת הבסיס הנוכחית, אך לא ישנה את המפה שנבחרה.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1175,8 +1769,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Only the first sheet of an Excel workbook is read, so put your addresses there.": {
+  "t": "רק הגיליון הראשון של חוברת עבודה של Excel קורא, אז לשים את הכתובת שלך שם.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "OOS=Out of Service ACT=Active": {
   "t": "OOS=Out of Service Act=Active",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Opacity: {comparePosition}%": {
+  "t": "מחסור: {comparePosition}%%",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1193,8 +1799,26 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Or paste XML:": {
+  "t": "המונחים:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Output = value x factor + offset. Example: feet to meters uses 0.3048.": {
   "t": "המונחים: value x factor + offset. דוגמה: מטרים עד מטר משתמשת 0.3048.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Overlay with blend effects": {
+  "t": "Overlay עם אפקטים תערובת",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Pick a spreadsheet of addresses, check the columns the widget guessed, and press Geocode.": {
+  "t": "בחר גליון התפשטות של כתובות, בדוק את העמודות הנחושות, ולחץ על Geocode.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1217,8 +1841,26 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Portal Source": {
+  "t": "פורטל Source",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Portal URL": {
+  "t": "פורטל URL",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Press C on a focused basemap to compare it with the current basemap.": {
   "t": "הקש C על מפת בסיס ממוקדת כדי להשוות אותו עם מפת הבסיס הנוכחית.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Press C to compare the focused basemap with the current basemap using swipe or blend mode.": {
+  "t": "הקש C כדי להשוות את מפת הבסיס ממוקדת עם מפת הבסיס הנוכחית באמצעות ספירה או מצב תערובת.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1231,6 +1873,12 @@
  },
  "Press F on a focused basemap to add or remove it from favorites.": {
   "t": "הקש F על מפת בסיס ממוקדת כדי להוסיף או להסיר אותו מן המועדפים.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Press Geocode and wait for the bar to fill. The points appear on the map when it finishes.": {
+  "t": "לחץ על Geocode והמתין לבר כדי למלא. הנקודות מופיעות על המפה כשהיא מסתיימת.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1255,6 +1903,18 @@
  },
  "Press Tab until a basemap has a focus outline.": {
   "t": "הקש Tab עד מפת בסיס יש מתווה ממוקד.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Pressing Geocode again adds another layer beside the first one, numbered (2), (3) and so on.": {
+  "t": "לחיצה על Geocode שוב מוסיפה שכבה נוספת לצד הראשון, מספר (2), (3) וכן הלאה.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Pressing Geocode again replaces the layer from your last run, so the map does not fill up while you fix a file and try again.": {
+  "t": "לחיצה על Geocode שוב מחליפה את השכבה מהריצה האחרונה שלך, כך המפה לא ממלאת בעת תיקון קובץ ולנסות שוב.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1295,6 +1955,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Reading the results": {
+  "t": "לקרוא את התוצאות",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Red messages on the Load step: a rule points at a field that is not there, or a required field is left empty. Press Back and fix the rule the message names.": {
   "t": "הודעות אדומות על צעד הטעינה: כלל מצביע בשדה שאינו קיים, או שדה נדרש נותר ריק. לחצו אחורה ותקנו את השמות.",
   "src": "libretranslate",
@@ -1313,8 +1979,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Remove basemap": {
+  "t": "הסרת מפת בסיס",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Remove from favorites": {
   "t": "להסיר מהאהובים",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Remove from map takes the layer off again. Clear does not: it empties the form and leaves your layers alone.": {
+  "t": "הסר מהמפה לוקח את השכבה שוב. ברור לא: הוא מרוקן את הצורה ומשאיר את השכבות שלך לבד.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1333,6 +2011,12 @@
  },
  "Return to the normal gallery": {
   "t": "חזרה לגלריה הרגילה",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Review unmatched opens the full list of rows that did not make it, with the reason for each one. Filter it by reason or search it, then download what is on screen as a CSV. Download unmatched saves the whole list in one click.": {
+  "t": "סקירה ללא תחרות פותחת את הרשימה המלאה של שורות שלא עשו זאת, עם הסיבה לכל אחד. מסנן את זה על ידי סיבה או לחפש אותו, ולאחר מכן להוריד מה על המסך כ- CSV. הורד ללא תחרות חוסך את כל הרשימה בלחיצה אחת.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1367,6 +2051,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Search": {
+  "t": "חיפוש חיפוש",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Search by title or item ID...": {
+  "t": "חיפוש על שם או פריט מזהה...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Search the guide (try \"layer\" or \"unmatched\")": {
+  "t": "חפש את המדריך (נסו \"layer\" או \"לא מתאים\")",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Search the guide (try \"load\" or \"fields\")": {
   "t": "חפש את המדריך (נסו \"עומס\" או \"שדות\")",
   "src": "libretranslate",
@@ -1375,6 +2077,36 @@
  },
  "Search the guide (try \"map\" or \"help\")": {
   "t": "חפש את המדריך (נסו \"מפת\" או \"עזרה\")",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Select a map widget in the widget settings.": {
+  "t": "בחר מפה widget בהגדרות widget.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Select a Map widget in this widget’s settings to display points.": {
+  "t": "בחר מפה widget בהגדרות של widget כדי להציג נקודות.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Selected Basemaps": {
+  "t": "מפת בסיס נבחרים",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Separate columns: pick a column for the street, the city, the state and the ZIP. Use this when the address is split up, which is the usual case.": {
+  "t": "עמודות נפרדות: לבחור עמודה ברחוב, העיר, המדינה ו- ZIP. השתמש בכך כאשר הכתובת מחולקת, וזה המקרה הרגיל.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Set as default": {
+  "t": "הגדרת מחדל",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1403,6 +2135,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Show the compare button, which places a second basemap on the map behind a draggable divider": {
+  "t": "הצג את הלחצן השווה, אשר מציב מפת בסיס שנייה על המפה מאחורי מפיץ גורר",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Show the question-mark button that opens the widget help guide": {
   "t": "הצג את לחצן סימן שאלה פותח את מדריך העזרה widget",
   "src": "libretranslate",
@@ -1411,6 +2149,12 @@
  },
  "Shown on the left side of the divider": {
   "t": "מוצג בצד שמאל של המחלק",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Single full address: pick the one column that holds the whole address on its own, like \"250 N 5th St, Grand Junction, CO 81501\".": {
+  "t": "כתובת מלאה אחת: לבחור את העמודה אחת שמחזיקה את הכתובת כולה בפני עצמה, כמו \"250 N 5 St, Grand Junction, CO 81501\".",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1487,6 +2231,42 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Still stuck? Contact the GIS Division and mention the Basemap Gallery Custom name and this app.": {
+  "t": "עדיין תקוע? צור קשר עם מחלקת GIS ולהזכיר את שם הגלריה של Basemap ואת היישום הזה.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Swipe": {
+  "t": "Swipe",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Swipe mode": {
+  "t": "מצב Swipe",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Switched to blend mode. Use the slider to adjust transparency.": {
+  "t": "עוברים למצב של מיזוג. השתמש במפרק כדי להתאים את השקיפות.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Switched to swipe mode.": {
+  "t": "לעבור למצב נפוח.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Switched to swipe mode. Drag the divider or use the slider.": {
+  "t": "לעבור למצב נפוח. הזיזו את המחלק או השתמשו במפרק.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Symbology": {
   "t": "סימפוולוגיה",
   "src": "libretranslate",
@@ -1541,14 +2321,62 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The file you bring": {
+  "t": "הקובץ שאתה מביא",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "The first row has to be the column headings, one heading per column.": {
+  "t": "השורה הראשונה צריכה להיות כותרות העמודה, כותרת אחת לכל עמודה.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "The layer is named after your file. Bring in Hydrants.csv and the layer is called Hydrants.": {
+  "t": "השכבה נקראת על שם הקובץ שלך. הכנסו ל-hydrnts.csv והשכבה נקראת hydronts.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "The layer lasts as long as the app stays open. Close the tab and it is gone, so use 4. Export if you need to keep it.": {
+  "t": "השכבה נמשכת כל עוד האפליקציה נשארת פתוחה. סגור את הכרטיסיה וזה נעלם, אז להשתמש 4. הייצוא אם אתה צריך לשמור אותו.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "The layer on the map": {
+  "t": "השכבה על המפה",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "The Load step checks the work, then writes the records into the layer.": {
   "t": "שלב המטען בודק את העבודה, ואז כותב את הרשומות לתוך השכבה.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The map is blank: that basemap may not have pictures for this area or zoom level. Try a different basemap.": {
+  "t": "המפה ריקה: מפת בסיס זו אולי אין תמונות עבור אזור זה או רמת גן החיות. נסו מפת בסיס שונה.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "The map moves to fit the points when geocoding finishes.": {
+  "t": "המפה נעה כדי להתאים את הנקודות כאשר גיקול מסתיים.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "The map moves to the new records once they are in.": {
   "t": "המפה עוברת לרשומות החדשות ברגע שהן נמצאות.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "The rest of the app can use it too: filter it, select from it, put it in a chart or a table.": {
+  "t": "שאר האפליקציה יכולה גם להשתמש בה: לסנן אותה, לבחור ממנה, לשים אותה בתרשים או בטבלה.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1589,6 +2417,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The widget doubles as an address checker: it tells you which rows are in the address locator and which are not.": {
+  "t": "widget מכפיל כסימון כתובת: זה אומר לך אילו שורות נמצאים באיתור הכתובת ולא.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "The widget has to know which of your columns hold the address.": {
+  "t": "הווידג'ט חייב לדעת מי מהעמודות שלך מחזיקים את הכתובת.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Then add": {
   "t": "ואז להוסיף",
   "src": "libretranslate",
@@ -1609,6 +2449,18 @@
  },
  "This widget brings outside data into a map layer: you add the data, line up its fields with the fields in the layer, then load the records.": {
   "t": "זה widget מביא נתונים חיצוניים לתוך שכבת מפה: אתה מוסיף את הנתונים, קו במעלה שדות שלה עם שדות בשכבה, ולאחר מכן לטעון את הרשומות.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "This widget takes a list of addresses from a spreadsheet, checks each one against the address locator, and puts the matches on the map.": {
+  "t": "widget זה לוקח רשימה של כתובות מגליון מבוזר, בודק כל אחד נגד מוצא הכתובת, ומניח את המשחקים על המפה.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "To swap files, press Choose a different file. Your previous results are cleared.": {
+  "t": "להחליף קבצים, לחץ בחר קובץ אחר. התוצאות הקודמות שלך ברורות.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1643,6 +2495,42 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Under 1. Choose a file, press Browse for a file and pick your spreadsheet. A CSV or an Excel file both work.": {
+  "t": "תחת 1. בחר קובץ, הקש Browse עבור קובץ ולבחור את גליון התפוצה שלך. קובץ CSV או קובץ Excel הן עבודה.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Under 2. Map address fields, check the columns. The widget guesses them from your headings, so most of the time there is nothing to change.": {
+  "t": "תחת 2. Map address שדות, בדוק את העמודות. הווידג'ט מניח אותם מהכותרות שלך, ולכן רוב הזמן אין מה לשנות.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Under 4. Export, pick Unmatched, then CSV or Excel. You get only the rows that need a look, each with its reason in the FAIL_REASON column.": {
+  "t": "תחת 4.יצוא, בחר ללא התאמה, ולאחר מכן CSV או Excel. אתה מקבל רק שורות הדורשות מראה, כל אחת עם הסיבה שלה בעמודה FAIL REASON.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Unknown": {
+  "t": "לא ידוע",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Unmatched": {
+  "t": "ללא תחרות",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Unmatched: rows it could not place, or placed with too little confidence. The small labels under the totals say why: low score, no match, blank address or service error.": {
+  "t": "ללא התאמה: שורות זה לא יכול היה להציב, או להציב עם מעט מדי ביטחון. תוויות קטנות מתחת לסך אומרות מדוע: ציון נמוך, ללא התאמה, כתובת ריקה או שגיאות שירות.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Update only (match by key)": {
   "t": "עדכון בלבד (התאמה באמצעות מפתח)",
   "src": "libretranslate",
@@ -1651,6 +2539,12 @@
  },
  "Update only and Upsert need a Key field: the field in the layer that tells the widget two records are the same record.": {
   "t": "עדכון רק ו- Upsert צריך שדה מפתח: התחום בשכבה שמספר לשני תקליטים הם אותו שיא.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Upload the list and press Geocode. Matched means the locator found the address.": {
+  "t": "העלו את הרשימה ולחצו על Geocode. מתאים פירושו המאתר מצא את הכתובת.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1669,6 +2563,12 @@
  },
  "Use $.FIELD for source values, e.g. helpers.upper($.NAME). One expression per target.": {
   "t": "השתמש ב-FIELD עבור ערכי מקור, למשל עוזרים.upper($.NAME). ביטוי אחד למטרה",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Use custom portal": {
+  "t": "השתמש פורטל מותאם אישית",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
