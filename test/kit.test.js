@@ -271,7 +271,7 @@ test('localize automatically wires runtime and creates settings translations', a
   const changedRuntime = fs.readFileSync(runtime, 'utf8')
   const changedSetting = fs.readFileSync(settings, 'utf8')
   assert.match(changedRuntime, /hooks as __exbI18nHooks/)
-  assert.match(changedRuntime, /t\('_widgetLabel'\)/)
+  assert.match(changedRuntime, /t\('mapSwitcher'\)/)
   assert.match(changedRuntime, /t\('noSitesConfigured'\)/)
   assert.match(changedSetting, /useTranslation\(__exbI18nMessages\)/)
   assert.ok(fs.existsSync(settingDefault))
