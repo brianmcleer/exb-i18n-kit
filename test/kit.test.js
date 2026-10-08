@@ -290,3 +290,49 @@ test('localize automatically wires runtime and creates settings translations', a
   ))
   assert.ok(!fs.existsSync(settingDefault), 'restore removes newly generated settings default')
 })
+
+test('extract respects the real translator in scope (rollout regressions, Oct 2026)', (t) => {
+  let ts
+  try { ts = require('typescript') } catch (e) { return t.skip('typescript not installed') }
+  void ts
+  const { extractWidget } = require('../lib/extract')
+  const dir = freshWidget()
+  const file = path.join(dir, 'src/runtime/widget.tsx')
+  fs.writeFileSync(file, [
+    "import { React } from 'jimu-core'",
+    'export class W extends React.Component<any, any> {',
+    '  nls = (id: string) => id',
+    '  getTheme () { return {} }',
+    '  render () {',
+    '    const t = this.getTheme()',
+    '    const n = 2',
+    '    return <div title="Zoom to selection" aria-label={`Showing ${n} maps`}>{t ? 1 : 0}</div>',
+    '  }',
+    '}',
+    'export const F = (props: any) => {',
+    '  const t = React.useCallback((id: string, values?: Record<string, string>): string => id, [])',
+    '  const count = 3',
+    '  const list: string[] = []',
+    '  return <ul aria-label={`Found ${count} matches`}>{list.map((t, i) => <li key={i} title={`Search again for ${t}`}>{t}</li>)}</ul>',
+    '}',
+    'export const H = ({ t, open }: any) => {',
+    '  return <button title="Open help">{open}</button>',
+    '}',
+    'export const Quiet = () => {',
+    '  return <span title="https://example.com">x</span>',
+    '}',
+    ''
+  ].join('\n'))
+  extractWidget(dir, { apply: true, autoWire: true })
+  const out = fs.readFileSync(file, 'utf8')
+  // A theme object called t is not a translator; this.nls is, but it takes no values.
+  assert.match(out, /title=\{this\.nls\('zoomToSelection'\)\}/)
+  assert.match(out, /aria-label=\{`Showing \$\{n\} maps`\}/, 'one-argument translator: sentence with a value left for a hand edit')
+  // A translator typed Record<string, string> gets string values.
+  assert.match(out, /t\('foundCountMatches', \{ count: String\(count\) \}\)/)
+  // The .map((t, i) => ...) parameter shadows the translator: never call a string.
+  assert.match(out, /title=\{`Search again for \$\{t\}`\}/)
+  // Destructured t from props: no second `const t` wired in.
+  assert.doesNotMatch(out, /const t = __exbI18nHooks/)
+  assert.match(out, /title=\{t\('openHelp'\)\}/)
+})
