@@ -27,6 +27,9 @@ put('dist/widgets/common/demo/dist/runtime/translations/es.js', fs.readFileSync(
 function freshWidget () {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'exb-i18n-'))
   fs.cpSync(path.join(FIX, 'widget'), dir, { recursive: true })
+  // Git on Windows may check fixtures out with CRLF; the tests edit them as LF text.
+  const lf = d => { for (const e of fs.readdirSync(d, { withFileTypes: true })) { const p = path.join(d, e.name); if (e.isDirectory()) lf(p); else fs.writeFileSync(p, fs.readFileSync(p, 'utf8').replace(/\r\n/g, '\n')) } }
+  lf(dir)
   return dir
 }
 
