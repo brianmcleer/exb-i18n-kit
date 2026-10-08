@@ -216,3 +216,15 @@ test('shared memory: build with a provider, then sync ships it (reviewed = commu
   assert.ok(!rows.find(r => r.key === 'helpLong'), 'reviewed community entry not in review')
   assert.ok(rows.find(r => r.key === 'joiner' && r.status === 'machine'), 'unreviewed memory entry flagged')
 })
+
+test('sync without an Esri install (CI) keeps earlier Esri translations', async () => {
+  const dir = freshWidget()
+  await sync(dir)
+  assert.strictEqual(es(dir).undo, 'Deshacer')
+  await syncWidget(dir, { cfg: Object.assign({}, DEFAULTS), tm: null, provider: null, locales: ['es'] })
+  assert.strictEqual(es(dir).undo, 'Deshacer', 'kept without TM')
+  const def = path.join(dir, 'src/runtime/translations/default.ts')
+  fs.writeFileSync(def, fs.readFileSync(def, 'utf8').replace("undo: 'Undo'", "undo: 'Undo last step'"))
+  await syncWidget(dir, { cfg: Object.assign({}, DEFAULTS), tm: null, provider: null, locales: ['es'] })
+  assert.strictEqual(es(dir).undo, 'Undo last step', 'changed English is not kept')
+})

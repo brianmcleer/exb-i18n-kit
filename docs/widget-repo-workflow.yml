@@ -1,0 +1,25 @@
+# Copy to .github/workflows/translations.yml in YOUR widget repo.
+# Every push that changes a translations/default.ts updates the 39 language files
+# (shared translation memory + the Esri translations already in your files) and commits them.
+name: translations
+on:
+  push:
+    paths: ['**/translations/default.ts']
+  schedule:
+    - cron: '23 7 * * 2'   # weekly, picks up new community translations
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: brianmcleer/exb-i18n-kit@v1
+        with:
+          widget: ./my-widget          # folder that holds manifest.json
+          command: sync
+          commit: true

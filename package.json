@@ -1,7 +1,7 @@
 {
   "name": "exb-i18n-kit",
   "version": "1.0.0",
-  "description": "Localize ArcGIS Experience Builder custom widgets with the translations Esri already ships, plus a review workflow for the rest.",
+  "description": "Make any ArcGIS Experience Builder custom widget speak all 39 Experience Builder languages, using the translations Esri already ships plus a shared community memory.",
   "bin": {
     "exb-i18n": "bin/exb-i18n.js"
   },
@@ -10,8 +10,13 @@
     "bin",
     "lib",
     "docs",
+    "memory",
+    "action.yml",
+    "localize.cmd",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md"
   ],
   "scripts": {
     "test": "node --test test/kit.test.js"

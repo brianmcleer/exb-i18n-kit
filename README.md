@@ -1,217 +1,168 @@
 # exb-i18n-kit
 
-Localize ArcGIS Experience Builder custom widgets the way Esri's own widgets are localized, using the translations Esri already ships.
+**Make any ArcGIS Experience Builder custom widget speak all 39 Experience Builder languages.**
 
-Experience Builder runs in 40 languages. Esri's out-of-the-box widgets switch language with the user's ArcGIS profile, the browser, the `?locale=` URL parameter or the [Language Switcher](https://doc.arcgis.com/en/experience-builder/latest/configure-widgets/language-switcher-widget.htm) widget. Most custom widgets stay in English because writing 39 locale files by hand is not realistic. This kit does the repeatable part for any widget:
+Esri's own widgets switch language with the user's ArcGIS profile, the browser, the `?locale=` URL parameter or the out-of-the-box [Language Switcher](https://doc.arcgis.com/en/experience-builder/latest/configure-widgets/language-switcher-widget.htm). Custom widgets usually stay in English. This kit fixes that for any widget, with one command, and keeps it fixed as the widget changes.
 
-1. **audit** finds English that is still hardcoded in your source.
-2. **extract** moves it into `translations/default.ts` and rewrites the source to call your translator.
-3. **sync** writes `translations/<locale>.js` for all 39 locales, filled from Esri's own translations, and keeps them current as the widget changes.
-4. **review** and **import** handle the strings Esri does not ship: a spreadsheet per language for a person (or an optional machine translation server) to fill in.
+- Works on **your** widget: nothing here is tied to one widget.
+- Uses the translations **Esri already ships** with Experience Builder first, so shared words match Esri's widgets exactly.
+- Fills the rest from a **free shared translation memory** on GitHub, kept current by a GitHub Action and corrected by the community.
+- **No runtime code** is added to your widget. The output is the same file format Esri uses.
+- **Zero dependencies.** Node 18 or later, which Experience Builder already needs.
 
-No runtime code is added to your widget. The output is the same file format Esri's widgets use, so Experience Builder loads it on its own.
-
-- Zero dependencies. Node 18 or later (Experience Builder already needs Node).
-- Works on one widget or a whole `your-extensions\widgets` folder.
-- Nothing from Esri is redistributed. Each developer harvests from their own licensed Experience Builder install.
-
-Reference implementation: [Draw Advanced](https://github.com/brianmcleer/draw-advanced-widget) 4.6.0.
+> Example: [Draw Advanced](https://github.com/brianmcleer/draw-advanced-widget) 4.6.0 was localized with this kit.
 
 ---
 
-## Quick start
+## Quick start (any widget, about 5 minutes)
 
-From a **Command Prompt** (no elevation needed), with the kit cloned anywhere:
+You need Experience Builder Developer Edition installed, with your widget in `client\your-extensions\widgets`.
+
+**1. Get the kit.** Download the ZIP from GitHub (Code > Download ZIP) and unzip it anywhere, or:
 
 ```bat
 git clone https://github.com/brianmcleer/exb-i18n-kit.git
-cd exb-i18n-kit
-
-rem 1. What is still hardcoded?
-node bin\exb-i18n.js audit "C:\arcgis-experience-builder-1.21\client\your-extensions\widgets\my-widget"
-
-rem 2. Move it into default.ts (dry run first, then --apply). Review the diff in git.
-node bin\exb-i18n.js extract "C:\arcgis-experience-builder-1.21\client\your-extensions\widgets\my-widget"
-node bin\exb-i18n.js extract "C:\arcgis-experience-builder-1.21\client\your-extensions\widgets\my-widget" --apply
-
-rem 3. Generate all 39 locale files and update manifest.json translatedLocales
-node bin\exb-i18n.js sync "C:\arcgis-experience-builder-1.21\client\your-extensions\widgets\my-widget"
 ```
 
-Restart `pnpm start` in the client folder, open the app with `?locale=es`, and the widget answers in Spanish wherever Esri has the words.
-
-Optional: `npm link` inside the kit folder puts `exb-i18n` on your PATH so you can drop the `node bin\exb-i18n.js` prefix.
-
-## Keeping it current (the "dynamic" part)
-
-Add a tool, rename a button, delete a dialog: run `sync` again, or leave `watch` running next to `pnpm start`:
+**2. Localize your widget.** Windows: drag your widget folder onto **`localize.cmd`**. Or in **Command Prompt** (no admin needed):
 
 ```bat
-node bin\exb-i18n.js watch "C:\arcgis-experience-builder-1.21\client\your-extensions\widgets"
+cd /d C:\path\to\exb-i18n-kit
+node bin\exb-i18n.js localize "C:\arcgis-experience-builder-1.21\client\your-extensions\widgets\my-widget"
 ```
 
-Every time any widget's `default.ts` is saved, its 39 locale files follow within a second:
+That one command:
 
-| Change in `default.ts` | What sync does |
+1. backs up your source files to `my-widget\i18n\backup`
+2. moves hardcoded English (buttons, tooltips, screen-reader labels, messages) into `translations\default.ts`
+3. writes `translations\<language>.js` for all 39 languages and updates `manifest.json`
+4. lists anything it could not change by itself
+
+**3. Test.** Restart `pnpm start`, open your app with `?locale=es` (or `&locale=es` if the link already has a `?`).
+
+Did not like the result? `node bin\exb-i18n.js restore <widget>` puts your files back.
+
+No git or download? This also works straight from GitHub:
+
+```bat
+npx github:brianmcleer/exb-i18n-kit localize "C:\...\widgets\my-widget"
+```
+
+New to this? Read **[docs/GETTING-STARTED.md](docs/GETTING-STARTED.md)**.
+
+---
+
+## Keep it translated
+
+Your widget changes; the translations follow. Pick one:
+
+| Way | How |
 |---|---|
-| New key | Looks it up in Esri's translations; English until someone translates it |
-| English text edited | Earlier human or machine translations are marked **stale** and stop shipping (English shows) until reviewed |
-| Key deleted | Removed from every locale file |
-| Locale file edited by hand | Kept as a manual translation |
-| New Experience Builder release | Re-run sync; Esri's newer translations are picked up automatically |
+| While you code | `node bin\exb-i18n.js watch "...\your-extensions\widgets"` next to `pnpm start`. Every save of a `default.ts` updates all languages within a second. |
+| Before a release | `node bin\exb-i18n.js sync "...\widgets\my-widget"` |
+| On GitHub, automatically | Add the [GitHub Action](#github-action) to your widget repo. |
 
-`sync` is incremental and safe to run any time. State lives in `<widget>\i18n\translations.lock.json` (small: only human, machine and stale entries are stored). `i18n\STATUS.md` shows coverage per language.
+What sync does when your English changes:
 
-Point any command at a folder of widgets and it handles every custom widget inside (widgets authored by Esri are skipped).
+| You... | sync... |
+|---|---|
+| add a string | translates it (Esri, then the shared memory); English until then |
+| change a string | stops showing the old translation and flags it for review |
+| delete a string | removes it from every language |
+| hand-edit a language file | keeps your edit |
+
+## Get community translations for your widget
+
+The shared memory in [`memory/`](memory/) is translated by a weekly GitHub Action that runs the open-source LibreTranslate on GitHub's servers. To have your widget's strings included, open a pull request adding the raw links to your `translations/default.ts` files in [`memory/sources.json`](memory/sources.json):
+
+```json
+{ "name": "my-widget", "files": [
+  "https://raw.githubusercontent.com/you/my-widget/main/my-widget/src/runtime/translations/default.ts",
+  "https://raw.githubusercontent.com/you/my-widget/main/my-widget/src/setting/translations/default.ts"
+] }
+```
+
+After the next run, `sync` picks them up. Machine translations are labeled `machine` and listed for review until someone checks them.
+
+**Speak another language?** Fix any entry in `memory/<language>.json`, set `"reviewed": true`, and open a pull request. Every widget using the kit gets the fix. See [memory/README.md](memory/README.md).
+
+## GitHub Action
+
+Keep a widget repo translated on every push. Copy [docs/widget-repo-workflow.yml](docs/widget-repo-workflow.yml) to `.github/workflows/translations.yml` in your repo:
+
+```yaml
+- uses: actions/setup-node@v4
+  with: { node-version: 22 }
+- uses: brianmcleer/exb-i18n-kit@v1
+  with:
+    widget: ./my-widget        # folder with manifest.json
+    command: sync              # or: check (fail the build if out of date), audit
+    commit: true               # commit updated language files
+```
+
+GitHub has no Experience Builder install, so the Action keeps the Esri translations already in your files and fills new strings from the shared memory. Run `localize` or `sync` locally once first so the Esri matches are in place.
+
+If your repo is a copy of a local folder (for example published with a mirror script), use `command: check` instead of committing from CI, and run `sync` locally.
 
 ## Where translations come from
 
-In order of trust:
+Best first. A later source never overrides an earlier one.
 
-1. **Esri, Experience Builder**: `client\dist\jimu-*` framework strings and every out-of-the-box widget (`client\dist\widgets`).
-2. **Esri, ArcGIS Maps SDK, Calcite and map components**: the `t9n` bundles in `client\node_modules`.
-3. **[Unicode CLDR](https://cldr.unicode.org)**: unit names (Square Yards, Nautical Miles, Hectares...) from the official `cldr-units-full` package, the same locale data behind Windows, macOS, Android and every browser. Downloaded once from the npm registry and cached in `%USERPROFILE%\.exb-i18n`. `--no-cldr` turns it off; `--cldr-tarball <file.tgz>` uses a local copy on machines without internet.
-4. **Shared translation memory** on GitHub, filled by a weekly GitHub Action and corrected by pull request: see below.
-5. **People**: review sheets you fill in and import, or hand edits in a locale file.
-6. **Optional machine translation on your own server**: see below.
+1. **You**: hand edits in a language file, or a reviewed sheet you `import`.
+2. **Esri, Experience Builder**: framework strings and every out-of-the-box widget in your install.
+3. **Esri, ArcGIS Maps SDK, Calcite and map components**: the `t9n` bundles in your install.
+4. **[Unicode CLDR](https://cldr.unicode.org)**: unit names (Square Feet, Hectares...), the locale data behind every OS and browser. Downloaded once, cached in `%USERPROFILE%\.exb-i18n`.
+5. **Shared memory**: community-reviewed entries first, then machine translations (flagged).
+6. **Your own translation server** (optional): LibreTranslate or any provider module.
+7. **English**, when nothing else exists.
 
-Matching is exact but forgiving about letter case, spacing, trailing `:` `...` `.`, placeholder names (`{count}` matches `{n}`), and articles (`Draw point` finds Esri's `Draw a point`, flagged for a quick check). The Esri wording is then fitted to your string: placeholders renamed, trailing punctuation and first-letter case carried over. Unsafe matches are rejected (for example the SQL operator `AND` for the English word "and").
-
-Expect roughly 10 to 25 percent coverage from Esri alone, more for widgets that use common GIS vocabulary (units, Undo, Delete, Export, Zoom to, Buffer, Snapping). The rest shows in English until a person or a machine fills it.
-
-## Filling the gaps
-
-### People (recommended)
-
-```bat
-node bin\exb-i18n.js review "...\widgets\my-widget" --locales es,fr
-```
-
-writes `i18n\review\es.csv` and `fr.csv`. Open in Excel. Each row has the English, a status, and a suggestion when there is one:
-
-| status | meaning |
-|---|---|
-| `missing` | Nobody has translated it yet. English shows. |
-| `esri-check` | Esri has it but in more than one wording, or as a close match. Shipped; please confirm. |
-| `stale` | The English changed. The old translation is in `suggestion`. |
-| `machine` | Machine translated. Shipped (unless `shipMachine` is off); please confirm. |
-
-Type the final text in `translation`, or put `x` in `approve` to accept the suggestion, save, then:
-
-```bat
-node bin\exb-i18n.js import "...\widgets\my-widget" "...\widgets\my-widget\i18n\review\es.csv"
-```
-
-Rows are checked before they are applied: the English must still match and `{placeholders}` must be kept. This is also the easiest way for community members to contribute a language by pull request.
-
-### Shared translation memory on GitHub (automatic)
-
-The kit repo holds a free, open translation memory in [`memory/`](memory/): one JSON file per language. A GitHub Action ([docs/memory-workflow.yml](docs/memory-workflow.yml)) runs a LibreTranslate container on GitHub's own runner every week, translates any new English from the widgets listed in `memory/sources.json`, and commits it. No server to host, nothing to pay for.
-
-`sync` downloads the memory automatically (after Esri, which always wins) and caches it for offline runs:
-
-- entries a person has checked (`"reviewed": true`) ship as **community**
-- the rest ship as **machine** and stay in the review sheets
-
-Fix a wording or add your widget with a pull request; see [memory/README.md](memory/README.md). `--no-memory` skips it, `--memory <url or folder>` points at your own copy.
-
-### Machine translation on your own server (optional)
-
-Built in: **[LibreTranslate](https://github.com/LibreTranslate/LibreTranslate)**, open source (AGPL-3.0, built on Argos Translate) and self-hosted, so widget text never leaves your network. One way to run it, from **PowerShell** (no elevation, Docker Desktop installed):
-
-```powershell
-docker run -d -p 5000:5000 --name libretranslate libretranslate/libretranslate
-```
-
-Then:
-
-```bat
-node bin\exb-i18n.js sync "...\widgets" --provider libretranslate --lt-url http://localhost:5000
-```
-
-Machine output is marked `machine`, never overrides Esri or a person, keeps placeholders intact (strings it damages are dropped), skips ICU plural messages, and stays in the review sheets until approved. Add `--no-ship-machine` to keep it out of the locale files entirely. Languages the server does not support are skipped.
-
-Any other service plugs in as a small module (`--provider .\my-provider.js`):
-
-```js
-module.exports = {
-  name: 'my-provider',
-  async translate (texts, locale) { /* return an array of strings, same length, null to skip */ }
-}
-```
+Matching forgives case, spacing, trailing `:` `...`, placeholder names and articles ("Draw point" finds Esri's "Draw a point", flagged to check). Unsafe matches are rejected. Nothing from Esri is redistributed: each developer reads their own licensed install.
 
 ## Commands
 
-| Command | Does |
+| Command | What it does |
 |---|---|
-| `audit <path> [--strict] [--json]` | Lists hardcoded UI text (JSX text, `title` / `aria-label` / `placeholder` / `label` and friends, `announce` / `alert` style calls), keys used but missing from `default.ts`, and keys never referenced. `--strict` exits 1 when anything is found (for CI). |
-| `extract <widget> [--apply] [--prefix x]` | Moves hardcoded English into `default.ts` and rewrites the source. Dry run unless `--apply`. |
-| `sync <path>` | Creates or updates every locale file and `manifest.json`. |
-| `watch <path>` | `sync` on every save of a `default.ts`. |
-| `review <path> [--locales es]` | `sync`, then writes the review sheets. |
-| `import <widget> <sheet.csv>` | Applies a reviewed sheet, then syncs. |
-| `check <path>` | For CI: exits 1 when `default.ts` changed since the last sync. Needs no Experience Builder install. |
-| `status <path>` | Coverage per locale. |
-| `lookup "<English>" [--locale es]` | Shows what Esri (and CLDR) ship for a string. |
+| `localize <widget>` | Everything for a new widget: backup, extract, sync, report. |
+| `restore <widget>` | Undo the last `localize`. |
+| `sync <widget or folder>` | Create or update the language files and `manifest.json`. |
+| `watch <widget or folder>` | `sync` on every save. |
+| `audit <widget or folder>` | List hardcoded English. `--strict` fails for CI. |
+| `extract <widget> [--apply]` | Only the source rewrite step (dry run without `--apply`). |
+| `review <widget> --locales es` | Write `i18n\review\es.csv`: what still needs a person. |
+| `import <widget> <sheet.csv>` | Apply a filled-in sheet. |
+| `check <widget or folder>` | Fail when `default.ts` changed since the last sync (CI). |
+| `status <widget or folder>` | Coverage per language. |
+| `lookup "<English>"` | What Esri ships for a string. |
 
-Common options: `--client <path to ...\client>` (auto-detected when the widget is inside an EB install), `--locales es,fr,de` (default all 39), `--tm <folder>` extra trusted translations, `--dry-run`.
+A path with a `manifest.json` is one widget; any other folder is scanned for widgets (Esri's are skipped).
 
-## What extract does to your source
+Options: `--client <EB client folder>` (auto-detected), `--locales es,fr` (default all 39), `--no-memory`, `--memory <url or folder>`, `--no-cldr`, `--provider libretranslate --lt-url http://localhost:5000`, `--dry-run`.
+
+Settings can also live in `exb-i18n.config.json` in the widget, widgets or your-extensions folder. See [docs/REFERENCE.md](docs/REFERENCE.md).
+
+## What localize changes in your code
 
 ```tsx
-<span>Delete all</span>                         ->  <span>{this.nls('deleteAll')}</span>
-title="Undo"                                    ->  title={t('undo')}
-aria-label={`Opacity ${pct}%`}                  ->  aria-label={t('opacityPct', { pct })}
-aria-label={`Draw line${on ? ' (active)' : ''}`} -> aria-label={(on ? t('drawLineActive') : t('drawLine'))}
-{n} item{n !== 1 ? 's' : ''}                     -> {(n !== 1 ? t('nItems', { n }) : t('nItem', { n }))}
-Updates opacity to {o}% for selected.           ->  {t('updatesOpacityTo', { o })}
-announceStatus('Buffer removed')                ->  announceStatus(t('bufferRemoved'))
+<span>Delete all</span>                          ->  <span>{this.nls('deleteAll')}</span>
+title="Undo"                                     ->  title={t('undo')}
+aria-label={`Opacity ${pct}%`}                   ->  aria-label={t('opacityPct', { pct })}
+{n} item{n !== 1 ? 's' : ''}                      ->  {(n !== 1 ? t('nItems', { n }) : t('nItem', { n }))}
+announceStatus('Buffer removed')                 ->  announceStatus(t('bufferRemoved'))
 ```
 
-- Sentences stay whole: text with values becomes one ICU message (`Delete {name}`), and `cond ? 'a' : 'b'` inside a sentence becomes separate full sentences, so translators never stitch fragments.
-- The translator is whatever is already in scope: a class member `nls` / `translate` / `t` (`this.nls(...)`), a `const t = hooks.useTranslation(defaultMessages)` in a function component, or `props.nls(...)`. Places with no translator in scope are listed, never guessed. Wire one in (see [docs/WIRING.md](docs/WIRING.md)) and run again.
-- Existing keys are reused when `default.ts` already has the same English.
-- Code samples (`<code>`, `<pre>`, `<kbd>`), template tokens like `{{length}}`, ids, class names and comparisons are left alone.
-- Text split by inline elements (`use the <strong>Export</strong> button`) stays in pieces; restructure by hand if the word order matters.
+It uses the translator your code already has (`this.nls`, `t` from `hooks.useTranslation`, `props.nls`). Where there is none, it lists the spot instead of guessing; [docs/WIRING.md](docs/WIRING.md) shows how to add one in a few lines. Always review the diff.
 
-Always review the diff before committing.
+## Requirements and limits
 
-## Configuration
+- Experience Builder Developer Edition 1.17 or later (tested on 1.21), Node 18+.
+- The source rewrite uses the TypeScript compiler that ships with the Experience Builder client; nothing to install.
+- Text split by inline elements (`use the <b>Export</b> button`) stays in pieces.
+- Plurals follow your existing `n !== 1 ?` logic; languages with more plural forms can be hand-converted to ICU `{n, plural, ...}`.
 
-Optional `exb-i18n.config.json` in a widget folder, the `widgets` folder or `your-extensions` (inner files win, CLI flags win over all):
+## Contributing
 
-```json
-{
-  "locales": "all",
-  "provider": { "type": "libretranslate", "url": "http://localhost:5000", "apiKeyEnv": "LT_API_KEY" },
-  "shipMachine": true,
-  "fillMissingWithEnglish": true,
-  "reviewFiles": false,
-  "cldr": true,
-  "extraTm": ["../shared-translations"],
-  "exclude": ["some-widget-to-skip"],
-  "prefix": { "runtime": "", "setting": "setting" }
-}
-```
-
-`fillMissingWithEnglish` writes English for untranslated keys so every key resolves. Experience Builder loads a widget's messages from the locale file only (it does not merge `default.ts`), so without it react-intl logs a missing-translation error for each key and falls back per call.
-
-## How Experience Builder uses the files
-
-- `manifest.json` `translatedLocales` must list the locales, starting with `"en"` (the build reads `default.ts` for the first entry). `sync` maintains it.
-- `src\runtime\translations\<locale>.js` and `src\setting\translations\<locale>.js` are copied to `dist` by the EB webpack build and loaded on demand for the active locale.
-- Files are written in Esri's SystemJS format with one key per line. That layout matters: the EB build reads `_widgetLabel` line by line to show the translated widget name in the Builder's widget panel.
-
-## CI
-
-`check` needs only Node and the widget, so a widget repo can fail a pull request whose `default.ts` changed without a sync. See [docs/ci-check.yml](docs/ci-check.yml).
-
-## Notes and limits
-
-- Translation quality is Esri's and CLDR's; this kit only reuses it. A short UI word can mean different things in different places ("Single", "Clear"). Those show as `esri-check` when Esri itself uses more than one wording.
-- Plurals: extract produces one sentence per branch of your existing `n !== 1 ?` logic. Languages with more plural forms can be hand-converted to ICU `{n, plural, one {...} other {...}}`; react-intl in Experience Builder handles it.
-- Right-to-left (Arabic, Hebrew) text direction is Experience Builder's job; check custom CSS that assumes left-to-right.
+Issues and pull requests welcome: translations in `memory/`, new widgets in `memory/sources.json`, and code. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-Apache-2.0. Contributions welcome, especially translations and support for more widget patterns.
+Apache-2.0. Not affiliated with or endorsed by Esri.

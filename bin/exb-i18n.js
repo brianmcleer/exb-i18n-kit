@@ -17,6 +17,8 @@ const pkg = require('../package.json')
 const HELP = `exb-i18n ${pkg.version}  Localization for ArcGIS Experience Builder custom widgets
 
 Usage
+  exb-i18n localize <widget>                             do it all: extract + sync + report (backs up first)
+  exb-i18n restore  <widget>                             undo the last localize/extract
   exb-i18n sync   <widget-or-widgets-folder> [options]   create/update locale files
   exb-i18n watch  <widget-or-widgets-folder> [options]   sync again whenever a default.ts changes
   exb-i18n review <widget-or-widgets-folder> [--locales es]  sync, then write i18n/review/<locale>.csv sheets
@@ -103,7 +105,7 @@ async function runSync (targets, cfg, args, log, writeReview) {
   try {
     tm = harvest(cfg.client, { needed, extra: cfg.extraTm, log })
   } catch (e) {
-    log(`! ${e.message}\n  Continuing without the Esri translation memory.`)
+    log(cfg.client ? `! ${e.message}` : 'No Experience Builder install here: keeping the Esri translations already in the locale files; new strings come from the shared memory.')
   }
   if (tm) await addCldr(tm, cfg, args, log)
   let memory = null
@@ -236,6 +238,35 @@ async function main () {
     }
     if (args.json) console.log(JSON.stringify(all, null, 2))
     if (args.strict && found) process.exitCode = 1
+  } else if (cmd === 'localize') {
+    const { backupAndExtract } = require('../lib/localize')
+    const { auditWidget } = require('../lib/audit')
+    for (const w of targets) {
+      const name = path.basename(w)
+      log(`\n== ${name} ==`)
+      log('1/3 Moving hardcoded English into translations/default.ts')
+      const { result, backupDir, changed } = backupAndExtract(w, { client: cfg.client, prefix: args.prefix || cfg.prefix, sinks: cfg.sinks })
+      const edits = result.results.reduce((n, r) => n + r.edits.length, 0)
+      const skipped = result.results.flatMap(r => r.skipped)
+      const added = Object.values(result.added).reduce((n, a) => n + Object.keys(a).length, 0)
+      log(`    ${edits} change(s) in ${changed} file(s), ${added} new key(s)${backupDir ? `; originals saved in ${path.relative(w, backupDir)}` : ''}`)
+      log('2/3 Writing language files')
+      await runSync([w], cfg, args, log)
+      log('3/3 Checking what is left')
+      const a = auditWidget(w, { client: cfg.client, sinks: cfg.sinks })
+      if (!skipped.length && !a.findings.length && !a.missing.length) log('    Nothing left. Every UI string is translatable.')
+      for (const s of skipped) log(`    hand edit: ${s.file}:${s.line}  ${s.why}  ${s.text}`)
+      if (a.missing.length) log(`    keys used in code but missing from default.ts: ${a.missing.join(', ')}`)
+      if (skipped.some(s => /translator/.test(s.why))) log('    "no translator in scope": see docs/WIRING.md, add one, then run localize again.')
+    }
+    log('\nNext: review the changes (git diff), test with ?locale=es, then add your widget to memory/sources.json for community translations.')
+    log('Undo: exb-i18n restore <widget>')
+  } else if (cmd === 'restore') {
+    const { restoreLatest } = require('../lib/localize')
+    for (const w of targets) {
+      const r = restoreLatest(w)
+      log(`${path.basename(w)}: restored ${r.restored.length} file(s) from i18n/backup/${r.from}. Run sync to refresh the language files.`)
+    }
   } else if (cmd === 'extract') {
     const { extractWidget, formatExtract } = require('../lib/extract')
     for (const w of targets) {

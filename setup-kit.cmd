@@ -30,6 +30,11 @@ if errorlevel 1 (
 )
 
 echo.
+echo Tagging v1 so other repos can use: brianmcleer/exb-i18n-kit@v1
+git tag -f v1
+git push -f origin v1
+
+echo.
 echo == 4 of 4: Start the translation memory build on GitHub ==
 timeout /t 15 /nobreak >nul
 gh workflow run memory.yml

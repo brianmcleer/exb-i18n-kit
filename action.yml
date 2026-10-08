@@ -1,0 +1,49 @@
+name: 'exb-i18n'
+description: 'Keep an ArcGIS Experience Builder custom widget translated in all 39 Experience Builder languages.'
+author: 'Brian McLeer'
+branding:
+  icon: 'globe'
+  color: 'blue'
+inputs:
+  widget:
+    description: 'Path to the widget folder (the one with manifest.json), or a folder of widgets.'
+    required: true
+  command:
+    description: 'sync (update language files), check (fail if out of date) or audit (list hardcoded English).'
+    default: 'sync'
+  locales:
+    description: 'all, or a list such as es,fr,de'
+    default: 'all'
+  memory:
+    description: 'true to use the shared translation memory from this repo, false to skip, or a URL/folder of your own.'
+    default: 'true'
+  commit:
+    description: 'true to commit changed language files back to the branch (sync only).'
+    default: 'false'
+  commit-message:
+    description: 'Commit message when commit is true.'
+    default: 'Update widget translations (exb-i18n)'
+runs:
+  using: 'composite'
+  steps:
+    - name: Run exb-i18n
+      shell: bash
+      env:
+        EXB_I18N_CACHE: ${{ runner.temp }}/exb-i18n
+      run: |
+        MEM=""
+        if [ "${{ inputs.memory }}" = "false" ]; then MEM="--no-memory";
+        elif [ "${{ inputs.memory }}" != "true" ]; then MEM="--memory ${{ inputs.memory }}"; fi
+        EXTRA=""
+        if [ "${{ inputs.command }}" = "audit" ]; then EXTRA="--strict"; fi
+        node "${{ github.action_path }}/bin/exb-i18n.js" ${{ inputs.command }} "${{ inputs.widget }}" --locales "${{ inputs.locales }}" $MEM $EXTRA
+    - name: Commit language files
+      if: ${{ inputs.commit == 'true' && inputs.command == 'sync' }}
+      shell: bash
+      run: |
+        git config user.name "exb-i18n-bot"
+        git config user.email "exb-i18n-bot@users.noreply.github.com"
+        git add -A "${{ inputs.widget }}"
+        git diff --cached --quiet && echo "Translations already up to date" && exit 0
+        git commit -m "${{ inputs.commit-message }}"
+        git push
