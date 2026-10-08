@@ -73,7 +73,7 @@ What sync does when your English changes:
 
 ## Get community translations for your widget
 
-The shared memory in [`memory/`](memory/) is translated by a weekly GitHub Action that runs the open-source LibreTranslate on GitHub's servers. To have your widget's strings included, open a pull request adding the raw links to your `translations/default.ts` files in [`memory/sources.json`](memory/sources.json):
+The shared memory (on the [`translation-memory`](https://github.com/brianmcleer/exb-i18n-kit/tree/translation-memory/memory) branch) is translated by a weekly GitHub Action that runs the open-source LibreTranslate on GitHub's servers. To have your widget's strings included, open a pull request adding the raw links to your `translations/default.ts` files in [`memory/sources.json`](memory/sources.json):
 
 ```json
 { "name": "my-widget", "files": [
@@ -84,7 +84,7 @@ The shared memory in [`memory/`](memory/) is translated by a weekly GitHub Actio
 
 After the next run, `sync` picks them up. Machine translations are labeled `machine` and listed for review until someone checks them.
 
-**Speak another language?** Fix any entry in `memory/<language>.json`, set `"reviewed": true`, and open a pull request. Every widget using the kit gets the fix. See [memory/README.md](memory/README.md).
+**Speak another language?** Fix any entry in `memory/<language>.json` on the `translation-memory` branch, set `"reviewed": true`, and open a pull request against that branch. Every widget using the kit gets the fix. See [memory/README.md](memory/README.md).
 
 ## GitHub Action
 

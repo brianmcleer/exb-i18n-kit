@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.2 (2026-10-08)
+
+- The shared memory now lives on the `translation-memory` branch. `main` is protected (pull requests
+  only), so the Action's pushes to it were rejected (GH006) after translating; the first batched run
+  translated 5,400 entries and lost them. The workflow now commits each pass to `translation-memory`,
+  and `sync` reads `https://raw.githubusercontent.com/brianmcleer/exb-i18n-kit/translation-memory/memory`
+  by default. `sources.json` stays on `main`. Older kits read `main/memory` and find nothing: update.
+
 ## 1.0.1 (2026-10-08)
 
 Fixes from rolling the kit out to 20+ widgets (every one of these produced type errors that the
