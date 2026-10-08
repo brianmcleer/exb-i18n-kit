@@ -30,20 +30,33 @@ runs:
       shell: bash
       env:
         EXB_I18N_CACHE: ${{ runner.temp }}/exb-i18n
+        GITHUB_ACTION_PATH: ${{ github.action_path }}
+        INPUT_WIDGET: ${{ inputs.widget }}
+        INPUT_COMMAND: ${{ inputs.command }}
+        INPUT_LOCALES: ${{ inputs.locales }}
+        INPUT_MEMORY: ${{ inputs.memory }}
       run: |
-        MEM=""
-        if [ "${{ inputs.memory }}" = "false" ]; then MEM="--no-memory";
-        elif [ "${{ inputs.memory }}" != "true" ]; then MEM="--memory ${{ inputs.memory }}"; fi
-        EXTRA=""
-        if [ "${{ inputs.command }}" = "audit" ]; then EXTRA="--strict"; fi
-        node "${{ github.action_path }}/bin/exb-i18n.js" ${{ inputs.command }} "${{ inputs.widget }}" --locales "${{ inputs.locales }}" $MEM $EXTRA
+        set -euo pipefail
+        case "$INPUT_COMMAND" in sync|check|audit) ;; *) echo "::error::Invalid command"; exit 1;; esac
+        args=("$INPUT_COMMAND" "$INPUT_WIDGET" --locales "$INPUT_LOCALES")
+        if [[ "$INPUT_MEMORY" == false ]]; then
+          args+=(--no-memory)
+        elif [[ "$INPUT_MEMORY" != true ]]; then
+          args+=(--memory "$INPUT_MEMORY")
+        fi
+        if [[ "$INPUT_COMMAND" == audit ]]; then args+=(--strict); fi
+        node "$GITHUB_ACTION_PATH/bin/exb-i18n.js" "${args[@]}"
     - name: Commit language files
       if: ${{ inputs.commit == 'true' && inputs.command == 'sync' }}
       shell: bash
+      env:
+        INPUT_WIDGET: ${{ inputs.widget }}
+        INPUT_COMMIT_MESSAGE: ${{ inputs.commit-message }}
       run: |
+        set -euo pipefail
         git config user.name "exb-i18n-bot"
         git config user.email "exb-i18n-bot@users.noreply.github.com"
-        git add -A "${{ inputs.widget }}"
-        git diff --cached --quiet && echo "Translations already up to date" && exit 0
-        git commit -m "${{ inputs.commit-message }}"
+        git add -A -- "$INPUT_WIDGET"
+        if git diff --cached --quiet; then echo "Translations already up to date"; exit 0; fi
+        git commit -m "$INPUT_COMMIT_MESSAGE"
         git push
