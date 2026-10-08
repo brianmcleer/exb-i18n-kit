@@ -1,6 +1,24 @@
 {
+ ". Open it from the map’s layer list to see the table.": {
+  "t": "- فتحه من قائمة طبقات الخريطة لرؤية الجدول.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "(Default)": {
   "t": "(Default)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "(none)": {
+  "t": "(none)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "(select column)": {
+  "t": "(عمود مبيع)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -65,6 +83,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "{failuresCount} record did not produce an accepted match.": {
+  "t": "{failuresCount} السجل لم ينتج تطابقاً مقبولاً",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "{failuresCount} records did not produce an accepted match.": {
+  "t": "{failuresCount} السجلات لم تنتج تطابقاً مقبولاً",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "{fieldId}-help": {
+  "t": "{fieldId}-مساعدة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "{filterLabel}: type part of a basemap name in the box above the gallery.": {
   "t": "{filterLabel}: نوع من اسم خريطة الأساس في الصندوق فوق المعرض.",
   "src": "libretranslate",
@@ -95,6 +131,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "{matchedCount} matched point.": {
+  "t": "{matchedCount} نقطة متطابقة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "{matchedCount} matched points.": {
+  "t": "{matchedCount} نقاط متطابقة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "{num} {street}, {city}": {
   "t": "{num} {street}.. {city}",
   "src": "libretranslate",
@@ -103,6 +151,12 @@
  },
  "{removeLabel}: click the star again to return the basemap to its usual place.": {
   "t": "{removeLabel}نقر النجمة مرة أخرى لإعادة خريطة القاعدة إلى مكانها المعتاد",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "{rowsCount} rows · {fieldsCount} columns": {
+  "t": "{rowsCount} الصفوف {fieldsCount} الأعمدة",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -179,8 +233,38 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "1. Choose a file": {
+  "t": "1 - اختيار ملف",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "2. Map address fields": {
+  "t": "2 - حقول الخرائط",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "3. Results": {
+  "t": "3 - النتائج",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "4. Export": {
+  "t": "4- الصادرات",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "A basemap could not be loaded for comparison: choose another basemap, or close compare and open it again.": {
   "t": "ولا يمكن تحميل خريطة الأساس للمقارنة: اختيار خريطة أساس أخرى، أو المقارنة الوثيقة وفتحها مرة أخرى.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "A big file is fine. The bar shows how far along it is, and Cancel stops it.": {
+  "t": "ملف كبير جيد الحانة تُظهر مدى طولها و(كانسيل) توقفها",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -221,6 +305,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A spreadsheet of your rows with MATCH_STATUS, MATCH_SCORE, the address you sent, the address the locator matched, the address type, a plain reason for every row that did not match, and coordinates for every row that did. Open it in Excel and filter on MATCH_STATUS.": {
+  "t": "صحيفة من صفوفك مع (ميتش) و(ميتش) و(سكوير) العنوان الذي أرسلته، العنوان الذي طابقه الموقع، نوع العنوان افتحه في \"إكسل\" و \"مرش\" على \"ماتيكس\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "A warning says no target layer is configured: the app author has not chosen the layer to load into. Contact the GIS Division.": {
   "t": "والتحذير يقول إنه لا توجد طبقة مستهدفة مهيأة: لم يختار صاحب التطبيق طبقة للتحميل. اتصل بشعبة نظام المعلومات الجغرافية",
   "src": "libretranslate",
@@ -235,6 +325,12 @@
  },
  "A web address: paste the link to a layer or a service.": {
   "t": "عنوان على شبكة الإنترنت: يرعى الصلة إلى طبقة أو خدمة.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "a zipped Shapefile": {
+  "t": "a zipped Shapefile",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -317,14 +413,68 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Added to the map as": {
+  "t": "أضيفت إلى الخريطة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Adding your data": {
   "t": "إضافة بياناتك",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Address check table": {
+  "t": "جدول الشيك",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Address check table: CSV or Excel, for all rows, only the unmatched ones, or only the matched ones. Every original column is kept, with the match result added on the right.": {
+  "t": "جدول مراقبة العنوان: CSV أو Excel، لجميع الصفوف، فقط تلك غير المطابقة، أو فقط تلك المطابقة. كلّ عمود أصلي يُحتفظ به، مع إضافة نتائج المباراة على اليمين.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Address check table: every row with its match result, as CSV or Excel, for all rows, only the unmatched ones, or only the matched ones. Map file: the matched points as GeoJSON, KML or a zipped Shapefile.": {
+  "t": "منضدة مراقبة العنوان: كل صف مع نتائجه المتطابقة، مثل CSV أو Excel، لجميع الصفوف، فقط الصفوف غير المتطابقة، أو فقط تلك المطابقة. Map file: the matched points as GeoJSON, KML or a zipped Shapefile.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Address column": {
+  "t": "العمود",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Address field mapping": {
+  "t": "رسم الخرائط الميدانية",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Address geocoder": {
+  "t": "العنوان الجغرافي",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Address Geocoder": {
   "t": "العنوان الجغرافي",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Address mapping mode": {
+  "t": "طريقة رسم الخرائط",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Address, row number, reason, or field value": {
+  "t": "العنوان أو رقم الصف أو السبب أو القيمة الميدانية",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -425,6 +575,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Any reason ({failuresCount})": {
+  "t": "أي سبب{failuresCount})",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "API key / token (optional)": {
+  "t": "مفتاح / رمز (اختياري)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Appearance": {
   "t": "الإفادات",
   "src": "libretranslate",
@@ -457,6 +619,18 @@
  },
  "Back": {
   "t": "العودة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Back to geocoding results": {
+  "t": "العودة إلى نتائج الترميز الجغرافي",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Back to results": {
+  "t": "العودة إلى النتائج",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -521,6 +695,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Batch size": {
+  "t": "حجم البطاقات",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Behaviour": {
+  "t": "السلوك",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "blank": {
+  "t": "فارغ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Blend": {
   "t": "Blend",
   "src": "libretranslate",
@@ -539,8 +731,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Bold": {
+  "t": "Bold",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Both sides look the same: the basemap you chose is already the current basemap. Choose a different one.": {
   "t": "كلا الجانبين يبدوان متشابهين، خريطة القاعدة التي اخترتها هي بالفعل خريطة القاعدة الحالية اختر واحدة مختلفة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Browse for a file": {
+  "t": "الحشد للملف",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -641,6 +845,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Choose a different file": {
+  "t": "اختر ملف مختلف",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Choose a field": {
   "t": "اختر الحقل",
   "src": "libretranslate",
@@ -671,6 +881,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Clean addresses win. Take out apartment numbers and notes like \"behind the school\" before you start.": {
+  "t": "العناوين النظيفة تفوز أخرج أرقام الشقة و ملاحظات مثل \"خلف المدرسة\" قبل أن تبدأ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Clear": {
   "t": "آمن",
   "src": "libretranslate",
@@ -679,6 +895,30 @@
  },
  "Clear all": {
   "t": "خالي",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Clear All Graphics": {
+  "t": "خالي جميع الرسوم البيانية",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Clear empties the form so you can start on another file.": {
+  "t": "قم بتنظيف النموذج حتى تتمكن من البدء في ملف آخر",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Clear search": {
+  "t": "البحث الواضح",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Clear Selected Graphic": {
+  "t": "مجموعة مختارة",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -739,6 +979,12 @@
  },
  "Close compare": {
   "t": "اقترب",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Closest locator candidate": {
+  "t": "أقرب مرشح للموقع",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -821,6 +1067,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Connect to a Map widget": {
+  "t": "\"إتصل بـ \"ماب ويدج",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Constant value": {
   "t": "القيمة الثابتة",
   "src": "libretranslate",
@@ -853,6 +1105,18 @@
  },
  "Could not read the selected file.": {
   "t": "لم أستطع قراءة الملف المختار",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "CSV · TSV · TXT · XLSX · XLS · ODS": {
+  "t": "CSV ; TSV ; TXT ; XLSX ; XLS",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "csvg-m-{key}": {
+  "t": "csvg-m-{key}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -899,6 +1163,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Default address mode": {
+  "t": "طريقة العنوان الافتراضي",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Default basemap": {
   "t": "خريطة الأساس",
   "src": "libretranslate",
@@ -919,6 +1189,12 @@
  },
  "Dismiss": {
   "t": "الانصراف",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Dismiss error message": {
+  "t": "رسالة خطأ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -959,6 +1235,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Download {filteredFailuresCount} as CSV": {
+  "t": "تحميل {filteredFailuresCount} CSV",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Download failed rows (CSV)": {
   "t": "عدد الصفوف الفاشلة (CSV)",
   "src": "libretranslate",
@@ -971,6 +1253,36 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Download the {failureCount} unmatched rows as CSV": {
+  "t": "تحميل {failureCount} الصفوف غير المتطابقة مثل CSV",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Download the {filteredFailuresCount} records shown as CSV": {
+  "t": "تحميل {filteredFailuresCount} السجلات الواردة في CSV",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Download unmatched": {
+  "t": "تحميل غير مطابق",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Downloaded": {
+  "t": "تحميل",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Downloading a copy": {
+  "t": "تحميل نسخة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Drag divider side by side": {
   "t": "(دراغ فاسر) جنباً إلى جنب",
   "src": "libretranslate",
@@ -979,6 +1291,66 @@
  },
  "Drag the divider on the map, or use the slider in the widget, to reveal more of either basemap.": {
   "t": "اسحبوا الأسهم على الخريطة، أو أستخدموا المزلاج في البارودجيات، للكشف عن المزيد من أيّ من الفارق.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Draw": {
+  "t": "Draw",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Draw circle": {
+  "t": "دائرة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Draw freehand polygon": {
+  "t": "Draw freehand polygon",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Draw freehand polyline": {
+  "t": "خط بوليلين مجاني",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Draw point": {
+  "t": "النقطة المرجعية",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Draw polygon": {
+  "t": "Draw polygon",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Draw polyline": {
+  "t": "بوليلين",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Draw rectangle": {
+  "t": "زاوية سحب",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Draw text": {
+  "t": "نص دراسي",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Drop a file here": {
+  "t": "ألقي ملف هنا",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1055,6 +1427,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Enable font halo": {
+  "t": "Enable font halo",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Enable geometry editing (needs map)": {
   "t": "تحرير الهندسة الميسرة (خريطة الاحتياجات)",
   "src": "libretranslate",
@@ -1073,14 +1451,38 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Everything is unmatched: the columns are matched to the wrong things. Go back to 2. Map address fields and check each box.": {
+  "t": "كل شيء غير مطابق: الطوابق مطابقة للأشياء الخاطئة. عودي إلى 2 حقول العنوان وتفقد كل صندوق",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Everything you bring in is listed under the button. The trash can next to a name takes it back out.": {
   "t": "كل شيء تجلبه مدرج تحت الزر سلة القمامة بجانب الاسم تسحبها",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Excel opens the CSV with accented letters intact, and a value that starts with = or + is kept as text, never run as a formula.": {
+  "t": "(إكسيل) يفتح سي سي سي سي سي في برفقة رسائل مُشدّدة، وقيمة تبدأ بـ (=) أو (+) تُحفظ كنص، لا تُستخدم كصيغة.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Export {scopeWord} as {label}": {
+  "t": "الصادرات {scopeWord} as {label}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Export Configuration": {
   "t": "الاتحاد التصديري",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Export matched points as {id}": {
+  "t": "الصادرات مطابقة للنقاط {id}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1145,6 +1547,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "File detected, drop to upload.": {
+  "t": "إكتشفت الملف، إهبط إلى الحمولة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Fill colour": {
+  "t": "اللون الملون",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Filter basemaps by name": {
   "t": "قاعد المصورين بالاسم",
   "src": "libretranslate",
@@ -1169,6 +1583,84 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Font angle": {
+  "t": "زاوية القدم",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Font color": {
+  "t": "لون القدماء",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Font halo": {
+  "t": "Font halo",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Font halo color": {
+  "t": "Font halo color",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Font halo size": {
+  "t": "Font halo size",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Font horizontal align center": {
+  "t": "Font horizontal align center",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Font horizontal align left": {
+  "t": "النسق الأفقي لليسار",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Font horizontal align right": {
+  "t": "اليمين",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Font size": {
+  "t": "حجم القوة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Font vertical align baseline": {
+  "t": "خط الأساس العمودي",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Font vertical align bottom": {
+  "t": "العمود الفقري",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Font vertical align middle": {
+  "t": "الركن الرأسي",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Font vertical align top": {
+  "t": "الركن الرأسي",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Generate XML": {
   "t": "Generate XML",
   "src": "libretranslate",
@@ -1177,6 +1669,30 @@
  },
  "Geocode": {
   "t": "Geocode",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Geocoding progress": {
+  "t": "التقدم المحرز في مجال الجغرافيا",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Geocoding results summary": {
+  "t": "موجز نتائج التصنيف الجغرافي",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Geocoding service": {
+  "t": "دائرة الجغرافيا",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Geocoding…": {
+  "t": "الترميز الجغرافي...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1301,6 +1817,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Italic": {
+  "t": "Italic",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Keep favorites at the top": {
   "t": "أبقوا المفضّلات في الأعلى",
   "src": "libretranslate",
@@ -1331,8 +1853,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Layer title": {
+  "t": "لقب لاير",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Leave a box on (none) if you do not have that piece. Street and city are the two that matter most.": {
   "t": "إترك صندوقاً على (لا أحد) إن لم يكن لديك تلك القطعة الشارع والمدينة هما الأكثر أهمية",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Leave blank to use the file name": {
+  "t": "إتركْ فارغاً لتَستعملُ اسم الملف",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1463,6 +1997,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Locator URL": {
+  "t": "الموقع URL",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Look for the \"No basemaps configured.\" message in this widget.": {
   "t": "ابحثي عن \"لا توجد أيّة تطابق\" رسالة في هذا المستعار",
   "src": "libretranslate",
@@ -1493,6 +2033,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Many rows say low score: the addresses are close but not close enough. Spelling, a missing city or a missing ZIP are the usual reasons.": {
+  "t": "العديد من الصفوف تقول نتائج منخفضة العناوين قريبة لكن ليست قريبة بما فيه الكفاية (سبايلينغ) مدينة مفقودة أو (زي بي) مفقودة هي الأسباب المعتادة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Map": {
   "t": "خريطة",
   "src": "libretranslate",
@@ -1507,6 +2053,30 @@
  },
  "Map fields": {
   "t": "ميادين الخرائط",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Map file": {
+  "t": "ملف خريطة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Map file export": {
+  "t": "تصدير ملفات الخرائط",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Map file: GeoJSON for web maps and ArcGIS Online, KML for Google Earth, or a Shapefile ZIP for ArcGIS Pro. Matched points only, since an unmatched row has no place to draw.": {
+  "t": "Map file: GeoJSON for web maps and ArcGIS Online, KML for Google Earth, or a Shapefile ZIP for ArcGIS Pro. Matched points only, since an unmatched row has no place to draw.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Map layer": {
+  "t": "طبقة الخرائط",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1541,8 +2111,38 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Matched (tied) means two candidates scored the same. It counts as matched, but it is worth a second look.": {
+  "t": "المطابقة (المقيدة) تعني أن اثنين من المرشحين أحرزا نفس النتيجة. إنها تُحسب على أنها متطابقة لكنها تستحق النظرة الثانية",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Matched addresses become a real map layer, so there is nothing to download and add back.": {
   "t": "العناوين المتطابقة تصبح طبقة خريطية حقيقية لذا لا يوجد شيء لتحميله وإرجاعه",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Matched points are added to the connected map as a layer, so nobody has to download a file and bring it back in. Blank means the layer takes the name of the uploaded file.": {
+  "t": "تُضاف نقاط متطابقة إلى الخريطة المُتصلة كطبقة، لذا لا أحد يجب أن يُحمّل ملفاً ويُعيده. (بلانك) يعني أن الطبعة تأخذ اسم الملف المحمل",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Matched points only, since a row without a location has nothing to draw. GeoJSON for web maps and ArcGIS Online, KML for Google Earth, a zipped Shapefile for ArcGIS Pro.": {
+  "t": "النقاط المتطابقة فقط، لأن الصف بدون موقع ليس لديه شيء لرسمه. GeoJSON for web maps and ArcGIS Online, KML for Google Earth, a zipped Shapefile for ArcGIS Pro.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "matched with a tie": {
+  "t": "متطابق مع ربطة عنق",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Matched, but the locator found more than one equally good candidate": {
+  "t": "متطابق، لكن الموقع وجد أكثر من مرشح جيد",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1567,6 +2167,18 @@
  },
  "Merge tool": {
   "t": "أداة متكاملة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Minimum match score": {
+  "t": "الحد الأدنى لنتيجة المباراة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Minimum match score (0 to 100)": {
+  "t": "الحد الأدنى لسجل المباراة (من صفر إلى 100)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1691,8 +2303,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No map is connected, so results are checked and can be exported as a table but are not drawn.": {
+  "t": "ولا توجد خريطة متصلة، وبالتالي يتم التحقق من النتائج ويمكن تصديرها على أنها جدول ولكن لا يتم سحبها.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "No map widget connected": {
   "t": "لا توجد خريطة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "No Map widget is connected. Addresses can still be checked and exported as a table; connect a Map widget in this widget’s settings to also draw the matched points.": {
+  "t": "لا توجد خريطة موصله ولا تزال العناوين يمكن فحصها وتصديرها كطاولة؛ وربط نظام \" ماب \" في هذه البيئات المشمولة بالنقاط المطابقة.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1703,8 +2327,32 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No matched points to export. Re-run geocoding with a lower minimum match score, or check that the address fields are mapped correctly.": {
+  "t": "لا توجد نقاط متطابقة للتصدير إعادة تشغيل الترميز الجيوغرافي بسجل طابق أدنى، أو التحقق من أن حقول العنوان مجهزة بشكل صحيح.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "No points appear: no map is connected to this widget. Checking and the table export still work. Ask the GIS Division to connect a map if you need the points drawn.": {
+  "t": "No points appear: no map is connected to this widget. التدقيق وتصدير الجدول لا يزال يعمل. أطلب من شعبة نظام المعلومات الجغرافية أن تربط خريطة إذا كنت بحاجة إلى النقاط المستقاة.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "No score": {
+  "t": "لا شيء",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "No target layer is configured. Set one in the widget settings.": {
   "t": "لا توجد طبقة مستهدفة ضعي واحدة في مواضع النظارات",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "No unmatched records match this search. Clear the search or pick Any reason to show them all.": {
+  "t": "لا توجد سجلات غير مطابقة لهذا البحث نظف البحث أو اختيار أي سبب لإظهارهم جميعاً",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1721,6 +2369,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Nothing happened after you picked a file: the file had no readable rows. Check that row one is the column headings and that there is at least one row under it.": {
+  "t": "لم يحدث شيء بعد أن اخترت ملف الملف لم يكن لديه صفات قابلة للقراءة تحقق من الصف الأول هو العناوين العمودية وأن هناك صف واحد على الأقل تحته",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Nothing in the guide matches that word. Try another, or open the sections above.": {
   "t": "لا شيء في الدليل يطابق تلك الكلمة جرّبْ آخر، أَو يَفْتحُ الأقسامَ أعلاه.",
   "src": "libretranslate",
@@ -1729,6 +2383,12 @@
  },
  "Nulls": {
   "t": "Nulls",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Off: every run adds another layer, numbered (2), (3) and so on.": {
+  "t": "مقطوع: يضيف كل ركض طبقة أخرى، مرقمة (2)، (3) وما إلى ذلك.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1805,6 +2465,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Original row fields": {
+  "t": "الحقول الأصلية",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Outline colour": {
+  "t": "اللون العريض",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Outline width": {
+  "t": "الاستعارة الخارجية",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Output = value x factor + offset. Example: feet to meters uses 0.3048.": {
   "t": "الناتج = القيمة x عامل + التعويض. مثال: الأقدام إلى متر تستخدم 0.3048.",
   "src": "libretranslate",
@@ -1823,6 +2501,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Pick All rows instead to get the whole file back with MATCH_STATUS on every row. Excel then adds Unmatched and Matched sheets and a Summary sheet with the totals.": {
+  "t": "اختر كُلّ الصفوف بدلاً مِنْ أَنْ يَحْصلَ على الملفِ الكاملِ مَع MATCH STATUS على كُلّ صفّ. وبعد ذلك تضيف شركة إكسل صحائف غير متطابقة ومتطابقة وصحيفة موجزة بالمجاميع.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Pick one of them under Source layer. That is the data the next two steps work on.": {
   "t": "اختر واحدة منهم تحت طبقة المصدر هذه هي البيانات التي تعمل عليها الخطتان التاليتان",
   "src": "libretranslate",
@@ -1831,6 +2515,18 @@
  },
  "Pick the target field that identifies a matching feature.": {
   "t": "اختر الحقل المستهدف الذي يحدد سمة مطابقة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Pick which column(s) hold the address. Use \"Single full address\" if one column has the entire address, or \"Separate columns\" to map individual parts.": {
+  "t": "اختر أي عمود أو أعمدة تحمل العنوان. استخدم العنوان الكامل إذا كان هناك عمود واحد لديه العنوان بأكمله أو \"أعمدة منفصلة\" لرسم كل جزء",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Point symbol": {
+  "t": "رمز النقطة",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1961,8 +2657,38 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Reason": {
+  "t": "السبب",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Record {objectId} · source row {objectId2}": {
+  "t": "السجل {objectId} :: صف المصدر {objectId2}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "record did": {
+  "t": "سجل",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "records did": {
+  "t": "السجلات",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Red messages on the Load step: a rule points at a field that is not there, or a required field is left empty. Press Back and fix the rule the message names.": {
   "t": "رسائل حمراء على خطوة اللواد: نقطة قاعدة في حقل غير موجود، أو في الميدان المطلوب فارغ. اضغطي و اصلحي القاعدة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Redo": {
+  "t": "Redo",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1991,6 +2717,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Remove from map": {
+  "t": "نقل من الخريطة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Remove from map takes the layer off again. Clear does not: it empties the form and leaves your layers alone.": {
   "t": "إنزلْ من الخريطةِ يَأْخذُ طبقةَ مِنْ ثانيةً. المكان خالٍ لا: إنه يفرغ الشكل ويترك طبقاتكِ لوحدها",
   "src": "libretranslate",
@@ -1999,6 +2731,24 @@
  },
  "Remove rule": {
   "t": "إلغاء قاعدة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Replace file": {
+  "t": "يحل محل الملف",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Replace the previous layer on a new run": {
+  "t": "يستعاض عن الطبعة السابقة على تشغيل جديد",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "required": {
+  "t": "المطلوبة",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -2015,6 +2765,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Review unmatched": {
+  "t": "الاستعراض غير المطابق",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Review unmatched ({failureCount})": {
+  "t": "استعراض غير مطابق{failureCount})",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Review unmatched opens the full list of rows that did not make it, with the reason for each one. Filter it by reason or search it, then download what is on screen as a CSV. Download unmatched saves the whole list in one click.": {
   "t": "ويفتح الاستعراض غير المطابق للقائمة الكاملة من الصفوف التي لم تنجح، مع سبب كل منها. قم بتصويره لسبب أو بحثه ثم تحميل ما هو على الشاشة التحميل غير المطابق يحفظ القائمة بأكملها في نقرة واحدة",
   "src": "libretranslate",
@@ -2023,6 +2785,18 @@
  },
  "Right": {
   "t": "الحق",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Rows to include": {
+  "t": "Rows to include",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Rows with a blank address are never sent to the locator, so they cost nothing and show up as Blank address.": {
+  "t": "الصخور التي تحمل عنواناً فارغاً لم ترسل أبداً إلى الموقع، لذا لم تكلف شيئاً وتظهر كعنوان (بلانك).",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -2047,6 +2821,12 @@
  },
  "Save this field-mapping as a reusable .xml file": {
   "t": "احفظ هذا التصفيق الميداني كملف قابل لإعادة الاستخدام",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Score {score}": {
+  "t": "سكوير {score}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -2081,6 +2861,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Search unmatched records": {
+  "t": "فتش السجلات غير المطابقة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Select a map widget in the widget settings.": {
   "t": "إختارْ a مسحة خريطِ في الوسائدِ.",
   "src": "libretranslate",
@@ -2095,6 +2881,12 @@
  },
  "Selected Basemaps": {
   "t": "Selected Basemaps",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Separate columns": {
+  "t": "الأعمدة المنفصلة",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -2147,14 +2939,38 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Showing {filteredFailuresCount} of {failuresCount} unmatched record.": {
+  "t": "عرض {filteredFailuresCount} of of {failuresCount} سجل غير مطابق",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Showing {filteredFailuresCount} of {failuresCount} unmatched records.": {
+  "t": "عرض {filteredFailuresCount} of of {failuresCount} سجلات غير مطابقة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Shown on the left side of the divider": {
   "t": "يظهر على الجانب الأيسر من الأسهم",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Single full address": {
+  "t": "عنوان واحد كامل",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Single full address: pick the one column that holds the whole address on its own, like \"250 N 5th St, Grand Junction, CO 81501\".": {
   "t": "عنوان واحد كامل: اختيار العمود الوحيد الذي يحمل العنوان بأكمله لوحده، مثل \"250 N 5th St, Grand Junction, CO 81501\".",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Size (px)": {
+  "t": "Size (px)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -2237,6 +3053,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Still stuck? Contact the GIS Division and mention the CSV Geocoder name and this app.": {
+  "t": "لا تزال عالقة؟ اتصل بشعبة نظام المعلومات الجغرافية وتذكر اسم CSV Geocoder وهذا التطبيق.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Submitted address": {
+  "t": "عنوان مقدم",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Supported formats: CSV, TSV, TXT, XLSX, XLS, ODS. The first row is used as column headers.": {
+  "t": "النماذج الداعمة: CSV, TSV, TXT, XLSX, XLS, ODS. ويُستخدم الصف الأول كعناصر عمودية.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Swipe": {
   "t": "Swipe",
   "src": "libretranslate",
@@ -2303,6 +3137,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The column containing the complete address as one string, e.g. \"100 Main St, Springfield, IL 62701\".": {
+  "t": "العمود الذي يحتوي على العنوان الكامل كسلسلة واحدة، مثل \"100 الرئيسية سانت، سبرنغفيلد، IL 62701\".",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "The Edit step says the layer could not be prepared: the layer may not be editable, or you may not be signed in with rights to edit it. Sign in and try again.": {
   "t": "وخطوة (إديت) تقول أن الطبقة لا يمكن إعدادها: قد لا تكون الطبقة قابلة للتجزؤ، أو قد لا تكون موقّعة في حق تحريرها. وقع وحاول مرة أخرى",
   "src": "libretranslate",
@@ -2321,6 +3161,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The file lands in your downloads folder, named after your file with the date and time.": {
+  "t": "الملف يهبط في ملف التحميل الخاص بك، اسمه بعد ملفك مع التاريخ والوقت.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "The file you bring": {
   "t": "الملف الذي أحضرته",
   "src": "libretranslate",
@@ -2329,6 +3175,12 @@
  },
  "The first row has to be the column headings, one heading per column.": {
   "t": "ويجب أن يكون الصف الأول عناوين الأعمدة، وعنوان واحد لكل عمود.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "The layer is gone: the browser tab was closed or reloaded. Run the file again, or bring back the copy you exported.": {
+  "t": "اغلقت الطبقة او تم تحميلها افحص الملف مرة اخرى او ارجع النسخه التي صدّرتها",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -2371,6 +3223,12 @@
  },
  "The map moves to the new records once they are in.": {
   "t": "الخريطة تنتقل إلى السجلات الجديدة بمجرد دخولها",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "The points landed in the wrong part of the country: the city or state column is empty, so the geocoder guessed. Fill those columns in and run it again.": {
+  "t": "The points landed in the wrong part of the country: the city or state column is empty, so the geocoder guessed. املأ تلك الأعمدة و اديرها مرة اخرى",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -2435,6 +3293,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "There are no {scopeWord} to export. Pick another option above.": {
+  "t": "لا يوجد {scopeWord} إلى التصدير. اختر خياراً آخر أعلاه",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "This app has no basemaps ready to show in the gallery.": {
   "t": "هذا التطبيقِ لَيْسَ لَهُ أيّ قاعدَ جاهزة للإظهار في المعرضِ.",
   "src": "libretranslate",
@@ -2443,6 +3307,12 @@
  },
  "This app starts with a chosen basemap. After that, you can choose a different one.": {
   "t": "هذا التطبيق يبدأ باختبار مختار بعد ذلك، يمكنك اختيار واحد مختلف.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "This app uses Esri’s worldwide address finder, which spends credits on large runs. Check with the GIS Division before running tens of thousands of rows.": {
+  "t": "This app uses Esri’s worldwide address finder, which spends credits on large runs. تحقق من شعبة نظام المعلومات الجغرافية قبل تشغيل عشرات الآلاف من الصفوف.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -2495,6 +3365,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Two kinds of download: a table of your rows, or a map file of the matched points.": {
+  "t": "نوعان من التنزيلات: طاولة من الصفوف الخاصة بك، أو ملف خريطة من النقاط المطابقة.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Under 1. Choose a file, press Browse for a file and pick your spreadsheet. A CSV or an Excel file both work.": {
   "t": "تحت 1، اختر ملفاً، اضغط على (بروز) من أجل ملف واختار ملفك أي CSV أَو ملف إكسل كلاهما يعمل.",
   "src": "libretranslate",
@@ -2513,6 +3389,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Underline": {
+  "t": "العنوان",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Undo": {
+  "t": "Undo",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Unknown": {
   "t": "غير معروف",
   "src": "libretranslate",
@@ -2521,6 +3409,12 @@
  },
  "Unmatched": {
   "t": "غير متطابقة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Unmatched rows by reason": {
+  "t": "الصفوف غير المطابقة بالسبب",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -2689,6 +3583,12 @@
  },
  "Zoom scale (1: …, 0 = fit)": {
   "t": "مقياس التكبير (1: ...، صفر = مناسب)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Zoom to results": {
+  "t": "زوم النتائج",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"

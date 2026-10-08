@@ -1,6 +1,24 @@
 {
+ ". Open it from the map’s layer list to see the table.": {
+  "t": ". Ανοίξτε το από τη λίστα στρώμα του χάρτη για να δείτε τον πίνακα.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "(Default)": {
   "t": "(Προκαθορισμένο)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "(none)": {
+  "t": "(Δεν υπάρχει)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "(select column)": {
+  "t": "(επιλέξτε στήλη)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -65,6 +83,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "{failuresCount} record did not produce an accepted match.": {
+  "t": "{failuresCount} Το αρχείο δεν παρήγαγε αποδεκτό αγώνα.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "{failuresCount} records did not produce an accepted match.": {
+  "t": "{failuresCount} Τα αρχεία δεν έφεραν ένα αποδεκτό ταίρι.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "{fieldId}-help": {
+  "t": "{fieldId}-Βοήθεια",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "{filterLabel}: type part of a basemap name in the box above the gallery.": {
   "t": "{filterLabel}: πληκτρολογήστε μέρος ενός ονόματος χάρτη βάσης στο πλαίσιο πάνω από τη γκαλερί.",
   "src": "libretranslate",
@@ -95,6 +131,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "{matchedCount} matched point.": {
+  "t": "{matchedCount} Ταίριαξε το σημείο.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "{matchedCount} matched points.": {
+  "t": "{matchedCount} Ταιριάζουν οι πόντοι.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "{num} {street}, {city}": {
   "t": "{num} {street}, {city}",
   "src": "libretranslate",
@@ -103,6 +151,12 @@
  },
  "{removeLabel}: click the star again to return the basemap to its usual place.": {
   "t": "{removeLabel}: κάντε κλικ στο αστέρι και πάλι για να επιστρέψετε το χάρτη βάσης στη συνήθη θέση του.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "{rowsCount} rows · {fieldsCount} columns": {
+  "t": "{rowsCount} σειρές · {fieldsCount} στήλες",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -179,8 +233,38 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "1. Choose a file": {
+  "t": "1. Επιλέξτε ένα αρχείο",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "2. Map address fields": {
+  "t": "2. Πεδία διευθύνσεων χάρτη",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "3. Results": {
+  "t": "3. Αποτελέσματα",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "4. Export": {
+  "t": "4. Εξαγωγή",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "A basemap could not be loaded for comparison: choose another basemap, or close compare and open it again.": {
   "t": "Ένας χάρτης βάσης δεν ήταν δυνατό να φορτωθεί για σύγκριση: επιλέξτε έναν άλλο χάρτη βάσης, ή κάντε στενή σύγκριση και ανοίξτε τον ξανά.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "A big file is fine. The bar shows how far along it is, and Cancel stops it.": {
+  "t": "Ένα μεγάλο αρχείο είναι μια χαρά. Το μπαρ δείχνει πόσο μακριά είναι, και η Ακύρωση το σταματά.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -221,6 +305,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A spreadsheet of your rows with MATCH_STATUS, MATCH_SCORE, the address you sent, the address the locator matched, the address type, a plain reason for every row that did not match, and coordinates for every row that did. Open it in Excel and filter on MATCH_STATUS.": {
+  "t": "Ένα λογιστικό φύλλο των σειρών σας με MATCH STATUS, MATCH SCORE, τη διεύθυνση που στείλατε, τη διεύθυνση που ταίριαξε ο εντοπιστής, τον τύπο της διεύθυνσης, έναν απλό λόγο για κάθε σειρά που δεν ταιριάζει, και συντεταγμένες για κάθε σειρά που ταιριάζει. Ανοίξτε το στο Excel και φιλτράρετε στο MATCH STATUS.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "A warning says no target layer is configured: the app author has not chosen the layer to load into. Contact the GIS Division.": {
   "t": "Μια προειδοποίηση λέει ότι δεν έχει ρυθμιστεί στρώμα στόχου: ο συγγραφέας εφαρμογών δεν έχει επιλέξει το στρώμα για να φορτώσει. Επικοινώνησε με το τμήμα GIS.",
   "src": "libretranslate",
@@ -235,6 +325,12 @@
  },
  "A web address: paste the link to a layer or a service.": {
   "t": "Διεύθυνση ιστού: επικολλήστε το σύνδεσμο σε ένα στρώμα ή μια υπηρεσία.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "a zipped Shapefile": {
+  "t": "ένα φερμουάρ Shapefile",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -317,14 +413,68 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Added to the map as": {
+  "t": "Προστέθηκε στο χάρτη ως",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Adding your data": {
   "t": "Προσθήκη των δεδομένων σας",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Address check table": {
+  "t": "Πίνακας ελέγχου διευθύνσεων",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Address check table: CSV or Excel, for all rows, only the unmatched ones, or only the matched ones. Every original column is kept, with the match result added on the right.": {
+  "t": "Πίνακας ελέγχου διευθύνσεων: CSV ή Excel, για όλες τις σειρές, μόνο τις μη αντιστοιχισμένες, ή μόνο τις αντιστοιχισμένες. Κάθε αρχική στήλη φυλάσσεται, με το αποτέλεσμα του αγώνα να προστίθεται στα δεξιά.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Address check table: every row with its match result, as CSV or Excel, for all rows, only the unmatched ones, or only the matched ones. Map file: the matched points as GeoJSON, KML or a zipped Shapefile.": {
+  "t": "Πίνακας ελέγχου διευθύνσεων: κάθε σειρά με το αποτέλεσμα του αγώνα της, ως CSV ή Excel, για όλες τις σειρές, μόνο τις αταίριαστες, ή μόνο τις αντιστοιχισμένες. Αρχείο χάρτη: τα αντιστοιχισμένα σημεία ως GeoJSON, KML ή ένα φερμουάρ Shapefile.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Address column": {
+  "t": "Στήλη διεύθυνσης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Address field mapping": {
+  "t": "Χαρτογράφηση πεδίου διευθύνσεων",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Address geocoder": {
+  "t": "Γεωκωδικοποιητής διεύθυνσης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Address Geocoder": {
   "t": "Διεύθυνση γεωκωδικοποιητή",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Address mapping mode": {
+  "t": "Λειτουργία χαρτογράφησης διευθύνσεων",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Address, row number, reason, or field value": {
+  "t": "Διεύθυνση, αριθμός σειράς, λόγος ή τιμή πεδίου",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -425,6 +575,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Any reason ({failuresCount})": {
+  "t": "Οποιαδήποτε αιτία ({failuresCount})",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "API key / token (optional)": {
+  "t": "Κλειδί API / ενδεικτικό (προαιρετικό)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Appearance": {
   "t": "Εμφάνιση",
   "src": "libretranslate",
@@ -457,6 +619,18 @@
  },
  "Back": {
   "t": "Πίσω",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Back to geocoding results": {
+  "t": "Επιστροφή στα αποτελέσματα γεωκωδικοποίησης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Back to results": {
+  "t": "Επιστροφή στα αποτελέσματα",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -521,6 +695,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Batch size": {
+  "t": "Μέγεθος παρτίδας",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Behaviour": {
+  "t": "Συμπεριφορά",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "blank": {
+  "t": "κενό",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Blend": {
   "t": "Μείγμα",
   "src": "libretranslate",
@@ -539,8 +731,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Bold": {
+  "t": "Έντονα",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Both sides look the same: the basemap you chose is already the current basemap. Choose a different one.": {
   "t": "Και οι δύο πλευρές φαίνονται ίδιες: ο χάρτης βάσης που επιλέξατε είναι ήδη ο τρέχων χάρτης βάσης. Διάλεξε άλλο.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Browse for a file": {
+  "t": "Αναζήτηση για ένα αρχείο",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -641,6 +845,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Choose a different file": {
+  "t": "Επιλογή διαφορετικού αρχείου",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Choose a field": {
   "t": "Επιλογή πεδίου",
   "src": "libretranslate",
@@ -671,6 +881,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Clean addresses win. Take out apartment numbers and notes like \"behind the school\" before you start.": {
+  "t": "Οι καθαρές διευθύνσεις κερδίζουν. Βγάλτε τους αριθμούς των διαμερισμάτων και σημειώσεις όπως \"πίσω από το σχολείο\" πριν ξεκινήσετε.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Clear": {
   "t": "Καθαρισμός",
   "src": "libretranslate",
@@ -679,6 +895,30 @@
  },
  "Clear all": {
   "t": "Καθαρισμός όλων",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Clear All Graphics": {
+  "t": "Καθαρισμός όλων των γραφικών",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Clear empties the form so you can start on another file.": {
+  "t": "Καθαρισμός αδειάζει τη φόρμα ώστε να μπορείτε να ξεκινήσετε σε ένα άλλο αρχείο.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Clear search": {
+  "t": "Καθαρισμός αναζήτησης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Clear Selected Graphic": {
+  "t": "Καθαρισμός επιλεγμένου γραφικού",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -739,6 +979,12 @@
  },
  "Close compare": {
   "t": "Κλείσιμο σύγκρισης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Closest locator candidate": {
+  "t": "Υποψήφιος κοντύτερος εντοπιστής",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -821,6 +1067,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Connect to a Map widget": {
+  "t": "Σύνδεση σε ένα γραφικό συστατικό χάρτη",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Constant value": {
   "t": "Σταθερή τιμή",
   "src": "libretranslate",
@@ -853,6 +1105,18 @@
  },
  "Could not read the selected file.": {
   "t": "Αδυναμία ανάγνωσης του επιλεγμένου αρχείου.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "CSV · TSV · TXT · XLSX · XLS · ODS": {
+  "t": "CSV · TSV · TXT · XLSX · XLS · ODS",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "csvg-m-{key}": {
+  "t": "ΚΣΒΓ-Μ-{key}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -899,6 +1163,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Default address mode": {
+  "t": "Προκαθορισμένη λειτουργία διεύθυνσης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Default basemap": {
   "t": "Προκαθορισμένος χάρτης βάσης",
   "src": "libretranslate",
@@ -919,6 +1189,12 @@
  },
  "Dismiss": {
   "t": "Ελεύθεροι",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Dismiss error message": {
+  "t": "Αποστολή μηνύματος σφάλματος",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -959,6 +1235,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Download {filteredFailuresCount} as CSV": {
+  "t": "Λήψη {filteredFailuresCount} ως CSV",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Download failed rows (CSV)": {
   "t": "Αποτυχία λήψης γραμμών (CSV)",
   "src": "libretranslate",
@@ -971,6 +1253,36 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Download the {failureCount} unmatched rows as CSV": {
+  "t": "Λήψη του {failureCount} μη αντιστοιχισμένες γραμμές ως CSV",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Download the {filteredFailuresCount} records shown as CSV": {
+  "t": "Λήψη του {filteredFailuresCount} εγγραφές που εμφανίζονται ως CSV",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Download unmatched": {
+  "t": "Λήψη μη αντιστοιχισμένων",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Downloaded": {
+  "t": "Λήψη",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Downloading a copy": {
+  "t": "Λήψη αντιγράφου",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Drag divider side by side": {
   "t": "Σύρετε διαχωριστικό δίπλα-δίπλα",
   "src": "libretranslate",
@@ -979,6 +1291,66 @@
  },
  "Drag the divider on the map, or use the slider in the widget, to reveal more of either basemap.": {
   "t": "Σύρετε το διαχωριστικό στο χάρτη, ή χρησιμοποιήστε το slider στο widget, για να αποκαλύψετε περισσότερα από οποιοδήποτε basemap.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Draw": {
+  "t": "Σχεδίαση",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Draw circle": {
+  "t": "Σχεδίαση κύκλου",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Draw freehand polygon": {
+  "t": "Σχεδίαση πολυγώνου ελεύθερου χεριού",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Draw freehand polyline": {
+  "t": "Σχεδίαση πολυγραμμής ελεύθερου χεριού",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Draw point": {
+  "t": "Σημείο σχεδίασης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Draw polygon": {
+  "t": "Σχεδίαση πολυγώνου",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Draw polyline": {
+  "t": "Σχεδίαση πολυγραμμής",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Draw rectangle": {
+  "t": "Σχεδίαση ορθογωνίου",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Draw text": {
+  "t": "Σχεδίαση κειμένου",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Drop a file here": {
+  "t": "Πέτα ένα αρχείο εδώ.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1055,6 +1427,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Enable font halo": {
+  "t": "Ενεργοποίηση φωτοστέφανου γραμματοσειράς",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Enable geometry editing (needs map)": {
   "t": "Ενεργοποίηση επεξεργασίας γεωμετρίας (χρειάζεται χάρτη)",
   "src": "libretranslate",
@@ -1073,14 +1451,38 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Everything is unmatched: the columns are matched to the wrong things. Go back to 2. Map address fields and check each box.": {
+  "t": "Όλα είναι απαράμιλλα: οι στήλες ταιριάζουν με τα λάθος πράγματα. Πήγαινε πίσω στο 2. Χαρτογραφήστε τα πεδία διευθύνσεων και ελέγξτε κάθε κουτί.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Everything you bring in is listed under the button. The trash can next to a name takes it back out.": {
   "t": "Ό,τι φέρνεις είναι κάτω από το κουμπί. Ο σκουπιδοτενεκές δίπλα σε ένα όνομα το βγάζει πάλι έξω.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Excel opens the CSV with accented letters intact, and a value that starts with = or + is kept as text, never run as a formula.": {
+  "t": "Excel ανοίγει το CSV με τονισμένα γράμματα άθικτα, και μια τιμή που ξεκινά με = ή + διατηρείται ως κείμενο, ποτέ δεν τρέχει ως μια φόρμουλα.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Export {scopeWord} as {label}": {
+  "t": "Εξαγωγή {scopeWord} ως {label}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Export Configuration": {
   "t": "Configuration εξαγωγής",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Export matched points as {id}": {
+  "t": "Εξαγωγή αντιστοιχισμένων σημείων ως {id}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1145,6 +1547,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "File detected, drop to upload.": {
+  "t": "Ανιχνεύθηκε αρχείο, πτώση για αποστολή.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Fill colour": {
+  "t": "Χρώμα γεμίσματος",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Filter basemaps by name": {
   "t": "Χάρτες βάσης φίλτρου με όνομα",
   "src": "libretranslate",
@@ -1169,6 +1583,84 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Font angle": {
+  "t": "Γωνία γραμματοσειράς",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Font color": {
+  "t": "Χρώμα γραμματοσειράς",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Font halo": {
+  "t": "Φωτοστέφανο γραμματοσειράς",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Font halo color": {
+  "t": "Χρώμα φωτοστέφανου γραμματοσειράς",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Font halo size": {
+  "t": "Μέγεθος φωτοστέφανου γραμματοσειράς",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Font horizontal align center": {
+  "t": "Γραμματοσειρά οριζόντιο κέντρο ευθυγράμμισης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Font horizontal align left": {
+  "t": "Γραμματοσειρά οριζόντια ευθυγράμμιση αριστερά",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Font horizontal align right": {
+  "t": "Γραμματοσειρά οριζόντια ευθυγράμμιση δεξιά",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Font size": {
+  "t": "Μέγεθος γραμματοσειράς",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Font vertical align baseline": {
+  "t": "Κατακόρυφη ευθυγράμμιση γραμματοσειράς",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Font vertical align bottom": {
+  "t": "Γραμματοσειρά κατακόρυφη ευθυγράμμιση κάτω",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Font vertical align middle": {
+  "t": "Γραμματοσειρά κατακόρυφη ευθυγράμμιση μέσου",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Font vertical align top": {
+  "t": "Γραμματοσειρά κατακόρυφη ευθυγράμμιση πάνω",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Generate XML": {
   "t": "Δημιουργία XML",
   "src": "libretranslate",
@@ -1177,6 +1669,30 @@
  },
  "Geocode": {
   "t": "Γεωκωδικός",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Geocoding progress": {
+  "t": "Πρόοδος γεωκωδικοποίησης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Geocoding results summary": {
+  "t": "Περίληψη αποτελεσμάτων γεωκωδικοποίησης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Geocoding service": {
+  "t": "Υπηρεσία γεωκωδικοποίησης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Geocoding…": {
+  "t": "Γεωκωδικοποίηση...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1301,6 +1817,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Italic": {
+  "t": "Πλάγιο",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Keep favorites at the top": {
   "t": "Κρατήστε τα αγαπημένα σας στην κορυφή",
   "src": "libretranslate",
@@ -1331,8 +1853,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Layer title": {
+  "t": "Τίτλος στρώματος",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Leave a box on (none) if you do not have that piece. Street and city are the two that matter most.": {
   "t": "Αφήστε ένα κουτί σε (κανένα) αν δεν έχετε αυτό το κομμάτι. Ο δρόμος και η πόλη είναι οι δύο που έχουν μεγαλύτερη σημασία.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Leave blank to use the file name": {
+  "t": "Αφήστε κενό για χρήση του ονόματος αρχείου",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1463,6 +1997,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Locator URL": {
+  "t": "URL εντοπισμού",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Look for the \"No basemaps configured.\" message in this widget.": {
   "t": "Αναζήτηση για το \"No basemaps ρυθμισμένο.\" μήνυμα σε αυτό το γραφικό συστατικό.",
   "src": "libretranslate",
@@ -1493,6 +2033,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Many rows say low score: the addresses are close but not close enough. Spelling, a missing city or a missing ZIP are the usual reasons.": {
+  "t": "Πολλές σειρές λένε χαμηλή βαθμολογία: οι διευθύνσεις είναι κοντά αλλά δεν είναι αρκετά κοντά. Η ορθογραφία, μια εξαφανισμένη πόλη ή μια εξαφανισμένη ΖΙΠ είναι οι συνήθεις λόγοι.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Map": {
   "t": "Χάρτης",
   "src": "libretranslate",
@@ -1507,6 +2053,30 @@
  },
  "Map fields": {
   "t": "Πεδία χαρτών",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Map file": {
+  "t": "Αρχείο χάρτη",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Map file export": {
+  "t": "Εξαγωγή αρχείου χάρτη",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Map file: GeoJSON for web maps and ArcGIS Online, KML for Google Earth, or a Shapefile ZIP for ArcGIS Pro. Matched points only, since an unmatched row has no place to draw.": {
+  "t": "Αρχείο χάρτη: GeoJSON για web maps και ArcGIS Online, KML για Google Earth, ή ένα Shapefile ZIP για ArcGIS Pro. Ταιριάζουν μόνο σημεία, δεδομένου ότι μια αταίριαστη σειρά δεν έχει κανένα μέρος για να σχεδιάσει.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Map layer": {
+  "t": "Στρώμα χαρτών",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1541,8 +2111,38 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Matched (tied) means two candidates scored the same. It counts as matched, but it is worth a second look.": {
+  "t": "Ασορτί (δεμένο) σημαίνει ότι δύο υποψήφιοι σκόραραν το ίδιο. Μετράει σαν να ταιριάζει, αλλά αξίζει μια δεύτερη ματιά.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Matched addresses become a real map layer, so there is nothing to download and add back.": {
   "t": "Οι αντιστοιχισμένες διευθύνσεις γίνονται ένα πραγματικό στρώμα χάρτη, έτσι δεν υπάρχει τίποτα για να κατεβάσετε και να προσθέσετε πίσω.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Matched points are added to the connected map as a layer, so nobody has to download a file and bring it back in. Blank means the layer takes the name of the uploaded file.": {
+  "t": "Τα αντιστοιχισμένα σημεία προστίθενται στον συνδεδεμένο χάρτη ως στρώμα, έτσι κανείς δεν χρειάζεται να κατεβάσει ένα αρχείο και να το φέρει πίσω. Κενό σημαίνει ότι το στρώμα παίρνει το όνομα του αρχείου που αναρτήθηκε.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Matched points only, since a row without a location has nothing to draw. GeoJSON for web maps and ArcGIS Online, KML for Google Earth, a zipped Shapefile for ArcGIS Pro.": {
+  "t": "Ταιριαστά σημεία μόνο, αφού μια σειρά χωρίς τοποθεσία δεν έχει τίποτα να σχεδιάσει. GeoJSON για χάρτες ιστού και ArcGIS Online, KML για το Google Earth, ένα φερμουάρ Shapefile για ArcGIS Pro.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "matched with a tie": {
+  "t": "ταιριάζει με ισοπαλία",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Matched, but the locator found more than one equally good candidate": {
+  "t": "Ταιριάζει, αλλά ο εντοπιστής βρήκε περισσότερους από έναν εξίσου καλούς υποψήφιους.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1567,6 +2167,18 @@
  },
  "Merge tool": {
   "t": "Εργαλείο συγχώνευσης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Minimum match score": {
+  "t": "Ελάχιστο σκορ αγώνα",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Minimum match score (0 to 100)": {
+  "t": "Ελάχιστο σκορ αγώνα (0 έως 100)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1691,8 +2303,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No map is connected, so results are checked and can be exported as a table but are not drawn.": {
+  "t": "Δεν συνδέεται χάρτης, έτσι τα αποτελέσματα ελέγχονται και μπορούν να εξαχθούν ως πίνακας αλλά δεν σχεδιάζονται.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "No map widget connected": {
   "t": "Χωρίς σύνδεση γραφικού συστατικού χάρτη",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "No Map widget is connected. Addresses can still be checked and exported as a table; connect a Map widget in this widget’s settings to also draw the matched points.": {
+  "t": "Κανένα γραφικό συστατικό χάρτη δεν είναι συνδεδεμένο. Οι διευθύνσεις μπορούν ακόμα να ελεγχθούν και να εξαχθούν ως πίνακας; συνδέστε ένα γραφικό συστατικό χάρτη στις ρυθμίσεις αυτού του γραφικού συστατικού για να σχεδιάσουν επίσης τα σημεία που ταιριάζουν.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1703,8 +2327,32 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No matched points to export. Re-run geocoding with a lower minimum match score, or check that the address fields are mapped correctly.": {
+  "t": "Δεν ταιριάζουν σημεία με την εξαγωγή. Επανεκκίνηση γεωκωδικοποίησης με χαμηλότερη ελάχιστη βαθμολογία αγώνα, ή ελέγξτε ότι τα πεδία διευθύνσεων χαρτογραφούνται σωστά.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "No points appear: no map is connected to this widget. Checking and the table export still work. Ask the GIS Division to connect a map if you need the points drawn.": {
+  "t": "Δεν εμφανίζονται σημεία: κανένας χάρτης δεν συνδέεται με αυτό το γραφικό συστατικό. Ο έλεγχος και η εξαγωγή του τραπεζιού εξακολουθούν να λειτουργούν. Ζητήστε από το τμήμα GIS να συνδέσετε ένα χάρτη αν χρειάζεστε τα σημεία που έχουν σχεδιαστεί.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "No score": {
+  "t": "Χωρίς βαθμολογία",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "No target layer is configured. Set one in the widget settings.": {
   "t": "Δεν έχει ρυθμιστεί στρώμα στόχου. Ορισμός ενός στις ρυθμίσεις widget.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "No unmatched records match this search. Clear the search or pick Any reason to show them all.": {
+  "t": "Κανένα αρχείο δεν ταιριάζει με αυτή την αναζήτηση. Εκκενώστε την έρευνα ή διαλέξτε οποιονδήποτε λόγο για να τα δείξετε όλα.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1721,6 +2369,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Nothing happened after you picked a file: the file had no readable rows. Check that row one is the column headings and that there is at least one row under it.": {
+  "t": "Τίποτα δεν συνέβη μετά την επιλογή ενός αρχείου: το αρχείο δεν είχε αναγνώσιμες σειρές. Ελέγξτε ότι η πρώτη γραμμή είναι οι επικεφαλίδες στήλη και ότι υπάρχει τουλάχιστον μία γραμμή κάτω από αυτό.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Nothing in the guide matches that word. Try another, or open the sections above.": {
   "t": "Τίποτα στον οδηγό δεν ταιριάζει με αυτή τη λέξη. Δοκιμάστε ένα άλλο, ή ανοίξτε τα τμήματα παραπάνω.",
   "src": "libretranslate",
@@ -1729,6 +2383,12 @@
  },
  "Nulls": {
   "t": "Καρποί με κέλυφος",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Off: every run adds another layer, numbered (2), (3) and so on.": {
+  "t": "Εκτός: κάθε διαδρομή προσθέτει ένα άλλο στρώμα, αριθμημένο (2), (3) και ούτω καθεξής.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1805,6 +2465,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Original row fields": {
+  "t": "Αρχικά πεδία γραμμών",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Outline colour": {
+  "t": "Χρώμα περιγράμματος",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Outline width": {
+  "t": "Πλάτος περιγράμματος",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Output = value x factor + offset. Example: feet to meters uses 0.3048.": {
   "t": "Έξοδος = τιμή x συντελεστής + όφσετ. Παράδειγμα: τα πόδια προς τα μέτρα χρησιμοποιούν 0.3048.",
   "src": "libretranslate",
@@ -1823,6 +2501,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Pick All rows instead to get the whole file back with MATCH_STATUS on every row. Excel then adds Unmatched and Matched sheets and a Summary sheet with the totals.": {
+  "t": "Επιλογή Όλες οι γραμμές αντ 'αυτού για να πάρει ολόκληρο το αρχείο πίσω με MATCH STATUS σε κάθε σειρά. Το Excel προσθέτει στη συνέχεια Unfatched και ταιριαστά φύλλα και ένα συνοπτικό φύλλο με τα σύνολα.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Pick one of them under Source layer. That is the data the next two steps work on.": {
   "t": "Διάλεξε ένα από αυτά κάτω από το στρώμα Πηγής. Αυτά είναι τα δεδομένα στα οποία εργάζονται τα επόμενα δύο βήματα.",
   "src": "libretranslate",
@@ -1831,6 +2515,18 @@
  },
  "Pick the target field that identifies a matching feature.": {
   "t": "Επιλέξτε το πεδίο στόχου που προσδιορίζει ένα χαρακτηριστικό που ταιριάζει.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Pick which column(s) hold the address. Use \"Single full address\" if one column has the entire address, or \"Separate columns\" to map individual parts.": {
+  "t": "Επιλέξτε ποια στήλη(ες) κρατάτε τη διεύθυνση. Χρήση \" Ενιαία πλήρης διεύθυνση\" εάν μια στήλη έχει ολόκληρη τη διεύθυνση, ή \" Χωριστές στήλες\" για να χαρτογραφήσει μεμονωμένα μέρη.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Point symbol": {
+  "t": "Σύμβολο σημείου",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1961,8 +2657,38 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Reason": {
+  "t": "Αιτιολογία",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Record {objectId} · source row {objectId2}": {
+  "t": "Εγγραφή {objectId} · γραμμή πηγής {objectId2}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "record did": {
+  "t": "Το αρχείο έκανε",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "records did": {
+  "t": "Τα αρχεία έκαναν",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Red messages on the Load step: a rule points at a field that is not there, or a required field is left empty. Press Back and fix the rule the message names.": {
   "t": "Κόκκινα μηνύματα στο βήμα φόρτωσης: ένας κανόνας δείχνει σε ένα πεδίο που δεν υπάρχει, ή ένα απαιτούμενο πεδίο αφήνεται κενό. Πατήστε Πίσω και διορθώστε τον κανόνα τα ονόματα μηνυμάτων.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Redo": {
+  "t": "Επαναφορά",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -1991,6 +2717,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Remove from map": {
+  "t": "Αφαίρεση από το χάρτη",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Remove from map takes the layer off again. Clear does not: it empties the form and leaves your layers alone.": {
   "t": "Η αφαίρεση από το χάρτη βγάζει πάλι το στρώμα. Καθαρό δεν κάνει: αδειάζει τη μορφή και αφήνει τα στρώματα σας μόνα.",
   "src": "libretranslate",
@@ -1999,6 +2731,24 @@
  },
  "Remove rule": {
   "t": "Αφαίρεση κανόνα",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Replace file": {
+  "t": "Αντικατάσταση αρχείου",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Replace the previous layer on a new run": {
+  "t": "Αντικατάσταση του προηγούμενου στρώματος σε νέα εκτέλεση",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "required": {
+  "t": "απαιτείται",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -2015,6 +2765,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Review unmatched": {
+  "t": "Επανεξέταση μη αντιστοιχισμένη",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Review unmatched ({failureCount})": {
+  "t": "Επανεξέταση χωρίς αντιστοιχία ({failureCount})",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Review unmatched opens the full list of rows that did not make it, with the reason for each one. Filter it by reason or search it, then download what is on screen as a CSV. Download unmatched saves the whole list in one click.": {
   "t": "Η κριτική ανοίγει τον πλήρη κατάλογο των γραμμών που δεν τα κατάφεραν, με τον λόγο για κάθε μία. Φιλτράρετε το με λογική ή ψάξτε το, στη συνέχεια κατεβάστε ό, τι είναι στην οθόνη ως CSV. Λήψη χωρίς ταίριασμα αποθηκεύει ολόκληρη τη λίστα με ένα κλικ.",
   "src": "libretranslate",
@@ -2023,6 +2785,18 @@
  },
  "Right": {
   "t": "Σωστά.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Rows to include": {
+  "t": "Γραμμές προς ενσωμάτωση",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Rows with a blank address are never sent to the locator, so they cost nothing and show up as Blank address.": {
+  "t": "Οι σειρές με κενή διεύθυνση δεν στέλνονται ποτέ στον εντοπιστή, οπότε δεν κοστίζουν τίποτα και εμφανίζονται ως κενή διεύθυνση.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -2047,6 +2821,12 @@
  },
  "Save this field-mapping as a reusable .xml file": {
   "t": "Αποθήκευση αυτής της εφαρμογής πεδίου ως επαναχρησιμοποιήσιμο αρχείο .xml",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Score {score}": {
+  "t": "Βαθμός {score}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -2081,6 +2861,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Search unmatched records": {
+  "t": "Αναζήτηση μη αντιστοιχισμένων αρχείων",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Select a map widget in the widget settings.": {
   "t": "Επιλέξτε ένα γραφικό συστατικό χάρτη στις ρυθμίσεις widget.",
   "src": "libretranslate",
@@ -2095,6 +2881,12 @@
  },
  "Selected Basemaps": {
   "t": "Επιλεγμένοι χάρτες βάσεων",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Separate columns": {
+  "t": "Χωριστές στήλες",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -2147,14 +2939,38 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Showing {filteredFailuresCount} of {failuresCount} unmatched record.": {
+  "t": "Εμφάνιση {filteredFailuresCount} του {failuresCount} Ασυναγώνιστο ρεκόρ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Showing {filteredFailuresCount} of {failuresCount} unmatched records.": {
+  "t": "Εμφάνιση {filteredFailuresCount} του {failuresCount} Ασυναγώνιστα αρχεία.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Shown on the left side of the divider": {
   "t": "Εμφανίζεται στην αριστερή πλευρά του διαχωριστικού",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Single full address": {
+  "t": "Πλήρης διεύθυνση",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Single full address: pick the one column that holds the whole address on its own, like \"250 N 5th St, Grand Junction, CO 81501\".": {
   "t": "Μία πλήρης διεύθυνση: επιλέξτε τη μία στήλη που κρατά όλη τη διεύθυνση από μόνη της, όπως \"250 N 5th St, Grand Junction, CO 81501\".",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Size (px)": {
+  "t": "Μέγεθος (px)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -2237,6 +3053,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Still stuck? Contact the GIS Division and mention the CSV Geocoder name and this app.": {
+  "t": "Ακόμα κολλημένος; Επικοινωνήστε με τον Τομέα GIS και αναφέρετε το όνομα του γεωκωδικοποιητή CSV και αυτή την εφαρμογή.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Submitted address": {
+  "t": "Υποβαλλόμενη διεύθυνση",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Supported formats: CSV, TSV, TXT, XLSX, XLS, ODS. The first row is used as column headers.": {
+  "t": "Υποστηριγμένες μορφές: CSV, TSV, TXT, XLSX, XLS, ODS. Η πρώτη σειρά χρησιμοποιείται ως κεφαλίδες στήλης.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Swipe": {
   "t": "Περιστροφή",
   "src": "libretranslate",
@@ -2303,6 +3137,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The column containing the complete address as one string, e.g. \"100 Main St, Springfield, IL 62701\".": {
+  "t": "Η στήλη που περιέχει την πλήρη διεύθυνση ως μία συμβολοσειρά, π.χ. \"100 Main St, Springfield, IL 62701\".",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "The Edit step says the layer could not be prepared: the layer may not be editable, or you may not be signed in with rights to edit it. Sign in and try again.": {
   "t": "Το βήμα Επεξεργασία λέει ότι το στρώμα δεν μπορεί να προετοιμαστεί: το στρώμα μπορεί να μην είναι επεξεργάσιμο, ή μπορεί να μην είναι συνδεδεμένο με δικαιώματα για την επεξεργασία του. Υπογράψτε και προσπαθήστε ξανά.",
   "src": "libretranslate",
@@ -2321,6 +3161,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The file lands in your downloads folder, named after your file with the date and time.": {
+  "t": "Το αρχείο προσγειώνεται στο φάκελο λήψεων σας, το όνομά του από το αρχείο σας με την ημερομηνία και την ώρα.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "The file you bring": {
   "t": "Το αρχείο που φέρνεις",
   "src": "libretranslate",
@@ -2329,6 +3175,12 @@
  },
  "The first row has to be the column headings, one heading per column.": {
   "t": "Η πρώτη σειρά πρέπει να είναι οι επικεφαλίδες στήλης, μία επικεφαλίδα ανά στήλη.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "The layer is gone: the browser tab was closed or reloaded. Run the file again, or bring back the copy you exported.": {
+  "t": "Το στρώμα χάθηκε: η καρτέλα του προγράμματος περιήγησης έκλεισε ή φορτώθηκε εκ νέου. Εκτελέστε το αρχείο ξανά, ή φέρτε πίσω το αντίγραφο που εξαγάγατε.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -2371,6 +3223,12 @@
  },
  "The map moves to the new records once they are in.": {
   "t": "Ο χάρτης κινείται στα νέα αρχεία μόλις μπουν.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "The points landed in the wrong part of the country: the city or state column is empty, so the geocoder guessed. Fill those columns in and run it again.": {
+  "t": "Τα σημεία προσγειώθηκαν σε λάθος μέρος της χώρας: η πόλη ή η πολιτειακή στήλη είναι άδεια, έτσι μάντεψε ο γεωκωδικός. Γεμίστε τις στήλες και τρέξτε ξανά.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -2435,6 +3293,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "There are no {scopeWord} to export. Pick another option above.": {
+  "t": "Δεν υπάρχουν. {scopeWord} στην εξαγωγή. Διάλεξε άλλη επιλογή από πάνω.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "This app has no basemaps ready to show in the gallery.": {
   "t": "Αυτή η εφαρμογή δεν έχει χάρτες βάσης έτοιμους να εμφανιστούν στην γκαλερί.",
   "src": "libretranslate",
@@ -2443,6 +3307,12 @@
  },
  "This app starts with a chosen basemap. After that, you can choose a different one.": {
   "t": "Αυτή η εφαρμογή ξεκινά με έναν επιλεγμένο χάρτη βάσης. Μετά, μπορείς να διαλέξεις άλλη.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "This app uses Esri’s worldwide address finder, which spends credits on large runs. Check with the GIS Division before running tens of thousands of rows.": {
+  "t": "Αυτή η εφαρμογή χρησιμοποιεί την παγκόσμια συσκευή αναζήτησης διευθύνσεων Esri, η οποία ξοδεύει πιστώσεις σε μεγάλες διαδρομές. Ελέγξτε με το τμήμα GIS πριν εκτελέσετε δεκάδες χιλιάδες σειρές.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -2495,6 +3365,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Two kinds of download: a table of your rows, or a map file of the matched points.": {
+  "t": "Δύο είδη λήψης: ένας πίνακας των γραμμών σας, ή ένα αρχείο χάρτη των σημείων που ταιριάζουν.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Under 1. Choose a file, press Browse for a file and pick your spreadsheet. A CSV or an Excel file both work.": {
   "t": "Κάτω από 1. Επιλέξτε ένα αρχείο, πατήστε Περιήγηση για ένα αρχείο και επιλέξτε το φύλλο σας. Ένα CSV ή ένα αρχείο Excel λειτουργούν και τα δύο.",
   "src": "libretranslate",
@@ -2513,6 +3389,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Underline": {
+  "t": "Υπογράμμιση",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Undo": {
+  "t": "Αναίρεση",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
  "Unknown": {
   "t": "Άγνωστο",
   "src": "libretranslate",
@@ -2521,6 +3409,12 @@
  },
  "Unmatched": {
   "t": "Ασυναγώνιστη",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Unmatched rows by reason": {
+  "t": "Μη αντιστοιχισμένες σειρές κατά λόγο",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
@@ -2689,6 +3583,12 @@
  },
  "Zoom scale (1: …, 0 = fit)": {
   "t": "Κλίμακα μεγέθυνσης (1: ..., 0 = κατάλληλη)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-08"
+ },
+ "Zoom to results": {
+  "t": "Εστίαση στα αποτελέσματα",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
