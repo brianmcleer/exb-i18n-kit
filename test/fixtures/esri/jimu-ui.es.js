@@ -1,0 +1,1 @@
+System.register([],function(e){return{execute:function(){e({undo:"Deshacer",deleteItem:"Eliminar",loading:"Cargando...",andOp:"AND",drawAPoint:"Dibujar un punto",km:"kilómetros",count:"{count} elementos seleccionados",default:"Predeterminado"})}}})

@@ -1,0 +1,41 @@
+{
+  "name": "exb-i18n-kit",
+  "version": "1.0.0",
+  "description": "Localize ArcGIS Experience Builder custom widgets with the translations Esri already ships, plus a review workflow for the rest.",
+  "bin": {
+    "exb-i18n": "bin/exb-i18n.js"
+  },
+  "main": "lib/sync.js",
+  "files": [
+    "bin",
+    "lib",
+    "docs",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/kit.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "arcgis",
+    "experience-builder",
+    "exb",
+    "exb-widget",
+    "i18n",
+    "localization",
+    "translation",
+    "esri"
+  ],
+  "author": "Brian McLeer (City of Grand Junction, CO)",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brianmcleer/exb-i18n-kit.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}

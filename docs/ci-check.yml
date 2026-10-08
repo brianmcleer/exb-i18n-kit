@@ -1,0 +1,17 @@
+# .github/workflows/i18n-check.yml in a widget repo.
+# Fails a pull request whose translations/default.ts changed without running exb-i18n sync.
+name: i18n check
+on: [pull_request, push]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: git clone --depth 1 https://github.com/brianmcleer/exb-i18n-kit.git "$RUNNER_TEMP/exb-i18n-kit"
+      # Path to the widget folder inside the repo (the folder with manifest.json).
+      - run: node "$RUNNER_TEMP/exb-i18n-kit/bin/exb-i18n.js" check ./my-widget
+      - run: node "$RUNNER_TEMP/exb-i18n-kit/bin/exb-i18n.js" audit ./my-widget --strict
+        continue-on-error: true
