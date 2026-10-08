@@ -1,6 +1,10 @@
 # Copy to .github/workflows/memory.yml in the exb-i18n-kit repo.
-# Keeps memory/<locale>.json current: translates new English from memory/sources.json with a
-# LibreTranslate container on the GitHub runner. Existing entries are never changed.
+# Keeps the shared translation memory current: translates new English from memory/sources.json
+# (on main) with a LibreTranslate container on the GitHub runner. Existing entries are never changed.
+#
+# The dictionaries live on their own branch, translation-memory (memory/<locale>.json there),
+# because main is protected (changes only through pull requests) and the Action's token cannot
+# push to it. The kit reads https://raw.githubusercontent.com/brianmcleer/exb-i18n-kit/translation-memory/memory.
 #
 # Works in batches: each pass translates at most BATCH new strings per locale, then commits and
 # pushes right away. A long run that hits the time budget keeps everything it already pushed,
@@ -19,12 +23,15 @@ concurrency: memory
 env:
   BATCH: '150'                  # new strings per locale per pass
   BUDGET_MINUTES: '300'         # stop starting new passes after this; job limit is 350
+  MEM_BRANCH: translation-memory
 jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -42,33 +49,49 @@ jobs:
             sleep 10
           done
           docker logs lt | tail -50; exit 1
+      - name: Check out the translation-memory branch
+        run: |
+          git config --global user.name "exb-i18n-bot"
+          git config --global user.email "exb-i18n-bot@users.noreply.github.com"
+          MEM_DIR="$RUNNER_TEMP/mem"
+          if git ls-remote --exit-code --heads origin "$MEM_BRANCH" > /dev/null; then
+            git fetch -q origin "$MEM_BRANCH"
+            git worktree add -B "$MEM_BRANCH" "$MEM_DIR" "origin/$MEM_BRANCH"
+          else
+            echo "Creating $MEM_BRANCH from main"
+            git worktree add -B "$MEM_BRANCH" "$MEM_DIR" HEAD
+          fi
+          mkdir -p "$MEM_DIR/memory"
       - name: Translate and commit in batches
         run: |
-          git config user.name "exb-i18n-bot"
-          git config user.email "exb-i18n-bot@users.noreply.github.com"
+          MEM_DIR="$RUNNER_TEMP/mem"
           stop=$(( $(date +%s) + BUDGET_MINUTES * 60 ))
           pass=0
           while [ "$(date +%s)" -lt "$stop" ]; do
             pass=$((pass + 1))
             echo "::group::Pass $pass"
-            node bin/exb-i18n.js memory-build --sources memory/sources.json --out memory --provider libretranslate --lt-url http://localhost:5000 --max "$BATCH"
+            node bin/exb-i18n.js memory-build --sources memory/sources.json --out "$MEM_DIR/memory" --provider libretranslate --lt-url http://localhost:5000 --max "$BATCH"
             echo "::endgroup::"
-            git add memory/*.json
+            cd "$MEM_DIR"
+            git add memory/*.json 2> /dev/null || true
             if git diff --cached --quiet; then echo "Memory is complete after $((pass - 1)) committed pass(es)."; exit 0; fi
             git commit -q -m "Translation memory: pass $pass ($(date -u +%Y-%m-%dT%H:%MZ))"
             pushed=0
             for attempt in 1 2 3 4 5; do
-              git fetch -q origin main
-              if ! git rebase -q origin/main; then
-                git rebase --abort
-                echo "Rebase conflict on memory/*.json; stopping so nothing is overwritten." >&2
-                exit 1
+              if git ls-remote --exit-code --heads origin "$MEM_BRANCH" > /dev/null; then
+                git fetch -q origin "$MEM_BRANCH"
+                if ! git rebase -q "origin/$MEM_BRANCH"; then
+                  git rebase --abort
+                  echo "Rebase conflict on memory/*.json; stopping so nothing is overwritten." >&2
+                  exit 1
+                fi
               fi
-              if git push -q origin HEAD:main; then pushed=1; break; fi
-              echo "main moved during push (attempt $attempt); retrying..."
+              if git push -q origin "HEAD:$MEM_BRANCH"; then pushed=1; break; fi
+              echo "Push of pass $pass failed (attempt $attempt); retrying..."
               sleep 5
             done
-            if [ "$pushed" -ne 1 ]; then echo "Could not push pass $pass after five attempts" >&2; exit 1; fi
-            echo "Pass $pass pushed."
+            if [ "$pushed" -ne 1 ]; then echo "Could not push pass $pass to $MEM_BRANCH after five attempts" >&2; exit 1; fi
+            echo "Pass $pass pushed to $MEM_BRANCH."
+            cd "$GITHUB_WORKSPACE"
           done
           echo "Time budget used. Everything so far is pushed; run the workflow again to continue."

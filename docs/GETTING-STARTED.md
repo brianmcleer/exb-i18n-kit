@@ -40,4 +40,4 @@ get translated, changed words get re-checked, deleted words disappear.
 ## Make it better for everyone
 
 - Add your widget to `memory/sources.json` (pull request) so the robot translates it too.
-- Speak a language? Fix words in `memory/<language>.json` and mark them `"reviewed": true`.
+- Speak a language? Fix words in `memory/<language>.json` on the `translation-memory` branch and mark them `"reviewed": true`.

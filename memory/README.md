@@ -1,5 +1,7 @@
 # Shared translation memory
 
+The dictionaries live on the **[`translation-memory`](https://github.com/brianmcleer/exb-i18n-kit/tree/translation-memory/memory) branch**, in its `memory/` folder. `main` is protected (changes only through pull requests) and the Action's token cannot push to it, so the Action writes to that branch instead. This folder on `main` holds `sources.json` (which widgets to translate) and this README.
+
 One JSON file per Experience Builder locale (`es.json`, `fr.json`, ...), keyed by the exact English string:
 
 ```json
@@ -10,7 +12,7 @@ One JSON file per Experience Builder locale (`es.json`, `fr.json`, ...), keyed b
 - It works in batches (150 new strings per locale per pass) and pushes after every pass, so a long first run keeps what it finished. If a run stops at its time budget, run the workflow again and it carries on.
 - It never changes an entry that already exists.
 - Locales LibreTranslate does not support get no machine entries; those widgets show English for anything Esri does not ship.
-- **Fix a translation:** edit the `t` value, set `"reviewed": true`, open a pull request. Reviewed entries ship as `community`; unreviewed ones ship as `machine` and stay in each widget's review list.
+- **Fix a translation:** on the `translation-memory` branch, edit the `t` value, set `"reviewed": true`, open a pull request against `translation-memory`. Reviewed entries ship as `community`; unreviewed ones ship as `machine` and stay in each widget's review list.
 - **Add your widget:** add the raw URLs of its `translations/default.ts` files to `sources.json` by pull request. Only register public widgets, and check the English first: no tokens, internal URLs or data.
 
-`exb-i18n sync` reads this folder from GitHub automatically (after Esri's own translations, which always win). `--no-memory` turns it off.
+`exb-i18n sync` reads `https://raw.githubusercontent.com/brianmcleer/exb-i18n-kit/translation-memory/memory` automatically (after Esri's own translations, which always win). `--no-memory` turns it off.
