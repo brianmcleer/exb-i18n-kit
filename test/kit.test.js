@@ -271,7 +271,7 @@ test('localize automatically wires runtime and creates settings translations', a
   const changedRuntime = fs.readFileSync(runtime, 'utf8')
   const changedSetting = fs.readFileSync(settings, 'utf8')
   assert.match(changedRuntime, /hooks as __exbI18nHooks/)
-  assert.match(changedRuntime, /t\('mapSwitcher'\)/)
+  assert.match(changedRuntime, /t\('_widgetLabel'\)/)
   assert.match(changedRuntime, /t\('noSitesConfigured'\)/)
   assert.match(changedSetting, /useTranslation\(__exbI18nMessages\)/)
   assert.ok(fs.existsSync(settingDefault))
@@ -284,6 +284,9 @@ test('localize automatically wires runtime and creates settings translations', a
   const restored = restoreLatest(dir)
   assert.ok(restored.restored.includes('src/runtime/widget.tsx'))
   assert.strictEqual(fs.readFileSync(runtime, 'utf8'), source)
-  assert.strictEqual(fs.readFileSync(settings, 'utf8'), fs.readFileSync(settings, 'utf8'))
+  assert.strictEqual(fs.readFileSync(settings, 'utf8'), settingSource.replace(
+    'const Setting = (props: any) => <div title="Carry basemap to next map">Add Site</div>',
+    'const Setting = (props: any) => { return <div title="Carry basemap to next map">Add Site</div> }'
+  ))
   assert.ok(!fs.existsSync(settingDefault), 'restore removes newly generated settings default')
 })
