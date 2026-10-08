@@ -138,7 +138,7 @@ test('machine translation provider (LibreTranslate protocol) with placeholder gu
       res.end(JSON.stringify({ translatedText: Array.isArray(q) ? q.map(tr) : tr(q) }))
     })
   })
-  await new Promise(r => server.listen(0, r))
+  await new Promise(r => server.listen(0, '127.0.0.1', r))
   const url = `http://127.0.0.1:${server.address().port}`
   try {
     const dir = freshWidget()
