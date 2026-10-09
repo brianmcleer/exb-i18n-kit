@@ -371,6 +371,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{{#if Municipality}}\n  <p>Incorporated {Municipality}</p>\n{{else}}\n  <p>Unincorporated {Township} Township</p>\n{{/if}}": {
+  "t": "{{# ja pašvaldība}} <p>Incorporated {Municipality}</p> {{else}} L-glicīts {Township} Pilsētas uzņēmums {{/ ja}}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{activeLabel}: a check mark and border show the basemap being used.": {
   "t": "{activeLabel}: pārbaudes zīme un robeža rāda, ka pamatkarte tiek izmantota.",
   "src": "libretranslate",
@@ -397,6 +403,12 @@
  },
  "{address}": {
   "t": "{address}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{alias} ({type}) : click to insert": {
+  "t": "{alias} ({type}) : noklikšķiniet, lai ievietotu",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2483,6 +2495,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "A closing {{/if}} needs an opening {{#if FIELD_NAME}}.": {
+  "t": "Noslēgumam {{/ ja}} nepieciešama atvēršana {{#ja FIELD NAME}}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "a Comments sheet": {
   "t": "Komentāru lapa",
   "src": "libretranslate",
@@ -2749,6 +2767,12 @@
  },
  "A report link works for anyone who can open this app, so it is a quick way to hand a property to a colleague.": {
   "t": "Ziņojuma saite strādā ikvienam, kurš var atvērt šo lietotni, tāpēc tas ir ātrs veids, kā nodot īpašumu kolēģim.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A REST URL to a GeocodeServer. Defaults to the ArcGIS World Geocoder. Use an internal composite locator if available.": {
+  "t": "ATPŪTA GeocodeServer URL. Noklusējums ArcGIS World Geocoder. Ja pieejams, izmantojiet iekšējo salikto vietrādi.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3103,6 +3127,12 @@
  },
  "Add a \"Show only this layer\" action": {
   "t": "Pievienot \"Rādīt tikai šo slāni\" darbību",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add a closing {{/if}} for every opening if block.": {
+  "t": "Pievienojiet aizvēršanas {{/ ja}} katrai atvēršanai, ja bloks.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3803,6 +3833,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Address input label": {
+  "t": "Adreses ievades etiķete",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address input placeholder": {
+  "t": "Adreses ievades vietturis",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address input tooltip": {
+  "t": "Adreses ievades paskaidre",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Address Inspection Failed": {
   "t": "Neizdevās veikt adrešu pārbaudi",
   "src": "libretranslate",
@@ -3841,6 +3889,12 @@
  },
  "Address lookup failed.": {
   "t": "Adrešu meklēšana neveiksmīga.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address lookup results. Swipe up or down to scroll.": {
+  "t": "Adrese Lookup rezultāti. Pavelciet uz augšu vai leju, lai ritinātu.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4727,6 +4781,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "An {{else}} needs an opening {{#if FIELD_NAME}}.": {
+  "t": "An{else}} nepieciešama atvēršana {{#ja FIELD NAME}}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "an address": {
   "t": "adrese",
   "src": "libretranslate",
@@ -5585,6 +5645,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Available fields": {
+  "t": "Pieejamie lauki",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Available formats": {
   "t": "Pieejamie formāti",
   "src": "libretranslate",
@@ -5893,6 +5959,12 @@
  },
  "Badges on a card or in the Activity column: {badges}.": {
   "t": "Nozīmītes kartē vai darbības slejā: {badges}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Banner (colored band with optional title)": {
+  "t": "Banners (krāsaina josla ar neobligātu nosaukumu)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6515,6 +6587,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Brand colors": {
+  "t": "Zīmola krāsas",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Breakpoint (px)": {
   "t": "Pārtraukuma punkts (px)",
   "src": "libretranslate",
@@ -6829,6 +6907,12 @@
  },
  "Call {join}": {
   "t": "Izsaukt {join}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Call {part}": {
+  "t": "Izsaukt {part}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7492,6 +7576,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Check the result template:": {
+  "t": "Pārbaudīt rezultātu sagatavi:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Checked {rows} rows, {warnings} warnings": {
   "t": "Pārbaudīts {rows} rindas, {warnings} brīdinājumi",
@@ -9209,6 +9299,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Close results and search another address": {
+  "t": "Aizvērt rezultātus un meklēt citu adresi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Close selection mode picker": {
   "t": "Aizvērt izvēles režīma izvēlētāju",
   "src": "libretranslate",
@@ -9899,6 +9995,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Conditional template example": {
+  "t": "Izvēles šablona piemērs",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Configuration": {
   "t": "Konfigurācija",
   "src": "libretranslate",
@@ -9922,6 +10024,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Configuration imported successfully.": {
+  "t": "Konfigurācija veiksmīgi importēta.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Configuration imported.": {
   "t": "Konfigurācija importēta.",
@@ -10234,6 +10342,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Constrain search to": {
+  "t": "Ierobežojumu meklēšana uz",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Contact": {
   "t": "Kontaktinformācija",
@@ -10967,6 +11081,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Could not read the file. Make sure it is a valid Zone Lookup XML export.": {
+  "t": "Neizdevās nolasīt failu. Pārliecinieties, ka tas ir derīgs Zone Lookup XML eksports.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Could not read the map. Save the app, reload the builder, and try again.": {
   "t": "Neizdevās nolasīt karti. Saglabāt lietotni, pārlādēt celtnieks, un mēģiniet vēlreiz.",
   "src": "libretranslate",
@@ -11251,6 +11371,12 @@
  },
  "Current configuration as XML (read only)": {
   "t": "Pašreizējā XML konfigurācija (tikai lasāma)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Current map extent": {
+  "t": "Aktīvās kartes apjoms",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13499,6 +13625,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Download these settings as an XML file.": {
+  "t": "Lejupielādēt šos iestatījumus kā XML failu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Download unmatched": {
   "t": "Lejupielādēt nepārspējamu",
   "src": "libretranslate",
@@ -14189,6 +14321,42 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "e.g. \"Address is outside the service area\"": {
+  "t": "Piemēram, \"Adrese atrodas ārpus pakalpojumu zonas\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Enter an address above to see your results.\"": {
+  "t": "piem \"Ievadiet adresi iepriekš, lai redzētu savus rezultātus.\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Find your area\"": {
+  "t": "Piemēram, \"Atrodi savu apgabalu\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Find your pickup area\"": {
+  "t": "Piemēram, \"Atrodiet pikapa zonu\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Lookup results\"": {
+  "t": "Piemēram, “Reaģēšanas rezultāti”",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Try another address\"": {
+  "t": "Piemēram, \"Izmēģiniet citu adresi\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "e.g. /Parcels/FeatureServer/0": {
   "t": "Piemēram, / Parcels/FeatureServer/0",
   "src": "libretranslate",
@@ -14359,6 +14527,12 @@
  },
  "Each format is one line in the result popup and the Results list. X and Y take a WKID; leave it blank for the map's coordinate system.": {
   "t": "Katrs formāts ir viena rinda rezultātu uznirstošo logu un rezultātu sarakstu. X un Y ņem WKID; atstājiet to tukšu kartes koordinātu sistēmai.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Each if block can have only one {{else}}.": {
+  "t": "Katrs, ja bloks var būt tikai viens {{else}}.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14677,6 +14851,12 @@
  },
  "Email": {
   "t": "E- pasts",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Embed image (default)": {
+  "t": "Iegultais attēls (noklusētais)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16453,6 +16633,12 @@
  },
  "Export to PDF": {
   "t": "Eksportēt uz PDF",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export to XML": {
+  "t": "Eksportēt uz XML",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18569,6 +18755,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Generic error message": {
+  "t": "Vispārējs kļūdas ziņojums",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Geocode": {
   "t": "Ģeokods",
   "src": "libretranslate",
@@ -18611,6 +18803,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Geocoding": {
+  "t": "Ģeokodēšana",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Geocoding failed": {
   "t": "Ģeokodēšana neizdevās",
   "src": "libretranslate",
@@ -18634,6 +18832,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Geocoding service URL": {
+  "t": "Ģeokodēšanas pakalpojuma URL",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Geocoding Service URL": {
   "t": "Ģeokodēšanas pakalpojuma URL",
@@ -19727,6 +19931,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Header style": {
+  "t": "Galvenes stils",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Header Text": {
   "t": "Galvenes teksts",
   "src": "libretranslate",
@@ -19771,6 +19981,12 @@
  },
  "Heading (title)": {
   "t": "Pozīcija (nosaukums)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Heading / label color": {
+  "t": "Pozīcijas / etiķetes krāsa",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19885,6 +20101,18 @@
  },
  "Helvetica (Sans-serif)": {
   "t": "Helvetica (Sans-serif)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hero subtitle field": {
+  "t": "Varoņa apakšvirsraksta lauks",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hero title field": {
+  "t": "Varoņa nosaukuma lauks",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20123,6 +20351,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Highlight fill color": {
+  "t": "Izcelšanas aizpildījuma krāsa",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Highlight Geometry": {
   "t": "Izcelt ģeometriju",
   "src": "libretranslate",
@@ -20149,6 +20383,12 @@
  },
  "Highlight outline color": {
   "t": "Izcelšanas kontūras krāsa",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Highlight outline width (pt)": {
+  "t": "Izcelt aprises platumu (pt)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20771,6 +21011,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Import / export": {
+  "t": "Imports / eksports",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Import / export configuration": {
   "t": "Importēt / eksportēt konfigurāciju",
   "src": "libretranslate",
@@ -20881,6 +21127,12 @@
  },
  "Import from file": {
   "t": "Importēt no faila",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import from XML": {
+  "t": "Importēt no XML",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21407,6 +21659,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Insert token for field {alias}": {
+  "t": "Ievietot lauka marķieri {alias}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Inside message": {
   "t": "Ziņojums",
   "src": "libretranslate",
@@ -21541,6 +21799,12 @@
  },
  "Interval": {
   "t": "Intervāls",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Intro HTML (optional)": {
+  "t": "HTML ievads (pēc izvēles)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22351,6 +22615,12 @@
  },
  "Labels": {
   "t": "Etiķetes",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Labels & messages": {
+  "t": "Etiķetes un vēstules",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23693,6 +23963,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Link to image URL": {
+  "t": "Saite uz attēla URL",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Link URL Field": {
   "t": "Saites URL lauks",
   "src": "libretranslate",
@@ -23879,6 +24155,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Load settings from a previously exported XML file.": {
+  "t": "Ielādēt iestatījumus no iepriekš eksportēta XML faila.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Load settings from an .xml file": {
   "t": "Ielādēt iestatījumus no .xml faila",
   "src": "libretranslate",
@@ -24000,6 +24282,12 @@
   "added": "2026-10-09"
  },
  "Loading fields...": {
+  "t": "Ielādē laukus...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Loading fields…": {
   "t": "Ielādē laukus...",
   "src": "libretranslate",
   "reviewed": false,
@@ -24281,6 +24569,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Logo image URL": {
+  "t": "Logo attēla URL",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Logo preview": {
   "t": "Logo priekšskatījums",
   "src": "libretranslate",
@@ -24289,6 +24583,12 @@
  },
  "Logo shape: default (rectangle), circle (circular crop), or rounded (rounded corners).": {
   "t": "Logo forma: noklusējuma (taisnstūris), aplis (apaļa kultūru), vai noapaļota (noapaļoti stūri).",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Logo source": {
+  "t": "Logo avots",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -25327,6 +25627,12 @@
  },
  "Max photo size (MB)": {
   "t": "Maksimālais fotoattēla izmērs (MB)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Max recent searches to keep": {
+  "t": "Maks. nesenos meklējumus, lai saglabātu",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -26663,6 +26969,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "New search": {
+  "t": "Jauna meklēšana",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "New traverse": {
   "t": "Jauns traverss",
   "src": "libretranslate",
@@ -26833,6 +27145,12 @@
  },
  "No comments yet.": {
   "t": "Vēl nav komentāru.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No constraint": {
+  "t": "Nav ierobežojuma",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -27395,6 +27713,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No recognized settings were found in the file.": {
+  "t": "Failā netika atrasti atzīti iestatījumi.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No records found in selected layer": {
   "t": "Nav ierakstu izvēlētajā slānī",
   "src": "libretranslate",
@@ -27589,6 +27913,12 @@
  },
  "No-result message": {
   "t": "Ziņojums “Nav rezultāta”",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No-results message": {
+  "t": "Ziņojums “Nav rezultātu”",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -28343,6 +28673,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "On phones and touch screens: larger touch targets (44px), 16px input font to prevent iOS auto-zoom when focusing the search box, full-width action buttons, thumb-reachable share menu, and tighter spacing on narrow screens. Recommended on. Turn off to keep desktop sizing everywhere.": {
+  "t": "Telefonos un touch ekrānos: lielāki touch mērķi (44px), 16px ievades fonts, lai novērstu iOS auto-zoom, fokusējot meklēšanas kasti, pilnplatuma darbības pogas, īkšķa sasniedzama kopīgošanas izvēlne, un šaurāku attālumu uz šauriem ekrāniem. Ieteicams. Izslēdziet, lai saglabātu darbvirsmas izmērus visur.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "On select, each rule runs an intersect query and appends its HTML to the popup. Tokens:": {
   "t": "Izvēloties, katrs noteikums vada krustotu vaicājumu un pievieno tā HTML uznirstošajam logam. Žetoni:",
   "src": "libretranslate",
@@ -28961,6 +29297,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Optimize for iframe": {
+  "t": "Optimizēt iframe",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Optimize for mobile": {
+  "t": "Optimizēt mobilajam",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "optional": {
   "t": "Pēc izvēles",
   "src": "libretranslate",
@@ -29033,8 +29381,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Optional. Override the theme accent and heading colors used in the top UI (label, icons, \"Use my location\", focus rings). Leave blank to inherit from the page theme.": {
+  "t": "Pēc izvēles. Aizstāt tēmu akcentu un pozīcijas krāsas, ko izmanto top UI (marķējums, ikonas, \"Izmantojiet manu atrašanās vietu\", fokusa gredzeni). Atstājiet tukšu, lai mantotu no lapas tēmas.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Optional. Overrides the title field. The identified feature is available as $feature.": {
   "t": "Pēc izvēles. Aizstāj titullauku. Konstatētā funkcija ir pieejama kā $ Feature.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Optional. Pick a field to render as a big colored badge at the top of the result card, plus an optional subtitle underneath. Leave both blank to skip the hero and use only the HTML template.": {
+  "t": "Pēc izvēles. Izvēlieties lauku, ko renderēt kā lielu krāsainu žetonu rezultāta kartes augšdaļā, plus izvēles apakšvirsraksts zem tā. Atstājiet abus tukšus, lai izlaistu varoni un izmantojiet tikai HTML sagatavi.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -29315,6 +29675,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Outside service area message": {
+  "t": "Ziņojums par ārpus servisa zonu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Outside the current map scale": {
   "t": "Ārpus pašreizējās kartes skalas",
   "src": "libretranslate",
@@ -29335,6 +29701,18 @@
  },
  "outside this coordinate system's area": {
   "t": "ārpus šīs koordinātu sistēmas apgabala",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Outside-area heading": {
+  "t": "Ārpuszonas pozīcija",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Outside-area retry button label": {
+  "t": "Ārpus laukuma atkārtošanas pogas etiķete",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -30449,8 +30827,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Placeholder heading (before search)": {
+  "t": "Vietas turētāja kurss (pirms meklēšanas)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Placeholder message (before search)": {
+  "t": "Vietas turētāja ziņojums (pirms meklēšanas)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Placement": {
   "t": "Novietojums",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Plain (intro as ordinary text)": {
+  "t": "Vienkāršs (intro kā parastais teksts)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -31555,6 +31951,12 @@
  },
  "Primary": {
   "t": "Sākumizglītība",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Primary brand color": {
+  "t": "Primārā zīmola krāsa",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -33257,6 +33659,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Reset button label": {
+  "t": "Atstatīt pogas etiķeti",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reset button tooltip": {
+  "t": "Atstatīt paskaidres pogu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Reset Default Area Units": {
   "t": "Atstatīt noklusētās apgabala vienības",
   "src": "libretranslate",
@@ -33337,6 +33751,12 @@
  },
  "Reset to layout grid": {
   "t": "Atstatīt koordinātu tīklā",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reset to theme": {
+  "t": "Atstatīt tēmu",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -33485,6 +33905,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Result hero": {
+  "t": "Rezultātu varonis",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Result HTML template": {
+  "t": "Rezultāts HTML sagatave",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Result navigation": {
   "t": "Rezultātu navigācija",
   "src": "libretranslate",
@@ -33503,6 +33935,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Result template": {
+  "t": "Rezultātu sagatave",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Results": {
   "t": "Rezultāti",
   "src": "libretranslate",
@@ -33511,6 +33949,12 @@
  },
  "Results found:": {
   "t": "Rezultāti",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Results found.": {
+  "t": "Rezultāti.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -34141,6 +34585,12 @@
  },
  "Save the traverse lines, points, and closed parcel polygon to the configured layers": {
   "t": "Saglabāt traversa līnijas, punktus un slēgtu paku daudzstūri uz konfigurētajiem slāņiem",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Save these settings as an XML file or load them from a previously exported file. The map widget and zone layer references stay app-specific and need to be re-selected after importing.": {
+  "t": "Saglabāt šos iestatījumus kā XML failu vai ielādēt tos no iepriekš eksportēta faila. Kartes logdaļa un zonas slānis atsauces paliek lietotnei specifiskas un pēc importēšanas ir atkārtoti jāizvēlas.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -35153,6 +35603,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Select a map widget": {
+  "t": "Izvēlieties kartes sīkrīku",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select a Map widget": {
   "t": "Izvēlieties kartes sīkrīku",
   "src": "libretranslate",
@@ -35221,6 +35677,12 @@
  },
  "Select a widget...": {
   "t": "Izvēlieties sīkrīku...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select a zone layer above to see its fields.": {
+  "t": "Izvēlieties zonas slāni virs tā, lai redzētu tās laukus.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -35575,6 +36037,12 @@
  },
  "Select the widget controller containing Mailing Labels": {
   "t": "Izvēlieties logdaļu kontrolieri, kas satur vēstkopas etiķetes",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select the zone layer": {
+  "t": "Izvēlieties zonas slāni",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -36185,6 +36653,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Share email subject line": {
+  "t": "Kopīgot e- pasta temata rindu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Share options": {
   "t": "Kopīgošanas opcijas",
   "src": "libretranslate",
@@ -36251,6 +36725,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show \"Click map\" mode toggle": {
+  "t": "Rādīt pārslēgšanas režīmu \"Klikšķiniet kartē\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show \"Show print area\" toggle": {
   "t": "Rādīt \"Rādīt drukas laukumu\" pārslēgt",
   "src": "libretranslate",
@@ -36259,6 +36739,12 @@
  },
  "Show \"Use current location\"": {
   "t": "Rādīt \"Izmantot pašreizējo atrašanās vietu\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show \"Use my location\" button": {
+  "t": "Rādīt \"Izmantojiet manu atrašanās vietu\" pogu",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -36911,8 +37397,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show Print button on result": {
+  "t": "Rādīt Drukas pogu pie rezultāta",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show Related Table Summaries": {
   "t": "Rādīt saistīto tabulu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show reset button": {
+  "t": "Rādīt atiestatīšanas pogu",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -36955,6 +37453,12 @@
  },
  "Show Segment Labels": {
   "t": "Rādīt segmentu etiķetes",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show Share button on result": {
+  "t": "Rādīt Kopīgošanas pogu rezultāta brīdī",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -37165,6 +37669,12 @@
  },
  "Showing only": {
   "t": "Tikai tiek rādīts",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Shown above the address input. Plain HTML.": {
+  "t": "Parādīts virs adreses ievades. Vienkāršs HTML.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -38837,6 +39347,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Submit button tooltip": {
+  "t": "Nosūtīt pogas paskaidri",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Submit Report": {
   "t": "Iesniegt ziņojumu",
   "src": "libretranslate",
@@ -40415,6 +40931,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The map where the address pin and zone highlight are drawn. Optional : the widget still returns results without a map.": {
+  "t": "Karte, kurā tiek zīmēta adrešu pin un zonas izcelšana. Izvēles : widget joprojām atgriež rezultātus bez kartes.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The Map widget this Parcel Drafter works against": {
   "t": "Kartes logdaļa, pret kuru darbojas Parcel melnraksts",
   "src": "libretranslate",
@@ -40582,6 +41104,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The polygon feature layer that holds the zones.": {
+  "t": "Daudzstūra iezīme slānis, kas tur zonas.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The presenter window does not open: the browser blocked a pop up. Allow pop ups for this site and press W again.": {
   "t": "Neatveras prezentācijas logs: pārlūks bloķēja uznirstošo logu. Ļaut šai vietnei parādīties un vēlreiz nospiest W.",
@@ -41245,6 +41773,12 @@
  },
  "This field is required for generating labels": {
   "t": "Šis lauks ir vajadzīgs marķējumu radīšanai",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "This guide follows the app: it only describes the buttons this app is showing you.": {
+  "t": "Šī rokasgrāmata seko lietotnei: tā tikai apraksta pogas, kuras šī programma jums rāda.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -43541,6 +44075,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Use {{#if FIELD_NAME}}, {{else}}, and {{/if}}. Field names may contain letters, numbers, and underscores and may not start with a number. Close each directive with two braces.": {
+  "t": "Lietot {{#ja FIELD NAVE}}, {{else}} un {{/ ja}}. Lauka nosaukumi var saturēt burtus, ciparus un pasvītrojumus, un tos nedrīkst sākt ar numuru. Aizvērt katru direktīvu ar divām breketes.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use {{#if FIELD_NAME}}...{{else}}...{{/if}} to choose text when a field is populated or empty. Missing, null, empty, and whitespace-only values use the else branch. Zero and false count as populated. This is template syntax, not Arcade.": {
+  "t": "Lietot {{#ja FIELD NAVE}}... {{else}}...{ {/ ja}} izvēlēties tekstu, kad lauks ir aizpildīts vai tukšs. Trūkstošās, nulles, tukšās un tikai atstarpes vērtības izmanto pārējo zaru. Nulles un viltus skaita kā apdzīvots. Tas ir šablons sintakse, nevis Arcade.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use {FIELD_NAME} to insert a field value. Field names ignore capitalization, and values are HTML-escaped. Date fields use long English dates in UTC.": {
+  "t": "Lietot {FIELD_NAME} ievietot lauka vērtību. Lauka nosaukumi ignorē kapitalizāciju, un vērtības ir HTML-escaped. Datumu lauki izmantot ilgi angļu datumus UTC.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Use {fieldName} placeholders from the added data.": {
   "t": "Lietot {fieldName} vietturi no pievienotajiem datiem.",
   "src": "libretranslate",
@@ -43561,6 +44113,12 @@
  },
  "Use additional pages": {
   "t": "Izmantot papildu lapas",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use an HTTP(S) or app-relative image URL. Only the link is saved; the image is loaded when exporting, not in the live preview. External servers must allow CORS. Unavailable images use the layout picture placeholder.": {
+  "t": "Izmantojiet HTTP( S) vai lietotnes relatīvā attēla URL. Tiek saglabāta tikai saite; eksportējot attēls tiek ielādēts, nevis tiešraidē. Ārējiem serveriem jāļauj CORS. Nav pieejami attēli izmanto attēla izkārtojuma vietturi.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -43669,6 +44227,12 @@
  },
  "Use My Location": {
   "t": "Izmantot manu vietu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use no more than 64 nested if blocks.": {
+  "t": "Bloku gadījumā izmantot ne vairāk kā 64 ligzdas.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -43879,6 +44443,12 @@
  },
  "Used between this coordinate system and WGS84. Automatic picks the best equation-based transformation for the area of the map.": {
   "t": "Izmanto starp šo koordinātu sistēmu un WGS84. Automātiski izvēlas labāko vienādojumu balstītu transformāciju kartes zonā.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Used by picture elements without their own image. Switching sources clears the previous image or link.": {
+  "t": "Izmanto attēla elementi bez sava attēla. Pārslēdzot avotus, tiek notīrīts iepriekšējais attēls vai saite.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -45089,6 +45659,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Widget fills its parent’s height and stretches the result card to remove void space below. Use when embedding as a fixed-size iframe.": {
+  "t": "Logdaļa aizpilda vecāka augstumu un izstiepj rezultātu karti, lai noņemtu tukšumu zemāk. Lietot, ja iegulšanu kā fiksēta izmēra iframe.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Widget functions": {
   "t": "Logdaļu funkcijas",
   "src": "libretranslate",
@@ -45767,6 +46343,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Zone layer": {
+  "t": "Zonas slānis",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zone layer extent": {
+  "t": "Zonas slāņa apjoms",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Zone Lookup": {
   "t": "Zona",
   "src": "libretranslate",
@@ -45823,6 +46411,12 @@
  },
  "Zoom is the map's zoom level. A bigger number means the map is zoomed in closer.": {
   "t": "Zoom ir kartes tālummaiņas līmenis. Lielāks skaits nozīmē, ka karte tiek tuvināta tuvāk.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zoom level after lookup": {
+  "t": "Palielināt līmeni pēc apsekošanas",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
