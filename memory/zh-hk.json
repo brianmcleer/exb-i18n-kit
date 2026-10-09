@@ -1487,6 +1487,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Add as many fonts as you like - each appears in the widget Font menu. Loaded by URL at export time - nothing is embedded in the widget. Must be a static TTF (not WOFF/WOFF2/OTF, not a Google Fonts CSS link). From github.com/google/fonts use the Raw URL of a .ttf - prefer files under a static/ folder; some variable-font TTFs will not embed in PDF. GitHub page URLs are converted to raw automatically. A City web server with a CORS header also works (e.g. a licensed Tahoma TTF). PDF and image formats embed the real glyphs; SVG references the font by name only.": {
+  "t": "添加您想要的字型 - 每個字都出現在元件字型選單中 。 匯出時已被 URL 載入 - 元件中沒有嵌入 。 必須是靜態的 TTF( 不是 WOFF/ WOFF2/ OTF, 不是 Google Fonts CSS 連結) 。 從 github.com/ google/ fonts 中, 使用 . ttf 的 Raw URL - 比較喜歡靜態/ 資料夾下的檔案; 一些變數型的 TTF 不會嵌入 PDF 中 。 GitHub 頁面網址自動轉換成原始 。 配有 CORS 頭的 City 網頁伺服器也有效( 例如有授權的 Tahoma TTF ) 。 PDF 和影像格式嵌入了真正的格言; SVG 只用名稱來參考字型 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add at least one line before exporting.": {
   "t": "匯出前至少增加一行 。",
   "src": "libretranslate",
@@ -1549,6 +1555,12 @@
  },
  "Add extra layer tools (flash, copy URL, refresh, details)": {
   "t": "新增層面工具( flash, 复制 URL, 刷新, 詳情)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add font": {
+  "t": "新增字体",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1685,6 +1697,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Add this font to the list. It appears in the widget Font menu.": {
+  "t": "添加此字型到清單中 。 它出現在元件字型選單中 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add to favorites": {
   "t": "添加到最愛",
   "src": "libretranslate",
@@ -1721,6 +1739,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Added {name}.": {
+  "t": "已新增 {name}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Added to the map as": {
   "t": "新增到地圖",
   "src": "libretranslate",
@@ -1753,6 +1777,12 @@
  },
  "Additional linear units: {join}": {
   "t": "新增線性單位 : {join}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Additional pages (PDF only; same sheet size)": {
+  "t": "新增頁面( 只有 PDF; 相同的工作表大小 )",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1925,6 +1955,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Adds a Print area panel to the widget so users can preview the exact print extent and control scale.": {
+  "t": "新增列印區面板到元件中, 讓使用者可以預覽精确的列印範圍與控制大小 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Adds extra spacing between segment labels so they don't overlap on printed maps.": {
   "t": "新增區段標籤間距, 以免在打印的地圖上重複 。",
   "src": "libretranslate",
@@ -1993,6 +2029,12 @@
  },
  "Advanced options cards open by default": {
   "t": "默认開啟的高级選項牌",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Advanced options open by default": {
+  "t": "默认開啟的高级選項",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2212,6 +2254,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Allow advanced options": {
+  "t": "允許高级選項",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Allow batch editing": {
   "t": "允許批次編輯",
@@ -2489,6 +2537,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Applied: {n} layout(s); defaults: legend {legend}, overview {overview}, grid {grid}, selected features {selection}.": {
+  "t": "已套用 : {n} 佈局; 預設: 傳奇 {legend}概述 {overview}网格 {grid},選擇的特性 {selection}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Applies to all page text (title, labels, footer) in every export format. Limited to fonts built into PDF (Helvetica, Times, Courier); the .pagx font (e.g. Tahoma) maps to the sans-serif family.": {
+  "t": "應用於每一個匯出格式的所有頁面文字( 標題、 標籤、 腳) 。 限於建立於 PDF( Helvetica, Times, Courier) 的字体; .",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Apply": {
   "t": "套用",
   "src": "libretranslate",
@@ -2500,6 +2560,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Apply ALL settings to every layout": {
+  "t": "將所有設定套用到每個佈局",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Apply all text style changes and close the editor": {
   "t": "套用所有文字樣式變更並關閉編輯器",
@@ -2521,6 +2587,12 @@
  },
  "Apply the loaded or pasted settings to this widget.": {
   "t": "將已載入或貼入的設定套用到此元件 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Apply these settings to all layouts": {
+  "t": "將這些設定套用到所有布局",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2741,6 +2813,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Automatic (fit to legend content)": {
+  "t": "自動( 符合傳奇內容 )",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Automatic (read the map legend directly)": {
+  "t": "自動( 直接讀取地圖傳說)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Available formats": {
+  "t": "可用格式",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Avenir Next": {
   "t": "下一步",
   "src": "libretranslate",
@@ -2824,6 +2914,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Background and border": {
+  "t": "背景和邊框",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Background Color": {
   "t": "背景顏色",
@@ -3041,6 +3137,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Black": {
+  "t": "黑色",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "blank": {
   "t": "空白",
   "src": "libretranslate",
@@ -3100,6 +3202,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Blue": {
+  "t": "藍",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Bold": {
   "t": "粗体",
@@ -3185,6 +3293,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Bold TTF URL (optional)": {
+  "t": "粗體 TTF 網址( 可選擇的)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Bold:": {
   "t": "粗體 :",
   "src": "libretranslate",
@@ -3239,6 +3353,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Bottom left": {
+  "t": "左下",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Bottom left (over map)": {
   "t": "左下( 翻譯地圖)",
   "src": "libretranslate",
@@ -3247,6 +3367,18 @@
  },
  "Bottom panel": {
   "t": "底板",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Bottom panel (below the map)": {
+  "t": "底面板( 在地圖下方)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Bottom right": {
+  "t": "右下",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3418,6 +3550,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Build XML from the current configuration and show it below.": {
+  "t": "從目前的設定建立 XML , 并在下面顯示 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Bulk actions": {
   "t": "散列動作",
@@ -3889,6 +4027,12 @@
  },
  "Choose color": {
   "t": "選擇顏色",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose file…": {
+  "t": "選擇檔案...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4763,6 +4907,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Client-side (.pagx layouts)": {
+  "t": "客戶端 (. pagx 佈局)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Client-side renders .pagx layouts in the browser (no server). Print service posts the map to an Esri ExportWebMap service for server-side layouts.": {
+  "t": "客戶端在瀏覽器( 沒有伺服器) 中使 . pagx 排版 。 列印服務 將地圖發送至 Esri ExportWebMap 伺服器端版式服務 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Close": {
   "t": "關閉",
   "src": "libretranslate",
@@ -4949,6 +5105,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Comma-separated layout template names exactly as the service expects them (e.g. letter-ansi-a-landscape, a4-landscape, map-only).": {
+  "t": "逗號分隔的版式樣式名稱完全如服務所期望的(例如:字母- ansi- a- landscape, a4- landscape, 只使用地圖) 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comma-separated scale denominators offered by the picker, e.g. 1000, 2400, 6000, 12000, 24000.": {
+  "t": "采摘人提供的逗號分母,例如1000、24、6000、12000、24000。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Company": {
   "t": "公司",
   "src": "libretranslate",
@@ -5113,6 +5281,12 @@
  },
  "Configuration imported.": {
   "t": "配置已匯入 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Configuration imported. Save the app to apply it.": {
+  "t": "配置已匯入 。 儲存應用程式以應用 。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5375,6 +5549,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Coordinate labels": {
+  "t": "座標標籤",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Coordinate precision in popup results": {
   "t": "彈出結果的坐标精度",
   "src": "libretranslate",
@@ -5447,8 +5627,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copied to clipboard.": {
+  "t": "已复制到剪貼板 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copied!": {
   "t": "完成!",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Copies this layout’s DPI, format, extent, legend, grid and overview to all other layouts. Page size and imported .pagx elements stay per layout.": {
+  "t": "將此佈局的DPI 、 格式、 範圍、 傳說、 格子和概述复制到其它所有布局 。 頁面大小與匯入的 .pagx 元素按布局保留 。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5585,6 +5777,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copy the exported XML to the clipboard.": {
+  "t": "將匯出的 XML 复制到剪贴板 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copy to Clipboard": {
   "t": "复制到剪貼簿",
   "src": "libretranslate",
@@ -5621,8 +5819,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Corner coordinate labels": {
+  "t": "角落坐标標籤",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Corner coordinates": {
   "t": "角落座標",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not access the clipboard - select the text and copy manually.": {
+  "t": "無法存取剪貼簿 - 手動選擇文字和複製 。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5635,6 +5845,12 @@
  },
  "Could not export the settings.": {
   "t": "無法匯出設定值 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not read that file.": {
+  "t": "無法讀取檔案 。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5945,6 +6161,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Custom font name": {
+  "t": "自訂字型名稱",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Custom font TTF URL": {
+  "t": "自訂字型 TTF 網址",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Custom Label Dimensions": {
   "t": "自訂標籤尺寸",
   "src": "libretranslate",
@@ -6113,6 +6341,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default / forced scale (1:x)": {
+  "t": "預設 / 強制尺度 (1: X)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default Address 1 Field": {
   "t": "默认地址 1 字段",
   "src": "libretranslate",
@@ -6233,6 +6467,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default font family": {
+  "t": "默认字型家族",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default format": {
   "t": "默认格式",
   "src": "libretranslate",
@@ -6265,6 +6505,12 @@
  },
  "Default Linear Unit:": {
   "t": "默认線性單位 :",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default logo": {
+  "t": "預設標籤",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6313,6 +6559,12 @@
  },
  "Default scale bar units": {
   "t": "預設比例列單位",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default scale mode": {
+  "t": "預設比例模式",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6499,6 +6751,12 @@
  },
  "Delete Selected ({selectedGraphicsCount})": {
   "t": "刪除所選取的( E){selectedGraphicsCount})",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Delete the selected layout.": {
+  "t": "刪除選取的佈局 。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6905,6 +7163,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Download .xml": {
+  "t": "下載.xml",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Download {filteredFailuresCount} as CSV": {
   "t": "下載 {filteredFailuresCount} 作为 CSV",
   "src": "libretranslate",
@@ -6958,6 +7222,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Download the configuration as an XML file.": {
+  "t": "下載配置為 XML 檔案 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Download the current settings as an .xml file.": {
   "t": "下載目前的設定值為. xml 檔案 。",
@@ -7429,6 +7699,18 @@
  },
  "Drawings stay in this browser on this computer. They come back the next time you open this app.": {
   "t": "畫作留在電腦上的瀏覽器裡 下次你打開這個應用程式 他們就會回來",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Draws a zoomed-out locator map in a corner of the map frame, with a rectangle showing the printed extent. No second map frame in the .pagx is needed.": {
+  "t": "在地圖框的角落畫出縮放的定位圖, 上面有矩形顯示打印的範圍 。 在 .pagx 中不需要第二版地圖框架 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Draws an ArcGIS Pro style grid over the map frame: a graticule (latitude/longitude), a measured grid (map units), or an alphanumeric reference grid. It follows rotated maps and other output coordinate systems (a graticule on a projected map is projected for you). Everything here is the default look for this layout: lines (color, width, opacity, pattern, tick and cross size), interval, labels (color, size, bold, halo and its color, inside or outside, sides, along-the-edge side labels, coordinate or number format, corner coordinates) and reference grid letters and cell ids. Apply to all layouts copies it everywhere. Users can restyle it in the Grid style panel, and Reset to layout grid returns to these settings; hide that panel under the runtime controls to keep this look fixed.": {
+  "t": "在地圖框上畫出 ArcGIS Pro 樣式網格: graticule( 纬度/ 經度) 、 测量的網格( 圖單位) 、 或 字母參數網格 。 它跟隨於旋轉的地圖和其他輸出座標系統( 預測地圖上的彩色是為您預測的) 。 這裡的一切都是此佈局的預設搜尋: 線( 顏色, 寬度, 不透明度, 樣式, 勾選和跨大小) , 间隔, 標籤( 顏色, 大小, 粗體, 光環及其顏色, 內或外, 邊, 沿邊標籤, 坐标或數字格式, 角座標) 以及參考網格字母和儲存格 ID 。 套用到所有佈局 。 使用者可以在 Grid 樣式面板中重新定型, 而重置以佈局格子會傳回到這些設定中; 將面板隱藏在 runtime 控件下, 以固定這個外觀 。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8075,6 +8357,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Engine-level switches for the files this widget writes. All are safe to leave as they are.": {
+  "t": "此元件寫入的檔案的引擎關閉 。 所有人都可以安全離開",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enhanced Locate": {
   "t": "增强位置",
   "src": "libretranslate",
@@ -8125,6 +8413,12 @@
  },
  "Enter an address:": {
   "t": "輸入地址 :",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enter both a font name and a TTF URL.": {
+  "t": "輸入字型名稱和 TTF 網址 。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8305,6 +8599,12 @@
  },
  "Esc": {
   "t": "埃斯克",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Esri print service (URL)": {
+  "t": "Esri 打印服務( URL)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8801,6 +9101,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Exported XML": {
+  "t": "匯出 XML",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Exporting": {
   "t": "匯出",
   "src": "libretranslate",
@@ -8833,6 +9139,18 @@
  },
  "extent {notesEditingIndex}": {
   "t": "程度 {notesEditingIndex}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Extent indicator color": {
+  "t": "程度指示顏色",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Extent indicator width": {
+  "t": "深度指示寬度",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9335,8 +9653,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Fixed interval (degrees or map units)": {
+  "t": "固定间隔( 度或地圖單位)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Fixed scale": {
   "t": "固定比例",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fixed scale (1:n)": {
+  "t": "固定比例(1:n)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9619,6 +9949,12 @@
  },
  "Font: changes the typeface for all the text on the page. App default uses the layout font.": {
   "t": "字型: 更改頁面上所有文字的字型 。 App 預設使用佈局字型 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fonts": {
+  "t": "字体",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10139,6 +10475,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Graticule (latitude/longitude)": {
+  "t": "葡萄酒( 纬度/ 經度)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Gray": {
+  "t": "灰色",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "grid": {
   "t": "网格",
   "src": "libretranslate",
@@ -10147,6 +10495,12 @@
  },
  "Grid": {
   "t": "网格",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid and graticule": {
+  "t": "网格和草料",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10393,6 +10747,12 @@
  },
  "Grid Theme:": {
   "t": "网格主題 :",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid toggle": {
+  "t": "网格切換",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10649,6 +11009,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Height (in)": {
+  "t": "高度 ( in)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Height of each label in points (72 points = 1 inch)": {
   "t": "每个標籤的高度以點表示( 72 點 = 1 英寸)",
   "src": "libretranslate",
@@ -10729,6 +11095,12 @@
  },
  "Hide drawing": {
   "t": "隱藏繪圖",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hide individual controls from users, listed in the order they appear in the panel. Hidden controls still apply the configured defaults, for example hide Format to lock exports to the default format.": {
+  "t": "隱藏對使用者的單位控制, 按他們出現在面板中的顺序列出 。 隱藏控制仍應用已設定的預設, 例如隱藏格式以鎖定匯出到預設格式 。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11033,8 +11405,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Import .pagx": {
+  "t": "匯入.pagx",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Import (Shapefile, GeoJSON, KML)": {
   "t": "匯入( 元文件、 GeoJSON、 KML)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import / export configuration": {
+  "t": "匯入/ 匯出設定",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11062,6 +11446,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Import an ArcGIS Pro .pagx layout file.": {
+  "t": "匯入 ArcGIS Pro.pagx 排版檔 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import ArcGIS Pro layout files (.pagx). The exported page reproduces the Pro layout: page size, map frame, texts, lines, north arrow, scale bar, and pictures.": {
+  "t": "匯入 ArcGIS Pro 排版檔 (. pagx) 。 匯出頁面重现 Pro 版式: 頁面大小、 地圖框、 文字、 直線、 北箭頭、 大小列和圖片 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Import basemap configuration from XML. This will replace your current basemap selections.": {
   "t": "從 XML 匯入底圖設定 。 這會取代您目前的基底圖選擇 。",
@@ -11117,8 +11513,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Import Google Font": {
+  "t": "匯入 Google 字体",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Import loads a GeoJSON or shapefile someone sent you and adds it to your list.": {
   "t": "匯入 GeoJSON 或變形檔 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import notes:": {
+  "t": "匯入便條 :",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11149,6 +11557,12 @@
  },
  "Important Notice": {
   "t": "重要通知",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Imported fonts": {
+  "t": "匯入的字型",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11375,6 +11789,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Initial values users see, grouped the way the panel shows them. Tokens: {layout} in title; {title} and {date} in file name. Max capture blank = auto: the widget detects the graphics card limit (up to 8192 px) so large layouts print as sharp as the machine allows. Set a number to override; the export progress line reports the effective DPI whenever the map is capped.": {
+  "t": "初始數值使用者看到, 將面板顯示的方式分组 。 托肯斯 : {layout} 标题; {title} 和 {date} 以文件名。 最大抓取空白 = 自動: 元件檢測到圖片卡限( 最多 8192 px) , 所以大版式的印度要像機器所允許的尖端 。 設定要覆寫的數字; 匯出進度行在地圖封蓋時會報告有效的DPI 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Initial View": {
   "t": "初始檢視",
   "src": "libretranslate",
@@ -11404,6 +11824,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Inside the frame": {
+  "t": "在框內",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Inside the map": {
   "t": "地圖里面",
@@ -11921,6 +12347,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Label placement": {
+  "t": "標籤位置",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Label position": {
   "t": "標籤位置",
   "src": "libretranslate",
@@ -12011,6 +12443,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Labels each corner of the map frame with its full coordinate: latitude and longitude for a graticule, northing and easting for a measured grid. Edge labels that would crowd a corner are dropped.": {
+  "t": "標籤地圖框的每個角落都有它的全座標: 彩色的經度和經度, 北邊和東邊為量度的格子 。 邊緣標籤被丟掉,",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Labels land in the wrong slots: the Start number is skipping slots on purpose. Set Start back to 1 for a full sheet.": {
   "t": "標籤在錯誤的位址 : 啟動數字是故意跳過位址的 。 將工作表的開始設定為 1 。",
   "src": "libretranslate",
@@ -12043,6 +12481,12 @@
  },
  "Labels: {individualOption}": {
   "t": "標籤 : {individualOption}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Large": {
+  "t": "大",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12317,6 +12761,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Layout templates": {
+  "t": "布局樣本",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layouts (.pagx)": {
+  "t": "布局 (. pagx)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Leave a box on (none) if you do not have that piece. Street and city are the two that matter most.": {
   "t": "如果你沒有那塊,就留下盒子 街道和城市才是最重要的兩者",
   "src": "libretranslate",
@@ -12379,6 +12835,12 @@
  },
  "Left panel": {
   "t": "左面板",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Left panel (beside the map)": {
+  "t": "左面板( 地圖旁)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12461,6 +12923,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Legend source": {
+  "t": "圖例來源",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Legend widget": {
+  "t": "图例元件",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Legend will not fit beside the map, so it will print on additional pages.": {
   "t": "傳說將不適合於地圖旁, 因此它會在新增的頁面上打印 。",
   "src": "libretranslate",
@@ -12523,6 +12997,12 @@
  },
  "Light Gray": {
   "t": "浅灰色",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Limit (map pages)": {
+  "t": "限制(映射頁面)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12649,6 +13129,12 @@
  },
  "Line Segments not recommended for freehand tools.": {
   "t": "不建議使用自由工具的行區段 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Line style": {
+  "t": "行樣式",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12796,6 +13282,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Load configuration XML from a file.": {
+  "t": "從檔案載入配置 XML 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Load Existing Drawings": {
   "t": "載入已存在的繪圖",
@@ -13211,6 +13703,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Make a copy of the selected layout.": {
+  "t": "复制已選擇的佈局 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Make sure layers are visible on the map.": {
   "t": "確保地圖上可以看到層層 。",
   "src": "libretranslate",
@@ -13309,6 +13807,12 @@
  },
  "Map DPI sets how fine the map picture is. Layout default is fine for most work. 300 is sharper but takes noticeably longer and makes a much bigger file.": {
   "t": "地圖DPI 設定地圖圖的精度 。 大部分工作都不用套路 300更锋利,但需要更久 做個大得多的檔案",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map extent & scale": {
+  "t": "地圖範圍大小( S)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13469,6 +13973,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map series run in the browser, so every page is held in memory until the PDF is saved. Recommended: warn above 20 and limit at 50 (the defaults). About 1 MB and 5 to 10 seconds per page at 200 DPI; a locator overview roughly doubles the time. Raise the limit only for fast machines and 150 DPI or less; 200 is the most allowed. The index and legend pages are not counted. A grid series over the limit always stops.": {
+  "t": "映射系列在瀏覽器中執行, 所以每個頁面都會被保存在內存中, 直到 PDF 被儲存 。 建議你警告20人以上,但以50人为限。 200 DPI 每頁約 1 MB 和 5 至 10 秒; 定位器概述大概是時間的雙倍 。 提高限值只限快速機和 150 DPI 或以下; 200 是最允許的 。 索引和傳奇頁面不計數 。 超限的網格系列總是停止",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map series section": {
+  "t": "映射序列部分",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map Switcher": {
   "t": "地圖切換器",
   "src": "libretranslate",
@@ -13483,6 +13999,12 @@
  },
  "Map title": {
   "t": "地圖標題",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map title input": {
+  "t": "地圖標題輸入",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13549,6 +14071,12 @@
  },
  "Maps that open in the right place": {
   "t": "在正確的地方開啟的地圖",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Margin from frame edge (in)": {
+  "t": "從框架邊緣的邊緣 ( in)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13745,6 +14273,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Measured grid (map units)": {
+  "t": "测量网格(映射單位)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Measurement configuration options": {
   "t": "量度設定方案",
   "src": "libretranslate",
@@ -13873,6 +14407,12 @@
  },
  "Measuring": {
   "t": "衡量",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Medium": {
+  "t": "中",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14759,6 +15299,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No layouts yet. Import a .pagx exported from ArcGIS Pro (share the layout as a layout file).": {
+  "t": "尚未排版 。 從 ArcGIS Pro 匯入一個 . pagx 匯出( 將版式分成佈局檔 ) 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No line layer is configured for editing.": {
   "t": "沒有設定要編輯的行層 。",
   "src": "libretranslate",
@@ -15047,6 +15593,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "North arrow style": {
+  "t": "北箭頭樣式",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "North arrow symbol style.": {
   "t": "北箭頭符號樣式 。",
   "src": "libretranslate",
@@ -15299,6 +15851,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "off": {
+  "t": "關",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Off": {
   "t": "關",
   "src": "libretranslate",
@@ -15341,8 +15899,38 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Off: users only pick a layout, type a title, watch the page preview and export (quick print). On: a collapsed Advanced options section adds the Print area, Map series, On the map, Page text, Style and Output cards.": {
+  "t": "關閉: 使用者只選擇佈局, 輸入標題, 監視頁面預覽與匯出( 快速列印) 。 在 : 已坍塌的 Advanced 選項中加入 Prind 區域、 映射系列、 地圖、 頁面文字、 樣式與輸出卡片 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer \"Fixed scale\" (force)": {
+  "t": "提供「 大小」 (強制 )",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer \"Lock print area\"": {
+  "t": "提供 Lock 打印區域",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Offer \"Map only\" export": {
   "t": "提供「 只提供映射」 匯出",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer \"Preserve map extent\"": {
+  "t": "提供「 保存地圖範圍 」",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer \"Preserve map scale\"": {
+  "t": "提供「 保存地圖比例 」",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15355,6 +15943,12 @@
  },
  "Offer output coordinate system (WKID)": {
   "t": "提供輸出座標系統( WKID)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer scale picker (user selects)": {
+  "t": "提供比例拾取器( 使用者選擇)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15385,6 +15979,12 @@
  },
  "Oldest": {
   "t": "最老的",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "on": {
+  "t": "於",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15743,8 +16343,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Orange": {
+  "t": "橙",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Order": {
   "t": "排序",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Order of selected layout": {
+  "t": "所選佈局的排序",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15845,6 +16457,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Output features": {
+  "t": "輸出功能",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Output size (px)": {
   "t": "輸出大小 (px)",
   "src": "libretranslate",
@@ -15857,6 +16475,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Outside the frame": {
+  "t": "在框架之外",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Outside the map": {
   "t": "在地圖之外",
   "src": "libretranslate",
@@ -15865,6 +16489,12 @@
  },
  "outside this coordinate system's area": {
   "t": "在座標系統範圍外",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Over the limit": {
+  "t": "超越界限",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15905,6 +16535,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Overview inset toggle": {
+  "t": "剖析套件切換",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Overview inset: adds the small locator map in the corner, with a red box showing where the main map sits.": {
   "t": "概述 inset : 新增角落的小定位圖, 并用紅盒子顯示主圖坐落的位置 。",
   "src": "libretranslate",
@@ -15913,6 +16549,12 @@
  },
  "Overview map on by default": {
   "t": "預設概述地圖",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Overview scale": {
+  "t": "概述尺度",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16049,6 +16691,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Panel size": {
+  "t": "面板大小",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Parcel attribute fields": {
   "t": "Parcel 屬性字段",
   "src": "libretranslate",
@@ -16097,8 +16745,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Paste configuration XML or choose a file, then Import. This replaces all current settings.": {
+  "t": "貼上設定 XML 或選擇檔案, 然后匯入 。 此取代所有目前的設定值 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Paste settings XML to import": {
   "t": "貼上要匯入的設定值 XML",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Paste XML or choose a file first.": {
+  "t": "貼上 XML 或者先選擇檔案 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Patch (swatch) size": {
+  "t": "补丁( 觀察) 大小",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16739,6 +17405,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Position": {
+  "t": "位置",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Pre-select common field names when available": {
   "t": "可用時预先選擇常用字段名稱",
   "src": "libretranslate",
@@ -17111,6 +17783,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Print service URL": {
+  "t": "列印服務 URL",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Print source": {
+  "t": "打印來源",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Print the first pages (one page per feature only)": {
+  "t": "列印首頁( 每頁只有一頁)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Print-ready labels": {
   "t": "已打印的標籤",
   "src": "libretranslate",
@@ -17125,6 +17815,12 @@
  },
  "Print-Ready Labels: spread out the labels so they do not overlap when exported to PDF.": {
   "t": "列印- Ready 標籤 : 排出標籤, 以免在匯出到 PDF 時重合 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "printed scale": {
+  "t": "打印比例",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17149,6 +17845,12 @@
  },
  "Prints at 1:{scale}": {
   "t": "印在1:{scale}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Prints the same legend the Legend widget shows: visible layers, group layers, map service sublayers, and all renderer types. Choose a panel beside the map (the map shrinks to make room) or a corner overlay. The legend fits itself: more columns, then smaller text, then an honest \"+ N more\" note.": {
+  "t": "列印圖例元件所顯示的同樣傳說: 可见的層次、 群組層次、 地圖服務子層次、 以及所有成像器類型 。 選擇地圖旁的面板( 地圖縮小以取得空間) 或覆蓋角落 。 傳說符合自己:多列,再小文,然后是誠實的\"+N多\"音符.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17465,6 +18167,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Red": {
+  "t": "紅",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Red messages on the Load step: a rule points at a field that is not there, or a required field is left empty. Press Back and fix the rule the message names.": {
   "t": "載入階段的紅色訊息: 不在的字段的規則點, 或是需要的字段為空 。 按回放並修訂訊息名稱規則 。",
   "src": "libretranslate",
@@ -17497,6 +18205,12 @@
  },
  "Reference (A-1 index)": {
   "t": "參考(A-1索引)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reference grid (A-1 index)": {
+  "t": "參考網格( A-1 索引)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17723,6 +18437,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Replace the current configuration with the XML above.": {
+  "t": "用上面的 XML 取代目前的設定 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Replace the previous layer on a new run": {
   "t": "在新執行中取代上層",
   "src": "libretranslate",
@@ -17849,6 +18569,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Resolve a Google Font family to its TTF files and fill the fields below.": {
+  "t": "解析 Google 字型家族到它的 TTF 文件, 並填充下面的字段 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Resolve these before loading:": {
   "t": "在載入前先解析這些 :",
   "src": "libretranslate",
@@ -17965,6 +18691,12 @@
  },
  "Right panel": {
   "t": "右面板",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Right panel (beside the map)": {
+  "t": "右面板( 在地圖旁)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18347,6 +19079,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Scale bar options": {
+  "t": "大小列選項",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Scale bar style": {
   "t": "縮放列樣式",
   "src": "libretranslate",
@@ -18367,6 +19105,12 @@
  },
  "Scale is written as 1 to a number, for example 1:2400. A smaller number means the map is zoomed in closer.": {
   "t": "刻度為 1 到 數字, 例如 1: 2400 。 更小的數字表示地圖放大得更近",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Scale picker choices": {
+  "t": "比例選取器",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19301,6 +20045,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show \"Show print area\" toggle": {
+  "t": "顯示「 顯示列印區域」 切換",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show {label} ({abbreviation})": {
   "t": "顯示 {label} ({abbreviation})",
   "src": "libretranslate",
@@ -19463,6 +20213,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show grid": {
+  "t": "顯示网格",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show help guide": {
   "t": "顯示說明指南",
   "src": "libretranslate",
@@ -19489,6 +20245,12 @@
  },
  "Show labels": {
   "t": "顯示標籤",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show layer names": {
+  "t": "顯示層次名稱",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19595,6 +20357,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show overview inset": {
+  "t": "顯示概述設定值",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show Pictometry Button": {
   "t": "顯示比對鍵",
   "src": "libretranslate",
@@ -19609,6 +20377,18 @@
  },
  "Show print area": {
   "t": "顯示列印區域",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show print area / scale section": {
+  "t": "顯示列印區域/ 大小區域",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show print area on by default": {
+  "t": "預設顯示列印區域",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19687,6 +20467,12 @@
  },
  "Show this segment on the map": {
   "t": "在地圖上顯示此片段",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show title": {
+  "t": "顯示標題",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19865,6 +20651,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Small": {
+  "t": "小",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Snap": {
   "t": "同步",
   "src": "libretranslate",
@@ -19999,6 +20791,12 @@
  },
  "Solid": {
   "t": "固体",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Solid lines": {
+  "t": "固線",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20425,6 +21223,12 @@
  },
  "Stop editing": {
   "t": "停止編輯",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Stop the export": {
+  "t": "停止匯出",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20885,6 +21689,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Text size": {
+  "t": "文字大小",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Text Style Editor": {
   "t": "文字樣式編輯器",
   "src": "libretranslate",
@@ -20935,6 +21745,12 @@
  },
  "That source uses a format this map cannot show.": {
   "t": "源碼使用此地圖無法顯示的格式 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "That XML is not a valid Print Advanced configuration.": {
+  "t": "XML 不是有效的列印高级設定 。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21479,6 +22295,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The question-mark button that opens the in-widget guide. The guide only describes controls that are turned on here.": {
+  "t": "開啟 Widget 導覽的問號按鈕 。 導覽只描述在此開啟的控件 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The rest of the app can use it too: filter it, select from it, put it in a chart or a table.": {
   "t": "其余的應用程式也可以使用: 过滤, 從中選擇, 放在圖表或表格中 。",
   "src": "libretranslate",
@@ -21983,6 +22805,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Title": {
+  "t": "篇",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Title Case the names": {
   "t": "篇 大小寫名稱",
   "src": "libretranslate",
@@ -22283,6 +23111,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Top left": {
+  "t": "左上",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Top left (over map)": {
   "t": "左上 (翻譯地圖)",
   "src": "libretranslate",
@@ -22297,6 +23131,12 @@
  },
  "Top page margin in points": {
   "t": "頁面上方差值( 點數)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Top right": {
+  "t": "右上",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22363,6 +23203,12 @@
  },
  "Total Segments": {
   "t": "整段",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Transfer this widget's entire configuration - layouts, defaults, formats, logo, fonts - to another app. Export produces an XML file; import replaces the current configuration.": {
+  "t": "將此元件的全部設定 - 佈局、 預設、 格式、 標誌、 字型 - 轉至其他應用程式 。 匯出產生 XML 檔案; 匯入取代目前的設定 。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22693,6 +23539,12 @@
  },
  "Unable to retrieve features from the layer": {
   "t": "無法從層面取回特性",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Uncheck formats to remove them from the runtime Format list. At least one stays enabled.": {
+  "t": "取消檢查格式以從執行時格式清單中移除 。 至少一個保持啟動 。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23075,6 +23927,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Uploaded once and stored in the widget - used by any picture element that has no image of its own, across all layouts. Independent of the .pagx file paths.": {
+  "t": "上傳一次並儲存在元件中 - 由任何沒有自己影像的圖片元素使用, 遍及所有布局 。 独立于 .pagx 檔案路徑 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Upsert (update match, insert new)": {
   "t": "提高( 更新匹配, 插入新)",
   "src": "libretranslate",
@@ -23291,6 +24149,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "User controls": {
+  "t": "使用者控制",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Using the Widget": {
   "t": "使用元件",
   "src": "libretranslate",
@@ -23485,6 +24349,12 @@
  },
  "Visual feedback for selected features": {
   "t": "選取的功能的視覺回應",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Warn above (map pages)": {
+  "t": "警告以上(圖片頁)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23771,6 +24641,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "White": {
+  "t": "白色",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "White background": {
+  "t": "白色背景",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Whole layer (beyond the map)": {
   "t": "整層( 超越地圖 )",
   "src": "libretranslate",
@@ -23807,6 +24689,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Widget logo": {
+  "t": "元件標誌",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Widget Version": {
   "t": "元件版本",
   "src": "libretranslate",
@@ -23815,6 +24703,12 @@
  },
  "Width": {
   "t": "寬度",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Width (in)": {
+  "t": "寬度 ( in)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23971,6 +24865,12 @@
  },
  "X, Y": {
   "t": "X, Y",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "XML to import": {
+  "t": "要匯入的 XML",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"

@@ -1487,6 +1487,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Add as many fonts as you like - each appears in the widget Font menu. Loaded by URL at export time - nothing is embedded in the widget. Must be a static TTF (not WOFF/WOFF2/OTF, not a Google Fonts CSS link). From github.com/google/fonts use the Raw URL of a .ttf - prefer files under a static/ folder; some variable-font TTFs will not embed in PDF. GitHub page URLs are converted to raw automatically. A City web server with a CORS header also works (e.g. a licensed Tahoma TTF). PDF and image formats embed the real glyphs; SVG references the font by name only.": {
+  "t": "Sizin gibi birçok font ekleyin - her biri widget Font menüsünde görünür. URL'ye ihracat zamanında yüklendi - widget'da hiçbir şey gömülü değil. Bir statik TTF ( WOFF/WOFF2/OTF değil, Google Fonts CSS bağlantısı değil). Takhub.com/google/fonts, bir .ttf'in Raw URL'sini kullanıyor - statik / bir klasör altında dosyaları tercih ediyor; bazı değişken-font TTFs PDF'de yer almayacaktır. GitHub sayfa URL'leri otomatik olarak ham'ye dönüştürülür. Bir KURUMSALS başlığıyla bir Şehir web sunucusu da çalışır (örneğin lisanslı Tahoma TTF). PDF ve görüntü formatları gerçek rogliflere sahiptir; SVG sadece isim tarafından yazıya atıfta bulunur.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add at least one line before exporting.": {
   "t": "İhracat yapmadan önce en az bir çizgi ekleyin.",
   "src": "libretranslate",
@@ -1549,6 +1555,12 @@
  },
  "Add extra layer tools (flash, copy URL, refresh, details)": {
   "t": "Ekstra katman araçları ekleyin (flash, kopyalama URL, yenilenme, detaylar)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add font": {
+  "t": "Add font",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1685,6 +1697,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Add this font to the list. It appears in the widget Font menu.": {
+  "t": "Bu fontu listeye ekleyin. Widget Font menüsünde görünür.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add to favorites": {
   "t": "Favorilere Ekle",
   "src": "libretranslate",
@@ -1721,6 +1739,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Added {name}.": {
+  "t": "Eklenen eklenmiş eklenmiş eklenmiş eklenmiş eklenmiş eklenmiş eklenmiş eklenmiş eklenmiş eklenmiş eklenmiş eklenmiş eklenmiş eklenmiş eklenmiş eklenmiş eklenmiş eklenmiş eklenmiş ek eklendi {name}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Added to the map as": {
   "t": "Haritaya eklendi",
   "src": "libretranslate",
@@ -1753,6 +1777,12 @@
  },
  "Additional linear units: {join}": {
   "t": "Ek lineer birimler: {join}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Additional pages (PDF only; same sheet size)": {
+  "t": "Ek sayfalar (sadece; aynı tabaka boyutu)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1925,6 +1955,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Adds a Print area panel to the widget so users can preview the exact print extent and control scale.": {
+  "t": "widget'a bir baskı alanı paneli ekleyin, böylece kullanıcılar tam baskı boyutunu ve kontrol boyutunu önleyebilirsiniz.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Adds extra spacing between segment labels so they don't overlap on printed maps.": {
   "t": "Segment etiketleri arasında ekstra spacing ekleyin, böylece basılı haritalarda çakışmazlar.",
   "src": "libretranslate",
@@ -1993,6 +2029,12 @@
  },
  "Advanced options cards open by default": {
   "t": "Gelişmiş seçenekler kartları varsayılan olarak açık",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Advanced options open by default": {
+  "t": "Gelişmiş seçenekler varsayılan olarak açık",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2212,6 +2254,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Allow advanced options": {
+  "t": "Gelişmiş seçeneklere izin verin",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Allow batch editing": {
   "t": "Bırakın toplu düzenleme",
@@ -2489,6 +2537,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Applied: {n} layout(s); defaults: legend {legend}, overview {overview}, grid {grid}, selected features {selection}.": {
+  "t": "Uygulamalı: {n} Sınıf(lar); varsayılanlar: efsane {legend}, genel bakış {overview}, grid {grid}, seçilmiş özellikler {selection}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Applies to all page text (title, labels, footer) in every export format. Limited to fonts built into PDF (Helvetica, Times, Courier); the .pagx font (e.g. Tahoma) maps to the sans-serif family.": {
+  "t": "Tüm sayfa metnine (başlangıç, etiketler, ayağı) her ihracat formatına uygun. PDF'ye (Helvetica, Times, Courier); .pagx font (e.g. Tahoma) sans-serif ailesine ait haritalar.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Apply": {
   "t": "Başvuru Başvuru",
   "src": "libretranslate",
@@ -2500,6 +2560,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Apply ALL settings to every layout": {
+  "t": "Her düzen için TÜM ayarları uygulayın",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Apply all text style changes and close the editor": {
   "t": "Tüm metin stili değişiklikleri uygulayın ve editörü kapatın",
@@ -2521,6 +2587,12 @@
  },
  "Apply the loaded or pasted settings to this widget.": {
   "t": "Bu widget'a yüklenen veya geçmiş ayarları uygulayın.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Apply these settings to all layouts": {
+  "t": "Tüm düzenlere bu ayarları uygulayın",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2741,6 +2813,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Automatic (fit to legend content)": {
+  "t": "Otomatik ( Efsanevi içeriğe uygun)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Automatic (read the map legend directly)": {
+  "t": "Otomatik ( Harita efsanesini doğrudan okuyun)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Available formats": {
+  "t": "Mevcut formatlar",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Avenir Next": {
   "t": "Avenir Next",
   "src": "libretranslate",
@@ -2824,6 +2914,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Background and border": {
+  "t": "Arka plan ve sınır",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Background Color": {
   "t": "Arka renkli renk",
@@ -3041,6 +3137,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Black": {
+  "t": "Black Black Black",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "blank": {
   "t": "boş boş boş boş boş",
   "src": "libretranslate",
@@ -3100,6 +3202,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Blue": {
+  "t": "Blue Blue Blue Blue",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Bold": {
   "t": "Bold Bold",
@@ -3185,6 +3293,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Bold TTF URL (optional)": {
+  "t": "Bold TTF URL (optional)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Bold:": {
   "t": "Bold:",
   "src": "libretranslate",
@@ -3239,6 +3353,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Bottom left": {
+  "t": "Altmış Sol",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Bottom left (over map)": {
   "t": "Sub left (over map)",
   "src": "libretranslate",
@@ -3247,6 +3367,18 @@
  },
  "Bottom panel": {
   "t": "Alt Panel",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Bottom panel (below the map)": {
+  "t": "Alt panel (sabah haritayı)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Bottom right": {
+  "t": "Doğru sağ alt",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3418,6 +3550,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Build XML from the current configuration and show it below.": {
+  "t": "XML'i mevcut yapılandırmadan oluşturun ve aşağıda gösterir.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Bulk actions": {
   "t": "Toplu eylemler",
@@ -3889,6 +4027,12 @@
  },
  "Choose color": {
   "t": "Renk seçin",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose file…": {
+  "t": "Dosyayı seçin...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4763,6 +4907,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Client-side (.pagx layouts)": {
+  "t": "Müşteri-side (.pagx düzenleri)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Client-side renders .pagx layouts in the browser (no server). Print service posts the map to an Esri ExportWebMap service for server-side layouts.": {
+  "t": "Müşteri tarafı tarayıcıdaki .pagx düzeni oluşturur (no server). Baskı hizmeti, sunucunun yerleşimleri için bir Esri ExportWebMap hizmetine haritasını yayınlar.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Close": {
   "t": "Close Close Close Close Close",
   "src": "libretranslate",
@@ -4949,6 +5105,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Comma-separated layout template names exactly as the service expects them (e.g. letter-ansi-a-landscape, a4-landscape, map-only).": {
+  "t": "Comma-separated düzen şablon isimleri tam olarak hizmet olarak onları bekliyor (e.g. mektup-ansi-a-landscape, a4-landscape, harita-sadece).",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comma-separated scale denominators offered by the picker, e.g. 1000, 2400, 6000, 12000, 24000.": {
+  "t": "Koma-separated scale denominators, picker, e.g. 1000, 2400, 6000, 12000, 24000.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Company": {
   "t": "Şirket Şirketi",
   "src": "libretranslate",
@@ -5113,6 +5281,12 @@
  },
  "Configuration imported.": {
   "t": "Eklenme ithal edildi.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Configuration imported. Save the app to apply it.": {
+  "t": "Eklenme ithal edildi. Uygulamayı uygulamak için tasarruf edin.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5375,6 +5549,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Coordinate labels": {
+  "t": "Koordinasyon etiketleri",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Coordinate precision in popup results": {
   "t": "popup sonuçlarında hassaslık sonuçları",
   "src": "libretranslate",
@@ -5447,8 +5627,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copied to clipboard.": {
+  "t": "Sörtmeye çalıştı.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copied!": {
   "t": "Copied!",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Copies this layout’s DPI, format, extent, legend, grid and overview to all other layouts. Page size and imported .pagx elements stay per layout.": {
+  "t": "Bu düzenin DPI, format, ölçüde, efsane, ızgara ve diğer tüm düzenine genel bakış. Sayfa büyüklüğü ve ithal edilen .pagx elementleri düzeni başına kalır.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5585,6 +5777,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copy the exported XML to the clipboard.": {
+  "t": "XML'i klip odasına kopyalayın.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copy to Clipboard": {
   "t": "Clipboard'a kopyala",
   "src": "libretranslate",
@@ -5621,8 +5819,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Corner coordinate labels": {
+  "t": "Corner koordine etiketler",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Corner coordinates": {
   "t": "Corner koordinatları",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not access the clipboard - select the text and copy manually.": {
+  "t": "klip odasına erişemez - metin ve kopyayı manuel olarak seçin.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5635,6 +5845,12 @@
  },
  "Could not export the settings.": {
   "t": "ayarları ihraç edemez.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not read that file.": {
+  "t": "Bu dosyayı okumayabilir.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5945,6 +6161,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Custom font name": {
+  "t": "Özel font adı",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Custom font TTF URL": {
+  "t": "Özel font TTF URL",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Custom Label Dimensions": {
   "t": "Özel Etiket Ölçüleri",
   "src": "libretranslate",
@@ -6113,6 +6341,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default / forced scale (1:x)": {
+  "t": "Varsayılan / zorunlu ölçek (1:x)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default Address 1 Field": {
   "t": "Varsayılan Adres 1 Field",
   "src": "libretranslate",
@@ -6233,6 +6467,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default font family": {
+  "t": "Varsayılan font aile ailesi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default format": {
   "t": "Varsayılan format",
   "src": "libretranslate",
@@ -6265,6 +6505,12 @@
  },
  "Default Linear Unit:": {
   "t": "Varsayılan Linear Birimi:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default logo": {
+  "t": "Varsayılan logo",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6313,6 +6559,12 @@
  },
  "Default scale bar units": {
   "t": "Varsayılan ölçek bar birimleri",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default scale mode": {
+  "t": "Varsayılan ölçek modu",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6499,6 +6751,12 @@
  },
  "Delete Selected ({selectedGraphicsCount})": {
   "t": "Delete Seçildi ({selectedGraphicsCount})",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Delete the selected layout.": {
+  "t": "Seçilmiş düzeni seçin.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6905,6 +7163,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Download .xml": {
+  "t": "Download .xml",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Download {filteredFailuresCount} as CSV": {
   "t": "Download Download Download Download Download {filteredFailuresCount} CSV olarak",
   "src": "libretranslate",
@@ -6958,6 +7222,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Download the configuration as an XML file.": {
+  "t": "Bir XML dosyası olarak yapılandırmayı indirin.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Download the current settings as an .xml file.": {
   "t": "Mevcut ayarları bir .xml dosyası olarak indirin.",
@@ -7429,6 +7699,18 @@
  },
  "Drawings stay in this browser on this computer. They come back the next time you open this app.": {
   "t": "Çizimler bu bilgisayarda kalır. Bu uygulamayı açtığınız bir sonraki sefer geri döndüler.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Draws a zoomed-out locator map in a corner of the map frame, with a rectangle showing the printed extent. No second map frame in the .pagx is needed.": {
+  "t": "Harita çerçevesinin bir köşesinde, baskılanan boyutunu gösteren bir dikdörtgenle yakın bir yörünge haritası çizin. .pagx'teki ikinci harita gerekli değildir.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Draws an ArcGIS Pro style grid over the map frame: a graticule (latitude/longitude), a measured grid (map units), or an alphanumeric reference grid. It follows rotated maps and other output coordinate systems (a graticule on a projected map is projected for you). Everything here is the default look for this layout: lines (color, width, opacity, pattern, tick and cross size), interval, labels (color, size, bold, halo and its color, inside or outside, sides, along-the-edge side labels, coordinate or number format, corner coordinates) and reference grid letters and cell ids. Apply to all layouts copies it everywhere. Users can restyle it in the Grid style panel, and Reset to layout grid returns to these settings; hide that panel under the runtime controls to keep this look fixed.": {
+  "t": "Harita çerçevesi üzerinde bir ArcGIS Pro tarzı ızgara çizin: bir gratile (latitude/longitude), ölçülen bir ağ (map birimleri), veya bir alfanumeric referans ağı. Takip edilen haritalar ve diğer çıkış koordinat sistemleri (bir projeli haritada bir gratile sizin için yapılır). Buradaki her şey bu düzen için varsayılan bakış: hatlar (Renk, genişlik, opaklık, desen, kene ve çapraz boyut), aralık, etiketler (Renk, boyut, cesur, yarı ve rengi, içeride veya dışarıda, yanlar, ek yan etiketler, koordinat veya numaralar ve cep boşlukları. Her yerde tüm düzenlere uygulayın. Kullanıcılar bunu Grid tarzı panelinde geri alabilir ve bu ayarlara geri yüklemeye karar verebilir; bu görünüm sabit tutmak için runtime kontrolleri altındaki paneli gizler.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8075,6 +8357,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Engine-level switches for the files this widget writes. All are safe to leave as they are.": {
+  "t": "Bu widget'ın yazdığı dosyalar için motor seviyesi anahtarları. Hepsi olduğu gibi ayrılmak güvenlidir.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enhanced Locate": {
   "t": "Geliştirilmiş Locate",
   "src": "libretranslate",
@@ -8125,6 +8413,12 @@
  },
  "Enter an address:": {
   "t": "Bir adres girin:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enter both a font name and a TTF URL.": {
+  "t": "Hem bir font adı hem de bir TTF URL girin.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8305,6 +8599,12 @@
  },
  "Esc": {
   "t": "Esc",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Esri print service (URL)": {
+  "t": "Esri baskı hizmeti (URL)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8801,6 +9101,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Exported XML": {
+  "t": "Yurtdışı XML",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Exporting": {
   "t": "İhracatı",
   "src": "libretranslate",
@@ -8833,6 +9139,18 @@
  },
  "extent {notesEditingIndex}": {
   "t": "ölçüde {notesEditingIndex}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Extent indicator color": {
+  "t": "Extent gösterge rengi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Extent indicator width": {
+  "t": "Extent gösterge genişliği",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9335,8 +9653,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Fixed interval (degrees or map units)": {
+  "t": "Sabit aralığı ( dereceler veya harita birimleri)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Fixed scale": {
   "t": "Sabit ölçek",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fixed scale (1:n)": {
+  "t": "Sabit ölçek (1:n)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9619,6 +9949,12 @@
  },
  "Font: changes the typeface for all the text on the page. App default uses the layout font.": {
   "t": "Font: Sayfadaki tüm metin için türyüzü değiştirir. App varsayılan komut fontunu kullanır.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fonts": {
+  "t": "Fonts Fonts",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10139,6 +10475,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Graticule (latitude/longitude)": {
+  "t": "Graticule (latitude/longitude)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Gray": {
+  "t": "Gray",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "grid": {
   "t": "ağ ağ ağ",
   "src": "libretranslate",
@@ -10147,6 +10495,12 @@
  },
  "Grid": {
   "t": "Grid",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid and graticule": {
+  "t": "Izgara ve gratile",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10393,6 +10747,12 @@
  },
  "Grid Theme:": {
   "t": "Grid Theme:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid toggle": {
+  "t": "Grid toggle",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10649,6 +11009,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Height (in)": {
+  "t": "Yükseklik (in)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Height of each label in points (72 points = 1 inch)": {
   "t": "Her etiketin puanlarındaki yüksekliği (72 puan = 1 inç)",
   "src": "libretranslate",
@@ -10729,6 +11095,12 @@
  },
  "Hide drawing": {
   "t": "Gizle çizim",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hide individual controls from users, listed in the order they appear in the panel. Hidden controls still apply the configured defaults, for example hide Format to lock exports to the default format.": {
+  "t": "Kullanıcılardan bireysel kontroller, panelde göründükleri sırada listelendi. Gizli kontroller hala yapısal varsayılan varsayılanları uyguluyor, örneğin varsayılan formata ihracat kilitlemek için Biçimi gizler.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11033,8 +11405,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Import .pagx": {
+  "t": "İthalat .pagx",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Import (Shapefile, GeoJSON, KML)": {
   "t": "İthalat (Shapefile, GeoJSON, KML)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import / export configuration": {
+  "t": "İthalat / ihracat yapılandırma",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11062,6 +11446,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Import an ArcGIS Pro .pagx layout file.": {
+  "t": "Bir ArcGIS Pro .pagx düzeni dosyasını ithal edin.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import ArcGIS Pro layout files (.pagx). The exported page reproduces the Pro layout: page size, map frame, texts, lines, north arrow, scale bar, and pictures.": {
+  "t": "İthalat ArcGIS Pro düzeni dosyaları (.pagx). ihraç edilen sayfa, Pro düzeni yeniden üretir: sayfa büyüklüğü, harita, metinler, çizgiler, kuzey ok, ölçek bar ve resimler.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Import basemap configuration from XML. This will replace your current basemap selections.": {
   "t": "XML'den Import basemap konfigürasyonu. Bu, mevcut bazmap seçimlerinizi değiştirecektir.",
@@ -11117,8 +11513,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Import Google Font": {
+  "t": "Google Font",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Import loads a GeoJSON or shapefile someone sent you and adds it to your list.": {
   "t": "Bir GeoJSON veya formfile biri sizi gönderdi ve listenize ekler.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import notes:": {
+  "t": "İthalat notları:",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11149,6 +11557,12 @@
  },
  "Important Notice": {
   "t": "Önemli Duyuru",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Imported fonts": {
+  "t": "İthalatlanmış fontlar",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11375,6 +11789,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Initial values users see, grouped the way the panel shows them. Tokens: {layout} in title; {title} and {date} in file name. Max capture blank = auto: the widget detects the graphics card limit (up to 8192 px) so large layouts print as sharp as the machine allows. Set a number to override; the export progress line reports the effective DPI whenever the map is capped.": {
+  "t": "İlk değerler kullanıcıları, panelin onları gösterdiği şekilde grupladı. Hediyeler: {layout} Başlık: {title} ve {date} Dosya adı altında. Max boş = auto: widget grafik kartı limitini algılar ( 8192 px'e kadar) bu kadar büyük düzenler makine izin verdiği kadar keskin baskıyı. Override'ye bir numara ayarlayın; ihracat ilerleme hattı, haritanın kaplandığı zaman etkili DPI rapor eder.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Initial View": {
   "t": "İlk View",
   "src": "libretranslate",
@@ -11404,6 +11824,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Inside the frame": {
+  "t": "çerçeve içinde",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Inside the map": {
   "t": "Haritanın içinde",
@@ -11921,6 +12347,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Label placement": {
+  "t": "Label yerleştirme",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Label position": {
   "t": "Etiket pozisyonu",
   "src": "libretranslate",
@@ -12011,6 +12443,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Labels each corner of the map frame with its full coordinate: latitude and longitude for a graticule, northing and easting for a measured grid. Edge labels that would crowd a corner are dropped.": {
+  "t": "Harita çerçevesinin her köşesini tam koordinatla: bir gratile, kuzey ve doğulu bir ızgara için enlem ve uzunlık. Bir köşe kalabalık olacak olan Edge etiketleri düştü.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Labels land in the wrong slots: the Start number is skipping slots on purpose. Set Start back to 1 for a full sheet.": {
   "t": "Etiketler yanlış slotlarda arazi: Başlangıç numarası, slotları amaç üzerinde atlıyor. Set tam bir sayfa için 1'e geri başlayın.",
   "src": "libretranslate",
@@ -12043,6 +12481,12 @@
  },
  "Labels: {individualOption}": {
   "t": "Etiketler: {individualOption}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Large": {
+  "t": "Büyük Büyük Büyük Büyük Büyük",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12317,6 +12761,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Layout templates": {
+  "t": "Layout şablonları",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layouts (.pagx)": {
+  "t": "Layouts (.pagx)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Leave a box on (none) if you do not have that piece. Street and city are the two that matter most.": {
   "t": "Bu parçaya sahip değilseniz bir kutu bırakın. Sokak ve şehir çoğu önemli olan ikidir.",
   "src": "libretranslate",
@@ -12379,6 +12835,12 @@
  },
  "Left panel": {
   "t": "Sol Panel",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Left panel (beside the map)": {
+  "t": "Sol Panel (bu haritanın dışında)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12461,6 +12923,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Legend source": {
+  "t": "Legend Source",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Legend widget": {
+  "t": "Legend widget",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Legend will not fit beside the map, so it will print on additional pages.": {
   "t": "Efsane haritanın yanında sığmayacak, bu yüzden ek sayfalara yazdıracaktır.",
   "src": "libretranslate",
@@ -12523,6 +12997,12 @@
  },
  "Light Gray": {
   "t": "Işık Gray",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Limit (map pages)": {
+  "t": "Limit (map sayfaları)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12649,6 +13129,12 @@
  },
  "Line Segments not recommended for freehand tools.": {
   "t": "Line segmentleri ücretsiz el aletleri için tavsiye edilmez.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Line style": {
+  "t": "Line tarzı",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12796,6 +13282,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Load configuration XML from a file.": {
+  "t": "Bir dosyadan XML yükleme konfigürasyonu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Load Existing Drawings": {
   "t": "Load Existing Drawings",
@@ -13211,6 +13703,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Make a copy of the selected layout.": {
+  "t": "Seçilen düzenin bir kopyasını yapın.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Make sure layers are visible on the map.": {
   "t": "Katmanların haritada görünür olduğundan emin olun.",
   "src": "libretranslate",
@@ -13309,6 +13807,12 @@
  },
  "Map DPI sets how fine the map picture is. Layout default is fine for most work. 300 is sharper but takes noticeably longer and makes a much bigger file.": {
   "t": "Map DPI harita resminin ne kadar iyi olduğunu ayarlar. Layout varsayılan çoğu iş için iyidir. 300 keskindir, ancak daha uzun sürer ve çok daha büyük bir dosya yapar.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map extent & scale": {
+  "t": "Haritası",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13469,6 +13973,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map series run in the browser, so every page is held in memory until the PDF is saved. Recommended: warn above 20 and limit at 50 (the defaults). About 1 MB and 5 to 10 seconds per page at 200 DPI; a locator overview roughly doubles the time. Raise the limit only for fast machines and 150 DPI or less; 200 is the most allowed. The index and legend pages are not counted. A grid series over the limit always stops.": {
+  "t": "Harita serisi tarayıcıda çalışır, bu yüzden her sayfa PDF'nin kurtarılmasına kadar hafızada tutulur. Önerilen: 50'de 20'nin üzerinde uyarı ve sınırlayın ( varsayılanlar). 200 DPI'de sayfa başına yaklaşık 1 MB ve 5 ila 10 saniye; bir locator kabaca zaman iki katına çıkar. Sınırı sadece hızlı makineler ve 150 DPI veya daha az için yükseltin; 200 en çok izin verilir. indeks ve efsane sayfaları sayılmıyor. Limit üzerinde bir grid serisi her zaman durur.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map series section": {
+  "t": "Map serisi bölüm",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map Switcher": {
   "t": "Map Switcher",
   "src": "libretranslate",
@@ -13483,6 +13999,12 @@
  },
  "Map title": {
   "t": "Map title",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map title input": {
+  "t": "Harita adı girişi",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13549,6 +14071,12 @@
  },
  "Maps that open in the right place": {
   "t": "Doğru yerde açık olan haritalar",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Margin from frame edge (in)": {
+  "t": "Margin from çerçeve kenar (in)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13745,6 +14273,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Measured grid (map units)": {
+  "t": "Ölçülü ağ (map birimleri)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Measurement configuration options": {
   "t": "Ölçüm yapılandırma seçenekleri",
   "src": "libretranslate",
@@ -13873,6 +14407,12 @@
  },
  "Measuring": {
   "t": "Ölçümü",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Medium": {
+  "t": "Medium Medium Medium Medium Medium",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14759,6 +15299,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No layouts yet. Import a .pagx exported from ArcGIS Pro (share the layout as a layout file).": {
+  "t": "Henüz yok. ArcGIS Pro'dan ihraç edilen bir .pagx'i ithal edin ( düzeni bir düzen dosyası olarak paylaşın).",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No line layer is configured for editing.": {
   "t": "Hiçbir çizgi katmanı düzenleme için yapılandırılır.",
   "src": "libretranslate",
@@ -15047,6 +15593,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "North arrow style": {
+  "t": "Kuzey ok stili",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "North arrow symbol style.": {
   "t": "Kuzey ok sembolü stili.",
   "src": "libretranslate",
@@ -15299,6 +15851,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "off": {
+  "t": "kapalı",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Off": {
   "t": "Off Off Off Off Off",
   "src": "libretranslate",
@@ -15341,8 +15899,38 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Off: users only pick a layout, type a title, watch the page preview and export (quick print). On: a collapsed Advanced options section adds the Print area, Map series, On the map, Page text, Style and Output cards.": {
+  "t": "Off: kullanıcılar sadece bir düzen, tip bir başlık seçin, sayfa önizleme ve ihracat izleyin (quick baskı). On: Bir çöktü Gelişmiş seçenek bölümü, Yazdır alanı, Map serisini, haritada, Page text, Style ve Çıktı kartları ekliyor.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer \"Fixed scale\" (force)": {
+  "t": "Teklif \"Fixed ölçek\" (force)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer \"Lock print area\"": {
+  "t": "Teklif \"Lock baskı alanı\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Offer \"Map only\" export": {
   "t": "\"Map sadece\" ihracat",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer \"Preserve map extent\"": {
+  "t": "Teklif \"Preserve harita boyutu\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer \"Preserve map scale\"": {
+  "t": "\"Preserve harita ölçeği\"",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15355,6 +15943,12 @@
  },
  "Offer output coordinate system (WKID)": {
   "t": "Teklif Çıktı koordinat sistemi (WKID)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer scale picker (user selects)": {
+  "t": "Teklif ölçek seçici (kullanıcı seçilir)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15385,6 +15979,12 @@
  },
  "Oldest": {
   "t": "En yaşlı",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "on": {
+  "t": "Onda",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15743,8 +16343,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Orange": {
+  "t": "Portakal",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Order": {
   "t": "Sipariş sipariş siparişi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Order of selected layout": {
+  "t": "Seçilmiş düzeni",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15845,6 +16457,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Output features": {
+  "t": "Çıktı özellikleri",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Output size (px)": {
   "t": "Çıkış boyutu (px)",
   "src": "libretranslate",
@@ -15857,6 +16475,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Outside the frame": {
+  "t": "çerçeve dışında çerçeve",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Outside the map": {
   "t": "Haritanın dışında harita",
   "src": "libretranslate",
@@ -15865,6 +16489,12 @@
  },
  "outside this coordinate system's area": {
   "t": "Bu koordinat sisteminin dışında",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Over the limit": {
+  "t": "Limit üzerinden",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15905,6 +16535,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Overview inset toggle": {
+  "t": "Genel Bakış inset toggle",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Overview inset: adds the small locator map in the corner, with a red box showing where the main map sits.": {
   "t": "Genel Bakış inset: köşedeki küçük locator haritasını ekler, ana haritanın nerede oturduğunu gösteren kırmızı bir kutu ile.",
   "src": "libretranslate",
@@ -15913,6 +16549,12 @@
  },
  "Overview map on by default": {
   "t": "Genel bakış haritası varsayılan olarak",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Overview scale": {
+  "t": "Genel Bakış ölçek",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16049,6 +16691,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Panel size": {
+  "t": "Panel büyüklüğü",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Parcel attribute fields": {
   "t": "Parcel özellikleri alanları",
   "src": "libretranslate",
@@ -16097,8 +16745,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Paste configuration XML or choose a file, then Import. This replaces all current settings.": {
+  "t": "Paste yapılandırma XML veya bir dosyayı seçin, sonra Import. Bu, mevcut tüm ayarları değiştirir.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Paste settings XML to import": {
   "t": "Paste ayarları XML ithal etmek için",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Paste XML or choose a file first.": {
+  "t": "Paste XML veya ilk önce bir dosyayı seçin.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Patch (swatch) size": {
+  "t": "Patch (swatch) büyüklüğü",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16739,6 +17405,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Position": {
+  "t": "Pozisyon pozisyonu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Pre-select common field names when available": {
   "t": "Pre-select ortak alan isimleri mevcut olduğunda",
   "src": "libretranslate",
@@ -17111,6 +17783,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Print service URL": {
+  "t": "Baskı hizmeti URL",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Print source": {
+  "t": "Baskı kaynağı",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Print the first pages (one page per feature only)": {
+  "t": "İlk sayfaları yazdırın (sadece tek başına bir sayfa)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Print-ready labels": {
   "t": "Print-ready etiketler",
   "src": "libretranslate",
@@ -17125,6 +17815,12 @@
  },
  "Print-Ready Labels: spread out the labels so they do not overlap when exported to PDF.": {
   "t": "Print-Ready Etiketler: etiketleri yaylar, böylece PDF'ye ihraç edildiğinde çakışmazlar.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "printed scale": {
+  "t": "yazdırılmış ölçek",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17149,6 +17845,12 @@
  },
  "Prints at 1:{scale}": {
   "t": "Baskılar 1.{scale}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Prints the same legend the Legend widget shows: visible layers, group layers, map service sublayers, and all renderer types. Choose a panel beside the map (the map shrinks to make room) or a corner overlay. The legend fits itself: more columns, then smaller text, then an honest \"+ N more\" note.": {
+  "t": "Efsanenin aynı efsanesini yazdırır: görünür tabakalar, grup tabakaları, harita servisi alt katmanları ve tüm formlar. Haritanın yanında bir panel seçin (ki harita oda yapmak için daralır) veya bir köşe overlay. Efsane kendine uyuyor: daha sonra daha küçük metin, sonra dürüst bir \"+ N daha\" notu.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17465,6 +18167,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Red": {
+  "t": "Red Red Red",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Red messages on the Load step: a rule points at a field that is not there, or a required field is left empty. Press Back and fix the rule the message names.": {
   "t": "Yük adımında kırmızı mesajlar: orada olmayan bir alanda kural puanları veya gerekli bir alan boş bırakılır. Basın Geri döndü ve mesaj isimlerini düzeltin.",
   "src": "libretranslate",
@@ -17497,6 +18205,12 @@
  },
  "Reference (A-1 index)": {
   "t": "Referans (A-1 index)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reference grid (A-1 index)": {
+  "t": "Referans ızgara (A-1 index)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17723,6 +18437,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Replace the current configuration with the XML above.": {
+  "t": "Yukarıdaki XML ile mevcut yapılandırmayı değiştirin.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Replace the previous layer on a new run": {
   "t": "Yeni bir rundaki önceki katmanı değiştirin",
   "src": "libretranslate",
@@ -17849,6 +18569,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Resolve a Google Font family to its TTF files and fill the fields below.": {
+  "t": "Bir Google Font ailesi TTF dosyalarına geri dönün ve aşağıdaki alanları doldurun.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Resolve these before loading:": {
   "t": "Yüklemeden önce bunları çözün:",
   "src": "libretranslate",
@@ -17965,6 +18691,12 @@
  },
  "Right panel": {
   "t": "Doğru panel",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Right panel (beside the map)": {
+  "t": "Doğru panel (bu haritanın dışında)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18347,6 +19079,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Scale bar options": {
+  "t": "Scale bar seçenekleri",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Scale bar style": {
   "t": "Scale bar tarzı",
   "src": "libretranslate",
@@ -18367,6 +19105,12 @@
  },
  "Scale is written as 1 to a number, for example 1:2400. A smaller number means the map is zoomed in closer.": {
   "t": "Scale 1 ila 1 numara olarak yazılır, örneğin 1:2400. Daha küçük bir sayı, haritanın daha yakın olduğu anlamına gelir.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Scale picker choices": {
+  "t": "Scale seçici seçimler",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19301,6 +20045,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show \"Show print area\" toggle": {
+  "t": "Show \"Show print alanı\" toggle",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show {label} ({abbreviation})": {
   "t": "Show Show Show Show Show {label} ({abbreviation})",
   "src": "libretranslate",
@@ -19463,6 +20213,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show grid": {
+  "t": "Show grid",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show help guide": {
   "t": "Show help guide",
   "src": "libretranslate",
@@ -19489,6 +20245,12 @@
  },
  "Show labels": {
   "t": "Gösteren etiketler",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show layer names": {
+  "t": "Show katmanı isimleri",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19595,6 +20357,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show overview inset": {
+  "t": "Show overview inset",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show Pictometry Button": {
   "t": "Show Pictometry Düğme",
   "src": "libretranslate",
@@ -19609,6 +20377,18 @@
  },
  "Show print area": {
   "t": "Show print alanı",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show print area / scale section": {
+  "t": "Show print alanı / ölçek bölümü",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show print area on by default": {
+  "t": "Show print area on by default",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19687,6 +20467,12 @@
  },
  "Show this segment on the map": {
   "t": "Bu segmenti haritada göster",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show title": {
+  "t": "Show ünvanı",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19865,6 +20651,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Small": {
+  "t": "Küçük Küçük Küçük Küçük Küçük",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Snap": {
   "t": "Snap Snap Snap",
   "src": "libretranslate",
@@ -19999,6 +20791,12 @@
  },
  "Solid": {
   "t": "Katı",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Solid lines": {
+  "t": "Katı çizgiler",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20425,6 +21223,12 @@
  },
  "Stop editing": {
   "t": "Düzenlemeyi Dur",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Stop the export": {
+  "t": "İhracatı durdurun",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20885,6 +21689,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Text size": {
+  "t": "Metin büyüklüğü",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Text Style Editor": {
   "t": "Text Style Editor",
   "src": "libretranslate",
@@ -20935,6 +21745,12 @@
  },
  "That source uses a format this map cannot show.": {
   "t": "Bu kaynak bu haritanın gösteremeyeceği bir format kullanır.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "That XML is not a valid Print Advanced configuration.": {
+  "t": "Bu XML geçerli bir Yazdır Gelişmiş konfigürasyon değildir.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21479,6 +22295,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The question-mark button that opens the in-widget guide. The guide only describes controls that are turned on here.": {
+  "t": "In-widget kılavuzu açan soru işareti. Rehber sadece burada dönen kontrolleri açıklar.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The rest of the app can use it too: filter it, select from it, put it in a chart or a table.": {
   "t": "Uygulamanın geri kalanı da kullanabilir: filtre, ondan seçin, bir grafik veya masaya koyun.",
   "src": "libretranslate",
@@ -21983,6 +22805,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Title": {
+  "t": "Başlık:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Title Case the names": {
   "t": "Başlık: İsimler",
   "src": "libretranslate",
@@ -22283,6 +23111,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Top left": {
+  "t": "Top left",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Top left (over map)": {
   "t": "Top left (over map)",
   "src": "libretranslate",
@@ -22297,6 +23131,12 @@
  },
  "Top page margin in points": {
   "t": "Top page marj in points",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Top right": {
+  "t": "Top right",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22363,6 +23203,12 @@
  },
  "Total Segments": {
   "t": "Total Segments",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Transfer this widget's entire configuration - layouts, defaults, formats, logo, fonts - to another app. Export produces an XML file; import replaces the current configuration.": {
+  "t": "Bu widget'ın tüm konfigürasyonunu etkinleştirin - yapılar, varsayılanlar, formatlar, logolar, fontlar - başka bir uygulama için. İhracat bir XML dosyası üretir; mevcut konfigürasyonu değiştirir.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22693,6 +23539,12 @@
  },
  "Unable to retrieve features from the layer": {
   "t": "Katmandan özellikleri almak için kullanılamaz",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Uncheck formats to remove them from the runtime Format list. At least one stays enabled.": {
+  "t": "Onları runtime Format listesinden çıkarmak için kontrol formatları. En azından bir kişi etkinleştirilir.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23075,6 +23927,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Uploaded once and stored in the widget - used by any picture element that has no image of its own, across all layouts. Independent of the .pagx file paths.": {
+  "t": "Bir kez ve widget'da depolanır - kendi imajı olmayan herhangi bir resim elemanı tarafından kullanılır, tüm yapılar boyunca. .pagx dosya yollarından bağımsız olarak.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Upsert (update match, insert new)": {
   "t": "Upsert (update maç, yeni eklemek)",
   "src": "libretranslate",
@@ -23291,6 +24149,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "User controls": {
+  "t": "Kullanıcı kontrolleri",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Using the Widget": {
   "t": "Widget'ı kullanarak",
   "src": "libretranslate",
@@ -23485,6 +24349,12 @@
  },
  "Visual feedback for selected features": {
   "t": "Seçilen özellikler için görsel geri bildirimler",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Warn above (map pages)": {
+  "t": "Warn above (map sayfaları)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23771,6 +24641,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "White": {
+  "t": "Beyaz Beyaz Beyaz",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "White background": {
+  "t": "Beyaz arka plan",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Whole layer (beyond the map)": {
   "t": "Tüm tabaka (bakır haritayı)",
   "src": "libretranslate",
@@ -23807,6 +24689,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Widget logo": {
+  "t": "Widget logo",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Widget Version": {
   "t": "Widget Version",
   "src": "libretranslate",
@@ -23815,6 +24703,12 @@
  },
  "Width": {
   "t": "Genişlik genişliği Genişlik genişliği",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Width (in)": {
+  "t": "Genişlik (in)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23971,6 +24865,12 @@
  },
  "X, Y": {
   "t": "X, Y",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "XML to import": {
+  "t": "XML ithal etmek için",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"

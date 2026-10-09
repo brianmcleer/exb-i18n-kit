@@ -1487,6 +1487,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Add as many fonts as you like - each appears in the widget Font menu. Loaded by URL at export time - nothing is embedded in the widget. Must be a static TTF (not WOFF/WOFF2/OTF, not a Google Fonts CSS link). From github.com/google/fonts use the Raw URL of a .ttf - prefer files under a static/ folder; some variable-font TTFs will not embed in PDF. GitHub page URLs are converted to raw automatically. A City web server with a CORS header also works (e.g. a licensed Tahoma TTF). PDF and image formats embed the real glyphs; SVG references the font by name only.": {
+  "t": "Tilføj så mange skrifttyper som du vil - hver vises i widget skrifttype menuen. Indlæses af URL ved eksport tid - intet er indlejret i widget. Skal være en statisk TTF (ikke WOFF / WOFF2 / OTF, ikke et Google Fonts CSS-link). Fra github.com / google / skrifttyper bruge den Raw URL af en .ttf - foretrækker filer under en statisk / mappe; nogle variable- font TTFs vil ikke integrere i PDF. GitHub side URL 'er konverteres til rå automatisk. En City webserver med en CORS header virker også (f.eks. en licenseret Tahoma TTF). PDF og billedformater indlejrede de rigtige glyffer; SVG refererer kun skrifttypen ved navn.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add at least one line before exporting.": {
   "t": "Tilføj mindst én linje før eksport.",
   "src": "libretranslate",
@@ -1549,6 +1555,12 @@
  },
  "Add extra layer tools (flash, copy URL, refresh, details)": {
   "t": "Tilføj ekstra lag værktøjer (flash, kopiere URL, opdatere, detaljer)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add font": {
+  "t": "Tilføj skrifttype",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1685,6 +1697,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Add this font to the list. It appears in the widget Font menu.": {
+  "t": "Tilføj denne skrifttype til listen. Det vises i widget skrifttype menuen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add to favorites": {
   "t": "Tilføj til favoritter",
   "src": "libretranslate",
@@ -1721,6 +1739,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Added {name}.": {
+  "t": "Tilføjet {name}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Added to the map as": {
   "t": "Tilføjet til kortet som",
   "src": "libretranslate",
@@ -1753,6 +1777,12 @@
  },
  "Additional linear units: {join}": {
   "t": "Yderligere lineære enheder: {join}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Additional pages (PDF only; same sheet size)": {
+  "t": "Yderligere sider (kun PDF; samme ark størrelse)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1925,6 +1955,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Adds a Print area panel to the widget so users can preview the exact print extent and control scale.": {
+  "t": "Tilfører et udskriftsområde panel til widget, så brugerne kan få vist den nøjagtige udskriftsudstrækning og kontrolskala.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Adds extra spacing between segment labels so they don't overlap on printed maps.": {
   "t": "Tilfører ekstra afstand mellem segmentetiketter, så de ikke overlapper på trykte kort.",
   "src": "libretranslate",
@@ -1993,6 +2029,12 @@
  },
  "Advanced options cards open by default": {
   "t": "Avancerede optioner kort åbne som standard",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Advanced options open by default": {
+  "t": "Avancerede indstillinger som standard",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2212,6 +2254,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Allow advanced options": {
+  "t": "Tillad avancerede indstillinger",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Allow batch editing": {
   "t": "Tillad batchredigering",
@@ -2489,6 +2537,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Applied: {n} layout(s); defaults: legend {legend}, overview {overview}, grid {grid}, selected features {selection}.": {
+  "t": "Anvendes: {n} layout (er); standard: legende {legend}, oversigt {overview}, gitter {grid}, udvalgte funktioner {selection}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Applies to all page text (title, labels, footer) in every export format. Limited to fonts built into PDF (Helvetica, Times, Courier); the .pagx font (e.g. Tahoma) maps to the sans-serif family.": {
+  "t": "Gælder for alle sider tekst (titel, etiketter, sidefod) i hvert eksportformat. Begrænset til skrifttyper indbygget i PDF (Helvetica, Times, Courier); .pagx skrifttype (fx Tahoma) kort til sansserif familie.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Apply": {
   "t": "Anvend",
   "src": "libretranslate",
@@ -2500,6 +2560,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Apply ALL settings to every layout": {
+  "t": "Anvend ALL indstillinger til hvert layout",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Apply all text style changes and close the editor": {
   "t": "Anvend alle tekststilændringer og luk editoren",
@@ -2521,6 +2587,12 @@
  },
  "Apply the loaded or pasted settings to this widget.": {
   "t": "Anvend indstillingerne indlæst eller indsat på denne kontrol.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Apply these settings to all layouts": {
+  "t": "Anvend disse indstillinger på alle layouts",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2741,6 +2813,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Automatic (fit to legend content)": {
+  "t": "Automatisk (egnet til legende indhold)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Automatic (read the map legend directly)": {
+  "t": "Automatisk (læs kortlegenden direkte)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Available formats": {
+  "t": "Tilgængelige formater",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Avenir Next": {
   "t": "Avenir Næste",
   "src": "libretranslate",
@@ -2824,6 +2914,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Background and border": {
+  "t": "Baggrund og grænse",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Background Color": {
   "t": "Baggrundsfarve",
@@ -3041,6 +3137,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Black": {
+  "t": "Sort",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "blank": {
   "t": "blank",
   "src": "libretranslate",
@@ -3100,6 +3202,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Blue": {
+  "t": "Blå",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Bold": {
   "t": "Fed",
@@ -3185,6 +3293,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Bold TTF URL (optional)": {
+  "t": "Fed TTF URL (valgfri)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Bold:": {
   "t": "Fed:",
   "src": "libretranslate",
@@ -3239,6 +3353,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Bottom left": {
+  "t": "Nederst til venstre",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Bottom left (over map)": {
   "t": "Nederst til venstre (over kortet)",
   "src": "libretranslate",
@@ -3247,6 +3367,18 @@
  },
  "Bottom panel": {
   "t": "Nederste panel",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Bottom panel (below the map)": {
+  "t": "Nederste panel (under kortet)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Bottom right": {
+  "t": "Nederst til højre",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3418,6 +3550,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Build XML from the current configuration and show it below.": {
+  "t": "Byg XML fra den aktuelle konfiguration og vis det nedenfor.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Bulk actions": {
   "t": "Bulk action",
@@ -3889,6 +4027,12 @@
  },
  "Choose color": {
   "t": "Vælg farve",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose file…": {
+  "t": "Vælg fil...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4763,6 +4907,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Client-side (.pagx layouts)": {
+  "t": "Klient- side (.pagx layouts)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Client-side renders .pagx layouts in the browser (no server). Print service posts the map to an Esri ExportWebMap service for server-side layouts.": {
+  "t": "Klient- side gør .pagx layouts i browseren (ingen server). Udskriv service poster kortet til en Esri ExportWebMap service for server- side layouts.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Close": {
   "t": "Luk",
   "src": "libretranslate",
@@ -4949,6 +5105,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Comma-separated layout template names exactly as the service expects them (e.g. letter-ansi-a-landscape, a4-landscape, map-only).": {
+  "t": "Kommasepareret layout skabelon navne præcis som tjenesten forventer dem (fx brev-ansi- a- landskab, a4- landskab, map-kun).",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comma-separated scale denominators offered by the picker, e.g. 1000, 2400, 6000, 12000, 24000.": {
+  "t": "Kommaseparerede skala nævnere tilbydes af plukkeren, f.eks. 1000, 2400, 6000, 12000, 24000.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Company": {
   "t": "Virksomhed",
   "src": "libretranslate",
@@ -5113,6 +5281,12 @@
  },
  "Configuration imported.": {
   "t": "Konfiguration importeret.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Configuration imported. Save the app to apply it.": {
+  "t": "Konfiguration importeret. Gem appen til at anvende den.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5375,6 +5549,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Coordinate labels": {
+  "t": "Koordinatmærker",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Coordinate precision in popup results": {
   "t": "Koordinér præcision i popop- resultater",
   "src": "libretranslate",
@@ -5447,8 +5627,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copied to clipboard.": {
+  "t": "Kopieret til udklipsholderen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copied!": {
   "t": "Kopieret!",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Copies this layout’s DPI, format, extent, legend, grid and overview to all other layouts. Page size and imported .pagx elements stay per layout.": {
+  "t": "Kopierer dette layouts DPI, format, udstrækning, legende, grid og overblik til alle andre layouts. Sidestørrelse og importerede .pagx elementer ophold per layout.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5585,6 +5777,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copy the exported XML to the clipboard.": {
+  "t": "Kopiér den eksporterede XML til udklipsholderen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copy to Clipboard": {
   "t": "Kopiér til udklipsholderen",
   "src": "libretranslate",
@@ -5621,8 +5819,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Corner coordinate labels": {
+  "t": "Hjørnekoordinatmærker",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Corner coordinates": {
   "t": "Hjørnekoordinater",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not access the clipboard - select the text and copy manually.": {
+  "t": "Kunne ikke få adgang til udklipsholderen - vælg teksten og kopiere manuelt.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5635,6 +5845,12 @@
  },
  "Could not export the settings.": {
   "t": "Kunne ikke eksportere indstillingerne.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not read that file.": {
+  "t": "Kunne ikke læse den fil.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5945,6 +6161,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Custom font name": {
+  "t": "Brugervalgt skrifttype",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Custom font TTF URL": {
+  "t": "Brugerdefineret skrifttype TTF- URL",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Custom Label Dimensions": {
   "t": "Brugerdefinerede etiketdimensioner",
   "src": "libretranslate",
@@ -6113,6 +6341,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default / forced scale (1:x)": {
+  "t": "Standardskala / tvangsskala (1: x)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default Address 1 Field": {
   "t": "Standard- adresse 1 felt",
   "src": "libretranslate",
@@ -6233,6 +6467,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default font family": {
+  "t": "Standardskrifttype familie",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default format": {
   "t": "Standardformat",
   "src": "libretranslate",
@@ -6265,6 +6505,12 @@
  },
  "Default Linear Unit:": {
   "t": "Standard lineær enhed:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default logo": {
+  "t": "Standardlogo",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6313,6 +6559,12 @@
  },
  "Default scale bar units": {
   "t": "Standardskalamodeller",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default scale mode": {
+  "t": "Standardskalatilstand",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6499,6 +6751,12 @@
  },
  "Delete Selected ({selectedGraphicsCount})": {
   "t": "Slet markeret ({selectedGraphicsCount})",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Delete the selected layout.": {
+  "t": "Slet det markerede layout.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6905,6 +7163,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Download .xml": {
+  "t": "Download. xml",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Download {filteredFailuresCount} as CSV": {
   "t": "Download {filteredFailuresCount} som CSV",
   "src": "libretranslate",
@@ -6958,6 +7222,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Download the configuration as an XML file.": {
+  "t": "Download konfigurationen som en XML- fil.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Download the current settings as an .xml file.": {
   "t": "Download de aktuelle indstillinger som en .xml fil.",
@@ -7429,6 +7699,18 @@
  },
  "Drawings stay in this browser on this computer. They come back the next time you open this app.": {
   "t": "Tegninger ophold i denne browser på denne computer. De kommer tilbage næste gang du åbner denne app.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Draws a zoomed-out locator map in a corner of the map frame, with a rectangle showing the printed extent. No second map frame in the .pagx is needed.": {
+  "t": "Tegner en zoomed- out locator kort i et hjørne af kortrammen, med et rektangel der viser den udskrevne udstrækning. Ingen anden kortramme i .pagx er nødvendig.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Draws an ArcGIS Pro style grid over the map frame: a graticule (latitude/longitude), a measured grid (map units), or an alphanumeric reference grid. It follows rotated maps and other output coordinate systems (a graticule on a projected map is projected for you). Everything here is the default look for this layout: lines (color, width, opacity, pattern, tick and cross size), interval, labels (color, size, bold, halo and its color, inside or outside, sides, along-the-edge side labels, coordinate or number format, corner coordinates) and reference grid letters and cell ids. Apply to all layouts copies it everywhere. Users can restyle it in the Grid style panel, and Reset to layout grid returns to these settings; hide that panel under the runtime controls to keep this look fixed.": {
+  "t": "Trækker et ArcGIS Pro-gitter over kortrammen: et graticule (breddegrad / længdegrad), et målt gitter (kortenheder) eller et alfanumerisk referencesystem. Det følger roterede kort og andre output koordinatsystemer (en graticule på et projiceret kort er projiceret for dig). Alt her er standard udseende for dette layout: linjer (farve, bredde, uklarhed, mønster, kryds og kryds størrelse), interval, etiketter (farve, størrelse, fed, halo og dens farve, inde eller udenfor, sider, lang- the- kant side etiketter, koordinere eller nummer format, hjørne koordinater) og reference gitter bogstaver og celle-id. Anvend på alle layouts kopierer det overalt. Brugere kan gendanne det i Grid stil panel, og Nulstil til layout gitter vender tilbage til disse indstillinger; skjule dette panel under runtime-kontrol for at holde dette udseende fast.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8075,6 +8357,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Engine-level switches for the files this widget writes. All are safe to leave as they are.": {
+  "t": "Ingeniør- niveau skifter for de filer denne widget skriver. Alle er i sikkerhed.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enhanced Locate": {
   "t": "Forbedret lokalisering",
   "src": "libretranslate",
@@ -8125,6 +8413,12 @@
  },
  "Enter an address:": {
   "t": "Indtast en adresse:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enter both a font name and a TTF URL.": {
+  "t": "Indtast både et fontnavn og en TTF- URL.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8305,6 +8599,12 @@
  },
  "Esc": {
   "t": "Esc",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Esri print service (URL)": {
+  "t": "Esri-udskriftstjeneste (URL)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8801,6 +9101,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Exported XML": {
+  "t": "Eksporteret XML",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Exporting": {
   "t": "Eksport",
   "src": "libretranslate",
@@ -8833,6 +9139,18 @@
  },
  "extent {notesEditingIndex}": {
   "t": "omfang {notesEditingIndex}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Extent indicator color": {
+  "t": "Omfattende indikatorfarve",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Extent indicator width": {
+  "t": "Omfattende indikatorbredde",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9335,8 +9653,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Fixed interval (degrees or map units)": {
+  "t": "Fast interval (grader eller kortenheder)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Fixed scale": {
   "t": "Fast skala",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fixed scale (1:n)": {
+  "t": "Fast skala (1: n)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9619,6 +9949,12 @@
  },
  "Font: changes the typeface for all the text on the page. App default uses the layout font.": {
   "t": "Skrifttype: ændrer skrifttypen for alle teksten på siden. App standard bruger layoutskrifttypen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fonts": {
+  "t": "Skrifttyper",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10139,6 +10475,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Graticule (latitude/longitude)": {
+  "t": "Graticule (breddegrad / længdegrad)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Gray": {
+  "t": "Gray",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "grid": {
   "t": "net",
   "src": "libretranslate",
@@ -10147,6 +10495,12 @@
  },
  "Grid": {
   "t": "Gitter",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid and graticule": {
+  "t": "Grid og graticul",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10393,6 +10747,12 @@
  },
  "Grid Theme:": {
   "t": "Gitter- tema:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid toggle": {
+  "t": "Grid skifte",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10649,6 +11009,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Height (in)": {
+  "t": "Højde (i)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Height of each label in points (72 points = 1 inch)": {
   "t": "Højde på hver etiket i punkter (72 point = 1 tomme)",
   "src": "libretranslate",
@@ -10729,6 +11095,12 @@
  },
  "Hide drawing": {
   "t": "Skjul tegning",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hide individual controls from users, listed in the order they appear in the panel. Hidden controls still apply the configured defaults, for example hide Format to lock exports to the default format.": {
+  "t": "Skjul individuelle kontroller fra brugere, angivet i den rækkefølge, de vises i panelet. Skjulte kontroller anvender stadig de konfigurerede standardindstillinger, for eksempel skjule Format for at låse eksport til standardformatet.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11033,8 +11405,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Import .pagx": {
+  "t": "Import. pagx",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Import (Shapefile, GeoJSON, KML)": {
   "t": "Import (Shapefile, GeoJSON, KML)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import / export configuration": {
+  "t": "Import- / eksportkonfiguration",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11062,6 +11446,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Import an ArcGIS Pro .pagx layout file.": {
+  "t": "Importér en ArcGIS Pro .pagx layout fil.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import ArcGIS Pro layout files (.pagx). The exported page reproduces the Pro layout: page size, map frame, texts, lines, north arrow, scale bar, and pictures.": {
+  "t": "Importér ArcGIS Pro layout filer (.pagx). Den eksporterede side gengiver Pro layout: side størrelse, kort ramme, tekster, linjer, nord pil, skala bar, og billeder.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Import basemap configuration from XML. This will replace your current basemap selections.": {
   "t": "Importér baseemap konfiguration fra XML. Dette vil erstatte dine nuværende basemap valg.",
@@ -11117,8 +11513,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Import Google Font": {
+  "t": "Importér Googles skrifttype",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Import loads a GeoJSON or shapefile someone sent you and adds it to your list.": {
   "t": "Importér indlæser en GeoJSON eller formfil nogen sendte dig og tilføjer det til din liste.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import notes:": {
+  "t": "Importnotaer:",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11149,6 +11557,12 @@
  },
  "Important Notice": {
   "t": "Vigtig meddelelse",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Imported fonts": {
+  "t": "Importerede skrifttyper",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11375,6 +11789,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Initial values users see, grouped the way the panel shows them. Tokens: {layout} in title; {title} and {date} in file name. Max capture blank = auto: the widget detects the graphics card limit (up to 8192 px) so large layouts print as sharp as the machine allows. Set a number to override; the export progress line reports the effective DPI whenever the map is capped.": {
+  "t": "Initialværdier brugere se, grupperet den måde panelet viser dem. Tokens: {layout} i titlen {title} og {date} i filnavn. Max capture blank = auto: widget registrerer grafikkortet (op til 8192 px) så store layouts print så skarpe som maskinen tillader. Sæt et nummer til at tilsidesætte; eksportstatuslinjen rapporterer den effektive DPI, når kortet er lukket.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Initial View": {
   "t": "Indledende visning",
   "src": "libretranslate",
@@ -11404,6 +11824,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Inside the frame": {
+  "t": "Inde i rammen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Inside the map": {
   "t": "Inde i kortet",
@@ -11921,6 +12347,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Label placement": {
+  "t": "Mærkets placering",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Label position": {
   "t": "Mærkets placering",
   "src": "libretranslate",
@@ -12011,6 +12443,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Labels each corner of the map frame with its full coordinate: latitude and longitude for a graticule, northing and easting for a measured grid. Edge labels that would crowd a corner are dropped.": {
+  "t": "Etiketter hvert hjørne af kortrammen med dens fulde koordinat: bredde- og længdegrad for en graticule, northing og påføring for et målt gitter. Kant etiketter, der ville crowd et hjørne er droppet.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Labels land in the wrong slots: the Start number is skipping slots on purpose. Set Start back to 1 for a full sheet.": {
   "t": "Etiketter lander i de forkerte slots: Start nummer springer slots med vilje. Sæt Start tilbage til 1 for et helt ark.",
   "src": "libretranslate",
@@ -12043,6 +12481,12 @@
  },
  "Labels: {individualOption}": {
   "t": "Etiketter: {individualOption}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Large": {
+  "t": "Stor",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12317,6 +12761,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Layout templates": {
+  "t": "Layout skabeloner",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layouts (.pagx)": {
+  "t": "Layouts (.pagx)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Leave a box on (none) if you do not have that piece. Street and city are the two that matter most.": {
   "t": "Læg en kasse på (ingen) hvis du ikke har det stykke. Gade og by er de to, der betyder mest.",
   "src": "libretranslate",
@@ -12379,6 +12835,12 @@
  },
  "Left panel": {
   "t": "Venstre panel",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Left panel (beside the map)": {
+  "t": "Venstre panel (ved siden af kortet)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12461,6 +12923,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Legend source": {
+  "t": "Forkortelseskilde",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Legend widget": {
+  "t": "Legend- kontrol",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Legend will not fit beside the map, so it will print on additional pages.": {
   "t": "Legend vil ikke passe ved siden af kortet, så det vil udskrive på yderligere sider.",
   "src": "libretranslate",
@@ -12523,6 +12997,12 @@
  },
  "Light Gray": {
   "t": "Let grå",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Limit (map pages)": {
+  "t": "Grænse (kortsider)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12649,6 +13129,12 @@
  },
  "Line Segments not recommended for freehand tools.": {
   "t": "Linjesegmenter anbefales ikke til frihåndværktøj.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Line style": {
+  "t": "Linjestil",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12796,6 +13282,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Load configuration XML from a file.": {
+  "t": "Indlæs konfiguration XML fra en fil.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Load Existing Drawings": {
   "t": "Belastning af eksisterende tegninger",
@@ -13211,6 +13703,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Make a copy of the selected layout.": {
+  "t": "Lav en kopi af det valgte layout.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Make sure layers are visible on the map.": {
   "t": "Sørg for at lag er synlige på kortet.",
   "src": "libretranslate",
@@ -13309,6 +13807,12 @@
  },
  "Map DPI sets how fine the map picture is. Layout default is fine for most work. 300 is sharper but takes noticeably longer and makes a much bigger file.": {
   "t": "Kort DPI sætter hvor fint kortbilledet er. Layout standard er fint for de fleste arbejde. 300 er skarpere, men tager betydeligt længere tid og gør en meget større fil.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map extent & scale": {
+  "t": "Kort udstrækning & skala",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13469,6 +13973,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map series run in the browser, so every page is held in memory until the PDF is saved. Recommended: warn above 20 and limit at 50 (the defaults). About 1 MB and 5 to 10 seconds per page at 200 DPI; a locator overview roughly doubles the time. Raise the limit only for fast machines and 150 DPI or less; 200 is the most allowed. The index and legend pages are not counted. A grid series over the limit always stops.": {
+  "t": "Kortserier kører i browseren, så hver side holdes i hukommelsen indtil PDF er gemt. Anbefalet: advarsel over 20 og grænse ved 50 (standard). Omkring 1 MB og 5 til 10 sekunder per side på 200 DPI; en lokaliseringsoversigt groft fordobler tiden. Hæv kun grænsen for hurtige maskiner og 150 DPI eller mindre; 200 er den mest tilladte. Indeks- og legendesiderne tælles ikke. En gitter serie over grænsen altid stopper.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map series section": {
+  "t": "Kortserieafsnit",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map Switcher": {
   "t": "Kortskifter",
   "src": "libretranslate",
@@ -13483,6 +13999,12 @@
  },
  "Map title": {
   "t": "Korttitel",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map title input": {
+  "t": "Korttitel input",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13549,6 +14071,12 @@
  },
  "Maps that open in the right place": {
   "t": "Kort der åbner på det rigtige sted",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Margin from frame edge (in)": {
+  "t": "Margen fra frame edge (in)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13745,6 +14273,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Measured grid (map units)": {
+  "t": "Målt kvadratnet (kortenheder)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Measurement configuration options": {
   "t": "Måleindstillingsmuligheder",
   "src": "libretranslate",
@@ -13873,6 +14407,12 @@
  },
  "Measuring": {
   "t": "Måling",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Medium": {
+  "t": "Mellem",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14759,6 +15299,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No layouts yet. Import a .pagx exported from ArcGIS Pro (share the layout as a layout file).": {
+  "t": "Ingen planer endnu. Importér en .pagx eksporteret fra ArcGIS Pro (del layout som layout fil).",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No line layer is configured for editing.": {
   "t": "Intet linjelag er konfigureret til redigering.",
   "src": "libretranslate",
@@ -15047,6 +15593,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "North arrow style": {
+  "t": "Nord pil stil",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "North arrow symbol style.": {
   "t": "Nord pil symbol stil.",
   "src": "libretranslate",
@@ -15299,6 +15851,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "off": {
+  "t": "af",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Off": {
   "t": "Fra",
   "src": "libretranslate",
@@ -15341,8 +15899,38 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Off: users only pick a layout, type a title, watch the page preview and export (quick print). On: a collapsed Advanced options section adds the Print area, Map series, On the map, Page text, Style and Output cards.": {
+  "t": "Off: brugere kun vælge et layout, skrive en titel, se side preview og eksportere (hurtig print). På: en kollapset Avanceret muligheder sektion tilføjer Udskriv område, Kort serie, På kortet, Side tekst, Style og Output-kort.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer \"Fixed scale\" (force)": {
+  "t": "Tilbud \"Fast skala\" (kraft)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer \"Lock print area\"": {
+  "t": "Tilbyd \"Lås udskriftsområde\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Offer \"Map only\" export": {
   "t": "Tilbyd \"Kun kort\" eksport",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer \"Preserve map extent\"": {
+  "t": "Tilbud \"Preserve kort udstrækning\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer \"Preserve map scale\"": {
+  "t": "Tilbyd \"Preserve map skala\"",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15355,6 +15943,12 @@
  },
  "Offer output coordinate system (WKID)": {
   "t": "Tilbudsoutputkoordinatsystem (WKID)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer scale picker (user selects)": {
+  "t": "Tilbyder skala plukker (bruger vælger)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15385,6 +15979,12 @@
  },
  "Oldest": {
   "t": "Oldest",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "on": {
+  "t": "den",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15743,8 +16343,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Orange": {
+  "t": "Orange",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Order": {
   "t": "Rækkefølge",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Order of selected layout": {
+  "t": "Rækkefølge for valgt layout",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15845,6 +16457,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Output features": {
+  "t": "Outputfunktioner",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Output size (px)": {
   "t": "Udgangsstørrelse (px)",
   "src": "libretranslate",
@@ -15857,6 +16475,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Outside the frame": {
+  "t": "Uden for rammen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Outside the map": {
   "t": "Uden for kortet",
   "src": "libretranslate",
@@ -15865,6 +16489,12 @@
  },
  "outside this coordinate system's area": {
   "t": "uden for dette koordinatsystems område",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Over the limit": {
+  "t": "Over grænsen",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15905,6 +16535,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Overview inset toggle": {
+  "t": "Overblik inset skifte",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Overview inset: adds the small locator map in the corner, with a red box showing where the main map sits.": {
   "t": "Oversigt inset: tilføjer den lille locator kort i hjørnet, med en rød boks, der viser, hvor hovedkortet sidder.",
   "src": "libretranslate",
@@ -15913,6 +16549,12 @@
  },
  "Overview map on by default": {
   "t": "Oversigtskort som standard",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Overview scale": {
+  "t": "Oversigtsskala",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16049,6 +16691,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Panel size": {
+  "t": "Panelstørrelse",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Parcel attribute fields": {
   "t": "Parcel attributfelter",
   "src": "libretranslate",
@@ -16097,8 +16745,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Paste configuration XML or choose a file, then Import. This replaces all current settings.": {
+  "t": "Indsæt konfiguration XML eller vælg en fil, derefter Importér. Dette erstatter alle aktuelle indstillinger.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Paste settings XML to import": {
   "t": "Indsæt indstillinger XML at importere",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Paste XML or choose a file first.": {
+  "t": "Indsæt XML eller vælg en fil først.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Patch (swatch) size": {
+  "t": "Patchstørrelse",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16739,6 +17405,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Position": {
+  "t": "Stilling",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Pre-select common field names when available": {
   "t": "Præ- vælg almindelige feltnavne når de er tilgængelige",
   "src": "libretranslate",
@@ -17111,6 +17783,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Print service URL": {
+  "t": "Udskriv tjeneste URL",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Print source": {
+  "t": "Udskriv kilde",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Print the first pages (one page per feature only)": {
+  "t": "Udskriv de første sider (kun en side pr. funktion)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Print-ready labels": {
   "t": "Tryk- klar etiketter",
   "src": "libretranslate",
@@ -17125,6 +17815,12 @@
  },
  "Print-Ready Labels: spread out the labels so they do not overlap when exported to PDF.": {
   "t": "Print- Ready Labels: Spred etiketterne ud, så de ikke overlapper hinanden, når de eksporteres til PDF.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "printed scale": {
+  "t": "Trykt skala",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17149,6 +17845,12 @@
  },
  "Prints at 1:{scale}": {
   "t": "Udskrifter ved 1:{scale}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Prints the same legend the Legend widget shows: visible layers, group layers, map service sublayers, and all renderer types. Choose a panel beside the map (the map shrinks to make room) or a corner overlay. The legend fits itself: more columns, then smaller text, then an honest \"+ N more\" note.": {
+  "t": "Udskriver den samme legende Legend widget viser: synlige lag, gruppe lag, kort service underlags, og alle rendertyper. Vælg et panel ved siden af kortet (kortet krymper for at gøre plads) eller et hjørne overlay. Legenden passer sig selv: flere kolonner, så mindre tekst, så en ærlig \"+ N mere\" note.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17465,6 +18167,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Red": {
+  "t": "Rød",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Red messages on the Load step: a rule points at a field that is not there, or a required field is left empty. Press Back and fix the rule the message names.": {
   "t": "Røde meddelelser på Belastningstrinnet: En regel peger på et felt, der ikke er der, eller et krævet felt er tomt. Tryk på Tilbage og fikse reglen brevnavnene.",
   "src": "libretranslate",
@@ -17497,6 +18205,12 @@
  },
  "Reference (A-1 index)": {
   "t": "Reference (A1- indeks)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reference grid (A-1 index)": {
+  "t": "Referencegitter (A1- indeks)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17723,6 +18437,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Replace the current configuration with the XML above.": {
+  "t": "Erstat den aktuelle konfiguration med XML ovenfor.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Replace the previous layer on a new run": {
   "t": "Erstat det forrige lag på et nyt løb",
   "src": "libretranslate",
@@ -17849,6 +18569,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Resolve a Google Font family to its TTF files and fill the fields below.": {
+  "t": "Løs en Google Font-familie til sine TTF-filer og udfyld felterne nedenfor.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Resolve these before loading:": {
   "t": "Løs disse før indlæsning:",
   "src": "libretranslate",
@@ -17965,6 +18691,12 @@
  },
  "Right panel": {
   "t": "Højre panel",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Right panel (beside the map)": {
+  "t": "Højre panel (ved siden af kortet)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18347,6 +19079,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Scale bar options": {
+  "t": "Tilvalg for skaleringsbjælke",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Scale bar style": {
   "t": "Skalér stregstil",
   "src": "libretranslate",
@@ -18367,6 +19105,12 @@
  },
  "Scale is written as 1 to a number, for example 1:2400. A smaller number means the map is zoomed in closer.": {
   "t": "Skala er skrevet som 1 til et tal, for eksempel 1: 2400. Et mindre tal betyder, at kortet zoomes nærmere.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Scale picker choices": {
+  "t": "Valg af målevælger",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19301,6 +20045,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show \"Show print area\" toggle": {
+  "t": "Vis \"Vis udskriftsområde\" slå til",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show {label} ({abbreviation})": {
   "t": "Vis {label} ({abbreviation})",
   "src": "libretranslate",
@@ -19463,6 +20213,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show grid": {
+  "t": "Vis gitter",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show help guide": {
   "t": "Vis hjælpeguide",
   "src": "libretranslate",
@@ -19489,6 +20245,12 @@
  },
  "Show labels": {
   "t": "Vis etiketter",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show layer names": {
+  "t": "Vis lagnavne",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19595,6 +20357,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show overview inset": {
+  "t": "Vis oversigtssæt",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show Pictometry Button": {
   "t": "Vis piktometriknap",
   "src": "libretranslate",
@@ -19609,6 +20377,18 @@
  },
  "Show print area": {
   "t": "Vis udskriftsområde",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show print area / scale section": {
+  "t": "Vis udskriftsområde / skalaafsnit",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show print area on by default": {
+  "t": "Vis udskriftsområde som standard",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19687,6 +20467,12 @@
  },
  "Show this segment on the map": {
   "t": "Vis dette segment på kortet",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show title": {
+  "t": "Vis titel",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19865,6 +20651,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Small": {
+  "t": "Lille",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Snap": {
   "t": "Snap",
   "src": "libretranslate",
@@ -19999,6 +20791,12 @@
  },
  "Solid": {
   "t": "Fast",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Solid lines": {
+  "t": "Faste linjer",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20425,6 +21223,12 @@
  },
  "Stop editing": {
   "t": "Stop redigering",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Stop the export": {
+  "t": "Stop eksporten",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20885,6 +21689,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Text size": {
+  "t": "Tekststørrelse",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Text Style Editor": {
   "t": "Tekststilredigering",
   "src": "libretranslate",
@@ -20935,6 +21745,12 @@
  },
  "That source uses a format this map cannot show.": {
   "t": "Kilden bruger et format, som kortet ikke kan vise.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "That XML is not a valid Print Advanced configuration.": {
+  "t": "At XML ikke er en gyldig Print Advanced konfiguration.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21479,6 +22295,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The question-mark button that opens the in-widget guide. The guide only describes controls that are turned on here.": {
+  "t": "Knappen spørgsmål- markér der åbner in- widget guiden. Vejledningen beskriver kun betjeningsorganer, der er tændt her.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The rest of the app can use it too: filter it, select from it, put it in a chart or a table.": {
   "t": "Resten af appen kan også bruge det: filtrere det, vælge fra det, sætte det i et diagram eller et bord.",
   "src": "libretranslate",
@@ -21983,6 +22805,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Title": {
+  "t": "Titel",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Title Case the names": {
   "t": "Titel Angiv navnene",
   "src": "libretranslate",
@@ -22283,6 +23111,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Top left": {
+  "t": "Øverst til venstre",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Top left (over map)": {
   "t": "Øverste venstre (over kort)",
   "src": "libretranslate",
@@ -22297,6 +23131,12 @@
  },
  "Top page margin in points": {
   "t": "Top side margen i point",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Top right": {
+  "t": "Øverst til højre",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22363,6 +23203,12 @@
  },
  "Total Segments": {
   "t": "Segmenter i alt",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Transfer this widget's entire configuration - layouts, defaults, formats, logo, fonts - to another app. Export produces an XML file; import replaces the current configuration.": {
+  "t": "Overfør denne kontrol hele konfigurationen - layouts, standard, formater, logo, skrifttyper - til en anden app. Eksportér producerer en XML- fil; import erstatter den aktuelle konfiguration.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22693,6 +23539,12 @@
  },
  "Unable to retrieve features from the layer": {
   "t": "Kan ikke hente funktioner fra laget",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Uncheck formats to remove them from the runtime Format list. At least one stays enabled.": {
+  "t": "Afmarkér formater for at fjerne dem fra listen over runtime Format. Mindst én forbliver aktiveret.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23075,6 +23927,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Uploaded once and stored in the widget - used by any picture element that has no image of its own, across all layouts. Independent of the .pagx file paths.": {
+  "t": "Uploadet én gang og gemt i widget - bruges af ethvert billede element, der ikke har noget billede af sin egen, på tværs af alle layouts. Uafhængigt af .pagx fil stier.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Upsert (update match, insert new)": {
   "t": "Upsert (opdater match, indsæt ny)",
   "src": "libretranslate",
@@ -23291,6 +24149,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "User controls": {
+  "t": "Brugerkontrol",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Using the Widget": {
   "t": "Brug af kontrol",
   "src": "libretranslate",
@@ -23485,6 +24349,12 @@
  },
  "Visual feedback for selected features": {
   "t": "Visuel feedback for udvalgte funktioner",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Warn above (map pages)": {
+  "t": "Advar ovenfor (kort sider)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23771,6 +24641,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "White": {
+  "t": "Hvid",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "White background": {
+  "t": "Hvid baggrund",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Whole layer (beyond the map)": {
   "t": "Hele lag (uden for kortet)",
   "src": "libretranslate",
@@ -23807,6 +24689,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Widget logo": {
+  "t": "Kontrollogo",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Widget Version": {
   "t": "Kontrolversion",
   "src": "libretranslate",
@@ -23815,6 +24703,12 @@
  },
  "Width": {
   "t": "Bredde",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Width (in)": {
+  "t": "Bredde (i)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23971,6 +24865,12 @@
  },
  "X, Y": {
   "t": "X, Y",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "XML to import": {
+  "t": "XML at importere",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"

@@ -1487,6 +1487,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Add as many fonts as you like - each appears in the widget Font menu. Loaded by URL at export time - nothing is embedded in the widget. Must be a static TTF (not WOFF/WOFF2/OTF, not a Google Fonts CSS link). From github.com/google/fonts use the Raw URL of a .ttf - prefer files under a static/ folder; some variable-font TTFs will not embed in PDF. GitHub page URLs are converted to raw automatically. A City web server with a CORS header also works (e.g. a licensed Tahoma TTF). PDF and image formats embed the real glyphs; SVG references the font by name only.": {
+  "t": "Добавяне на колкото шрифтове искате - всеки се появява в менюто с джаджата Font. Зареден с URL по време на износ - нищо не е вградено в джаджата. Трябва да бъде статичен TTF (не WOFF/WOFF2/OTF, а не връзка с Google Fonts CSS). От github.com/google/fonts използвайте Raw URL на .ttf - предпочитайте файлове под статичен/ папка; някои променливи-фонт TTFs няма да се вграждат в PDF. Адресите на GitHub страница се преобразуват автоматично в сурови. A City уеб сървър с CORS заглавна част също работи (напр. лицензиран Tahoma TTF). PDF и формат на изображенията вграждат истинските glyphs; SVG препраща шрифта само по име.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add at least one line before exporting.": {
   "t": "Добавете поне един ред преди износа.",
   "src": "libretranslate",
@@ -1549,6 +1555,12 @@
  },
  "Add extra layer tools (flash, copy URL, refresh, details)": {
   "t": "Добавяне на допълнителни пластови инструменти (флаш, копие URL, освежаване, детайли)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add font": {
+  "t": "Добавяне на шрифт",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1685,6 +1697,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Add this font to the list. It appears in the widget Font menu.": {
+  "t": "Добавяне на шрифт към списъка. Той се появява в менюто на джаджата Font.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add to favorites": {
   "t": "Добавяне към фаворити",
   "src": "libretranslate",
@@ -1721,6 +1739,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Added {name}.": {
+  "t": "Добавяне {name}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Added to the map as": {
   "t": "Добавяне към картата като",
   "src": "libretranslate",
@@ -1753,6 +1777,12 @@
  },
  "Additional linear units: {join}": {
   "t": "Допълнителни линейни единици: {join}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Additional pages (PDF only; same sheet size)": {
+  "t": "Допълнителни страници (само PDF; същия размер на листа)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1925,6 +1955,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Adds a Print area panel to the widget so users can preview the exact print extent and control scale.": {
+  "t": "Добавяне на печат област панел към джаджата, така че потребителите могат да прегледат точната степен на печат и скала за контрол.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Adds extra spacing between segment labels so they don't overlap on printed maps.": {
   "t": "Добавя допълнително разстояние между етикетите на сегментите, за да не се припокриват върху печатни карти.",
   "src": "libretranslate",
@@ -1993,6 +2029,12 @@
  },
  "Advanced options cards open by default": {
   "t": "Разширени опции карти отворени по подразбиране",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Advanced options open by default": {
+  "t": "Разширени опции, отворени по подразбиране",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2212,6 +2254,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Allow advanced options": {
+  "t": "Разрешаване на разширени опции",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Allow batch editing": {
   "t": "Грешка при редактиране на партидата",
@@ -2489,6 +2537,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Applied: {n} layout(s); defaults: legend {legend}, overview {overview}, grid {grid}, selected features {selection}.": {
+  "t": "Прилагано: {n} оформление(s); по подразбиране: легенда {legend}, преглед {overview}, мрежа {grid}, избрани функции {selection}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Applies to all page text (title, labels, footer) in every export format. Limited to fonts built into PDF (Helvetica, Times, Courier); the .pagx font (e.g. Tahoma) maps to the sans-serif family.": {
+  "t": "Прилага се за всички страници текст (заглавие, етикети, футър) във всеки формат износ. Ограничени до шрифтове, вградени в PDF (Helvetica, Times, Courier); .pagx шрифт (напр. Tahoma) карти за семейство Sans-serif.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Apply": {
   "t": "Прилагане",
   "src": "libretranslate",
@@ -2500,6 +2560,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Apply ALL settings to every layout": {
+  "t": "Прилагане на ВСИЧКИ настройки за всеки макет",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Apply all text style changes and close the editor": {
   "t": "Прилагане на всички промени в стила на текста и затваряне на редактора",
@@ -2521,6 +2587,12 @@
  },
  "Apply the loaded or pasted settings to this widget.": {
   "t": "Нанесете заредените или поставени настройки на този джаджа.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Apply these settings to all layouts": {
+  "t": "Прилагане на тези настройки към всички макети",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2741,6 +2813,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Automatic (fit to legend content)": {
+  "t": "Автоматично (прилягане към легендарно съдържание)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Automatic (read the map legend directly)": {
+  "t": "Автоматично (прочети директно легендата на картата)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Available formats": {
+  "t": "Налични формати",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Avenir Next": {
   "t": "Следващият Авенир",
   "src": "libretranslate",
@@ -2824,6 +2914,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Background and border": {
+  "t": "Фон и граница",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Background Color": {
   "t": "Цвят на фона",
@@ -3041,6 +3137,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Black": {
+  "t": "Черен",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "blank": {
   "t": "Празно",
   "src": "libretranslate",
@@ -3100,6 +3202,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Blue": {
+  "t": "Син",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Bold": {
   "t": "Смело",
@@ -3185,6 +3293,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Bold TTF URL (optional)": {
+  "t": "Bold TTF URL (по избор)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Bold:": {
   "t": "Смело:",
   "src": "libretranslate",
@@ -3239,6 +3353,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Bottom left": {
+  "t": "Долу вляво",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Bottom left (over map)": {
   "t": "Долу вляво (над картата)",
   "src": "libretranslate",
@@ -3247,6 +3367,18 @@
  },
  "Bottom panel": {
   "t": "Долен панел",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Bottom panel (below the map)": {
+  "t": "Долен панел (под картата)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Bottom right": {
+  "t": "Долу вдясно",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3418,6 +3550,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Build XML from the current configuration and show it below.": {
+  "t": "Изграждане на XML от текущата конфигурация и го показва по-долу.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Bulk actions": {
   "t": "Дейност на едро",
@@ -3889,6 +4027,12 @@
  },
  "Choose color": {
   "t": "Избор на цвят",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose file…": {
+  "t": "Избор на файл...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4763,6 +4907,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Client-side (.pagx layouts)": {
+  "t": "От страната на клиента (.pagx оформление)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Client-side renders .pagx layouts in the browser (no server). Print service posts the map to an Esri ExportWebMap service for server-side layouts.": {
+  "t": "Клиентът прави .pagx оформление в браузъра (няма сървър). Print service posts the map to a Esri ExportWebMap service for server-side layers.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Close": {
   "t": "Затваряне",
   "src": "libretranslate",
@@ -4949,6 +5105,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Comma-separated layout template names exactly as the service expects them (e.g. letter-ansi-a-landscape, a4-landscape, map-only).": {
+  "t": "Имената на шаблона на Comma разделено оформление точно както ги очаква услугата (напр. буква-ansi-a-landscape, a4-landscape, карта-само).",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comma-separated scale denominators offered by the picker, e.g. 1000, 2400, 6000, 12000, 24000.": {
+  "t": "Разделени на Comma мащаби знаменатели, предлагани от берача, например 1000, 2400, 6000, 12000, 24000.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Company": {
   "t": "Дружество",
   "src": "libretranslate",
@@ -5113,6 +5281,12 @@
  },
  "Configuration imported.": {
   "t": "Конфигурация внесена.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Configuration imported. Save the app to apply it.": {
+  "t": "Конфигурация внесена. Запишете приложението, за да го приложите.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5375,6 +5549,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Coordinate labels": {
+  "t": "Координатни етикети",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Coordinate precision in popup results": {
   "t": "Координатна точност при изскачащите резултати",
   "src": "libretranslate",
@@ -5447,8 +5627,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copied to clipboard.": {
+  "t": "Копиран в папката.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copied!": {
   "t": "Разбрано!",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Copies this layout’s DPI, format, extent, legend, grid and overview to all other layouts. Page size and imported .pagx elements stay per layout.": {
+  "t": "Копия този макет, формат, степен, легенда, мрежа и преглед на всички други макети. Размер на страницата и вносни .pagx елементи престой за оформление.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5585,6 +5777,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copy the exported XML to the clipboard.": {
+  "t": "Копиране на експортирани XML в системния буфер.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copy to Clipboard": {
   "t": "Копиране в системния буфер",
   "src": "libretranslate",
@@ -5621,8 +5819,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Corner coordinate labels": {
+  "t": "Координатни етикети на ъгъла",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Corner coordinates": {
   "t": "Координати на ъгъла",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not access the clipboard - select the text and copy manually.": {
+  "t": "Грешка при достъп до системния буфер - изберете текста и копирайте ръчно.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5635,6 +5845,12 @@
  },
  "Could not export the settings.": {
   "t": "Грешка при експортиране на настройките.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not read that file.": {
+  "t": "Файлът не може да бъде прочетен.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5945,6 +6161,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Custom font name": {
+  "t": "Потребителски шрифт",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Custom font TTF URL": {
+  "t": "Потребителски шрифт TTF URL",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Custom Label Dimensions": {
   "t": "Потребителски размери на етикета",
   "src": "libretranslate",
@@ -6113,6 +6341,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default / forced scale (1:x)": {
+  "t": "По подразбиране / принудителна скала (1:x)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default Address 1 Field": {
   "t": "Адрес по подразбиране 1 Поле",
   "src": "libretranslate",
@@ -6233,6 +6467,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default font family": {
+  "t": "Шрифтове по подразбиране",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default format": {
   "t": "Формат по подразбиране",
   "src": "libretranslate",
@@ -6265,6 +6505,12 @@
  },
  "Default Linear Unit:": {
   "t": "Линейна единица по подразбиране:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default logo": {
+  "t": "Лого по подразбиране",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6313,6 +6559,12 @@
  },
  "Default scale bar units": {
   "t": "Единици от скалата по подразбиране",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default scale mode": {
+  "t": "Режим на скалата по подразбиране",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6499,6 +6751,12 @@
  },
  "Delete Selected ({selectedGraphicsCount})": {
   "t": "Изтриване на избрания ({selectedGraphicsCount})",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Delete the selected layout.": {
+  "t": "Изтриване на избрания макет.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6905,6 +7163,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Download .xml": {
+  "t": "Изтегляне .xml",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Download {filteredFailuresCount} as CSV": {
   "t": "Изтегляне {filteredFailuresCount} като CSV",
   "src": "libretranslate",
@@ -6958,6 +7222,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Download the configuration as an XML file.": {
+  "t": "Изтегляне на конфигурацията като XML файл.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Download the current settings as an .xml file.": {
   "t": "Изтеглете текущите настройки като .xml файл.",
@@ -7429,6 +7699,18 @@
  },
  "Drawings stay in this browser on this computer. They come back the next time you open this app.": {
   "t": "Рисунките остават в този браузър на този компютър. Те се връщат следващия път, когато отворите това приложение.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Draws a zoomed-out locator map in a corner of the map frame, with a rectangle showing the printed extent. No second map frame in the .pagx is needed.": {
+  "t": "Начертае мащабирана карта на локатора в ъгъл на рамката на картата, с правоъгълник, показващ отпечатаната степен. Не е необходима втора карта рамка в .pagx.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Draws an ArcGIS Pro style grid over the map frame: a graticule (latitude/longitude), a measured grid (map units), or an alphanumeric reference grid. It follows rotated maps and other output coordinate systems (a graticule on a projected map is projected for you). Everything here is the default look for this layout: lines (color, width, opacity, pattern, tick and cross size), interval, labels (color, size, bold, halo and its color, inside or outside, sides, along-the-edge side labels, coordinate or number format, corner coordinates) and reference grid letters and cell ids. Apply to all layouts copies it everywhere. Users can restyle it in the Grid style panel, and Reset to layout grid returns to these settings; hide that panel under the runtime controls to keep this look fixed.": {
+  "t": "Чертае мрежа от стил ArcGIS Pro върху рамката на картата: гратикула (географска ширина/дължина), измерена решетка (картови единици) или буквено-цифрова референтна мрежа. Той следва въртящи се карти и други изходни координатни системи (за вас се проектира гратикул на прожектирана карта). Всичко тук е по подразбиране гледам за този макет: линии (цвят, ширина, непрозрачност, модел, кърлеж и кръстосан размер), интервал, етикети (цвят, размер, смел, ореол и неговия цвят, отвътре или отвън, страни, по-напреднали странични етикети, координира или брой формат, координати на ъгъла) и референтни мрежови букви и клетъчни идентификатори. Нанесете го навсякъде. Потребителите могат да го престилят в панела на стила на мрежата и да го рестартират, за да оформят мрежата, да се върне към тези настройки; да скрият панела под управлението на времето, за да запазите този вид фиксиран.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8075,6 +8357,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Engine-level switches for the files this widget writes. All are safe to leave as they are.": {
+  "t": "Превключватели на ниво двигател за файловете, които тази джаджа пише. Всички са в безопасност.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enhanced Locate": {
   "t": "Засилено местоположение",
   "src": "libretranslate",
@@ -8125,6 +8413,12 @@
  },
  "Enter an address:": {
   "t": "Въведете адрес:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enter both a font name and a TTF URL.": {
+  "t": "Въведете име на шрифта и адрес на TTF.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8305,6 +8599,12 @@
  },
  "Esc": {
   "t": "Esc",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Esri print service (URL)": {
+  "t": "Esri print service (URL)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8801,6 +9101,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Exported XML": {
+  "t": "Експортиран XML",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Exporting": {
   "t": "Експортиране",
   "src": "libretranslate",
@@ -8833,6 +9139,18 @@
  },
  "extent {notesEditingIndex}": {
   "t": "степен {notesEditingIndex}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Extent indicator color": {
+  "t": "Цвят на индикатора",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Extent indicator width": {
+  "t": "Ширина на индикатора",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9335,8 +9653,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Fixed interval (degrees or map units)": {
+  "t": "Фиксиран интервал (градуси или картови единици)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Fixed scale": {
   "t": "Фиксирана скала",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fixed scale (1:n)": {
+  "t": "Фиксирана скала (1:n)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9619,6 +9949,12 @@
  },
  "Font: changes the typeface for all the text on the page. App default uses the layout font.": {
   "t": "Шрифт: променя шрифта за всички текстове на страницата. По подразбиране приложението използва шрифта на оформлението.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fonts": {
+  "t": "Шрифтове",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10139,6 +10475,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Graticule (latitude/longitude)": {
+  "t": "Гратикул (географска ширина/дължина)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Gray": {
+  "t": "Сиво",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "grid": {
   "t": "Мрежа",
   "src": "libretranslate",
@@ -10147,6 +10495,12 @@
  },
  "Grid": {
   "t": "Мрежа",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid and graticule": {
+  "t": "Мрежа и гратикул",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10393,6 +10747,12 @@
  },
  "Grid Theme:": {
   "t": "Тема на мрежата:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid toggle": {
+  "t": "Превключване на мрежата",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10649,6 +11009,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Height (in)": {
+  "t": "Височина (в)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Height of each label in points (72 points = 1 inch)": {
   "t": "Височина на всеки етикет в точки (72 точки = 1 инч)",
   "src": "libretranslate",
@@ -10729,6 +11095,12 @@
  },
  "Hide drawing": {
   "t": "Скриване на чертежа",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hide individual controls from users, listed in the order they appear in the panel. Hidden controls still apply the configured defaults, for example hide Format to lock exports to the default format.": {
+  "t": "Скриване на индивидуални контроли от потребители, изброени в реда, по който те се появяват в панела. Скритите контроли все още прилагат конфигурираните по подразбиране, например скрийте Формата, за да заключите износа към формата по подразбиране.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11033,8 +11405,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Import .pagx": {
+  "t": "Внос .pagx",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Import (Shapefile, GeoJSON, KML)": {
   "t": "Внос (Shapefile, GeoJSON, KML)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import / export configuration": {
+  "t": "Конфигурация на импортирането / износа",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11062,6 +11446,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Import an ArcGIS Pro .pagx layout file.": {
+  "t": "Импортиране на ArcGIS Pro .pagx оформление файл.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import ArcGIS Pro layout files (.pagx). The exported page reproduces the Pro layout: page size, map frame, texts, lines, north arrow, scale bar, and pictures.": {
+  "t": "Импортиране на файловете ArcGIS Pro (.pagx). Изнасяната страница възпроизвежда Pro оформлението: размер на страницата, рамка на картата, текстове, линии, северна стрелка, скала бар, и снимки.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Import basemap configuration from XML. This will replace your current basemap selections.": {
   "t": "Импортиране на базова карта от XML. Това ще замени текущите ви базови настройки.",
@@ -11117,8 +11513,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Import Google Font": {
+  "t": "Импортиране на шрифта на Google",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Import loads a GeoJSON or shapefile someone sent you and adds it to your list.": {
   "t": "Импортиране товари GeoJSON или формат файл някой ви изпрати и го добавя към списъка си.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import notes:": {
+  "t": "Бележки за импортиране:",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11149,6 +11557,12 @@
  },
  "Important Notice": {
   "t": "Важно известие",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Imported fonts": {
+  "t": "Импортиране на шрифтове",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11375,6 +11789,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Initial values users see, grouped the way the panel shows them. Tokens: {layout} in title; {title} and {date} in file name. Max capture blank = auto: the widget detects the graphics card limit (up to 8192 px) so large layouts print as sharp as the machine allows. Set a number to override; the export progress line reports the effective DPI whenever the map is capped.": {
+  "t": "Потребителите на начални стойности виждат, групират начина, по който панелът ги показва. Tokens: {layout} под заглавие; {title} както и {date} във файлово име. Макс. улавяне празно = автомобил: джаджата открива графичната карта граница (до 8192 px) толкова големи подредби печат толкова остър, колкото машината позволява. Задайте номер, който да се отмени; линията за напредък при износа докладва ефективния DPI, когато картата е ограничена.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Initial View": {
   "t": "Начален преглед",
   "src": "libretranslate",
@@ -11404,6 +11824,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Inside the frame": {
+  "t": "Вътре в рамката",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Inside the map": {
   "t": "Вътре в картата",
@@ -11921,6 +12347,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Label placement": {
+  "t": "Поставяне на етикети",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Label position": {
   "t": "Местоположение на етикета",
   "src": "libretranslate",
@@ -12011,6 +12443,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Labels each corner of the map frame with its full coordinate: latitude and longitude for a graticule, northing and easting for a measured grid. Edge labels that would crowd a corner are dropped.": {
+  "t": "Етикети всеки ъгъл на рамката на картата с пълна координата: ширина и дължина за гратикула, север и изток за измерена решетка. Етикети, които ще се спуснат на ъгъла.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Labels land in the wrong slots: the Start number is skipping slots on purpose. Set Start back to 1 for a full sheet.": {
   "t": "Етикетите се приземяват в грешните слотове: Стартовият номер пропуска слотовете нарочно. Започнете на 1 за пълен лист.",
   "src": "libretranslate",
@@ -12043,6 +12481,12 @@
  },
  "Labels: {individualOption}": {
   "t": "Етикети: {individualOption}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Large": {
+  "t": "Големи",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12317,6 +12761,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Layout templates": {
+  "t": "Шаблони за подреждане",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layouts (.pagx)": {
+  "t": "Макети (.pagx)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Leave a box on (none) if you do not have that piece. Street and city are the two that matter most.": {
   "t": "Оставете кутия върху (няма) ако не разполагате с това парче. Улица и град са двете най-важни.",
   "src": "libretranslate",
@@ -12379,6 +12835,12 @@
  },
  "Left panel": {
   "t": "Ляв панел",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Left panel (beside the map)": {
+  "t": "Ляв панел (до картата)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12461,6 +12923,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Legend source": {
+  "t": "Източник на легендата",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Legend widget": {
+  "t": "Legend джаджа",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Legend will not fit beside the map, so it will print on additional pages.": {
   "t": "Легендата няма да пасне до картата, така че ще се отпечата на допълнителни страници.",
   "src": "libretranslate",
@@ -12523,6 +12997,12 @@
  },
  "Light Gray": {
   "t": "Светло сиво",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Limit (map pages)": {
+  "t": "Лимит (картови страници)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12649,6 +13129,12 @@
  },
  "Line Segments not recommended for freehand tools.": {
   "t": "Сегменти от линии, които не се препоръчват за безплатни инструменти.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Line style": {
+  "t": "Стил на линията",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12796,6 +13282,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Load configuration XML from a file.": {
+  "t": "Зареждане на конфигурация XML от файл.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Load Existing Drawings": {
   "t": "Зареждане на съществуващи чертежи",
@@ -13211,6 +13703,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Make a copy of the selected layout.": {
+  "t": "Направете копие на избраното оформление.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Make sure layers are visible on the map.": {
   "t": "Уверете се, че слоевете са видими на картата.",
   "src": "libretranslate",
@@ -13309,6 +13807,12 @@
  },
  "Map DPI sets how fine the map picture is. Layout default is fine for most work. 300 is sharper but takes noticeably longer and makes a much bigger file.": {
   "t": "Карта DPI определя колко хубава е картинката. Подредбата по подразбиране е добре за повечето работа. 300 е по-остър, но отнема забележимо повече време и прави много по-голям файл.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map extent & scale": {
+  "t": "Размер и мащаб на картата",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13469,6 +13973,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map series run in the browser, so every page is held in memory until the PDF is saved. Recommended: warn above 20 and limit at 50 (the defaults). About 1 MB and 5 to 10 seconds per page at 200 DPI; a locator overview roughly doubles the time. Raise the limit only for fast machines and 150 DPI or less; 200 is the most allowed. The index and legend pages are not counted. A grid series over the limit always stops.": {
+  "t": "Серия от карти стартира в браузъра, така че всяка страница се съхранява в паметта, докато PDF се запише. Препоръчва се: предупреждение над 20 и ограничение на 50 (по подразбиране). Около 1 MB и 5 до 10 секунди на страница на 200 DPI; локатор преглед приблизително удвоява времето. Вдигнете лимита само за бързи машини и 150 DPI или по-малко; 200 е най-добре. Индексите и легендите не се броят. Серия над лимита винаги спира.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map series section": {
+  "t": "Раздел от серията карти",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map Switcher": {
   "t": "Превключвател на карти",
   "src": "libretranslate",
@@ -13483,6 +13999,12 @@
  },
  "Map title": {
   "t": "Заглавие на картата",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map title input": {
+  "t": "Вход за заглавието на картата",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13549,6 +14071,12 @@
  },
  "Maps that open in the right place": {
   "t": "Карти, които се отварят на правилното място",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Margin from frame edge (in)": {
+  "t": "Гранична стойност от ръба на рамката (в)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13745,6 +14273,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Measured grid (map units)": {
+  "t": "Измерена координатна мрежа (картови единици)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Measurement configuration options": {
   "t": "Настройки на конфигурацията за измерване",
   "src": "libretranslate",
@@ -13873,6 +14407,12 @@
  },
  "Measuring": {
   "t": "Измерване",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Medium": {
+  "t": "Среден",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14759,6 +15299,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No layouts yet. Import a .pagx exported from ArcGIS Pro (share the layout as a layout file).": {
+  "t": "Все още няма подредби. Внос .pagx експортиран от ArcGIS Pro (споделяне на оформлението като макетен файл).",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No line layer is configured for editing.": {
   "t": "Няма редов слой за редактиране.",
   "src": "libretranslate",
@@ -15047,6 +15593,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "North arrow style": {
+  "t": "Стил на северната стрелка",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "North arrow symbol style.": {
   "t": "В стил \"Северна стрела.\"",
   "src": "libretranslate",
@@ -15299,6 +15851,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "off": {
+  "t": "изключване",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Off": {
   "t": "Изключено",
   "src": "libretranslate",
@@ -15341,8 +15899,38 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Off: users only pick a layout, type a title, watch the page preview and export (quick print). On: a collapsed Advanced options section adds the Print area, Map series, On the map, Page text, Style and Output cards.": {
+  "t": "Изключете: потребителите избират само оформление, напишете заглавие, гледайте страницата преглед и износ (бърз печат). На: срутени Advanced опции раздел добавя област Print, Карта серия, На картата, Страница текст, стил и изход карти.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer \"Fixed scale\" (force)": {
+  "t": "Оферта \"Фиксирана скала\" (сила)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer \"Lock print area\"": {
+  "t": "Оферта \"Заключване на зоната за печат\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Offer \"Map only\" export": {
   "t": "Оферта \"Само за карта\" износ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer \"Preserve map extent\"": {
+  "t": "Оферта \"Запазване на обхвата на картата\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer \"Preserve map scale\"": {
+  "t": "Оферта \"Предварителна скала на картата\"",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15355,6 +15943,12 @@
  },
  "Offer output coordinate system (WKID)": {
   "t": "Оферта за координатна система на изхода (WKID)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer scale picker (user selects)": {
+  "t": "Оферта мащаб берач (потребител избира)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15385,6 +15979,12 @@
  },
  "Oldest": {
   "t": "Най-старият",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "on": {
+  "t": "на",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15743,8 +16343,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Orange": {
+  "t": "Портокали",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Order": {
   "t": "Ред",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Order of selected layout": {
+  "t": "Ред на избраното оформление",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15845,6 +16457,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Output features": {
+  "t": "Изходни характеристики",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Output size (px)": {
   "t": "Размер на изхода (px)",
   "src": "libretranslate",
@@ -15857,6 +16475,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Outside the frame": {
+  "t": "Извън рамката",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Outside the map": {
   "t": "Извън картата.",
   "src": "libretranslate",
@@ -15865,6 +16489,12 @@
  },
  "outside this coordinate system's area": {
   "t": "извън зоната на тази координатна система",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Over the limit": {
+  "t": "Над границата",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15905,6 +16535,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Overview inset toggle": {
+  "t": "Превключване на преглед",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Overview inset: adds the small locator map in the corner, with a red box showing where the main map sits.": {
   "t": "Преглед: добавя малка карта локатор в ъгъла, с червена кутия показва къде се намира основната карта.",
   "src": "libretranslate",
@@ -15913,6 +16549,12 @@
  },
  "Overview map on by default": {
   "t": "Преглед на картата по подразбиране",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Overview scale": {
+  "t": "Скала за преглед",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16049,6 +16691,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Panel size": {
+  "t": "Размер на панела",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Parcel attribute fields": {
   "t": "Name",
   "src": "libretranslate",
@@ -16097,8 +16745,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Paste configuration XML or choose a file, then Import. This replaces all current settings.": {
+  "t": "Поставяне конфигурация XML или изберете файл, след което импортиране. Това заменя всички текущи настройки.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Paste settings XML to import": {
   "t": "Поставяне на настройки XML за импортиране",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Paste XML or choose a file first.": {
+  "t": "Поставяне на XML или избор на файл първо.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Patch (swatch) size": {
+  "t": "Размер (часовник)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16739,6 +17405,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Position": {
+  "t": "Позиция",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Pre-select common field names when available": {
   "t": "Предварително избиране на общи имена на полета, когато има такива",
   "src": "libretranslate",
@@ -17111,6 +17783,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Print service URL": {
+  "t": "Адрес на услугата за печат",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Print source": {
+  "t": "Източник на печат",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Print the first pages (one page per feature only)": {
+  "t": "Отпечатване на първите страници (само една страница на функция)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Print-ready labels": {
   "t": "Етикети, готови за печат",
   "src": "libretranslate",
@@ -17125,6 +17815,12 @@
  },
  "Print-Ready Labels: spread out the labels so they do not overlap when exported to PDF.": {
   "t": "Печат-готови етикети: разпръснете етикетите, така че да не се припокриват при износ в PDF.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "printed scale": {
+  "t": "Печатна скала",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17149,6 +17845,12 @@
  },
  "Prints at 1:{scale}": {
   "t": "Отпечатъци в 1:{scale}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Prints the same legend the Legend widget shows: visible layers, group layers, map service sublayers, and all renderer types. Choose a panel beside the map (the map shrinks to make room) or a corner overlay. The legend fits itself: more columns, then smaller text, then an honest \"+ N more\" note.": {
+  "t": "Отпечатва една и съща легенда на Legend джаджа показва: видими слоеве, групови слоеве, карта услуга sublayers, и всички видове reder. Изберете панел до картата (картата се свива, за да направи място) или ъглов слой. Легендата се вписва в себе си: повече колони, след това по-малък текст, след това честна бележка \"+ N повече.\"",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17465,6 +18167,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Red": {
+  "t": "Червено",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Red messages on the Load step: a rule points at a field that is not there, or a required field is left empty. Press Back and fix the rule the message names.": {
   "t": "Червени съобщения на етапа на натоварване: правило точки в поле, което не е там, или изисквано поле е оставено празно. Натиснете назад и поправете правилото имената на съобщенията.",
   "src": "libretranslate",
@@ -17497,6 +18205,12 @@
  },
  "Reference (A-1 index)": {
   "t": "Референтен (индекс А-1)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reference grid (A-1 index)": {
+  "t": "Референтна координатна мрежа (индекс А-1)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17723,6 +18437,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Replace the current configuration with the XML above.": {
+  "t": "Замяна на текущата конфигурация с XML по-горе.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Replace the previous layer on a new run": {
   "t": "Замяна на предишния слой при нов ход",
   "src": "libretranslate",
@@ -17849,6 +18569,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Resolve a Google Font family to its TTF files and fill the fields below.": {
+  "t": "Resolve семейство Google Font към своите TTF файлове и попълнете полетата по-долу.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Resolve these before loading:": {
   "t": "Разтворете тези преди зареждане:",
   "src": "libretranslate",
@@ -17965,6 +18691,12 @@
  },
  "Right panel": {
   "t": "Десен панел",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Right panel (beside the map)": {
+  "t": "Десен панел (до картата)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18347,6 +19079,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Scale bar options": {
+  "t": "Опции за лентата за мащабиране",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Scale bar style": {
   "t": "Мащабиране на лентата",
   "src": "libretranslate",
@@ -18367,6 +19105,12 @@
  },
  "Scale is written as 1 to a number, for example 1:2400. A smaller number means the map is zoomed in closer.": {
   "t": "Скалата е написана като 1 към число, например 1:2400. По-малък брой означава, че картата се приближава по-близо.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Scale picker choices": {
+  "t": "Избор на мащаби",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19301,6 +20045,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show \"Show print area\" toggle": {
+  "t": "Показване на полето за показване",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show {label} ({abbreviation})": {
   "t": "Показване {label} ({abbreviation})",
   "src": "libretranslate",
@@ -19463,6 +20213,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show grid": {
+  "t": "Показване на мрежата",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show help guide": {
   "t": "Показване на ръководство за помощ",
   "src": "libretranslate",
@@ -19489,6 +20245,12 @@
  },
  "Show labels": {
   "t": "Показване на етикетите",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show layer names": {
+  "t": "Показване на имената на слоевете",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19595,6 +20357,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show overview inset": {
+  "t": "Показване на изгледа",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show Pictometry Button": {
   "t": "Показване на бутон за пиктометрия",
   "src": "libretranslate",
@@ -19609,6 +20377,18 @@
  },
  "Show print area": {
   "t": "Показване на област на печат",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show print area / scale section": {
+  "t": "Показване на раздел за печат / мащаб",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show print area on by default": {
+  "t": "Показване на област за печат по подразбиране",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19687,6 +20467,12 @@
  },
  "Show this segment on the map": {
   "t": "Показване на този сегмент на картата",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show title": {
+  "t": "Показване на заглавието",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19865,6 +20651,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Small": {
+  "t": "Малък",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Snap": {
   "t": "Snap",
   "src": "libretranslate",
@@ -19999,6 +20791,12 @@
  },
  "Solid": {
   "t": "Твърди",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Solid lines": {
+  "t": "Твърди линии",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20425,6 +21223,12 @@
  },
  "Stop editing": {
   "t": "Спрете редактирането",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Stop the export": {
+  "t": "Спрете износа",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20885,6 +21689,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Text size": {
+  "t": "Размер на текста",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Text Style Editor": {
   "t": "Редактор на текстови стилове",
   "src": "libretranslate",
@@ -20935,6 +21745,12 @@
  },
  "That source uses a format this map cannot show.": {
   "t": "Този източник използва формат, който картата не може да покаже.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "That XML is not a valid Print Advanced configuration.": {
+  "t": "Този XML не е валидна конфигурация за печат Advanced.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21479,6 +22295,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The question-mark button that opens the in-widget guide. The guide only describes controls that are turned on here.": {
+  "t": "Бутонът за въпроси, който отваря упътването в джаджата. Ръководството описва само контрола, който е включен тук.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The rest of the app can use it too: filter it, select from it, put it in a chart or a table.": {
   "t": "Останалата част от приложението може да го използва също: филтрирайте го, изберете от него, сложете го в диаграма или таблица.",
   "src": "libretranslate",
@@ -21983,6 +22805,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Title": {
+  "t": "Заглавие",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Title Case the names": {
   "t": "Заглавие Имена",
   "src": "libretranslate",
@@ -22283,6 +23111,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Top left": {
+  "t": "Горе вляво",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Top left (over map)": {
   "t": "Горе вляво (над картата)",
   "src": "libretranslate",
@@ -22297,6 +23131,12 @@
  },
  "Top page margin in points": {
   "t": "Марж на горната страница в точките",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Top right": {
+  "t": "Горе вдясно",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22363,6 +23203,12 @@
  },
  "Total Segments": {
   "t": "Общо сегменти",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Transfer this widget's entire configuration - layouts, defaults, formats, logo, fonts - to another app. Export produces an XML file; import replaces the current configuration.": {
+  "t": "Прехвърляне на цялата конфигурация на джаджата - макети, по подразбиране, формати, лого, шрифтове - към друго приложение. Експортиране произвежда XML файл; импортира заменя текущата конфигурация.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22693,6 +23539,12 @@
  },
  "Unable to retrieve features from the layer": {
   "t": "Грешка при извличане на функции от слоя",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Uncheck formats to remove them from the runtime Format list. At least one stays enabled.": {
+  "t": "Отменете форматите, за да ги премахнете от списъка с формати. Поне един остава включен.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23075,6 +23927,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Uploaded once and stored in the widget - used by any picture element that has no image of its own, across all layouts. Independent of the .pagx file paths.": {
+  "t": "Качва се веднъж и се съхранява в джаджата - използва се от всеки елемент на картина, който няма собствено изображение, във всички макети. Независимо от .pagx файл пътеки.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Upsert (update match, insert new)": {
   "t": "Обновяване (актуално съвпадение, вмъкване на нов)",
   "src": "libretranslate",
@@ -23291,6 +24149,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "User controls": {
+  "t": "Контрол на потребителите",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Using the Widget": {
   "t": "Използване на джаджа",
   "src": "libretranslate",
@@ -23485,6 +24349,12 @@
  },
  "Visual feedback for selected features": {
   "t": "Визуална обратна връзка за избраните функции",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Warn above (map pages)": {
+  "t": "Предупреждение по-горе (картови страници)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23771,6 +24641,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "White": {
+  "t": "Бял",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "White background": {
+  "t": "Бял фон",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Whole layer (beyond the map)": {
   "t": "Целият слой (отвъд картата)",
   "src": "libretranslate",
@@ -23807,6 +24689,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Widget logo": {
+  "t": "Лого на джаджата",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Widget Version": {
   "t": "Версия на джаджа",
   "src": "libretranslate",
@@ -23815,6 +24703,12 @@
  },
  "Width": {
   "t": "Ширина",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Width (in)": {
+  "t": "Ширина (в)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23971,6 +24865,12 @@
  },
  "X, Y": {
   "t": "X, Y",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "XML to import": {
+  "t": "XML за внос",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"

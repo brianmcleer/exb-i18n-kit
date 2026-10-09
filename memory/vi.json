@@ -1487,6 +1487,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Add as many fonts as you like - each appears in the widget Font menu. Loaded by URL at export time - nothing is embedded in the widget. Must be a static TTF (not WOFF/WOFF2/OTF, not a Google Fonts CSS link). From github.com/google/fonts use the Raw URL of a .ttf - prefer files under a static/ folder; some variable-font TTFs will not embed in PDF. GitHub page URLs are converted to raw automatically. A City web server with a CORS header also works (e.g. a licensed Tahoma TTF). PDF and image formats embed the real glyphs; SVG references the font by name only.": {
+  "t": "Thêm nhiều phông chữ tùy thích - mỗi phông chữ xuất hiện trong trình đơn phông chữ ô điều khiển. Được tải bởi URL tại thời điểm xuất khẩu - không có gì được nhúng trong ô điều khiển. Phải là một liên kết TTF tĩnh (không phải WOFF/WOFF2/OOTF, không phải liên kết Google Fonts CSS). Từ githib.com/google/fots sử dụng URL thô của một .tf - thích tập tin dưới một trạng thái tĩnh/ thư mục; một số biến TTFs sẽ không nhúng vào PDF. Các URL trang GitHub được chuyển thành tự động thô. Một trình phục vụ mạng thành phố với một tiêu đề CORS cũng hoạt động (v. d. một trình phục vụ có giấy phép Tahoma TTF). PDF và ảnh dạng nhúng các nét vẽ thật; SVG chỉ tham khảo phông chữ bằng tên.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add at least one line before exporting.": {
   "t": "Thêm ít nhất một dòng trước khi xuất khẩu.",
   "src": "libretranslate",
@@ -1549,6 +1555,12 @@
  },
  "Add extra layer tools (flash, copy URL, refresh, details)": {
   "t": "Thêm các công cụ cho lớp (fsh, sao chép URL, cập nhật, chi tiết)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add font": {
+  "t": "Thêm phông",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1685,6 +1697,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Add this font to the list. It appears in the widget Font menu.": {
+  "t": "Thêm phông chữ này vào danh sách. Nó xuất hiện trong trình đơn phông chữ ô điều khiển.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add to favorites": {
   "t": "Thêm vào danh sách yêu thích",
   "src": "libretranslate",
@@ -1721,6 +1739,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Added {name}.": {
+  "t": "Đã thêm {name}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Added to the map as": {
   "t": "Thêm vào bản đồ",
   "src": "libretranslate",
@@ -1753,6 +1777,12 @@
  },
  "Additional linear units: {join}": {
   "t": "Đơn vị tuyến tính thêm: {join}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Additional pages (PDF only; same sheet size)": {
+  "t": "Trang thêm (chỉ thành công; cùng kích cỡ tờ)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1925,6 +1955,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Adds a Print area panel to the widget so users can preview the exact print extent and control scale.": {
+  "t": "Thêm bảng điều khiển khu vực in vào ô điều khiển để người dùng có thể xem thử đúng kích thước in và tỷ lệ điều khiển.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Adds extra spacing between segment labels so they don't overlap on printed maps.": {
   "t": "Thêm khoảng cách giữa nhãn đoạn để chúng không chồng chéo lên bản đồ đã in.",
   "src": "libretranslate",
@@ -1993,6 +2029,12 @@
  },
  "Advanced options cards open by default": {
   "t": "Tùy chọn cấp cao mở thẻ theo mặc định",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Advanced options open by default": {
+  "t": "Tùy chọn cấp cao mở theo mặc định",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2212,6 +2254,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Allow advanced options": {
+  "t": "Cho phép tùy chọn cấp cao",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Allow batch editing": {
   "t": "Cho phép hiệu chỉnh hàng loạt",
@@ -2489,6 +2537,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Applied: {n} layout(s); defaults: legend {legend}, overview {overview}, grid {grid}, selected features {selection}.": {
+  "t": "Ứng dụng: {n} bố trí; mặc định: huyền thoại {legend}tổng quát {overview}lưới {grid}, các tính năng đã chọn {selection}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Applies to all page text (title, labels, footer) in every export format. Limited to fonts built into PDF (Helvetica, Times, Courier); the .pagx font (e.g. Tahoma) maps to the sans-serif family.": {
+  "t": "Ứng dụng cho mọi văn bản trang ( tựa, nhãn, chân trang) theo mỗi định dạng xuất khẩu. Giới hạn các phông chữ được xây dựng thành PDF (Helvetica, Times, Herald); phông chữ .pagx (v. d. Thahoma) bản đồ đến họ sans-serif.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Apply": {
   "t": "Áp dụng",
   "src": "libretranslate",
@@ -2500,6 +2560,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Apply ALL settings to every layout": {
+  "t": "Áp dụng mọi thiết lập cho mọi bố trí",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Apply all text style changes and close the editor": {
   "t": "Áp dụng mọi thay đổi kiểu văn bản và đóng trình soạn thảo",
@@ -2521,6 +2587,12 @@
  },
  "Apply the loaded or pasted settings to this widget.": {
   "t": "Áp dụng thiết lập nạp hay dán cho ô điều khiển này.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Apply these settings to all layouts": {
+  "t": "Áp dụng các thiết lập này cho mọi bố trí",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2741,6 +2813,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Automatic (fit to legend content)": {
+  "t": "Tự động (bằng huyền thoại nội dung)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Automatic (read the map legend directly)": {
+  "t": "Tự động (đã đọc trực tiếp truyền thuyết bản đồ)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Available formats": {
+  "t": "Định dạng",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Avenir Next": {
   "t": "Avenir Kế",
   "src": "libretranslate",
@@ -2824,6 +2914,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Background and border": {
+  "t": "Nền và viền",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Background Color": {
   "t": "Màu nền",
@@ -3041,6 +3137,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Black": {
+  "t": "Đen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "blank": {
   "t": "không rõ",
   "src": "libretranslate",
@@ -3100,6 +3202,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Blue": {
+  "t": "Xanh nước biển",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Bold": {
   "t": "đậm",
@@ -3185,6 +3293,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Bold TTF URL (optional)": {
+  "t": "URL đậm TTF (tùy chọn)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Bold:": {
   "t": "đậm:",
   "src": "libretranslate",
@@ -3239,6 +3353,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Bottom left": {
+  "t": "Trái dưới:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Bottom left (over map)": {
   "t": "Trái dưới (trên bản đồ)",
   "src": "libretranslate",
@@ -3247,6 +3367,18 @@
  },
  "Bottom panel": {
   "t": "Bảng dưới",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Bottom panel (below the map)": {
+  "t": "Bảng dưới (làm chậm bản đồ)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Bottom right": {
+  "t": "Phải dưới:",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3418,6 +3550,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Build XML from the current configuration and show it below.": {
+  "t": "Xây dựng XML từ cấu hình hiện thời và hiển thị nó dưới đây.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Bulk actions": {
   "t": "Hành động loạt",
@@ -3889,6 +4027,12 @@
  },
  "Choose color": {
   "t": "Chọn màu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose file…": {
+  "t": "Chọn tập tin...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4763,6 +4907,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Client-side (.pagx layouts)": {
+  "t": "Bên khách (.pagx bố trí)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Client-side renders .pagx layouts in the browser (no server). Print service posts the map to an Esri ExportWebMap service for server-side layouts.": {
+  "t": "Trình khách có bố trí .pagx trong trình duyệt (không có máy chủ). Dịch vụ in đăng bản đồ tới một dịch vụ Esri Xuất WebMap cho bố trí cạnh máy chủ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Close": {
   "t": "Đóng",
   "src": "libretranslate",
@@ -4949,6 +5105,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Comma-separated layout template names exactly as the service expects them (e.g. letter-ansi-a-landscape, a4-landscape, map-only).": {
+  "t": "Tên mẫu bố trí phân loại chính xác như dịch vụ mong đợi (v. d. chữ cái-a-ra-scape, a4-landscape, chỉ bản đồ).",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comma-separated scale denominators offered by the picker, e.g. 1000, 2400, 6000, 12000, 24000.": {
+  "t": "Các mẫu số phân loại được phân phối bởi người chọn, e.g. 1000, 2400, 6000,2000, 24000.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Company": {
   "t": "Công ti",
   "src": "libretranslate",
@@ -5113,6 +5281,12 @@
  },
  "Configuration imported.": {
   "t": "Cấu hình đã nhập.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Configuration imported. Save the app to apply it.": {
+  "t": "Cấu hình đã nhập. Lưu ứng dụng vào đó.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5375,6 +5549,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Coordinate labels": {
+  "t": "Nhãn tọa độ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Coordinate precision in popup results": {
   "t": "Name",
   "src": "libretranslate",
@@ -5447,8 +5627,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copied to clipboard.": {
+  "t": "Sao chép thành bảng nháp.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copied!": {
   "t": "Sao chép!",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Copies this layout’s DPI, format, extent, legend, grid and overview to all other layouts. Page size and imported .pagx elements stay per layout.": {
+  "t": "Sao chép DPI, định dạng, mức độ, huyền thoại, mạng lưới và tổng quát của bố trí này cho mọi bố trí khác. Kích cỡ trang và yếu tố .pagx nhập khẩu ở lại trên mỗi bố trí.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5585,6 +5777,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copy the exported XML to the clipboard.": {
+  "t": "Sao chép XML xuất vào bảng nháp.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copy to Clipboard": {
   "t": "Sao chép vào bảng nháp",
   "src": "libretranslate",
@@ -5621,8 +5819,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Corner coordinate labels": {
+  "t": "Nhãn tọa độ góc",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Corner coordinates": {
   "t": "Tọa độ Góc",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not access the clipboard - select the text and copy manually.": {
+  "t": "Không thể truy cập vào bảng nháp - chọn văn bản và sao chép bằng tay.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5635,6 +5845,12 @@
  },
  "Could not export the settings.": {
   "t": "Không thể xuất khẩu các thiết lập.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not read that file.": {
+  "t": "Không thể đọc tập tin đó.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5945,6 +6161,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Custom font name": {
+  "t": "Tên phông chữ riêng",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Custom font TTF URL": {
+  "t": "Tự chọn URL TTF",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Custom Label Dimensions": {
   "t": "Các chiều riêng",
   "src": "libretranslate",
@@ -6113,6 +6341,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default / forced scale (1:x)": {
+  "t": "Mặc định/ tỷ lệ ép buộc (1:x)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default Address 1 Field": {
   "t": "Địa chỉ mặc định 1 Trường",
   "src": "libretranslate",
@@ -6233,6 +6467,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default font family": {
+  "t": "Nhóm phông chữ mặc định",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default format": {
   "t": "Định dạng mặc định",
   "src": "libretranslate",
@@ -6265,6 +6505,12 @@
  },
  "Default Linear Unit:": {
   "t": "Đơn vị tuyến mặc định:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default logo": {
+  "t": "logo mặc định",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6313,6 +6559,12 @@
  },
  "Default scale bar units": {
   "t": "Đơn vị thanh kích thước mặc định",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default scale mode": {
+  "t": "Chế độ tỷ lệ mặc định",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6499,6 +6751,12 @@
  },
  "Delete Selected ({selectedGraphicsCount})": {
   "t": "Xoá mục đã chọn{selectedGraphicsCount})",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Delete the selected layout.": {
+  "t": "Xoá bố trí đã chọn.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6905,6 +7163,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Download .xml": {
+  "t": "Tải về",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Download {filteredFailuresCount} as CSV": {
   "t": "Tải về {filteredFailuresCount} như CSV",
   "src": "libretranslate",
@@ -6958,6 +7222,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Download the configuration as an XML file.": {
+  "t": "Tải cấu hình thành tập tin XML.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Download the current settings as an .xml file.": {
   "t": "Tải thiết lập hiện thời thành tập tin .xml.",
@@ -7429,6 +7699,18 @@
  },
  "Drawings stay in this browser on this computer. They come back the next time you open this app.": {
   "t": "Bản vẽ ở lại trong trình duyệt này trên máy tính này. Họ sẽ quay lại lần tới khi anh mở ứng dụng này.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Draws a zoomed-out locator map in a corner of the map frame, with a rectangle showing the printed extent. No second map frame in the .pagx is needed.": {
+  "t": "Vẽ một bản đồ định vị phóng to ở góc của khung bản đồ, với hình chữ nhật cho thấy độ in. Không cần thiết khung thứ hai.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Draws an ArcGIS Pro style grid over the map frame: a graticule (latitude/longitude), a measured grid (map units), or an alphanumeric reference grid. It follows rotated maps and other output coordinate systems (a graticule on a projected map is projected for you). Everything here is the default look for this layout: lines (color, width, opacity, pattern, tick and cross size), interval, labels (color, size, bold, halo and its color, inside or outside, sides, along-the-edge side labels, coordinate or number format, corner coordinates) and reference grid letters and cell ids. Apply to all layouts copies it everywhere. Users can restyle it in the Grid style panel, and Reset to layout grid returns to these settings; hide that panel under the runtime controls to keep this look fixed.": {
+  "t": "Vẽ một lưới kiểu ArcGIS Pro trên khung bản đồ: một ô chữ ( vĩ độ/ độ dài), một lưới đo (các đơn vị sơ đồ) hoặc một lưới tham chiếu chữ số. Nó theo bản đồ được xoay và các hệ thống kết xuất khác (một con báo trên bản đồ được chiếu cho bạn). Mọi thứ ở đây là cái nhìn mặc định cho bố trí này: màu sắc, độ rộng, độ mờ, kiểu chấm và kích cỡ gạch chéo, nhãn (color, kích cỡ, độ đậm, màu halo và màu của nó, bên trong hay bên ngoài, cạnh, nhãn dọc theo cạnh, định dạng tọa độ hay số, tọa độ góc) và các chữ cái và mã nhận diện tế bào. Áp dụng mọi bố trí sao chép nó khắp mọi nơi. Người dùng có thể phục hồi nó trong bảng kiểu Lưới, và đặt lại thành lưới bố trí trở lại thiết lập này; ẩn bảng đó dưới điều khiển thời gian chạy để giữ cho việc xem được cố định.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8075,6 +8357,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Engine-level switches for the files this widget writes. All are safe to leave as they are.": {
+  "t": "Name Tất cả mọi người đều được an toàn để đi như họ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enhanced Locate": {
   "t": "Xác định tăng cường",
   "src": "libretranslate",
@@ -8125,6 +8413,12 @@
  },
  "Enter an address:": {
   "t": "Nhập địa chỉ:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enter both a font name and a TTF URL.": {
+  "t": "Nhập cả tên phông chữ lẫn URL TTF.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8305,6 +8599,12 @@
  },
  "Esc": {
   "t": "Esc",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Esri print service (URL)": {
+  "t": "Dịch vụ in Esri (URL)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8801,6 +9101,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Exported XML": {
+  "t": "XML đã xuất",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Exporting": {
   "t": "Xuất",
   "src": "libretranslate",
@@ -8833,6 +9139,18 @@
  },
  "extent {notesEditingIndex}": {
   "t": "cấp độ {notesEditingIndex}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Extent indicator color": {
+  "t": "Màu chỉ số mở rộng",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Extent indicator width": {
+  "t": "Chiều rộng chỉ ra mở rộng",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9335,8 +9653,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Fixed interval (degrees or map units)": {
+  "t": "Khoảng thời gian cố định (độ hoặc đơn vị bản đồ)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Fixed scale": {
   "t": "Tỷ lệ cố định",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fixed scale (1:n)": {
+  "t": "Tỷ lệ cố định (1n)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9619,6 +9949,12 @@
  },
  "Font: changes the typeface for all the text on the page. App default uses the layout font.": {
   "t": "Phông: thay đổi kiểu chữ cho mọi văn bản trên trang. Ứng dụng mặc định dùng phông chữ bố trí.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fonts": {
+  "t": "Phông",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10139,6 +10475,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Graticule (latitude/longitude)": {
+  "t": "Name",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Gray": {
+  "t": "Xám",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "grid": {
   "t": "lưới",
   "src": "libretranslate",
@@ -10147,6 +10495,12 @@
  },
  "Grid": {
   "t": "Lưới",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid and graticule": {
+  "t": "Name",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10393,6 +10747,12 @@
  },
  "Grid Theme:": {
   "t": "Sắc thái lưới:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid toggle": {
+  "t": "Chuyển đổi Lưới",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10649,6 +11009,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Height (in)": {
+  "t": "Cao (in)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Height of each label in points (72 points = 1 inch)": {
   "t": "Chiều cao mỗi nhãn theo điểm (72 điểm = 1 \")",
   "src": "libretranslate",
@@ -10729,6 +11095,12 @@
  },
  "Hide drawing": {
   "t": "Ẩn vẽ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hide individual controls from users, listed in the order they appear in the panel. Hidden controls still apply the configured defaults, for example hide Format to lock exports to the default format.": {
+  "t": "Ẩn điều khiển riêng từ người dùng, liệt kê theo thứ tự hiện ra trên bảng. Điều khiển ẩn vẫn áp dụng các mặc định đã cấu hình, chẳng hạn ẩn định dạng để khoá xuất ra định dạng mặc định.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11033,8 +11405,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Import .pagx": {
+  "t": "Nhập .pagx",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Import (Shapefile, GeoJSON, KML)": {
   "t": "Nhập (Shapefile, GeoJSON, KML)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import / export configuration": {
+  "t": "Cấu hình Nhập / Xuất",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11062,6 +11446,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Import an ArcGIS Pro .pagx layout file.": {
+  "t": "Nhập vào tự sổ danh sách của kde2",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import ArcGIS Pro layout files (.pagx). The exported page reproduces the Pro layout: page size, map frame, texts, lines, north arrow, scale bar, and pictures.": {
+  "t": "Nhập vào tự sổ danh sách của kde2 Trang xuất khẩu mô phỏng bố trí Pro: kích cỡ trang, khung bản đồ, văn bản, dòng, mũi tên phía bắc, thanh tỷ lệ và hình ảnh.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Import basemap configuration from XML. This will replace your current basemap selections.": {
   "t": "Nhập cấu hình sơ đồ cơ bản từ XML. Điều này sẽ thay thế bản đồ cơ bản hiện tại của bạn.",
@@ -11117,8 +11513,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Import Google Font": {
+  "t": "Nhập phông chữ Google",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Import loads a GeoJSON or shapefile someone sent you and adds it to your list.": {
   "t": "Nhập một file GeoJSON hoặc định dạng ai đó đã gửi bạn và thêm nó vào danh sách của bạn.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import notes:": {
+  "t": "Nhập các ghi chú:",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11149,6 +11557,12 @@
  },
  "Important Notice": {
   "t": "Thông báo quan trọng",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Imported fonts": {
+  "t": "Các phông chữ đã nhập",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11375,6 +11789,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Initial values users see, grouped the way the panel shows them. Tokens: {layout} in title; {title} and {date} in file name. Max capture blank = auto: the widget detects the graphics card limit (up to 8192 px) so large layouts print as sharp as the machine allows. Set a number to override; the export progress line reports the effective DPI whenever the map is capped.": {
+  "t": "Đầu tiên, người dùng xem, nhóm lại cách bảng hiển thị chúng. Sắc: {layout} trong tiêu đề; {title} và {date} Trong tên tập tin. Thu tối đa = tự động: các ô điều khiển phát hiện giới hạn thẻ đồ họa (lên 8192 px) nên các bố trí lớn in nhanh như máy cho phép. Đặt một số để ghi đè lên; dòng tiến trình xuất khẩu báo cáo DPI hiệu quả mỗi khi bản đồ bị bao phủ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Initial View": {
   "t": "Xem đầu",
   "src": "libretranslate",
@@ -11404,6 +11824,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Inside the frame": {
+  "t": "Bên trong khung",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Inside the map": {
   "t": "Bên trong tấm bản đồ",
@@ -11921,6 +12347,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Label placement": {
+  "t": "Chọn nhãn",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Label position": {
   "t": "Vị trí nhãn",
   "src": "libretranslate",
@@ -12011,6 +12443,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Labels each corner of the map frame with its full coordinate: latitude and longitude for a graticule, northing and easting for a measured grid. Edge labels that would crowd a corner are dropped.": {
+  "t": "Nhãn mỗi góc của khung bản đồ với tọa độ đầy đủ: vĩ độ và kinh độ cho một griacule, phía bắc và đông cho một mạng đo. Những nhãn dán cạnh sẽ làm giảm một góc.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Labels land in the wrong slots: the Start number is skipping slots on purpose. Set Start back to 1 for a full sheet.": {
   "t": "Nhãn đặt vào khe sai: con số bắt đầu đang bỏ qua khe cố ý. Bắt đầu từ 1 cho 1 tờ đầy.",
   "src": "libretranslate",
@@ -12043,6 +12481,12 @@
  },
  "Labels: {individualOption}": {
   "t": "Nhãn: {individualOption}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Large": {
+  "t": "Lớn",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12317,6 +12761,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Layout templates": {
+  "t": "Mẫu bố trí",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layouts (.pagx)": {
+  "t": "Bố trí (. pagx)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Leave a box on (none) if you do not have that piece. Street and city are the two that matter most.": {
   "t": "Để hộp trên (không có) nếu bạn không có mảnh đó. Đường phố và thành phố là hai vấn đề quan trọng nhất.",
   "src": "libretranslate",
@@ -12379,6 +12835,12 @@
  },
  "Left panel": {
   "t": "Bảng trái",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Left panel (beside the map)": {
+  "t": "Bảng bên trái (bên cạnh bản đồ)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12461,6 +12923,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Legend source": {
+  "t": "Nguồn huyền thoại",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Legend widget": {
+  "t": "Name",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Legend will not fit beside the map, so it will print on additional pages.": {
   "t": "Truyền thuyết sẽ không phù hợp với bản đồ, vì vậy nó sẽ in trên các trang thêm.",
   "src": "libretranslate",
@@ -12523,6 +12997,12 @@
  },
  "Light Gray": {
   "t": "Xám nhạt",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Limit (map pages)": {
+  "t": "Giới hạn (trang ảnh)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12649,6 +13129,12 @@
  },
  "Line Segments not recommended for freehand tools.": {
   "t": "Đoạn thẳng không đề nghị dùng dụng cụ tự do.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Line style": {
+  "t": "Kiểu dòng",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12796,6 +13282,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Load configuration XML from a file.": {
+  "t": "Tải XML từ tập tin.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Load Existing Drawings": {
   "t": "Tải các bản vẽ tồn tại",
@@ -13211,6 +13703,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Make a copy of the selected layout.": {
+  "t": "Tạo bản sao của bố trí đã chọn.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Make sure layers are visible on the map.": {
   "t": "Đảm bảo là có thể nhìn thấy các lớp trên bản đồ.",
   "src": "libretranslate",
@@ -13309,6 +13807,12 @@
  },
  "Map DPI sets how fine the map picture is. Layout default is fine for most work. 300 is sharper but takes noticeably longer and makes a much bigger file.": {
   "t": "Sơ đồ DPI đặt giá trị của hình ảnh bản đồ. Mặc định của bố trí là tốt cho phần lớn công việc. 300 là sắc nét hơn nhưng mất nhiều thời gian hơn và làm cho một hồ sơ lớn hơn.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map extent & scale": {
+  "t": "Ánh xạ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13469,6 +13973,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map series run in the browser, so every page is held in memory until the PDF is saved. Recommended: warn above 20 and limit at 50 (the defaults). About 1 MB and 5 to 10 seconds per page at 200 DPI; a locator overview roughly doubles the time. Raise the limit only for fast machines and 150 DPI or less; 200 is the most allowed. The index and legend pages are not counted. A grid series over the limit always stops.": {
+  "t": "Chạy loạt bản đồ trong trình duyệt, vì vậy mỗi trang được cất giữ trong bộ nhớ cho đến khi PDF được lưu. Khuyên: cảnh báo trên 20 và giới hạn là 50 (giá trị mặc định). Khoảng 1 MB và từ 5 đến 10 giây mỗi trang với giá 200 DPI; tổng quan xấp xỉ gấp đôi thời gian. Tăng giới hạn chỉ cho máy nhanh và 150 DPI hoặc ít hơn; 200 là được cho phép nhất. Không tính chỉ số và các trang sách huyền thoại. Một chuỗi lưới trên giới hạn luôn luôn dừng lại.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map series section": {
+  "t": "Phần dãy",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map Switcher": {
   "t": "Trình đổi bản đồ",
   "src": "libretranslate",
@@ -13483,6 +13999,12 @@
  },
  "Map title": {
   "t": "Tiêu đề sơ đồ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map title input": {
+  "t": "Nhập tiêu đề sơ đồ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13549,6 +14071,12 @@
  },
  "Maps that open in the right place": {
   "t": "Bản đồ mở đúng chỗ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Margin from frame edge (in)": {
+  "t": "Lề từ cạnh khung (in)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13745,6 +14273,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Measured grid (map units)": {
+  "t": "Lưới đã đo (các đơn vị sơ đồ)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Measurement configuration options": {
   "t": "Các tùy chọn cấu hình đo lường",
   "src": "libretranslate",
@@ -13873,6 +14407,12 @@
  },
  "Measuring": {
   "t": "Đo",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Medium": {
+  "t": "Vừa",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14759,6 +15299,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No layouts yet. Import a .pagx exported from ArcGIS Pro (share the layout as a layout file).": {
+  "t": "Chưa có bố trí. Nhập khẩu một . pagx xuất từ ArcGIS Pro (đã chia sẻ bố trí thành tập tin bố trí).",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No line layer is configured for editing.": {
   "t": "Không có lớp dòng được cấu hình để sửa.",
   "src": "libretranslate",
@@ -15047,6 +15593,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "North arrow style": {
+  "t": "Name",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "North arrow symbol style.": {
   "t": "Name",
   "src": "libretranslate",
@@ -15299,6 +15851,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "off": {
+  "t": "tắt",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Off": {
   "t": "Tắt",
   "src": "libretranslate",
@@ -15341,8 +15899,38 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Off: users only pick a layout, type a title, watch the page preview and export (quick print). On: a collapsed Advanced options section adds the Print area, Map series, On the map, Page text, Style and Output cards.": {
+  "t": "Tắt: người dùng chỉ chọn bố trí, gõ tiêu đề, xem ô xem thử trang và xuất khẩu (cần in). Trên: một phần tùy chọn cấp cao bị sụp đổ thêm vùng Print, loạt bản đồ, trên bản đồ, chữ trang, kiểu dáng và thẻ xuất.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer \"Fixed scale\" (force)": {
+  "t": "Cung cấp tỷ lệ \"xx\" ( ép buộc)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer \"Lock print area\"": {
+  "t": "Cung cấp khu vực in \"Lock\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Offer \"Map only\" export": {
   "t": "Cung cấp xuất \"Chỉ\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer \"Preserve map extent\"": {
+  "t": "Đề nghị mức độ bản đồ phục vụ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer \"Preserve map scale\"": {
+  "t": "Đề nghị tỷ lệ bản đồ phục vụ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15355,6 +15943,12 @@
  },
  "Offer output coordinate system (WKID)": {
   "t": "Cung cấp hệ thống tọa độ kết xuất (WKID)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer scale picker (user selects)": {
+  "t": "Trình chọn tỷ lệ (người dùng)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15385,6 +15979,12 @@
  },
  "Oldest": {
   "t": "Già nhất",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "on": {
+  "t": "trên",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15743,8 +16343,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Orange": {
+  "t": "Cam",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Order": {
   "t": "Thứ tự",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Order of selected layout": {
+  "t": "Thứ tự bố trí đã chọn",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15845,6 +16457,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Output features": {
+  "t": "Các tính năng xuất",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Output size (px)": {
   "t": "Cỡ xuất (px)",
   "src": "libretranslate",
@@ -15857,6 +16475,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Outside the frame": {
+  "t": "Bên ngoài khung",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Outside the map": {
   "t": "Bên ngoài bản đồ",
   "src": "libretranslate",
@@ -15865,6 +16489,12 @@
  },
  "outside this coordinate system's area": {
   "t": "ra khỏi vùng của hệ tọa độ này",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Over the limit": {
+  "t": "Vượt quá giới hạn",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15905,6 +16535,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Overview inset toggle": {
+  "t": "Name",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Overview inset: adds the small locator map in the corner, with a red box showing where the main map sits.": {
   "t": "Hình chiếu toàn cảnh: thêm bản đồ định vị nhỏ ở góc, với một hộp màu đỏ chỉ ra vị trí của bản đồ chính.",
   "src": "libretranslate",
@@ -15913,6 +16549,12 @@
  },
  "Overview map on by default": {
   "t": "Xem sơ đồ theo mặc định",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Overview scale": {
+  "t": "Xem",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16049,6 +16691,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Panel size": {
+  "t": "Kích cỡ bảng điều khiển",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Parcel attribute fields": {
   "t": "Trường phân tích",
   "src": "libretranslate",
@@ -16097,8 +16745,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Paste configuration XML or choose a file, then Import. This replaces all current settings.": {
+  "t": "Dán cấu hình XML hoặc chọn tập tin, rồi Nhập. Tùy chọn này thay thế mọi thiết lập hiện thời.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Paste settings XML to import": {
   "t": "Dán XML thiết lập",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Paste XML or choose a file first.": {
+  "t": "Dán XML hay chọn tập tin trước.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Patch (swatch) size": {
+  "t": "Đắp vá kích cỡ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16739,6 +17405,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Position": {
+  "t": "Vị trí",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Pre-select common field names when available": {
   "t": "Chọn tên trường chung sẵn khi sẵn sàng",
   "src": "libretranslate",
@@ -17111,6 +17783,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Print service URL": {
+  "t": "In URL dịch vụ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Print source": {
+  "t": "Nguồn in",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Print the first pages (one page per feature only)": {
+  "t": "In trang đầu (chỉ một trang trên mỗi tính năng)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Print-ready labels": {
   "t": "Nhãn đã in",
   "src": "libretranslate",
@@ -17125,6 +17815,12 @@
  },
  "Print-Ready Labels: spread out the labels so they do not overlap when exported to PDF.": {
   "t": "Nhãn in sẵn sàng: trải nhãn ra để chúng không chồng chéo khi xuất ra PDF.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "printed scale": {
+  "t": "quy mô in",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17149,6 +17845,12 @@
  },
  "Prints at 1:{scale}": {
   "t": "In lúc 1:{scale}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Prints the same legend the Legend widget shows: visible layers, group layers, map service sublayers, and all renderer types. Choose a panel beside the map (the map shrinks to make room) or a corner overlay. The legend fits itself: more columns, then smaller text, then an honest \"+ N more\" note.": {
+  "t": "In cùng một truyền thuyết mà ô điều khiển huyền thoại cho thấy: các lớp nhìn thấy được, các lớp nhóm, các nhóm dịch vụ bản đồ và tất cả các loại máy in. Chọn một bảng bên cạnh bản đồ (bản đồ thu nhỏ để tạo chỗ) hoặc một góc bao phủ. Truyền thuyết phù hợp với chính nó: nhiều cột, sau đó văn bản nhỏ hơn, sau đó một lưu ý trung thực \"+N\"",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17465,6 +18167,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Red": {
+  "t": "Đỏ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Red messages on the Load step: a rule points at a field that is not there, or a required field is left empty. Press Back and fix the rule the message names.": {
   "t": "Thông điệp màu đỏ trên bước tải: một điểm quy tắc tại một trường không có, hoặc một trường cần thiết trống không. Bấm trở lại và sửa các quy tắc các tên thông điệp.",
   "src": "libretranslate",
@@ -17497,6 +18205,12 @@
  },
  "Reference (A-1 index)": {
   "t": "Tham chiếu (chỉ mục A-1)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reference grid (A-1 index)": {
+  "t": "Lưới tham chiếu (chỉ mục A-1)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17723,6 +18437,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Replace the current configuration with the XML above.": {
+  "t": "Thay thế cấu hình hiện thời bằng XML ở trên.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Replace the previous layer on a new run": {
   "t": "Thay thế lớp trước trong lần chạy mới",
   "src": "libretranslate",
@@ -17849,6 +18569,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Resolve a Google Font family to its TTF files and fill the fields below.": {
+  "t": "Giải quyết một gia đình Google Font tới tập tin TTF của nó và điền vào các lĩnh vực bên dưới.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Resolve these before loading:": {
   "t": "Giải quyết những điều này trước khi tải:",
   "src": "libretranslate",
@@ -17965,6 +18691,12 @@
  },
  "Right panel": {
   "t": "Bảng phải",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Right panel (beside the map)": {
+  "t": "Bảng bên phải (bên cạnh bản đồ)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18347,6 +19079,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Scale bar options": {
+  "t": "Phóng tùy chọn thanh",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Scale bar style": {
   "t": "Phóng theo kiểu thanh",
   "src": "libretranslate",
@@ -18367,6 +19105,12 @@
  },
  "Scale is written as 1 to a number, for example 1:2400. A smaller number means the map is zoomed in closer.": {
   "t": "Tỷ lệ được viết là 1 đến một số, chẳng hạn 1:2400. Một số nhỏ hơn nghĩa là bản đồ được phóng to gần hơn.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Scale picker choices": {
+  "t": "Phóng phần chọn",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19301,6 +20045,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show \"Show print area\" toggle": {
+  "t": "Hiện dấu hiệu khu vực in",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show {label} ({abbreviation})": {
   "t": "Hiện {label} (Tiếng cười){abbreviation})",
   "src": "libretranslate",
@@ -19463,6 +20213,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show grid": {
+  "t": "Hiện lưới",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show help guide": {
   "t": "Hiện hướng dẫn trợ giúp",
   "src": "libretranslate",
@@ -19489,6 +20245,12 @@
  },
  "Show labels": {
   "t": "Hiện chú thích",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show layer names": {
+  "t": "Hiện tên lớp",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19595,6 +20357,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show overview inset": {
+  "t": "Hiện bộ tổng quát",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show Pictometry Button": {
   "t": "Hiện nút hình ảnh",
   "src": "libretranslate",
@@ -19609,6 +20377,18 @@
  },
  "Show print area": {
   "t": "Hiện vùng in",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show print area / scale section": {
+  "t": "Hiện vùng in/ tỷ lệ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show print area on by default": {
+  "t": "Hiện khu vực in theo mặc định",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19687,6 +20467,12 @@
  },
  "Show this segment on the map": {
   "t": "Hiển thị đoạn này trên bản đồ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show title": {
+  "t": "Hiện tiêu đề",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19865,6 +20651,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Small": {
+  "t": "Nhỏ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Snap": {
   "t": "Chụp",
   "src": "libretranslate",
@@ -19999,6 +20791,12 @@
  },
  "Solid": {
   "t": "Rắn chắc",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Solid lines": {
+  "t": "Đường đặc",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20425,6 +21223,12 @@
  },
  "Stop editing": {
   "t": "Dừng sửa",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Stop the export": {
+  "t": "Dừng xuất khẩu",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20885,6 +21689,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Text size": {
+  "t": "Cỡ văn bản",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Text Style Editor": {
   "t": "Trình soạn thảo kiểu văn bản",
   "src": "libretranslate",
@@ -20935,6 +21745,12 @@
  },
  "That source uses a format this map cannot show.": {
   "t": "Nguồn đó sử dụng định dạng bản đồ này không thể hiển thị.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "That XML is not a valid Print Advanced configuration.": {
+  "t": "XML đó không phải là cấu hình nâng cao in hợp lệ.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21479,6 +22295,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The question-mark button that opens the in-widget guide. The guide only describes controls that are turned on here.": {
+  "t": "Nút đánh dấu câu hỏi mở đầu hướng dẫn viên. Người hướng dẫn chỉ mô tả điều khiển được bật ở đây.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The rest of the app can use it too: filter it, select from it, put it in a chart or a table.": {
   "t": "Phần còn lại của ứng dụng cũng có thể dùng nó: lọc nó, chọn từ nó, đặt nó vào biểu đồ hoặc bảng.",
   "src": "libretranslate",
@@ -21983,6 +22805,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Title": {
+  "t": "Tựa",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Title Case the names": {
   "t": "Tựa Đặt tên",
   "src": "libretranslate",
@@ -22283,6 +23111,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Top left": {
+  "t": "Trái trên:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Top left (over map)": {
   "t": "Trái trên (trên bản đồ)",
   "src": "libretranslate",
@@ -22297,6 +23131,12 @@
  },
  "Top page margin in points": {
   "t": "Lề trên trang",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Top right": {
+  "t": "Trên phải",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22363,6 +23203,12 @@
  },
  "Total Segments": {
   "t": "Tổng đoạn",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Transfer this widget's entire configuration - layouts, defaults, formats, logo, fonts - to another app. Export produces an XML file; import replaces the current configuration.": {
+  "t": "Chuyển toàn bộ cấu hình của ô điều khiển này sang ứng dụng khác. Xuất ra tập tin XML; nhập khẩu thay thế cấu hình hiện thời.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22693,6 +23539,12 @@
  },
  "Unable to retrieve features from the layer": {
   "t": "Không thể lấy tính năng từ lớp",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Uncheck formats to remove them from the runtime Format list. At least one stays enabled.": {
+  "t": "Bỏ chọn định dạng để gỡ bỏ chúng khỏi danh sách định dạng giờ chạy. Ít nhất một người vẫn có thể ở lại.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23075,6 +23927,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Uploaded once and stored in the widget - used by any picture element that has no image of its own, across all layouts. Independent of the .pagx file paths.": {
+  "t": "Tải lên một lần và lưu trong ô điều khiển - được dùng bởi bất cứ phần tử hình ảnh nào không có ảnh của riêng nó, qua mọi bố trí. Độc lập các đường dẫn tập tin .pagx.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Upsert (update match, insert new)": {
   "t": "Upsert (ra ngày, chèn mới)",
   "src": "libretranslate",
@@ -23291,6 +24149,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "User controls": {
+  "t": "Điều khiển người dùng",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Using the Widget": {
   "t": "Dùng ô điều khiển",
   "src": "libretranslate",
@@ -23485,6 +24349,12 @@
  },
  "Visual feedback for selected features": {
   "t": "Phản hồi hiển thị cho các tính năng đã chọn",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Warn above (map pages)": {
+  "t": "Cảnh báo ở trên (trang ảnh)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23771,6 +24641,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "White": {
+  "t": "Trắng",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "White background": {
+  "t": "Nền trắng",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Whole layer (beyond the map)": {
   "t": "Cả lớp (ở bên kia bản đồ)",
   "src": "libretranslate",
@@ -23807,6 +24689,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Widget logo": {
+  "t": "logo ô điều khiển",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Widget Version": {
   "t": "Phiên bản điều khiển",
   "src": "libretranslate",
@@ -23815,6 +24703,12 @@
  },
  "Width": {
   "t": "Bề rộng:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Width (in)": {
+  "t": "Bề rộng (trong)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23971,6 +24865,12 @@
  },
  "X, Y": {
   "t": "X, Y",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "XML to import": {
+  "t": "XML cần nhập",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"

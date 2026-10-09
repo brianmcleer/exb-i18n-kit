@@ -1103,6 +1103,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "A layer is on the map but not in the legend: the layer does not draw at the printed scale, or your app leaves out layers with nothing inside the print area, so it is left out on purpose. Check the layer list in the map, or print at a scale and area where it draws.": {
+  "t": "Vrstva je na mape, ale nie v legende: vrstva nekreslí na tlačenej stupnici, alebo vaša aplikácia vynecháva vrstvy bez ničoho vnútri tlačovej oblasti, takže je vynechaná naschvál. Skontrolujte zoznam vrstiev v mape, alebo vytlačte stupnicu a oblasť, kde kreslí.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A layer is ticked but missing from the map: its group is off. Tick the group too.": {
   "t": "Vrstva je zaškrtnutá, ale chýba z mapy: jej skupina je vypnutá. Označte aj skupinu.",
   "src": "libretranslate",
@@ -1123,6 +1129,12 @@
  },
  "A layer name is grey and nothing shows on the map: the layer only draws between certain zoom levels. Zoom in, or out, until the name turns dark.": {
   "t": "Názov vrstvy je šedá a na mape nič nezobrazuje: vrstva kreslí len medzi určitými úrovňami zoomu. Priblížte, alebo von, kým sa meno nezotmie.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer printed as a picture instead of sharp lines: its symbols, labels or effects are ones the vector output cannot copy exactly, so it kept the picture on purpose. The note under the finished file names each layer and the reason.": {
+  "t": "Vrstva vytlačená ako obrázok namiesto ostrých čiar: jeho symboly, etikety alebo efekty sú tie, ktoré vektorový výstup nemôže kopírovať presne, takže držal obrázok naschvál. Poznámka pod dokončeným súborom označuje každú vrstvu a dôvod.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1165,6 +1177,12 @@
  },
  "A map series cuts the area you are looking at into a grid of pages, all at one scale, and adds an index page at the front.": {
   "t": "Séria máp prestrihne oblasť, na ktorú sa pozeráte, do mriežky stránok, všetko v jednej mierke, a pridá index stránku vpredu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A map series is very slow: every page is captured one at a time, so twelve pages take roughly twelve times as long as one. Keep the tab open, or use fewer, larger pages.": {
+  "t": "Séria máp je veľmi pomalá: každá stránka je zachytená po jednom, takže dvanásť strán trvá približne dvanásťkrát dlhšie ako jedna. Udržujte kartu otvorenú alebo použite menej väčších stránok.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1222,6 +1240,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "A selected feature is missing from the print: Selected features is switched off, or the selection was cleared before you pressed Export. Turn the switch on, reselect, then export.": {
+  "t": "Z tlače chýba vybraná funkcia: Vybrané funkcie sú vypnuté alebo výber bol vymazaný pred stlačením Exportu. Zapnite zapnutie, znovu nastavte a potom exportujte.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A selection highlight belongs to the map on screen, not to the map layers, so the widget draws the selected features onto the page itself, as a cyan outline with a thin white casing so it reads over aerial photography. Selections made in the Select, Table or Query widgets and shapes an app has drawn on the map are all picked up. This switch sets the starting position only; users can still turn it on or off per export.": {
+  "t": "Zvýraznenie výberu patrí do mapy na obrazovke, nie do vrstiev mapy, takže widget kreslí vybrané funkcie na samotnú stránku, ako cyan obrys s tenkým bielym plášťom, takže číta nad anténou fotografie. Výbery z widgetov Select, Table alebo Query a tvary na mape sú všetky vyzdvihnuté. Tento prepínač nastaví len štartovaciu pozíciu; používatelia ho môžu stále zapnúť alebo vypnúť na export.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "A side with no selected layers shows the basemap and any shared map layers. You can use this to compare a layer with the basemap.": {
   "t": "Strana bez vybraných vrstiev zobrazuje basemap a zdieľané vrstvy mapy. Môžete to použiť na porovnanie vrstvy s basemap.",
@@ -1703,6 +1733,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Additional pages (PDF only; same sheet size)": {
+  "t": "Ďalšie strany (iba PDF; rovnaká veľkosť listu)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Additional pages (PDF only)": {
   "t": "Dodatočné strany (iba PDF)",
   "src": "libretranslate",
@@ -1871,6 +1907,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Adds a Print area panel to the widget so users can preview the exact print extent and control scale.": {
+  "t": "Pridá panel tlačovej oblasti do widgetu, aby používatelia mohli prezrieť presný rozsah tlače a kontrolnú stupnicu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Adds extra spacing between segment labels so they don't overlap on printed maps.": {
   "t": "Pridá extra odstup medzi segmentovými štítkami, takže sa neprekrývajú na tlačených mapách.",
   "src": "libretranslate",
@@ -1937,8 +1979,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Advanced options cards open by default": {
+  "t": "Pokročilé voliteľné karty otvorené štandardne",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Aerial and satellite imagery from the OpenStreetMap Editor Layer Index that covers the part of the map you are looking at. It is added under your layers, like a second basemap.": {
   "t": "Letecké a satelitné snímky z OpenStreetMap Editor Layer Index, ktorý pokrýva časť mapy, na ktorú sa pozeráte. Pridáva sa pod vaše vrstvy, ako druhý basemap.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Aerial photography looks soft: you are zoomed in closer than the photography was flown. It is placed correctly, there is simply no more detail to show. Zoom out a little for a crisper page.": {
+  "t": "Letecká fotografia vyzerá mäkko: ste priblížení bližšie ako fotografia bola letieť. Je umiestnený správne, jednoducho nie je viac detailov ukázať. Oddialiť trochu na ostrejšiu stránku.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2435,6 +2489,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Apply ALL settings to every layout": {
+  "t": "Použiť všetky nastavenia na každé rozloženie",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Apply all text style changes and close the editor": {
   "t": "Použiť všetky zmeny štýlu textu a zatvoriť editor",
   "src": "libretranslate",
@@ -2455,6 +2515,12 @@
  },
  "Apply the loaded or pasted settings to this widget.": {
   "t": "Aplikujte načítané alebo vložené nastavenia na tento widget.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Apply these settings to all layouts": {
+  "t": "Použiť tieto nastavenia na všetky rozloženia",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2675,6 +2741,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Automatic (fit to legend content)": {
+  "t": "Automatické (v súlade s obsahom legendy)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Automatic (read the map legend directly)": {
+  "t": "Automatické (Prečítajte si legendu mapy priamo)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Avenir Next": {
   "t": "Avenir Nasledujúci",
   "src": "libretranslate",
@@ -2758,6 +2836,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Background and border": {
+  "t": "Súvislosti a hranice",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Background Color": {
   "t": "Farba pozadia",
@@ -2975,11 +3059,29 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Black": {
+  "t": "Čierna",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "blank": {
   "t": "prázdne",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Blank = outline color": {
+  "t": "Prázdne = farba obrysu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Blank = signed-in username": {
+  "t": "Prázdne = prihlásené užívateľské meno",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Blank labels read Longitude and Latitude for a geographic system, X and Y otherwise.": {
   "t": "Prázdne štítky čítajú Zemepisná dĺžka a zemepisná šírka pre geografický systém, X a Y inak.",
@@ -3022,6 +3124,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Blue": {
+  "t": "Modrá",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Bold": {
   "t": "Tučné",
@@ -3161,6 +3269,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Bottom left": {
+  "t": "Dole vľavo",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Bottom left (over map)": {
   "t": "Vľavo dole (nad mapou)",
   "src": "libretranslate",
@@ -3169,6 +3283,18 @@
  },
  "Bottom panel": {
   "t": "Dolný panel",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Bottom panel (below the map)": {
+  "t": "Dolný panel (pod mapou)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Bottom right": {
+  "t": "Dole vpravo",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3499,6 +3625,12 @@
  },
  "Cell ids (A1, B2) in cells": {
   "t": "ID buniek (A1, B2) v bunkách",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Cell ids (A1, B2) in each cell": {
+  "t": "ID buniek (A1, B2) v každej bunke",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5291,6 +5423,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Coordinate labels": {
+  "t": "Súradnicové označenia",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Coordinate precision in popup results": {
   "t": "Presnosť súradníc vo výsledkoch popupupu",
   "src": "libretranslate",
@@ -5365,6 +5503,12 @@
  },
  "Copied!": {
   "t": "Skopírované!",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Copies this layout’s DPI, format, extent, legend, grid and overview to all other layouts. Page size and imported .pagx elements stay per layout.": {
+  "t": "Kópie tohto rozloženia a DPI, formát, rozsah, legenda, mriežka a prehľad pre všetky ostatné rozloženie. Veľkosť stránky a importované .pagx prvky zostať na rozloženie.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5533,6 +5677,12 @@
  },
  "Copyright / credits text for the {copyright} element.": {
   "t": "Copyright / kredity text pre {copyright} element.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Corner coordinate labels": {
+  "t": "Rohové súradnice",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6059,6 +6209,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default author": {
+  "t": "Štandardný autor",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default basemap": {
   "t": "Štandardná basemap",
   "src": "libretranslate",
@@ -6101,6 +6257,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default copyright": {
+  "t": "Štandardné autorské práva",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default custom buffer color.": {
   "t": "Štandardná farba vlastného pufra.",
   "src": "libretranslate",
@@ -6127,6 +6289,18 @@
  },
  "Default Field Mappings": {
   "t": "Štandardné mapovanie polí",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default file name": {
+  "t": "Štandardné meno súboru",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default format": {
+  "t": "Štandardný formát",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6161,14 +6335,56 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default map DPI": {
+  "t": "Štandardná mapa DPI",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default map title": {
+  "t": "Štandardný názov mapy",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default Name Field": {
   "t": "Štandardné pole mien",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default north arrow": {
+  "t": "Štandardná severná šípka",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default Opacity (%)": {
   "t": "Štandardná priehľadnosť (%)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default output WKID (0 = map's own)": {
+  "t": "Štandardný výstup WKID (0 = vlastné mapy)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default scale bar style": {
+  "t": "Štandardný štýl tabuľky",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default scale bar units": {
+  "t": "Štandardné jednotky mierky",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default second units (dual)": {
+  "t": "Štandardné druhé jednotky (dvojité)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7283,6 +7499,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Draws a zoomed-out locator map in a corner of the map frame, with a rectangle showing the printed extent. No second map frame in the .pagx is needed.": {
+  "t": "Nakreslí mapu lokalizátora v rohu mapového rámu s obdĺžnikom zobrazujúcim tlačený rozsah. V .pagx nie je potrebný druhý mapový rám.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Draws an ArcGIS Pro style grid over the map frame: a graticule (latitude/longitude), a measured grid (map units), or an alphanumeric reference grid. It follows rotated maps and other output coordinate systems (a graticule on a projected map is projected for you). Everything here is the default look for this layout: lines (color, width, opacity, pattern, tick and cross size), interval, labels (color, size, bold, halo and its color, inside or outside, sides, along-the-edge side labels, coordinate or number format, corner coordinates) and reference grid letters and cell ids. Apply to all layouts copies it everywhere. Users can restyle it in the Grid style panel, and Reset to layout grid returns to these settings; hide that panel under the runtime controls to keep this look fixed.": {
+  "t": "Nakreslí mriežku štýlu ArcGIS Pro nad mapovým rámom: Graticule (zemepisná šírka/dĺžka), meranú mriežku (mapa jednotiek) alebo alfanumerickú referenčnú mriežku. Nasleduje otáčanie máp a iných výstupných súradníc systémov (pre vás je premietaný Graticule na premietanej mape). Všetko je tu predvolený vzhľad tohto rozloženia: čiary (farba, šírka, opacita, vzor, kliešť a veľkosť kríža), interval, etikety (farba, veľkosť, tučný, halo a jeho farba, vnútri alebo zvonku, strany, pozdĺž okraja bočné štítky, súradnicový alebo formát čísla, rohové súradnice) a referenčné mriežkové písmená a ID bunky. Aplikujte ho na všetky rozloženia. Užívatelia ho môžu preštýliť na paneli štýlu Grid, a Resetovať do dispozičnej mriežky sa vráti do týchto nastavení; skryť tento panel pod ovládačmi času, aby tento vzhľad zostal pevný.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Drop a file here": {
   "t": "Drop súbor tu",
   "src": "libretranslate",
@@ -7399,6 +7627,12 @@
  },
  "Each button opens the pinned spot in another website: {links}.": {
   "t": "Každé tlačidlo otvára pripnuté miesto na inej webovej stránke: {links}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Each card can be opened and closed by the user, and their choice is remembered in their browser. These are the starting positions. Map series opens by itself whenever a series is switched on.": {
+  "t": "Každá karta môže byť otvorená a uzavretá užívateľom a ich voľba je zapamätaná v ich prehliadači. Toto sú východiskové pozície. Séria máp sa otvorí sama od seba, keď je séria zapnutá.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8465,6 +8699,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Export as many times as you like. Change one thing, export again, and compare the two files.": {
+  "t": "Exportovať toľkokrát, koľko chcete. Zmeniť jednu vec, znova exportovať a porovnať dva súbory.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Export as Shapefile": {
   "t": "Exportovať ako súbor tvaru",
   "src": "libretranslate",
@@ -8495,6 +8735,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Export defaults": {
+  "t": "Štandardný export",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Export drawings to file": {
   "t": "Exportovať výkresy do súboru",
   "src": "libretranslate",
@@ -8503,6 +8749,12 @@
  },
  "Export formats for {name}": {
   "t": "Exportovať formáty pre {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export is greyed out with a red message under Map series: the series is over this app's page limit. Use fewer rows or columns, or for one page per feature choose Inside the print area, zoom in, or filter the layer.": {
+  "t": "Export je sivé s červenou správou v mapovej sérii: séria je cez limit stránky tejto aplikácie. Použiť menej riadkov alebo stĺpcov, alebo pre jednu stránku na funkciu vybrať Vnútri tlačovej oblasti, priblížiť alebo filtrovať vrstvu.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8659,6 +8911,18 @@
  },
  "extent {notesEditingIndex}": {
   "t": "rozsah {notesEditingIndex}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Extent indicator color": {
+  "t": "Farba indikátora rozsahu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Extent indicator width": {
+  "t": "Šírka ukazovateľa rozsahu",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9143,6 +9407,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Finished exports are listed under Recent exports at the bottom of the panel, newest first. Click the file name to save it to your computer.": {
+  "t": "Dokončené vývozy sú uvedené v rámci Nedávneho vývozu v dolnej časti panelu, najnovšie prvý. Kliknutím na názov súboru ho uložíte do počítača.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Finishing up…": {
   "t": "Dokončujem...",
   "src": "libretranslate",
@@ -9155,8 +9425,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Fixed interval (degrees or map units)": {
+  "t": "Pevný interval (stupne alebo mapové jednotky)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Fixed scale": {
   "t": "Pevná stupnica",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fixed scale (1:n)": {
+  "t": "Pevná stupnica (1:n)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9593,6 +9875,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "From .pagx": {
+  "t": "Od .pagx",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "from {layerTitle}": {
   "t": "od {layerTitle}",
   "src": "libretranslate",
@@ -9851,6 +10139,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "GeoPDF coordinates in PDF exports": {
+  "t": "GeoPDF súradnice vo vývoze PDF",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Georeference (world file)": {
   "t": "Georeference (svetový súbor)",
   "src": "libretranslate",
@@ -9865,6 +10159,12 @@
  },
  "Getting the address of a spot": {
   "t": "Získanie adresy miesta",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Getting your file": {
+  "t": "Získanie súboru",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9941,6 +10241,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Graticule (latitude/longitude)": {
+  "t": "Graticule (zemepisná šírka/dĺžka)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Gray": {
+  "t": "Šedá",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "grid": {
   "t": "sieť",
   "src": "libretranslate",
@@ -9949,6 +10261,12 @@
  },
  "Grid": {
   "t": "Mriežka",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid and graticule": {
+  "t": "Mriežka a grafika",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9997,6 +10315,18 @@
  },
  "Grid is enabled. Theme: {gridTheme}. Spacing: {gridSpacingMode}. Rotation: {gridRotation} degrees.": {
   "t": "Mriežka je povolená. Téma: {gridTheme}. Medzera: {gridSpacingMode}Rotácia: {gridRotation} stupňov.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid labels are missing on a turned map: labels that would overlap another label are left off so none print on top of each other. Use a larger interval, fewer label sides, or smaller labels.": {
+  "t": "Štítky mriežky chýbajú na mape: štítky, ktoré by sa prekrývali s iným štítkom, sú vynechané, takže žiadna tlač na sebe. Použite väčší interval, menej strán štítka alebo menšie štítky.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid on by default": {
+  "t": "Grid štandardne",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10163,6 +10493,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Grid style panel": {
+  "t": "Panel štýlu mriežky",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Grid style: open it under Grid type to change the grid your way. Pick the line color, width, opacity and pattern, or draw only edge ticks and crosses. Set a custom interval, the label color, size, bold and halo, which sides get labels, labels that run along the side edges, and the coordinate or number format. Reference grids can put letters on rows and print cell ids like A1 in every cell. Reset to layout grid puts everything back.": {
   "t": "Štýl siete: otvorte ju pod typom siete pre zmenu mriežky vašou cestou. Vyberte farbu čiary, šírka, opacita a vzor, alebo kresliť len hrany kliešte a kríže. Nastaviť vlastný interval, farbu štítka, veľkosť, tučný a halo, ktoré strany získať štítky, štítky, ktoré bežia pozdĺž bočných hrán, a súradnicový alebo formát čísla. Referenčné mriežky môžu dať písmená do riadkov a tlačiť ID buniek ako A1 v každej bunke. Resetovať rozloženie siete všetko vráti späť.",
   "src": "libretranslate",
@@ -10177,6 +10513,12 @@
  },
  "Grid Theme:": {
   "t": "Téma siete:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid toggle": {
+  "t": "Prepínač siete",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10433,6 +10775,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Height (in)": {
+  "t": "Výška (v)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Height of each label in points (72 points = 1 inch)": {
   "t": "Výška každého štítku v bodoch (72 bodov = 1 palec)",
   "src": "libretranslate",
@@ -10528,6 +10876,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Hide legend layers not drawn at the print scale": {
+  "t": "Skryť legendárne vrstvy, ktoré nie sú na tlačovej stupnici",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hide legend layers with nothing in the print area": {
+  "t": "Skryť legendárne vrstvy bez ničoho v oblasti tlače",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Hide measurements": {
   "t": "Skryť merania",
@@ -10627,6 +10987,12 @@
  },
  "Hover a view in the list and use the trash icon to delete it.": {
   "t": "Presuňte zobrazenie v zozname a použite ikonu koša na jeho odstránenie.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hover over any label in this panel for a one-line explanation without opening this guide.": {
+  "t": "Vznášať cez akýkoľvek štítok v tomto paneli pre jedno-riadkové vysvetlenie bez otvorenia tejto príručky.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11039,6 +11405,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Include map attribution": {
+  "t": "Zahrnúť priradenie mapy",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Include Page Header": {
   "t": "Zahrnúť hlavičku stránky",
   "src": "libretranslate",
@@ -11135,6 +11507,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Initial values users see, grouped the way the panel shows them. Tokens: {layout} in title; {title} and {date} in file name. Max capture blank = auto: the widget detects the graphics card limit (up to 8192 px) so large layouts print as sharp as the machine allows. Set a number to override; the export progress line reports the effective DPI whenever the map is capped.": {
+  "t": "Počiatočné hodnoty, ktoré užívatelia vidia, zoskupujú spôsob, akým ich panel zobrazuje. Tokeny: {layout} názov; {title} a {date} v mene súboru. Max capture prázdne = auto: widget detekuje limit grafickej karty (až 8192 px), takže veľké rozloženie tlače tak ostré, ako stroj umožňuje. Nastavte číslo, ktoré sa má prepísať; exportná progresová čiara hlási účinný DPI vždy, keď je mapa obmedzená.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Initial View": {
   "t": "Počiatočný pohľad",
   "src": "libretranslate",
@@ -11164,6 +11542,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Inside the frame": {
+  "t": "Vnútri rámu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Inside the map": {
   "t": "V mape",
@@ -11465,6 +11849,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Keep map rotation in georeferenced images": {
+  "t": "Udržať rotáciu mapy v georeferenčných obrazoch",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Keep New Only": {
   "t": "Udržujte iba nové",
   "src": "libretranslate",
@@ -11675,6 +12065,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Label placement": {
+  "t": "Umiestnenie označenia",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Label position": {
   "t": "Poloha označenia",
   "src": "libretranslate",
@@ -11765,6 +12161,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Labels each corner of the map frame with its full coordinate: latitude and longitude for a graticule, northing and easting for a measured grid. Edge labels that would crowd a corner are dropped.": {
+  "t": "Označí každý roh mapového rámu svojou plnou súradnicou: zemepisná šírka a dĺžka pre Graticule, sever a východ pre meranú mriežku. Edge štítky, ktoré by sa davu rohu sú vypustené.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Labels land in the wrong slots: the Start number is skipping slots on purpose. Set Start back to 1 for a full sheet.": {
   "t": "Štítky pristanú v nesprávnych slotoch: Štartové číslo preskakuje sloty naschvál. Nastaviť späť na 1 pre celý list.",
   "src": "libretranslate",
@@ -11797,6 +12199,12 @@
  },
  "Labels: {individualOption}": {
   "t": "Štítky: {individualOption}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Large": {
+  "t": "Veľké",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12023,6 +12431,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Layers in PDF and SVG exports": {
+  "t": "Vrstvy vo vývoze PDF a SVG",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "layers on": {
   "t": "vrstvy na",
   "src": "libretranslate",
@@ -12049,6 +12463,12 @@
  },
  "Layout default": {
   "t": "Predvolené usporiadanie",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layout DPI": {
+  "t": "Rozloženie DPI",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12125,6 +12545,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Left panel (beside the map)": {
+  "t": "Ľavý panel (okrem mapy)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Left: {value} pt": {
   "t": "Vľavo: {value} pt",
   "src": "libretranslate",
@@ -12179,6 +12605,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Legend on by default": {
+  "t": "Predvolená legenda",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Legend page {i} of {n}": {
   "t": "Legenda {i} z {n}",
   "src": "libretranslate",
@@ -12193,6 +12625,18 @@
  },
  "Legend placement: beside the map, over a corner of it, or on Additional pages (PDF only). Beside the map, the map shrinks to make room. On additional pages, every item stays full size.": {
   "t": "Legenda umiestnenie: vedľa mapy, za rohom, alebo na ďalších stránkach (iba PDF). Vedľa mapy, mapa cvokári, aby sa miesto. Na ďalších stránkach každá položka zostáva plná.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Legend source": {
+  "t": "Vysvetlivky",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Legend widget": {
+  "t": "Name",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12263,6 +12707,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Limit (map pages)": {
+  "t": "Limit (mapa strán)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Limit address search to maps extent.": {
   "t": "Obmedzte vyhľadávanie adries na rozsah máp.",
   "src": "libretranslate",
@@ -12301,6 +12751,12 @@
  },
  "Line color": {
   "t": "Farba čiary",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Line color (any)": {
+  "t": "Farba čiary (akékoľvek)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12359,6 +12815,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Line pattern": {
+  "t": "Vzor riadku",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Line Segments": {
   "t": "Segmenty riadkov",
   "src": "libretranslate",
@@ -12373,6 +12835,12 @@
  },
  "Line Segments not recommended for freehand tools.": {
   "t": "Segmenty riadkov sa neodporúčajú pre nástroje freehand.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Line style": {
+  "t": "Štýl riadku",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13037,6 +13505,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map extent & scale": {
+  "t": "Rozsah & stupnice mapy",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map fields": {
   "t": "Polia mapy",
   "src": "libretranslate",
@@ -13175,6 +13649,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map series limits": {
+  "t": "Limity série máp",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map series pages set their own scale in the Map series panel; this scale is for single-page exports.": {
   "t": "Stránky série máp nastavujú vlastnú stupnicu v paneli série máp; táto stupnica je určená na jednostranový vývoz.",
   "src": "libretranslate",
@@ -13183,6 +13663,18 @@
  },
  "Map series progress": {
   "t": "Postup série máp",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map series run in the browser, so every page is held in memory until the PDF is saved. Recommended: warn above 20 and limit at 50 (the defaults). About 1 MB and 5 to 10 seconds per page at 200 DPI; a locator overview roughly doubles the time. Raise the limit only for fast machines and 150 DPI or less; 200 is the most allowed. The index and legend pages are not counted. A grid series over the limit always stops.": {
+  "t": "Mapový rad beží v prehliadači, takže každá stránka sa drží v pamäti až do uloženia PDF. Odporúčané: varovať nad 20 a limit na 50 (štandardné). O 1 MB a 5 až 10 sekúnd na stránku na 200 DPI; prehľad lokátor zhruba zdvojnásobí čas. Zvýšenie limitu len pre rýchle stroje a 150 DPI alebo menej; 200 je najviac povolené. Index a legendárne stránky sa nepočítajú. Rad mriežky nad limitom sa vždy zastaví.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map series section": {
+  "t": "Sekcia série máp",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13267,6 +13759,12 @@
  },
  "Maps that open in the right place": {
   "t": "Mapy, ktoré sa otvárajú na správnom mieste",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Margin from frame edge (in)": {
+  "t": "Medzera od okraja rámu (v)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13367,6 +13865,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Max map capture (px, long edge; blank = auto)": {
+  "t": "Max. zachytenie mapy (px, dlhá hrana; prázdne = auto)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Max scale": {
   "t": "Maximálna stupnica",
   "src": "libretranslate",
@@ -13453,6 +13957,12 @@
  },
  "Measured (map units)": {
   "t": "Merané (mapové jednotky)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Measured grid (map units)": {
+  "t": "Nameraná mriežka (mapové jednotky)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13585,6 +14095,12 @@
  },
  "Measuring": {
   "t": "Meranie",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Medium": {
+  "t": "Stredná",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14837,6 +15353,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Nothing downloaded: your browser may have blocked it. Look for a blocked download notice in the address bar, or click the file name under Recent exports again.": {
+  "t": "Nič nestiahnuté: váš prehliadač ho mohol zablokovať. Pozrite sa na zablokované oznámenie o stiahnutí v paneli adresy, alebo kliknite na názov súboru pod Nedávny vývoz znova.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Nothing extra": {
   "t": "Nič extra",
   "src": "libretranslate",
@@ -14875,6 +15397,12 @@
  },
  "Nothing is found where you know a feature is: the click landed just off the edge. Zoom in and click again, nearer the middle of the feature.": {
   "t": "Nič sa nenájde tam, kde viete, že funkcia je: kliknite na tlačidlo pristálo hneď na okraji. Priblížte a kliknite znova, bližšie uprostred funkcie.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Nothing you change here affects the map itself or anyone else. It only changes the page you are about to make.": {
+  "t": "Nič, čo sa tu zmení, neovplyvní samotnú mapu ani nikoho iného. To len zmení stránku, ktorú sa chystáte urobiť.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15011,14 +15539,80 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Off by default, so georeferenced map-only images and KMZ files are captured north-up. On, a rotated map keeps its rotation: the world file carries the rotation terms, a GeoTIFF uses a ModelTransformationTag, and the KMZ drapes as a rotated quad.": {
+  "t": "Predvolene vypnuté, takže georeferenčné obrázky iba mapy a KMZ súbory sú zachytené na sever. Na, otáčanie mapa udržuje svoju rotáciu: svetový súbor nesie rotačné termíny, GeoTIFF používa ModelTransformationTag, a KMZ závesy ako rotačný kvadr.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Off by default. Each export asks every visible feature layer how many features fall inside the printed area, and leaves layers with none off the legend. A layer that cannot be asked (tiles, imagery) or does not answer in time is always kept. Map series judge against the whole series area.": {
+  "t": "Vypnúť štandardne. Každý export sa pýta každej viditeľnej extra vrstvy, koľko funkcií patrí do tlačenej oblasti, a zanecháva vrstvy bez legendy. Vrstva, ktorá sa nedá položiť (prúdy, obrazy) alebo neodpovedá včas, je vždy zachovaná. Mapa série sudca proti celej oblasti série.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Off by default. Feature layers drawn with simple symbols (solid fills, lines and dashes, circle, square, diamond, triangle, cross and x markers; single symbol, unique values or class breaks) print as true vector shapes, crisp at any zoom and each in its own PDF layer. Hatched fills, custom path markers and picture markers come along too, and so do labels (field labels with halos, placed and deconflicted like the map does, including label classes with a where clause). Layers with clustering, effects, visual variables, Arcade renderers or Arcade labels, rotated picture markers or other symbols stay as pixels, and each export lists them with the reason. Works on rotated maps and on every map series and feature page sheet. Up to 20,000 features per layer.": {
+  "t": "Vypnúť štandardne. Motív vrstvy s jednoduchými symbolmi (pevné výplne, čiary a pomlčky, kruh, štvorec, diamant, trojuholník, kríž a x značky; jediný symbol, jedinečné hodnoty alebo prestávky triedy) tlačené ako skutočné vektorové tvary, ostré v každom zoom a každý vo svojej vlastnej PDF vrstve. Prichádzajú aj potiahnuté výplne, vlastné značky trasy a značky obrázkov, a to aj štítky (nálepky na poliach so svätožiarami, umiestnené a dekonfliktné ako mapa, vrátane tried označovania s klauzulom, kde). Vrstvy so zoskupovaním, efektmi, vizuálnymi premennými, kresbami Arcade alebo štítkami Arcade, striedaním obrazových markerov alebo iných symbolov zostávajú ako pixely a každý export ich uvádza s dôvodom. Funguje na rotačných mapách a na každej mape série a funkcie list stránky. Až 20 000 funkcií na jednu vrstvu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Off by default. On, each export logs to the browser console (F12) how many selected features were found and how many reached the page. Use it when a highlight does not print: the selection lives in the map view rather than in this widget, so the log is the only way to see what was found.": {
+  "t": "Vypnúť štandardne. Na, každý export protokoly do konzoly prehliadača (F12), koľko vybraných funkcií boli nájdené a koľko sa dostal na stránku. Použite ho, keď zvýraznenie netlačí: výber žije skôr v zobrazení mapy ako v tomto widgete, takže log je jediný spôsob, ako vidieť, čo bolo nájdené.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Off: every run adds another layer, numbered (2), (3) and so on.": {
   "t": "Mimo: každý beh pridáva ďalšiu vrstvu, očíslovanú (2), (3) a tak ďalej.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Offer \"Fixed scale\" (force)": {
+  "t": "Ponuka \"Fixed scale\" (force)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer \"Lock print area\"": {
+  "t": "Ponuka \"Oblasť tlače Lock\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer \"Map only\" export": {
+  "t": "Ponuka \"Len mapa\" export",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer \"Preserve map extent\"": {
+  "t": "Ponuka \"Rozsah mapy rezerv\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer \"Preserve map scale\"": {
+  "t": "Ponuka \"Mapa rezervnej stupnice\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Offer {name} on the Coordinates tab": {
   "t": "ponuka {name} na karte Súradnice",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer output coordinate system (WKID)": {
+  "t": "Ponuka súradnicového systému výstupov (WKID)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer scale picker (user selects)": {
+  "t": "Ponuka stupnice zberač (užívateľ vyberá)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15076,6 +15670,24 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "On by default. A layer whose visible scale range excludes the printed scale is left off the legend, so the legend never lists a symbol the map does not show.": {
+  "t": "Predvolené. Vrstva, ktorej viditeľná škála nezahŕňa vytlačenú stupnicu, je vynechaná z legendy, takže legenda nikdy neuvádza symbol, ktorý mapa nezobrazuje.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On by default. Every PDF map frame carries its coordinate system and corner coordinates, so Avenza Maps shows your location on the page, Acrobat reads coordinates with its Geospatial Location tool, and ArcGIS Pro and QGIS open the PDF in place. Map series georeference every sheet and the index page.": {
+  "t": "Predvolené. Každý PDF mapový rám nesie svoj súradnicový systém a rohové súradnice, takže Avenza Maps zobrazuje vašu polohu na stránke, Acrobat číta súradnice so svojím nástrojom Geospatial Location, a ArcGIS Pro a QGIS otvorte PDF na mieste. Mapa série georeference každý list a index stránky.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On by default. The map, grid, selection, overview, legend, north arrow and scale bar, text, graphics and QR code each go in their own layer, so they can be switched on and off in Acrobat, Avenza Maps, Illustrator or Inkscape. Map series add a Map series layer for the page outlines and numbers.": {
+  "t": "Predvolené. Mapa, mriežka, výber, prehľad, legenda, severná šípka a mierka, text, grafika a QR kód každý ísť vo svojej vlastnej vrstve, takže môžu byť zapnuté a vypnuté v Akrobat, Avenza Maps, Illustrator alebo Inkscape. Mapa série pridať Map série vrstvu pre stránky obrysy a čísla.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "On the {address} tab.": {
   "t": "Na {address} karta.",
@@ -15389,6 +16001,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Orange": {
+  "t": "Oranžová",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Order": {
   "t": "Uznesenie",
   "src": "libretranslate",
@@ -15503,6 +16121,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Outside the frame": {
+  "t": "Mimo rámu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Outside the map": {
   "t": "Mimo mapy",
   "src": "libretranslate",
@@ -15511,6 +16135,12 @@
  },
  "outside this coordinate system's area": {
   "t": "mimo oblasti tohto súradnicového systému",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Over the limit": {
+  "t": "Nad limit",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15551,8 +16181,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Overview inset toggle": {
+  "t": "Prepnúť nastavenie prehľadu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Overview inset: adds the small locator map in the corner, with a red box showing where the main map sits.": {
   "t": "Prehľad vložený: pridáva mapu malého lokátora v rohu, s červenou skriňou ukazujúcou, kde sa nachádza hlavná mapa.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Overview map on by default": {
+  "t": "Mapa prehľadu predvolene",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Overview scale": {
+  "t": "Rozsah prehľadu",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15641,6 +16289,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Page preview shows gray areas: part of the print area is off the screen, so the preview has nothing to show there. Pan or zoom out to see it; the exported file is not affected.": {
+  "t": "Náhľad stránky ukazuje šedé oblasti: časť tlačovej plochy je mimo obrazovky, takže náhľad tam nemá čo zobraziť. Pan alebo oddialiť vidieť; exportovaný súbor nie je ovplyvnený.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Page Size": {
   "t": "Veľkosť stránky",
   "src": "libretranslate",
@@ -15679,6 +16333,12 @@
  },
  "Panel mode is retained for legacy use. It queries only the configured REST layers and leaves the map's normal popup behavior unchanged.": {
   "t": "Režim panelu je zachovaný na použitie v minulosti. Dotazuje sa len nakonfigurované vrstvy REST a zanecháva normálne mapové správanie nezmenené.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Panel size": {
+  "t": "Veľkosť panelu",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15733,6 +16393,12 @@
  },
  "Paste settings XML to import": {
   "t": "Vložiť nastavenia XML na import",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Patch (swatch) size": {
+  "t": "Veľkosť náplasti (sledky)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16373,6 +17039,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Position": {
+  "t": "Poloha",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Pre-select common field names when available": {
   "t": "Predvolené bežné názvy polí, ak sú k dispozícii",
   "src": "libretranslate",
@@ -16619,6 +17291,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Preview fill color (hex)": {
+  "t": "Farba náhľadu (hex)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Preview first record": {
   "t": "Náhľad prvý záznam",
   "src": "libretranslate",
@@ -16645,6 +17323,18 @@
  },
  "Preview of the printed page": {
   "t": "Náhľad tlačenej stránky",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preview outline color (hex)": {
+  "t": "Farba náhľadu (hex)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preview outline width (px)": {
+  "t": "Šírka náhľadu (px)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16709,6 +17399,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Print selected features by default": {
+  "t": "Vytlačiť vybrané funkcie štandardne",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "print service": {
   "t": "tlačová služba",
   "src": "libretranslate",
@@ -16717,6 +17413,12 @@
  },
  "Print service request failed.": {
   "t": "Žiadosť o tlačovú službu zlyhala.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Print the first pages (one page per feature only)": {
+  "t": "Vytlačiť prvé stránky (iba jedna stránka na jednu funkciu)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16735,6 +17437,12 @@
  },
  "Print-Ready Labels: spread out the labels so they do not overlap when exported to PDF.": {
   "t": "Print-Ready Etikety: roztrúsiť štítky tak, aby sa neprekrývali pri vývoze do PDF.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "printed scale": {
+  "t": "vytlačená stupnica",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16759,6 +17467,12 @@
  },
  "Prints at 1:{scale}": {
   "t": "Odtlačky o 1:{scale}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Prints the same legend the Legend widget shows: visible layers, group layers, map service sublayers, and all renderer types. Choose a panel beside the map (the map shrinks to make room) or a corner overlay. The legend fits itself: more columns, then smaller text, then an honest \"+ N more\" note.": {
+  "t": "Tlačí rovnakú legendu Legend widget zobrazuje: viditeľné vrstvy, skupinové vrstvy, mapové podvrstvy a všetky typy kresieb. Vyberte panel vedľa mapy (mapa zmenšuje, aby sa miesto) alebo roh prekrytie. Legenda do seba zapadá: viac stĺpcov, potom menší text, potom poctivá poznámka \"+ N viac.\"",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17075,6 +17789,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Red": {
+  "t": "Červená",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Red messages on the Load step: a rule points at a field that is not there, or a required field is left empty. Press Back and fix the rule the message names.": {
   "t": "Červené správy na zaťažovacom kroku: pravidlo ukazuje na poli, ktoré tam nie je, alebo požadované pole zostáva prázdne. Stlačte späť a opraviť pravidlo názvy správ.",
   "src": "libretranslate",
@@ -17107,6 +17827,12 @@
  },
  "Reference (A-1 index)": {
   "t": "Referenčné číslo (A-1 index)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reference grid (A-1 index)": {
+  "t": "Referenčná sieť (A-1 index)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17221,6 +17947,12 @@
  },
  "Remove from list": {
   "t": "Odstrániť zo zoznamu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Remove from list clears one item and Clear empties the whole list. Neither deletes a file you have already saved.": {
+  "t": "Odstrániť zo zoznamu odstráni jednu položku a Vymazať vyprázdni celý zoznam. Ani jeden z nich neodstráni súbor, ktorý ste už uložili.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17569,6 +18301,12 @@
  },
  "Right panel": {
   "t": "Pravý panel",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Right panel (beside the map)": {
+  "t": "Pravý panel (okrem mapy)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18905,6 +19643,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show \"Show print area\" toggle": {
+  "t": "Zobraziť prepínač \"Zobraziť oblasť tlače\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show {label} ({abbreviation})": {
   "t": "Zobraziť {label} ({abbreviation})",
   "src": "libretranslate",
@@ -19067,6 +19811,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show grid": {
+  "t": "Zobraziť mriežku",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show help guide": {
   "t": "Zobraziť návod na pomoc",
   "src": "libretranslate",
@@ -19093,6 +19843,12 @@
  },
  "Show labels": {
   "t": "Zobraziť popisy",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show layer names": {
+  "t": "Zobraziť názvy vrstiev",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19199,6 +19955,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show overview inset": {
+  "t": "Zobraziť nastavenie prehľadu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show Pictometry Button": {
   "t": "Zobraziť piktometrické tlačidlo",
   "src": "libretranslate",
@@ -19213,6 +19975,12 @@
  },
  "Show print area": {
   "t": "Zobraziť oblasť tlače",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show print area / scale section": {
+  "t": "Zobraziť oblasť tlače / časť stupnice",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19291,6 +20059,12 @@
  },
  "Show this segment on the map": {
   "t": "Zobraziť tento segment na mape",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show title": {
+  "t": "Zobraziť názov",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19469,6 +20243,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Small": {
+  "t": "Malé",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Snap": {
   "t": "Snap",
   "src": "libretranslate",
@@ -19603,6 +20383,12 @@
  },
  "Solid": {
   "t": "Tuhá látka",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Solid lines": {
+  "t": "Pevné čiary",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19997,6 +20783,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Still stuck? Contact the GIS Division and mention the Print Advanced widget and this app.": {
+  "t": "Stále zaseknutý? Kontaktujte divíziu GIS a zmieňte sa o aplikácii Print Advanced Widget a tejto aplikácii.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Still stuck? Contact your GIS team and mention the Draw Advanced widget and this app.": {
   "t": "Stále zaseknutý? Kontaktujte svoj GIS tím a spomenúť Draw Advanced widget a túto aplikáciu.",
   "src": "libretranslate",
@@ -20023,6 +20815,12 @@
  },
  "Stop editing": {
   "t": "Zastaviť editáciu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Stop the export": {
+  "t": "Zastaviť export",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20483,6 +21281,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Text size": {
+  "t": "Veľkosť textu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Text Style Editor": {
   "t": "Editor štýlu textu",
   "src": "libretranslate",
@@ -20753,6 +21557,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The export is taking a long time: a high Map DPI or a large page takes longer. Keep the tab open and give it a few minutes. The message in the panel tells you what it is working on.": {
+  "t": "Export trvá dlho: vysoká mapa DPI alebo veľká stránka trvá dlhšie. Nechajte kartu otvorenú a dajte jej pár minút. Správa v paneli vám povie, na čom pracuje.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The expression choice lets you write a short formula, such as helpers.upper($.NAME). Write $.FIELD to read a value from your data.": {
   "t": "Výber výrazu umožňuje napísať krátky vzorec, ako sú pomocníci.upper($.NAME). Napíšte $.FIELD na prečítanie hodnoty z vašich dát.",
   "src": "libretranslate",
@@ -20891,11 +21701,23 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The list is only for this visit. It empties when you close or reload the app, so save anything you want to keep.": {
+  "t": "Zoznam je len na túto návštevu. Po zatvorení alebo opätovnom načítaní aplikácie sa vyprázdni, takže si ušetrite všetko, čo chcete.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The Load step checks the work, then writes the records into the layer.": {
   "t": "Načítať krok kontroluje prácu, potom napíše záznamy do vrstvy.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The map area is blank or grey: the map had not finished drawing. Wait until the map is still and every layer has appeared, then export again.": {
+  "t": "Oblasť mapy je prázdna alebo šedá: mapa nebola dokončená výkres. Počkajte, až bude mapa stále a každá vrstva sa objaví, potom exportovať znova.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The map does not move or change scale by itself. Use the zoom action in the details when you want the map to go there.": {
   "t": "Mapa sa sama o sebe nepohne ani nezmení mierku. Použite zoom akciu v detailoch, kedy chcete, aby mapa ísť tam.",
@@ -21043,6 +21865,12 @@
  },
  "The print service did not return a file.": {
   "t": "Tlačová služba nevrátila súbor.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The print service failed: the server refused the job or timed out. Try again, and if it keeps failing switch the Format to PDF and export a smaller page.": {
+  "t": "Tlačová služba zlyhala: server odmietol prácu alebo vypršal čas. Skúste to znova, a ak to stále zlyháva prepnúť formát do PDF a exportovať menšiu stránku.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21557,6 +22385,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Title": {
+  "t": "Názov",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Title Case the names": {
   "t": "Názov Vec mená",
   "src": "libretranslate",
@@ -21857,6 +22691,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Top left": {
+  "t": "Vľavo hore",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Top left (over map)": {
   "t": "Vľavo hore (nad mapou)",
   "src": "libretranslate",
@@ -21871,6 +22711,12 @@
  },
  "Top page margin in points": {
   "t": "Horná hranica strán v bodoch",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Top right": {
+  "t": "Hore vpravo",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22913,6 +23759,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Vector feature layers in PDF and SVG (experimental)": {
+  "t": "Vektorové vrstvy vo PDF a SVG (experimentálne)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Vector page furniture; opens in Illustrator/Inkscape. Covers the AIX use case.": {
   "t": "Nábytok na vektorových stránkach; otvára sa v Illustratore/Inkscape. Pokrýva obal na použitie AIX.",
   "src": "libretranslate",
@@ -23053,6 +23905,12 @@
  },
  "Visual feedback for selected features": {
   "t": "Vizuálna spätná väzba pre vybrané funkcie",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Warn above (map pages)": {
+  "t": "Varovať vyššie (mapa stránky)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23339,6 +24197,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "White": {
+  "t": "Biela",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Whole layer (beyond the map)": {
   "t": "Celá vrstva (za mapou)",
   "src": "libretranslate",
@@ -23383,6 +24247,12 @@
  },
  "Width": {
   "t": "Šírka",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Width (in)": {
+  "t": "Šírka (v)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23488,6 +24358,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Write export diagnostics to the console": {
+  "t": "Zapísať export diagnostiky do konzoly",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Write null": {
   "t": "Zapísať null",
