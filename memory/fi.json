@@ -89,6 +89,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "— None —": {
+  "t": "Ei mitään",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "— OR use direct URL —": {
   "t": "Käytä suoraa URL-osoitetta",
   "src": "libretranslate",
@@ -293,6 +299,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{badge} items": {
+  "t": "{badge} kohdat",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{basemap}: swaps the background map, for example imagery instead of streets.": {
   "t": "{basemap}: vaihtaa taustakartta, esimerkiksi kuvia eikä katuja.",
   "src": "libretranslate",
@@ -355,6 +367,18 @@
  },
  "{combinedFeatureCount} records available": {
   "t": "{combinedFeatureCount} tiedot saatavilla",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{comments} comment": {
+  "t": "{comments} kommentti",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{comments} comments": {
+  "t": "{comments} Huomautukset",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -839,6 +863,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "{photos} photo": {
+  "t": "{photos} valokuva",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{photos} photos": {
+  "t": "{photos} kuvat",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{point}: click once to record the location of a spot on the map.": {
   "t": "{point}: napsauta kerran tallentaaksesi paikan sijainnin kartalta.",
   "src": "libretranslate",
@@ -1181,6 +1217,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "← Back": {
+  "t": "← Takaisin",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "── Custom ──": {
   "t": "Asiakas",
   "src": "libretranslate",
@@ -1219,6 +1261,12 @@
  },
  "✓ Service order": {
   "t": "Palvelutilaus",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "⭐ Survey": {
+  "t": "Tutkimus",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1541,6 +1589,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "a camera with the number of pictures": {
+  "t": "kuvamääräinen kamera",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "a Comments sheet": {
+  "t": "a Huomautuksia",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A configured layer could not be queried. Check the layer URL and service access.": {
   "t": "Määritettyä kerrosta ei voitu tiedustella. Tarkista kerroksen URL ja palvelun pääsy.",
   "src": "libretranslate",
@@ -1727,11 +1787,23 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "a Photos sheet": {
+  "t": "kuvaarkki",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A picture is missing: that preview could not be shown. Click or tap the basemap name to try it anyway.": {
   "t": "Kuva puuttuu: tätä esikatselua ei voitu näyttää. Klikkaa tai napauta basemapin nimeä kokeillaksesi sitä kuitenkin.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "A red message says the Tickets layer was not found: the layer title in the settings does not match the web map. Check spelling and capitalization.": {
+  "t": "Punaisen viestin mukaan Liput-kerrosta ei löytynyt: kerroksen otsikko asetuksissa ei vastaa web-karttaa. Tarkista oikeinkirjoitus ja kapitalisointi.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "A repeat click at the same place at the same scale is answered from memory for this many seconds instead of re-querying the service. 0 disables.": {
   "t": "Toista napsauttamalla samassa paikassa samassa mittakaavassa vastataan muistista näin monta sekuntia sen sijaan, että uudelleen query palvelun. 0 pois käytöstä.",
@@ -1775,14 +1847,44 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "a speech bubble with the number of comments": {
+  "t": "puhekupla ja kommenttien määrä",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A spreadsheet of your rows with MATCH_STATUS, MATCH_SCORE, the address you sent, the address the locator matched, the address type, a plain reason for every row that did not match, and coordinates for every row that did. Open it in Excel and filter on MATCH_STATUS.": {
   "t": "Laskentataulukko riveistäsi MATCH STATUS, MATCH SCORE, lähettämäsi osoite, osoite täsmää, osoitetyyppi, selkeä syy jokaiselle riville, joka ei täsmää, ja koordinaatit jokaiselle riville, joka teki. Avaa se Excelissä ja suodata MATCH STATUS.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "a star when a survey answer exists": {
+  "t": "tähti, kun kyselyvastaus on olemassa",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "a Surveys sheet": {
+  "t": "a Kyselylomake",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A tick on the Survey tab means an answer exists. Has Survey in the list finds all of them.": {
+  "t": "Survey-välilehden rasti tarkoittaa vastausta. Löytää kaikki.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A ticked box means the layer is on the map. A grey name means the layer is outside its visible range: zoom in or out and it appears.": {
   "t": "Rastitettu laatikko tarkoittaa, että kerros on kartalla. Harmaa nimi tarkoittaa, että kerros on näkyvän alueensa ulkopuolella: zoomaa sisään tai ulos ja näkyy.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A ticket you just changed still shows old values in the list: press Refresh.": {
+  "t": "Lippu, jonka juuri vaihdoit, näyttää yhä vanhoja arvoja luettelossa: paina Päivitä.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3299,6 +3401,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "An amber warning under Priority means the department and category do not match. Save changes stays off until you fix it.": {
+  "t": "Amber varoitus Priority tarkoittaa, että osasto ja luokka eivät vastaa. Tallenna muutokset pysyvät poissa kunnes korjaat sen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "An export shows an error or nothing happens: the download was blocked. Allow downloads for this site and try again.": {
   "t": "Vienti osoittaa virheen tai mitään ei tapahdu: lataus estettiin. Salli lataukset tälle sivustolle ja yritä uudelleen.",
   "src": "libretranslate",
@@ -3349,6 +3457,12 @@
  },
  "Animations": {
   "t": "Animaatiot",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Anonymous": {
+  "t": "Nimetön",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3677,6 +3791,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Assigned": {
+  "t": "Määrätty",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Assigned and Category follow each other: picking a category suggests its department, and picking a department narrows the categories to the ones it handles.": {
+  "t": "Määrätyt ja kategoriat seuraavat toisiaan: kategorian valitseminen viittaa sen osastoon, ja yksikön valinta rajaa kategoriat niihin, joita se käsittelee.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Asturian (Asturianu)": {
   "t": "Asturian (Asturianu)",
   "src": "libretranslate",
@@ -3695,8 +3821,26 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Attach a photo": {
+  "t": "Liitä kuva",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Attach a photo to this comment": {
+  "t": "Liitä kuva kommenttiin",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Attach image": {
   "t": "Liitä kuva",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Attached photo preview": {
+  "t": "Liitteenä olevan kuvan esikatselu",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3941,6 +4085,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Back to ticket list": {
+  "t": "Takaisin lippulistalle",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Background and border": {
   "t": "Tausta ja rajat",
   "src": "libretranslate",
@@ -4042,6 +4192,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Badges on a card or in the Activity column: {badges}.": {
+  "t": "Merkit kortilla tai toimintosarakkeessa: {badges}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Banner message": {
   "t": "Bannerin viesti",
@@ -4913,6 +5069,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Cards and Table": {
+  "t": "Kortit ja pöytä",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Cards shows one card per ticket: the status and priority chips, the ticket number, the category, the start of the description and who it is assigned to.": {
+  "t": "Korteissa on yksi kortti lippua kohti: tila ja ensisijaiset pelimerkit, lipun numero, luokka, kuvauksen alku ja kenelle se on osoitettu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Carry basemap to next map": {
   "t": "Kantaa pohjakartta seuraavaan karttaan",
   "src": "libretranslate",
@@ -4921,6 +5089,12 @@
  },
  "Catalan (Català)": {
   "t": "katalaani (Català)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Category": {
+  "t": "Luokka",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5057,6 +5231,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Change status to {S}": {
+  "t": "Muuta tilaksi {S}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Change symbol": {
   "t": "Vaihda symbolia",
   "src": "libretranslate",
@@ -5081,6 +5261,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Change to {S}": {
+  "t": "Muutos {S}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Changed from the layout": {
   "t": "Muutos ulkoasusta",
   "src": "libretranslate",
@@ -5089,6 +5275,12 @@
  },
  "Changed your mind? Press Esc or click the x on the blue bar to stop drawing.": {
   "t": "Muutitko mielesi? Paina Esc tai klikkaa x sinistä palkkia lopettaaksesi piirroksen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Changing Status opens a note box, and the note is required. For Resolved it is the Resolution note, for Closed the Closure note, otherwise the Status change comment. The submitter receives it.": {
+  "t": "Muuttuva tila avaa muistilapun ja viesti vaaditaan. Ratkaistu se on päätöslauselma note, Suljettu sulkeminen note, muuten tila muutos kommentti. Luovuttaja ottaa sen vastaan.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5699,6 +5891,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Clear All takes every filter, the search, the date range and the column filters off in one click.": {
+  "t": "Tyhjennä Kaikki ottavat jokaisen suodattimen, haun, päivämäärän ja sarakkeen pois yhdellä napsautuksella.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Clear empties the form so you can start on another file.": {
   "t": "Tyhjentää lomakkeen, jotta voit aloittaa toisesta tiedostosta.",
   "src": "libretranslate",
@@ -5779,6 +5977,12 @@
  },
  "Clear: {clearBtnTitle}": {
   "t": "Tyhjennä: {clearBtnTitle}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Clearing the browser's site data resets all of them. None of these preferences are stored on the server.": {
+  "t": "Selaimen sivuston tietojen tyhjentäminen nollaa ne kaikki. Mitään näistä asetuksista ei tallenneta palvelimelle.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5887,6 +6091,12 @@
  },
  "Click a parcel line on the map to load its traverse for editing.": {
   "t": "Napsauta karttaan pakettiviivaa ladataksesi sen kulkusuunnan muokkaukseen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click a picture to see it large. The left and right arrow keys move between pictures; Esc or a click outside closes the viewer.": {
+  "t": "Klikkaa kuvaa nähdäksesi sen suurena. Vasemmalla ja oikealla nuolinäppäimillä liikkua välillä kuvia; Esc tai napsautus ulkopuolella sulkee katsojan.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6323,6 +6533,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Click to view — {fullCat}": {
+  "t": "Klikkaa nähdäksesi {fullCat}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Click to Zoom to Result": {
   "t": "Klikkaa Lähennä Tulos",
   "src": "libretranslate",
@@ -6425,6 +6641,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Closed date": {
+  "t": "Suljettu päivämäärä",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Closest locator candidate": {
   "t": "Lähin paikannin ehdokas",
   "src": "libretranslate",
@@ -6439,6 +6661,12 @@
  },
  "Closing the widget, changing the map, or leaving the app also stops comparison.": {
   "t": "Sovelman sulkeminen, kartan muuttaminen tai sovelluksen jättäminen estää myös vertailun.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Closure note": {
+  "t": "Päätösasiakirja",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6655,6 +6883,30 @@
  },
  "Commas": {
   "t": "Commas",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comment": {
+  "t": "Huomautus",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comment explaining status change to {S}, required": {
+  "t": "Kommentti selittää tilan muutoksen {S}, vaaditaan",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comment text": {
+  "t": "Kommenttiteksti",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comments": {
+  "t": "Huomautukset",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7093,6 +7345,12 @@
  },
  "Connected": {
   "t": "Yhdistetty",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Connecting to map... never goes away: the widget is not linked to a map, or the map failed to load. In the builder, pick the map in the widget settings.": {
+  "t": "Yhdistämällä karttaan... ei koskaan mene pois: vekotin ei ole yhteydessä karttaan, tai kartta ei latautunut. Rakentaja, valitse kartta widget asetukset.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7655,6 +7913,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Created": {
+  "t": "Luotu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Created {count} mailing labels": {
   "t": "Luotu {count} postimerkit",
   "src": "libretranslate",
@@ -8129,6 +8393,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Date limits the list to tickets created between two days. Leave one side empty for an open range.": {
+  "t": "Päivämäärä rajaa luettelon kahden päivän välillä luotuihin lippuihin. Jätä toinen puoli tyhjäksi avoimelle etäisyydelle.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "date the work was completed": {
+  "t": "päivä, jona työ on suoritettu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Dates": {
+  "t": "Taatelit",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Dates come in empty or wrong: the date text is not in the form the widget expected. On that rule choose dateParse and fill in Input date format, for example MM/DD/YYYY.": {
   "t": "Päivämäärät tulevat tyhjinä tai väärin: päivämäärä teksti ei ole muodossa widget odotettu. Tässä säännössä valitse päivämääräParse ja täytä syötepäivämuoto, esimerkiksi MM/PP/VVVV.",
   "src": "libretranslate",
@@ -8579,6 +8861,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Defaults to today. Set this to the actual completion date if it differs.": {
+  "t": "Oletukset tälle päivälle. Aseta tämä todelliseen valmistumispäivään, jos se poikkeaa.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Define your own label dimensions": {
   "t": "Määrittele omat etikettisi mitat",
   "src": "libretranslate",
@@ -8797,6 +9085,12 @@
  },
  "Descending shows largest values first; ascending shows smallest first.": {
   "t": "Aleneva näyttää ensin suurimmat arvot; nouseva näyttää ensin pienimmän.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Describe what was done to resolve this issue…": {
+  "t": "Kuvailkaa, miten asia on ratkaistu.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9233,6 +9527,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Display row numbers in the first column. Helps reference specific records.": {
+  "t": "Näytä rivinumerot ensimmäisessä sarakkeessa. Auttaa viitekohtaisia tietueita.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Display Size": {
   "t": "Näytön koko",
   "src": "libretranslate",
@@ -9592,6 +9892,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Drag the line at the right edge of a heading to make a column wider or narrower. Double click the line to put the width back. With the keyboard, Tab to the line and press the left or right arrow.": {
+  "t": "Vedä viiva oikean reunan otsikko tehdä kolonnin leveämpi tai kapeampi. Tuplaklikkaa viivaa laittaa leveys takaisin. Näppäimistö, välilehti linjalle ja paina vasenta tai oikeaa nuolta.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Drag to reorder": {
   "t": "Vedä tilaamaan uudelleen",
@@ -10457,6 +10763,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Email": {
+  "t": "Sähköposti",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Empty labels: Verify field mappings and data quality": {
   "t": "Tyhjät merkinnät: Varmennetaan kenttäkartoitus ja tietojen laatu",
   "src": "libretranslate",
@@ -11303,6 +11615,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Every change is recorded: a status change writes a public comment, a routing change writes an internal note, and a backdated date writes an internal note saying who set it.": {
+  "t": "Jokainen muutos kirjataan: tilamuutos kirjoittaa julkisen kommentin, reititysmuutos kirjoittaa sisäisen muistilapun, ja takautuva päivämäärä kirjoittaa sisäisen muistilapun, jossa kerrotaan kuka sen asetti.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Every feature in the layer gets a page, even ones far outside the map. The layer filter still applies.": {
   "t": "Jokainen ominaisuus kerroksen saa sivun, jopa ne kaukana kartalta. Tasosuodatinta sovelletaan edelleen.",
   "src": "libretranslate",
@@ -11375,6 +11693,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Everything you can change is on the Details tab, under the submitter, description and dates.": {
+  "t": "Kaikki, mitä voit muuttaa, on Yksityiskohdat-välilehdessä, lähettäjän alla, kuvaus ja päivämäärät.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Exact pixel width and height for the map-only image. Leave 0 to use the layout frame size.": {
   "t": "Tarkka pikselileveys ja korkeus vain karttakuvan. Jätä 0 käyttää asettelukehys koko.",
   "src": "libretranslate",
@@ -11401,6 +11725,12 @@
  },
  "Example: {sample}": {
   "t": "Esimerkki: {sample}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Excel export": {
+  "t": "Excel-vienti",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11561,6 +11891,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Explain the status change to {S}…": {
+  "t": "Selitä tilan muutos {S}...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Explain why this ticket is being closed…": {
+  "t": "Selitä, miksi lippu on suljettu...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "export": {
   "t": "vienti",
   "src": "libretranslate",
@@ -11707,6 +12049,18 @@
  },
  "Export defaults": {
   "t": "Vie oletukset",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export does nothing or shows an error: the spreadsheet library could not be downloaded. Check the network connection and try again.": {
+  "t": "Vieminen ei tee mitään tai näyttää virhettä: laskentataulukkokirjastoa ei voitu ladata. Tarkista verkkoyhteys ja yritä uudelleen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export downloads every ticket that matches the current filters, not just the page on screen, as an Excel workbook.": {
+  "t": "Vie kaikki nykyiset suodattimet vastaavat liput, ei vain näytöllä oleva sivu, Excel-työkirja.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12551,6 +12905,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Finding tickets": {
+  "t": "Lippujen löytäminen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Finding what you measured": {
   "t": "Löytää mitä mittasi",
   "src": "libretranslate",
@@ -12607,6 +12967,12 @@
  },
  "Fit to Geometry": {
   "t": "Sovita geometriaan",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fix routing errors before saving": {
+  "t": "Korjaa reititysvirheet ennen tallentamista",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14231,6 +14597,54 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Has Comments": {
+  "t": "Has Comments",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Has Comments keeps only tickets that already have a comment.": {
+  "t": "On Comments säilyttää vain lippuja, joilla on jo kommentti.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Has Comments or the Comments tab is missing: the comments table is not in the web map. Add it as a table in Map Viewer, save the map and reload.": {
+  "t": "Onko kommentteja tai Comments-välilehti puuttuu: kommentteja taulukko ei ole web-kartassa. Lisää se taulukona Karttakatselimessa, tallenna kartta ja lataa uudelleen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Has Photos": {
+  "t": "On kuvia",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Has Photos keeps only tickets with a picture attached.": {
+  "t": "On Kuvat säilyttää vain lippuja kuvan liitteenä.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "has response": {
+  "t": "vastaa",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Has Survey": {
+  "t": "On tutkimus",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Has Survey keeps only tickets whose submitter answered the survey.": {
+  "t": "On Survey säilyttää vain lippuja, joiden lähettäjä vastasi tutkimukseen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Hausa": {
   "t": "Hausa",
   "src": "libretranslate",
@@ -14707,6 +15121,18 @@
  },
  "Horizontal: {value} pt": {
   "t": "Vaakataso: {value} pt",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hover a card or a row and its point lights up on the map.": {
+  "t": "Laita kortti tai rivi ja sen kohta syttyy kartalle.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hover a date in the list to see the full date and time.": {
+  "t": "Leimaa päivämäärä luettelossa nähdäksesi koko päivämäärän ja ajan.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15233,6 +15659,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "In the table, click a column heading to sort by it: once for descending, again for ascending, a third time to go back to newest first.": {
+  "t": "Taulukossa klikkaa sarakkeen otsikkoa sen mukaan: kerran alas, jälleen nouseva, kolmas kerta palata uusin ensin.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "In the widget, select address type and generate labels": {
   "t": "Valitse widgetissä osoitetyyppi ja luo tarroja",
   "src": "libretranslate",
@@ -15619,6 +16051,12 @@
  },
  "Interactive Sorting": {
   "t": "Interaktiivinen lajittelu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Internal": {
+  "t": "Sisäinen",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16678,6 +17116,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Leave a note…": {
+  "t": "Jätä viesti...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Leave blank and the widget shows the center of the map in this format, which is always a valid example.": {
   "t": "Jätä tyhjäksi ja widget näyttää keskellä karttaa tässä muodossa, joka on aina kelvollinen esimerkki.",
@@ -17975,8 +18419,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map extent": {
+  "t": "Kartta",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map extent & scale": {
   "t": "Karttojen laajuus ja asteikko",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map extent keeps only the tickets inside the part of the map you are looking at, and follows the map as you pan and zoom.": {
+  "t": "Karttakoko pitää vain liput siinä osassa karttaa, jota katselet, ja seuraa karttaa panssari- ja zoomausvaiheessa.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19097,6 +19553,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "most or fewest comments": {
+  "t": "useimmat tai pienimmät huomautukset",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Move {name} down": {
   "t": "Siirrä {name} alas",
   "src": "libretranslate",
@@ -19475,6 +19937,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "newest first, oldest first, priority, status, category": {
+  "t": "uusin ensimmäinen, vanhin ensimmäinen, prioriteetti, status, luokka",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Next": {
   "t": "Seuraava",
   "src": "libretranslate",
@@ -19582,6 +20050,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "No description": {
+  "t": "Ei kuvausta",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "No draw tools enabled. Users will not be able to create new drawings.": {
   "t": "Piirrä työkaluja ei käytössä. Käyttäjät eivät pysty luomaan uusia piirustuksia.",
@@ -20663,6 +21137,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "On the Details tab change Status, Priority, Assigned or Category. When the status changes, a note box appears: type what the submitter should know.": {
+  "t": "Yksityiskohdat välilehden muutos Tila, Priority, Määrätty tai Luokka. Kun tila muuttuu, näkyy muistilappu: kirjoita, mitä lähettäjän tulee tietää.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "On the Draw tab, click a shape button: point, line, area, or text.": {
   "t": "Piirrä-välilehdessä napsauta muotoa: piste, rivi, alue tai teksti.",
   "src": "libretranslate",
@@ -20935,6 +21415,12 @@
  },
  "Open the My Drawings tab to rename, restyle, or delete what you drew.": {
   "t": "Avaa Omat piirrokset -välilehti nimetäksesi, muokataksesi tai poistaaksesi piirroksesi.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Opening the app with ?ticket_number=123 on the end of the address opens that ticket straight away.": {
+  "t": "Sovelluksen avaaminen ?lippunumerolla=123 osoitteen lopussa avaa lipun heti.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21743,6 +22229,36 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Phone": {
+  "t": "Puhelin",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Photo": {
+  "t": "Valokuva",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Photo attached to this comment": {
+  "t": "Tämän kommentin liitteenä oleva kuva",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Photo attaches one picture to the note. A small preview appears; Remove takes it off again. A picture on an internal note is never shown to the submitter.": {
+  "t": "Valokuva liittää yhden kuvan viestiin. Pieni esikatselu ilmestyy; Poista se uudelleen. Kuvaa sisäisessä muistilapussa ei koskaan näytetä lähettäjälle.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Photos": {
+  "t": "Valokuvat",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Physical Address - Use for mailing labels where mail should be delivered": {
   "t": "Fyysinen osoite - Käytetään postietiketeissä, joissa posti on toimitettava",
   "src": "libretranslate",
@@ -21817,6 +22333,24 @@
  },
  "Pick a tab at the top: {tabs}.": {
   "t": "Valitse välilehti yläreunasta: {tabs}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Pick a ticket from the list, change what you need on the Details tab, and press Save changes.": {
+  "t": "Valitse listalta lippu, muuta mitä tarvitset Yksityiskohdat-välilehdessä ja paina Tallenna muutokset.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Pick a ticket: click a card or a row in the list, or click its point on the map.": {
+  "t": "Valitse lippu: napsauta korttia tai riviä luettelossa tai napsauta sen kohta kartalla.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Pick a ticket: click a card or a row in the list.": {
+  "t": "Valitse lippu: klikkaa korttia tai riviä listassa.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21919,6 +22453,12 @@
  },
  "Pictures": {
   "t": "Kuvat",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Pictures must be JPG, PNG, WebP, HEIC or AVIF and under 15 MB. Location and camera details are stripped before upload.": {
+  "t": "Kuvien on oltava JPG, PNG, WebP, HEIC tai AVIF ja alle 15 MB. Sijainti- ja kameratiedot poistetaan ennen lataamista.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22529,6 +23069,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Press Enter in the search box instead of clicking Search.": {
+  "t": "Paina Enter hakukenttään sen sijaan, että napsautat Etsi.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Press Enter or click {locate}. Every good match gets a mailbox mark on the map.": {
   "t": "Paina Enter tai napsauta {locate}Jokainen hyvä ottelu saa postilaatikon merkin kartalle.",
   "src": "libretranslate",
@@ -22618,6 +23164,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Press Save changes (it reads Change to Resolved, or whichever status you picked, while a status change is pending). A green message confirms it, and Back returns you to the list.": {
+  "t": "Paina Tallenna muutokset (se lukee Muuta Selvitetty, tai mikä tahansa tila olet valinnut, kun tilan muutos on vireillä). Vihreä viesti vahvistaa sen ja Back palauttaa sinut listalle.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Press Tab until a basemap has a focus outline.": {
   "t": "Paina välilehteä kunnes pohjakartta on tarkennuksen ääriviiva.",
@@ -22853,6 +23405,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Priority": {
+  "t": "Painopiste",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Processing {count} records...": {
   "t": "Jalostus {count} Levyjä...",
   "src": "libretranslate",
@@ -22939,6 +23497,18 @@
  },
  "PT Sans": {
   "t": "PT Sans",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Public": {
+  "t": "Julkinen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Public means the submitter can see it on their status page and by email. Internal means staff only.": {
+  "t": "Julkinen tarkoittaa, että ilmoituksen tekijä voi nähdä sen tila sivulla ja sähköpostitse. - Vain sisäisesti.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23212,6 +23782,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "reason ticket is being closed": {
+  "t": "syy lippu suljetaan",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Receive from Identify By Query": {
   "t": "Saat tunnisteelta kyselyn",
@@ -23561,6 +24137,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Remove attached photo": {
+  "t": "Poista liitteenä oleva kuva",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Remove basemap": {
   "t": "Poista pohjakartta",
   "src": "libretranslate",
@@ -23849,6 +24431,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Required before changing status to {S}": {
+  "t": "Vaaditaan ennen tilan muuttamista {S}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Required Field Missing": {
   "t": "Vaadittu kenttä puuttuu",
   "src": "libretranslate",
@@ -23939,8 +24527,26 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Resolution and closure notes are limited to 500 characters. A counter appears when you get close.": {
+  "t": "Resoluutio- ja sulkemistiedot on rajoitettu 500 merkkiin. Laskuri ilmestyy, kun pääset lähelle.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Resolution note": {
+  "t": "Päätöslauselma",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Resolve a Google Font family to its TTF files and fill the fields below.": {
   "t": "Selvitä Google Font -perhe sen TTF-tiedostoihin ja täytä alla olevat kentät.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Resolve the routing warning above before saving": {
+  "t": "Selvitä edellä oleva reititysvaroitus ennen tallentamista",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23950,6 +24556,24 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Resolved": {
+  "t": "Ratkaistut",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Resolved date": {
+  "t": "Selvitetty päivämäärä",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Resolved date and Closed date start at today. Set an earlier day if the work finished before now. The date cannot be in the future or before the ticket was created.": {
+  "t": "Selvitetty päivämäärä ja suljettu päivämäärä alkaa tänään. Aseta aikaisempi päivä, jos työ on valmis ennen tätä. Päivämäärä ei voi olla tulevaisuudessa tai ennen lipun luomista.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "REST Service URL": {
   "t": "REST-palvelun URL",
@@ -24035,6 +24659,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Return to ticket list": {
+  "t": "Palaa lippuluetteloon",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Returning to the map": {
   "t": "Palataan karttaan",
   "src": "libretranslate",
@@ -24049,6 +24679,12 @@
  },
  "Reverse": {
   "t": "Peruuta",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Review the concerns residents have reported, update each ticket, and keep the submitter informed.": {
+  "t": "Tarkista huolet asukkaat ovat raportoineet, päivittää jokainen lippu, ja pitää toimittajalle tiedoksi.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -24395,6 +25031,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Save changes": {
+  "t": "Tallenna muutokset",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Save changes stays grey: a status change needs a note, or the amber warning above it is still showing.": {
+  "t": "Tallenna muutokset pysyy harmaana: tilamuutos vaatii muistiinpanon tai meripihkan varoitus sen yläpuolella on edelleen näkyvissä.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Save current settings to a file": {
   "t": "Tallenna nykyiset asetukset tiedostoon",
   "src": "libretranslate",
@@ -24521,8 +25169,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Saving changes": {
+  "t": "Muutosten tallentaminen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Saving PDF": {
   "t": "Tallennetaan PDF",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Saving…": {
+  "t": "Pelastan...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -24811,6 +25471,12 @@
  },
  "Search the guide (try \"PDF\" or \"parcel\")": {
   "t": "Etsi opasta (yritä \"PDF\" tai \"parcel\")",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Search the guide (try \"status\" or \"photo\")": {
+  "t": "Etsi opas (try \"status\" tai \"photo\")",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -25615,6 +26281,12 @@
  },
  "Sends the basemap chosen in either basemap gallery to the next app. The destination app needs a Map Switcher connected to its map to apply it.": {
   "t": "Lähettää joko basemap galleriassa valitun pohjakartta seuraavan sovelluksen. Kohdesovellus tarvitsee karttaan liitetyn karttakytkimen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "sent with the resolution email": {
+  "t": "lähetetty kriisinratkaisun sähköpostilla",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -26915,6 +27587,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Sort": {
+  "t": "Järjestä",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Sort and filter controls": {
   "t": "Järjestä ja suodata ohjaimet",
   "src": "libretranslate",
@@ -26953,6 +27631,12 @@
  },
  "Sort Order": {
   "t": "Järjestä",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Sort sets the order: {orders}.": {
+  "t": "Järjestä: {orders}.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -27293,6 +27977,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Status": {
+  "t": "Tila",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Status change comment": {
+  "t": "Tilanmuutoskommentti",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Status: Drag mode is active. Move mouse and click to place the label.": {
   "t": "Tila: Vetotila on aktiivinen. Siirrä hiirtä ja klikkaa laittaa etiketti.",
   "src": "libretranslate",
@@ -27391,6 +28087,12 @@
  },
  "Still stuck? Contact the GIS Division and mention the Property Report name and this app.": {
   "t": "Oletko yhä jumissa? Ota yhteyttä GIS-yksikköön ja mainitse kiinteistöraportin nimi ja tämä sovellus.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Still stuck? Contact the GIS Division and mention the RAC Ticket Manager name and this app.": {
+  "t": "Oletko yhä jumissa? Ota yhteyttä GIS-jaostoon ja mainitse RAC Ticket Managerin nimi ja tämä sovellus.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -27503,11 +28205,35 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Subcategory": {
+  "t": "Alaluokka",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Subcategory lists the choices for the category. Pick None when nothing fits.": {
+  "t": "Alaluokka luettelee luokan valinnat. Valitse Ei, kun mikään ei sovi.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Submitted address": {
   "t": "Lähetetty osoite",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Submitter": {
+  "t": "Ilmoittaja",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "submitter will be notified": {
+  "t": "Lähettäjälle ilmoitetaan",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Submitting to print service…": {
   "t": "Lähetetään tulostettavaksi...",
@@ -27583,6 +28309,24 @@
  },
  "Supported label formats": {
   "t": "Tuetut etikettimuodot",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Survey": {
+  "t": "Tutkimus",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "survey answered first or last": {
+  "t": "Kyselyyn vastasi ensimmäinen tai viimeinen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Survey response received": {
+  "t": "Saatu kyselyvastaus",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -27751,6 +28495,12 @@
  },
  "Table of Contents": {
   "t": "Sisällys",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Table shows the same tickets as rows with a column for each field.": {
+  "t": "Taulukossa on samat liput kuin rivit, joissa on sarake jokaiselle kentälle.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -28211,6 +28961,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The button reads Exporting… while the file is built; a long list can take a minute. The file is named RAC_Export with the date.": {
+  "t": "Nappi lukee Vieminen... kun tiedosto on rakennettu; pitkä lista voi kestää minuutin. Tiedoston nimi on RAC Export ja päivämäärä.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The buttons along the top": {
   "t": "Yläreunan painikkeet",
   "src": "libretranslate",
@@ -28258,6 +29014,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The comment saved but the photo did not: the picture was too large or not an image. Attach it again as a JPG or PNG under 15 MB.": {
+  "t": "Kommentti tallennettu, mutta kuva ei: kuva oli liian suuri tai ei kuva. Kiinnitä se uudelleen JPG tai PNG alle 15 MB.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The Comments tab lists every note with the author and the time. A red Internal chip marks the staff only ones.": {
+  "t": "Kommentit välilehti listaa jokaisen nuotin tekijä ja aika. Punainen sisäinen siru merkitsee vain henkilökuntaa.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The comparison could not be prepared. Check the selected layers and try again.": {
   "t": "Vertailua ei voitu valmistella. Tarkista valitut kerrokset ja yritä uudelleen.",
@@ -28535,6 +29303,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The list shows 50 tickets a page. The First, Prev, Next and Last buttons move between pages, and the count above the list says where you are.": {
+  "t": "Listalla on 50 lippua sivulta. Ensimmäinen, Edellinen, Seuraava ja viimeinen painikkeet liikkuvat sivujen välissä, ja listan yläpuolella oleva luku kertoo missä olet.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The Load step checks the work, then writes the records into the layer.": {
   "t": "Kuorma-askel tarkistaa työn ja kirjoittaa tietueet kerrokseen.",
   "src": "libretranslate",
@@ -28657,6 +29431,12 @@
  },
  "The PDF uses the same sections you see on screen; sections marked by the administrator as screen only are left out.": {
   "t": "PDF käyttää samoja osioita näet näytöllä; osat, jotka ylläpitäjä on merkitty näytön vain jätetään pois.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The Photos tab shows every picture and video on the ticket, labelled with who added it: Submitter, Staff · Public or Staff · Internal.": {
+  "t": "Kuvat-välilehti näyttää kaikki lipun kuvat ja videot, joihin on merkitty kuka sen lisäsi: Lähettäjä, Henkilökunta · Julkinen tai Henkilökunta · Sisäinen.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -28787,6 +29567,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The small funnel in a heading opens a filter for that column only: tick values, type part of a ticket number, or pick one day (Today fills in the date). A blue funnel means a filter is on. Done closes it.": {
+  "t": "Otsikossa oleva pieni suppilo avaa suodattimen vain tälle sarakkeelle: rastin arvot, kirjoita lipun numeron osa tai valitse päivä (tänään täyttää päivämäärän). Sininen suppilo tarkoittaa suodatinta. Selvä.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The small map at the top of the report shows the property; its buttons zoom the main map or copy the coordinates.": {
   "t": "Raportin yläreunan pieni kartta näyttää kiinteistön; sen painikkeet zoomaavat pääkarttaa tai kopioivat koordinaatit.",
   "src": "libretranslate",
@@ -28829,6 +29615,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The Status, Category, Priority and Assigned buttons open a list of boxes to tick. A blue count on the button shows how many are ticked; Clear at the bottom of the list empties it.": {
+  "t": "Tila, luokka, Priority ja Käyttöön annetut painikkeet avaavat luettelon laatikoista rastittaa. Sininen luku painikkeessa näyttää kuinka monta on rastitettu; Tyhjennä listan alareunassa tyhjentää sen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The Survey tab shows the star rating and any comment the submitter left after the ticket was resolved.": {
+  "t": "Survey-välilehdessä näkyy tähtiluokitus ja kaikki kommentit, jotka toimittaja jätti lipun jälkeen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The target layer could not be prepared for editing.": {
   "t": "Kohdekerrosta ei voitu valmistaa muokkaukseen.",
   "src": "libretranslate",
@@ -28843,6 +29641,12 @@
  },
  "The tools, button by button": {
   "t": "Työkalut, painike painikkeelta",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The type list labels the note: Public Response, Status Update or Assignment Change for public notes. Internal notes are always Internal Note.": {
+  "t": "Tyyppiluettelossa on merkintä: Julkinen vastaus, tilapäivitys tai muutos julkisiin muistiinpanoihin. Sisäiset muistiinpanot ovat aina sisäisiä.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -28933,6 +29737,18 @@
  },
  "The widget says no map is selected: it has not been joined to a map yet. Ask the person who built the app to pick the map in the widget settings.": {
   "t": "Widget sanoo, ettei karttaa ole valittu: sitä ei ole vielä liitetty karttaan. Pyydä sovelluksen rakentajaa valitsemaan kartta widget-asetuksissa.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The width you drag the side panel to is kept as well.": {
+  "t": "Leveys raahaat sivupaneeli pidetään myös.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The workbook has a Summary sheet, a Tickets sheet, {sheets}, each only when there is something to put in it.": {
+  "t": "Työkirjassa on yhteenvetolomake, liput. {sheets}Jokainen vain, kun siihen on jotain lisättävää.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -29261,6 +30077,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Ticket detail": {
+  "t": "Lipun tiedot",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Ticket detail tabs": {
+  "t": "Lipun tiedot - välilehdet",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Ticks and crosses": {
   "t": "tikut ja ristit",
   "src": "libretranslate",
@@ -29395,6 +30223,12 @@
  },
  "TOC Title": {
   "t": "TOC-nimike",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Today": {
+  "t": "Tänään",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -30035,8 +30869,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Type a ticket number, a word from the description or part of an address in the box at the top, then press Search or Enter.": {
+  "t": "Kirjoita lipun numero, sana kuvauksesta tai osasta osoitetta yläreunan ruutuun, paina Search or Enter.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Type a WKID and press Enter, or paste WKT and click away.": {
   "t": "Kirjoita WKID ja paina Enter, tai liitä WKT ja klikkaa pois.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Type a word like status or photo in the box above to jump to the right line of this guide.": {
+  "t": "Kirjoita yllä olevaan ruutuun sana kuten tila tai kuva hypätä oikealle riville tämän oppaan.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -30067,6 +30913,12 @@
  },
  "Type in the box above the list to show only measurements whose name or type contains that word.": {
   "t": "Kirjoita luettelon yllä olevaan ruutuun vain mitat, joiden nimi tai tyyppi sisältää tuon sanan.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Type in the Leave a note box on the Details tab and press Comment.": {
+  "t": "Kirjoita muistiinpanolaatikkoon Yksityiskohdat-välilehteen ja paina kommenttia.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -30151,6 +31003,12 @@
  },
  "Unable to retrieve features from the layer": {
   "t": "Ei voitu hakea ominaisuuksia kerroksesta",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Unassigned": {
+  "t": "Määräämätön",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -30539,8 +31397,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Updated": {
+  "t": "Päivitetty",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Updates the visual opacity of existing buffers on selected graphics to {bufferOpacity}% without changing buffer geometry.": {
   "t": "Päivittää olemassa olevien puskurien visuaalisen opasiteetin valituilla grafiikoilla {bufferOpacity}% muuttamatta puskurigeometriaa.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Updating a ticket": {
+  "t": "Lipun päivittäminen",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -31115,6 +31985,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "View {label}{badge}": {
+  "t": "Näytä {label}{badge}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "View aerial imagery from Pictometry (opens in new window)": {
   "t": "Näytä piktometrian ilmakuvat (avautuu uudessa ikkunassa)",
   "src": "libretranslate",
@@ -31447,6 +32323,12 @@
  },
  "What goes on the page": {
   "t": "Mitä sivulla tapahtuu?",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "What is remembered": {
+  "t": "Mitä muistetaan",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -32125,6 +33007,12 @@
  },
  "Your results": {
   "t": "Tulokset",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Your search, filters, sort order, Cards or Table choice, column widths and column filters are kept in this browser and come back next time you open the app.": {
+  "t": "Hakusi, suodatuksesi, lajittele järjestys, Kortit tai taulukon valinta, sarakkeiden leveydet ja sarakkeiden suodattimet pidetään tässä selaimessa ja tulevat takaisin ensi kerralla kun avaat sovelluksen.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
