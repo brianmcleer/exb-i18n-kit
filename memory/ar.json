@@ -23,6 +23,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "-- Select Field --": {
+  "t": "-الميدان المختار",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "— Select a widget —": {
   "t": "- اختيار واقي -",
   "src": "libretranslate",
@@ -77,6 +83,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "\"Parcel \" + $feature.PARCEL_NUM": {
+  "t": "\"باركل\" + دولار PARCEL NUM",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "(Default)": {
   "t": "(Default)",
   "src": "libretranslate",
@@ -100,6 +112,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "(Optional)": {
+  "t": "(اختياري)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "(Required)": {
+  "t": "(مطلوب)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "(select column)": {
   "t": "(عمود مبيع)",
@@ -169,6 +193,12 @@
  },
  "{count} records": {
   "t": "{count} السجلات",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{count} records match current criteria": {
+  "t": "{count} تتطابق السجلات مع المعايير الحالية",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -347,6 +377,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{layer}: show on {side}": {
+  "t": "{layer}: {side}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{loadedCount} basemap loaded.{failedNote} Use arrow keys to navigate, Enter or Space to select.": {
   "t": "{loadedCount} حُمّلتْ طلقاتَ القاعدةَ.{failedNote} استخدموا مفاتيح السهام للبحرية أو الدخول أو الفضاء لاختيارها",
   "src": "libretranslate",
@@ -487,6 +523,12 @@
  },
  "{selectedIdsCount} selected": {
   "t": "{selectedIdsCount} مختارة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{side} selections cleared.": {
+  "t": "{side} الاختيارات تم تطهيرها",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -701,6 +743,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A layer is missing: it may be outside the current map scale. Zoom in or out, and check the note beneath its name.": {
+  "t": "طبقة مفقودة: قد تكون خارج نطاق الخريطة الحالي. تكبير في أو خارج، والتحقق من المذكرة تحت اسمها.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer is unavailable: its service may be offline, it may require sign-in, or its layer type may not work in a 2D map. Check that layer in the map.": {
+  "t": "A layer is unavailable: its service may be offline, it may require sign-in, or its layer type may not work in a 2D map. تحقق من تلك الطبقة في الخريطة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A layer you expected is missing from the results: that layer is turned off in the map. Turn it back on in the layer list and click again.": {
   "t": "طبقة تتوقّع أنّها مفقودة من النتائج، تلك الطبقة مطفأة في الخريطة. أرجعها إلى قائمة الطبقات ونقرها مجدداً",
   "src": "libretranslate",
@@ -743,11 +797,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A repeat click at the same place at the same scale is answered from memory for this many seconds instead of re-querying the service. 0 disables.": {
+  "t": "ويُجيب على نقرة متكررة في نفس المكان على نفس المقياس من الذاكرة لهذه الثواني العديدة بدلاً من تجديد الخدمة. لا يوجد أي انحرافات",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A rule says which field from your data fills which field in the layer.": {
   "t": "قاعدة تقول أي ميدان من بياناتك يملأ أي ميدان في الطبقة",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "A side with no selected layers shows the basemap and any shared map layers. You can use this to compare a layer with the basemap.": {
+  "t": "الجانب الذي لا توجد فيه طبقات مختارة يظهر مقياس القاعدة وأي طبقات خريطة مشتركة يمكنك استخدام هذا لمقارنة طبقة مع خريطة الأساس.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "A spreadsheet of your rows with MATCH_STATUS, MATCH_SCORE, the address you sent, the address the locator matched, the address type, a plain reason for every row that did not match, and coordinates for every row that did. Open it in Excel and filter on MATCH_STATUS.": {
   "t": "صحيفة من صفوفك مع (ميتش) و(ميتش) و(سكوير) العنوان الذي أرسلته، العنوان الذي طابقه الموقع، نوع العنوان افتحه في \"إكسل\" و \"مرش\" على \"ماتيكس\"",
@@ -1109,6 +1175,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Address Line 1": {
+  "t": "العنوان 1",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address Line 2": {
+  "t": "العنوان 2",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Address mapping mode": {
   "t": "طريقة رسم الخرائط",
   "src": "libretranslate",
@@ -1144,6 +1222,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Adjust divider position: {position} percent": {
+  "t": "-الموقف العادل {position} %%",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Adjust the distance between grid lines. Smaller values create a finer grid, larger values create a coarser grid. Range is 10 to 200 pixels.": {
   "t": "فقط المسافة بين خطوط الشبكة القيم الأصغر تخلق شبكة أدق، القيم الأكبر تخلق شبكة كوارزر. الرنجي هو 10 إلى 200 بيكسلز",
@@ -1547,11 +1631,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Another Layer Compare is using this map. Stop that comparison first.": {
+  "t": "شركة أخرى تستخدم هذه الخريطة توقف عن المقارنة أولاً",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Any reason ({failuresCount})": {
   "t": "أي سبب{failuresCount})",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Apartment, suite, unit, etc. (optional)": {
+  "t": "شقق، جناح، وحدة، إلخ. (اختياري)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "API key / token (optional)": {
   "t": "مفتاح / رمز (اختياري)",
@@ -1901,6 +1997,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Basemap only": {
+  "t": "البيسبول فقط",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Basemap selection gallery - grid view": {
   "t": "معرض انتقاء القاعدية - نظرة على الشبكة",
   "src": "libretranslate",
@@ -2099,6 +2201,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Bottom": {
+  "t": "القاعدة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Bottom Alignment (Current). Position text at the bottom.": {
   "t": "الارتطام بالقس (كرينت). نص الموقف في الأسفل",
   "src": "libretranslate",
@@ -2255,6 +2363,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Business or organization name (optional)": {
+  "t": "اسم الأعمال التجارية أو المنظمة (اختياري)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Button Visibility": {
   "t": "Button Visibility",
   "src": "libretranslate",
@@ -2381,6 +2495,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Center divider": {
+  "t": "فرق المركز",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Center divider puts the divider back in the middle. Swap sides exchanges the two layer selections.": {
+  "t": "مركز الأساقفة يُعيد المقسم إلى المنتصف يتبادل الجانبان إختيارات الطبقات",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Change Area Units": {
   "t": "تغيير الوحدات المحلية",
   "src": "libretranslate",
@@ -2441,6 +2567,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Check a group to select all its available layers. Use the arrow beside its name to choose individual layers.": {
+  "t": "تحقق من مجموعة لاختيار كل طبقاتها المتاحة استخدم السهم بجانب إسمه لاختيار طبقات فردية",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Check a layer under either side. Checking both sides shows it on both. Checking a group selects its available layers.": {
+  "t": "تحقق من طبقة تحت أي من الجانبين التحقق من كلا الجانبين يظهر ذلك على كلا الجانبين فحص المجموعة يختار طبقاتها المتاحة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Check data": {
   "t": "بيانات التحقق",
   "src": "libretranslate",
@@ -2488,6 +2626,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Choose a 2D map. Layer Compare is not available in a 3D scene.": {
+  "t": "اختر خريطة 2D Layer Compare is not available in a 3D scene.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Choose a background map": {
   "t": "اختر خريطة خلفية",
@@ -2543,6 +2687,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Choose a layer:": {
+  "t": "اختر طبقة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Choose a previously exported .xml file.": {
   "t": "اختر ملف اكسميل سبق تصديره",
   "src": "libretranslate",
@@ -2575,6 +2725,24 @@
  },
  "Choose horizontal alignment for text. Options are left, center, or right. Currently set to {horizontalAlignment}.": {
   "t": "اختيار المواءمة الأفقية للنص. الخيارات متبقية أو مركز أو يمين في الوقت الراهن {horizontalAlignment}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose layers for each comparison side": {
+  "t": "طبقات الاختيار لكل جانب من جوانب المقارنة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose layers for each side, select Start comparison, then drag the divider on the map.": {
+  "t": "اختر طبقات لكل جانب، اختيار مقارنة البداية، ثم سحب فاصلة على الخريطة.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose layers for each side, then drag the map divider to compare them.": {
+  "t": "اختر طبقات لكل جانب، ثم سحب فاصلة الخريطة لمقارنة بينها.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2633,6 +2801,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Choosing layers": {
+  "t": "طبقات الاختيار",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Circle": {
   "t": "الدائرة",
   "src": "libretranslate",
@@ -2675,6 +2849,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "City": {
+  "t": "المدينة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "City or town name": {
+  "t": "اسم المدينة أو المدينة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Clean addresses win. Take out apartment numbers and notes like \"behind the school\" before you start.": {
   "t": "العناوين النظيفة تفوز أخرج أرقام الشقة و ملاحظات مثل \"خلف المدرسة\" قبل أن تبدأ",
   "src": "libretranslate",
@@ -2686,6 +2872,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Clear {side}": {
+  "t": "آمن {side}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Clear all": {
   "t": "خالي",
@@ -3245,11 +3437,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Closing the widget, changing the map, or leaving the app also stops comparison.": {
+  "t": "كما أن إغلاق الشبكة، وتغيير الخريطة، أو ترك التطبيق يتوقف عن المقارنة.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Cmd": {
   "t": "Cmd",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Collapse {layer}": {
+  "t": "التصفيق {layer}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Collapse {name}": {
   "t": "التصفيق {name}",
@@ -3323,6 +3527,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Company/Organization": {
+  "t": "الشركة/التنظيم",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Compare": {
   "t": "Compare",
   "src": "libretranslate",
@@ -3346,6 +3556,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Compare direction": {
+  "t": "التوجيه المقارن",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Compare direction changes between Left / right and Top / bottom.": {
+  "t": "Compare direction changes between left / right and Top / bottom.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Compare is on in {compareBlendMode} mode: Enter or Space chooses the basemap to compare.": {
   "t": "المقارنات في {compareBlendMode} الطريقة: اختيار الدخول أو الفضاء خريطة الأساس للمقارنة.",
@@ -3377,6 +3599,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Compared as one tiled layer": {
+  "t": "مقارنتها بطبقة ذات إطار واحد",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Comparing {title} on the left with the current basemap on the right. Drag the divider or use the slider.": {
   "t": "مقارنة {title} على اليسار مع خط الأساس الحالي على اليمين اسحبوا الأسهم أو استخدموا الشريحة",
   "src": "libretranslate",
@@ -3389,17 +3617,53 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Comparison is on. Drag the map divider or use the slider.": {
+  "t": "المقارنات تعمل إسحبوا قسيمة الخريطة أو إستخدموا المزلاج",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comparison reset. Default selections and map visibility restored.": {
+  "t": "مُقارنة ثانية. استعاد الاختيارات الافتراضية ورؤية الخرائط.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comparison sides swapped.": {
+  "t": "تبدلت أطراف المقارنة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comparison stopped. The map visibility has been restored.": {
+  "t": "المقارنات توقفت وقد أعيد ظهور الخريطة.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Comparison:": {
   "t": "مقارنة:",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Configuration": {
+  "t": "الاتحاد",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Configuration imported successfully!": {
   "t": "تم استيراد الإتحاد بنجاح",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Configuration imported.": {
+  "t": "المصادرة المستوردة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Configure Enhanced Locate": {
   "t": "الموقع المعزز",
@@ -3469,6 +3733,12 @@
  },
  "Connect the Draw widget with other widgets in the application.": {
   "t": "اربطوا الحزام باللوائح الأخرى في الطلب",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Connect this widget to a Map widget in the builder settings.": {
+  "t": "إربط هذه النبتة إلى \"ماب ويدجي\" في أماكن البناء",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3779,8 +4049,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Country": {
+  "t": "البلد",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Country Code(s)": {
   "t": "المدونة (المواد) القطرية",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Country name (optional)": {
+  "t": "اسم البلد (اختياري)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4517,6 +4799,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Dismiss the hint": {
+  "t": "انزع التلميح",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Dismiss this hint": {
   "t": "اترك هذا التلميح",
   "src": "libretranslate",
@@ -4561,6 +4849,12 @@
  },
  "Distance:": {
   "t": "المسافة:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Divider position": {
+  "t": "موقع الفرد",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4687,6 +4981,12 @@
  },
  "Drag mode active. Move your mouse and click to place the label at a new position.": {
   "t": "أسلوب دراج نشط حرّك فأرك وأضغط على وضع العلامة في موقع جديد",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Drag the divider on the map, or use the Divider position slider in this panel.": {
+  "t": "اسحبوا المقسم على الخريطة، أو استخدموا مُنزلق الموقع في هذه اللوحة.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5183,6 +5483,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Each side has its own checkbox. Check both boxes to show the same layer on both sides.": {
+  "t": "كل جانب لديه صندوق شيكاته الخاصة تحقق من كلا الصندوقين لتظهر نفس الطبقة على الجانبين",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Easting (X):": {
   "t": "Easting (X):",
   "src": "libretranslate",
@@ -5320,6 +5626,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Either Name or Address Line 1 is required": {
+  "t": "إما الاسم أو العنوان",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Enable": {
   "t": "التمكين",
@@ -5693,6 +6005,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Error loading layers from map": {
+  "t": "طبقات تحميل الأخطاء من الخريطة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Error: {errorMsg}": {
   "t": "Error: {errorMsg}",
   "src": "libretranslate",
@@ -5779,6 +6097,12 @@
  },
  "Existing Drawings Found": {
   "t": "عثر عليه",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Expand {layer}": {
+  "t": "التوسع {layer}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5950,6 +6274,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Export configuration (XML)": {
+  "t": "تشكيلة الصادرات (XML)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Export drawings to file": {
   "t": "رسوم التصدير للملف",
@@ -6125,6 +6455,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Feature Identify version {version}": {
+  "t": "الصورة {version}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "feature selected": {
   "t": "سمة مختارة",
   "src": "libretranslate",
@@ -6274,6 +6610,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Filter map layers": {
+  "t": "طبقات الخرائط",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Filter measurements by name or type": {
   "t": "قياسات الملفات حسب الاسم أو النوع",
@@ -6629,6 +6971,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Found {count} records in selected layer": {
+  "t": "وجدت {count} السجلات في طبقة مختارة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Freehand Area": {
   "t": "المنطقة الحرة",
   "src": "libretranslate",
@@ -6671,8 +7019,32 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Full name or business name": {
+  "t": "الاسم الكامل أو الاسم التجاري",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Full URL to a queryable layer endpoint ending in a layer number. Use the public address that goes through your Web Adaptor, not a direct ArcGIS Server port.": {
   "t": "URL كامل إلى نقطة نهاية طبقة قابلة للإستجواب تنتهي برقم طبقة. إستخدم العنوان العام الذي يمر عبر موقعك على الإنترنت ليس مرفأ (آرك جي) المباشر",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Generate Labels": {
+  "t": "Generate Labels",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Generate Mailing Labels": {
+  "t": "Generate Mailing Labels",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Generate printable mailing labels from map layer data": {
+  "t": "بطاقات بريدية قابلة للطباعة من بيانات طبقة الخرائط",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6688,6 +7060,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Generating Labels...": {
+  "t": "تولد (لابلز)...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Generating PDF…": {
   "t": "...توليد قوات الدفاع الشعبي",
@@ -7469,6 +7847,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Import configuration (XML)": {
+  "t": "تشكيلة الواردات (XML)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Import Drawings": {
   "t": "رسوم استيراد",
   "src": "libretranslate",
@@ -7483,6 +7867,12 @@
  },
  "Import failed": {
   "t": "الواردات فشلت",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import failed. Check that the file is a Feature Identify configuration XML.": {
+  "t": "لقد فشلت الواردات تأكّدْ بأنّ الملفَ a رمز تحديد رمزِ XML.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7535,6 +7925,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "In the layer list, check the layers you want under each side. You can choose several layers.": {
+  "t": "في قائمة الطبقات تفقد الطبقات التي تريدها تحت كل جانب يمكنك اختيار عدة طبقات",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "In the map popup": {
   "t": "في الخريطة",
   "src": "libretranslate",
@@ -7549,6 +7945,18 @@
  },
  "In View": {
   "t": "In View",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include": {
+  "t": "Include",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include {layer} in Layer Compare": {
+  "t": "Include {layer} في شركة لاير",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7693,6 +8101,12 @@
  },
  "Invalid Conversion Factor": {
   "t": "عامل تحويل غير مستقر",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Invalid field mapping detected": {
+  "t": "رصد خرائط ميدانية غير صالحة",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7894,6 +8308,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Keeps layers that were visible before the comparison. The selected layers still follow their side checkboxes.": {
+  "t": "يبقي الطبقات التي كانت مرئية قبل المقارنة الطبقات المختارة لا تزال تتبع صناديقها الجانبية",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Key field": {
   "t": "المجال الرئيسي",
@@ -8129,6 +8549,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Layer Compare": {
+  "t": "Layer Compare",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layer Compare shows your chosen map layers on different sides of a movable divider.": {
+  "t": "(لاير كومبار) يظهر طبقات خرائطك المختاره على مختلف الجوانب من قسيمة منقولة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layer Information": {
+  "t": "المعلومات المتعلقة بالطلب",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Layer name (used as the data source label)": {
   "t": "اسم لاير (المستخدم كعلامة مصدر البيانات)",
   "src": "libretranslate",
@@ -8149,6 +8587,12 @@
  },
  "Layer title and visibility options": {
   "t": "خيارات العنوان والوضوح",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layers": {
+  "t": "Layers",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8182,6 +8626,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Left / right": {
+  "t": "يسار/يمين",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Length": {
   "t": "Length",
@@ -8311,6 +8761,12 @@
  },
  "Link": {
   "t": "Link",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Link display text": {
+  "t": "نص العرض",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8452,6 +8908,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Loading map layers...": {
+  "t": "الطبقة الخرائطية",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Loading measurement tools...": {
   "t": "أدوات القياس",
@@ -8609,6 +9071,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Mailing Label Generator": {
+  "t": "مولدات لابل",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Mailing Labels": {
   "t": "Mailing Labels",
   "src": "libretranslate",
@@ -8717,6 +9185,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Map Address Fields": {
+  "t": "حقول الخرائط",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map coordinate unit": {
   "t": "وحدة تنسيق الخرائط",
   "src": "libretranslate",
@@ -8752,6 +9226,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Map image services can be expanded so you can compare their individual sublayers. A cached tiled layer is compared as one complete layer.": {
+  "t": "ويمكن توسيع نطاق خدمات الصور الفوتوغرافية حتى تتمكن من المقارنة بين فرادى المقاتلين الفرعيين. طبقة مكتظة تقارن بطبقة كاملة واحدة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Map layer": {
   "t": "طبقة الخرائط",
@@ -8809,6 +9289,18 @@
  },
  "Map X and Y": {
   "t": "الخريطة X و Y",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map your data fields to address components:": {
+  "t": "خريطة حقول البيانات الخاصة بك لمعالجة العناصر:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Mapped": {
+  "t": "رسم الخرائط",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9161,6 +9653,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Messages": {
+  "t": "الرسائل",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Meters": {
   "t": "متر",
   "src": "libretranslate",
@@ -9304,6 +9802,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Moving the divider": {
+  "t": "نقل الأسهم",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "MPt": {
   "t": "MPt",
@@ -9479,6 +9983,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No available layers. Check the map and the widget settings.": {
+  "t": "لا توجد طبقات متاحة تحقق من الخريطة و وضعات البارود",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No Background Color": {
   "t": "No background Color",
   "src": "libretranslate",
@@ -9575,6 +10085,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No feature layers available in the selected map": {
+  "t": "No feature layers available in the selected map",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No feature layers on the map to style yet.": {
   "t": "لا توجد طبقات مميزة على الخريطة حتى الآن",
   "src": "libretranslate",
@@ -9622,6 +10138,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "No layers match that filter.": {
+  "t": "لا توجد طبقات تطابق تلك القذارة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "No map connected: this widget has not been linked to a map. Ask the GIS Division to connect it in the widget settings.": {
   "t": "No map connected: this widget has not been linked to a map. أطلب من شعبة نظام المعلومات الجغرافية أن تربطها في وضعيات النظافة",
@@ -9700,6 +10222,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "No records found in selected layer": {
+  "t": "لا توجد سجلات في طبقة مختارة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No result message": {
+  "t": "لا توجد رسالة نتيجة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "No results": {
   "t": "لا نتائج",
@@ -9784,6 +10318,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Not mapped": {
+  "t": "لم يتم رسمها",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Not sure of the format? The blue text next to {example} is the middle of the map in that format, and it changes as you move the map. Click it to fill in the box, then change it.": {
   "t": "لست متأكدا من الشكل؟ النص الأزرق بجانب {example} هو منتصف الخريطة في ذلك الشكل، وهو يتغير عندما تحرك الخريطة. لعقه لملء في الصندوق، ثم تغييره.",
@@ -10103,6 +10643,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Only the first {max} records will be processed": {
+  "t": "فقط الأول {max} سيتم تجهيز السجلات",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Only the first sheet of an Excel workbook is read, so put your addresses there.": {
   "t": "فقط أول ورقة من دفتر عمل إكسل تقرأ لذا ضع عناوينك هناك",
   "src": "libretranslate",
@@ -10277,6 +10823,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Outside the current map scale": {
+  "t": "خارج جدول الخرائط الحالي",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "outside this coordinate system's area": {
   "t": "خارج منطقة النظام",
   "src": "libretranslate",
@@ -10336,6 +10888,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Performance": {
+  "t": "الأداء",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Perimeter": {
   "t": "Perimeter",
@@ -10529,6 +11087,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Please select at least one address field": {
+  "t": "الرجاء اختيار عنوان واحد على الأقل",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Please wait, do not close this window...": {
   "t": "من فضلك انتظر لا تغلق هذه النافذة",
   "src": "libretranslate",
@@ -10687,6 +11251,12 @@
  },
  "Prefix": {
   "t": "Prefix",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preparing comparison...": {
+  "t": "المقارنة",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10865,6 +11435,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Querying layer data...": {
+  "t": "بيانات الطبقة الراقية",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Radius": {
   "t": "Radius",
   "src": "libretranslate",
@@ -10955,6 +11531,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Recipient Name": {
+  "t": "الاسم المستقبِل",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Record {objectId} · source row {objectId2}": {
   "t": "السجل {objectId} :: صف المصدر {objectId2}",
   "src": "libretranslate",
@@ -10972,6 +11554,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Records to Process": {
+  "t": "السجلات إلى العملية",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Records: {count}": {
+  "t": "السجلات: {count}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Rect": {
   "t": "Rect",
@@ -11017,6 +11611,12 @@
  },
  "Redo drawing action - no actions to redo": {
   "t": "إعادة رسم الإجراءات - لا إجراءات لإعادة العمل",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Refresh layers": {
+  "t": "طبقات التجديد",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11189,6 +11789,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Reset": {
+  "t": "إعادة التوطين",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Reset Default Area Units": {
   "t": "وحدات المنطقة الافتراضية",
   "src": "libretranslate",
@@ -11224,6 +11830,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Reset stops comparison, restores the default selections, and resets the divider position and direction.": {
+  "t": "ويتوقف الضبط عن المقارنة، ويعيد الاختيارات الافتراضية، ويعيد تحديد موقع وتوجه فرق العمل.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Reset the label to its default calculated position based on the geometry centroid": {
   "t": "Reset the label to its default calculated position based on the geometry centroid",
@@ -11290,6 +11902,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Returning to the map": {
+  "t": "العودة إلى الخريطة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reuse results for repeated clicks (seconds)": {
+  "t": "إعادة استخدام النتائج للنقرات المتكررة (الثانيات)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Reverse": {
   "t": "العكس",
@@ -11434,6 +12058,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Round($feature.Acres, 2) + \" acres\"": {
+  "t": "الجولة (بالدولار) فدان، 2) +\"أكسيد\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Row label, or blank for full popup content": {
   "t": "بطاقة تعريف أو فارغة للمحتوى الكامل",
@@ -11597,6 +12227,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Search the guide (try \"layers\" or \"slider\")": {
+  "t": "فتش المرشد (القاتل) أو (السل)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Search the guide (try \"load\" or \"fields\")": {
   "t": "ابحث عن الدليل (الحمل) أو (الميادين)",
   "src": "libretranslate",
@@ -11687,6 +12323,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Select a layer...": {
+  "t": "اختيار طبقة...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select a Map": {
   "t": "اختيار خريطة",
   "src": "libretranslate",
@@ -11753,6 +12395,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Select at least one layer on either side to begin.": {
+  "t": "اختيار طبقة واحدة على الأقل على أي جانب للبدء.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select by:": {
   "t": "اختيار من:",
   "src": "libretranslate",
@@ -11764,6 +12412,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Select Data Layer": {
+  "t": "كاتب بيانات مختارة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Select Draw Mode": {
   "t": "Select Draw Mode",
@@ -11800,6 +12454,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Select field for {fieldType}...": {
+  "t": "مجال اختيار {fieldType}...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select fields to enable": {
+  "t": "الميادين المختارة للتمكين",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Select font color for the measurement label text": {
   "t": "لون نقي مسموع للعلامة",
@@ -11845,6 +12511,12 @@
  },
  "Select multiple measurements": {
   "t": "اختيار القياسات المتعددة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select Start comparison. Give the map a moment to redraw.": {
+  "t": "مُقارنة البداية المختارة أعطِ الخريطةَ a لحظة لإعادة سحب.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11923,6 +12595,12 @@
  },
  "Select which tab opens by default": {
   "t": "يُختارُ الذي يَفْتحُ التابوتَ مِنْ قِبل",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "selected": {
+  "t": "مختارة",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12053,6 +12731,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Shared map layers": {
+  "t": "طبقات الخرائط المشتركة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show {label} ({abbreviation})": {
   "t": "العرض {label} )أ({abbreviation})",
   "src": "libretranslate",
@@ -12139,6 +12823,12 @@
  },
  "Show Copy Coordinates Button": {
   "t": "(أظهروا منسقي (بوتون",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show diagnostic overlay": {
+  "t": "تكاليف التشخيص",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12256,6 +12946,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Show other visible layers on both sides": {
+  "t": "تظهر طبقات مرئية أخرى على الجانبين",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show other visible layers on both sides keeps the other layers that were visible before you started.": {
+  "t": "تظهر طبقات مرئية أخرى على كلا الجانبين تبقي الطبقات الأخرى التي كانت مرئية قبل أن تبدأ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Show Pictometry Button": {
   "t": "نري \"بوتون\"",
@@ -12382,6 +13084,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Shows a live event log at the bottom of the screen on every device, with a Copy button. Turn on only while troubleshooting, then turn back off. The overlay can also be enabled per-session by adding fi_debug=1 to the app URL.": {
+  "t": "يُظهر سجل أحداث حيّة في أسفل الشاشة على كلّ جهاز، مع زرّ نسخ. إستدر فقط بينما تُشغّلُ المشاكلَ، ثمّ يَتراجعُ. The overlay can also be enabled per-session by add fi debug=1 to the app URL.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Shows the question-mark button that opens the in-widget help guide, and the first-run hint.": {
   "t": "يُظهر الزر المميز للسؤال الذي يُفتح دليل المساعدة في النوايا، والتلميح الأول.",
@@ -12671,6 +13379,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Start comparison": {
+  "t": "مقارنة البداية",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Start here: three steps": {
   "t": "ابدأ هنا: ثلاث خطوات",
   "src": "libretranslate",
@@ -12682,6 +13396,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "State, province, or region": {
+  "t": "الدولة أو المقاطعة أو المنطقة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "State/Province": {
+  "t": "الدولة/المقاطعة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Status: Drag mode is active. Move mouse and click to place the label.": {
   "t": "الحالة: نمط دراج نشط. حرك الفأر ونقر لوضع العلامة",
@@ -12743,8 +13469,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Still stuck? Contact the GIS Division and mention the Layer Compare name and this app.": {
+  "t": "لا تزال عالقة؟ اتصل بشعبة نظام المعلومات الجغرافية وتذكر اسم شركة لاير وهذا التطبيق.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Still stuck? Contact your GIS team and mention the Draw Advanced widget and this app.": {
   "t": "لا تزال عالقة؟ اتصلي بفريق نظام المعلومات الجغرافية الخاص بك و تذكري الطبق المتقدم وهذا التطبيق",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Stop comparison": {
+  "t": "مقارنة التوقف",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Stop comparison removes the divider and restores the map visibility. Your side selections stay ready for the next comparison.": {
+  "t": "وقف المقارنة يزيل الفجوة ويعيد ظهور الخريطة اختياراتك الجانبية تبقى جاهزة للمقارنة القادمة",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12785,6 +13529,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Street address or P.O. Box": {
+  "t": "عنوان الشارع أو صندوق البريد",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Style editor": {
   "t": "محرر نموذجي",
   "src": "libretranslate",
@@ -12814,6 +13564,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Swap sides": {
+  "t": "جانبان متفرقان",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Swipe": {
   "t": "Swipe",
@@ -13139,6 +13895,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The box above the list filters layer names. Filtering the list does not remove your selections.": {
+  "t": "-الصندوق الذي فوق القائمة يرشّح أسماء الطبقات وضع القائمة لا يزيل إختياراتك",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The buttons are grey until you click the map. Once a pin is placed they turn blue and can be clicked.": {
   "t": "الأزرار رمادية حتى تنقر الخريطة بمجرد وضع الدبوس يصبحون أزرق ويمكن النقر",
   "src": "libretranslate",
@@ -13174,6 +13936,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The comparison could not be prepared. Check the selected layers and try again.": {
+  "t": "ولا يمكن إعداد المقارنة. تحقق من الطبقات المختارة وحاول مرة أخرى",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The comparison stopped after adding or removing a layer: the map changed. Review the layer list and select Start comparison again.": {
+  "t": "The comparison stopped after add or removing a layer: the map changed. راجعي قائمة الطبقات واختاري مقارنة البداية مرة أخرى",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The configured layer did not respond in time.": {
   "t": "الطبقة المصممة لم ترد في الوقت المناسب",
@@ -13385,6 +14159,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The map layers changed. Comparison stopped; review your selections and start again.": {
+  "t": "تغيرت طبقات الخرائط توقفت المقارنات، واستعراض اختياراتك والبدء من جديد.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The map layers could not be read. Check the connected map, then refresh the layers.": {
+  "t": "لا يمكن قراءة طبقات الخرائط تحقق من الخريطة المُتصلة، ثمّ يُنعشُ الطبقات.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The map moves to fit the points when geocoding finishes.": {
   "t": "تتحرك الخريطة لتلائم النقاط عندما ينتهي الترميز",
   "src": "libretranslate",
@@ -13498,6 +14284,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The slider moves the same divider as the handle on the map. Use the arrow keys on the slider for a precise adjustment.": {
+  "t": "المُنزلق يتحرّك نفس الشقّة التي يُسيطر عليها على الخريطة. استخدم مفاتيح السهم على المنزلق من أجل تعديل دقيق",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The small badge on a card counts the legs or edges in that measurement.": {
   "t": "الشارة الصغيرة على البطاقة تحسب الساقين أو الحواف في ذلك القياس",
@@ -13705,6 +14497,18 @@
  },
  "This is not a valid URL.": {
   "t": "This is not a valid URL.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "This layer could not load. Check its service or sign-in.": {
+  "t": "هذه الطبقة لا يمكن تحميل. تحقق من خدمته أو إشارة الدخول",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "This layer type is not available for 2D comparison.": {
+  "t": "هذا النوع من الطبقات غير متاح للمقارنة بـ2D.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14027,6 +14831,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Top": {
+  "t": "القمة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Top / bottom": {
+  "t": "أعلى/أسفل",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Top Alignment (Current). Position text at the top.": {
   "t": "أعلى درجة (كرينت). رسالة في الأعلى",
   "src": "libretranslate",
@@ -14135,6 +14951,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Troubleshooting": {
+  "t": "الاضطرابات",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "True-curve line tools (arc, endpoint arc, bézier)": {
   "t": "أدوات خط الحقن الحقيقي (القوس، نقطة النهاية، بيزير)",
   "src": "libretranslate",
@@ -14221,6 +15043,12 @@
  },
  "Type to filter drawings by name or type": {
   "t": "الرسم من النوع إلى الرش بالاسم أو النوع",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Type: {type}": {
+  "t": "النوع: {type}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14639,6 +15467,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Use the checkboxes in Layer Compare while comparing. To apply filter or style changes made elsewhere, stop and start the comparison again.": {
+  "t": "استخدمي صناديق الشيكات في شركة لاير بينما تقارن لتطبيق التصفيق أو تغيير النمط في مكان آخر، وقف وبدء المقارنة مرة أخرى.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Use the Copy Lat/Lon button above or press Control+C to copy the coordinates.": {
   "t": "استخدمي زر التأليف/اللون فوق أو التحكم بالضغط + سي لنسخ الإحداثيات",
   "src": "libretranslate",
@@ -14699,17 +15533,41 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Valid": {
+  "t": "Valid",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Validate": {
   "t": "القيمة",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Validation Error": {
+  "t": "الخطأ في التقييم",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Value map (one per line, from=to)": {
   "t": "خريطة القيمة (واحد لكل خط، من=إلى)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Values beginning with http or https render as a hyperlink using this text unless a format rule says otherwise.": {
+  "t": "وتصدر القيم التي تبدأ بالموقع الشبكي أو https، كشبكة إلكترونية تستخدم هذا النص ما لم تنص قاعدة الشكل على خلاف ذلك.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Version 1, 2, and 3 XML files are importable. Older files are converted into per-layer settings on import.": {
+  "t": "والنسخة 1 و2 و3 من ملفات XML قابلة للاستيراد. وتُحوَّل ملفات كبار السن إلى أماكن للطلاب الواحد على الواردات.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Vertical alignment set to {newAlign}": {
   "t": "مجموعة للمواءمة الشكلية {newAlign}",
@@ -14773,6 +15631,18 @@
  },
  "View/Edit notes (has notes)": {
   "t": "ملاحظات بشأن الفيو/الديت (يلاحظ)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Visible: {visible}": {
+  "t": "واضح: {visible}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Warning": {
+  "t": "تحذير",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15155,11 +16025,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "You can still pan and zoom the map while comparison is on.": {
+  "t": "ما زال بإمكانك أن تُقحم الخريطه بينما المُقارنة مستمرة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "You have drawings saved from a previous session.": {
   "t": "لقد انقذت الرسوم من دورة سابقة",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Your basemap, map extent, and layer data stay the same. The comparison uses temporary layer copies.": {
+  "t": "خريطة قاعدتك، مدى الخريطة، وبيانات الطبقات تبقى على حالها. وتستخدم المقارنة نسخاً مؤقتة من الطبقات.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Your drawings are saved in your web browser using local storage. This means they're only available on this device and in this browser.": {
   "t": "رسوماتك تُوفّر في مصفف الإنترنت الخاص بك باستخدام التخزين المحلي. هذا يعني أنهم متوفرون فقط على هذا الجهاز وفي هذا المستنقع",
@@ -15185,6 +16067,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Your selections apply only in this open app. They are not saved to the web map.": {
+  "t": "إختياراتك تنطبق فقط في هذا التطبيق المفتوح لم يتم إنقاذهم من الخريطة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Your Text Here": {
   "t": "رسالتك هنا",
   "src": "libretranslate",
@@ -15196,6 +16084,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "ZIP code or postal code": {
+  "t": "ZIP code or postal code",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "ZIP/Postal Code": {
+  "t": "ZIP/Postal Code",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Zoom": {
   "t": "زوم",

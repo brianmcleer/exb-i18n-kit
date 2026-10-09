@@ -23,6 +23,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "-- Select Field --": {
+  "t": "- Виберіть поле --",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "— Select a widget —": {
   "t": "— Оберіть віджет —",
   "src": "libretranslate",
@@ -77,6 +83,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "\"Parcel \" + $feature.PARCEL_NUM": {
+  "t": "\"Parcel\" + $feature. ПАРКЕЛЬ NUM",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "(Default)": {
   "t": "(Default)",
   "src": "libretranslate",
@@ -100,6 +112,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "(Optional)": {
+  "t": "(Оптіональний)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "(Required)": {
+  "t": "(обов'язково)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "(select column)": {
   "t": "(виберіть стовпчик)",
@@ -169,6 +193,12 @@
  },
  "{count} records": {
   "t": "{count} запис",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{count} records match current criteria": {
+  "t": "{count} записувати відповідні критерії",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -347,6 +377,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{layer}: show on {side}": {
+  "t": "{layer}: показати на {side}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{loadedCount} basemap loaded.{failedNote} Use arrow keys to navigate, Enter or Space to select.": {
   "t": "{loadedCount} базова карта завантажена.{failedNote} Використовуйте клавіші стріли для навігації, введіть або простір, щоб вибрати.",
   "src": "libretranslate",
@@ -487,6 +523,12 @@
  },
  "{selectedIdsCount} selected": {
   "t": "{selectedIdsCount} вибір",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{side} selections cleared.": {
+  "t": "{side} підбір очищається.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -701,6 +743,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A layer is missing: it may be outside the current map scale. Zoom in or out, and check the note beneath its name.": {
+  "t": "Шар відсутній: він може бути поза поточною вагою карти. Зомбі або з-за кордону, і перевірте замітку, що підлягає його назві.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer is unavailable: its service may be offline, it may require sign-in, or its layer type may not work in a 2D map. Check that layer in the map.": {
+  "t": "Шар недоступний: його обслуговування може бути в автономному режимі, він може вимагати реєстрації, або його тип шару не може працювати в 2D карті. Перевірити шар на карті.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A layer you expected is missing from the results: that layer is turned off in the map. Turn it back on in the layer list and click again.": {
   "t": "Шар, який ви очікуєте, відсутні з результатів: що шар вимкнений на мапі. Поверніть його назад в список шарів і натисніть знову.",
   "src": "libretranslate",
@@ -743,11 +797,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A repeat click at the same place at the same scale is answered from memory for this many seconds instead of re-querying the service. 0 disables.": {
+  "t": "Натиснувши повторне клацання на одному місці в однаковому масштабі відповіли з пам'яті протягом багатьох секунд, замість перезавантаження сервісу. 0 відключити.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A rule says which field from your data fills which field in the layer.": {
   "t": "Правило говорить, що поле з ваших даних заповнює які поля в шарі.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "A side with no selected layers shows the basemap and any shared map layers. You can use this to compare a layer with the basemap.": {
+  "t": "Сторона без вибраних шарів показує базову карту і будь-які загальні шари карт. Ви можете використовувати це для порівняння шару за допомогою базової карти.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "A spreadsheet of your rows with MATCH_STATUS, MATCH_SCORE, the address you sent, the address the locator matched, the address type, a plain reason for every row that did not match, and coordinates for every row that did. Open it in Excel and filter on MATCH_STATUS.": {
   "t": "Спредмет ваших рядків з MATCH STATUS, MATCH SCORE, адреса, яку ви надіслали, адреса локатор відповідає, тип адреси, однозначно причина для кожного ряду, який не відповідає і координує для кожного ряду, який зробив. Відкрийте його в Excel і фільтр на MATCH STATUS.",
@@ -1109,6 +1175,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Address Line 1": {
+  "t": "Адресна лінія 1",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address Line 2": {
+  "t": "Адресна лінія 2",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Address mapping mode": {
   "t": "Статус на сервери",
   "src": "libretranslate",
@@ -1144,6 +1222,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Adjust divider position: {position} percent": {
+  "t": "Регульувати позицію дивідора: {position} відсоток",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Adjust the distance between grid lines. Smaller values create a finer grid, larger values create a coarser grid. Range is 10 to 200 pixels.": {
   "t": "Регулювати відстань між лініями сітки. Більші значення створюють тонку сітку, більші значення створюють сітчасту сітку. Діапазон - 10 до 200 пікселів.",
@@ -1547,11 +1631,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Another Layer Compare is using this map. Stop that comparison first.": {
+  "t": "Ще одним шаром є використання цієї карти. Стоп, що порівнює перше.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Any reason ({failuresCount})": {
   "t": "Будь-яка причина{failuresCount}й",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Apartment, suite, unit, etc. (optional)": {
+  "t": "Квартира, люкс, блок і т.д. (за бажанням)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "API key / token (optional)": {
   "t": "API ключ / токен (опція)",
@@ -1901,6 +1997,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Basemap only": {
+  "t": "Мапа сайту",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Basemap selection gallery - grid view": {
   "t": "Галерея вибору базової карти - вигляд сітки",
   "src": "libretranslate",
@@ -2099,6 +2201,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Bottom": {
+  "t": "Підсумок",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Bottom Alignment (Current). Position text at the bottom.": {
   "t": "Підсумок (Current). Поставити текст внизу.",
   "src": "libretranslate",
@@ -2255,6 +2363,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Business or organization name (optional)": {
+  "t": "Назва підприємства або організації (за бажанням)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Button Visibility": {
   "t": "Кнопка Visibility",
   "src": "libretranslate",
@@ -2381,6 +2495,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Center divider": {
+  "t": "Центр дивідора",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Center divider puts the divider back in the middle. Swap sides exchanges the two layer selections.": {
+  "t": "Центр дивіденду покладає дивіденду в середині. Обмін сторонами обмінюється два шари підбірки.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Change Area Units": {
   "t": "Блоки для зміни",
   "src": "libretranslate",
@@ -2441,6 +2567,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Check a group to select all its available layers. Use the arrow beside its name to choose individual layers.": {
+  "t": "Перевірте групу для вибору всіх його доступних шарів. Використовуйте стрілку, щоб вибрати окремі шари.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Check a layer under either side. Checking both sides shows it on both. Checking a group selects its available layers.": {
+  "t": "Перевірити шар під обидві сторони. Перевірити обидві сторони показує її як на. Перевірка групи вибирає наявні шари.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Check data": {
   "t": "Перевірка даних",
   "src": "libretranslate",
@@ -2488,6 +2626,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Choose a 2D map. Layer Compare is not available in a 3D scene.": {
+  "t": "Виберіть 2D карту. Шар-Порівняйте не доступний в 3D-сцені.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Choose a background map": {
   "t": "Виберіть фонову карту",
@@ -2543,6 +2687,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Choose a layer:": {
+  "t": "Виберіть шар:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Choose a previously exported .xml file.": {
   "t": "Виберіть раніше експортований файл .xml.",
   "src": "libretranslate",
@@ -2575,6 +2725,24 @@
  },
  "Choose horizontal alignment for text. Options are left, center, or right. Currently set to {horizontalAlignment}.": {
   "t": "Виберіть горизонтальне вирівнювання тексту. Варіанти зліва, центр або праворуч. В даний час наведено {horizontalAlignment}й",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose layers for each comparison side": {
+  "t": "Виберіть шари для кожної точки порівняння",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose layers for each side, select Start comparison, then drag the divider on the map.": {
+  "t": "Виберіть шари для кожної сторони, виберіть Почати порівняння, потім перетягніть дивіденд на карті.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose layers for each side, then drag the map divider to compare them.": {
+  "t": "Виберіть шари для кожної сторони, після чого перетягуйте димер карти, щоб порівняти їх.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2633,6 +2801,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Choosing layers": {
+  "t": "Вибір шарів",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Circle": {
   "t": "Виброхвост",
   "src": "libretranslate",
@@ -2675,6 +2849,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "City": {
+  "t": "Місто",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "City or town name": {
+  "t": "Назва міста або місто",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Clean addresses win. Take out apartment numbers and notes like \"behind the school\" before you start.": {
   "t": "Чисті адреси виграшу. Прийміть номери квартир і ноти, такі як \"похилого віку\" перед початком.",
   "src": "libretranslate",
@@ -2686,6 +2872,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Clear {side}": {
+  "t": "Очистити {side}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Clear all": {
   "t": "Очистити всі",
@@ -3245,11 +3437,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Closing the widget, changing the map, or leaving the app also stops comparison.": {
+  "t": "Закриття віджету, зміни карти, або залишивши додаток також припиняє порівняння.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Cmd": {
   "t": "КМД",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Collapse {layer}": {
+  "t": "Про нас {layer}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Collapse {name}": {
   "t": "Про нас {name}",
@@ -3323,6 +3527,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Company/Organization": {
+  "t": "Компанія/Організація",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Compare": {
   "t": "Порівняти",
   "src": "libretranslate",
@@ -3346,6 +3556,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Compare direction": {
+  "t": "Порівняйте напрямок",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Compare direction changes between Left / right and Top / bottom.": {
+  "t": "Порівняти зміни напряму між лівою / правою та верхньою / дном.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Compare is on in {compareBlendMode} mode: Enter or Space chooses the basemap to compare.": {
   "t": "Порівняйте {compareBlendMode} Режим: Введіть або простір вибирає базову карту для порівняння.",
@@ -3377,6 +3599,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Compared as one tiled layer": {
+  "t": "У порівнянні з одним кахельним шаром",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Comparing {title} on the left with the current basemap on the right. Drag the divider or use the slider.": {
   "t": "Складання {title} наліво з поточною основою на праву. Перетягніть роздільник або використовуйте слайдер.",
   "src": "libretranslate",
@@ -3389,17 +3617,53 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Comparison is on. Drag the map divider or use the slider.": {
+  "t": "Порівняння. Перетягніть роздільник карти або використовуйте слайдер.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comparison reset. Default selections and map visibility restored.": {
+  "t": "Порівняння скидання. Відреставровано типові підбірки та видимість карти.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comparison sides swapped.": {
+  "t": "Зібрані боки.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comparison stopped. The map visibility has been restored.": {
+  "t": "Припинено порівняння. Відновлено видимість карти.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Comparison:": {
   "t": "Порівняння:",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Configuration": {
+  "t": "Налаштування",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Configuration imported successfully!": {
   "t": "Конфігурація імпортується успішно!",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Configuration imported.": {
+  "t": "Налаштування імпортованих.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Configure Enhanced Locate": {
   "t": "Налаштування розширеного локації",
@@ -3469,6 +3733,12 @@
  },
  "Connect the Draw widget with other widgets in the application.": {
   "t": "Підключіть віджет Draw з іншими віджетами в додатку.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Connect this widget to a Map widget in the builder settings.": {
+  "t": "Підключіть цей віджет в налаштуваннях конструктора.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3779,8 +4049,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Country": {
+  "t": "Країна",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Country Code(s)": {
   "t": "Країна Код(s)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Country name (optional)": {
+  "t": "Назва країни (необов'язково)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4517,6 +4799,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Dismiss the hint": {
+  "t": "Відшкодування натяка",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Dismiss this hint": {
   "t": "Відхилити цей підказок",
   "src": "libretranslate",
@@ -4561,6 +4849,12 @@
  },
  "Distance:": {
   "t": "Дистанція:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Divider position": {
+  "t": "Позиція дайвайдера",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4687,6 +4981,12 @@
  },
  "Drag mode active. Move your mouse and click to place the label at a new position.": {
   "t": "Активний режим перетягування. Перемістіть мишу і натисніть, щоб розмістити етикетку на новій позиції.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Drag the divider on the map, or use the Divider position slider in this panel.": {
+  "t": "Перетягніть дивідер на карті, або використовуйте слайдер Divider в цій панелі.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5183,6 +5483,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Each side has its own checkbox. Check both boxes to show the same layer on both sides.": {
+  "t": "Кожна сторона має власний прапорець. Перевірити обидва коробки, щоб показати той же шар по обидва боки.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Easting (X):": {
   "t": "Схід (X):",
   "src": "libretranslate",
@@ -5320,6 +5626,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Either Name or Address Line 1 is required": {
+  "t": "Either Ім'я або адреса Лінія 1 обов'язково",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Enable": {
   "t": "Увімкнути",
@@ -5693,6 +6005,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Error loading layers from map": {
+  "t": "Помилка завантаження шарів з карти",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Error: {errorMsg}": {
   "t": "Помилка: {errorMsg}",
   "src": "libretranslate",
@@ -5779,6 +6097,12 @@
  },
  "Existing Drawings Found": {
   "t": "Заснування елементів",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Expand {layer}": {
+  "t": "Розгорнути {layer}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5950,6 +6274,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Export configuration (XML)": {
+  "t": "Експортна конфігурація (XML)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Export drawings to file": {
   "t": "Експорт креслень до файлу",
@@ -6125,6 +6455,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Feature Identify version {version}": {
+  "t": "Функція Визначте версію {version}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "feature selected": {
   "t": "вибрані функції",
   "src": "libretranslate",
@@ -6274,6 +6610,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Filter map layers": {
+  "t": "Фільтр шари карт",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Filter measurements by name or type": {
   "t": "Вимірювання фільтра за назвою або типом",
@@ -6629,6 +6971,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Found {count} records in selected layer": {
+  "t": "Головна {count} записів у вибраному шарі",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Freehand Area": {
   "t": "Безкоштовна область",
   "src": "libretranslate",
@@ -6671,8 +7019,32 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Full name or business name": {
+  "t": "Повне найменування або назва бізнесу",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Full URL to a queryable layer endpoint ending in a layer number. Use the public address that goes through your Web Adaptor, not a direct ArcGIS Server port.": {
   "t": "Повна URL-адреса до кінцевої точки, що закінчується в кількості шару. Використовуйте публічну адресу, яка йде через ваш веб-адаптор, не прямі порт ArcGIS Server.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Generate Labels": {
+  "t": "Генерувати етикетки",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Generate Mailing Labels": {
+  "t": "Генерувати етикетки розсилки",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Generate printable mailing labels from map layer data": {
+  "t": "Генерувати друковані етикетки з даних шару карт",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6688,6 +7060,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Generating Labels...": {
+  "t": "Генерування етикеток ...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Generating PDF…": {
   "t": "Генерація PDF",
@@ -7469,6 +7847,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Import configuration (XML)": {
+  "t": "Налаштування імпорту (XML)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Import Drawings": {
   "t": "Імпортні креслення",
   "src": "libretranslate",
@@ -7483,6 +7867,12 @@
  },
  "Import failed": {
   "t": "Імпорт не вдалося",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import failed. Check that the file is a Feature Identify configuration XML.": {
+  "t": "Імпорт не вдалося. Перевірте, що файл є функцією редагування XML.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7535,6 +7925,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "In the layer list, check the layers you want under each side. You can choose several layers.": {
+  "t": "У списку шарів перевірте шари, які потрібно під кожну сторону. Ви можете вибрати кілька шарів.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "In the map popup": {
   "t": "У мапи",
   "src": "libretranslate",
@@ -7549,6 +7945,18 @@
  },
  "In View": {
   "t": "Переглянути",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include": {
+  "t": "Включити",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include {layer} in Layer Compare": {
+  "t": "Включити {layer} Порівняйте",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7693,6 +8101,12 @@
  },
  "Invalid Conversion Factor": {
   "t": "Інвалідний фактор перетворення",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Invalid field mapping detected": {
+  "t": "Виявлено картографування поля",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7894,6 +8308,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Keeps layers that were visible before the comparison. The selected layers still follow their side checkboxes.": {
+  "t": "Збережіть шари, які були видимі до порівняння. Вибрані шари все ще слідують бічними прапорцями.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Key field": {
   "t": "Ключове поле",
@@ -8129,6 +8549,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Layer Compare": {
+  "t": "Порівняйте",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layer Compare shows your chosen map layers on different sides of a movable divider.": {
+  "t": "Шар Порівняйте показує вибрані шари карт на різних сторонах рухомого дивідора.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layer Information": {
+  "t": "Інформація",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Layer name (used as the data source label)": {
   "t": "Ім'я шару (використовується як етикетка джерела даних)",
   "src": "libretranslate",
@@ -8149,6 +8587,12 @@
  },
  "Layer title and visibility options": {
   "t": "Параметри назв і видимості",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layers": {
+  "t": "Шари",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8182,6 +8626,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Left / right": {
+  "t": "Ліворуч / право",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Length": {
   "t": "Довжина",
@@ -8311,6 +8761,12 @@
  },
  "Link": {
   "t": "Посилання",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Link display text": {
+  "t": "Посилання відображення тексту",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8452,6 +8908,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Loading map layers...": {
+  "t": "Завантаження шарів...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Loading measurement tools...": {
   "t": "Інструменти вимірювання навантаження ...",
@@ -8609,6 +9071,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Mailing Label Generator": {
+  "t": "Генератор етикеток",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Mailing Labels": {
   "t": "Каталоги розсилки",
   "src": "libretranslate",
@@ -8717,6 +9185,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Map Address Fields": {
+  "t": "Адреса карти",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map coordinate unit": {
   "t": "Координаційний блок",
   "src": "libretranslate",
@@ -8752,6 +9226,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Map image services can be expanded so you can compare their individual sublayers. A cached tiled layer is compared as one complete layer.": {
+  "t": "Послуги з зображення карт можна розширити так, щоб ви могли порівняти свої індивідуальні підшарки. У порівнянні з одним повним шаром кахельний кахельний шар.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Map layer": {
   "t": "Шар мапи",
@@ -8809,6 +9289,18 @@
  },
  "Map X and Y": {
   "t": "Карта X і Y",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map your data fields to address components:": {
+  "t": "Перегляньте поля даних для адресних компонентів:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Mapped": {
+  "t": "Покоївка",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9161,6 +9653,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Messages": {
+  "t": "Повідомлення",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Meters": {
   "t": "Метеори",
   "src": "libretranslate",
@@ -9304,6 +9802,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Moving the divider": {
+  "t": "Переміщення роздільника",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "MPt": {
   "t": "МРТ",
@@ -9479,6 +9983,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No available layers. Check the map and the widget settings.": {
+  "t": "Немає доступних шарів. Перевірити карту і налаштування віджету.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No Background Color": {
   "t": "Ні Колір фону",
   "src": "libretranslate",
@@ -9575,6 +10085,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No feature layers available in the selected map": {
+  "t": "Немає спеціальних шарів, доступних у вибраній карті",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No feature layers on the map to style yet.": {
   "t": "Ніяких шарів на карті до стилю.",
   "src": "libretranslate",
@@ -9622,6 +10138,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "No layers match that filter.": {
+  "t": "Немає шарів, які фільтрують.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "No map connected: this widget has not been linked to a map. Ask the GIS Division to connect it in the widget settings.": {
   "t": "Немає підключеної карти: цей віджет не був підключений до карти. Задайте розділ ГІС для підключення його в налаштуваннях віджету.",
@@ -9700,6 +10222,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "No records found in selected layer": {
+  "t": "Не знайдено записів у вибраному шарі",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No result message": {
+  "t": "Немає повідомлення про результат",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "No results": {
   "t": "Немає результатів",
@@ -9784,6 +10318,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Not mapped": {
+  "t": "Не мапи",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Not sure of the format? The blue text next to {example} is the middle of the map in that format, and it changes as you move the map. Click it to fill in the box, then change it.": {
   "t": "Не впевнені у форматі? Синє текст поруч з {example} є посередині карти в цьому форматі, і вона змінює, як ви переміщуєте карту. Натисніть його, щоб заповнити поле, потім змінити його.",
@@ -10103,6 +10643,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Only the first {max} records will be processed": {
+  "t": "Тільки перший {max} будуть оброблятися",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Only the first sheet of an Excel workbook is read, so put your addresses there.": {
   "t": "Тільки перший аркуш книги Excel читає, тому встановіть свої адреси.",
   "src": "libretranslate",
@@ -10277,6 +10823,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Outside the current map scale": {
+  "t": "Зовні поточного масштабу карти",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "outside this coordinate system's area": {
   "t": "поза координатною зоною системи",
   "src": "libretranslate",
@@ -10336,6 +10888,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Performance": {
+  "t": "Продуктивність",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Perimeter": {
   "t": "Периметр",
@@ -10529,6 +11087,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Please select at least one address field": {
+  "t": "Будь ласка, оберіть принаймні одну адресу",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Please wait, do not close this window...": {
   "t": "Будь ласка, почекайте, не закрийте вікно...",
   "src": "libretranslate",
@@ -10687,6 +11251,12 @@
  },
  "Prefix": {
   "t": "Префікс",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preparing comparison...": {
+  "t": "Порівняння...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10865,6 +11435,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Querying layer data...": {
+  "t": "Збір даних шару",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Radius": {
   "t": "Радій",
   "src": "libretranslate",
@@ -10955,6 +11531,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Recipient Name": {
+  "t": "Ім'я одержувача",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Record {objectId} · source row {objectId2}": {
   "t": "Запис {objectId} · вихідний ряд {objectId2}",
   "src": "libretranslate",
@@ -10972,6 +11554,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Records to Process": {
+  "t": "Записи на процес",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Records: {count}": {
+  "t": "Записи: {count}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Rect": {
   "t": "Рект",
@@ -11017,6 +11611,12 @@
  },
  "Redo drawing action - no actions to redo": {
   "t": "Redo Draw дію - без дій на червоний",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Refresh layers": {
+  "t": "Фреш шари",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11189,6 +11789,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Reset": {
+  "t": "Зареєструватися",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Reset Default Area Units": {
   "t": "Заміна за замовчуванням",
   "src": "libretranslate",
@@ -11224,6 +11830,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Reset stops comparison, restores the default selections, and resets the divider position and direction.": {
+  "t": "Відновити порівняння зупинок, відновити вибір за замовчуванням, і скинути позицію дивідора і напрямок.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Reset the label to its default calculated position based on the geometry centroid": {
   "t": "Зменшення етикетки до її розрахункової позиції за умовчанням на основі центроїду геометрії",
@@ -11290,6 +11902,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Returning to the map": {
+  "t": "Повернення на карту",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reuse results for repeated clicks (seconds)": {
+  "t": "Запобігання результатів повторення кліків (секунди)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Reverse": {
   "t": "Реверс",
@@ -11434,6 +12058,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Round($feature.Acres, 2) + \" acres\"": {
+  "t": "Круглий($feature. Acres, 2) + \"акрів\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Row label, or blank for full popup content": {
   "t": "Порожня етикетка або заготовка для повного вмісту",
@@ -11597,6 +12227,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Search the guide (try \"layers\" or \"slider\")": {
+  "t": "Пошук посібника (три \"шари\" або \"слідер\")",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Search the guide (try \"load\" or \"fields\")": {
   "t": "Пошук посібника (три \"розвантаження\" або \"полів\")",
   "src": "libretranslate",
@@ -11687,6 +12323,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Select a layer...": {
+  "t": "Виберіть шар ...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select a Map": {
   "t": "Виберіть карту",
   "src": "libretranslate",
@@ -11753,6 +12395,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Select at least one layer on either side to begin.": {
+  "t": "Виберіть принаймні один шар на обох сторонах, щоб почати.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select by:": {
   "t": "Виберіть:",
   "src": "libretranslate",
@@ -11764,6 +12412,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Select Data Layer": {
+  "t": "Виберіть шар даних",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Select Draw Mode": {
   "t": "Виберіть режим малювання",
@@ -11800,6 +12454,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Select field for {fieldType}...": {
+  "t": "Виберіть поле для {fieldType}...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select fields to enable": {
+  "t": "Виберіть поля для включення",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Select font color for the measurement label text": {
   "t": "Виберіть колір шрифту для вимірювання тексту етикетки",
@@ -11845,6 +12511,12 @@
  },
  "Select multiple measurements": {
   "t": "Виберіть декілька вимірювань",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select Start comparison. Give the map a moment to redraw.": {
+  "t": "Виберіть порівняння. Подаруйте мапу в момент переробити.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11923,6 +12595,12 @@
  },
  "Select which tab opens by default": {
   "t": "Виберіть вкладку, яка відкривається за замовчуванням",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "selected": {
+  "t": "вибір",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12053,6 +12731,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Shared map layers": {
+  "t": "Поширені шари карт",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show {label} ({abbreviation})": {
   "t": "Почати {label} (Українська){abbreviation}й",
   "src": "libretranslate",
@@ -12139,6 +12823,12 @@
  },
  "Show Copy Coordinates Button": {
   "t": "Показати Копіювати координати кнопки",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show diagnostic overlay": {
+  "t": "Показати діагностичну накладку",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12256,6 +12946,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Show other visible layers on both sides": {
+  "t": "Показати інші видимі шари з обох сторін",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show other visible layers on both sides keeps the other layers that were visible before you started.": {
+  "t": "Показати інші видимі шари з двох сторін зберігають інші шари, які були видимі перед початком.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Show Pictometry Button": {
   "t": "Показати піктометрію кнопки",
@@ -12382,6 +13084,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Shows a live event log at the bottom of the screen on every device, with a Copy button. Turn on only while troubleshooting, then turn back off. The overlay can also be enabled per-session by adding fi_debug=1 to the app URL.": {
+  "t": "Відображається журнал подій в нижній частині екрана на кожному пристрої, з кнопку Копіювати. Вимкніть тільки при несправності, після чого відключіть. Накладка також може бути включена в обліковий запис, додаючи URL-адресу f debug=1.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Shows the question-mark button that opens the in-widget help guide, and the first-run hint.": {
   "t": "Відкриваємо навігацію на сайті, і перший підказок.",
@@ -12671,6 +13379,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Start comparison": {
+  "t": "Порівняння",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Start here: three steps": {
   "t": "Почати тут: три кроки",
   "src": "libretranslate",
@@ -12682,6 +13396,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "State, province, or region": {
+  "t": "Стан, провінція або область",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "State/Province": {
+  "t": "Стан/Провінце",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Status: Drag mode is active. Move mouse and click to place the label.": {
   "t": "Статус: Режим перетягування активний. Перемістити мишу і натисніть, щоб розмістити етикетку.",
@@ -12743,8 +13469,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Still stuck? Contact the GIS Division and mention the Layer Compare name and this app.": {
+  "t": "Натюрморт? Зв'язатися з відділом ГІС і згадувати ім'я шару.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Still stuck? Contact your GIS team and mention the Draw Advanced widget and this app.": {
   "t": "Натюрморт? Зв'язатися з командою ГІС і згадати про розширений віджет Draw і цей додаток.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Stop comparison": {
+  "t": "Порівняння Зупинок",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Stop comparison removes the divider and restores the map visibility. Your side selections stay ready for the next comparison.": {
+  "t": "Стоп порівняння видаляє дивідектор і відновлює видимість карти. Вашої сторони підбірки, що залишаються готовими до наступного порівняння.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12785,6 +13529,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Street address or P.O. Box": {
+  "t": "Адреса вулиці або P.O. Box",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Style editor": {
   "t": "Редактор стилю",
   "src": "libretranslate",
@@ -12814,6 +13564,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Swap sides": {
+  "t": "Обмін сторонами",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Swipe": {
   "t": "Свічка",
@@ -13139,6 +13895,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The box above the list filters layer names. Filtering the list does not remove your selections.": {
+  "t": "Коробка над списком фільтрує імена шарів. Фільтрування списку не видаляє ваші підбірки.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The buttons are grey until you click the map. Once a pin is placed they turn blue and can be clicked.": {
   "t": "Кнопки сірі, поки ви натиснете на карту. Після того, як штифт поміщається, вони стають синими і можуть бути натискані.",
   "src": "libretranslate",
@@ -13174,6 +13936,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The comparison could not be prepared. Check the selected layers and try again.": {
+  "t": "Порівняти не можна. Перевірте вибрані шари і спробуйте знову.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The comparison stopped after adding or removing a layer: the map changed. Review the layer list and select Start comparison again.": {
+  "t": "Припинено порівняння після додавання або видалення шару: зміна карти. Перегляньте список шарів і виберіть Почати порівняння знову.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The configured layer did not respond in time.": {
   "t": "Настрочений шар не відповідав вчасно.",
@@ -13385,6 +14159,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The map layers changed. Comparison stopped; review your selections and start again.": {
+  "t": "Змінено шари карти. Порівняти припинено; перегляньте ваші добірки і знову запустіть.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The map layers could not be read. Check the connected map, then refresh the layers.": {
+  "t": "Мапа шарів не можна прочитати. Перевірити підключену карту, потім освіжити шари.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The map moves to fit the points when geocoding finishes.": {
   "t": "Карта рухається, щоб відповідати точкам, коли обробка геокодування.",
   "src": "libretranslate",
@@ -13498,6 +14284,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The slider moves the same divider as the handle on the map. Use the arrow keys on the slider for a precise adjustment.": {
+  "t": "Розсувник пересуває той самий дивідектор як ручка на карті. Використовуйте клавіші стріли на слайдері для точного регулювання.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The small badge on a card counts the legs or edges in that measurement.": {
   "t": "Невеликий значок на картці підраховує ноги або краї в цьому вимірі.",
@@ -13705,6 +14497,18 @@
  },
  "This is not a valid URL.": {
   "t": "Це не дійсний URL.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "This layer could not load. Check its service or sign-in.": {
+  "t": "Цей шар не може навантажувати. Перевірити послугу або зареєструватися.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "This layer type is not available for 2D comparison.": {
+  "t": "Даний тип шару не доступний для порівняння 2D.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14027,6 +14831,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Top": {
+  "t": "Топ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Top / bottom": {
+  "t": "Топ / дно",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Top Alignment (Current). Position text at the top.": {
   "t": "Топ вирівнювання (Current). Поставити текст у верхній частині.",
   "src": "libretranslate",
@@ -14135,6 +14951,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Troubleshooting": {
+  "t": "Виправлення несправностей",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "True-curve line tools (arc, endpoint arc, bézier)": {
   "t": "Інструменти лінійки True-curve (arc, кінцева дуга, bézier)",
   "src": "libretranslate",
@@ -14221,6 +15043,12 @@
  },
  "Type to filter drawings by name or type": {
   "t": "Тип фільтрувати креслення за назвою або типом",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Type: {type}": {
+  "t": "Тип: {type}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14639,6 +15467,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Use the checkboxes in Layer Compare while comparing. To apply filter or style changes made elsewhere, stop and start the comparison again.": {
+  "t": "Використовуйте прапорці у порівнянні з розділами. Застосувати зміни фільтра або стилю в іншому місці, зупинити і знову почати порівняння.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Use the Copy Lat/Lon button above or press Control+C to copy the coordinates.": {
   "t": "Використовуйте кнопку Копіювати Lat/Lon вище або натисніть кнопку Control+C для копіювання координат.",
   "src": "libretranslate",
@@ -14699,17 +15533,41 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Valid": {
+  "t": "Дійсно",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Validate": {
   "t": "Подати заявку",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Validation Error": {
+  "t": "Помилки",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Value map (one per line, from=to)": {
   "t": "Цінна карта (один рядок, від= до)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Values beginning with http or https render as a hyperlink using this text unless a format rule says otherwise.": {
+  "t": "Значення, що починаються з HTTP або HTTPS, а також гіперпосилання, використовуючи цей текст, якщо правило формату говорить інакше.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Version 1, 2, and 3 XML files are importable. Older files are converted into per-layer settings on import.": {
+  "t": "Версія 1, 2 та 3 XML файли імпортуються. Старші файли перетворюються на заочні настройки на імпорті.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Vertical alignment set to {newAlign}": {
   "t": "Комплект вертикального вирівнювання до {newAlign}",
@@ -14773,6 +15631,18 @@
  },
  "View/Edit notes (has notes)": {
   "t": "Подивитися/Редагувати ноти (замітки Has)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Visible: {visible}": {
+  "t": "Вимкнено: {visible}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Warning": {
+  "t": "Зареєструватися",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15155,11 +16025,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "You can still pan and zoom the map while comparison is on.": {
+  "t": "Ви все ще можете скликати і збільшити карту в порівнянні з нею.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "You have drawings saved from a previous session.": {
   "t": "Ви отримали малюнки, збережені з попередньої сесії.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Your basemap, map extent, and layer data stay the same. The comparison uses temporary layer copies.": {
+  "t": "Ваша базова карта, розмір карти, і дані шару залишаються однаковими. У порівнянні використовуються тимчасові копії шару.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Your drawings are saved in your web browser using local storage. This means they're only available on this device and in this browser.": {
   "t": "Ваші малюнки зберігаються у веб-браузері з використанням локального сховища. Це означає, що вони доступні тільки на цьому пристрої і в цьому браузері.",
@@ -15185,6 +16067,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Your selections apply only in this open app. They are not saved to the web map.": {
+  "t": "Ваш вибір застосовується тільки в цьому відкритому додатку. Вони не зберігаються на веб карті.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Your Text Here": {
   "t": "Ваш текст",
   "src": "libretranslate",
@@ -15196,6 +16084,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "ZIP code or postal code": {
+  "t": "Поштовий індекс або поштовий індекс",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "ZIP/Postal Code": {
+  "t": "Поштовий індекс",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Zoom": {
   "t": "Зомбі",

@@ -23,6 +23,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "-- Select Field --": {
+  "t": "-- Vybrat pole --",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "— Select a widget —": {
   "t": "- Vyberte widget -",
   "src": "libretranslate",
@@ -77,6 +83,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "\"Parcel \" + $feature.PARCEL_NUM": {
+  "t": "\"Parcel\" + $funkce. PARCEL _ NUM",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "(Default)": {
   "t": "(Výchozí)",
   "src": "libretranslate",
@@ -100,6 +112,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "(Optional)": {
+  "t": "(nepovinně)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "(Required)": {
+  "t": "(Požadováno)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "(select column)": {
   "t": "(vyberte sloupec)",
@@ -169,6 +193,12 @@
  },
  "{count} records": {
   "t": "{count} záznamy",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{count} records match current criteria": {
+  "t": "{count} záznamy odpovídají aktuálním kritériím",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -347,6 +377,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{layer}: show on {side}": {
+  "t": "{layer}: show on {side}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{loadedCount} basemap loaded.{failedNote} Use arrow keys to navigate, Enter or Space to select.": {
   "t": "{loadedCount} Základna nabitá.{failedNote} Pomocí kláves se šipkami pro navigaci, Enter nebo Space pro výběr.",
   "src": "libretranslate",
@@ -487,6 +523,12 @@
  },
  "{selectedIdsCount} selected": {
   "t": "{selectedIdsCount} zvoleno",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{side} selections cleared.": {
+  "t": "{side} Volby vymazány.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -701,6 +743,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A layer is missing: it may be outside the current map scale. Zoom in or out, and check the note beneath its name.": {
+  "t": "Chybí vrstva: může být mimo aktuální měřítko mapy. Přiblížit nebo ven, a zkontrolujte poznámku pod jeho jménem.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer is unavailable: its service may be offline, it may require sign-in, or its layer type may not work in a 2D map. Check that layer in the map.": {
+  "t": "Vrstva není k dispozici: jeho obsluha může být vypnuta, může vyžadovat sign- in, nebo její typ vrstvy nemusí fungovat v mapě 2D. Zkontrolujte tu vrstvu na mapě.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A layer you expected is missing from the results: that layer is turned off in the map. Turn it back on in the layer list and click again.": {
   "t": "Z výsledků chybí vrstva, kterou jste očekávali: tato vrstva je v mapě vypnuta. Zapněte to v seznamu vrstev a klikněte znovu.",
   "src": "libretranslate",
@@ -743,11 +797,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A repeat click at the same place at the same scale is answered from memory for this many seconds instead of re-querying the service. 0 disables.": {
+  "t": "Opakované kliknutí na stejné místo ve stejném měřítku je zodpovězeno z paměti po mnoho sekund místo opětovného dotazování služby. 0 zakáže.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A rule says which field from your data fills which field in the layer.": {
   "t": "Pravidlo říká, které pole z vašich dat vyplní které pole ve vrstvě.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "A side with no selected layers shows the basemap and any shared map layers. You can use this to compare a layer with the basemap.": {
+  "t": "Strana bez vybraných vrstev ukazuje základní a sdílené vrstvy mapy. Můžete to použít k porovnání vrstvy s basemapem.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "A spreadsheet of your rows with MATCH_STATUS, MATCH_SCORE, the address you sent, the address the locator matched, the address type, a plain reason for every row that did not match, and coordinates for every row that did. Open it in Excel and filter on MATCH_STATUS.": {
   "t": "Tabulka vašich řádků s MATCH _ STATUS, MATCH _ SCORE, adresa, kterou jste odeslali, adresa, která se shoduje s lokátor, typ adresy, jasný důvod pro každý řádek, který se neshoduje, a souřadnice pro každý řádek, který byl. Otevřete jej v Excelu a filtr na MATCH _ STATUS.",
@@ -1109,6 +1175,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Address Line 1": {
+  "t": "Adresa Linka 1",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address Line 2": {
+  "t": "Adresa Linka 2",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Address mapping mode": {
   "t": "Režim mapování adres",
   "src": "libretranslate",
@@ -1144,6 +1222,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Adjust divider position: {position} percent": {
+  "t": "Nastavit pozici děliče: {position} %",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Adjust the distance between grid lines. Smaller values create a finer grid, larger values create a coarser grid. Range is 10 to 200 pixels.": {
   "t": "Upravte vzdálenost mezi liniemi mřížky. Menší hodnoty vytvoří jemnější mřížku, větší hodnoty vytvoří uhlíkovou mřížku. Vzdálenost je 10 až 200 pixelů.",
@@ -1547,11 +1631,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Another Layer Compare is using this map. Stop that comparison first.": {
+  "t": "Tuto mapu používá jiná vrstva Porovnání. Přestaň s tím srovnáváním.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Any reason ({failuresCount})": {
   "t": "Jakýkoli důvod ({failuresCount})",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Apartment, suite, unit, etc. (optional)": {
+  "t": "Apartmán, apartmá, jednotka atd. (nepovinné)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "API key / token (optional)": {
   "t": "API klíč / token (nepovinné)",
@@ -1901,6 +1997,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Basemap only": {
+  "t": "Pouze basemap",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Basemap selection gallery - grid view": {
   "t": "Galerie výběru basemap - pohled na mřížku",
   "src": "libretranslate",
@@ -2099,6 +2201,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Bottom": {
+  "t": "Dole",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Bottom Alignment (Current). Position text at the bottom.": {
   "t": "Spodní zarovnání (Aktuální). Text pozice dole.",
   "src": "libretranslate",
@@ -2255,6 +2363,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Business or organization name (optional)": {
+  "t": "Obchodní název nebo název organizace (nepovinné)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Button Visibility": {
   "t": "Viditelnost tlačítka",
   "src": "libretranslate",
@@ -2381,6 +2495,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Center divider": {
+  "t": "Rozdělovač středu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Center divider puts the divider back in the middle. Swap sides exchanges the two layer selections.": {
+  "t": "Středový dělič dává dělič zpět do středu. Výměna stran vyměňuje dvě vrstvy výběru.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Change Area Units": {
   "t": "Změnit oblasti jednotky",
   "src": "libretranslate",
@@ -2441,6 +2567,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Check a group to select all its available layers. Use the arrow beside its name to choose individual layers.": {
+  "t": "Zaškrtněte skupinu pro výběr všech dostupných vrstev. Pomocí šipky vedle svého jména vybrat jednotlivé vrstvy.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Check a layer under either side. Checking both sides shows it on both. Checking a group selects its available layers.": {
+  "t": "Zkontrolujte vrstvu pod každou stranou. Kontrola obou stran to ukazuje na obou stranách. Kontrola skupiny vybere dostupné vrstvy.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Check data": {
   "t": "Kontrolovat data",
   "src": "libretranslate",
@@ -2488,6 +2626,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Choose a 2D map. Layer Compare is not available in a 3D scene.": {
+  "t": "Vyberte 2D mapu. Layer Porovnání není k dispozici ve 3D scéně.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Choose a background map": {
   "t": "Vyberte si mapu pozadí",
@@ -2543,6 +2687,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Choose a layer:": {
+  "t": "Vyberte vrstvu:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Choose a previously exported .xml file.": {
   "t": "Vyberte si dříve vyvážený .xml soubor.",
   "src": "libretranslate",
@@ -2575,6 +2725,24 @@
  },
  "Choose horizontal alignment for text. Options are left, center, or right. Currently set to {horizontalAlignment}.": {
   "t": "Zvolte horizontální zarovnání textu. Možnosti jsou vlevo, uprostřed nebo vpravo. V současné době nastaveno na {horizontalAlignment}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose layers for each comparison side": {
+  "t": "Vyberte vrstvy pro každou porovnávací stranu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose layers for each side, select Start comparison, then drag the divider on the map.": {
+  "t": "Vyberte vrstvy pro každou stranu, vyberte Spuštění porovnání a pak přetáhněte dělič na mapě.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose layers for each side, then drag the map divider to compare them.": {
+  "t": "Vyberte vrstvy pro každou stranu, pak přetáhněte na mapě dělič je porovnat.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2633,6 +2801,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Choosing layers": {
+  "t": "Výběr vrstev",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Circle": {
   "t": "Kruh",
   "src": "libretranslate",
@@ -2675,6 +2849,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "City": {
+  "t": "Město",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "City or town name": {
+  "t": "Název města nebo města",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Clean addresses win. Take out apartment numbers and notes like \"behind the school\" before you start.": {
   "t": "Čisté adresy vyhrávají. Vyndej čísla bytů a poznámky jako \"za školou\", než začneš.",
   "src": "libretranslate",
@@ -2686,6 +2872,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Clear {side}": {
+  "t": "Vyčistit {side}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Clear all": {
   "t": "Vyčistit všechny",
@@ -3245,11 +3437,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Closing the widget, changing the map, or leaving the app also stops comparison.": {
+  "t": "Zavření widgetu, změna mapy nebo opuštění aplikace také zastaví porovnání.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Cmd": {
   "t": "Cmd",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Collapse {layer}": {
+  "t": "Kolaps {layer}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Collapse {name}": {
   "t": "Kolaps {name}",
@@ -3323,6 +3527,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Company/Organization": {
+  "t": "Společnost / organizace",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Compare": {
   "t": "Porovnat",
   "src": "libretranslate",
@@ -3346,6 +3556,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Compare direction": {
+  "t": "Porovnat směr",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Compare direction changes between Left / right and Top / bottom.": {
+  "t": "Porovnejte změny směru mezi levou / pravou a horní / spodní.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Compare is on in {compareBlendMode} mode: Enter or Space chooses the basemap to compare.": {
   "t": "Porovnání je uvedeno v {compareBlendMode} mode: Enter nebo Space zvolí pro porovnání základ.",
@@ -3377,6 +3599,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Compared as one tiled layer": {
+  "t": "Ve srovnání s jednou dlaždicovou vrstvou",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Comparing {title} on the left with the current basemap on the right. Drag the divider or use the slider.": {
   "t": "Srovnání {title} vlevo s aktuálním basemapem vpravo. Přetáhněte dělič nebo použijte posuvník.",
   "src": "libretranslate",
@@ -3389,17 +3617,53 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Comparison is on. Drag the map divider or use the slider.": {
+  "t": "Srovnání začíná. Přetáhněte dělič mapy nebo použijte posuvník.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comparison reset. Default selections and map visibility restored.": {
+  "t": "Srovnání resetovat. Výchozí volby a viditelnost mapy obnovena.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comparison sides swapped.": {
+  "t": "Porovnávací strany vyměněny.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comparison stopped. The map visibility has been restored.": {
+  "t": "Porovnání přestalo. Zviditelnění mapy bylo obnoveno.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Comparison:": {
   "t": "Srovnání:",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Configuration": {
+  "t": "Nastavení",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Configuration imported successfully!": {
   "t": "Konfigurace úspěšně importována!",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Configuration imported.": {
+  "t": "Konfigurace importována.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Configure Enhanced Locate": {
   "t": "Nastavit zvýšený Locate",
@@ -3469,6 +3733,12 @@
  },
  "Connect the Draw widget with other widgets in the application.": {
   "t": "Připojte widget Draw s dalšími widgety v aplikaci.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Connect this widget to a Map widget in the builder settings.": {
+  "t": "Připojte tento widget k widget mapy v nastavení stavitele.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3779,8 +4049,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Country": {
+  "t": "Země",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Country Code(s)": {
   "t": "Kód země",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Country name (optional)": {
+  "t": "Název země (nepovinné)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4517,6 +4799,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Dismiss the hint": {
+  "t": "Zamítněte nápovědu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Dismiss this hint": {
   "t": "Zamítněte tuto nápovědu",
   "src": "libretranslate",
@@ -4561,6 +4849,12 @@
  },
  "Distance:": {
   "t": "Vzdálenost:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Divider position": {
+  "t": "Poloha děliče",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4687,6 +4981,12 @@
  },
  "Drag mode active. Move your mouse and click to place the label at a new position.": {
   "t": "Režim drag aktivní. Přesuňte myš a klepněte na tlačítko umístit štítek na novou pozici.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Drag the divider on the map, or use the Divider position slider in this panel.": {
+  "t": "Přetáhněte dělič na mapě, nebo použijte posuvník polohy Divider v tomto panelu.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5183,6 +5483,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Each side has its own checkbox. Check both boxes to show the same layer on both sides.": {
+  "t": "Každá strana má své vlastní políčko. Zaškrtněte obě políčka pro zobrazení stejné vrstvy na obou stranách.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Easting (X):": {
   "t": "Východ (X):",
   "src": "libretranslate",
@@ -5320,6 +5626,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Either Name or Address Line 1 is required": {
+  "t": "Vyžaduje se jméno nebo adresa linky 1",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Enable": {
   "t": "Povolit",
@@ -5693,6 +6005,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Error loading layers from map": {
+  "t": "Chyba při načítání vrstev z mapy",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Error: {errorMsg}": {
   "t": "Chyba: {errorMsg}",
   "src": "libretranslate",
@@ -5779,6 +6097,12 @@
  },
  "Existing Drawings Found": {
   "t": "Nalezeny existující výkresy",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Expand {layer}": {
+  "t": "Rozbalit {layer}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5950,6 +6274,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Export configuration (XML)": {
+  "t": "Konfigurace exportu (XML)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Export drawings to file": {
   "t": "Exportovat výkresy do souboru",
@@ -6125,6 +6455,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Feature Identify version {version}": {
+  "t": "Name {version}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "feature selected": {
   "t": "volba funkce",
   "src": "libretranslate",
@@ -6274,6 +6610,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Filter map layers": {
+  "t": "Filtrační mapové vrstvy",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Filter measurements by name or type": {
   "t": "Měření filtrů podle názvu nebo typu",
@@ -6629,6 +6971,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Found {count} records in selected layer": {
+  "t": "Nalezeno {count} záznamy ve zvolené vrstvě",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Freehand Area": {
   "t": "Oblast na volném trhu",
   "src": "libretranslate",
@@ -6671,8 +7019,32 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Full name or business name": {
+  "t": "Celé jméno nebo obchodní jméno",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Full URL to a queryable layer endpoint ending in a layer number. Use the public address that goes through your Web Adaptor, not a direct ArcGIS Server port.": {
   "t": "Kompletní URL do queryable layer endpoint končící číslem vrstvy. Použijte veřejnou adresu, která prochází vaším webovým adaptérem, ne přímý port Arcgis Server.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Generate Labels": {
+  "t": "Generovat etikety",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Generate Mailing Labels": {
+  "t": "Generovat štítky na posílání zpráv",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Generate printable mailing labels from map layer data": {
+  "t": "Vygenerovat tisknutelné poštovní štítky z mapových dat",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6688,6 +7060,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Generating Labels...": {
+  "t": "Generační štítky...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Generating PDF…": {
   "t": "Generování PDF...",
@@ -7469,6 +7847,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Import configuration (XML)": {
+  "t": "Importovat konfiguraci (XML)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Import Drawings": {
   "t": "Importovat výkresy",
   "src": "libretranslate",
@@ -7483,6 +7867,12 @@
  },
  "Import failed": {
   "t": "Import selhal",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import failed. Check that the file is a Feature Identify configuration XML.": {
+  "t": "Import selhal. Zkontrolujte, zda je soubor konfigurací funkce Identifikace XML.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7535,6 +7925,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "In the layer list, check the layers you want under each side. You can choose several layers.": {
+  "t": "V seznamu vrstev zkontrolujte vrstvy, které chcete pod každou stranou. Můžete si vybrat několik vrstev.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "In the map popup": {
   "t": "In the map popup",
   "src": "libretranslate",
@@ -7549,6 +7945,18 @@
  },
  "In View": {
   "t": "Na pohled",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include": {
+  "t": "Zahrnout",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include {layer} in Layer Compare": {
+  "t": "Zahrnout {layer} v porovnání vrstvy",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7693,6 +8101,12 @@
  },
  "Invalid Conversion Factor": {
   "t": "Neplatný konverzní faktor",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Invalid field mapping detected": {
+  "t": "Zjištěno neplatné mapování pole",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7894,6 +8308,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Keeps layers that were visible before the comparison. The selected layers still follow their side checkboxes.": {
+  "t": "Udržuje vrstvy, které byly viditelné před srovnáním. Vybrané vrstvy stále následují bočnice.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Key field": {
   "t": "Klíčové pole",
@@ -8129,6 +8549,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Layer Compare": {
+  "t": "Porovnat vrstvu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layer Compare shows your chosen map layers on different sides of a movable divider.": {
+  "t": "Vrstva Porovnání zobrazuje vybrané vrstvy mapy na různých stranách pohyblivého děliče.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layer Information": {
+  "t": "Informace o vrstvě",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Layer name (used as the data source label)": {
   "t": "Název vrstvy (používaný jako štítek zdroje dat)",
   "src": "libretranslate",
@@ -8149,6 +8587,12 @@
  },
  "Layer title and visibility options": {
   "t": "Možnosti označení vrstvy a viditelnosti",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layers": {
+  "t": "Vrstvy",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8182,6 +8626,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Left / right": {
+  "t": "Levá / pravá",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Length": {
   "t": "Délka",
@@ -8311,6 +8761,12 @@
  },
  "Link": {
   "t": "Odkaz",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Link display text": {
+  "t": "Text zobrazení odkazu",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8452,6 +8908,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Loading map layers...": {
+  "t": "Načítám vrstvy mapy...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Loading measurement tools...": {
   "t": "Nosné měřicí nástroje...",
@@ -8609,6 +9071,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Mailing Label Generator": {
+  "t": "Name",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Mailing Labels": {
   "t": "Poštovní štítky",
   "src": "libretranslate",
@@ -8717,6 +9185,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Map Address Fields": {
+  "t": "Name",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map coordinate unit": {
   "t": "Jednotka souřadnic mapy",
   "src": "libretranslate",
@@ -8752,6 +9226,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Map image services can be expanded so you can compare their individual sublayers. A cached tiled layer is compared as one complete layer.": {
+  "t": "Mapové obrazové služby lze rozšířit, abyste mohli porovnat jejich jednotlivé podvrstvy. Kachovaná kachlová vrstva je srovnávána jako jedna kompletní vrstva.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Map layer": {
   "t": "Vrstva mapy",
@@ -8809,6 +9289,18 @@
  },
  "Map X and Y": {
   "t": "Mapa X a Y",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map your data fields to address components:": {
+  "t": "Mapujte svá datová pole a adresujte komponenty:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Mapped": {
+  "t": "Mapovaný",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9161,6 +9653,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Messages": {
+  "t": "Zprávy",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Meters": {
   "t": "Měřiče",
   "src": "libretranslate",
@@ -9304,6 +9802,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Moving the divider": {
+  "t": "Přesun děliče",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "MPt": {
   "t": "MPt",
@@ -9479,6 +9983,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No available layers. Check the map and the widget settings.": {
+  "t": "Žádné dostupné vrstvy. Zkontrolujte mapu a nastavení widgetu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No Background Color": {
   "t": "Žádná barva pozadí",
   "src": "libretranslate",
@@ -9575,6 +10085,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No feature layers available in the selected map": {
+  "t": "Ve zvolené mapě nejsou dostupné žádné funkční vrstvy",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No feature layers on the map to style yet.": {
   "t": "Na mapě ještě nejsou žádné funkční vrstvy.",
   "src": "libretranslate",
@@ -9622,6 +10138,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "No layers match that filter.": {
+  "t": "Žádné vrstvy se neshodují s tím filtrem.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "No map connected: this widget has not been linked to a map. Ask the GIS Division to connect it in the widget settings.": {
   "t": "Mapka není připojena: tento widget není spojen s mapou. Požádejte oddělení GIS, aby jej připojilo v nastavení widget.",
@@ -9700,6 +10222,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "No records found in selected layer": {
+  "t": "Ve zvolené vrstvě nebyly nalezeny žádné záznamy",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No result message": {
+  "t": "Žádná zpráva o výsledku",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "No results": {
   "t": "Žádné výsledky",
@@ -9784,6 +10318,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Not mapped": {
+  "t": "Nemapované",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Not sure of the format? The blue text next to {example} is the middle of the map in that format, and it changes as you move the map. Click it to fill in the box, then change it.": {
   "t": "Nejste si jistý formátem? Modrý text vedle {example} je uprostřed mapy v tomto formátu, a to se mění při pohybu mapy. Klepněte na tlačítko vyplnit pole a pak ji změnit.",
@@ -10103,6 +10643,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Only the first {max} records will be processed": {
+  "t": "Pouze první {max} budou zpracovány záznamy",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Only the first sheet of an Excel workbook is read, so put your addresses there.": {
   "t": "Čte se pouze první list sešitu Excel, takže tam dejte své adresy.",
   "src": "libretranslate",
@@ -10277,6 +10823,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Outside the current map scale": {
+  "t": "Mimo aktuální měřítko mapy",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "outside this coordinate system's area": {
   "t": "mimo oblast tohoto souřadnicového systému",
   "src": "libretranslate",
@@ -10336,6 +10888,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Performance": {
+  "t": "Výkonnost",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Perimeter": {
   "t": "Perimetr",
@@ -10529,6 +11087,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Please select at least one address field": {
+  "t": "Vyberte prosím alespoň jedno pole adres",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Please wait, do not close this window...": {
   "t": "Prosím počkejte, nezavírejte to okno...",
   "src": "libretranslate",
@@ -10687,6 +11251,12 @@
  },
  "Prefix": {
   "t": "Prefix",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preparing comparison...": {
+  "t": "Příprava srovnání...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10865,6 +11435,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Querying layer data...": {
+  "t": "Dotazování dat vrstvy...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Radius": {
   "t": "Poloměr",
   "src": "libretranslate",
@@ -10955,6 +11531,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Recipient Name": {
+  "t": "Název příjemce",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Record {objectId} · source row {objectId2}": {
   "t": "Záznam {objectId} · řádek zdroje {objectId2}",
   "src": "libretranslate",
@@ -10972,6 +11554,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Records to Process": {
+  "t": "Záznamy do procesu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Records: {count}": {
+  "t": "Záznamy: {count}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Rect": {
   "t": "Rect",
@@ -11017,6 +11611,12 @@
  },
  "Redo drawing action - no actions to redo": {
   "t": "Přečerpávací akce - žádná opatření k přepracování",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Refresh layers": {
+  "t": "Obnovené vrstvy",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11189,6 +11789,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Reset": {
+  "t": "Obnovit",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Reset Default Area Units": {
   "t": "Obnovit výchozí jednotky plochy",
   "src": "libretranslate",
@@ -11224,6 +11830,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Reset stops comparison, restores the default selections, and resets the divider position and direction.": {
+  "t": "Obnovit zastaví srovnání, obnoví výchozí volby a resetuje pozici a směr děliče.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Reset the label to its default calculated position based on the geometry centroid": {
   "t": "Obnovit štítek na výchozí vypočtenou pozici na základě geometrické těžiště",
@@ -11290,6 +11902,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Returning to the map": {
+  "t": "Návrat do mapy",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reuse results for repeated clicks (seconds)": {
+  "t": "Výsledky opakovaného použití pro opakované kliknutí (sekundy)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Reverse": {
   "t": "Zpět",
@@ -11434,6 +12058,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Round($feature.Acres, 2) + \" acres\"": {
+  "t": "Kulaté ($feature. Acres, 2) + \"akry\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Row label, or blank for full popup content": {
   "t": "Řadový štítek, nebo prázdný pro plný obsah vyskakování",
@@ -11597,6 +12227,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Search the guide (try \"layers\" or \"slider\")": {
+  "t": "Hledat průvodce (zkuste \"vrstvy\" nebo \"posuvník\")",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Search the guide (try \"load\" or \"fields\")": {
   "t": "Hledat průvodce (zkuste \"načíst\" nebo \"pole\")",
   "src": "libretranslate",
@@ -11687,6 +12323,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Select a layer...": {
+  "t": "Vyberte vrstvu...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select a Map": {
   "t": "Vybrat mapu",
   "src": "libretranslate",
@@ -11753,6 +12395,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Select at least one layer on either side to begin.": {
+  "t": "Pro začátek zvolte alespoň jednu vrstvu na obou stranách.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select by:": {
   "t": "Vyberte pomocí:",
   "src": "libretranslate",
@@ -11764,6 +12412,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Select Data Layer": {
+  "t": "Vybrat datovou vrstvu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Select Draw Mode": {
   "t": "Vybrat režim losování",
@@ -11800,6 +12454,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Select field for {fieldType}...": {
+  "t": "Vybrat pole pro {fieldType}...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select fields to enable": {
+  "t": "Vybrat pole, která umožní",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Select font color for the measurement label text": {
   "t": "Vyberte barvu písma pro text na štítku měření",
@@ -11845,6 +12511,12 @@
  },
  "Select multiple measurements": {
   "t": "Vybrat více měření",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select Start comparison. Give the map a moment to redraw.": {
+  "t": "Zvolte Srovnání Start. Dejte té mapě chvilku, aby překreslila.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11923,6 +12595,12 @@
  },
  "Select which tab opens by default": {
   "t": "Zvolte, která karta se otevře ve výchozím nastavení",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "selected": {
+  "t": "zvoleno",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12053,6 +12731,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Shared map layers": {
+  "t": "Sdílené mapové vrstvy",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show {label} ({abbreviation})": {
   "t": "Zobrazit {label} ({abbreviation})",
   "src": "libretranslate",
@@ -12139,6 +12823,12 @@
  },
  "Show Copy Coordinates Button": {
   "t": "Zobrazit tlačítko Kopírovat souřadnice",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show diagnostic overlay": {
+  "t": "Zobrazit diagnostické pokrytí",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12256,6 +12946,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Show other visible layers on both sides": {
+  "t": "Zobrazit další viditelné vrstvy na obou stranách",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show other visible layers on both sides keeps the other layers that were visible before you started.": {
+  "t": "Zobrazovat další viditelné vrstvy na obou stranách udržuje ostatní vrstvy, které byly viditelné před tím, než jste začali.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Show Pictometry Button": {
   "t": "Zobrazit tlačítko Pictometrie",
@@ -12382,6 +13084,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Shows a live event log at the bottom of the screen on every device, with a Copy button. Turn on only while troubleshooting, then turn back off. The overlay can also be enabled per-session by adding fi_debug=1 to the app URL.": {
+  "t": "Zobrazí záznam událostí v dolní části obrazovky na každém zařízení tlačítkem Kopírovat. Zapněte pouze při řešení problémů a pak vypněte. Překrytí lze také povolit per- session přidáním fi _ debug = 1 do URL aplikace.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Shows the question-mark button that opens the in-widget help guide, and the first-run hint.": {
   "t": "Zobrazí tlačítko tag-mark, které otevře nápovědu in- widget, a nápovědu pro první běh.",
@@ -12671,6 +13379,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Start comparison": {
+  "t": "Zahájit srovnání",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Start here: three steps": {
   "t": "Začněte zde: tři kroky",
   "src": "libretranslate",
@@ -12682,6 +13396,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "State, province, or region": {
+  "t": "Stát, provincie nebo region",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "State/Province": {
+  "t": "Stát / provincie",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Status: Drag mode is active. Move mouse and click to place the label.": {
   "t": "Stav: režim drag je aktivní. Přesuňte myš a klepněte na tlačítko umístit štítek.",
@@ -12743,8 +13469,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Still stuck? Contact the GIS Division and mention the Layer Compare name and this app.": {
+  "t": "Pořád se zasekl? Kontaktujte sekci GIS a zmiňte název vrstvy a tuto aplikaci.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Still stuck? Contact your GIS team and mention the Draw Advanced widget and this app.": {
   "t": "Pořád se zasekl? Kontaktujte svůj tým GIS a zmiňte widget Draw Advanced a tuto aplikaci.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Stop comparison": {
+  "t": "Zastavit srovnání",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Stop comparison removes the divider and restores the map visibility. Your side selections stay ready for the next comparison.": {
+  "t": "Zastavit srovnání odstraní dělič a obnoví viditelnost mapy. Vaše boční volby zůstávají připraveny pro další srovnání.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12785,6 +13529,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Street address or P.O. Box": {
+  "t": "Adresa ulice nebo P.O. Box",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Style editor": {
   "t": "Editor stylu",
   "src": "libretranslate",
@@ -12814,6 +13564,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Swap sides": {
+  "t": "Výměna stran",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Swipe": {
   "t": "Přepnout",
@@ -13139,6 +13895,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The box above the list filters layer names. Filtering the list does not remove your selections.": {
+  "t": "Krabice nad seznamem filtruje názvy vrstev. Filtrace seznamu neodstraňuje vaše volby.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The buttons are grey until you click the map. Once a pin is placed they turn blue and can be clicked.": {
   "t": "Tlačítka jsou šedá, dokud nekliknete na mapu. Jakmile je špendlík umístěn, zmodrají se a mohou být kliknuty.",
   "src": "libretranslate",
@@ -13174,6 +13936,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The comparison could not be prepared. Check the selected layers and try again.": {
+  "t": "Srovnání nebylo možné připravit. Zkontrolujte vybrané vrstvy a zkuste to znovu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The comparison stopped after adding or removing a layer: the map changed. Review the layer list and select Start comparison again.": {
+  "t": "Srovnání se zastavilo po přidání nebo odstranění vrstvy: mapa se změnila. Zkontrolujte seznam vrstev a zvolte Znovu začít porovnávat.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The configured layer did not respond in time.": {
   "t": "Nakonfigurovaná vrstva nereagovala včas.",
@@ -13385,6 +14159,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The map layers changed. Comparison stopped; review your selections and start again.": {
+  "t": "Mapové vrstvy se změnily. Porovnání se zastavilo, zkontrolujte si své volby a začít znovu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The map layers could not be read. Check the connected map, then refresh the layers.": {
+  "t": "Mapové vrstvy nelze přečíst. Zkontrolujte připojenou mapu a pak obnovte vrstvy.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The map moves to fit the points when geocoding finishes.": {
   "t": "Mapa se pohybuje tak, aby odpovídala bodům, když geokódování končí.",
   "src": "libretranslate",
@@ -13498,6 +14284,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The slider moves the same divider as the handle on the map. Use the arrow keys on the slider for a precise adjustment.": {
+  "t": "Posuvník se pohybuje stejným děličem jako rukojeť na mapě. Pomocí kláves se šipkami na posuvníku pro přesné nastavení.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The small badge on a card counts the legs or edges in that measurement.": {
   "t": "Malý odznak na kartě počítá nohy nebo hrany v tomto měření.",
@@ -13705,6 +14497,18 @@
  },
  "This is not a valid URL.": {
   "t": "Toto není platné URL.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "This layer could not load. Check its service or sign-in.": {
+  "t": "Tato vrstva se nemohla načíst. Zkontrolujte jeho službu nebo sign- in.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "This layer type is not available for 2D comparison.": {
+  "t": "Tento typ vrstvy není k dispozici pro 2D porovnání.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14027,6 +14831,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Top": {
+  "t": "Nahoře",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Top / bottom": {
+  "t": "Nahoře / dole",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Top Alignment (Current). Position text at the top.": {
   "t": "Nejlepší zarovnání (Aktuální). Poloha text nahoře.",
   "src": "libretranslate",
@@ -14135,6 +14951,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Troubleshooting": {
+  "t": "Řešení problémů",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "True-curve line tools (arc, endpoint arc, bézier)": {
   "t": "Nástroje s křivkou true- křivky (oblouk, koncový oblouk, bézier)",
   "src": "libretranslate",
@@ -14221,6 +15043,12 @@
  },
  "Type to filter drawings by name or type": {
   "t": "Typ k filtrování výkresů podle názvu nebo typu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Type: {type}": {
+  "t": "Typ: {type}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14639,6 +15467,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Use the checkboxes in Layer Compare while comparing. To apply filter or style changes made elsewhere, stop and start the comparison again.": {
+  "t": "Pomocí políček v Layer Compare při porovnávání. Chcete-li použít filtr nebo změny stylu provedené jinde, zastavte a znovu spusťte porovnání.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Use the Copy Lat/Lon button above or press Control+C to copy the coordinates.": {
   "t": "Pomocí tlačítka Kopírovat Lat / Lon výše nebo stiskněte Ovládání + C pro kopírování souřadnic.",
   "src": "libretranslate",
@@ -14699,17 +15533,41 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Valid": {
+  "t": "Platné",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Validate": {
   "t": "Potvrdit",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Validation Error": {
+  "t": "Chyba validace",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Value map (one per line, from=to)": {
   "t": "Mapa hodnoty (jedna na řádek, od = do)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Values beginning with http or https render as a hyperlink using this text unless a format rule says otherwise.": {
+  "t": "Hodnoty začínající http nebo https poskytují jako hyperlink pomocí tohoto textu, pokud pravidlo formátu nestanoví jinak.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Version 1, 2, and 3 XML files are importable. Older files are converted into per-layer settings on import.": {
+  "t": "Verze 1, 2 a 3 XML soubory jsou dostupné. Starší soubory jsou při importu převedeny na per- layer nastavení.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Vertical alignment set to {newAlign}": {
   "t": "Svislá seřízení {newAlign}",
@@ -14773,6 +15631,18 @@
  },
  "View/Edit notes (has notes)": {
   "t": "Pohled / Upravit poznámky (má poznámky)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Visible: {visible}": {
+  "t": "Viditelné: {visible}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Warning": {
+  "t": "Varování",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15155,11 +16025,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "You can still pan and zoom the map while comparison is on.": {
+  "t": "Stále můžete mapu zvětšit a zvětšit, když je zapnuté srovnání.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "You have drawings saved from a previous session.": {
   "t": "Máte schované kresby z předchozího sezení.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Your basemap, map extent, and layer data stay the same. The comparison uses temporary layer copies.": {
+  "t": "Vaše základní mapa, rozsah mapy a data z vrstvy zůstávají stejná. Srovnání používá dočasné kopie vrstvy.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Your drawings are saved in your web browser using local storage. This means they're only available on this device and in this browser.": {
   "t": "Vaše kresby jsou uloženy ve vašem webovém prohlížeči pomocí místního úložiště. To znamená, že jsou k dispozici pouze v tomto zařízení a v tomto prohlížeči.",
@@ -15185,6 +16067,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Your selections apply only in this open app. They are not saved to the web map.": {
+  "t": "Vaše volby platí pouze v této otevřené aplikaci. Nejsou uloženy do webové mapy.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Your Text Here": {
   "t": "Váš text zde",
   "src": "libretranslate",
@@ -15196,6 +16084,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "ZIP code or postal code": {
+  "t": "Kód ZIP nebo poštovní směrovací číslo",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "ZIP/Postal Code": {
+  "t": "ZIP / PSČ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Zoom": {
   "t": "Zvětšit",

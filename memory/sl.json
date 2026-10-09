@@ -23,6 +23,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "-- Select Field --": {
+  "t": "-- Izberite polje --",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "— Select a widget —": {
   "t": "— Izberite gradnik —",
   "src": "libretranslate",
@@ -73,6 +79,12 @@
  },
  "· {hidden} remaining": {
   "t": "· {hidden} Preostanek",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "\"Parcel \" + $feature.PARCEL_NUM": {
+  "t": "\"Parcel\" + $obrazba. PARCEL NUM",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -347,6 +359,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{layer}: show on {side}": {
+  "t": "{layer}: oddaja naprej {side}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{loadedCount} basemap loaded.{failedNote} Use arrow keys to navigate, Enter or Space to select.": {
   "t": "{loadedCount} Osnovna karta naložena.{failedNote} Uporabite puščične tipke za navigacijo, Vnesite ali Vesolje izbrati.",
   "src": "libretranslate",
@@ -487,6 +505,12 @@
  },
  "{selectedIdsCount} selected": {
   "t": "{selectedIdsCount} izbrano",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{side} selections cleared.": {
+  "t": "{side} Izbire so urejene.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -689,6 +713,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A layer is missing: it may be outside the current map scale. Zoom in or out, and check the note beneath its name.": {
+  "t": "Manjka plast: lahko je zunaj trenutne karte lestvice. Približaj ali izdihni in poglej pod njegovo ime.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer is unavailable: its service may be offline, it may require sign-in, or its layer type may not work in a 2D map. Check that layer in the map.": {
+  "t": "Plast ni na voljo: njena storitev je lahko izključena, lahko zahteva vpis ali pa tip sloja ne deluje na 2D zemljevidu. Preveri tisto plast na zemljevidu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A layer you expected is missing from the results: that layer is turned off in the map. Turn it back on in the layer list and click again.": {
   "t": "Plast, ki ste jo pričakovali, manjka pri rezultatih: ta plast je izključena na zemljevidu. Vklopi ga nazaj na seznamu slojev in klikni znova.",
   "src": "libretranslate",
@@ -731,11 +767,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A repeat click at the same place at the same scale is answered from memory for this many seconds instead of re-querying the service. 0 disables.": {
+  "t": "Ponavljajoči klik na istem mestu na isti lestvici se odgovori iz pomnilnika za toliko sekund, namesto da bi ponovno kvalificirali storitev. 0 onesposobi.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A rule says which field from your data fills which field in the layer.": {
   "t": "Pravilo pravi, katero polje iz vaših podatkov zapolni katero polje v plasti.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "A side with no selected layers shows the basemap and any shared map layers. You can use this to compare a layer with the basemap.": {
+  "t": "Stran brez izbranih plasti prikazuje osnovno karto in vse skupne plasti zemljevida. To lahko uporabite za primerjavo plasti z osnovno karto.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "A spreadsheet of your rows with MATCH_STATUS, MATCH_SCORE, the address you sent, the address the locator matched, the address type, a plain reason for every row that did not match, and coordinates for every row that did. Open it in Excel and filter on MATCH_STATUS.": {
   "t": "Tabela vaših vrstic z MATCH STATUS, MATCH SCORE, naslov, ki ste ga poslali, naslov lokator ujema, naslov tipa, jasen razlog za vsako vrstico, ki se ni ujemala, in koordinate za vsako vrsto, ki je. Odpri v Excelu in filtriraj na Match STATUS.",
@@ -880,6 +928,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Add expression": {
+  "t": "Dodaj izraz",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Add format rule": {
   "t": "Dodaj pravilo formata",
@@ -1091,6 +1145,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Address Line 1": {
+  "t": "Naslovna vrstica 1",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address Line 2": {
+  "t": "Naslovna vrstica 2",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Address mapping mode": {
   "t": "Način kartiranja naslovov",
   "src": "libretranslate",
@@ -1126,6 +1192,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Adjust divider position: {position} percent": {
+  "t": "Prilagodi položaj delilnika: {position} %",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Adjust the distance between grid lines. Smaller values create a finer grid, larger values create a coarser grid. Range is 10 to 200 pixels.": {
   "t": "Nastavite razdaljo med mrežnimi črtami. Manjše vrednosti ustvarjajo finejšo mrežo, večje vrednosti ustvarjajo grobejšo mrežo. Razdalja je 10 do 200 pik.",
@@ -1529,11 +1601,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Another Layer Compare is using this map. Stop that comparison first.": {
+  "t": "Druga primerjava plasti uporablja ta zemljevid. Najprej ustavi to primerjavo.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Any reason ({failuresCount})": {
   "t": "Kateri koli razlog ({failuresCount})",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Apartment, suite, unit, etc. (optional)": {
+  "t": "Apartma, apartma, enota itd. (neobvezno)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "API key / token (optional)": {
   "t": "API ključ / žeton (neobvezno)",
@@ -1588,6 +1672,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Arcade expressions": {
+  "t": "Arkadni izrazi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "ArcGIS content: search for a layer that is already published.": {
   "t": "ArcGIS vsebina: iskanje plasti, ki je že objavljena.",
@@ -1877,6 +1967,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Basemap only": {
+  "t": "Samo osnovni zemljevid",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Basemap selection gallery - grid view": {
   "t": "Galerija izbora bazne karte - prikaz omrežja",
   "src": "libretranslate",
@@ -2074,6 +2170,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Bottom": {
+  "t": "Spodaj",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Bottom Alignment (Current). Position text at the bottom.": {
   "t": "Spodnja poravnava (Trenutno). Besedilo položaja na dnu.",
@@ -2357,6 +2459,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Center divider": {
+  "t": "Sredinski delilnik",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Center divider puts the divider back in the middle. Swap sides exchanges the two layer selections.": {
+  "t": "Center delilec postavi delilec nazaj na sredino. Zamenjava strani izmenja dve izbiri sloja.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Change Area Units": {
   "t": "Spremeni enote območja",
   "src": "libretranslate",
@@ -2417,6 +2531,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Check a group to select all its available layers. Use the arrow beside its name to choose individual layers.": {
+  "t": "Izberite skupino, da izberete vse razpoložljive plasti. Uporabite puščico poleg svojega imena, da izberete posamezne plasti.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Check a layer under either side. Checking both sides shows it on both. Checking a group selects its available layers.": {
+  "t": "Preverite plast pod vsako stranjo. Pregled obeh strani kaže na obeh. Preverjanje skupine izbere svoje razpoložljive plasti.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Check data": {
   "t": "Preveri podatke",
   "src": "libretranslate",
@@ -2464,6 +2590,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Choose a 2D map. Layer Compare is not available in a 3D scene.": {
+  "t": "Izberite 2D zemljevid. Primerjava plasti ni na voljo v 3D sceni.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Choose a background map": {
   "t": "Izberite zemljevid ozadja",
@@ -2519,6 +2651,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Choose a layer:": {
+  "t": "Izberite plast:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Choose a previously exported .xml file.": {
   "t": "Izberite predhodno izvoženo datoteko .xml.",
   "src": "libretranslate",
@@ -2551,6 +2689,24 @@
  },
  "Choose horizontal alignment for text. Options are left, center, or right. Currently set to {horizontalAlignment}.": {
   "t": "Izberite vodoravno poravnavo besedila. Možnosti so levo, sredinsko ali desno. Trenutno nastavljeno na {horizontalAlignment}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose layers for each comparison side": {
+  "t": "Izberite plasti za vsako stran primerjave",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose layers for each side, select Start comparison, then drag the divider on the map.": {
+  "t": "Izberite plasti za vsako stran, izberite Začni primerjavo, nato pa povlecite delilnik na zemljevidu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose layers for each side, then drag the map divider to compare them.": {
+  "t": "Izberite plasti za vsako stran, nato pa povlecite razdelilnik zemljevidov za primerjavo.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2609,6 +2765,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Choosing layers": {
+  "t": "Izbira plasti",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Circle": {
   "t": "Krog",
   "src": "libretranslate",
@@ -2651,6 +2813,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "City": {
+  "t": "Mesto",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "City or town name": {
+  "t": "Ime mesta ali mesta",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Clean addresses win. Take out apartment numbers and notes like \"behind the school\" before you start.": {
   "t": "Čisti naslovi zmagajo. Vzemi številke stanovanj in zapiske, kot je \"za šolo\", preden začneš.",
   "src": "libretranslate",
@@ -2662,6 +2836,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Clear {side}": {
+  "t": "Počisti {side}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Clear all": {
   "t": "Počisti vse",
@@ -3221,11 +3401,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Closing the widget, changing the map, or leaving the app also stops comparison.": {
+  "t": "Zapiranje gradnika, spreminjanje zemljevida, ali zapusti aplikacijo tudi ustavi primerjavo.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Cmd": {
   "t": "Cmd",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Collapse {layer}": {
+  "t": "Skrči {layer}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Collapse {name}": {
   "t": "Skrči {name}",
@@ -3323,6 +3515,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Compare direction": {
+  "t": "Primerjaj smer",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Compare direction changes between Left / right and Top / bottom.": {
+  "t": "Primerjaj spremembe smeri med levo / desno in zgornjo / spodnjo.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Compare is on in {compareBlendMode} mode: Enter or Space chooses the basemap to compare.": {
   "t": "Primerjaj je v {compareBlendMode} način: Enter ali Space izbere osnovno karto za primerjavo.",
   "src": "libretranslate",
@@ -3353,6 +3557,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Compared as one tiled layer": {
+  "t": "V primerjavi z eno plastjo",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Comparing {title} on the left with the current basemap on the right. Drag the divider or use the slider.": {
   "t": "Primerjava {title} na levi s trenutno osnovno karto na desni. Povlecite razdelilnik ali pa uporabite drsnik.",
   "src": "libretranslate",
@@ -3365,17 +3575,53 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Comparison is on. Drag the map divider or use the slider.": {
+  "t": "Primerjava se začenja. Povlecite razdelilnik kart ali pa uporabite drsnik.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comparison reset. Default selections and map visibility restored.": {
+  "t": "Ponastavitev primerjave. Privzete izbire in vidnost zemljevida obnovljena.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comparison sides swapped.": {
+  "t": "Primerjalne strani so se zamenjale.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comparison stopped. The map visibility has been restored.": {
+  "t": "Primerjava se je končala. Vidnost zemljevida je obnovljena.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Comparison:": {
   "t": "Primerjava:",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Configuration": {
+  "t": "Nastavitve",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Configuration imported successfully!": {
   "t": "Nastavitve so bile uspešno uvožene!",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Configuration imported.": {
+  "t": "Uvožene nastavitve.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Configure Enhanced Locate": {
   "t": "Nastavi izboljšano lokacijo",
@@ -3445,6 +3691,12 @@
  },
  "Connect the Draw widget with other widgets in the application.": {
   "t": "Povežite gradnik Riši z drugimi gradniki v programu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Connect this widget to a Map widget in the builder settings.": {
+  "t": "Povežite ta gradnik z gradnikom v nastavitvah graditelja.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3755,6 +4007,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Country": {
+  "t": "Država",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Country Code(s)": {
   "t": "Oznaka(-e) države",
   "src": "libretranslate",
@@ -3805,6 +4063,12 @@
  },
  "Ctrl+Z undoes the last change and Ctrl+Y brings it back.": {
   "t": "Ctrl+Z razveljavi zadnjo spremembo in Ctrl+Y jo vrne.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Currency (USD)": {
+  "t": "Valuta (USD)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3971,6 +4235,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Cycling through popup results does not change the map extent or scale. The map moves only when the user selects the popup Zoom To action.": {
+  "t": "Kolesarjenje skozi pojavne rezultate ne spremeni obsega zemljevida ali lestvice. Zemljevid se premakne šele, ko uporabnik izbere pojavno povečavo Za dejanje.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Dark": {
   "t": "Temno",
   "src": "libretranslate",
@@ -3982,6 +4252,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Date": {
+  "t": "Datum",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Date and time": {
+  "t": "Datum in čas",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Dates come in empty or wrong: the date text is not in the form the widget expected. On that rule choose dateParse and fill in Input date format, for example MM/DD/YYYY.": {
   "t": "Datumi so prazni ali napačni: besedilo datuma ni v obliki pričakovanega gradnika. Na to pravilo izberite datumObrnite in izpolnite vnosno obliko datuma, na primer MM/DD/LLLL.",
@@ -4469,6 +4751,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Dismiss the hint": {
+  "t": "Zavrni namig",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Dismiss this hint": {
   "t": "Odstrani ta namig",
   "src": "libretranslate",
@@ -4513,6 +4801,12 @@
  },
  "Distance:": {
   "t": "Oddaljenost:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Divider position": {
+  "t": "Delniška pozicija",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4639,6 +4933,12 @@
  },
  "Drag mode active. Move your mouse and click to place the label at a new position.": {
   "t": "Način vlečenja aktiven. Premakni miško in klikni na novo mesto.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Drag the divider on the map, or use the Divider position slider in this panel.": {
+  "t": "Povlecite razdelilnik na karto ali pa uporabite drsnik položaja Diver v tej plošči.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5134,6 +5434,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Each side has its own checkbox. Check both boxes to show the same layer on both sides.": {
+  "t": "Vsaka stran ima svojo potrditveno polje. Preverite obe škatli, da prikažete enako plast na obeh straneh.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Easting (X):": {
   "t": "Vzhodna (X):",
@@ -5645,6 +5951,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Error loading layers from map": {
+  "t": "Napaka pri nalaganju plasti z zemljevida",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Error: {errorMsg}": {
   "t": "Napaka: {errorMsg}",
   "src": "libretranslate",
@@ -5731,6 +6043,12 @@
  },
  "Existing Drawings Found": {
   "t": "Najdene obstoječe risbe",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Expand {layer}": {
+  "t": "Razširi {layer}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5902,6 +6220,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Export configuration (XML)": {
+  "t": "Izvozi nastavitve (XML)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Export drawings to file": {
   "t": "Izvozi risbe v datoteko",
@@ -6077,6 +6401,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Feature Identify version {version}": {
+  "t": "Različica za opredelitev funkcije {version}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "feature selected": {
   "t": "Izbrana funkcija",
   "src": "libretranslate",
@@ -6226,6 +6556,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Filter map layers": {
+  "t": "Filtriraj plasti zemljevida",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Filter measurements by name or type": {
   "t": "Meritve filtra po imenu ali vrsti",
@@ -6623,8 +6959,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Full name or business name": {
+  "t": "Polno ime ali naziv podjetja",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Full URL to a queryable layer endpoint ending in a layer number. Use the public address that goes through your Web Adaptor, not a direct ArcGIS Server port.": {
   "t": "Celoten URL do iskane plasti končne točke, ki se konča v številki sloja. Uporabite javni naslov, ki gre skozi vaš spletni adapter, ne pa neposredna vrata strežnika ArcGIS.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Generate printable mailing labels from map layer data": {
+  "t": "Ustvari tiskane poštne nalepke iz podatkov o plasteh zemljevida",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7181,6 +7529,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Hex color for the selected feature outline. Polygon fill remains transparent.": {
+  "t": "Barva hex za izbrani obris funkcije. Polnilni poligon ostaja prozoren.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Hidden fields": {
   "t": "Skrita polja",
   "src": "libretranslate",
@@ -7243,6 +7597,18 @@
  },
  "Hide measurements for {name}": {
   "t": "Skrij meritve za {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Highlight outline color": {
+  "t": "Barva obrisa poudarjanja",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Highlight selected popup feature": {
+  "t": "Poudari izbrano pojavno funkcijo",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7403,6 +7769,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Import configuration (XML)": {
+  "t": "Uvozi nastavitve (XML)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Import Drawings": {
   "t": "Uvozi risbe",
   "src": "libretranslate",
@@ -7417,6 +7789,12 @@
  },
  "Import failed": {
   "t": "Uvoz ni uspel",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import failed. Check that the file is a Feature Identify configuration XML.": {
+  "t": "Uvoz ni uspel. Preverite, da je datoteka nastavitev za določanje lastnosti XML.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7469,6 +7847,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "In the layer list, check the layers you want under each side. You can choose several layers.": {
+  "t": "Na seznamu slojev preverite sloje, ki jih želite pod vsako stranjo. Lahko izberete več plasti.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "In the map popup": {
   "t": "V pojavni mapi",
   "src": "libretranslate",
@@ -7483,6 +7867,18 @@
  },
  "In View": {
   "t": "V pogledu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include": {
+  "t": "Vključi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include {layer} in Layer Compare": {
+  "t": "Vključi {layer} v primerjavi plasti",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7612,6 +8008,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Integer": {
+  "t": "Celo število",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Integrations": {
   "t": "Vključevanje",
@@ -7822,6 +8224,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Keeps layers that were visible before the comparison. The selected layers still follow their side checkboxes.": {
+  "t": "Ohranja plasti, ki so bile vidne pred primerjavo. Izbrani sloji še vedno sledijo svojim stranskim potrditvenim poljem.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Key field": {
   "t": "Ključno polje",
@@ -8057,6 +8465,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Layer Compare": {
+  "t": "Primerjava plasti",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layer Compare shows your chosen map layers on different sides of a movable divider.": {
+  "t": "Primerjava plasti prikazuje izbrane plasti zemljevida na različnih straneh premičnega delilnika.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layer Information": {
+  "t": "Podatki o plasti",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Layer name (used as the data source label)": {
   "t": "Ime plasti (uporablja se kot oznaka vira podatkov)",
   "src": "libretranslate",
@@ -8077,6 +8503,12 @@
  },
  "Layer title and visibility options": {
   "t": "Naslov plasti in možnosti vidnosti",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layers": {
+  "t": "Plasti",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8110,6 +8542,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Left / right": {
+  "t": "Levo/desno",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Length": {
   "t": "Dolžina",
@@ -8233,6 +8671,24 @@
  },
  "Lines and areas finish on a double-click. A point or a rectangle finishes on its own.": {
   "t": "Črte in območja končajo z dvojnim klikom. Točka ali pravokotnik se konča sama.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Link": {
+  "t": "Povezava",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Link display text": {
+  "t": "Besedilo prikaza povezave",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Link text (optional)": {
+  "t": "Besedilo povezave (neobvezno)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8368,6 +8824,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Loading map layers...": {
+  "t": "Nalaganje plasti zemljevida...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Loading measurement tools...": {
   "t": "Nalaganje merilnih orodij...",
@@ -8525,6 +8987,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Mailing Label Generator": {
+  "t": "Generator poštnih oznak",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Mailing Labels": {
   "t": "Poštne oznake",
   "src": "libretranslate",
@@ -8633,6 +9101,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Map Address Fields": {
+  "t": "Naslovna polja",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map coordinate unit": {
   "t": "Koordinatna enota zemljevida",
   "src": "libretranslate",
@@ -8668,6 +9142,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Map image services can be expanded so you can compare their individual sublayers. A cached tiled layer is compared as one complete layer.": {
+  "t": "Storitve s slikami zemljevidov se lahko razširijo tako, da lahko primerjate njihove posamezne podsloje. Skrivna plast se primerja z eno popolno plastjo.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Map layer": {
   "t": "Plast zemljevida",
@@ -8725,6 +9205,12 @@
  },
  "Map X and Y": {
   "t": "Zemljevid X in Y",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map your data fields to address components:": {
+  "t": "Zemljevid podatkovnih polj za naslov komponent:",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9077,6 +9563,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Messages": {
+  "t": "Sporočila",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Meters": {
   "t": "Merilniki",
   "src": "libretranslate",
@@ -9220,6 +9712,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Moving the divider": {
+  "t": "Premikanje delilnika",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "MPt": {
   "t": "MPt",
@@ -9395,6 +9893,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No available layers. Check the map and the widget settings.": {
+  "t": "Ni razpoložljivih plasti. Preverite zemljevid in nastavitve gradnikov.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No Background Color": {
   "t": "Brez barve ozadja",
   "src": "libretranslate",
@@ -9491,6 +9995,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No feature layers available in the selected map": {
+  "t": "Na izbrani karti ni na voljo nobenih plasti funkcije",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No feature layers on the map to style yet.": {
   "t": "Na zemljevidu še ni slojev za slog.",
   "src": "libretranslate",
@@ -9538,6 +10048,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "No layers match that filter.": {
+  "t": "Nobena plast se ne ujema s tem filtrom.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "No map connected: this widget has not been linked to a map. Ask the GIS Division to connect it in the widget settings.": {
   "t": "Ni povezan zemljevid: ta gradnik ni bil povezan z zemljevidom. Vprašajte oddelek GIS, da ga povežete v nastavitvah widget.",
@@ -9616,6 +10132,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "No result message": {
+  "t": "Ni sporočila o rezultatu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "No results": {
   "t": "Ni rezultatov",
@@ -9773,6 +10295,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Notify other widgets of the selected result": {
+  "t": "Obvesti druge gradnike izbranega rezultata",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Noto Sans": {
   "t": "Noto Sans",
   "src": "libretranslate",
@@ -9802,6 +10330,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Number": {
+  "t": "Številka",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Number of decimal places for area and perimeter measurements, minimum 0, maximum 10": {
   "t": "Število decimalnih mest za meritve površine in območja, najmanj 0, največ 10",
@@ -10157,6 +10691,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Outline width (px)": {
+  "t": "Širina črte (px)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Outline-only disabled{count}": {
   "t": "Outline-le onemogočen{count}",
   "src": "libretranslate",
@@ -10174,6 +10714,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Outside the current map scale": {
+  "t": "Zunaj trenutne lestvice zemljevida",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "outside this coordinate system's area": {
   "t": "zunaj območja tega koordinatnega sistema",
@@ -10223,11 +10769,23 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Percent": {
+  "t": "Odstotek",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Percent symbol - opacity is measured as a percentage": {
   "t": "Odstotni simbol - motnost se meri v odstotkih",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Performance": {
+  "t": "Uspešnost",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Perimeter": {
   "t": "Območje",
@@ -10583,6 +11141,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Preparing comparison...": {
+  "t": "Priprava primerjave...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Preset Circle Size": {
   "t": "Prednastavljena velikost kroga",
   "src": "libretranslate",
@@ -10751,6 +11315,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Publishes a records-selection-changed message when a result is selected, so widgets such as Table or Property Report can respond to the identify click.": {
+  "t": "Publishes zapis-selection-sprememba sporočila, ko je izbran rezultat, tako da widgets, kot so tabela ali poročilo nepremičnine, lahko odgovori na klik identificiranja.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Radius": {
   "t": "Polmer",
   "src": "libretranslate",
@@ -10841,6 +11411,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Recipient Name": {
+  "t": "Ime prejemnika",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Record {objectId} · source row {objectId2}": {
   "t": "Zapis {objectId} · izvorna vrstica {objectId2}",
   "src": "libretranslate",
@@ -10858,6 +11434,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Records: {count}": {
+  "t": "Zapisi: {count}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Rect": {
   "t": "Rekt",
@@ -10903,6 +11485,12 @@
  },
  "Redo drawing action - no actions to redo": {
   "t": "Ponovno risanje ukrepov – brez ukrepov za ponovno vzpostavitev",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Refresh layers": {
+  "t": "Osveži plasti",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11075,6 +11663,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Reset": {
+  "t": "Ponastavi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Reset Default Area Units": {
   "t": "Ponastavi privzete območne enote",
   "src": "libretranslate",
@@ -11110,6 +11704,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Reset stops comparison, restores the default selections, and resets the divider position and direction.": {
+  "t": "Ponastavi primerjavo ustavi, obnovi privzete izbire in ponastavi položaj delilnika in smer.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Reset the label to its default calculated position based on the geometry centroid": {
   "t": "Ponastavi nalepko na privzeti izračunani položaj na podlagi geometričnega centroida",
@@ -11176,6 +11776,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Returning to the map": {
+  "t": "Vrnitev na zemljevid",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reuse results for repeated clicks (seconds)": {
+  "t": "Ponovno uporabite rezultate za ponavljajoče klike (sekunde)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Reverse": {
   "t": "Nazaj",
@@ -11320,6 +11932,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Round($feature.Acres, 2) + \" acres\"": {
+  "t": "Round($obraz. Acres, 2) + \"akrov\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Row label, or blank for full popup content": {
+  "t": "Oznaka vrstice ali prazno za celotno pojavno vsebino",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Rows to include": {
   "t": "Vrstice za vključitev",
@@ -11477,6 +12101,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Search the guide (try \"layers\" or \"slider\")": {
+  "t": "Preiščite vodnik (poskusite \"layers\" ali \"slider\")",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Search the guide (try \"load\" or \"fields\")": {
   "t": "Iskanje vodnik (poskusite \"naloži\" ali \"polja\")",
   "src": "libretranslate",
@@ -11567,6 +12197,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Select a layer...": {
+  "t": "Izberite plast...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select a Map": {
   "t": "Izberite zemljevid",
   "src": "libretranslate",
@@ -11633,6 +12269,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Select at least one layer on either side to begin.": {
+  "t": "Za začetek izberite vsaj eno plast na vsaki strani.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select by:": {
   "t": "Izberi za:",
   "src": "libretranslate",
@@ -11644,6 +12286,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Select Data Layer": {
+  "t": "Izberite plast podatkov",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Select Draw Mode": {
   "t": "Izberite način risanja",
@@ -11680,6 +12328,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Select field for {fieldType}...": {
+  "t": "Izberite polje za {fieldType}...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Select font color for the measurement label text": {
   "t": "Izberite barvo pisave za besedilo oznake za merjenje",
@@ -11725,6 +12379,12 @@
  },
  "Select multiple measurements": {
   "t": "Izberite več meritev",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select Start comparison. Give the map a moment to redraw.": {
+  "t": "Izberite začetno primerjavo. Dajte zemljevid za trenutek, da ga prečrtate.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11807,6 +12467,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "selected": {
+  "t": "izbrano",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Selected Basemaps": {
   "t": "Izbrane osnovne karte",
   "src": "libretranslate",
@@ -11815,6 +12481,12 @@
  },
  "Selected Layer": {
   "t": "Izbrana plast",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Selection": {
+  "t": "Izbira",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11927,6 +12599,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Shared map layers": {
+  "t": "Skupne plasti zemljevida",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show {label} ({abbreviation})": {
   "t": "Prikaži {label} ({abbreviation})",
   "src": "libretranslate",
@@ -12013,6 +12691,12 @@
  },
  "Show Copy Coordinates Button": {
   "t": "Prikaži gumb Kopiraj koordinate",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show diagnostic overlay": {
+  "t": "Prikaži diagnostično prekrivanje",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12130,6 +12814,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Show other visible layers on both sides": {
+  "t": "Prikaži druge vidne plasti na obeh straneh",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show other visible layers on both sides keeps the other layers that were visible before you started.": {
+  "t": "Prikaži druge vidne plasti na obeh straneh ohranja druge plasti, ki so bile vidne pred začetkom.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Show Pictometry Button": {
   "t": "Prikaži gumb za piktometrijo",
@@ -12256,6 +12952,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Shows a live event log at the bottom of the screen on every device, with a Copy button. Turn on only while troubleshooting, then turn back off. The overlay can also be enabled per-session by adding fi_debug=1 to the app URL.": {
+  "t": "Prikazuje dnevnik dogodkov v živo na dnu zaslona na vsaki napravi, z gumbom Kopiraj. Vklopite samo med reševanjem težav, nato pa nazaj. Prekrivnost se lahko omogoči tudi na sejo z dodajanjem fi debuga=1 na URL aplikacije.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Shows the question-mark button that opens the in-widget help guide, and the first-run hint.": {
   "t": "Prikaže gumb z znakom za vprašanja, ki odpre navodila za pomoč in widget, in namig za prvo vožnjo.",
@@ -12545,6 +13247,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Start comparison": {
+  "t": "Začetek primerjave",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Start here: three steps": {
   "t": "Začnite tukaj: trije koraki",
   "src": "libretranslate",
@@ -12556,6 +13264,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "State, province, or region": {
+  "t": "Država, provinca ali regija",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "State/Province": {
+  "t": "Država/provinca",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Status: Drag mode is active. Move mouse and click to place the label.": {
   "t": "Stanje: Način vlečenja je aktiven. Premakni miško in klikni za namestitev oznake.",
@@ -12617,8 +13337,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Still stuck? Contact the GIS Division and mention the Layer Compare name and this app.": {
+  "t": "Še vedno obtičal? Kontaktirajte oddelek GIS in omenite ime Layer Compare in to aplikacijo.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Still stuck? Contact your GIS team and mention the Draw Advanced widget and this app.": {
   "t": "Še vedno obtičal? Kontaktirajte svojo ekipo GIS in omenite gradnik Draw Advanced in to aplikacijo.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Stop comparison": {
+  "t": "Ustavi primerjavo",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Stop comparison removes the divider and restores the map visibility. Your side selections stay ready for the next comparison.": {
+  "t": "Ustavi primerjavo odstrani delilnik in obnovi vidljivost zemljevida. Vaši stranski izbori ostanejo pripravljeni za naslednjo primerjavo.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12659,6 +13397,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Street address or P.O. Box": {
+  "t": "Ulični naslov ali poštni predal",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Style editor": {
   "t": "Urejevalnik slogov",
   "src": "libretranslate",
@@ -12671,6 +13415,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Suffix": {
+  "t": "Pripona",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Summary Statistics": {
   "t": "Povzetek statistike",
   "src": "libretranslate",
@@ -12682,6 +13432,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Swap sides": {
+  "t": "Zamenjaj strani",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Swipe": {
   "t": "Swipe",
@@ -13007,6 +13763,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The box above the list filters layer names. Filtering the list does not remove your selections.": {
+  "t": "Okence nad seznamom filtrov plast imena. Filtriranje seznama ne odstrani vaše izbire.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The buttons are grey until you click the map. Once a pin is placed they turn blue and can be clicked.": {
   "t": "Gumbi so sivi, dokler ne kliknete na zemljevid. Ko je zaponka postavljena, postane modra in se lahko klikne.",
   "src": "libretranslate",
@@ -13042,6 +13804,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The comparison could not be prepared. Check the selected layers and try again.": {
+  "t": "Primerjava ni bila pripravljena. Izberite izbrane plasti in poskusite znova.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The comparison stopped after adding or removing a layer: the map changed. Review the layer list and select Start comparison again.": {
+  "t": "Primerjava se je ustavila po dodajanju ali odstranjevanju plasti: zemljevid se je spremenil. Pregled seznama slojev in ponovno izberite Začni primerjavo.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The configured layer did not respond in time.": {
   "t": "Nastavljena plast se ni odzvala pravočasno.",
@@ -13253,6 +14027,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The map layers changed. Comparison stopped; review your selections and start again.": {
+  "t": "Karte so se spremenile. Primerjava se je ustavila; preverite svoje izbire in začnite znova.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The map layers could not be read. Check the connected map, then refresh the layers.": {
+  "t": "Plasti zemljevida niso mogli brati. Preverite povezano karto in osvežite plasti.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The map moves to fit the points when geocoding finishes.": {
   "t": "Zemljevid se premika, da bi ustrezal točkam, ko se geokodiranje konča.",
   "src": "libretranslate",
@@ -13366,6 +14152,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The slider moves the same divider as the handle on the map. Use the arrow keys on the slider for a precise adjustment.": {
+  "t": "Drsnik premika isti delilnik kot ročaj na zemljevidu. Uporabite puščične tipke na drsniku za natančno nastavitev.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The small badge on a card counts the legs or edges in that measurement.": {
   "t": "Majhna značka na kartici šteje noge ali robove pri tej meritvi.",
@@ -13573,6 +14365,18 @@
  },
  "This is not a valid URL.": {
   "t": "To ni veljaven URL.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "This layer could not load. Check its service or sign-in.": {
+  "t": "Ta plast ni mogla naložiti. Preverite njegovo storitev ali prijavo.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "This layer type is not available for 2D comparison.": {
+  "t": "Ta tip plasti ni na voljo za 2D primerjavo.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13895,6 +14699,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Top": {
+  "t": "Zgoraj",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Top / bottom": {
+  "t": "Zgoraj/na dnu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Top Alignment (Current). Position text at the top.": {
   "t": "Zgornja poravnava (Trenutno). Pozicioniraj besedilo na vrhu.",
   "src": "libretranslate",
@@ -14003,6 +14819,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Troubleshooting": {
+  "t": "Odpravljanje težav",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "True-curve line tools (arc, endpoint arc, bézier)": {
   "t": "Orodje za pravokotne linije (arc, končni lok, bézier)",
   "src": "libretranslate",
@@ -14089,6 +14911,12 @@
  },
  "Type to filter drawings by name or type": {
   "t": "Tip za filtriranje risb po imenu ali tipu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Type: {type}": {
+  "t": "Vrsta: {type}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14453,6 +15281,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Use a label for a scalar row expression. Leave the label blank when the Arcade returns a full Popup Element dictionary, such as { type: 'text', text: content }. Full popup expressions replace the automatically generated attribute rows.": {
+  "t": "Uporabite oznako za izraz skalarne vrstice. Označbo pusti prazno, ko Arcade vrne slovar polnega elementa pojavne vrstice, kot je { vrsta: 'besedilo', besedilo: vsebina }. Polni pojavni izrazi nadomestijo samodejno ustvarjene atributne vrstice.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Use ctrl+c or right-click to copy to the clipboard.": {
   "t": "Uporabite ctrl+c ali desni klik za kopiranje na odložišče.",
   "src": "libretranslate",
@@ -14500,6 +15334,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Use the checkboxes in Layer Compare while comparing. To apply filter or style changes made elsewhere, stop and start the comparison again.": {
+  "t": "Med primerjanjem uporabite potrditvena polja v Layer Compare. Če želite uporabiti filter ali slog spremembe, ki drugje, ustaviti in začeti primerjavo znova.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Use the Copy Lat/Lon button above or press Control+C to copy the coordinates.": {
   "t": "Uporabite zgornji gumb Copy Lat/Lon ali pritisnite Control+C za kopiranje koordinat.",
@@ -14573,6 +15413,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Values beginning with http or https render as a hyperlink using this text unless a format rule says otherwise.": {
+  "t": "Vrednosti, ki se začnejo s http ali https, se prevajajo kot hiperpovezava z uporabo tega besedila, razen če pravilo formata ne določa drugače.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Version 1, 2, and 3 XML files are importable. Older files are converted into per-layer settings on import.": {
+  "t": "Verzija 1, 2 in 3 datoteke XML so uvožene. Starejše datoteke se ob uvozu pretvorijo v nastavitve na plast.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Vertical alignment set to {newAlign}": {
   "t": "Navpična poravnava {newAlign}",
   "src": "libretranslate",
@@ -14635,6 +15487,12 @@
  },
  "View/Edit notes (has notes)": {
   "t": "Prikaži/Uredi opombe (ima opombe)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Visible: {visible}": {
+  "t": "Vidno: {visible}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15017,11 +15875,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "You can still pan and zoom the map while comparison is on.": {
+  "t": "Medtem ko je primerjava vključena, lahko zemljevid še vedno spreminjate in povečate.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "You have drawings saved from a previous session.": {
   "t": "Imate risbe shranjene iz prejšnje seje.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Your basemap, map extent, and layer data stay the same. The comparison uses temporary layer copies.": {
+  "t": "Vaš bazni zemljevid, obseg zemljevida in podatki o plasteh ostajajo enaki. Primerjava uporablja začasne plastne kopije.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Your drawings are saved in your web browser using local storage. This means they're only available on this device and in this browser.": {
   "t": "Vaše risbe so shranjene v vašem spletnem brskalniku z uporabo krajevnega shranjevanja. To pomeni, da so na voljo samo na tej napravi in v tem brskalniku.",
@@ -15047,6 +15917,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Your selections apply only in this open app. They are not saved to the web map.": {
+  "t": "Vaše izbire veljajo samo v tej odprti aplikaciji. Niso shranjene na spletnem zemljevidu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Your Text Here": {
   "t": "Vaše besedilo tukaj",
   "src": "libretranslate",
@@ -15058,6 +15934,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "ZIP code or postal code": {
+  "t": "Koda ZIP ali poštna koda",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "ZIP/Postal Code": {
+  "t": "ZIP/Poštna koda",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Zoom": {
   "t": "Povečava",

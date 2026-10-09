@@ -23,6 +23,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "-- Select Field --": {
+  "t": "-- Sélectionner le champ --",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "— Select a widget —": {
   "t": "— Sélectionner un widget —",
   "src": "libretranslate",
@@ -77,6 +83,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "\"Parcel \" + $feature.PARCEL_NUM": {
+  "t": "\"Parcel\" + $feature. PARCEL NUM",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "(Default)": {
   "t": "(Défaut)",
   "src": "libretranslate",
@@ -100,6 +112,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "(Optional)": {
+  "t": "(facultatif)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "(Required)": {
+  "t": "(Requis)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "(select column)": {
   "t": "(choisir la colonne)",
@@ -169,6 +193,12 @@
  },
  "{count} records": {
   "t": "{count} Enregistrements",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{count} records match current criteria": {
+  "t": "{count} les enregistrements correspondent aux critères actuels",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -347,6 +377,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{layer}: show on {side}": {
+  "t": "{layer}: montrer {side}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{loadedCount} basemap loaded.{failedNote} Use arrow keys to navigate, Enter or Space to select.": {
   "t": "{loadedCount} Carte de base chargée.{failedNote} Utilisez les touches fléchées pour naviguer, Entrée ou Espace pour sélectionner.",
   "src": "libretranslate",
@@ -487,6 +523,12 @@
  },
  "{selectedIdsCount} selected": {
   "t": "{selectedIdsCount} sélectionné",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{side} selections cleared.": {
+  "t": "{side} sélections annulées.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -701,6 +743,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A layer is missing: it may be outside the current map scale. Zoom in or out, and check the note beneath its name.": {
+  "t": "Il manque une couche : elle peut être en dehors de l'échelle de la carte actuelle. Zoomez ou sortez, et vérifiez la note sous son nom.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer is unavailable: its service may be offline, it may require sign-in, or its layer type may not work in a 2D map. Check that layer in the map.": {
+  "t": "Un calque n'est pas disponible : son service peut être hors ligne, il peut nécessiter une connexion, ou son type de calque peut ne pas fonctionner sur une carte 2D. Vérifiez cette couche dans la carte.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A layer you expected is missing from the results: that layer is turned off in the map. Turn it back on in the layer list and click again.": {
   "t": "Un calque que vous attendez est absent des résultats : ce calque est désactivé dans la carte. Remettre en marche dans la liste des calques et cliquer à nouveau.",
   "src": "libretranslate",
@@ -743,11 +797,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A repeat click at the same place at the same scale is answered from memory for this many seconds instead of re-querying the service. 0 disables.": {
+  "t": "Un clic répété au même endroit à la même échelle est répondu à partir de la mémoire pendant ces nombreuses secondes au lieu de récupérer le service. 0 est désactivé.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A rule says which field from your data fills which field in the layer.": {
   "t": "Une règle indique quel champ de vos données remplit quel champ dans la couche.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "A side with no selected layers shows the basemap and any shared map layers. You can use this to compare a layer with the basemap.": {
+  "t": "Un côté sans calques sélectionnés montre la carte de base et les calques partagés. Vous pouvez l'utiliser pour comparer un calque avec la carte de base.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "A spreadsheet of your rows with MATCH_STATUS, MATCH_SCORE, the address you sent, the address the locator matched, the address type, a plain reason for every row that did not match, and coordinates for every row that did. Open it in Excel and filter on MATCH_STATUS.": {
   "t": "Un tableur de vos lignes avec MATCH STATUS, MATCH SCORE, l'adresse que vous avez envoyée, l'adresse du localisateur, le type d'adresse, une raison claire pour chaque ligne qui ne correspond pas, et les coordonnées pour chaque ligne qui a fait. Ouvrez-le en Excel et filtrez sur MATCH STATUS.",
@@ -1109,6 +1175,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Address Line 1": {
+  "t": "Adresse Ligne 1",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address Line 2": {
+  "t": "Ligne d'adresse 2",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Address mapping mode": {
   "t": "Mode de cartographie des adresses",
   "src": "libretranslate",
@@ -1144,6 +1222,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Adjust divider position: {position} percent": {
+  "t": "Régler la position du diviseur: {position} Pourcentage",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Adjust the distance between grid lines. Smaller values create a finer grid, larger values create a coarser grid. Range is 10 to 200 pixels.": {
   "t": "Régler la distance entre les lignes de grille. Des valeurs plus petites créent une grille plus fine, des valeurs plus grandes créent une grille plus grossière. La plage est de 10 à 200 pixels.",
@@ -1547,11 +1631,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Another Layer Compare is using this map. Stop that comparison first.": {
+  "t": "Un autre Layer Compare utilise cette carte. Arrêtez d'abord cette comparaison.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Any reason ({failuresCount})": {
   "t": "Aucune raison ({failuresCount})",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Apartment, suite, unit, etc. (optional)": {
+  "t": "Appartement, suite, unité, etc. (facultatif)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "API key / token (optional)": {
   "t": "Clé API / jeton (facultatif)",
@@ -1901,6 +1997,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Basemap only": {
+  "t": "Carte de base seulement",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Basemap selection gallery - grid view": {
   "t": "Galerie de sélection de cartes de base - vue grille",
   "src": "libretranslate",
@@ -2099,6 +2201,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Bottom": {
+  "t": "Bas",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Bottom Alignment (Current). Position text at the bottom.": {
   "t": "Alignement inférieur (actuel). Positionnez le texte en bas.",
   "src": "libretranslate",
@@ -2255,6 +2363,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Business or organization name (optional)": {
+  "t": "Nom de l'entreprise ou de l'organisation (facultatif)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Button Visibility": {
   "t": "Visibilité du bouton",
   "src": "libretranslate",
@@ -2381,6 +2495,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Center divider": {
+  "t": "diviseur central",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Center divider puts the divider back in the middle. Swap sides exchanges the two layer selections.": {
+  "t": "Le diviseur central remet le diviseur au milieu. Les côtés swap échangent les sélections de deux couches.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Change Area Units": {
   "t": "Unités de zone de changement",
   "src": "libretranslate",
@@ -2441,6 +2567,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Check a group to select all its available layers. Use the arrow beside its name to choose individual layers.": {
+  "t": "Vérifiez un groupe pour sélectionner tous ses calques disponibles. Utilisez la flèche à côté de son nom pour choisir des calques individuels.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Check a layer under either side. Checking both sides shows it on both. Checking a group selects its available layers.": {
+  "t": "Vérifiez une couche sous chaque côté. Vérifier les deux côtés montre sur les deux. La vérification d'un groupe sélectionne ses calques disponibles.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Check data": {
   "t": "Vérifier les données",
   "src": "libretranslate",
@@ -2488,6 +2626,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Choose a 2D map. Layer Compare is not available in a 3D scene.": {
+  "t": "Choisissez une carte 2D. Calque Comparer n'est pas disponible dans une scène 3D.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Choose a background map": {
   "t": "Choisissez une carte de fond",
@@ -2543,6 +2687,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Choose a layer:": {
+  "t": "Choisissez un calque :",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Choose a previously exported .xml file.": {
   "t": "Choisissez un fichier .xml précédemment exporté.",
   "src": "libretranslate",
@@ -2575,6 +2725,24 @@
  },
  "Choose horizontal alignment for text. Options are left, center, or right. Currently set to {horizontalAlignment}.": {
   "t": "Choisissez l'alignement horizontal pour le texte. Les options sont à gauche, au centre ou à droite. Actuellement réglé sur {horizontalAlignment}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose layers for each comparison side": {
+  "t": "Choisir des couches pour chaque côté de comparaison",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose layers for each side, select Start comparison, then drag the divider on the map.": {
+  "t": "Choisissez des calques pour chaque côté, sélectionnez Démarrer la comparaison, puis faites glisser le diviseur sur la carte.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose layers for each side, then drag the map divider to compare them.": {
+  "t": "Choisissez des calques pour chaque côté, puis faites glisser le diviseur de carte pour les comparer.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2633,6 +2801,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Choosing layers": {
+  "t": "Choix des couches",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Circle": {
   "t": "Cercle",
   "src": "libretranslate",
@@ -2675,6 +2849,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "City": {
+  "t": "Ville",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "City or town name": {
+  "t": "Nom de la ville",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Clean addresses win. Take out apartment numbers and notes like \"behind the school\" before you start.": {
   "t": "Les adresses propres gagnent. Prenez les numéros d'appartement et les notes comme \"derrière l'école\" avant de commencer.",
   "src": "libretranslate",
@@ -2686,6 +2872,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Clear {side}": {
+  "t": "Effacer {side}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Clear all": {
   "t": "Tout effacer",
@@ -3245,11 +3437,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Closing the widget, changing the map, or leaving the app also stops comparison.": {
+  "t": "Fermer le widget, changer la carte ou laisser l'application arrête également la comparaison.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Cmd": {
   "t": "Cmd",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Collapse {layer}": {
+  "t": "Effacement {layer}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Collapse {name}": {
   "t": "Effacement {name}",
@@ -3323,6 +3527,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Company/Organization": {
+  "t": "Société/Organisation",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Compare": {
   "t": "Comparer",
   "src": "libretranslate",
@@ -3346,6 +3556,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Compare direction": {
+  "t": "Comparer la direction",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Compare direction changes between Left / right and Top / bottom.": {
+  "t": "Comparer les changements de direction entre gauche / droite et haut / bas.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Compare is on in {compareBlendMode} mode: Enter or Space chooses the basemap to compare.": {
   "t": "Comparer est en {compareBlendMode} mode : Entrée ou espace choisit la carte de base à comparer.",
@@ -3377,6 +3599,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Compared as one tiled layer": {
+  "t": "Comparé à une couche carrelée",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Comparing {title} on the left with the current basemap on the right. Drag the divider or use the slider.": {
   "t": "Comparaison {title} à gauche avec la carte de base actuelle à droite. Faites glisser le diviseur ou utilisez le curseur.",
   "src": "libretranslate",
@@ -3389,17 +3617,53 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Comparison is on. Drag the map divider or use the slider.": {
+  "t": "La comparaison est en cours. Faites glisser le diviseur de carte ou utilisez le curseur.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comparison reset. Default selections and map visibility restored.": {
+  "t": "Réinitialisation de la comparaison. Sélections par défaut et visibilité de la carte restaurée.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comparison sides swapped.": {
+  "t": "Comparaison des côtés échangés.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comparison stopped. The map visibility has been restored.": {
+  "t": "La comparaison a cessé. La visibilité de la carte a été rétablie.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Comparison:": {
   "t": "Comparaison :",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Configuration": {
+  "t": "Configuration",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Configuration imported successfully!": {
   "t": "Configuration importée avec succès!",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Configuration imported.": {
+  "t": "Configuration importée.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Configure Enhanced Locate": {
   "t": "Configurer la localisation améliorée",
@@ -3469,6 +3733,12 @@
  },
  "Connect the Draw widget with other widgets in the application.": {
   "t": "Connectez le widget Draw avec d'autres widgets de l'application.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Connect this widget to a Map widget in the builder settings.": {
+  "t": "Connectez ce widget à un widget Map dans les paramètres du constructeur.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3779,8 +4049,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Country": {
+  "t": "Pays",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Country Code(s)": {
   "t": "Code(s) de pays",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Country name (optional)": {
+  "t": "Nom du pays (facultatif)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4517,6 +4799,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Dismiss the hint": {
+  "t": "Rejeter l'indice",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Dismiss this hint": {
   "t": "Rejeter cette allusion",
   "src": "libretranslate",
@@ -4561,6 +4849,12 @@
  },
  "Distance:": {
   "t": "Distance:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Divider position": {
+  "t": "Position du diviseur",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4687,6 +4981,12 @@
  },
  "Drag mode active. Move your mouse and click to place the label at a new position.": {
   "t": "Mode Drag actif. Déplacez votre souris et cliquez pour placer l'étiquette à une nouvelle position.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Drag the divider on the map, or use the Divider position slider in this panel.": {
+  "t": "Faites glisser le diviseur sur la carte, ou utilisez le curseur de position du diviseur dans ce panneau.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5183,6 +5483,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Each side has its own checkbox. Check both boxes to show the same layer on both sides.": {
+  "t": "Chaque côté a sa propre case à cocher. Cochez les deux cases pour afficher le même calque des deux côtés.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Easting (X):": {
   "t": "Est (X):",
   "src": "libretranslate",
@@ -5320,6 +5626,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Either Name or Address Line 1 is required": {
+  "t": "Nom ou adresse La ligne 1 est requise",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Enable": {
   "t": "Activer",
@@ -5693,6 +6005,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Error loading layers from map": {
+  "t": "Erreur lors du chargement des calques de la carte",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Error: {errorMsg}": {
   "t": "Erreur : {errorMsg}",
   "src": "libretranslate",
@@ -5779,6 +6097,12 @@
  },
  "Existing Drawings Found": {
   "t": "Dessins existants trouvés",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Expand {layer}": {
+  "t": "Élargir {layer}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5950,6 +6274,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Export configuration (XML)": {
+  "t": "Configuration d'exportation (XML)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Export drawings to file": {
   "t": "Exporter les dessins au dossier",
@@ -6125,6 +6455,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Feature Identify version {version}": {
+  "t": "Caractéristique Identifier la version {version}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "feature selected": {
   "t": "fonctionnalité sélectionnée",
   "src": "libretranslate",
@@ -6274,6 +6610,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Filter map layers": {
+  "t": "Filtrer les couches de la carte",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Filter measurements by name or type": {
   "t": "Mesure des filtres par nom ou type",
@@ -6629,6 +6971,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Found {count} records in selected layer": {
+  "t": "Trouvé {count} enregistrement dans la couche sélectionnée",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Freehand Area": {
   "t": "Espace libre",
   "src": "libretranslate",
@@ -6671,8 +7019,32 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Full name or business name": {
+  "t": "Nom complet ou nom commercial",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Full URL to a queryable layer endpoint ending in a layer number. Use the public address that goes through your Web Adaptor, not a direct ArcGIS Server port.": {
   "t": "URL complète vers un paramètre de calque interrogeable se terminant par un numéro de calque. Utilisez l'adresse publique qui passe par votre adaptateur Web, pas un port ArcGIS Server direct.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Generate Labels": {
+  "t": "Générer des étiquettes",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Generate Mailing Labels": {
+  "t": "Générer des étiquettes d'envoi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Generate printable mailing labels from map layer data": {
+  "t": "Générer des étiquettes d'envoi imprimables à partir des données de la couche de carte",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6688,6 +7060,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Generating Labels...": {
+  "t": "Générer des étiquettes...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Generating PDF…": {
   "t": "Génération de PDF...",
@@ -7469,6 +7847,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Import configuration (XML)": {
+  "t": "Configuration d'importation (XML)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Import Drawings": {
   "t": "Importer les dessins",
   "src": "libretranslate",
@@ -7483,6 +7867,12 @@
  },
  "Import failed": {
   "t": "L'importation a échoué",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import failed. Check that the file is a Feature Identify configuration XML.": {
+  "t": "L'importation a échoué. Vérifiez que le fichier est une fonctionnalité Identifier la configuration XML.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7535,6 +7925,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "In the layer list, check the layers you want under each side. You can choose several layers.": {
+  "t": "Dans la liste des calques, vérifiez les calques que vous voulez sous chaque côté. Vous pouvez choisir plusieurs calques.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "In the map popup": {
   "t": "Dans la carte popup",
   "src": "libretranslate",
@@ -7549,6 +7945,18 @@
  },
  "In View": {
   "t": "En vue",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include": {
+  "t": "Inclure",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include {layer} in Layer Compare": {
+  "t": "Inclure {layer} dans la liste des calques",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7693,6 +8101,12 @@
  },
  "Invalid Conversion Factor": {
   "t": "Facteur de conversion non valide",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Invalid field mapping detected": {
+  "t": "Cartographie de terrain non valide détectée",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7894,6 +8308,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Keeps layers that were visible before the comparison. The selected layers still follow their side checkboxes.": {
+  "t": "Conserve les couches visibles avant la comparaison. Les calques sélectionnés suivent toujours leurs cases latérales.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Key field": {
   "t": "Domaine clé",
@@ -8129,6 +8549,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Layer Compare": {
+  "t": "Comparaison des calques",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layer Compare shows your chosen map layers on different sides of a movable divider.": {
+  "t": "Calque Comparer montre les calques choisis sur les différents côtés d'un diviseur mobile.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layer Information": {
+  "t": "Information sur le calque",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Layer name (used as the data source label)": {
   "t": "Nom du calque (utilisé comme étiquette source de données)",
   "src": "libretranslate",
@@ -8149,6 +8587,12 @@
  },
  "Layer title and visibility options": {
   "t": "Titre du calque et options de visibilité",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layers": {
+  "t": "Calque",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8182,6 +8626,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Left / right": {
+  "t": "Gauche/droite",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Length": {
   "t": "Longueur",
@@ -8311,6 +8761,12 @@
  },
  "Link": {
   "t": "Lien",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Link display text": {
+  "t": "Lien afficher le texte",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8452,6 +8908,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Loading map layers...": {
+  "t": "Chargement des couches de carte...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Loading measurement tools...": {
   "t": "Chargement des outils de mesure...",
@@ -8609,6 +9071,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Mailing Label Generator": {
+  "t": "Générateur d'étiquettes d'envoi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Mailing Labels": {
   "t": "Affichage des étiquettes",
   "src": "libretranslate",
@@ -8717,6 +9185,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Map Address Fields": {
+  "t": "Champs d'adresse de la carte",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map coordinate unit": {
   "t": "Unité de coordonnées cartographiques",
   "src": "libretranslate",
@@ -8752,6 +9226,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Map image services can be expanded so you can compare their individual sublayers. A cached tiled layer is compared as one complete layer.": {
+  "t": "Les services d'image de carte peuvent être élargis afin que vous puissiez comparer leurs sous-couches individuelles. Une couche carrelée est comparée à une couche complète.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Map layer": {
   "t": "Couche de carte",
@@ -8809,6 +9289,18 @@
  },
  "Map X and Y": {
   "t": "Carte X et Y",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map your data fields to address components:": {
+  "t": "Cartez vos champs de données pour adresser les composants:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Mapped": {
+  "t": "Cartographié",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9161,6 +9653,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Messages": {
+  "t": "Messages",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Meters": {
   "t": "Compteurs",
   "src": "libretranslate",
@@ -9304,6 +9802,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Moving the divider": {
+  "t": "Déplacement du diviseur",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "MPt": {
   "t": "MPT",
@@ -9479,6 +9983,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No available layers. Check the map and the widget settings.": {
+  "t": "Pas de couches disponibles. Vérifiez la carte et les paramètres du widget.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No Background Color": {
   "t": "Pas de couleur de fond",
   "src": "libretranslate",
@@ -9575,6 +10085,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No feature layers available in the selected map": {
+  "t": "Pas de calques de fonctionnalités disponibles dans la carte sélectionnée",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No feature layers on the map to style yet.": {
   "t": "Pas encore de calques sur la carte.",
   "src": "libretranslate",
@@ -9622,6 +10138,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "No layers match that filter.": {
+  "t": "Aucun calque ne correspond à ce filtre.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "No map connected: this widget has not been linked to a map. Ask the GIS Division to connect it in the widget settings.": {
   "t": "Pas de carte connectée : ce widget n'a pas été lié à une carte. Demandez à la Division SIG de la connecter dans les paramètres du widget.",
@@ -9700,6 +10222,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "No records found in selected layer": {
+  "t": "Aucun enregistrement trouvé dans le calque sélectionné",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No result message": {
+  "t": "Aucun message de résultat",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "No results": {
   "t": "Aucun résultat",
@@ -9784,6 +10318,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Not mapped": {
+  "t": "Non cartographié",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Not sure of the format? The blue text next to {example} is the middle of the map in that format, and it changes as you move the map. Click it to fill in the box, then change it.": {
   "t": "Pas sûr du format ? Le texte bleu à côté de {example} est le milieu de la carte dans ce format, et il change lorsque vous déplacez la carte. Cliquez dessus pour remplir la case, puis changez-la.",
@@ -10103,6 +10643,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Only the first {max} records will be processed": {
+  "t": "Seulement la première {max} les dossiers seront traités",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Only the first sheet of an Excel workbook is read, so put your addresses there.": {
   "t": "Seule la première feuille d'un cahier Excel est lue, alors mettez vos adresses là.",
   "src": "libretranslate",
@@ -10277,6 +10823,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Outside the current map scale": {
+  "t": "En dehors de l'échelle de carte actuelle",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "outside this coordinate system's area": {
   "t": "à l'extérieur de la zone du système de coordonnées",
   "src": "libretranslate",
@@ -10336,6 +10888,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Performance": {
+  "t": "Rendement",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Perimeter": {
   "t": "Périmètre",
@@ -10529,6 +11087,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Please select at least one address field": {
+  "t": "Veuillez sélectionner au moins un champ d'adresse",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Please wait, do not close this window...": {
   "t": "Veuillez patienter, ne fermez pas cette fenêtre...",
   "src": "libretranslate",
@@ -10687,6 +11251,12 @@
  },
  "Prefix": {
   "t": "Préfixe",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preparing comparison...": {
+  "t": "Préparer la comparaison...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10865,6 +11435,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Querying layer data...": {
+  "t": "Interroger les données des couches...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Radius": {
   "t": "Rayon",
   "src": "libretranslate",
@@ -10955,6 +11531,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Recipient Name": {
+  "t": "Nom du bénéficiaire",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Record {objectId} · source row {objectId2}": {
   "t": "Enregistrement {objectId} · ligne source {objectId2}",
   "src": "libretranslate",
@@ -10972,6 +11554,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Records to Process": {
+  "t": "Dossiers à traiter",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Records: {count}": {
+  "t": "Dossiers : {count}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Rect": {
   "t": "Rect",
@@ -11017,6 +11611,12 @@
  },
  "Redo drawing action - no actions to redo": {
   "t": "Refaire le dessin - pas d'action pour refaire",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Refresh layers": {
+  "t": "Actualiser les calques",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11189,6 +11789,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Reset": {
+  "t": "Réinitialiser",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Reset Default Area Units": {
   "t": "Réinitialiser les unités de zone par défaut",
   "src": "libretranslate",
@@ -11224,6 +11830,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Reset stops comparison, restores the default selections, and resets the divider position and direction.": {
+  "t": "Reset stoppe la comparaison, restaure les sélections par défaut et réinitialise la position et la direction du diviseur.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Reset the label to its default calculated position based on the geometry centroid": {
   "t": "Réinitialisez l'étiquette à sa position calculée par défaut en fonction du centroïde géométrique",
@@ -11290,6 +11902,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Returning to the map": {
+  "t": "Retour à la carte",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reuse results for repeated clicks (seconds)": {
+  "t": "Réutiliser les résultats pour les clics répétés (secondes)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Reverse": {
   "t": "Inverser",
@@ -11434,6 +12058,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Round($feature.Acres, 2) + \" acres\"": {
+  "t": "Ronde($caractère. Acres, 2) + \"acres\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Row label, or blank for full popup content": {
   "t": "Étiquette de ligne, ou blanc pour le contenu complet du popup",
@@ -11597,6 +12227,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Search the guide (try \"layers\" or \"slider\")": {
+  "t": "Chercher dans le guide (essayez \"couches\" ou \"glissière\")",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Search the guide (try \"load\" or \"fields\")": {
   "t": "Recherchez le guide (essayez \"charger\" ou \"champs\")",
   "src": "libretranslate",
@@ -11687,6 +12323,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Select a layer...": {
+  "t": "Sélectionnez un calque...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select a Map": {
   "t": "Sélectionner une carte",
   "src": "libretranslate",
@@ -11753,6 +12395,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Select at least one layer on either side to begin.": {
+  "t": "Sélectionnez au moins un calque de chaque côté pour commencer.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select by:": {
   "t": "Sélectionner par :",
   "src": "libretranslate",
@@ -11764,6 +12412,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Select Data Layer": {
+  "t": "Sélectionner le calque de données",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Select Draw Mode": {
   "t": "Sélectionner le mode de dessin",
@@ -11800,6 +12454,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Select field for {fieldType}...": {
+  "t": "Sélectionner le champ pour {fieldType}...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select fields to enable": {
+  "t": "Sélectionnez les champs à activer",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Select font color for the measurement label text": {
   "t": "Sélectionnez la couleur de police pour le texte de l'étiquette de mesure",
@@ -11845,6 +12511,12 @@
  },
  "Select multiple measurements": {
   "t": "Sélectionner plusieurs mesures",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select Start comparison. Give the map a moment to redraw.": {
+  "t": "Sélectionnez Commencer la comparaison. Donnez un moment à la carte pour redessiner.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11923,6 +12595,12 @@
  },
  "Select which tab opens by default": {
   "t": "Sélectionnez quel onglet s'ouvre par défaut",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "selected": {
+  "t": "sélectionné",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12053,6 +12731,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Shared map layers": {
+  "t": "Couches de cartes partagées",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show {label} ({abbreviation})": {
   "t": "Afficher {label} ({abbreviation})",
   "src": "libretranslate",
@@ -12139,6 +12823,12 @@
  },
  "Show Copy Coordinates Button": {
   "t": "Afficher les coordonnées de copie Bouton",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show diagnostic overlay": {
+  "t": "Afficher la superposition diagnostique",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12256,6 +12946,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Show other visible layers on both sides": {
+  "t": "Afficher d'autres couches visibles des deux côtés",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show other visible layers on both sides keeps the other layers that were visible before you started.": {
+  "t": "Afficher d'autres couches visibles des deux côtés maintient les autres couches visibles avant de commencer.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Show Pictometry Button": {
   "t": "Afficher le bouton de pictométrie",
@@ -12382,6 +13084,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Shows a live event log at the bottom of the screen on every device, with a Copy button. Turn on only while troubleshooting, then turn back off. The overlay can also be enabled per-session by adding fi_debug=1 to the app URL.": {
+  "t": "Affiche un journal d'événement en direct au bas de l'écran sur chaque appareil, avec un bouton Copier. Allumez seulement pendant le dépannage, puis éteignez. La superposition peut également être activée par session en ajoutant fi debug=1 à l'URL de l'application.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Shows the question-mark button that opens the in-widget help guide, and the first-run hint.": {
   "t": "Affiche le bouton de question-marque qui ouvre le guide d'aide dans le widget, et l'indice de première sortie.",
@@ -12671,6 +13379,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Start comparison": {
+  "t": "Comparaison de début",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Start here: three steps": {
   "t": "Commencez ici: trois étapes",
   "src": "libretranslate",
@@ -12682,6 +13396,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "State, province, or region": {
+  "t": "État, province ou région",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "State/Province": {
+  "t": "État/Province",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Status: Drag mode is active. Move mouse and click to place the label.": {
   "t": "Statut : Le mode Drag est actif. Déplacez la souris et cliquez pour placer l'étiquette.",
@@ -12743,8 +13469,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Still stuck? Contact the GIS Division and mention the Layer Compare name and this app.": {
+  "t": "Toujours coincé ? Contactez la Division GIS et mentionnez le nom de Layer Comparer et cette application.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Still stuck? Contact your GIS team and mention the Draw Advanced widget and this app.": {
   "t": "Toujours coincé ? Contactez votre équipe SIG et mentionnez le widget Draw Advanced et cette application.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Stop comparison": {
+  "t": "Arrêt de la comparaison",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Stop comparison removes the divider and restores the map visibility. Your side selections stay ready for the next comparison.": {
+  "t": "Arrêter la comparaison supprime le diviseur et restaure la visibilité de la carte. Vos sélections latérales restent prêtes pour la prochaine comparaison.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12785,6 +13529,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Street address or P.O. Box": {
+  "t": "Adresse ou boîte postale",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Style editor": {
   "t": "Éditeur de style",
   "src": "libretranslate",
@@ -12814,6 +13564,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Swap sides": {
+  "t": "Couper les côtés",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Swipe": {
   "t": "Tourner",
@@ -13139,6 +13895,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The box above the list filters layer names. Filtering the list does not remove your selections.": {
+  "t": "La case au-dessus de la liste filtre les noms de calques. Filtrer la liste ne supprime pas vos sélections.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The buttons are grey until you click the map. Once a pin is placed they turn blue and can be clicked.": {
   "t": "Les boutons sont gris jusqu'à ce que vous cliquez sur la carte. Une fois qu'une broche est placée, ils deviennent bleus et peuvent être cliqués.",
   "src": "libretranslate",
@@ -13174,6 +13936,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The comparison could not be prepared. Check the selected layers and try again.": {
+  "t": "La comparaison n'a pas pu être préparée. Vérifiez les calques sélectionnés et essayez à nouveau.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The comparison stopped after adding or removing a layer: the map changed. Review the layer list and select Start comparison again.": {
+  "t": "La comparaison s'est arrêtée après l'ajout ou la suppression d'un calque : la carte a changé. Consultez la liste des calques et sélectionnez Recommencer la comparaison.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The configured layer did not respond in time.": {
   "t": "Le calque configuré n'a pas répondu dans le temps.",
@@ -13385,6 +14159,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The map layers changed. Comparison stopped; review your selections and start again.": {
+  "t": "Les couches de carte ont changé. La comparaison s'est arrêtée; examinez vos sélections et recommencez.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The map layers could not be read. Check the connected map, then refresh the layers.": {
+  "t": "Les calques de carte n'ont pas pu être lus. Vérifiez la carte connectée, puis rafraîchissez les calques.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The map moves to fit the points when geocoding finishes.": {
   "t": "La carte se déplace pour s'adapter aux points lorsque le géocodage se termine.",
   "src": "libretranslate",
@@ -13498,6 +14284,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The slider moves the same divider as the handle on the map. Use the arrow keys on the slider for a precise adjustment.": {
+  "t": "Le curseur déplace le même diviseur que la poignée sur la carte. Utilisez les touches fléchées sur le curseur pour un réglage précis.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The small badge on a card counts the legs or edges in that measurement.": {
   "t": "Le petit badge sur une carte compte les jambes ou les bords dans cette mesure.",
@@ -13705,6 +14497,18 @@
  },
  "This is not a valid URL.": {
   "t": "Ce n'est pas une URL valide.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "This layer could not load. Check its service or sign-in.": {
+  "t": "Cette couche ne pouvait pas se charger. Vérifiez son service ou sa connexion.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "This layer type is not available for 2D comparison.": {
+  "t": "Ce type de calque n'est pas disponible pour la comparaison 2D.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14027,6 +14831,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Top": {
+  "t": "Haut",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Top / bottom": {
+  "t": "Haut / bas",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Top Alignment (Current). Position text at the top.": {
   "t": "Alignement supérieur (actuel). Positionnez le texte en haut.",
   "src": "libretranslate",
@@ -14135,6 +14951,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Troubleshooting": {
+  "t": "Dépannage",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "True-curve line tools (arc, endpoint arc, bézier)": {
   "t": "Outils en ligne à courbure réelle (arc, arc d'extrémité, bézier)",
   "src": "libretranslate",
@@ -14221,6 +15043,12 @@
  },
  "Type to filter drawings by name or type": {
   "t": "Type à filtrer par nom ou type",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Type: {type}": {
+  "t": "Type: {type}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14639,6 +15467,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Use the checkboxes in Layer Compare while comparing. To apply filter or style changes made elsewhere, stop and start the comparison again.": {
+  "t": "Utilisez les cases à cocher dans Layer Comparer lors de la comparaison. Pour appliquer des changements de filtre ou de style faits ailleurs, arrêtez et recommencez la comparaison.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Use the Copy Lat/Lon button above or press Control+C to copy the coordinates.": {
   "t": "Utilisez le bouton Copier Lat/Lon ci-dessus ou appuyez sur Control+C pour copier les coordonnées.",
   "src": "libretranslate",
@@ -14699,17 +15533,41 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Valid": {
+  "t": "Valide",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Validate": {
   "t": "Valider",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Validation Error": {
+  "t": "Erreur de validation",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Value map (one per line, from=to)": {
   "t": "Carte des valeurs (une par ligne, de=à)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Values beginning with http or https render as a hyperlink using this text unless a format rule says otherwise.": {
+  "t": "Les valeurs commençant par http ou https rendent comme un hyperlien en utilisant ce texte à moins qu'une règle de format n'indique le contraire.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Version 1, 2, and 3 XML files are importable. Older files are converted into per-layer settings on import.": {
+  "t": "Les versions 1, 2 et 3 des fichiers XML sont importables. Les anciens fichiers sont convertis en paramètres par couche lors de l'importation.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Vertical alignment set to {newAlign}": {
   "t": "Alignement vertical défini à {newAlign}",
@@ -14773,6 +15631,18 @@
  },
  "View/Edit notes (has notes)": {
   "t": "Afficher/modifier les notes (a des notes)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Visible: {visible}": {
+  "t": "Visible : {visible}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Warning": {
+  "t": "Avertissement",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15155,11 +16025,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "You can still pan and zoom the map while comparison is on.": {
+  "t": "Vous pouvez encore faire un tour et zoomer la carte pendant la comparaison.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "You have drawings saved from a previous session.": {
   "t": "Vous avez des dessins enregistrés d'une session précédente.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Your basemap, map extent, and layer data stay the same. The comparison uses temporary layer copies.": {
+  "t": "Vos données de base, d'étendue et de couche restent les mêmes. La comparaison utilise des copies de couches temporaires.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Your drawings are saved in your web browser using local storage. This means they're only available on this device and in this browser.": {
   "t": "Vos dessins sont enregistrés dans votre navigateur Web en utilisant le stockage local. Cela signifie qu'ils sont uniquement disponibles sur cet appareil et dans ce navigateur.",
@@ -15185,6 +16067,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Your selections apply only in this open app. They are not saved to the web map.": {
+  "t": "Vos sélections s'appliquent uniquement dans cette application ouverte. Ils ne sont pas enregistrés sur la carte Web.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Your Text Here": {
   "t": "Votre texte ici",
   "src": "libretranslate",
@@ -15196,6 +16084,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "ZIP code or postal code": {
+  "t": "Code ZIP ou code postal",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "ZIP/Postal Code": {
+  "t": "Code postal/ZIP",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Zoom": {
   "t": "Zoom",
