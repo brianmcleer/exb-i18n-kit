@@ -336,3 +336,70 @@ test('extract respects the real translator in scope (rollout regressions, Oct 20
   assert.doesNotMatch(out, /const t = __exbI18nHooks/)
   assert.match(out, /title=\{t\('openHelp'\)\}/)
 })
+
+test('wire: English outside a translator, config defaults, jsx() props, messages reads (Oct 2026)', (t) => {
+  let ts
+  try { ts = require('typescript') } catch (e) { return t.skip('typescript not installed') }
+  const { wireWidget } = require('../lib/wire')
+  const dir = freshWidget()
+  const file = path.join(dir, 'src/runtime/widget.tsx')
+  fs.writeFileSync(file, [
+    "import { React, jsx } from 'jimu-core'",
+    "import defaultMessages from './translations/default'",
+    'export default class Widget extends React.PureComponent<any, any> {',
+    '  private t = (id: string, values?: Record<string, string>): string => {',
+    '    let text: string = (defaultMessages as any)[id] ?? id',
+    '    return text',
+    '  }',
+    '  getToolHint (tool: string): string {',
+    '    switch (tool) {',
+    "      case 'point': return 'Click on the map to place a point'",
+    "      default: return ''",
+    '    }',
+    '  }',
+    '  getToolLabel (tool: string): string {',
+    "    return this.props.config.freehandText || 'Freehand Area'",
+    '  }',
+    '  render () {',
+    "    const label = this.props.label || 'Freehand Line'",
+    "    const isFreehand = label.includes('Freehand Line')",
+    "    const tools = [{ tool: 'point', label: 'Point tool' }]",
+    "    return jsx('div', { title: 'Mailing Labels', children: [defaultMessages.undo, 'Select features first', this.getToolHint('point')] })",
+    '  }',
+    '}',
+    ''
+  ].join('\n'))
+  const helper = path.join(dir, 'src/runtime/components/Hint.tsx')
+  fs.mkdirSync(path.dirname(helper), { recursive: true })
+  fs.writeFileSync(helper, "import { React } from 'jimu-core'\nexport const Hint = () => <p title=\"Dismiss hint\">New here?</p>\n")
+  wireWidget(dir, { apply: true })
+  const out = fs.readFileSync(file, 'utf8')
+  const hint = fs.readFileSync(helper, 'utf8')
+  const def = fs.readFileSync(path.join(dir, 'src/runtime/translations/default.ts'), 'utf8')
+  assert.ok(fs.existsSync(path.join(dir, 'src/runtime/i18n-t.ts')), 'helper written next to translations')
+  assert.match(out, /import \{ [^}]*__setIntl[^}]* \} from '\.\/i18n-t'/)
+  assert.match(out, /render \(\) \{\n {4}__setIntl\(\(this\.props as any\)\.intl\)/, 'entry hands its intl to the helper')
+  assert.match(out, /return __t\("clickOnTheMapToPlace"\)/, 'label/hint helper returns, including inside switch cases')
+  assert.match(out, /__tc\(this\.props\.config\.freehandText, "freehandArea"\)/, 'config default stays overridable')
+  assert.match(out, /'Freehand Line'/, 'a string the file compares against is left alone')
+  assert.match(out, /title: __t\("mailingLabels"\)/, 'jsx() props')
+  assert.match(out, /__t\("selectFeaturesFirst"\)/, 'jsx() children arrays')
+  assert.match(out, /__m\.undo/, 'direct messages read follows the app language')
+  assert.match(out, /\{ const __i = __tryIntl\(id, values\); if \(__i !== undefined\) return __i \}/, 'translator asks intl first')
+  assert.match(out, /label: __t\("pointTool"\)/)
+  assert.match(hint, /import \{ __t \} from '\.\.\/i18n-t'/, 'child modules import the shared helper')
+  assert.match(hint, /\{__t\("newHere"\)\}/)
+  assert.match(def, /freehandArea: 'Freehand Area'/)
+  for (const f of [file, helper, path.join(dir, 'src/runtime/i18n-t.ts')]) {
+    const d = ts.transpileModule(fs.readFileSync(f, 'utf8'), { reportDiagnostics: true, fileName: f, compilerOptions: { jsx: ts.JsxEmit.React } }).diagnostics
+    assert.strictEqual(d.length, 0, f + ' parses')
+  }
+  // Second run: nothing left, nothing doubled.
+  const again = wireWidget(dir, { apply: true })
+  assert.strictEqual(again.results.filter(r => r.changed).length, 0)
+  // restore puts the originals back
+  const { restoreLatest } = require('../lib/localize')
+  restoreLatest(dir)
+  assert.doesNotMatch(fs.readFileSync(file, 'utf8'), /__t\(/)
+  assert.ok(!fs.existsSync(path.join(dir, 'src/runtime/i18n-t.ts')))
+})
