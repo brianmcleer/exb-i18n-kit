@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.3 (2026-10-09)
+
+- Memory workflow: Docker Hub's anonymous pull limit failed runs 12 and 13 before anything was translated.
+  The LibreTranslate image now comes from Google's Docker Hub mirror (mirror.gcr.io) first, then Docker Hub
+  with retries, and if LibreTranslate still cannot start the run carries on with Opus-MT (bs, hr, sr) only.
+
 ## 1.2.2 (2026-10-09)
 
 - `wire` no longer translates text returned by error, log, telemetry or report helpers
