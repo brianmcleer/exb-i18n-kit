@@ -185,6 +185,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ ". Each table should show its title — if any say": {
+  "t": ". 각 테이블은 제목을 표시해야합니다 — 어떤 말",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  ". Leave blank to use built-in defaults.": {
   "t": ". 내장된 기본값을 사용하려면 공백을 남겨 주세요.",
   "src": "libretranslate",
@@ -1873,6 +1879,12 @@
  },
  "{value} features selected from drawing geometry.": {
   "t": "{value} 그림 기하학에서 선택된 특징.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{value}, new updates available": {
+  "t": "{value}, 유효한 새로운 갱신",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7523,6 +7535,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Card view — compact, mobile-friendly list": {
+  "t": "카드보기 - 컴팩트, 모바일 친화적 인 목록",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Cardinality": {
   "t": "이름 *",
   "src": "libretranslate",
@@ -7573,6 +7591,18 @@
  },
  "Category": {
   "t": "(주)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Category \"{value}\" is not handled by \"{eA}\". Please update the category.": {
+  "t": "범주 \"{value}\"은 \"에 의해 처리되지 않습니다{eA}\". 범주를 업데이트하십시오.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Category {category}": {
+  "t": "(주) {category}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11021,6 +11051,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Continue?": {
+  "t": "계속?",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Continuous": {
   "t": "제품 정보",
   "src": "libretranslate",
@@ -11647,6 +11683,24 @@
  },
  "Could not export the settings.": {
   "t": "설정을 수출 할 수 없습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not load app config. Please enter the widget ID manually.\n\nYour config is at: server/public/apps/": {
+  "t": "앱 구성을로드 할 수 없습니다. 위젯 ID를 수동으로 입력하세요. 설정은 다음과 같습니다. 서버/public/apps/",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not load app config. Please enter the widget ID manually.\n\nYour config is at: server/public/apps/{value1}": {
+  "t": "앱 구성을로드 할 수 없습니다. 위젯 ID를 수동으로 입력하세요. 설정은 다음과 같습니다. 서버/public/apps/{value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not load app config. Please enter the widget ID manually.\n\nYour config is at: server/public/apps/{value1}/config.json\nSearch for \"property-report\" to find the widget ID.": {
+  "t": "앱 구성을로드 할 수 없습니다. 위젯 ID를 수동으로 입력하세요. 설정은 다음과 같습니다. 서버/public/apps/{value1}/config.json / 설정 위젯 ID를 찾기 위해 \"property-report\"검색.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13433,6 +13487,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Department \"{eA}\" is not a valid option. Please re-select.": {
+  "t": "부서 \"{eA}\"는 유효한 옵션이 아닙니다. 선택해 주세요.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Department name, phone number, or other contact information for questions about the report.": {
   "t": "부서명, 전화 번호, 또는 기타 연락처 정보",
   "src": "libretranslate",
@@ -13732,6 +13792,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Dismiss message": {
+  "t": "메시지 삭제",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Dismiss notification": {
   "t": "공지사항",
@@ -16685,8 +16751,44 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Error creating coordinate marker:": {
+  "t": "조정 감적을 창조하는 과실:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating coordinate marker: {value1}": {
+  "t": "조정 감적을 창조하는 과실: {value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Error creating PDF: {error}": {
   "t": "PDF 생성 오류: {error}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating simple marker:": {
+  "t": "간단한 마커를 창조하는 과실:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating simple marker: {value1}": {
+  "t": "간단한 마커를 창조하는 과실: {value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating text graphic:": {
+  "t": "텍스트 그래픽 생성 오류:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating text graphic: {value1}": {
+  "t": "텍스트 그래픽 생성 오류: {value1}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17458,6 +17560,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Export failed:": {
+  "t": "수출 실패:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export failed: {value1}": {
+  "t": "수출 실패: {value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Export failed.": {
   "t": "수출 실패.",
@@ -19393,6 +19507,12 @@
  },
  "For the fastest response, please call the number below. You may still submit this report online, but a phone call ensures someone responds immediately.": {
   "t": "가장 빠른 응답을 위해, 아래에 번호를 부르십시오. 이 보고서를 온라인으로 제출할 수 있지만, 전화 통화는 즉시 응답합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "for this view. The map widget selection will NOT be changed.": {
+  "t": "이 전망입니다. 지도 위젯 선택은 변경되지 않습니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22295,6 +22415,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Import failed:": {
+  "t": "수입 실패:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import failed: {value1}": {
+  "t": "수입 실패: {value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Import failed.": {
   "t": "수입 실패.",
   "src": "libretranslate",
@@ -22417,6 +22549,12 @@
  },
  "Imported fonts": {
   "t": "수입된 글꼴",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Importing \"{name}\" will overwrite the current widget settings": {
+  "t": "수입 \"{name}\"는 현재 위젯 설정을 덮어",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -32669,6 +32807,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Plot Coordinates": {
+  "t": "Plot 좌표",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Plot Coordinates Settings": {
   "t": "Plot 좌표 설정",
   "src": "libretranslate",
@@ -38639,6 +38783,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Shift": {
+  "t": "기타",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Shipping labels, 2 across × 3 down": {
   "t": "배송 라벨, 2 가로 × 3 아래로",
   "src": "libretranslate",
@@ -41435,6 +41585,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Subcategory value is not valid for \"{value}\". Please re-select.": {
+  "t": "하위 카테고리 값은 유효하지 않습니다 \"{value}\". 선택해 주세요.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Sublayer": {
   "t": "기타 제품",
   "src": "libretranslate",
@@ -41935,6 +42091,12 @@
  },
  "Table URL": {
   "t": "표 URL",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Table view — sortable columns with all fields visible": {
+  "t": "테이블보기 - 모든 필드를 가진 정렬 가능한 열",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -44251,6 +44413,18 @@
  },
  "Tick the box beside the layer to show it on the map. Untick it to hide it.": {
   "t": "레이어 옆에 상자를 눌러지도에 표시하십시오. 그것을 숨길 수 없습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Ticket {value}{fullCat}, status {statusLabel}, priority {priLabel}": {
+  "t": "이용안내 {value}{fullCat}, 상태 {statusLabel}, 우선권 {priLabel}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Ticket {value}{fullCat}, status {statusLabel}, priority {priLabel}, {value2}": {
+  "t": "이용안내 {value}{fullCat}, 상태 {statusLabel}, 우선권 {priLabel}· {value2}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"

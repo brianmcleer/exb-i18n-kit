@@ -185,6 +185,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ ". Each table should show its title — if any say": {
+  "t": "Каждая таблица должна показывать свое название — если кто-то скажет",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  ". Leave blank to use built-in defaults.": {
   "t": "Оставьте пустой, чтобы использовать встроенные по умолчанию.",
   "src": "libretranslate",
@@ -1873,6 +1879,12 @@
  },
  "{value} features selected from drawing geometry.": {
   "t": "{value} особенности, выбранные из геометрии рисования.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{value}, new updates available": {
+  "t": "{value}Доступны новые обновления",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7529,6 +7541,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Card view — compact, mobile-friendly list": {
+  "t": "Вид карты — компактный, мобильный список",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Cardinality": {
   "t": "кардинализм",
   "src": "libretranslate",
@@ -7579,6 +7597,18 @@
  },
  "Category": {
   "t": "Категория",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Category \"{value}\" is not handled by \"{eA}\". Please update the category.": {
+  "t": "Категория:{value}\"не управляется\"{eA}Пожалуйста, обновите категорию.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Category {category}": {
+  "t": "Категория {category}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11027,6 +11057,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Continue?": {
+  "t": "Продолжай?",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Continuous": {
   "t": "непрерывный",
   "src": "libretranslate",
@@ -11653,6 +11689,24 @@
  },
  "Could not export the settings.": {
   "t": "Не удалось экспортировать настройки.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not load app config. Please enter the widget ID manually.\n\nYour config is at: server/public/apps/": {
+  "t": "Не удалось загрузить конфигурацию приложения. Пожалуйста, введите идентификатор виджета вручную. Конфигурация находится по адресу: server/public/apps/",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not load app config. Please enter the widget ID manually.\n\nYour config is at: server/public/apps/{value1}": {
+  "t": "Не удалось загрузить конфигурацию приложения. Пожалуйста, введите идентификатор виджета вручную. Конфигурация находится по адресу: server/public/apps/{value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not load app config. Please enter the widget ID manually.\n\nYour config is at: server/public/apps/{value1}/config.json\nSearch for \"property-report\" to find the widget ID.": {
+  "t": "Не удалось загрузить конфигурацию приложения. Пожалуйста, введите идентификатор виджета вручную. Конфигурация находится по адресу: server/public/apps/{value1}/config.json Ищите «отчет о собственности», чтобы найти идентификатор виджета.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13439,6 +13493,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Department \"{eA}\" is not a valid option. Please re-select.": {
+  "t": "Департамент.{eA}\"не является действительным вариантом. Пожалуйста, переизберите.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Department name, phone number, or other contact information for questions about the report.": {
   "t": "Имя департамента, номер телефона или другая контактная информация для вопросов об отчете.",
   "src": "libretranslate",
@@ -13738,6 +13798,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Dismiss message": {
+  "t": "Отклонить сообщение",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Dismiss notification": {
   "t": "Отклонить уведомление",
@@ -16691,8 +16757,44 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Error creating coordinate marker:": {
+  "t": "Ошибка создания координатного маркера:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating coordinate marker: {value1}": {
+  "t": "Ошибка создания координатного маркера: {value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Error creating PDF: {error}": {
   "t": "Ошибка создания PDF: {error}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating simple marker:": {
+  "t": "Ошибка создания простого маркера:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating simple marker: {value1}": {
+  "t": "Ошибка создания простого маркера: {value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating text graphic:": {
+  "t": "Ошибка создания текстовой графики:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating text graphic: {value1}": {
+  "t": "Ошибка создания текстовой графики: {value1}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17464,6 +17566,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Export failed:": {
+  "t": "Экспорт провалился:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export failed: {value1}": {
+  "t": "Экспорт провалился: {value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Export failed.": {
   "t": "Экспорт провалился.",
@@ -19399,6 +19513,12 @@
  },
  "For the fastest response, please call the number below. You may still submit this report online, but a phone call ensures someone responds immediately.": {
   "t": "Для быстрого ответа, пожалуйста, позвоните по номеру ниже. Вы все еще можете отправить этот отчет онлайн, но телефонный звонок гарантирует, что кто-то ответит немедленно.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "for this view. The map widget selection will NOT be changed.": {
+  "t": "с этой точки зрения. Выбор виджета карты не будет изменен.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22301,6 +22421,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Import failed:": {
+  "t": "Импорт провалился:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import failed: {value1}": {
+  "t": "Импорт провалился: {value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Import failed.": {
   "t": "Импорт провалился.",
   "src": "libretranslate",
@@ -22423,6 +22555,12 @@
  },
  "Imported fonts": {
   "t": "Импортные шрифты",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Importing \"{name}\" will overwrite the current widget settings": {
+  "t": "Импорт \"{name}\"перезапишет текущие настройки виджета",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -32675,6 +32813,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Plot Coordinates": {
+  "t": "Координаты сюжета",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Plot Coordinates Settings": {
   "t": "Настройки координат сюжета",
   "src": "libretranslate",
@@ -38645,6 +38789,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Shift": {
+  "t": "сдвиг",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Shipping labels, 2 across × 3 down": {
   "t": "Судоходные этикетки, 2 в × 3 вниз",
   "src": "libretranslate",
@@ -41441,6 +41591,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Subcategory value is not valid for \"{value}\". Please re-select.": {
+  "t": "Значение подкатегории недействительно для \"{value}Пожалуйста, переизберите.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Sublayer": {
   "t": "Подслой",
   "src": "libretranslate",
@@ -41941,6 +42097,12 @@
  },
  "Table URL": {
   "t": "Таблица URL",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Table view — sortable columns with all fields visible": {
+  "t": "Вид на стол — сортируемые колонки со всеми видимыми полями",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -44257,6 +44419,18 @@
  },
  "Tick the box beside the layer to show it on the map. Untick it to hide it.": {
   "t": "Нажмите на коробку рядом со слоем, чтобы показать ее на карте. Развяжите, чтобы скрыть.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Ticket {value}{fullCat}, status {statusLabel}, priority {priLabel}": {
+  "t": "билет {value}{fullCat}статус {statusLabel}Приоритет {priLabel}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Ticket {value}{fullCat}, status {statusLabel}, priority {priLabel}, {value2}": {
+  "t": "билет {value}{fullCat}статус {statusLabel}Приоритет {priLabel}, {value2}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"

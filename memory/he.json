@@ -185,6 +185,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ ". Each table should show its title — if any say": {
+  "t": "כל שולחן צריך להראות את הכותרת שלו - אם בכלל",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  ". Leave blank to use built-in defaults.": {
   "t": "עזוב ריק לשימוש ברירת מחדל מובנה.",
   "src": "libretranslate",
@@ -1873,6 +1879,12 @@
  },
  "{value} features selected from drawing geometry.": {
   "t": "{value} תכונות שנבחרו מתוך ציור גאומטריה.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{value}, new updates available": {
+  "t": "{value}עדכונים חדשים זמינים",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7529,6 +7541,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Card view — compact, mobile-friendly list": {
+  "t": "כרטיס תצוגה - קומפקטי, ידידותי לרשימה",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Cardinality": {
   "t": "הקרדינל",
   "src": "libretranslate",
@@ -7579,6 +7597,18 @@
  },
  "Category": {
   "t": "קטגוריה",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Category \"{value}\" is not handled by \"{eA}\". Please update the category.": {
+  "t": "קטגוריה:{value}\"לא מטופל על ידי\"{eA}בבקשה לעדכן את הקטגוריה.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Category {category}": {
+  "t": "קטגוריה {category}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11027,6 +11057,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Continue?": {
+  "t": "ממשיכים?",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Continuous": {
   "t": "רציף מתמשך",
   "src": "libretranslate",
@@ -11653,6 +11689,24 @@
  },
  "Could not export the settings.": {
   "t": "לא יכול לייצא את ההגדרות.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not load app config. Please enter the widget ID manually.\n\nYour config is at: server/public/apps/": {
+  "t": "לא יכול לטעון תצורה של אפליקציה. אנא הזן את מזהה widget באופן ידני. התצורה שלך היא: שרת/ציבור/apps/",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not load app config. Please enter the widget ID manually.\n\nYour config is at: server/public/apps/{value1}": {
+  "t": "לא יכול לטעון תצורה של אפליקציה. אנא הזן את מזהה widget באופן ידני. התצורה שלך היא: שרת/ציבור/apps/{value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not load app config. Please enter the widget ID manually.\n\nYour config is at: server/public/apps/{value1}/config.json\nSearch for \"property-report\" to find the widget ID.": {
+  "t": "לא יכול לטעון תצורה של אפליקציה. אנא הזן את מזהה widget באופן ידני. התצורה שלך היא: שרת/ציבור/apps/{value1}המונחים:json חפש את \"property-report\" כדי למצוא את מזהה widget.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13439,6 +13493,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Department \"{eA}\" is not a valid option. Please re-select.": {
+  "t": "המחלקה \"{eA}\"זו לא אפשרות תקפה. בבקשה, שוב select.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Department name, phone number, or other contact information for questions about the report.": {
   "t": "שם המחלקה, מספר הטלפון, או מידע אחר על שאלות לגבי הדו\"ח.",
   "src": "libretranslate",
@@ -13738,6 +13798,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Dismiss message": {
+  "t": "הודעה מאכזבת",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Dismiss notification": {
   "t": "הודעה מאכזבת",
@@ -16691,8 +16757,44 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Error creating coordinate marker:": {
+  "t": "טעות יצירת סמן לתאם:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating coordinate marker: {value1}": {
+  "t": "טעות יצירת סמן לתאם: {value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Error creating PDF: {error}": {
   "t": "טעות יצירת PDF: {error}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating simple marker:": {
+  "t": "טעות יוצרת סימון פשוט:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating simple marker: {value1}": {
+  "t": "טעות יוצרת סימון פשוט: {value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating text graphic:": {
+  "t": "טעות יצירת טקסט גרפי:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating text graphic: {value1}": {
+  "t": "טעות יצירת טקסט גרפי: {value1}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17464,6 +17566,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Export failed:": {
+  "t": "יצוא נכשל:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export failed: {value1}": {
+  "t": "יצוא נכשל: {value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Export failed.": {
   "t": "היצוא נכשל.",
@@ -19399,6 +19513,12 @@
  },
  "For the fastest response, please call the number below. You may still submit this report online, but a phone call ensures someone responds immediately.": {
   "t": "לקבלת התגובה המהירה ביותר, אנא התקשר למספר להלן. אתה עדיין יכול להגיש את הדוח הזה באינטרנט, אבל שיחת טלפון מבטיחה שמישהו יגיב מיד.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "for this view. The map widget selection will NOT be changed.": {
+  "t": "להשקפה זו. בחירת המפה לא תשתנה.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22301,6 +22421,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Import failed:": {
+  "t": "ייבוא נכשל:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import failed: {value1}": {
+  "t": "ייבוא נכשל: {value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Import failed.": {
   "t": "היבוא נכשל.",
   "src": "libretranslate",
@@ -22423,6 +22555,12 @@
  },
  "Imported fonts": {
   "t": "מגופנים מיובאים",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Importing \"{name}\" will overwrite the current widget settings": {
+  "t": "יבוא \"{name}\"יכתוב את הגדרות הווידג'ט הנוכחיות",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -32675,6 +32813,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Plot Coordinates": {
+  "t": "המונחים:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Plot Coordinates Settings": {
   "t": "הגדרות תואמים",
   "src": "libretranslate",
@@ -38645,6 +38789,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Shift": {
+  "t": "Shift Shift",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Shipping labels, 2 across × 3 down": {
   "t": "תוויות: 2 Over × 3 Down",
   "src": "libretranslate",
@@ -41441,6 +41591,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Subcategory value is not valid for \"{value}\". Please re-select.": {
+  "t": "ערך subcategory אינו בתוקף עבור \"{value}\"אנא, בבקשה, שוב.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Sublayer": {
   "t": "Sublayer",
   "src": "libretranslate",
@@ -41941,6 +42097,12 @@
  },
  "Table URL": {
   "t": "כתובת URL",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Table view — sortable columns with all fields visible": {
+  "t": "תצוגת שולחן - עמודות חד פעמיות עם כל התחומים גלויים",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -44257,6 +44419,18 @@
  },
  "Tick the box beside the layer to show it on the map. Untick it to hide it.": {
   "t": "טיק את הקופסה לצד השכבה כדי להציג אותה על המפה. לא מומלץ להסתיר את זה.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Ticket {value}{fullCat}, status {statusLabel}, priority {priLabel}": {
+  "t": "כרטיס הכרטיס {value}{fullCat}סטטוס {statusLabel}עדיפות {priLabel}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Ticket {value}{fullCat}, status {statusLabel}, priority {priLabel}, {value2}": {
+  "t": "כרטיס הכרטיס {value}{fullCat}סטטוס {statusLabel}עדיפות {priLabel}, {value2}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"

@@ -185,6 +185,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ ". Each table should show its title — if any say": {
+  "t": ". Minden táblának meg kell mutatnia a címét - ha van beleszólása",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  ". Leave blank to use built-in defaults.": {
   "t": ". Hagyjuk üresen, hogy a built-in defaults.",
   "src": "libretranslate",
@@ -1873,6 +1879,12 @@
  },
  "{value} features selected from drawing geometry.": {
   "t": "{value} a rajzgeometriából kiválasztott jellemzők.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{value}, new updates available": {
+  "t": "{value}, új frissítések állnak rendelkezésre",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7529,6 +7541,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Card view — compact, mobile-friendly list": {
+  "t": "Kártyanézet - kompakt, mobilbarát lista",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Cardinality": {
   "t": "Kardinalitás",
   "src": "libretranslate",
@@ -7579,6 +7597,18 @@
  },
  "Category": {
   "t": "Kategória",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Category \"{value}\" is not handled by \"{eA}\". Please update the category.": {
+  "t": "Kategória \"{value}\"nem a\"{eA}\"Kérjük, frissítse a kategóriát.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Category {category}": {
+  "t": "Kategória {category}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11027,6 +11057,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Continue?": {
+  "t": "Folytassam?",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Continuous": {
   "t": "Folyamatos",
   "src": "libretranslate",
@@ -11653,6 +11689,24 @@
  },
  "Could not export the settings.": {
   "t": "Nem sikerült exportálni a beállításokat.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not load app config. Please enter the widget ID manually.\n\nYour config is at: server/public/apps/": {
+  "t": "Nem sikerült betölteni az alkalmazásbeállítást. Adja meg manuálisan a widget azonosítóját. A config: szerver / public / apps /",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not load app config. Please enter the widget ID manually.\n\nYour config is at: server/public/apps/{value1}": {
+  "t": "Nem sikerült betölteni az alkalmazásbeállítást. Adja meg manuálisan a widget azonosítóját. A config: szerver / public / apps /{value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not load app config. Please enter the widget ID manually.\n\nYour config is at: server/public/apps/{value1}/config.json\nSearch for \"property-report\" to find the widget ID.": {
+  "t": "Nem sikerült betölteni az alkalmazásbeállítást. Adja meg manuálisan a widget azonosítóját. A config: szerver / public / apps /{value1}/ config.json Keresse meg a \"Property- report\", hogy megtalálja a widget ID.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13439,6 +13493,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Department \"{eA}\" is not a valid option. Please re-select.": {
+  "t": "Osztály \"{eA}\"nem érvényes opció. Kérem, válasszon újra.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Department name, phone number, or other contact information for questions about the report.": {
   "t": "Az osztály neve, telefonszáma vagy egyéb elérhetősége a jelentéssel kapcsolatos kérdésekhez.",
   "src": "libretranslate",
@@ -13738,6 +13798,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Dismiss message": {
+  "t": "Üzenet törlése",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Dismiss notification": {
   "t": "A bejelentés elutasítása",
@@ -16691,8 +16757,44 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Error creating coordinate marker:": {
+  "t": "Nem sikerült létrehozni a koordináta jelölőt:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating coordinate marker: {value1}": {
+  "t": "Nem sikerült létrehozni a koordináta jelölőt: {value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Error creating PDF: {error}": {
   "t": "Hiba történt PDF létrehozásakor: {error}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating simple marker:": {
+  "t": "Nem sikerült létrehozni az egyszerű jelölőt:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating simple marker: {value1}": {
+  "t": "Nem sikerült létrehozni az egyszerű jelölőt: {value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating text graphic:": {
+  "t": "Nem sikerült szöveges grafikont létrehozni:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating text graphic: {value1}": {
+  "t": "Nem sikerült szöveges grafikont létrehozni: {value1}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17464,6 +17566,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Export failed:": {
+  "t": "Nem sikerült exportálni:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export failed: {value1}": {
+  "t": "Nem sikerült exportálni: {value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Export failed.": {
   "t": "Az export nem sikerült.",
@@ -19399,6 +19513,12 @@
  },
  "For the fastest response, please call the number below. You may still submit this report online, but a phone call ensures someone responds immediately.": {
   "t": "A leggyorsabb válaszért kérjük, hívja az alábbi számot. Lehet, hogy ezt a jelentést online is benyújthatja, de egy telefonhívás biztosítja, hogy valaki azonnal válaszoljon.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "for this view. The map widget selection will NOT be changed.": {
+  "t": "Ezért a kilátásért. A térkép widget kiválasztása NEM változik.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22301,6 +22421,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Import failed:": {
+  "t": "Nem sikerült importálni:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import failed: {value1}": {
+  "t": "Nem sikerült importálni: {value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Import failed.": {
   "t": "Importálás sikertelen.",
   "src": "libretranslate",
@@ -22423,6 +22555,12 @@
  },
  "Imported fonts": {
   "t": "Importált betűtípusok",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Importing \"{name}\" will overwrite the current widget settings": {
+  "t": "Importálás \"{name}\"felülírja az aktuális widget beállításokat",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -32675,6 +32813,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Plot Coordinates": {
+  "t": "Terület koordináták",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Plot Coordinates Settings": {
   "t": "A beállítások koordinátái",
   "src": "libretranslate",
@@ -38645,6 +38789,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Shift": {
+  "t": "Változás",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Shipping labels, 2 across × 3 down": {
   "t": "Szállítási címkék, 2 egész × 3 lefelé",
   "src": "libretranslate",
@@ -41441,6 +41591,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Subcategory value is not valid for \"{value}\". Please re-select.": {
+  "t": "Az alkategória értéke nem érvényes \"{value}\"Kérem, válasszon újra.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Sublayer": {
   "t": "Alréteg",
   "src": "libretranslate",
@@ -41941,6 +42097,12 @@
  },
  "Table URL": {
   "t": "táblázat",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Table view — sortable columns with all fields visible": {
+  "t": "Táblázat nézet - az összes látható mezőt tartalmazó sorolható oszlopok",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -44257,6 +44419,18 @@
  },
  "Tick the box beside the layer to show it on the map. Untick it to hide it.": {
   "t": "Jelölje be a dobozt a réteg mellé, hogy mutassa meg a térképen. Vedd ki, hogy elrejtsd.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Ticket {value}{fullCat}, status {statusLabel}, priority {priLabel}": {
+  "t": "Jegyzet {value}{fullCat}, status {statusLabel}, prioritás {priLabel}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Ticket {value}{fullCat}, status {statusLabel}, priority {priLabel}, {value2}": {
+  "t": "Jegyzet {value}{fullCat}, status {statusLabel}, prioritás {priLabel}, {value2}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"

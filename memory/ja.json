@@ -185,6 +185,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ ". Each table should show its title — if any say": {
+  "t": ". 各テーブルはタイトルを表示する必要があります。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  ". Leave blank to use built-in defaults.": {
   "t": ". ビルトインのデフォルトを使用する空白のままにします。",
   "src": "libretranslate",
@@ -1873,6 +1879,12 @@
  },
  "{value} features selected from drawing geometry.": {
   "t": "{value} 描画ジオメトリから選択した機能。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{value}, new updates available": {
+  "t": "{value}、利用できる新しい更新",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7529,6 +7541,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Card view — compact, mobile-friendly list": {
+  "t": "カードビュー — コンパクトでモバイルフレンドリーなリスト",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Cardinality": {
   "t": "カリキュラム",
   "src": "libretranslate",
@@ -7579,6 +7597,18 @@
  },
  "Category": {
   "t": "カテゴリー",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Category \"{value}\" is not handled by \"{eA}\". Please update the category.": {
+  "t": "カテゴリー \"{value}\" は \"{eA}「.」カテゴリを更新してください。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Category {category}": {
+  "t": "カテゴリー {category}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11027,6 +11057,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Continue?": {
+  "t": "お問い合わせ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Continuous": {
   "t": "連続的な",
   "src": "libretranslate",
@@ -11653,6 +11689,24 @@
  },
  "Could not export the settings.": {
   "t": "設定をエクスポートできません。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not load app config. Please enter the widget ID manually.\n\nYour config is at: server/public/apps/": {
+  "t": "app config をロードできません。 ウィジェットIDを手動で入力してください。 構成はサーバー/public/apps/にあります。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not load app config. Please enter the widget ID manually.\n\nYour config is at: server/public/apps/{value1}": {
+  "t": "app config をロードできません。 ウィジェットIDを手動で入力してください。 構成はサーバー/public/apps/にあります。{value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not load app config. Please enter the widget ID manually.\n\nYour config is at: server/public/apps/{value1}/config.json\nSearch for \"property-report\" to find the widget ID.": {
+  "t": "app config をロードできません。 ウィジェットIDを手動で入力してください。 構成はサーバー/public/apps/にあります。{value1}/config.json ディレクティブ ウィジェットIDを見つけるために「プロパティレポート」を検索します。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13439,6 +13493,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Department \"{eA}\" is not a valid option. Please re-select.": {
+  "t": "担当部署{eA}\" は有効なオプションではありません。 お問い合わせ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Department name, phone number, or other contact information for questions about the report.": {
   "t": "担当部署の氏名、電話番号、または報告書に関する質問の連絡先情報。",
   "src": "libretranslate",
@@ -13738,6 +13798,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Dismiss message": {
+  "t": "メッセージを送信する",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Dismiss notification": {
   "t": "通知を解除",
@@ -16691,8 +16757,44 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Error creating coordinate marker:": {
+  "t": "座標マーカーを作成するエラー:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating coordinate marker: {value1}": {
+  "t": "座標マーカーを作成するエラー: {value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Error creating PDF: {error}": {
   "t": "PDFを作成するエラー: {error}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating simple marker:": {
+  "t": "シンプルなマーカーを作成するエラー:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating simple marker: {value1}": {
+  "t": "シンプルなマーカーを作成するエラー: {value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating text graphic:": {
+  "t": "テキストグラフィックを作成するエラー:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating text graphic: {value1}": {
+  "t": "テキストグラフィックを作成するエラー: {value1}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17464,6 +17566,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Export failed:": {
+  "t": "輸出失敗:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export failed: {value1}": {
+  "t": "輸出失敗: {value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Export failed.": {
   "t": "エクスポートが失敗しました。",
@@ -19399,6 +19513,12 @@
  },
  "For the fastest response, please call the number below. You may still submit this report online, but a phone call ensures someone responds immediately.": {
   "t": "最速の対応については、下記の番号にご連絡ください。 このレポートをオンラインで送信しても構いませんが、電話は誰かがすぐに応答することを可能にします。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "for this view. The map widget selection will NOT be changed.": {
+  "t": "このページの先頭へ ウィジェット選択のマップは変更されません。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22301,6 +22421,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Import failed:": {
+  "t": "インポート失敗:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import failed: {value1}": {
+  "t": "インポート失敗: {value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Import failed.": {
   "t": "インポートが失敗しました。",
   "src": "libretranslate",
@@ -22423,6 +22555,12 @@
  },
  "Imported fonts": {
   "t": "インポートされたフォント",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Importing \"{name}\" will overwrite the current widget settings": {
+  "t": "インポート \"{name}「現在のウィジェットの設定を上書きします",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -32675,6 +32813,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Plot Coordinates": {
+  "t": "プロット座標",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Plot Coordinates Settings": {
   "t": "Plot座標設定",
   "src": "libretranslate",
@@ -38645,6 +38789,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Shift": {
+  "t": "シフト",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Shipping labels, 2 across × 3 down": {
   "t": "出荷のラベル、2 を渡る × 3 ダウン",
   "src": "libretranslate",
@@ -41441,6 +41591,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Subcategory value is not valid for \"{value}\". Please re-select.": {
+  "t": "subcategory の値は \"\" では有効ではありません。{value}再選択してください。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Sublayer": {
   "t": "サブレイヤー",
   "src": "libretranslate",
@@ -41941,6 +42097,12 @@
  },
  "Table URL": {
   "t": "表 URL",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Table view — sortable columns with all fields visible": {
+  "t": "表ビュー — 目に見えるすべてのフィールドでソート可能な列",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -44257,6 +44419,18 @@
  },
  "Tick the box beside the layer to show it on the map. Untick it to hide it.": {
   "t": "レイヤーの横にあるボックスを切り替えてマップに表示されます。 それを隠すためにそれを解凍します。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Ticket {value}{fullCat}, status {statusLabel}, priority {priLabel}": {
+  "t": "チケット {value}{fullCat}, ステータス {statusLabel}, 優先順位 {priLabel}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Ticket {value}{fullCat}, status {statusLabel}, priority {priLabel}, {value2}": {
+  "t": "チケット {value}{fullCat}, ステータス {statusLabel}, 優先順位 {priLabel}, {value2}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"

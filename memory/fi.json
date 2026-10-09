@@ -179,6 +179,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ ". Each table should show its title — if any say": {
+  "t": ". Jokainen taulukko olisi osoitettava sen otsikko .",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  ". Leave blank to use built-in defaults.": {
   "t": ". Jätä tyhjäksi käyttää sisäänrakennettuja oletusarvoja.",
   "src": "libretranslate",
@@ -1867,6 +1873,12 @@
  },
  "{value} features selected from drawing geometry.": {
   "t": "{value} piirustuksesta valittuja ominaisuuksia.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{value}, new updates available": {
+  "t": "{value}, uudet päivitykset saatavilla",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7505,6 +7517,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Card view — compact, mobile-friendly list": {
+  "t": "Korttinäkymä",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Cardinality": {
   "t": "Kardinaalisuus",
   "src": "libretranslate",
@@ -7555,6 +7573,18 @@
  },
  "Category": {
   "t": "Luokka",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Category \"{value}\" is not handled by \"{eA}\". Please update the category.": {
+  "t": "Luokka \"{value}\" ei ole käsitelty \"{eA}\". Päivitä luokka.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Category {category}": {
+  "t": "Luokka {category}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11003,6 +11033,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Continue?": {
+  "t": "Jatka?",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Continuous": {
   "t": "Jatkuva",
   "src": "libretranslate",
@@ -11629,6 +11665,24 @@
  },
  "Could not export the settings.": {
   "t": "Asetusta ei voitu viedä.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not load app config. Please enter the widget ID manually.\n\nYour config is at: server/public/apps/": {
+  "t": "Sovellusta ei voitu ladata. Anna widget ID manuaalisesti. Konfigisi on osoitteessa: server/public/apps/",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not load app config. Please enter the widget ID manually.\n\nYour config is at: server/public/apps/{value1}": {
+  "t": "Sovellusta ei voitu ladata. Anna widget ID manuaalisesti. Konfigisi on osoitteessa: server/public/apps/{value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not load app config. Please enter the widget ID manually.\n\nYour config is at: server/public/apps/{value1}/config.json\nSearch for \"property-report\" to find the widget ID.": {
+  "t": "Sovellusta ei voitu ladata. Anna widget ID manuaalisesti. Konfigisi on osoitteessa: server/public/apps/{value1}/config.json Etsi \"Omistaja-raportti\" löytää widget ID.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13415,6 +13469,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Department \"{eA}\" is not a valid option. Please re-select.": {
+  "t": "Osasto \"{eA}\" ei ole kelvollinen vaihtoehto. Ole hyvä ja valitse uudestaan.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Department name, phone number, or other contact information for questions about the report.": {
   "t": "Osaston nimi, puhelinnumero tai muita yhteystietoja raporttia koskeviin kysymyksiin.",
   "src": "libretranslate",
@@ -13714,6 +13774,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Dismiss message": {
+  "t": "Jätä viesti",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Dismiss notification": {
   "t": "Hylkää ilmoitus",
@@ -16667,8 +16733,44 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Error creating coordinate marker:": {
+  "t": "Virhe luotaessa koordinaattimerkkiä:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating coordinate marker: {value1}": {
+  "t": "Virhe luotaessa koordinaattimerkkiä: {value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Error creating PDF: {error}": {
   "t": "Virhe PDF:n luonnissa: {error}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating simple marker:": {
+  "t": "Virhe luotaessa yksinkertaista merkkiä:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating simple marker: {value1}": {
+  "t": "Virhe luotaessa yksinkertaista merkkiä: {value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating text graphic:": {
+  "t": "Virhe luotaessa tekstigrafiikkaa:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating text graphic: {value1}": {
+  "t": "Virhe luotaessa tekstigrafiikkaa: {value1}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17440,6 +17542,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Export failed:": {
+  "t": "Vieminen epäonnistui:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export failed: {value1}": {
+  "t": "Vieminen epäonnistui: {value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Export failed.": {
   "t": "Vienti epäonnistui.",
@@ -19375,6 +19489,12 @@
  },
  "For the fastest response, please call the number below. You may still submit this report online, but a phone call ensures someone responds immediately.": {
   "t": "Nopein vastaus, soita alla olevaan numeroon. Voit silti lähettää tämän raportin verkossa, mutta puhelu varmistaa, että joku vastaa välittömästi.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "for this view. The map widget selection will NOT be changed.": {
+  "t": "Tätä näkemystä varten. Karttaelementtien valintaa EI muuteta.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22277,6 +22397,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Import failed:": {
+  "t": "Tuonti epäonnistui:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import failed: {value1}": {
+  "t": "Tuonti epäonnistui: {value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Import failed.": {
   "t": "Tuonti epäonnistui.",
   "src": "libretranslate",
@@ -22399,6 +22531,12 @@
  },
  "Imported fonts": {
   "t": "Tuodut kirjasimet",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Importing \"{name}\" will overwrite the current widget settings": {
+  "t": "Tuodaan \"{name}\" korvaa nykyisen widget asetukset",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -32651,6 +32789,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Plot Coordinates": {
+  "t": "Tonttikoordinaatit",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Plot Coordinates Settings": {
   "t": "Tonttikoordinaattien asetukset",
   "src": "libretranslate",
@@ -38621,6 +38765,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Shift": {
+  "t": "Vaihto",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Shipping labels, 2 across × 3 down": {
   "t": "Rahtimerkit, 2 x 3 alaspäin",
   "src": "libretranslate",
@@ -41417,6 +41567,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Subcategory value is not valid for \"{value}\". Please re-select.": {
+  "t": "Alaluokan arvo ei ole voimassa \"{value}\"Valitse uudelleen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Sublayer": {
   "t": "Alikerros",
   "src": "libretranslate",
@@ -41917,6 +42073,12 @@
  },
  "Table URL": {
   "t": "Taulukon URL",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Table view — sortable columns with all fields visible": {
+  "t": "Taulukkonäkymä",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -44233,6 +44395,18 @@
  },
  "Tick the box beside the layer to show it on the map. Untick it to hide it.": {
   "t": "Tick laatikko vieressä kerros näyttää sen kartalla. Avaa se piilottaaksesi sen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Ticket {value}{fullCat}, status {statusLabel}, priority {priLabel}": {
+  "t": "Lippu {value}{fullCat}, tila {statusLabel}, ensisijainen {priLabel}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Ticket {value}{fullCat}, status {statusLabel}, priority {priLabel}, {value2}": {
+  "t": "Lippu {value}{fullCat}, tila {statusLabel}, ensisijainen {priLabel}, {value2}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"

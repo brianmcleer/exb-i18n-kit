@@ -185,6 +185,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ ". Each table should show its title — if any say": {
+  "t": ". Всяка таблица трябва да покаже заглавието си .",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  ". Leave blank to use built-in defaults.": {
   "t": ". Оставете празни за използване вградени по подразбиране.",
   "src": "libretranslate",
@@ -1873,6 +1879,12 @@
  },
  "{value} features selected from drawing geometry.": {
   "t": "{value} функции, избрани от геометрията на чертежа.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{value}, new updates available": {
+  "t": "{value}, нови актуализации",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7529,6 +7541,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Card view — compact, mobile-friendly list": {
+  "t": "Преглед на картите - компактен, удобен за движение списък",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Cardinality": {
   "t": "Кардиналност",
   "src": "libretranslate",
@@ -7579,6 +7597,18 @@
  },
  "Category": {
   "t": "Категория",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Category \"{value}\" is not handled by \"{eA}\". Please update the category.": {
+  "t": "Категория \"{value}\"не се обработва от\"{eA}\". Моля, актуализирайте категорията.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Category {category}": {
+  "t": "Категория {category}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11027,6 +11057,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Continue?": {
+  "t": "Да продължа?",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Continuous": {
   "t": "Непрекъснато",
   "src": "libretranslate",
@@ -11653,6 +11689,24 @@
  },
  "Could not export the settings.": {
   "t": "Грешка при експортиране на настройките.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not load app config. Please enter the widget ID manually.\n\nYour config is at: server/public/apps/": {
+  "t": "Грешка при зареждане на конфигуриране на приложението. Моля, въведете ръчно джаджата ID. Конфигурирането Ви е на: сървър/публичен/приложения/",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not load app config. Please enter the widget ID manually.\n\nYour config is at: server/public/apps/{value1}": {
+  "t": "Грешка при зареждане на конфигуриране на приложението. Моля, въведете ръчно джаджата ID. Конфигурирането Ви е на: сървър/публичен/приложения/{value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not load app config. Please enter the widget ID manually.\n\nYour config is at: server/public/apps/{value1}/config.json\nSearch for \"property-report\" to find the widget ID.": {
+  "t": "Грешка при зареждане на конфигуриране на приложението. Моля, въведете ръчно джаджата ID. Конфигурирането Ви е на: сървър/публичен/приложения/{value1}/ config.json Търсене на \"право-доклад,\" за да намерите джаджа ID.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13439,6 +13493,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Department \"{eA}\" is not a valid option. Please re-select.": {
+  "t": "Отдел \"{eA}\" не е валиден вариант. Моля преизбери.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Department name, phone number, or other contact information for questions about the report.": {
   "t": "Име на департамента, телефонен номер или друга информация за връзка за въпроси относно доклада.",
   "src": "libretranslate",
@@ -13738,6 +13798,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Dismiss message": {
+  "t": "Свободно съобщение",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Dismiss notification": {
   "t": "Свободно уведомяване",
@@ -16691,8 +16757,44 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Error creating coordinate marker:": {
+  "t": "Грешка при създаване на координиращ маркер:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating coordinate marker: {value1}": {
+  "t": "Грешка при създаване на координиращ маркер: {value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Error creating PDF: {error}": {
   "t": "Грешка при създаване на PDF: {error}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating simple marker:": {
+  "t": "Грешка при създаване на прост маркер:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating simple marker: {value1}": {
+  "t": "Грешка при създаване на прост маркер: {value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating text graphic:": {
+  "t": "Грешка при създаване на текстова графика:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error creating text graphic: {value1}": {
+  "t": "Грешка при създаване на текстова графика: {value1}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17464,6 +17566,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Export failed:": {
+  "t": "Грешка при експортиране:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export failed: {value1}": {
+  "t": "Грешка при експортиране: {value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Export failed.": {
   "t": "Експортирането се провали.",
@@ -19399,6 +19513,12 @@
  },
  "For the fastest response, please call the number below. You may still submit this report online, but a phone call ensures someone responds immediately.": {
   "t": "За най-бързия отговор, моля обадете се на номера по-долу. Все още можете да подадете този доклад онлайн, но телефонно обаждане гарантира някой да отговори веднага.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "for this view. The map widget selection will NOT be changed.": {
+  "t": "за тази гледка. Изборът на карта джаджа няма да бъде променен.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22301,6 +22421,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Import failed:": {
+  "t": "Грешка при импортиране:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import failed: {value1}": {
+  "t": "Грешка при импортиране: {value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Import failed.": {
   "t": "Импортирането е неуспешно.",
   "src": "libretranslate",
@@ -22423,6 +22555,12 @@
  },
  "Imported fonts": {
   "t": "Импортиране на шрифтове",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Importing \"{name}\" will overwrite the current widget settings": {
+  "t": "Внасяне \"{name}\" ще презапише текущите настройки на джаджа",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -32675,6 +32813,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Plot Coordinates": {
+  "t": "Координати",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Plot Coordinates Settings": {
   "t": "Настройки на координатите",
   "src": "libretranslate",
@@ -38645,6 +38789,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Shift": {
+  "t": "Смяна",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Shipping labels, 2 across × 3 down": {
   "t": "Етикети за доставка, 2 встрани × 3 надолу",
   "src": "libretranslate",
@@ -41441,6 +41591,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Subcategory value is not valid for \"{value}\". Please re-select.": {
+  "t": "Подкатегорията не е валидна за \"{value}Моля, преизбери.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Sublayer": {
   "t": "Подреждане",
   "src": "libretranslate",
@@ -41941,6 +42097,12 @@
  },
  "Table URL": {
   "t": "Адрес на таблицата",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Table view — sortable columns with all fields visible": {
+  "t": "Гледка към масите - колони за сортиране с всички видими полета",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -44257,6 +44419,18 @@
  },
  "Tick the box beside the layer to show it on the map. Untick it to hide it.": {
   "t": "Отбележете кутията до слой, за да я покажете на картата. Развържи го, за да го скриеш.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Ticket {value}{fullCat}, status {statusLabel}, priority {priLabel}": {
+  "t": "Билет {value}{fullCat}, статус {statusLabel}, приоритет {priLabel}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Ticket {value}{fullCat}, status {statusLabel}, priority {priLabel}, {value2}": {
+  "t": "Билет {value}{fullCat}, статус {statusLabel}, приоритет {priLabel}, {value2}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
