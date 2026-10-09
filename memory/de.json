@@ -83,6 +83,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "(expression error)": {
+  "t": "(Ausdrucksfehler)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "(Mac) to temporarily disable snapping while drawing.": {
   "t": "(Mac) um das Schnappen während des Zeichnens vorübergehend zu deaktivieren.",
   "src": "libretranslate",
@@ -149,11 +155,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "{copy} does nothing: your browser blocked clipboard access. Click in the box below the buttons and press Ctrl+C instead.": {
+  "t": "{copy} tut nichts: Ihr Browser blockiert den Zugriff auf die Zwischenablage. Klicken Sie in das Feld unter den Tasten und drücken Sie stattdessen Strg + C.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{count} duplicate key values in the incoming data": {
   "t": "{count} doppelte Schlüsselwerte in den eingehenden Daten",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "{count} records": {
+  "t": "{count} Aufzeichnungen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "{count} rules": {
   "t": "{count} Vorschriften",
@@ -352,6 +370,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "{ms} ms": {
+  "t": "{ms} ms",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "{name}: a satellite view tilted so buildings and terrain show in 3D.": {
   "t": "{name}: eine Satellitenansicht gekippt, so dass Gebäude und Gelände in 3D zeigen.",
@@ -641,6 +665,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A black box of small text sits at the bottom of the screen: the diagnostic view is on. Ask the person who built the app to turn it off in the widget settings.": {
+  "t": "Eine schwarze Box mit kleinem Text befindet sich am unteren Rand des Bildschirms: Die Diagnoseansicht ist eingeschaltet. Bitten Sie die Person, die die App erstellt hat, sie in den Widget-Einstellungen auszuschalten.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A button opens a page with no picture: that website has no imagery for that spot. Try a spot nearby, or a different button.": {
+  "t": "Ein Button öffnet eine Seite ohne Bild: Diese Website hat keine Bilder für diesen Ort. Versuchen Sie einen Platz in der Nähe oder einen anderen Knopf.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A configured layer could not be queried. Check the layer URL and service access.": {
+  "t": "Eine konfigurierte Schicht konnte nicht abgefragt werden. Überprüfen Sie die Ebene URL und Service-Zugriff.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "a file from your computer": {
   "t": "eine Datei von Ihrem Computer",
   "src": "libretranslate",
@@ -659,6 +701,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A layer you expected is missing from the results: that layer is turned off in the map. Turn it back on in the layer list and click again.": {
+  "t": "Eine Ebene, die Sie erwartet haben, fehlt in den Ergebnissen: Diese Ebene ist in der Karte ausgeschaltet. Schalten Sie es in der Layerliste wieder ein und klicken Sie erneut.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A line or shape will not finish: double-click on the last point.": {
   "t": "Eine Linie oder Form endet nicht: Doppelklicken Sie auf den letzten Punkt.",
   "src": "libretranslate",
@@ -671,8 +719,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A message says the map's spatial reference cannot be converted: this widget reads Web Mercator, WGS84, UTM and Colorado State Plane maps. Ask whoever built this app about the map's coordinate system.": {
+  "t": "Eine Meldung besagt, dass der räumliche Bezug der Karte nicht konvertiert werden kann: Dieses Widget liest die Karten von Web Mercator, WGS84, UTM und Colorado State Plane. Fragen Sie, wer diese App gebaut hat, nach dem Koordinatensystem der Karte.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A negative longitude means west of Greenwich. A negative latitude means south of the equator.": {
   "t": "Ein negativer Längengrad bedeutet westlich von Greenwich. Ein negativer Breitengrad bedeutet südlich des Äquators.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A note says some sources could not be read: one service did not answer in time. What did arrive is still shown. Try the same click again in a moment.": {
+  "t": "Eine Notiz sagt, dass einige Quellen nicht gelesen werden konnten: Ein Dienst antwortete nicht rechtzeitig. Was angekommen ist, wird immer noch gezeigt. Versuchen Sie den gleichen Klick in einem Moment erneut.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -694,6 +754,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "A value that is a web address shows as a link. Click it and the page opens in a new tab, so the map stays as you left it.": {
+  "t": "Ein Wert, der eine Webadresse ist, wird als Link angezeigt. Klicken Sie darauf und die Seite öffnet sich in einem neuen Tab, so dass die Karte so bleibt, wie Sie sie verlassen haben.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "A warning says no target layer is configured: the app author has not chosen the layer to load into. Contact the GIS Division.": {
   "t": "Eine Warnung besagt, dass keine Zielschicht konfiguriert ist: Der App-Autor hat die Ebene nicht ausgewählt, in die er laden soll. Kontaktieren Sie die GIS Division.",
@@ -827,11 +893,29 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Add expression": {
+  "t": "Add Expression",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add format rule": {
+  "t": "Formatregel hinzufügen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add imported drawings to existing ones": {
   "t": "Importierte Zeichnungen zu bestehenden hinzufügen",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Add layer": {
+  "t": "Zusatzschicht",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Add map coordinate unit": {
   "t": "Kartenkoordinateneinheit hinzufügen",
@@ -1391,6 +1475,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Allows overlapping configured-layer features to participate in popup result cycling.": {
+  "t": "Ermöglicht überlappende Funktionen mit konfigurierten Schichten, am Popup-Ergebniszyklus teilzunehmen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Almost any address list out of a spreadsheet works.": {
   "t": "Fast jede Adressliste aus einer Tabelle funktioniert.",
   "src": "libretranslate",
@@ -1516,6 +1606,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Arcade expressions": {
+  "t": "Arcade-Ausdrücke",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "ArcGIS content: search for a layer that is already published.": {
   "t": "ArcGIS-Inhalte: Suchen Sie nach einem Layer, der bereits veröffentlicht ist.",
@@ -2741,8 +2837,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Click a feature on the map and its details open for you to read.": {
+  "t": "Klicken Sie auf eine Funktion auf der Karte und ihre Details sind für Sie zum Lesen geöffnet.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click a feature on the map to see its details.": {
+  "t": "Klicken Sie auf ein Feature auf der Karte, um die Details zu sehen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Click a measurement label to select it and begin editing": {
   "t": "Klicken Sie auf ein Messetikett, um es auszuwählen und mit der Bearbeitung zu beginnen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click a new spot at any time. The pin and the coordinates move to the new spot.": {
+  "t": "Klicken Sie jederzeit auf einen neuen Ort. Der Pin und die Koordinaten bewegen sich an die neue Stelle.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2767,6 +2881,12 @@
  },
  "Click in the box below the buttons and press Ctrl+C to copy what is in it.": {
   "t": "Klicken Sie in das Feld unter den Tasten und drücken Sie Strg + C, um zu kopieren, was sich darin befindet.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click it once. Give it a moment while the details are collected.": {
+  "t": "Klicken Sie einmal darauf. Geben Sie ihm einen Moment, während die Details gesammelt werden.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2899,6 +3019,12 @@
  },
  "Click the map to place the circle &bull; Esc to cancel": {
   "t": "Klicken Sie auf die Karte, um den Kreis &bull; Esc zu stornieren",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click the map. Native map popup results appear first, and configured REST endpoint results appear last.": {
+  "t": "Klicken Sie auf die Karte. Native Map Popup Ergebnisse erscheinen zuerst und konfigurierte REST Endpunkt Ergebnisse erscheinen zuletzt.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3041,11 +3167,23 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Click tolerance (pixels)": {
+  "t": "Klicktoleranz (Pixel)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Clicking the basemap with the check mark applies that same basemap again.": {
   "t": "Wenn Sie auf die Basemap mit dem Häkchen klicken, wird dieselbe Basemap erneut angewendet.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Clicking the same place again brings the details straight back.": {
+  "t": "Klicken Sie wieder auf die gleiche Stelle bringt die Details direkt zurück.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Close": {
   "t": "Schließen",
@@ -3091,6 +3229,12 @@
  },
  "Close the widget and its marks leave the map. Open it again and they come back, until you click {clear}.": {
   "t": "Schließen Sie das Widget und seine Markierungen verlassen die Karte. Öffnen Sie es wieder und sie kommen zurück, bis Sie klicken {clear}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Close the window with the small x at its top right when you are done.": {
+  "t": "Schließen Sie das Fenster mit dem kleinen x oben rechts, wenn Sie fertig sind.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3163,6 +3307,18 @@
  },
  "Color: {color}": {
   "t": "Farbe: {color}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Combined mode queries both sources on the same click, removes duplicates, and opens the results together.": {
+  "t": "Der kombinierte Modus fragt beide Quellen auf demselben Klick ab, entfernt Duplikate und öffnet die Ergebnisse zusammen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comma-separated field names to leave out of the popup content.": {
+  "t": "Komma-getrennte Feldnamen, um den Popup-Inhalt auszulassen.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3247,6 +3403,18 @@
  },
  "Configure Enhanced Locate": {
   "t": "Konfigurieren von Enhanced Locate",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Configured REST layers": {
+  "t": "Konfigurierte REST-Schichten",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Configured REST layers only": {
+  "t": "Nur konfigurierte REST-Schichten",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3569,6 +3737,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copy log": {
+  "t": "Kopierprotokoll",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copy settings XML to clipboard": {
   "t": "Einstellungen XML ins Clipboard kopieren",
   "src": "libretranslate",
@@ -3655,6 +3829,12 @@
  },
  "Ctrl+Z undoes the last change and Ctrl+Y brings it back.": {
   "t": "Strg + Z macht die letzte Änderung rückgängig und Strg + Y bringt sie zurück.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Currency (USD)": {
+  "t": "Währung (USD)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3821,6 +4001,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Cycling through popup results does not change the map extent or scale. The map moves only when the user selects the popup Zoom To action.": {
+  "t": "Durch das Durchlaufen von Popup-Ergebnissen wird die Kartenausdehnung oder -skala nicht verändert. Die Karte bewegt sich nur, wenn der Benutzer das Popup Zoom To Aktion auswählt.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Dark": {
   "t": "Dunkel",
   "src": "libretranslate",
@@ -3832,6 +4018,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Date": {
+  "t": "Datum",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Date and time": {
+  "t": "Datum und Uhrzeit",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Dates come in empty or wrong: the date text is not in the form the widget expected. On that rule choose dateParse and fill in Input date format, for example MM/DD/YYYY.": {
   "t": "Datumsangaben sind leer oder falsch: Der Datumstext hat nicht die Form, die das Widget erwartet hat. Wählen Sie nach dieser Regel dateParse aus und füllen Sie das Input-Datumsformat aus, z. B. MM/DD/YYYY.",
@@ -3889,6 +4087,12 @@
  },
  "Decimal Places:": {
   "t": "Dezimalstellen:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Decimals": {
+  "t": "Dezimalstellen",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4955,6 +5159,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Each layer has its own title, hidden fields, format rules, and Arcade expressions. Layers are queried in the order listed and are not drawn on the map.": {
+  "t": "Jede Ebene hat ihren eigenen Titel, versteckte Felder, Formatregeln und Arcade-Ausdrücke. Layers werden in der aufgeführten Reihenfolge abgefragt und nicht auf der Karte gezeichnet.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Each match has a score out of 100. The higher the score, the closer the match. The best match is first.": {
   "t": "Jedes Spiel hat eine Punktzahl von 100. Je höher die Punktzahl, desto näher das Spiel. Das beste Match ist das erste.",
   "src": "libretranslate",
@@ -5339,6 +5549,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Enabled": {
+  "t": "Aktiviert",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "End": {
   "t": "Ende",
   "src": "libretranslate",
@@ -5371,6 +5587,12 @@
  },
  "Enhanced Measurement": {
   "t": "Verbesserte Messung",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enter a layer URL first.": {
+  "t": "Geben Sie zuerst eine Layer-URL ein.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5603,6 +5825,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Expands a map click into a small screen-sized query area so point and line features are easier to identify.": {
+  "t": "Erweitert einen Kartenklick in einen kleinen bildschirmgroßen Abfragebereich, so dass Punkt- und Linienmerkmale leichter zu identifizieren sind.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "export": {
   "t": "Ausfuhren",
   "src": "libretranslate",
@@ -5825,6 +6053,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Extra layers: the person who built the app can add layers that are not drawn on the map. Their details are written for this app, so the labels can read differently.": {
+  "t": "Zusätzliche Schichten: Die Person, die die App erstellt hat, kann Schichten hinzufügen, die nicht auf der Karte gezeichnet sind. Ihre details sind für diese app geschrieben, so dass die labels anders lesen können.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "FacilityID": {
   "t": "FacilityID",
   "src": "libretranslate",
@@ -5861,8 +6095,32 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Feature": {
+  "t": "Merkmal",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Feature {idx}": {
   "t": "Merkmal {idx}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Feature Identify": {
+  "t": "Merkmalskennung",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Feature Identify debug (newest first)": {
+  "t": "Feature Identifizieren Debug (neueste zuerst)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Feature Identify tells you about whatever you click on the map.": {
+  "t": "Feature Identifier informiert Sie über alles, was Sie auf die Karte klicken.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5927,11 +6185,29 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Field formats": {
+  "t": "Feldformate",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Field mapping": {
   "t": "Feldeinteilung",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Field name": {
+  "t": "Feldname",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Field shown as the popup title. Leave blank to use the service display field.": {
+  "t": "Feld wird als Popup-Titel angezeigt. Lassen Sie leer, um das Dienstanzeigefeld zu verwenden.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "File detected, drop to upload.": {
   "t": "Datei erkannt, drop to upload.",
@@ -6017,6 +6293,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Final limit after map and configured results are merged and duplicates are removed.": {
+  "t": "Endgültige Grenze nach Karte und konfigurierten Ergebnissen werden zusammengeführt und Duplikate entfernt.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Find a basemap": {
   "t": "Finden Sie eine Basemap",
   "src": "libretranslate",
@@ -6025,6 +6307,12 @@
  },
  "Find a place on the map by its address, by its coordinates, or by clicking the map to get the address there.": {
   "t": "Finden Sie einen Platz auf der Karte nach ihrer Adresse, nach ihren Koordinaten oder indem Sie auf die Karte klicken, um die Adresse dort zu erhalten.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Find the feature you want on the map, such as a parcel, a road or a point.": {
+  "t": "Finden Sie die gewünschte Funktion auf der Karte, z. B. ein Paket, eine Straße oder einen Punkt.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6329,6 +6617,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Format a field as a number, currency, percent, or date, or turn it into a link built from a URL template with {FIELD_NAME} tokens.": {
+  "t": "Formatieren Sie ein Feld als Zahl, Währung, Prozent oder Datum oder verwandeln Sie es in einen Link, der aus einer URL-Vorlage mit {FIELD_NAME} Token.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Forward": {
   "t": "Vorwärts",
   "src": "libretranslate",
@@ -6373,6 +6667,12 @@
  },
  "from this session that haven't been saved yet.": {
   "t": "aus dieser Sitzung, die noch nicht gespeichert wurden.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Full URL to a queryable layer endpoint ending in a layer number. Use the public address that goes through your Web Adaptor, not a direct ArcGIS Server port.": {
+  "t": "Vollständige URL zu einem abfragbaren Layer-Endpunkt, der mit einer Layer-Nummer endet. Verwenden Sie die öffentliche Adresse, die über Ihren Webadapter geht, nicht einen direkten ArcGIS Server-Port.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6929,6 +7229,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Hex color for the selected feature outline. Polygon fill remains transparent.": {
+  "t": "Hex-Farbe für den ausgewählten Feature-Umriss. Polygonfüllung bleibt transparent.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hidden fields": {
+  "t": "Versteckte Felder",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Hide {label} ({abbreviation})": {
   "t": "Hüllen {label} (){abbreviation})",
   "src": "libretranslate",
@@ -6985,6 +7297,18 @@
  },
  "Hide measurements for {name}": {
   "t": "Hide-Messungen für {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Highlight outline color": {
+  "t": "Farbtonfarbe",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Highlight selected popup feature": {
+  "t": "Ausgewählte Popup-Funktion hervorheben",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7055,6 +7379,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "If nothing is found where you clicked, a short note appears in the widget.": {
+  "t": "Wenn nichts gefunden wird, wo Sie geklickt haben, erscheint eine kurze Notiz im Widget.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "If nothing is found where you clicked, a short window says so.": {
+  "t": "Wenn nichts gefunden wird, wo Sie geklickt haben, sagt ein kurzes Fenster dies.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "If something looks wrong": {
   "t": "Wenn etwas falsch aussieht",
   "src": "libretranslate",
@@ -7075,6 +7411,12 @@
  },
  "If you do not specify a number of seconds here then the popup will not auto close": {
   "t": "Wenn Sie hier keine Anzahl von Sekunden angeben, wird das Popup nicht automatisch geschlossen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "If your click finds more than one feature, small arrows at the top of the window step you through them, one at a time.": {
+  "t": "Wenn Ihr Klick mehr als eine Funktion findet, treten Sie mit kleinen Pfeilen oben im Fenster durch sie, einer nach dem anderen.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7193,8 +7535,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "In the map popup": {
+  "t": "Im Map Popup",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "In this widget panel": {
+  "t": "In diesem Widget-Panel",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "In View": {
   "t": "In Sicht",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include layers without configured popups": {
+  "t": "Hinzufügen von Layers ohne konfigurierte Popups",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7318,6 +7678,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Integer": {
+  "t": "Ganzzahl",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Integrations": {
   "t": "Integrationen",
@@ -7763,6 +8129,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Layer name (used as the data source label)": {
+  "t": "Layername (verwendet als Datenquellenlabel)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layer REST URL": {
+  "t": "REST-URL",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Layer title": {
   "t": "Schichttitel",
   "src": "libretranslate",
@@ -7927,6 +8305,18 @@
  },
  "Lines and areas finish on a double-click. A point or a rectangle finishes on its own.": {
   "t": "Linien und Bereiche enden mit einem Doppelklick. Ein Punkt oder ein Rechteck endet von selbst.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Link": {
+  "t": "Link",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Link text (optional)": {
+  "t": "Linktext (fakultativ)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8369,6 +8759,42 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Map layers and configured REST layers": {
+  "t": "Kartenebenen und konfigurierte REST-Schichten",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map layers: any layer that is turned on and drawn on the map can answer, using the wording set up in the map itself.": {
+  "t": "Kartenebenen: Jede Ebene, die eingeschaltet und auf der Karte gezeichnet ist, kann mit dem in der Karte selbst festgelegten Wortlaut antworten.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map popup layers": {
+  "t": "Kartenpopupschichten",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map popup layers only": {
+  "t": "Nur Map-Popup-Layer",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map popup results are always listed first. Configured REST endpoint results are appended last.": {
+  "t": "Map Popup Ergebnisse werden immer zuerst aufgeführt. Konfigurierte REST-Endpunktergebnisse werden zuletzt angehängt.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map popups stopped appearing: they are paused while this widget is open so your click places a pin instead. Close the widget to get them back.": {
+  "t": "Karten-Popups erscheinen nicht mehr: Sie werden angehalten, während dieses Widget geöffnet ist, so dass Ihr Klick stattdessen eine Pin platziert. Schließen Sie das Widget, um sie zurückzubekommen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map Units (linear)": {
   "t": "Karteneinheiten (linear)",
   "src": "libretranslate",
@@ -8467,6 +8893,12 @@
  },
  "Maximum number of saved drawings": {
   "t": "Maximale Anzahl gespeicherter Zeichnungen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Maximum popup results": {
+  "t": "Maximum Popup Ergebnisse",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9137,6 +9569,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No feature found at that location.": {
+  "t": "Kein Feature an diesem Ort gefunden.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No feature layers on the map to style yet.": {
   "t": "Noch keine Feature-Layer auf der Karte zum Stylen.",
   "src": "libretranslate",
@@ -9203,6 +9641,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No map selected. Open the widget settings and choose a map.": {
+  "t": "Keine Karte ausgewählt. Öffnen Sie die Widget-Einstellungen und wählen Sie eine Karte.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No map widget connected": {
   "t": "Kein Map Widget verbunden",
   "src": "libretranslate",
@@ -9256,6 +9700,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "No results": {
+  "t": "Keine Ergebnisse",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "No Results Found": {
   "t": "Keine Ergebnisse gefunden",
@@ -9377,11 +9827,41 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Nothing happens when you click the map: the widget is closed or was not placed on this screen size. Open Feature Identify from the app, then click the map again.": {
+  "t": "Nichts passiert, wenn Sie auf die Karte klicken: Das Widget ist geschlossen oder wurde nicht auf dieser Bildschirmgröße platziert. Öffnen Sie Feature Identifizieren Sie aus der App und klicken Sie dann erneut auf die Karte.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Nothing happens when you click the map: the widget is not connected to a map. Ask whoever built this app to check the map setting.": {
+  "t": "Nichts passiert, wenn Sie auf die Karte klicken: Das Widget ist nicht mit einer Karte verbunden. Fragen Sie, wer diese App erstellt hat, um die Karteneinstellung zu überprüfen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Nothing in the guide matches that word. Try another, or open the sections above.": {
   "t": "Nichts im Guide passt zu diesem Wort. Versuchen Sie es mit einem anderen oder öffnen Sie die obigen Abschnitte.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Nothing is found where you know a feature is: the click landed just off the edge. Zoom in and click again, nearer the middle of the feature.": {
+  "t": "Nichts wird gefunden, wo Sie wissen, dass eine Funktion ist: der Klick landete direkt am Rand. Zoomen Sie ein und klicken Sie erneut, näher an der Mitte des Features.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Nothing you click here changes the data. You are only reading it.": {
+  "t": "Nichts, was Sie hier klicken, ändert die Daten. Du liest es nur.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Notify other widgets of the selected result": {
+  "t": "Benachrichtigen Sie andere Widgets über das ausgewählte Ergebnis",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Noto Sans": {
   "t": "Noto Sans",
@@ -9412,6 +9892,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Number": {
+  "t": "Nummer",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Number of decimal places for area and perimeter measurements, minimum 0, maximum 10": {
   "t": "Zahl der Dezimalstellen für Flächen- und Umfangsmessungen, mindestens 0, höchstens 10",
@@ -9599,6 +10085,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "One click asks {sources}.": {
+  "t": "Ein Klick fragt {sources}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Only basemaps with that text in their names stay in the gallery.": {
   "t": "Nur basemaps mit diesem text in ihren namen bleiben in der galerie.",
   "src": "libretranslate",
@@ -9665,6 +10157,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Open result list when multiple": {
+  "t": "Offene Ergebnisliste, wenn mehrere",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Open text formatting options panel": {
   "t": "Panel für offene Textformatierungsoptionen",
   "src": "libretranslate",
@@ -9689,6 +10187,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Optional. Overrides the title field. The identified feature is available as $feature.": {
+  "t": "Fakultativ. Überschreibt das Titelfeld. Die identifizierte Funktion ist als $feature verfügbar.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "or": {
   "t": "oder",
   "src": "libretranslate",
@@ -9706,6 +10210,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Other parts of the app, such as a table, can follow along and show the same record.": {
+  "t": "Andere Teile der App, wie eine Tabelle, können folgen und den gleichen Datensatz anzeigen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Outline": {
   "t": "Gliederung",
@@ -9743,6 +10253,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Outline width (px)": {
+  "t": "Umrissbreite (px)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Outline-only disabled{count}": {
   "t": "Nur Gliederung behindert{count}",
   "src": "libretranslate",
@@ -9773,6 +10289,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Panel mode is retained for legacy use. It queries only the configured REST layers and leaves the map's normal popup behavior unchanged.": {
+  "t": "Der Panel-Modus wird für die Legacy-Nutzung beibehalten. Es fragt nur die konfigurierten REST-Layer ab und lässt das normale Popup-Verhalten der Karte unverändert.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Parent Widget Controller": {
   "t": "Eltern Widget Controller",
   "src": "libretranslate",
@@ -9799,6 +10321,12 @@
  },
  "PDF…": {
   "t": "PDF...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Percent": {
+  "t": "Prozent",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9910,6 +10438,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Pictometry asks you to sign in: the Pictometry viewer needs its own account. Ask whoever built this app if you should have one.": {
+  "t": "Piktometrie fordert Sie auf, sich anzumelden: Der Piktometrie-Viewer benötigt ein eigenes Konto. Fragen sie, wer diese app gebaut hat, ob sie eine haben sollten.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Pictometry Base URL": {
   "t": "Basis-URL der Piktometrie",
@@ -10115,6 +10649,30 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Popup mode takes ownership of the map click, gathers every enabled source, and opens one coordinated native popup.": {
+  "t": "Der Popup-Modus übernimmt den Kartenklick, sammelt jede aktivierte Quelle und öffnet ein koordiniertes natives Popup.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Popup sources": {
+  "t": "Popupquellen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Popup workflow": {
+  "t": "Popup-Workflow",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Port {port} is a direct ArcGIS Server port. It usually cannot be reached from phones or outside your network. Use the Web Adaptor URL on the standard port.": {
+  "t": "Hafen {port} ist ein direkter ArcGIS Server Port. Es kann normalerweise nicht von Telefonen oder außerhalb Ihres Netzwerks erreicht werden. Verwenden Sie die Web Adapter URL auf dem Standard-Port.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Portal Source": {
   "t": "Portalquelle",
   "src": "libretranslate",
@@ -10126,6 +10684,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Prefix": {
+  "t": "Präfix",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Preset Circle Size": {
   "t": "Voreingestellte Kreisgröße",
@@ -10180,6 +10744,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Press Esc to clear the pin and start over.": {
+  "t": "Drücken Sie Esc, um den Pin zu löschen und von vorne zu beginnen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Press Esc to stop drawing.": {
   "t": "Drücken Sie Esc, um das Zeichnen zu stoppen.",
@@ -10289,6 +10859,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Publishes a records-selection-changed message when a result is selected, so widgets such as Table or Property Report can respond to the identify click.": {
+  "t": "Veröffentlicht eine datensatzselektionsgeänderte nachricht, wenn ein ergebnis ausgewählt wird, so dass widgets wie table oder property report auf den identifizierungsklick reagieren können.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Radius": {
   "t": "Radius",
   "src": "libretranslate",
@@ -10303,6 +10879,18 @@
  },
  "Radius measurement enabled. Display the circle radius.": {
   "t": "Radiusmessung möglich. Den Kreisradius anzeigen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Read the details here in the widget.": {
+  "t": "Lesen Sie die Details hier im Widget.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Read the details in the window that opens over the map.": {
+  "t": "Lesen Sie die Details im Fenster, das sich über der Karte öffnet.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10324,6 +10912,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Reading the details": {
+  "t": "Lesen Sie die Details",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Reading the numbers": {
   "t": "Lesen der Zahlen",
@@ -10445,6 +11039,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Remove": {
+  "t": "Entfernen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Remove basemap": {
   "t": "Basemap entfernen",
   "src": "libretranslate",
@@ -10468,6 +11068,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Remove duplicate records": {
+  "t": "Duplikate entfernen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Remove from favorites": {
   "t": "Aus Favoriten entfernen",
@@ -10661,6 +11267,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Results from the map come first. Results from the extra layers come after them.": {
+  "t": "Die Ergebnisse der Karte stehen an erster Stelle. Ergebnisse aus den zusätzlichen Schichten kommen nach ihnen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Results per configured layer": {
+  "t": "Ergebnisse pro konfigurierter Schicht",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Return to beginning of text editor": {
   "t": "Zurück zum Anfang des Texteditors",
   "src": "libretranslate",
@@ -10817,6 +11435,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Row label, or blank for full popup content": {
+  "t": "Zeilenetikett oder leer für vollständigen Popup-Inhalt",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Rows to include": {
   "t": "Zeilen mit",
   "src": "libretranslate",
@@ -10945,6 +11569,12 @@
  },
  "Search the guide (try \"address\" or \"latitude\")": {
   "t": "Durchsuchen Sie den Leitfaden (versuchen Sie \"Adresse\" oder \"Breitengrad\")",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Search the guide (try \"click\" or \"popup\")": {
+  "t": "Durchsuchen Sie den Leitfaden (versuchen Sie \"Klick\" oder \"Popup\")",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11207,6 +11837,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Select Map Widget": {
+  "t": "Map Widget auswählen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select multiple measurements": {
   "t": "Mehrere Messungen auswählen",
   "src": "libretranslate",
@@ -11299,6 +11935,12 @@
  },
  "Selected Layer": {
   "t": "Ausgewählte Schicht",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Selection": {
+  "t": "Auswahl",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11585,6 +12227,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Show no-result popup": {
+  "t": "Popup ohne Ergebnis anzeigen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show on map & zoom to loaded": {
   "t": "Show on Map & Zoom zum Laden",
   "src": "libretranslate",
@@ -11611,6 +12259,12 @@
  },
  "Show Pictometry Button": {
   "t": "Piktometrie-Taste anzeigen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show results": {
+  "t": "Showergebnisse",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11909,6 +12563,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Some popup sources could not be queried. Successful results are still shown.": {
+  "t": "Einige Popup-Quellen konnten nicht abgefragt werden. Erfolgreiche Ergebnisse werden immer noch gezeigt.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Some records failed: their values did not suit the fields in the layer. Use Download failed rows (CSV), fix those rows, and load them again.": {
   "t": "Einige Datensätze scheiterten: Ihre Werte passten nicht zu den Feldern in der Ebene. Verwenden Sie Download failed rows (CSV), beheben Sie diese Zeilen und laden Sie sie erneut.",
   "src": "libretranslate",
@@ -12071,6 +12731,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Still stuck? Contact the GIS Division and mention the External Map Coordinates name and this app.": {
+  "t": "Immer noch stecken? Kontaktieren Sie die GIS-Abteilung und erwähnen Sie den Namen der externen Kartenkoordinaten und diese App.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Still stuck? Contact the GIS Division and mention the Feature Identify widget and this app.": {
+  "t": "Immer noch stecken? Kontaktieren Sie die GIS-Abteilung und erwähnen Sie das Feature Identification-Widget und diese App.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Still stuck? Contact your GIS team and mention the Draw Advanced widget and this app.": {
   "t": "Immer noch stecken? Kontaktieren Sie Ihr GIS-Team und erwähnen Sie das Draw Advanced Widget und diese App.",
   "src": "libretranslate",
@@ -12124,6 +12796,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Suffix": {
+  "t": "Suffix",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Summary Statistics": {
   "t": "Zusammenfassung der Statistiken",
@@ -12253,6 +12931,24 @@
  },
  "Template for polyline length labels.": {
   "t": "Meldebogen für Etiketten mit polylinearer Länge.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Test": {
+  "t": "Test",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Test failed:": {
+  "t": "Test fehlgeschlagen:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Testing from this browser...": {
+  "t": "Testen mit diesem Browser...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12479,6 +13175,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The configured layer did not respond in time.": {
+  "t": "Die konfigurierte Schicht reagierte nicht rechtzeitig.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The configured layer source is enabled, but no layer REST URL is configured.": {
+  "t": "Die konfigurierte Schichtquelle ist aktiviert, aber keine Schicht REST URL ist konfiguriert.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "the coordinates": {
   "t": "die Koordinaten",
   "src": "libretranslate",
@@ -12515,8 +13223,32 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The details are listed in the widget, under a title.": {
+  "t": "Die Details sind im Widget unter einem Titel aufgeführt.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The details box closes by itself after a few seconds. Keep the mouse over it and it stays open.": {
   "t": "Die Detailbox schließt sich nach wenigen Sekunden von selbst. Halten Sie die Maus darüber und es bleibt offen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The details open in a small window over the map.": {
+  "t": "Die Details öffnen sich in einem kleinen Fenster über der Karte.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The details show in the widget instead of over the map: the map window could not open on this device. This happens on some phones and the first result is shown in the widget instead.": {
+  "t": "Die Details werden im Widget statt über der Karte angezeigt: Das Kartenfenster konnte sich auf diesem Gerät nicht öffnen. Dies geschieht bei einigen Telefonen und das erste Ergebnis wird stattdessen im Widget angezeigt.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The details take a long time: a service is busy answering. Wait a few seconds, then click again in the same place.": {
+  "t": "Die Details dauern lange: Ein Dienst ist damit beschäftigt, zu antworten. Warten Sie ein paar Sekunden und klicken Sie dann erneut an der gleichen Stelle.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12538,6 +13270,24 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "the extra layers set up for this app": {
+  "t": "Die zusätzlichen schichten, die für diese app eingerichtet wurden.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The feature you are looking at": {
+  "t": "Das Feature, das Sie sich ansehen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The feature you are reading is outlined on the map, so you can see which one it is.": {
+  "t": "Die Funktion, die Sie lesen, ist auf der Karte skizziert, sodass Sie sehen können, um welche es sich handelt.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The file lands in your downloads folder, named after your file with the date and time.": {
   "t": "Die Datei landet in Ihrem Download-Ordner, benannt nach Ihrer Datei mit Datum und Uhrzeit.",
@@ -12599,11 +13349,35 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "the layers drawn on the map": {
+  "t": "die auf der Karte gezeichneten Schichten",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The line at the top of the widget names the feature you clicked.": {
+  "t": "Die Zeile oben im Widget benennt die Funktion, auf die Sie geklickt haben.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The line at the top of the window names the feature you clicked.": {
+  "t": "Die Zeile oben im Fenster benennt die Funktion, auf die Sie geklickt haben.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The Load step checks the work, then writes the records into the layer.": {
   "t": "Der Schritt Laden überprüft die Arbeit und schreibt dann die Datensätze in die Ebene.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The map does not move or change scale by itself. Use the zoom action in the details when you want the map to go there.": {
+  "t": "Die Karte bewegt oder ändert den Maßstab nicht von selbst. Verwenden Sie die Zoom-Aktion in den Details, wenn Sie möchten, dass die Karte dorthin geht.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The map is blank: that basemap may not have pictures for this area or zoom level. Try a different basemap.": {
   "t": "Die Karte ist leer: Diese Basemap enthält möglicherweise keine Bilder für diesen Bereich oder diese Zoomstufe. Versuchen Sie eine andere Basemap.",
@@ -12622,6 +13396,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The map popup could not be opened on this device, so the first result is shown here instead.": {
+  "t": "Das Karten-Popup konnte auf diesem Gerät nicht geöffnet werden, daher wird das erste Ergebnis hier angezeigt.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The map popup layers could not be queried.": {
+  "t": "Die Karten-Popup-Layer konnten nicht abgefragt werden.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The numbers describe the spot you clicked, not the center of the map.": {
   "t": "Die Zahlen beschreiben die Stelle, auf die Sie geklickt haben, nicht die Mitte der Karte.",
@@ -12643,6 +13429,12 @@
  },
  "The pin button turns itself off after one click. Click it again for the next spot.": {
   "t": "Die Pin-Taste schaltet sich nach einem Klick aus. Klicken Sie erneut für den nächsten Spot.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The pin disappears when you close the widget. Copy the coordinates first if you need to keep them.": {
+  "t": "Der Pin verschwindet, wenn Sie das Widget schließen. Kopieren Sie die Koordinaten zuerst, wenn Sie sie behalten müssen.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12695,6 +13487,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "the service did not respond in time.": {
+  "t": "Der Dienst reagierte nicht rechtzeitig.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The shapes are 1:1 for one field into one field, M:1 to join several fields into one, 1:M to split one field into several, and M:M for the rest.": {
   "t": "Die Formen sind 1:1 für ein Feld in ein Feld, M:1, um mehrere Felder zu einem zu verbinden, 1:M, um ein Feld in mehrere zu teilen, und M:M für den Rest.",
   "src": "libretranslate",
@@ -12739,6 +13537,24 @@
  },
  "The tools, button by button": {
   "t": "Die Werkzeuge, Button für Button",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The URL does not look like an ArcGIS REST endpoint (/rest/services/ is missing).": {
+  "t": "Die URL sieht nicht wie ein ArcGIS REST-Endpunkt aus (/rest/services/ fehlt).",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The URL should end in a layer number, such as /MapServer/0.": {
+  "t": "Die URL sollte in einer Layernummer enden, z. B. /MapServer/0.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The URL uses http. Apps served over https cannot load it.": {
+  "t": "Die URL verwendet http. Apps, die über https bereitgestellt werden, können sie nicht laden.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12805,6 +13621,12 @@
  },
  "The widget looks up the nearest address and marks it with a house.": {
   "t": "Das Widget sucht die nächste Adresse und markiert sie mit einem Haus.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The widget says no map is selected: it has not been joined to a map yet. Ask the person who built the app to pick the map in the widget settings.": {
+  "t": "Das Widget sagt, dass keine Karte ausgewählt ist: Es wurde noch nicht mit einer Karte verbunden. Bitten Sie die Person, die die App erstellt hat, die Karte in den Widget-Einstellungen auszuwählen.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12881,6 +13703,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "This is not a valid URL.": {
+  "t": "Dies ist keine gültige URL.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "This map uses spatial reference {wkid} which the widget cannot convert. Please use a Web Mercator or WGS84 basemap.": {
   "t": "Diese Karte verwendet räumlichen Bezug {wkid} die das Widget nicht konvertieren kann. Bitte verwenden Sie einen Web Mercator oder eine WGS84 Basemap.",
   "src": "libretranslate",
@@ -12955,6 +13783,18 @@
  },
  "Tick \"{limit}\" to look only inside the area the map shows now. This helps when the same street name is in another town.": {
   "t": "Zecken{limit}„Nur in den Bereich zu schauen, den die Karte jetzt zeigt. Dies hilft, wenn der gleiche Straßenname in einer anderen Stadt ist.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Title expression (Arcade)": {
+  "t": "Titelausdruck (Arcade)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Title field": {
+  "t": "Titelfeld",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13415,6 +14255,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Under the title is a list. Each line has a label on the left and the value for that feature on the right.": {
+  "t": "Unter dem Titel steht eine Liste. Jede Zeile hat ein Label auf der linken Seite und den Wert für dieses Feature auf der rechten Seite.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Underline": {
   "t": "Unterstrich",
   "src": "libretranslate",
@@ -13643,6 +14489,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Unnamed layer": {
+  "t": "Unbenannte Schicht",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Update": {
   "t": "Aktualisierung",
   "src": "libretranslate",
@@ -13733,6 +14585,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Use a label for a scalar row expression. Leave the label blank when the Arcade returns a full Popup Element dictionary, such as { type: 'text', text: content }. Full popup expressions replace the automatically generated attribute rows.": {
+  "t": "Verwenden Sie ein Label für einen skalaren Zeilenausdruck. Lassen Sie das Etikett leer, wenn die Arcade ein vollständiges Popup-Element-Wörterbuch wie {type: 'text', text: content } zurückgibt. Vollständige Popup-Ausdrücke ersetzen die automatisch generierten Attributzeilen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Use ctrl+c or right-click to copy to the clipboard.": {
   "t": "Verwenden Sie ctrl + c oder Rechtsklick, um in die Zwischenablage zu kopieren.",
   "src": "libretranslate",
@@ -13750,6 +14608,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Use field aliases": {
+  "t": "Nutzfeldaliase",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Use source geometry": {
   "t": "Geometrie der Quelle",
@@ -13931,6 +14795,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Warning: the layer does not list the Query capability.": {
+  "t": "Warnung: Die Ebene listet die Abfragefähigkeit nicht auf.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Warnings:": {
   "t": "Warnungen:",
   "src": "libretranslate",
@@ -13991,6 +14861,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "When enabled, visible popup-capable map layers can use an automatically generated default popup. Leave disabled to honor the web map popup configuration exactly.": {
+  "t": "Wenn es aktiviert ist, können sichtbare Popup-fähige Kartenebenen ein automatisch generiertes Standard-Popup verwenden. Lassen Sie es deaktiviert, um die Popup-Konfiguration der Webmap genau zu würdigen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "When enabled, your drawing cursor will automatically snap to grid intersection points for precise alignment.": {
   "t": "Wenn Sie aktiviert sind, schnappt Ihr Zeichencursor automatisch zu Gitterschnittpunkten für eine präzise Ausrichtung.",
   "src": "libretranslate",
@@ -14015,6 +14891,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "When the same record comes back from both, you see it once, not twice.": {
+  "t": "Wenn die gleiche Aufzeichnung von beiden zurückkommt, sehen Sie sie einmal, nicht zweimal.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "When you come back, a bar at the top offers to bring back what you measured last time. Click Restore to bring it back or the x to discard it.": {
   "t": "Wenn Sie zurückkommen, bietet eine Bar an der Spitze an, das zurückzubringen, was Sie beim letzten Mal gemessen haben. Klicken Sie auf Wiederherstellen, um es zurückzubringen, oder auf das X, um es zu verwerfen.",
   "src": "libretranslate",
@@ -14023,6 +14905,12 @@
  },
  "Where each format is offered": {
   "t": "Wo jedes Format angeboten wird",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Where the details come from": {
+  "t": "Woher die Details kommen",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14255,6 +15143,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "You can also open the list at the top of the window and pick the feature you want by name.": {
+  "t": "Sie können die Liste auch oben im Fenster öffnen und die gewünschte Funktion nach Namen auswählen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "You can delete a record from the form. There is no undo, so check before you do.": {
   "t": "Sie können einen Datensatz aus dem Formular löschen. Es gibt keine Rückgängigmachung, also überprüfen Sie, bevor Sie es tun.",
   "src": "libretranslate",
@@ -14317,6 +15211,12 @@
  },
  "Zoom and scale follow the map. They change as you zoom in or out, even before you click.": {
   "t": "Zoom und Maßstab folgen der Karte. Sie ändern sich, wenn Sie ein- oder auszoomen, noch bevor Sie klicken.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zoom in before you click where features sit close together. You get a shorter, clearer list.": {
+  "t": "Zoom in, bevor Sie klicken, wo Features dicht beieinander sitzen. Sie erhalten eine kürzere, klarere Liste.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"

@@ -83,6 +83,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "(expression error)": {
+  "t": "(ilmausvirhe)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "(Mac) to temporarily disable snapping while drawing.": {
   "t": "(Mac) tilapäisesti poistaa napsautuksen käytöstä piirroksen aikana.",
   "src": "libretranslate",
@@ -149,11 +155,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "{copy} does nothing: your browser blocked clipboard access. Click in the box below the buttons and press Ctrl+C instead.": {
+  "t": "{copy} ei mitään: selaimesi estää leikepöydän pääsyn. Napsauta painikkeiden alapuolella olevaa laatikkoa ja paina Ctrl+C sen sijaan.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{count} duplicate key values in the incoming data": {
   "t": "{count} kaksoiskappaleet saapuvissa tiedoissa",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "{count} records": {
+  "t": "{count} tiedot",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "{count} rules": {
   "t": "{count} säännöt",
@@ -352,6 +370,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "{ms} ms": {
+  "t": "{ms} ms",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "{name}: a satellite view tilted so buildings and terrain show in 3D.": {
   "t": "{name}: satelliittinäkymä kallistui niin rakennukset ja maasto show 3D.",
@@ -641,6 +665,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A black box of small text sits at the bottom of the screen: the diagnostic view is on. Ask the person who built the app to turn it off in the widget settings.": {
+  "t": "Pienen tekstin musta laatikko istuu näytön alareunassa: diagnostinen näkymä on päällä. Pyydä sovelluksen rakentajaa sammuttamaan se widget-asetuksissa.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A button opens a page with no picture: that website has no imagery for that spot. Try a spot nearby, or a different button.": {
+  "t": "Painike avaa sivun ilman kuvaa: että sivustolla ei ole kuvia että paikka. Kokeile lähistöllä olevaa paikkaa tai toista nappia.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A configured layer could not be queried. Check the layer URL and service access.": {
+  "t": "Määritettyä kerrosta ei voitu tiedustella. Tarkista kerroksen URL ja palvelun pääsy.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "a file from your computer": {
   "t": "tiedosto tietokoneeltasi",
   "src": "libretranslate",
@@ -659,6 +701,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A layer you expected is missing from the results: that layer is turned off in the map. Turn it back on in the layer list and click again.": {
+  "t": "Tuloksista puuttuu odotettu kerros: tämä kerros on pois päältä kartalta. Laita se takaisin päälle kerroslistalla ja klikkaa uudelleen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A line or shape will not finish: double-click on the last point.": {
   "t": "Rivi tai muoto ei pääty: kaksoisnapsauta viimeistä kohtaa.",
   "src": "libretranslate",
@@ -671,8 +719,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A message says the map's spatial reference cannot be converted: this widget reads Web Mercator, WGS84, UTM and Colorado State Plane maps. Ask whoever built this app about the map's coordinate system.": {
+  "t": "Viestin mukaan kartan spatiaalista viitettä ei voida muuntaa: tämä widget lukee Web Mercator-, WGS84-, UTM- ja Colorado State Plane -karttoja. Kysy sovelluksen rakentajalta kartan koordinaattijärjestelmästä.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A negative longitude means west of Greenwich. A negative latitude means south of the equator.": {
   "t": "Negatiivinen pituuspiiri tarkoittaa Greenwichistä länteen. Negatiivinen leveysaste tarkoittaa päiväntasaajan eteläosaa.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A note says some sources could not be read: one service did not answer in time. What did arrive is still shown. Try the same click again in a moment.": {
+  "t": "Viestin mukaan joitakin lähteitä ei voitu lukea: yksi palvelu ei vastannut ajoissa. Se, mitä tuli, näkyy yhä. Kokeile samaa napsauttamalla uudelleen hetkessä.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -694,6 +754,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "A value that is a web address shows as a link. Click it and the page opens in a new tab, so the map stays as you left it.": {
+  "t": "Arvo, joka on web-osoite näyttää linkin. Napsauta sitä ja sivu aukeaa uudessa välilehdessä, joten kartta pysyy kuten jätit sen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "A warning says no target layer is configured: the app author has not chosen the layer to load into. Contact the GIS Division.": {
   "t": "Varoituksen mukaan kohdekerrosta ei ole määritetty: sovelluksen tekijä ei ole valinnut ladattavaa kerrosta. Ota yhteys GIS-osastoon.",
@@ -827,11 +893,29 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Add expression": {
+  "t": "Lisää lauseke",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add format rule": {
+  "t": "Lisää muotosääntö",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add imported drawings to existing ones": {
   "t": "Lisää tuotuja piirustuksia olemassa oleviin piirustuksiin",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Add layer": {
+  "t": "Lisää kerros",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Add map coordinate unit": {
   "t": "Lisää karttakoordinaattiyksikkö",
@@ -1391,6 +1475,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Allows overlapping configured-layer features to participate in popup result cycling.": {
+  "t": "Mahdollistaa päällekkäisten konfiguroitu-kerros ominaisuudet osallistua ponnahdusikkunan tulos pyöräily.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Almost any address list out of a spreadsheet works.": {
   "t": "Lähes mikä tahansa osoiteluettelo laskentataulukko teoksia.",
   "src": "libretranslate",
@@ -1516,6 +1606,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Arcade expressions": {
+  "t": "Arcade-ilmaisut",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "ArcGIS content: search for a layer that is already published.": {
   "t": "ArcGIS-sisältö: etsi jo julkaistu kerros.",
@@ -2741,8 +2837,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Click a feature on the map and its details open for you to read.": {
+  "t": "Napsauta kartan ominaisuutta ja sen yksityiskohtia voit lukea.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click a feature on the map to see its details.": {
+  "t": "Napsauta karttaa nähdäksesi sen yksityiskohdat.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Click a measurement label to select it and begin editing": {
   "t": "Napsauta mittausetikettiä valitaksesi sen ja aloita muokkaus",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click a new spot at any time. The pin and the coordinates move to the new spot.": {
+  "t": "Klikkaa uusi paikka milloin tahansa. Pin ja koordinaatit siirtyvät uuteen paikkaan.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2767,6 +2881,12 @@
  },
  "Click in the box below the buttons and press Ctrl+C to copy what is in it.": {
   "t": "Napsauta painikkeiden alla olevaa laatikkoa ja paina Ctrl+C kopioidaksesi sen sisällön.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click it once. Give it a moment while the details are collected.": {
+  "t": "Klikkaa sitä kerran. Odota hetki, kun tiedot kerätään.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2899,6 +3019,12 @@
  },
  "Click the map to place the circle &bull; Esc to cancel": {
   "t": "Napsauta karttaa sijoittaaksesi ympyrän & Bull; Esc peruuttaaksesi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click the map. Native map popup results appear first, and configured REST endpoint results appear last.": {
+  "t": "Klikkaa karttaa. Ensisijainen kartta ponnahdusikkuna tulokset näkyvät ensin, ja konfiguroitu REST päätepiste tulokset näkyvät viime.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3041,11 +3167,23 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Click tolerance (pixels)": {
+  "t": "Klikkaa toleranssia (pikseliä)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Clicking the basemap with the check mark applies that same basemap again.": {
   "t": "Klikkaamalla basemapin kanssa tarkistusmerkki koskee samaa pohjakartta jälleen.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Clicking the same place again brings the details straight back.": {
+  "t": "Klikkaaminen saman paikan uudelleen tuo yksityiskohdat suoraan takaisin.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Close": {
   "t": "Sulje",
@@ -3091,6 +3229,12 @@
  },
  "Close the widget and its marks leave the map. Open it again and they come back, until you click {clear}.": {
   "t": "Sulje vekotin ja sen merkit poistuvat kartalta. Avaa se uudelleen ja he tulevat takaisin, kunnes napsautat {clear}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Close the window with the small x at its top right when you are done.": {
+  "t": "Sulje ikkuna pienellä x: llä oikeassa yläreunassa.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3163,6 +3307,18 @@
  },
  "Color: {color}": {
   "t": "Väri: {color}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Combined mode queries both sources on the same click, removes duplicates, and opens the results together.": {
+  "t": "Yhdistetty tila tiedustelee sekä lähteitä samalla napsautuksella, poistaa kaksoiskappaleet ja avaa tulokset yhdessä.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comma-separated field names to leave out of the popup content.": {
+  "t": "Pilkulla erotettujen kentän nimien jättää pois ponnahdusikkunan sisältöä.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3247,6 +3403,18 @@
  },
  "Configure Enhanced Locate": {
   "t": "Aseta parannettu sijainti",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Configured REST layers": {
+  "t": "Asetetut REST-tasot",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Configured REST layers only": {
+  "t": "Vain asetustasot",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3569,6 +3737,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copy log": {
+  "t": "Kopioi loki",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copy settings XML to clipboard": {
   "t": "Kopioi asetukset XML leikepöydälle",
   "src": "libretranslate",
@@ -3655,6 +3829,12 @@
  },
  "Ctrl+Z undoes the last change and Ctrl+Y brings it back.": {
   "t": "Ctrl+Z avaa viimeisen muutoksen ja Ctrl+Y tuo sen takaisin.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Currency (USD)": {
+  "t": "Valuutta (USD)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3821,6 +4001,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Cycling through popup results does not change the map extent or scale. The map moves only when the user selects the popup Zoom To action.": {
+  "t": "Pyöräily ponnahdusikkunoiden tulosten läpi ei muuta kartta-alueen laajuutta tai mittakaavaa. Kartta liikkuu vain, kun käyttäjä valitsee ponnahdusikkunan Zoom To action.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Dark": {
   "t": "Tumma",
   "src": "libretranslate",
@@ -3832,6 +4018,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Date": {
+  "t": "Päivämäärä",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Date and time": {
+  "t": "Päivämäärä ja kellonaika",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Dates come in empty or wrong: the date text is not in the form the widget expected. On that rule choose dateParse and fill in Input date format, for example MM/DD/YYYY.": {
   "t": "Päivämäärät tulevat tyhjinä tai väärin: päivämäärä teksti ei ole muodossa widget odotettu. Tässä säännössä valitse päivämääräParse ja täytä syötepäivämuoto, esimerkiksi MM/PP/VVVV.",
@@ -3889,6 +4087,12 @@
  },
  "Decimal Places:": {
   "t": "Desimaalipaikat:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Decimals": {
+  "t": "Desimaalit",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4955,6 +5159,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Each layer has its own title, hidden fields, format rules, and Arcade expressions. Layers are queried in the order listed and are not drawn on the map.": {
+  "t": "Jokaisella kerroksella on oma nimi, piilotetut kentät, muotosäännöt ja Arcade-ilmaisut. Tasot kysytään luettelossa olevassa järjestyksessä eikä niitä piirretään kartalle.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Each match has a score out of 100. The higher the score, the closer the match. The best match is first.": {
   "t": "Jokaisessa ottelussa on pisteet sadasta. Mitä korkeampi pistemäärä, sitä lähempänä ottelu. Paras ottelu on ensin.",
   "src": "libretranslate",
@@ -5339,6 +5549,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Enabled": {
+  "t": "Käytössä",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "End": {
   "t": "Loppu",
   "src": "libretranslate",
@@ -5371,6 +5587,12 @@
  },
  "Enhanced Measurement": {
   "t": "Tehostettu mittaus",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enter a layer URL first.": {
+  "t": "Anna ensin kerroksen URL.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5603,6 +5825,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Expands a map click into a small screen-sized query area so point and line features are easier to identify.": {
+  "t": "Laajentaa kartan napsauttamalla pieneen näytön kokoiseen kyselyalueeseen, joten piste- ja riviominaisuudet on helpompi tunnistaa.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "export": {
   "t": "vienti",
   "src": "libretranslate",
@@ -5825,6 +6053,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Extra layers: the person who built the app can add layers that are not drawn on the map. Their details are written for this app, so the labels can read differently.": {
+  "t": "Ylimääräiset kerrokset: sovelluksen rakentaja voi lisätä kerroksia, joita ei ole piirretty karttaan. Niiden tiedot on kirjoitettu tätä sovellusta, joten etiketit voivat lukea eri tavalla.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "FacilityID": {
   "t": "Laitos ID",
   "src": "libretranslate",
@@ -5861,8 +6095,32 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Feature": {
+  "t": "Ominaisuus",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Feature {idx}": {
   "t": "Ominaisuus {idx}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Feature Identify": {
+  "t": "Ominaisuuden tunnistaminen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Feature Identify debug (newest first)": {
+  "t": "Ominaisuus Tunnista vianetsintä (uusin ensin)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Feature Identify tells you about whatever you click on the map.": {
+  "t": "Ominaisuus Tunnistaminen kertoo mitä tahansa klikkaat karttaa.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5927,11 +6185,29 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Field formats": {
+  "t": "Kenttämuodot",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Field mapping": {
   "t": "Kentän kartoitus",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Field name": {
+  "t": "Kentän nimi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Field shown as the popup title. Leave blank to use the service display field.": {
+  "t": "Kenttä näkyy ponnahdusikkunan otsikkona. Jätä tyhjäksi käyttääksesi palvelukenttää.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "File detected, drop to upload.": {
   "t": "Tiedosto havaittu, pudotetaan ladattavaksi.",
@@ -6017,6 +6293,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Final limit after map and configured results are merged and duplicates are removed.": {
+  "t": "Lopullinen raja sen jälkeen, kun kartta ja määritetyt tulokset yhdistetään ja kaksoiskappaleet poistetaan.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Find a basemap": {
   "t": "Etsi pohjakartta",
   "src": "libretranslate",
@@ -6025,6 +6307,12 @@
  },
  "Find a place on the map by its address, by its coordinates, or by clicking the map to get the address there.": {
   "t": "Etsi kartalta osoite, sen koordinaatit tai klikkaamalla karttaa saada osoite.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Find the feature you want on the map, such as a parcel, a road or a point.": {
+  "t": "Etsi haluamasi ominaisuus kartalta, kuten paketti, tie tai piste.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6329,6 +6617,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Format a field as a number, currency, percent, or date, or turn it into a link built from a URL template with {FIELD_NAME} tokens.": {
+  "t": "Muokkaa kenttää numerona, valuuttana, prosentteina tai päivämääränä tai muunna se linkiksi, joka on rakennettu URL-mallista {FIELD_NAME} Poletit.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Forward": {
   "t": "Eteenpäin",
   "src": "libretranslate",
@@ -6373,6 +6667,12 @@
  },
  "from this session that haven't been saved yet.": {
   "t": "Tästä istunnosta, jota ei ole vielä tallennettu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Full URL to a queryable layer endpoint ending in a layer number. Use the public address that goes through your Web Adaptor, not a direct ArcGIS Server port.": {
+  "t": "Täysi URL kyselykelpoisen kerroksen päätetapahtumaan, joka päättyy kerrosnumeroon. Käytä Web Adapterin kautta kulkevaa julkista osoitetta, älä suoraa ArcGIS Server -porttia.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6929,6 +7229,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Hex color for the selected feature outline. Polygon fill remains transparent.": {
+  "t": "Hex väri valitun ominaisuuden ääriviiva. Polygon täyttö pysyy läpinäkyvänä.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hidden fields": {
+  "t": "Piilotetut kentät",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Hide {label} ({abbreviation})": {
   "t": "Piilota {label} ({abbreviation})",
   "src": "libretranslate",
@@ -6985,6 +7297,18 @@
  },
  "Hide measurements for {name}": {
   "t": "Piilota mittaukset {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Highlight outline color": {
+  "t": "Korosta ääriviivan väri",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Highlight selected popup feature": {
+  "t": "Korosta valittu ponnahdusikkunan ominaisuus",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7055,6 +7379,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "If nothing is found where you clicked, a short note appears in the widget.": {
+  "t": "Jos mitään ei löydy, jos napsautat, lyhyt huomautus näkyy widget.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "If nothing is found where you clicked, a short window says so.": {
+  "t": "Jos mitään ei löydy klikkaamastasi paikasta, lyhyt ikkuna sanoo niin.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "If something looks wrong": {
   "t": "Jos jokin näyttää väärältä.",
   "src": "libretranslate",
@@ -7075,6 +7411,12 @@
  },
  "If you do not specify a number of seconds here then the popup will not auto close": {
   "t": "Jos et määrittele useita sekunteja täällä sitten ponnahdusikkuna ei automaattisesti sulje",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "If your click finds more than one feature, small arrows at the top of the window step you through them, one at a time.": {
+  "t": "Jos napsahdus löytää useamman kuin yhden ominaisuuden, pienet nuolet ikkunan päällä astuvat niiden läpi yksi kerrallaan.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7193,8 +7535,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "In the map popup": {
+  "t": "Kartan ponnahdusikkunassa",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "In this widget panel": {
+  "t": "Tässä widget paneeli",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "In View": {
   "t": "Näytä",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include layers without configured popups": {
+  "t": "Sisällytä kerrokset ilman konfiguroituja ponnahdusikkunoita",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7318,6 +7678,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Integer": {
+  "t": "Kokonaisluku",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Integrations": {
   "t": "Integraatiot",
@@ -7763,6 +8129,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Layer name (used as the data source label)": {
+  "t": "Tason nimi (käytetään tietolähteenä)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layer REST URL": {
+  "t": "Tason REST- URL",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Layer title": {
   "t": "Tason nimi",
   "src": "libretranslate",
@@ -7927,6 +8305,18 @@
  },
  "Lines and areas finish on a double-click. A point or a rectangle finishes on its own.": {
   "t": "Linjat ja alueet päättyvät kaksoisnapsautuksella. Piste tai suorakulmio päättyy itsestään.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Link": {
+  "t": "Yhteystiedot",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Link text (optional)": {
+  "t": "Linkkiteksti (valinnainen)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8369,6 +8759,42 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Map layers and configured REST layers": {
+  "t": "Karttakerrokset ja konfiguroidut REST-tasot",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map layers: any layer that is turned on and drawn on the map can answer, using the wording set up in the map itself.": {
+  "t": "Karttakerrokset: mikä tahansa kerros, joka on kytketty päälle ja piirretty karttaan, voi vastata käyttäen itse kartan sanamuotoa.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map popup layers": {
+  "t": "Karttaponnahdustaso",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map popup layers only": {
+  "t": "Vain karttaponnahdusikkunan kerrokset",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map popup results are always listed first. Configured REST endpoint results are appended last.": {
+  "t": "Kartta ponnahdusikkunan tulokset on aina lueteltu ensin. Määritelty REST-päätetapahtuman tulos on viimeksi liitteenä.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map popups stopped appearing: they are paused while this widget is open so your click places a pin instead. Close the widget to get them back.": {
+  "t": "Kartta ponnahdusikkunat lakkasivat näkymästä: ne ovat tauolla, kun tämä widget on auki, joten napsautuksen sijaan asettaa pin. Sulje widget saada ne takaisin.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map Units (linear)": {
   "t": "Karttayksiköt (lineaariset)",
   "src": "libretranslate",
@@ -8467,6 +8893,12 @@
  },
  "Maximum number of saved drawings": {
   "t": "Tallennettujen piirustusten enimmäismäärä",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Maximum popup results": {
+  "t": "Suurin ponnahdusikkunan tulos",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9137,6 +9569,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No feature found at that location.": {
+  "t": "Siellä ei löytynyt mitään.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No feature layers on the map to style yet.": {
   "t": "Kartalla ei ole vielä tyylikkäitä ominaisuuksia.",
   "src": "libretranslate",
@@ -9203,6 +9641,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No map selected. Open the widget settings and choose a map.": {
+  "t": "Karttaa ei ole valittu. Avaa widget asetukset ja valitse kartta.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No map widget connected": {
   "t": "Kartan elementtiä ei ole liitetty",
   "src": "libretranslate",
@@ -9256,6 +9700,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "No results": {
+  "t": "Ei tuloksia",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "No Results Found": {
   "t": "Ei tuloksia",
@@ -9377,11 +9827,41 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Nothing happens when you click the map: the widget is closed or was not placed on this screen size. Open Feature Identify from the app, then click the map again.": {
+  "t": "Mitään ei tapahdu, kun napsautat karttaa: widget on suljettu tai ei asetettu tämän näytön kokoa. Avaa ominaisuudet Tunnista sovelluksesta ja klikkaa karttaa uudelleen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Nothing happens when you click the map: the widget is not connected to a map. Ask whoever built this app to check the map setting.": {
+  "t": "Mitään ei tapahdu, kun napsautat karttaa: widget ei ole yhteydessä karttaan. Pyydä tämän sovelluksen rakentajaa tarkistamaan kartan asetus.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Nothing in the guide matches that word. Try another, or open the sections above.": {
   "t": "Mikään oppaassa ei vastaa tuota sanaa. Kokeile toista, tai avaa kohdat yllä.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Nothing is found where you know a feature is: the click landed just off the edge. Zoom in and click again, nearer the middle of the feature.": {
+  "t": "Mitään ei löydy, jos tiedät ominaisuus on: napsahdus laskeutui juuri reunalta. Lähennä ja klikkaa uudelleen, lähempänä keskellä ominaisuus.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Nothing you click here changes the data. You are only reading it.": {
+  "t": "Mikään ei muuta tietoja. Luet vain sitä.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Notify other widgets of the selected result": {
+  "t": "Ilmoita valitusta tuloksesta muille elementeille",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Noto Sans": {
   "t": "Noto Sans",
@@ -9412,6 +9892,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Number": {
+  "t": "Numero",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Number of decimal places for area and perimeter measurements, minimum 0, maximum 10": {
   "t": "Desimaalien lukumäärä alueen ja alueen mittauksissa, vähintään 0, enintään 10",
@@ -9599,6 +10085,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "One click asks {sources}.": {
+  "t": "Yksi napsautus kysyy {sources}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Only basemaps with that text in their names stay in the gallery.": {
   "t": "Vain basmapit, joilla on tuo teksti, pysyvät galleriassa.",
   "src": "libretranslate",
@@ -9665,6 +10157,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Open result list when multiple": {
+  "t": "Avaa tulosluettelo, kun useita",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Open text formatting options panel": {
   "t": "Avaa tekstin muotoiluvalintojen paneeli",
   "src": "libretranslate",
@@ -9689,6 +10187,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Optional. Overrides the title field. The identified feature is available as $feature.": {
+  "t": "Vapaaehtoinen. Ohittaa otsikkokentän. Tunnistettu ominaisuus on saatavilla $feature.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "or": {
   "t": "tai",
   "src": "libretranslate",
@@ -9706,6 +10210,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Other parts of the app, such as a table, can follow along and show the same record.": {
+  "t": "Muut sovelluksen osat, kuten taulukko, voivat seurata ja näyttää saman tietueen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Outline": {
   "t": "Suunta",
@@ -9743,6 +10253,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Outline width (px)": {
+  "t": "Ulkoleveys (px)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Outline-only disabled{count}": {
   "t": "Vain yleiskäyttöinen{count}",
   "src": "libretranslate",
@@ -9773,6 +10289,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Panel mode is retained for legacy use. It queries only the configured REST layers and leaves the map's normal popup behavior unchanged.": {
+  "t": "Paneelitila säilytetään vanhaan käyttöön. Se tutkii vain konfiguroituja REST-kerroksia ja jättää kartan normaalin ponnahdusikkunan käyttäytymisen ennalleen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Parent Widget Controller": {
   "t": "Vanhempien elementtien ohjain",
   "src": "libretranslate",
@@ -9799,6 +10321,12 @@
  },
  "PDF…": {
   "t": "PDF...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Percent": {
+  "t": "Prosenttia",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9910,6 +10438,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Pictometry asks you to sign in: the Pictometry viewer needs its own account. Ask whoever built this app if you should have one.": {
+  "t": "Piktometria pyytää sinua kirjautumaan sisään: Piktometria katsoja tarvitsee oman tilin. Kysy kuka tämän sovelluksen rakensi, pitäisikö sinulla olla sellainen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Pictometry Base URL": {
   "t": "Piktometrian perusverkko- osoite",
@@ -10115,6 +10649,30 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Popup mode takes ownership of the map click, gathers every enabled source, and opens one coordinated native popup.": {
+  "t": "Ponnahdustila ottaa omistajuuden kartan klikkaa, kerää kaikki käytössä olevat lähteet ja avaa yhden koordinoidun natiivin ponnahdusikkunan.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Popup sources": {
+  "t": "Ponnahduslähteet",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Popup workflow": {
+  "t": "Ponnahdusvirta",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Port {port} is a direct ArcGIS Server port. It usually cannot be reached from phones or outside your network. Use the Web Adaptor URL on the standard port.": {
+  "t": "Satama {port} on suora ArcGIS Server -portti. Sitä ei yleensä voi tavoittaa puhelimista tai verkon ulkopuolelta. Käytä Web Adaptorin URL- osoitetta standardiportissa.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Portal Source": {
   "t": "Portaalilähde",
   "src": "libretranslate",
@@ -10126,6 +10684,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Prefix": {
+  "t": "Etuliite",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Preset Circle Size": {
   "t": "Esiaseta ympyräkoko",
@@ -10180,6 +10744,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Press Esc to clear the pin and start over.": {
+  "t": "Paina Esc puhdistaa pin ja aloittaa alusta.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Press Esc to stop drawing.": {
   "t": "Paina Esc lopettaaksesi piirtämisen.",
@@ -10289,6 +10859,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Publishes a records-selection-changed message when a result is selected, so widgets such as Table or Property Report can respond to the identify click.": {
+  "t": "Julkaisee tietueiden valinta-muuttunut viesti, kun tulos on valittu, joten widgetit kuten taulukko tai Property Report voivat vastata tunniste klikkaa.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Radius": {
   "t": "Säde",
   "src": "libretranslate",
@@ -10303,6 +10879,18 @@
  },
  "Radius measurement enabled. Display the circle radius.": {
   "t": "Sädemittaus aktivoitu. Näytä ympyrän säde.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Read the details here in the widget.": {
+  "t": "Lue yksityiskohdat täältä widget.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Read the details in the window that opens over the map.": {
+  "t": "Lue kartalla avautuvan ikkunan yksityiskohdat.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10324,6 +10912,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Reading the details": {
+  "t": "Yksityiskohdat",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Reading the numbers": {
   "t": "Numeroiden lukeminen",
@@ -10445,6 +11039,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Remove": {
+  "t": "Poista",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Remove basemap": {
   "t": "Poista pohjakartta",
   "src": "libretranslate",
@@ -10468,6 +11068,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Remove duplicate records": {
+  "t": "Poista kaksoiskirjaukset",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Remove from favorites": {
   "t": "Poista suosikeista",
@@ -10661,6 +11267,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Results from the map come first. Results from the extra layers come after them.": {
+  "t": "Kartan tulokset ovat etusijalla. Tulokset ylimääräiset kerrokset tulevat niiden jälkeen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Results per configured layer": {
+  "t": "Tulokset määritettyä kerrosta kohti",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Return to beginning of text editor": {
   "t": "Palaa tekstieditorin alkuun",
   "src": "libretranslate",
@@ -10817,6 +11435,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Row label, or blank for full popup content": {
+  "t": "Rivietiketti tai tyhjä täydelle ponnahdusikkunasisällölle",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Rows to include": {
   "t": "Sisältävät rivit",
   "src": "libretranslate",
@@ -10945,6 +11569,12 @@
  },
  "Search the guide (try \"address\" or \"latitude\")": {
   "t": "Etsi opasta (kokeile \"osoitetta\" tai \"leveysastetta\")",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Search the guide (try \"click\" or \"popup\")": {
+  "t": "Etsi opas (yritä \"klikkaa\" tai \"popup\")",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11207,6 +11837,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Select Map Widget": {
+  "t": "Valitse karttaelementti",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select multiple measurements": {
   "t": "Valitse useita mittauksia",
   "src": "libretranslate",
@@ -11299,6 +11935,12 @@
  },
  "Selected Layer": {
   "t": "Valittu taso",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Selection": {
+  "t": "Valinta",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11585,6 +12227,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Show no-result popup": {
+  "t": "Näytä tulokseton ponnahdusikkuna",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show on map & zoom to loaded": {
   "t": "Näytä ladatulla kartalla & zoomaa",
   "src": "libretranslate",
@@ -11611,6 +12259,12 @@
  },
  "Show Pictometry Button": {
   "t": "Näytä piktometrin painike",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show results": {
+  "t": "Näytä tulokset",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11909,6 +12563,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Some popup sources could not be queried. Successful results are still shown.": {
+  "t": "Joitakin ponnahdusikkunoiden lähteitä ei voitu kysyä. Onnistuneet tulokset ovat edelleen nähtävissä.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Some records failed: their values did not suit the fields in the layer. Use Download failed rows (CSV), fix those rows, and load them again.": {
   "t": "Jotkut tietueet epäonnistuivat: niiden arvot eivät sopineet kerroksen kenttiin. Käytä Lataa epäonnistuneita rivejä (CSV), korjaa nuo rivejä ja lataa ne uudelleen.",
   "src": "libretranslate",
@@ -12071,6 +12731,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Still stuck? Contact the GIS Division and mention the External Map Coordinates name and this app.": {
+  "t": "Oletko yhä jumissa? Ota yhteyttä GIS-jaostoon ja mainitse ulkoinen kartta Koordinaatit nimi ja tämä sovellus.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Still stuck? Contact the GIS Division and mention the Feature Identify widget and this app.": {
+  "t": "Oletko yhä jumissa? Ota yhteyttä GIS-jaostoon ja mainitse ominaisuus Tunnista widget ja tämä sovellus.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Still stuck? Contact your GIS team and mention the Draw Advanced widget and this app.": {
   "t": "Oletko yhä jumissa? Ota yhteyttä GIS-tiimiisi ja mainitse Draw Advanced-widget ja tämä sovellus.",
   "src": "libretranslate",
@@ -12124,6 +12796,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Suffix": {
+  "t": "Loppuliite",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Summary Statistics": {
   "t": "Yhteenveto",
@@ -12253,6 +12931,24 @@
  },
  "Template for polyline length labels.": {
   "t": "Monilinjaisten pituusmerkintöjen malli.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Test": {
+  "t": "Testi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Test failed:": {
+  "t": "Testi epäonnistui:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Testing from this browser...": {
+  "t": "Testi tästä selaimesta...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12479,6 +13175,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The configured layer did not respond in time.": {
+  "t": "Asetettu kerros ei vastannut ajoissa.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The configured layer source is enabled, but no layer REST URL is configured.": {
+  "t": "Määritetty kerroslähde on käytössä, mutta mitään kerros REST URL ei ole määritetty.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "the coordinates": {
   "t": "koordinaatit",
   "src": "libretranslate",
@@ -12515,8 +13223,32 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The details are listed in the widget, under a title.": {
+  "t": "Yksityiskohdat on lueteltu widget, otsikolla.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The details box closes by itself after a few seconds. Keep the mouse over it and it stays open.": {
   "t": "Yksityiskohdat sulkeutuvat itsestään muutaman sekunnin kuluttua. Pidä hiiri sen päällä ja se pysyy auki.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The details open in a small window over the map.": {
+  "t": "Yksityiskohdat avautuvat pienessä ikkunassa kartan yläpuolella.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The details show in the widget instead of over the map: the map window could not open on this device. This happens on some phones and the first result is shown in the widget instead.": {
+  "t": "Yksityiskohdat näkyvät widget sijaan kartalla: kartta ikkuna ei voinut avata tällä laitteella. Tämä tapahtuu joissakin puhelimissa ja ensimmäinen tulos näkyy widget sijaan.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The details take a long time: a service is busy answering. Wait a few seconds, then click again in the same place.": {
+  "t": "Yksityiskohdat vievät kauan: palvelu on kiireinen vastata. Odota muutama sekunti ja napsauta uudestaan samassa paikassa.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12538,6 +13270,24 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "the extra layers set up for this app": {
+  "t": "tälle sovellukselle asetetut ylimääräiset kerrokset",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The feature you are looking at": {
+  "t": "Katsomasi ominaisuus",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The feature you are reading is outlined on the map, so you can see which one it is.": {
+  "t": "Luemasi ominaisuus on esitetty kartalla, joten voit nähdä mikä se on.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The file lands in your downloads folder, named after your file with the date and time.": {
   "t": "Tiedosto laskeutuu latauskansioon, joka on nimetty tiedoston mukaan päivämäärä ja kellonaika.",
@@ -12599,11 +13349,35 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "the layers drawn on the map": {
+  "t": "karttaan piirretyt kerrokset",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The line at the top of the widget names the feature you clicked.": {
+  "t": "Linja yläreunassa widget nimet ominaisuus napsautit.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The line at the top of the window names the feature you clicked.": {
+  "t": "Linja ikkunan yläreunassa nimeää ominaisuuden, jota napsautit.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The Load step checks the work, then writes the records into the layer.": {
   "t": "Kuorma-askel tarkistaa työn ja kirjoittaa tietueet kerrokseen.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The map does not move or change scale by itself. Use the zoom action in the details when you want the map to go there.": {
+  "t": "Kartta ei liiku eikä muuta mittakaavaa itsestään. Käytä zoomaustoimintoa yksityiskohdissa, kun haluat kartan menevän sinne.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The map is blank: that basemap may not have pictures for this area or zoom level. Try a different basemap.": {
   "t": "Kartta on tyhjä: että pohjakartta ei ehkä ole kuvia tälle alueelle tai zoom taso. Kokeile jotain muuta.",
@@ -12622,6 +13396,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The map popup could not be opened on this device, so the first result is shown here instead.": {
+  "t": "Kartan ponnahdusikkunaa ei voitu avata tällä laitteella, joten ensimmäinen tulos näytetään tässä.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The map popup layers could not be queried.": {
+  "t": "Kartan ponnahdusikkunoita ei voitu kysyä.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The numbers describe the spot you clicked, not the center of the map.": {
   "t": "Numerot kuvaavat napsauttamaasi paikkaa, eivät karttaa.",
@@ -12643,6 +13429,12 @@
  },
  "The pin button turns itself off after one click. Click it again for the next spot.": {
   "t": "Pin-painike sammuu itsestään yhden napsautuksen jälkeen. Klikkaa sitä uudelleen seuraavaan kohtaan.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The pin disappears when you close the widget. Copy the coordinates first if you need to keep them.": {
+  "t": "Neula katoaa, kun suljet widget. Kopioi ensin koordinaatit, jos haluat pitää ne.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12695,6 +13487,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "the service did not respond in time.": {
+  "t": "palvelu ei vastannut ajoissa.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The shapes are 1:1 for one field into one field, M:1 to join several fields into one, 1:M to split one field into several, and M:M for the rest.": {
   "t": "Muodot ovat 1:1 yhden kentän yhdeksi pelloksi, M:1 yhdistää useita kenttiä yhdeksi, 1:M jakaa yksi kenttä useisiin, ja M:M loput.",
   "src": "libretranslate",
@@ -12739,6 +13537,24 @@
  },
  "The tools, button by button": {
   "t": "Työkalut, painike painikkeelta",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The URL does not look like an ArcGIS REST endpoint (/rest/services/ is missing).": {
+  "t": "URL ei näytä ArcGIS REST -päätetapahtumalta (/rest/services/ puuttuu).",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The URL should end in a layer number, such as /MapServer/0.": {
+  "t": "URL:n pitäisi päättyä kerrosnumeroon, kuten /MapServer/0.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The URL uses http. Apps served over https cannot load it.": {
+  "t": "URL käyttää http: tä. Apps palvellut yli https://liss ei voi ladata sitä.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12805,6 +13621,12 @@
  },
  "The widget looks up the nearest address and marks it with a house.": {
   "t": "Widget etsii lähimmän osoitteen ja merkitsee sen talo.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The widget says no map is selected: it has not been joined to a map yet. Ask the person who built the app to pick the map in the widget settings.": {
+  "t": "Widget sanoo, ettei karttaa ole valittu: sitä ei ole vielä liitetty karttaan. Pyydä sovelluksen rakentajaa valitsemaan kartta widget-asetuksissa.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12881,6 +13703,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "This is not a valid URL.": {
+  "t": "Tämä ei ole voimassa oleva URL.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "This map uses spatial reference {wkid} which the widget cannot convert. Please use a Web Mercator or WGS84 basemap.": {
   "t": "Tässä kartassa käytetään paikkatietoa {wkid} jonka vekotin ei voi muuntaa. Käytä Web Mercator tai WGS84 basemap.",
   "src": "libretranslate",
@@ -12955,6 +13783,18 @@
  },
  "Tick \"{limit}\" to look only inside the area the map shows now. This helps when the same street name is in another town.": {
   "t": "Tik \"{limit}\"Katsomaan vain alueen sisällä kartta näyttää nyt. Tämä auttaa, kun sama katunimi on toisessa kaupungissa.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Title expression (Arcade)": {
+  "t": "Nimikkeen lauseke (arkki)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Title field": {
+  "t": "Osastokenttä",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13415,6 +14255,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Under the title is a list. Each line has a label on the left and the value for that feature on the right.": {
+  "t": "Otsikko on lista. Jokaisessa rivissä on merkintä vasemmalla ja sen arvo oikealla.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Underline": {
   "t": "Alleviivattu",
   "src": "libretranslate",
@@ -13643,6 +14489,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Unnamed layer": {
+  "t": "Nimeämätön kerros",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Update": {
   "t": "Päivitä",
   "src": "libretranslate",
@@ -13733,6 +14585,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Use a label for a scalar row expression. Leave the label blank when the Arcade returns a full Popup Element dictionary, such as { type: 'text', text: content }. Full popup expressions replace the automatically generated attribute rows.": {
+  "t": "Käytä etikettiä scalar-rivin ilmaisuun. Jätä etiketti tyhjäksi, kun Arcade palauttaa täyden ponnahdusikkunan, kuten {tyyppi: \"teksti,\" teksti: sisältö }. Täydet ponnahdusikkunat korvaavat automaattisesti luodut attribuuttirivit.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Use ctrl+c or right-click to copy to the clipboard.": {
   "t": "Käytä ctrl+c tai oikea-klikkaa kopioida leikepöydälle.",
   "src": "libretranslate",
@@ -13750,6 +14608,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Use field aliases": {
+  "t": "Käytä kenttänimiä",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Use source geometry": {
   "t": "Käytä lähdegeometriaa",
@@ -13931,6 +14795,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Warning: the layer does not list the Query capability.": {
+  "t": "Varoitus: kerros ei luettele kyselyn ominaisuuksia.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Warnings:": {
   "t": "Varoitukset:",
   "src": "libretranslate",
@@ -13991,6 +14861,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "When enabled, visible popup-capable map layers can use an automatically generated default popup. Leave disabled to honor the web map popup configuration exactly.": {
+  "t": "Kun käytössä, näkyvät ponnahdusikkuna-päälle kartta kerrokset voivat käyttää automaattisesti luotu oletus ponnahdusikkuna. Jätä käytöstä kunnioittaa web map ponnahdusikkunan asetukset täsmälleen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "When enabled, your drawing cursor will automatically snap to grid intersection points for precise alignment.": {
   "t": "Kun käytössä, piirustuksen osoitin napsahtaa automaattisesti ruudukon leikkauspisteisiin tarkkaa linjausta varten.",
   "src": "libretranslate",
@@ -14015,6 +14891,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "When the same record comes back from both, you see it once, not twice.": {
+  "t": "Kun sama levy tulee molemmista, näet sen kerran, et kahdesti.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "When you come back, a bar at the top offers to bring back what you measured last time. Click Restore to bring it back or the x to discard it.": {
   "t": "Kun tulet takaisin, baari huipulla tarjoaa tuoda takaisin mitä mittasi viimeksi. Napsauta Palauta tuoda se takaisin tai x hävittää sen.",
   "src": "libretranslate",
@@ -14023,6 +14905,12 @@
  },
  "Where each format is offered": {
   "t": "Jos kutakin muotoa tarjotaan",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Where the details come from": {
+  "t": "Mistä yksityiskohdat tulevat?",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14255,6 +15143,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "You can also open the list at the top of the window and pick the feature you want by name.": {
+  "t": "Voit myös avata listan ikkunan yläreunassa ja valita haluamasi ominaisuuden nimeltä.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "You can delete a record from the form. There is no undo, so check before you do.": {
   "t": "Voit poistaa tietueen lomakkeella. Ei ole perumista, joten tarkista ennen sitä.",
   "src": "libretranslate",
@@ -14317,6 +15211,12 @@
  },
  "Zoom and scale follow the map. They change as you zoom in or out, even before you click.": {
   "t": "Tarkenna ja seuraa karttaa. Ne muuttuvat kun zoomaat sisään tai ulos, jopa ennen kuin napsautat.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zoom in before you click where features sit close together. You get a shorter, clearer list.": {
+  "t": "Lähennä ennen kuin klikkaat missä ominaisuudet istuvat lähellä toisiaan. Saat lyhyemmän ja selkeämmän listan.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"

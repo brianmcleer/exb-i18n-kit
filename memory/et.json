@@ -83,6 +83,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "(expression error)": {
+  "t": "(väljendusviga)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "(Mac) to temporarily disable snapping while drawing.": {
   "t": "(Mac) ajutiselt välja lülitada joonistamise ajal.",
   "src": "libretranslate",
@@ -149,11 +155,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "{copy} does nothing: your browser blocked clipboard access. Click in the box below the buttons and press Ctrl+C instead.": {
+  "t": "{copy} ei tee midagi: teie brauser blokeeris lõikepuhvri juurdepääsu. Klõpsake nuppude all asuvas kastis ja vajutage selle asemel Ctrl + C.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{count} duplicate key values in the incoming data": {
   "t": "{count} sisestatavate andmete põhiväärtuste dubleerimine",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "{count} records": {
+  "t": "{count} dokumendid",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "{count} rules": {
   "t": "{count} reeglid",
@@ -352,6 +370,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "{ms} ms": {
+  "t": "{ms} ms",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "{name}: a satellite view tilted so buildings and terrain show in 3D.": {
   "t": "{name}Satelliitvaade kallutatud nii, et ehitised ja maastik näitavad 3D-s.",
@@ -641,6 +665,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A black box of small text sits at the bottom of the screen: the diagnostic view is on. Ask the person who built the app to turn it off in the widget settings.": {
+  "t": "Ekraani allosas asub väikese teksti must kast: diagnostiline vaade on sees. Paluge rakenduse ehitajal see vidina seadetes välja lülitada.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A button opens a page with no picture: that website has no imagery for that spot. Try a spot nearby, or a different button.": {
+  "t": "Nupp avab ilma pildita lehe: sellel veebisaidil ei ole selle koha jaoks pilte. Proovige lähedal asuvat kohta või mõnda muud nuppu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A configured layer could not be queried. Check the layer URL and service access.": {
+  "t": "Seadistatud kihi kohta ei saa pärida. Kontrollige kihi URL-i ja teenuse juurdepääsu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "a file from your computer": {
   "t": "fail arvutist",
   "src": "libretranslate",
@@ -659,6 +701,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A layer you expected is missing from the results: that layer is turned off in the map. Turn it back on in the layer list and click again.": {
+  "t": "Kiht, mida ootasid, jääb tulemustest puudu: see kiht on kaardil välja lülitatud. Lülitage see kihtide loendisse tagasi ja klõpsake uuesti.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A line or shape will not finish: double-click on the last point.": {
   "t": "Rida või kuju ei lõpe: topeltklõps viimasel punktil.",
   "src": "libretranslate",
@@ -671,8 +719,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A message says the map's spatial reference cannot be converted: this widget reads Web Mercator, WGS84, UTM and Colorado State Plane maps. Ask whoever built this app about the map's coordinate system.": {
+  "t": "Sõnum ütleb, et kaardi ruumilist viidet ei saa teisendada: see vidin loeb Web Mercator, WGS84, UTM ja Colorado State Plane kaarte. Küsige selle rakenduse ehitajalt kaardi koordinaatsüsteemi kohta.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A negative longitude means west of Greenwich. A negative latitude means south of the equator.": {
   "t": "Negatiivne pikkuskraad tähendab Greenwichist läände. Negatiivne laiuskraad tähendab lõuna pool ekvaatorit.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A note says some sources could not be read: one service did not answer in time. What did arrive is still shown. Try the same click again in a moment.": {
+  "t": "Märkuses öeldakse, et mõnda allikat ei saanud lugeda: üks teenistus ei vastanud õigeaegselt. See, mis kohale jõudis, on veel näha. Proovige sama klikki mõne hetke pärast uuesti.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -694,6 +754,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "A value that is a web address shows as a link. Click it and the page opens in a new tab, so the map stays as you left it.": {
+  "t": "Väärtus, mis on veebiaadress, kuvatakse lingina. Klõpsake seda ja leht avaneb uuel vahekaardil, nii et kaart jääb nii, nagu selle jätsid.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "A warning says no target layer is configured: the app author has not chosen the layer to load into. Contact the GIS Division.": {
   "t": "Hoiatus ütleb, et ühtegi sihtkihti pole seadistatud: rakenduse autor ei ole valinud kihti, kuhu laadida. Võta ühendust GIS-i osakonnaga.",
@@ -827,11 +893,29 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Add expression": {
+  "t": "Avaldise lisamine",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add format rule": {
+  "t": "Lisa vormindusreegel",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add imported drawings to existing ones": {
   "t": "Imporditud jooniste lisamine olemasolevatele",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Add layer": {
+  "t": "Lisa kiht",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Add map coordinate unit": {
   "t": "Kaardikoordinaadi lisamine",
@@ -1391,6 +1475,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Allows overlapping configured-layer features to participate in popup result cycling.": {
+  "t": "Võimaldab kattuvatel seadistatud kihi funktsioonidel osaleda hüpiktulemuste tsüklis.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Almost any address list out of a spreadsheet works.": {
   "t": "Peaaegu iga aadressiloend arvutustabelist töötab.",
   "src": "libretranslate",
@@ -1516,6 +1606,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Arcade expressions": {
+  "t": "Arkaadiavaldised",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "ArcGIS content: search for a layer that is already published.": {
   "t": "ArcGIS sisu: otsige kihti, mis on juba avaldatud.",
@@ -2741,8 +2837,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Click a feature on the map and its details open for you to read.": {
+  "t": "Klõpsake kaardil olevat funktsiooni ja selle üksikasju, mis on teile lugemiseks avatud.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click a feature on the map to see its details.": {
+  "t": "Klõpsake kaardil, et näha selle üksikasju.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Click a measurement label to select it and begin editing": {
   "t": "Klõpsa mõõtmise pealdisel selle valimiseks ja redigeerimise alustamiseks",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click a new spot at any time. The pin and the coordinates move to the new spot.": {
+  "t": "Klõpsa igal ajal uuele kohale. Tihvt ja koordinaadid liiguvad uude kohta.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2767,6 +2881,12 @@
  },
  "Click in the box below the buttons and press Ctrl+C to copy what is in it.": {
   "t": "Klõpsake nuppude all asuvas kastis ja vajutage Ctrl + C, et kopeerida, mis selles on.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click it once. Give it a moment while the details are collected.": {
+  "t": "Klõpsa korra. Võtke aega, kuni detailid on kogutud.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2899,6 +3019,12 @@
  },
  "Click the map to place the circle &bull; Esc to cancel": {
   "t": "Klõpsa kaardil ringi &bull; Esc tühistamiseks",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click the map. Native map popup results appear first, and configured REST endpoint results appear last.": {
+  "t": "Klõpsake kaardil. Native kaardi hüpikakna tulemused ilmuvad esimesena ja konfigureeritud REST tulemusnäitaja tulemused ilmuvad viimasena.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3041,11 +3167,23 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Click tolerance (pixels)": {
+  "t": "Klõpsutolerants (pikslid)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Clicking the basemap with the check mark applies that same basemap again.": {
   "t": "Kontrollmärgiga aluskaardil klõpsates rakendatakse sama aluskaarti uuesti.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Clicking the same place again brings the details straight back.": {
+  "t": "Klõps samale kohale toob üksikasjad tagasi.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Close": {
   "t": "Sulge",
@@ -3091,6 +3229,12 @@
  },
  "Close the widget and its marks leave the map. Open it again and they come back, until you click {clear}.": {
   "t": "Sulge vidin ja selle märgid lahkuvad kaardilt. Avage see uuesti ja nad tulevad tagasi, kuni klõpsate {clear}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Close the window with the small x at its top right when you are done.": {
+  "t": "Sulgege aken, mille ülaosas on väike x, kui olete valmis.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3163,6 +3307,18 @@
  },
  "Color: {color}": {
   "t": "Värv: {color}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Combined mode queries both sources on the same click, removes duplicates, and opens the results together.": {
+  "t": "Kombineeritud režiim pärib mõlemad allikad samal klõpsul, eemaldab duplikaadid ja avab tulemused koos.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comma-separated field names to leave out of the popup content.": {
+  "t": "Komadega eraldatud väljanimed hüpikakna sisust välja jätmiseks.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3247,6 +3403,18 @@
  },
  "Configure Enhanced Locate": {
   "t": "Täiustatud asukoha seadistamine",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Configured REST layers": {
+  "t": "Seadistatud REST- kihid",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Configured REST layers only": {
+  "t": "Ainult seadistatud REST- kihid",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3569,6 +3737,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copy log": {
+  "t": "Kopeeri logi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copy settings XML to clipboard": {
   "t": "Kopeeri seadistused XML lõikepuhvrisse",
   "src": "libretranslate",
@@ -3655,6 +3829,12 @@
  },
  "Ctrl+Z undoes the last change and Ctrl+Y brings it back.": {
   "t": "Ctrl+Z tühistab viimase muudatuse ja Ctrl+Y toob selle tagasi.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Currency (USD)": {
+  "t": "Valuuta (USD)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3821,6 +4001,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Cycling through popup results does not change the map extent or scale. The map moves only when the user selects the popup Zoom To action.": {
+  "t": "Hüpikakna tulemuste kaudu jalgrattasõit ei muuda kaardi ulatust ega skaalat. Kaart liigub ainult siis, kui kasutaja valib hüpikakna Suurendus To action.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Dark": {
   "t": "Dark",
   "src": "libretranslate",
@@ -3832,6 +4018,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Date": {
+  "t": "Kuupäev",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Date and time": {
+  "t": "Kuupäev ja kellaaeg",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Dates come in empty or wrong: the date text is not in the form the widget expected. On that rule choose dateParse and fill in Input date format, for example MM/DD/YYYY.": {
   "t": "Kuupäevad tulevad tühjalt või valesti: kuupäeva tekst ei ole oodatud vidina kujul. Selles reeglis valige dateParse ja täitke sisendkuupäeva vorming, näiteks MM/PP/AAAA.",
@@ -3889,6 +4087,12 @@
  },
  "Decimal Places:": {
   "t": "Kümnendkohad:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Decimals": {
+  "t": "Kümnendkohad",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4955,6 +5159,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Each layer has its own title, hidden fields, format rules, and Arcade expressions. Layers are queried in the order listed and are not drawn on the map.": {
+  "t": "Igal kihil on oma pealkiri, peidetud väljad, vormingureeglid ja Arcade'i väljendid. Kihid päritakse loetletud järjekorras ja neid ei joonistata kaardile.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Each match has a score out of 100. The higher the score, the closer the match. The best match is first.": {
   "t": "Igal mängul on skoor 100-st. Mida kõrgem on skoor, seda lähemal on matš. Parim matš on esimene.",
   "src": "libretranslate",
@@ -5339,6 +5549,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Enabled": {
+  "t": "Lubatud",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "End": {
   "t": "Lõpp",
   "src": "libretranslate",
@@ -5371,6 +5587,12 @@
  },
  "Enhanced Measurement": {
   "t": "Tõhustatud mõõtmine",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enter a layer URL first.": {
+  "t": "Sisesta kõigepealt kihi URL.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5603,6 +5825,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Expands a map click into a small screen-sized query area so point and line features are easier to identify.": {
+  "t": "Laiendab kaardiklõpsu väikesele ekraanisuurusele päringualale, nii et punkti- ja reafunktsioone on lihtsam tuvastada.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "export": {
   "t": "eksporti",
   "src": "libretranslate",
@@ -5825,6 +6053,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Extra layers: the person who built the app can add layers that are not drawn on the map. Their details are written for this app, so the labels can read differently.": {
+  "t": "Lisakihid: rakenduse ehitaja saab lisada kihte, mida kaardile ei joonistata. Nende andmed on kirjutatud selle rakenduse jaoks, nii et sildid võivad lugeda erinevalt.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "FacilityID": {
   "t": "FacilityID",
   "src": "libretranslate",
@@ -5861,8 +6095,32 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Feature": {
+  "t": "Funktsioon",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Feature {idx}": {
   "t": "Funktsioon {idx}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Feature Identify": {
+  "t": "Funktsioon Identifitseeri",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Feature Identify debug (newest first)": {
+  "t": "Funktsioon Identifitseeri silumine (uusim esimene)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Feature Identify tells you about whatever you click on the map.": {
+  "t": "Funktsioon Identifitseeri ütleb teile, mida iganes klõpsate kaardil.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5927,11 +6185,29 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Field formats": {
+  "t": "Väljavormingud",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Field mapping": {
   "t": "Väli kaardistamine",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Field name": {
+  "t": "Välinimi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Field shown as the popup title. Leave blank to use the service display field.": {
+  "t": "Väli näidatakse hüpikpealkirjana. Teenuse kuvavälja kasutamiseks jätke tühjaks.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "File detected, drop to upload.": {
   "t": "Fail tuvastati, laaditi üles.",
@@ -6017,6 +6293,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Final limit after map and configured results are merged and duplicates are removed.": {
+  "t": "Lõplik piir pärast kaardi ja konfigureeritud tulemuste ühendamist ja duplikaatide eemaldamist.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Find a basemap": {
   "t": "Otsi aluskaart",
   "src": "libretranslate",
@@ -6025,6 +6307,12 @@
  },
  "Find a place on the map by its address, by its coordinates, or by clicking the map to get the address there.": {
   "t": "Leia koht kaardil selle aadressi, koordinaatide või klõpsates kaardil saada aadress seal.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Find the feature you want on the map, such as a parcel, a road or a point.": {
+  "t": "Leidke kaardilt soovitud funktsioon, näiteks pakk, tee või punkt.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6329,6 +6617,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Format a field as a number, currency, percent, or date, or turn it into a link built from a URL template with {FIELD_NAME} tokens.": {
+  "t": "Vorminda välja numbrina, valuutana, protsendina või kuupäevana või muuda see URL-mallist loodud lingiks {FIELD_NAME} märgid.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Forward": {
   "t": "Edasi",
   "src": "libretranslate",
@@ -6373,6 +6667,12 @@
  },
  "from this session that haven't been saved yet.": {
   "t": "Sellest sessioonist, mida pole veel päästetud.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Full URL to a queryable layer endpoint ending in a layer number. Use the public address that goes through your Web Adaptor, not a direct ArcGIS Server port.": {
+  "t": "Täielik URL otsitava kihi lõpp-punktini, mis lõpeb kihi numbriga. Kasutage avalikku aadressi, mis läbib teie veebiadaptori, mitte otsest ArcGIS serveri porti.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6929,6 +7229,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Hex color for the selected feature outline. Polygon fill remains transparent.": {
+  "t": "Valitud funktsiooni kontuuri hex värv. Hulknurktäide jääb läbipaistvaks.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hidden fields": {
+  "t": "Peidetud väljad",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Hide {label} ({abbreviation})": {
   "t": "Peida {label} ((){abbreviation})",
   "src": "libretranslate",
@@ -6985,6 +7297,18 @@
  },
  "Hide measurements for {name}": {
   "t": "Peida mõõtmised {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Highlight outline color": {
+  "t": "Esiletõstetud kontuuri värv",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Highlight selected popup feature": {
+  "t": "Valitud hüpikakna esiletõstmine",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7055,6 +7379,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "If nothing is found where you clicked, a short note appears in the widget.": {
+  "t": "Kui midagi ei leita, kuhu klõpsasid, ilmub vidinasse lühike märkus.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "If nothing is found where you clicked, a short window says so.": {
+  "t": "Kui midagi ei leita, kus klõpsasite, ütleb lühike aken nii.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "If something looks wrong": {
   "t": "Kui midagi on valesti",
   "src": "libretranslate",
@@ -7075,6 +7411,12 @@
  },
  "If you do not specify a number of seconds here then the popup will not auto close": {
   "t": "Kui sa ei määra siin sekundite arvu, siis hüpikmenüü automaatselt ei sulgu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "If your click finds more than one feature, small arrows at the top of the window step you through them, one at a time.": {
+  "t": "Kui teie klõps leiab rohkem kui ühe funktsiooni, astuvad akna ülaosas olevad väikesed nooled neist ükshaaval läbi.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7193,8 +7535,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "In the map popup": {
+  "t": "Kaardi hüpikaknas",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "In this widget panel": {
+  "t": "Selles vidinapaneelis",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "In View": {
   "t": "Vaade",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include layers without configured popups": {
+  "t": "Seadistatud hüpikakendeta kihtide kaasamine",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7318,6 +7678,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Integer": {
+  "t": "täisarvu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Integrations": {
   "t": "Integratsioon",
@@ -7763,6 +8129,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Layer name (used as the data source label)": {
+  "t": "Kihi nimi (kasutatakse andmeallika märgisena)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layer REST URL": {
+  "t": "Kihi REST URL",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Layer title": {
   "t": "Kihi tiitel",
   "src": "libretranslate",
@@ -7927,6 +8305,18 @@
  },
  "Lines and areas finish on a double-click. A point or a rectangle finishes on its own.": {
   "t": "Liinid ja alad lõpevad topeltklõpsuga. Punkt või ristkülik lõpeb iseenesest.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Link": {
+  "t": "Link",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Link text (optional)": {
+  "t": "Linki tekst (valikuline)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8369,6 +8759,42 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Map layers and configured REST layers": {
+  "t": "Kaardikihid ja seadistatud REST-kihid",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map layers: any layer that is turned on and drawn on the map can answer, using the wording set up in the map itself.": {
+  "t": "Kaardikihid: mis tahes kiht, mis on sisse lülitatud ja kaardile joonistatud, võib vastata, kasutades kaardi enda sõnastust.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map popup layers": {
+  "t": "Kaardi hüpikaknad",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map popup layers only": {
+  "t": "Ainult kaardi hüpikkihid",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map popup results are always listed first. Configured REST endpoint results are appended last.": {
+  "t": "Kaardi hüpikakna tulemused on alati esimesena loetletud. Konfigureeritud RESTi lõpptulemused on lisatud viimasena.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map popups stopped appearing: they are paused while this widget is open so your click places a pin instead. Close the widget to get them back.": {
+  "t": "Kaardi hüpikaknad lakkasid ilmumast: need peatatakse, kui see vidin on avatud, nii et teie klõps asetab selle asemel pin. Sulge vidin, et need tagasi saada.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map Units (linear)": {
   "t": "Kaardiüksused (lineaarsed)",
   "src": "libretranslate",
@@ -8467,6 +8893,12 @@
  },
  "Maximum number of saved drawings": {
   "t": "Maksimaalne salvestatud jooniste arv",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Maximum popup results": {
+  "t": "Maksimaalsed hüpikakna tulemused",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9137,6 +9569,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No feature found at that location.": {
+  "t": "Selles kohas ei leitud ühtegi omadust.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No feature layers on the map to style yet.": {
   "t": "Kaardil ei ole veel stiilile iseloomulikke jooni.",
   "src": "libretranslate",
@@ -9203,6 +9641,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No map selected. Open the widget settings and choose a map.": {
+  "t": "Kaarti pole valitud. Ava vidina seadistused ja vali kaart.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No map widget connected": {
   "t": "Kaardividinat pole ühendatud",
   "src": "libretranslate",
@@ -9256,6 +9700,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "No results": {
+  "t": "Tulemused puuduvad",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "No Results Found": {
   "t": "Tulemusi ei leitud",
@@ -9377,11 +9827,41 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Nothing happens when you click the map: the widget is closed or was not placed on this screen size. Open Feature Identify from the app, then click the map again.": {
+  "t": "Kaardil klõpsates ei juhtu midagi: vidin on suletud või seda ei paigutatud sellele ekraani suurusele. Avage funktsioon Identifitseerige rakendusest, seejärel klõpsake uuesti kaarti.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Nothing happens when you click the map: the widget is not connected to a map. Ask whoever built this app to check the map setting.": {
+  "t": "Kaardil klõpsates ei juhtu midagi: vidin ei ole kaardiga ühendatud. Küsige, kes selle rakenduse ehitas, et kontrollida kaardi seadistust.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Nothing in the guide matches that word. Try another, or open the sections above.": {
   "t": "Mitte miski juhendis ei klapi selle sõnaga. Proovige teist või avage ülaltoodud lõigud.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Nothing is found where you know a feature is: the click landed just off the edge. Zoom in and click again, nearer the middle of the feature.": {
+  "t": "Midagi ei leita, kui teate, et funktsioon on: klõps maandus just servast. Suurendage ja klõpsake uuesti, lähemale funktsiooni keskele.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Nothing you click here changes the data. You are only reading it.": {
+  "t": "Miski, millele klõpsad, ei muuda andmeid. Sa ainult loed seda.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Notify other widgets of the selected result": {
+  "t": "Teavitab valitud tulemuse teisi vidinaid",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Noto Sans": {
   "t": "Noto Sans",
@@ -9412,6 +9892,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Number": {
+  "t": "Number",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Number of decimal places for area and perimeter measurements, minimum 0, maximum 10": {
   "t": "Pindala ja perimeetri mõõtmiste kümnendkohtade arv, vähemalt 0, maksimaalselt 10",
@@ -9599,6 +10085,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "One click asks {sources}.": {
+  "t": "Üks klõps küsib {sources}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Only basemaps with that text in their names stay in the gallery.": {
   "t": "Galeriisse jäävad ainult need aluskaardid, mille nimes on see tekst.",
   "src": "libretranslate",
@@ -9665,6 +10157,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Open result list when multiple": {
+  "t": "Tulemuste nimekirja avamine mitme korral",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Open text formatting options panel": {
   "t": "Avab teksti vormindamise valikute paneeli",
   "src": "libretranslate",
@@ -9689,6 +10187,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Optional. Overrides the title field. The identified feature is available as $feature.": {
+  "t": "Valikuline. Tühistab tiitlivälja. Identifitseeritud funktsioon on saadaval kui $feature.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "or": {
   "t": "või",
   "src": "libretranslate",
@@ -9706,6 +10210,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Other parts of the app, such as a table, can follow along and show the same record.": {
+  "t": "Muud rakenduse osad, näiteks laud, võivad jälgida ja näidata sama rekordit.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Outline": {
   "t": "Kontuur",
@@ -9743,6 +10253,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Outline width (px)": {
+  "t": "Kontuuri laius (px)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Outline-only disabled{count}": {
   "t": "Ainult kontuuril keelatud{count}",
   "src": "libretranslate",
@@ -9773,6 +10289,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Panel mode is retained for legacy use. It queries only the configured REST layers and leaves the map's normal popup behavior unchanged.": {
+  "t": "Paneelrežiim säilitatakse pärandkasutuseks. See pärib ainult seadistatud REST kihid ja jätab kaardi normaalse hüpikakna käitumise muutmata.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Parent Widget Controller": {
   "t": "Vanemvidina kontroller",
   "src": "libretranslate",
@@ -9799,6 +10321,12 @@
  },
  "PDF…": {
   "t": "PDF...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Percent": {
+  "t": "Protsent",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9910,6 +10438,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Pictometry asks you to sign in: the Pictometry viewer needs its own account. Ask whoever built this app if you should have one.": {
+  "t": "Piktomeetria palub teil sisse logida: piktomeetria vaataja vajab oma kontot. Küsige, kes selle rakenduse ehitas, kas teil peaks olema üks.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Pictometry Base URL": {
   "t": "Piktomeetria baasi URL",
@@ -10115,6 +10649,30 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Popup mode takes ownership of the map click, gathers every enabled source, and opens one coordinated native popup.": {
+  "t": "Popup režiim võtab kaardiklõpsu omanikuks, kogub kõik lubatud allikad ja avab ühe koordineeritud kohaliku hüpikakna.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Popup sources": {
+  "t": "Hüpikakallikad",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Popup workflow": {
+  "t": "hüpiktöövoog",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Port {port} is a direct ArcGIS Server port. It usually cannot be reached from phones or outside your network. Use the Web Adaptor URL on the standard port.": {
+  "t": "Port {port} ArcGIS Serveri otseport. Tavaliselt ei saa seda telefonist või väljaspool võrku. Kasutage veebiadaptori URL-i standardses pordis.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Portal Source": {
   "t": "Portaali allikas",
   "src": "libretranslate",
@@ -10126,6 +10684,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Prefix": {
+  "t": "Prefiks",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Preset Circle Size": {
   "t": "Eelseadistatud ringi suurus",
@@ -10180,6 +10744,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Press Esc to clear the pin and start over.": {
+  "t": "Vajutage Esc-le, et puhastada pin ja alustada uuesti.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Press Esc to stop drawing.": {
   "t": "Vajuta Esc-le, et lõpetada joonistamine.",
@@ -10289,6 +10859,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Publishes a records-selection-changed message when a result is selected, so widgets such as Table or Property Report can respond to the identify click.": {
+  "t": "Avaldab kirjete valikuga muudetud teate, kui tulemus on valitud, nii et vidinad, nagu tabel või omaduste aruanne, saavad vastata identimisklõpsule.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Radius": {
   "t": "Radius",
   "src": "libretranslate",
@@ -10303,6 +10879,18 @@
  },
  "Radius measurement enabled. Display the circle radius.": {
   "t": "Raadiuse mõõtmine lubatud. Näitab ringi raadiust.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Read the details here in the widget.": {
+  "t": "Loe üksikasju siit vidinast.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Read the details in the window that opens over the map.": {
+  "t": "Loe üksikasju aknast, mis avaneb üle kaardi.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10324,6 +10912,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Reading the details": {
+  "t": "Detailide lugemine",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Reading the numbers": {
   "t": "Numbrite lugemine",
@@ -10445,6 +11039,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Remove": {
+  "t": "Eemalda",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Remove basemap": {
   "t": "Eemalda aluskaart",
   "src": "libretranslate",
@@ -10468,6 +11068,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Remove duplicate records": {
+  "t": "Topeltkirjete eemaldamine",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Remove from favorites": {
   "t": "Eemalda lemmikutest",
@@ -10661,6 +11267,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Results from the map come first. Results from the extra layers come after them.": {
+  "t": "Kaardi tulemused tulevad esimesena. Lisakihtide tulemused tulevad nende järel.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Results per configured layer": {
+  "t": "Tulemused seadistatud kihi kohta",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Return to beginning of text editor": {
   "t": "Tagasi tekstiredaktori algusse",
   "src": "libretranslate",
@@ -10817,6 +11435,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Row label, or blank for full popup content": {
+  "t": "Rida silt või tühi täieliku hüpikakna sisu korral",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Rows to include": {
   "t": "Ridade lisamine",
   "src": "libretranslate",
@@ -10945,6 +11569,12 @@
  },
  "Search the guide (try \"address\" or \"latitude\")": {
   "t": "Otsige juhendist (proovige \"aadress\" või \"laiuskraad\")",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Search the guide (try \"click\" or \"popup\")": {
+  "t": "Otsige juhendit (proovige \"klõpsake\" või \"popup\")",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11207,6 +11837,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Select Map Widget": {
+  "t": "Kaardividina valimine",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select multiple measurements": {
   "t": "Mitme mõõtmise valimine",
   "src": "libretranslate",
@@ -11299,6 +11935,12 @@
  },
  "Selected Layer": {
   "t": "Valitud kiht",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Selection": {
+  "t": "Valik",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11585,6 +12227,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Show no-result popup": {
+  "t": "Tulemuseta hüpikakna näitamine",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show on map & zoom to loaded": {
   "t": "Kaardil näidatakse laaditavat suurendust",
   "src": "libretranslate",
@@ -11611,6 +12259,12 @@
  },
  "Show Pictometry Button": {
   "t": "Piktomeetri nupu näitamine",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show results": {
+  "t": "Tulemuste näitamine",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11909,6 +12563,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Some popup sources could not be queried. Successful results are still shown.": {
+  "t": "Mõnedest hüpikaknaallikatest ei olnud võimalik pärida. Edukaid tulemusi on veel näha.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Some records failed: their values did not suit the fields in the layer. Use Download failed rows (CSV), fix those rows, and load them again.": {
   "t": "Mõned kirjed ebaõnnestusid: nende väärtused ei sobinud kihis olevatele väljadele. Laadi alla ebaõnnestunud read (CSV), paranda need read ja laadi need uuesti.",
   "src": "libretranslate",
@@ -12071,6 +12731,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Still stuck? Contact the GIS Division and mention the External Map Coordinates name and this app.": {
+  "t": "Ikka veel kinni? Võtke ühendust GIS-i osakonnaga ja mainige välise kaardikoordinaatide nimi ja see rakendus.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Still stuck? Contact the GIS Division and mention the Feature Identify widget and this app.": {
+  "t": "Ikka veel kinni? Võtke ühendust GIS-i osakonnaga ja mainige funktsiooni Identifitseeri vidin ja see rakendus.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Still stuck? Contact your GIS team and mention the Draw Advanced widget and this app.": {
   "t": "Ikka veel kinni? Võtke ühendust oma GIS-i meeskonnaga ja mainige Draw Advanced vidinat ja seda rakendust.",
   "src": "libretranslate",
@@ -12124,6 +12796,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Suffix": {
+  "t": "Suffix",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Summary Statistics": {
   "t": "Kokkuvõte Statistika",
@@ -12253,6 +12931,24 @@
  },
  "Template for polyline length labels.": {
   "t": "Mitmeliiniliste pikkusmärgiste vorm",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Test": {
+  "t": "Testi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Test failed:": {
+  "t": "Test nurjus:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Testing from this browser...": {
+  "t": "Selle brauseri testimine...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12479,6 +13175,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The configured layer did not respond in time.": {
+  "t": "Konfigureeritud kiht ei reageerinud õigeaegselt.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The configured layer source is enabled, but no layer REST URL is configured.": {
+  "t": "Seadistatud kihi allikas on lubatud, kuid kihi REST URL- i pole seadistatud.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "the coordinates": {
   "t": "koordinaate",
   "src": "libretranslate",
@@ -12515,8 +13223,32 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The details are listed in the widget, under a title.": {
+  "t": "Detailid on kirjas vidinas pealkirja all.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The details box closes by itself after a few seconds. Keep the mouse over it and it stays open.": {
   "t": "Detailkast sulgub mõne sekundi pärast iseenesest. Hoidke hiir selle kohal ja see jääb avatuks.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The details open in a small window over the map.": {
+  "t": "Detailid avanevad väikeses aknas üle kaardi.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The details show in the widget instead of over the map: the map window could not open on this device. This happens on some phones and the first result is shown in the widget instead.": {
+  "t": "Üksikasjad on näha kaardi asemel vidinas: kaardiakna avamine selles seadmes nurjus. See juhtub mõnel telefonil ja esimene tulemus kuvatakse selle asemel vidinas.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The details take a long time: a service is busy answering. Wait a few seconds, then click again in the same place.": {
+  "t": "Detailid võtavad kaua aega: teenindus on hõivatud vastamisega. Oodake paar sekundit ja klõpsake uuesti samas kohas.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12538,6 +13270,24 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "the extra layers set up for this app": {
+  "t": "selle rakenduse jaoks loodud lisakihid",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The feature you are looking at": {
+  "t": "Funktsioon, mida te vaatate",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The feature you are reading is outlined on the map, so you can see which one it is.": {
+  "t": "Loetav funktsioon on kaardil välja toodud, nii et näete, milline see on.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The file lands in your downloads folder, named after your file with the date and time.": {
   "t": "Fail maandub teie allalaadimiste kausta, mis on nime saanud teie faili järgi kuupäeva ja kellaajaga.",
@@ -12599,11 +13349,35 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "the layers drawn on the map": {
+  "t": "kaardile joonistatud kihid",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The line at the top of the widget names the feature you clicked.": {
+  "t": "Vidina ülaosas asuv rida nimetab klõpsatud funktsiooni.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The line at the top of the window names the feature you clicked.": {
+  "t": "Akna ülaosas olev rida nimetab funktsiooni, millele klõpsasite.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The Load step checks the work, then writes the records into the layer.": {
   "t": "Koormuse samm kontrollib tööd, seejärel kirjutab kirjed kihti.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The map does not move or change scale by itself. Use the zoom action in the details when you want the map to go there.": {
+  "t": "Kaart ise ei liiguta ega muuda skaalat. Kasuta suurendustoimingut detailides, kui soovid, et kaart sinna läheks.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The map is blank: that basemap may not have pictures for this area or zoom level. Try a different basemap.": {
   "t": "Kaart on tühi: aluskaardil ei pruugi olla pilte antud ala või suurendustaseme kohta. Proovi teistsugust baaskaarti.",
@@ -12622,6 +13396,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The map popup could not be opened on this device, so the first result is shown here instead.": {
+  "t": "Kaardi hüpikakna avamine selles seadmes nurjus, seega näidatakse siin esimest tulemust.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The map popup layers could not be queried.": {
+  "t": "Kaardi hüpikkihtide kohta ei olnud võimalik pärida.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The numbers describe the spot you clicked, not the center of the map.": {
   "t": "Numbrid kirjeldavad kohta, millele klõpsasite, mitte kaardi keskpunkti.",
@@ -12643,6 +13429,12 @@
  },
  "The pin button turns itself off after one click. Click it again for the next spot.": {
   "t": "Nupp lülitab end pärast ühe klõpsu välja. Klõpsake uuesti järgmise koha jaoks.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The pin disappears when you close the widget. Copy the coordinates first if you need to keep them.": {
+  "t": "Nööpnõel kaob, kui vidin suletakse. Kopeeri koordinaadid kõigepealt, kui neid on vaja hoida.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12695,6 +13487,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "the service did not respond in time.": {
+  "t": "talitus ei vastanud õigeaegselt.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The shapes are 1:1 for one field into one field, M:1 to join several fields into one, 1:M to split one field into several, and M:M for the rest.": {
   "t": "Kujundid on 1: 1 ühele väljale üheks väljaks, M: 1 mitme välja liitmiseks üheks, 1:M ühe välja jagamiseks mitmeks ja M:M ülejäänud.",
   "src": "libretranslate",
@@ -12739,6 +13537,24 @@
  },
  "The tools, button by button": {
   "t": "Tööriistad, nuppude kaupa",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The URL does not look like an ArcGIS REST endpoint (/rest/services/ is missing).": {
+  "t": "URL ei näe välja nagu ArcGIS REST lõpp-punkt (/ Puhkus/ Teenused/ puudub).",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The URL should end in a layer number, such as /MapServer/0.": {
+  "t": "URL peaks lõppema kihi numbriga, näiteks /MapServer/0.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The URL uses http. Apps served over https cannot load it.": {
+  "t": "URL kasutab http. Rakendused, mida teenindatakse üle https, ei saa seda laadida.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12805,6 +13621,12 @@
  },
  "The widget looks up the nearest address and marks it with a house.": {
   "t": "Vidin vaatab üles lähima aadressi ja märgistab selle majaga.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The widget says no map is selected: it has not been joined to a map yet. Ask the person who built the app to pick the map in the widget settings.": {
+  "t": "Vidin ütleb, et kaarti pole valitud: seda pole veel kaardiga ühendatud. Paluge rakenduse ehitajal valida vidina seadetes kaart.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12881,6 +13703,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "This is not a valid URL.": {
+  "t": "See ei ole korrektne URL.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "This map uses spatial reference {wkid} which the widget cannot convert. Please use a Web Mercator or WGS84 basemap.": {
   "t": "See kaart kasutab ruumilisi viiteid {wkid} mida vidin ei saa teisendada. Palun kasutage veebimercatorit või WGS84 aluskaarti.",
   "src": "libretranslate",
@@ -12955,6 +13783,18 @@
  },
  "Tick \"{limit}\" to look only inside the area the map shows now. This helps when the same street name is in another town.": {
   "t": "Tick{limit}\"vaadata ainult kaardil näidatud ala sisse. See aitab, kui sama tänava nimi on teises linnas.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Title expression (Arcade)": {
+  "t": "Tiitelavaldis (Arcade)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Title field": {
+  "t": "Pealkirjaväli",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13415,6 +14255,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Under the title is a list. Each line has a label on the left and the value for that feature on the right.": {
+  "t": "Pealkirja all on nimekiri. Igal real on vasakul silt ja selle funktsiooni väärtus paremal.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Underline": {
   "t": "Röövi alla",
   "src": "libretranslate",
@@ -13643,6 +14489,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Unnamed layer": {
+  "t": "Nimetu kiht",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Update": {
   "t": "Uuenda",
   "src": "libretranslate",
@@ -13733,6 +14585,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Use a label for a scalar row expression. Leave the label blank when the Arcade returns a full Popup Element dictionary, such as { type: 'text', text: content }. Full popup expressions replace the automatically generated attribute rows.": {
+  "t": "Skalaarirea avaldises kasutatakse silti. Jäta pealdis tühjaks, kui Arcade tagastab täieliku hüpikakna elemendi sõnaraamatu, näiteks {tüüp: 'tekst', tekst: sisu }. Täielikud hüpikaknad asendavad automaatselt genereeritud atribuutide ridu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Use ctrl+c or right-click to copy to the clipboard.": {
   "t": "Lõikepuhvrisse kopeerimiseks kasuta klõpsu ctrl+c või paremklõpsu.",
   "src": "libretranslate",
@@ -13750,6 +14608,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Use field aliases": {
+  "t": "Kasuta välja aliasi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Use source geometry": {
   "t": "Lähtegeomeetria kasutamine",
@@ -13931,6 +14795,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Warning: the layer does not list the Query capability.": {
+  "t": "Hoiatus: kiht ei loetle päringu võimalust.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Warnings:": {
   "t": "Hoiatused:",
   "src": "libretranslate",
@@ -13991,6 +14861,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "When enabled, visible popup-capable map layers can use an automatically generated default popup. Leave disabled to honor the web map popup configuration exactly.": {
+  "t": "Sisselülitamisel võivad nähtavad hüpikaknad kasutada automaatselt genereeritud vaikimisi hüpikaknaid. Veebikaardi hüpikakna seadistuse täpseks austamiseks jätke väljalülitamine.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "When enabled, your drawing cursor will automatically snap to grid intersection points for precise alignment.": {
   "t": "Sisselülitamisel klõpsab joonistuskursor automaatselt ruudustiku lõikumispunktidesse, et saada täpne joondumine.",
   "src": "libretranslate",
@@ -14015,6 +14891,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "When the same record comes back from both, you see it once, not twice.": {
+  "t": "Kui sama rekord tuleb mõlemalt, näete seda üks kord, mitte kaks korda.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "When you come back, a bar at the top offers to bring back what you measured last time. Click Restore to bring it back or the x to discard it.": {
   "t": "Kui sa tagasi tuled, pakub ülaosas asuv baar, et tuua tagasi eelmisel korral mõõdetud. Klõpsake nuppu Restore, et see tagasi tuua või x, et see ära visata.",
   "src": "libretranslate",
@@ -14023,6 +14905,12 @@
  },
  "Where each format is offered": {
   "t": "Kui iga formaati pakutakse",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Where the details come from": {
+  "t": "Kust pärinevad üksikasjad",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14255,6 +15143,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "You can also open the list at the top of the window and pick the feature you want by name.": {
+  "t": "Samuti saate avada nimekirja akna ülaosas ja valida soovitud funktsiooni nime järgi.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "You can delete a record from the form. There is no undo, so check before you do.": {
   "t": "Saate vormilt kirje kustutada. Puudub tagasivõtmine, nii et kontrollige enne seda.",
   "src": "libretranslate",
@@ -14317,6 +15211,12 @@
  },
  "Zoom and scale follow the map. They change as you zoom in or out, even before you click.": {
   "t": "Suurendus ja skaala järgivad kaarti. Need muutuvad, kui suurendate või väljute, isegi enne klõpsamist.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zoom in before you click where features sit close together. You get a shorter, clearer list.": {
+  "t": "Suurendage, enne kui klõpsate, kus funktsioonid asuvad lähedal. Sa saad lühema ja selgema nimekirja.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"

@@ -83,6 +83,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "(expression error)": {
+  "t": "(압축 오류)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "(Mac) to temporarily disable snapping while drawing.": {
   "t": "(Mac)는 그림 동안 일시적으로 스냅 할 수 있습니다.",
   "src": "libretranslate",
@@ -149,11 +155,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "{copy} does nothing: your browser blocked clipboard access. Click in the box below the buttons and press Ctrl+C instead.": {
+  "t": "{copy} 아무것도: 브라우저 차단 클립보드 액세스. 버튼 아래의 박스에서 클릭하고 Ctrl+C를 눌러주세요.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{count} duplicate key values in the incoming data": {
   "t": "{count} 들어오는 데이터의 중복 키 값",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "{count} records": {
+  "t": "{count} 이름 *",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "{count} rules": {
   "t": "{count} 【특전】",
@@ -352,6 +370,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "{ms} ms": {
+  "t": "{ms} 사이트맵",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "{name}: a satellite view tilted so buildings and terrain show in 3D.": {
   "t": "{name}: 3D의 건물과 지형 쇼가 기울인 위성보기.",
@@ -641,6 +665,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A black box of small text sits at the bottom of the screen: the diagnostic view is on. Ask the person who built the app to turn it off in the widget settings.": {
+  "t": "작은 텍스트의 검은 상자는 화면의 하단에 앉아 : 진단보기가 켜집니다. 앱을 구축 한 사람이 위젯 설정에서 해제합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A button opens a page with no picture: that website has no imagery for that spot. Try a spot nearby, or a different button.": {
+  "t": "버튼은 그림이없는 페이지를 엽니 다 : 그 웹 사이트는 그 자리에 대한 이미지가 없습니다. 주변 명소 또는 다른 버튼을보십시오.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A configured layer could not be queried. Check the layer URL and service access.": {
+  "t": "형성된 층은 정복될 수 없습니다. 레이어 URL 및 서비스 액세스 확인.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "a file from your computer": {
   "t": "컴퓨터에서 파일",
   "src": "libretranslate",
@@ -659,6 +701,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A layer you expected is missing from the results: that layer is turned off in the map. Turn it back on in the layer list and click again.": {
+  "t": "예상되는 층은 결과에서 누락됩니다. 그 층은지도에서 꺼집니다. 레이어 목록에서 다시 설정하고 다시 클릭.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A line or shape will not finish: double-click on the last point.": {
   "t": "선 또는 모양은 끝내지 않을 것입니다: 마지막 점에 두 배 누르기.",
   "src": "libretranslate",
@@ -671,8 +719,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A message says the map's spatial reference cannot be converted: this widget reads Web Mercator, WGS84, UTM and Colorado State Plane maps. Ask whoever built this app about the map's coordinate system.": {
+  "t": "메시지는지도의 공간 참조를 변환 할 수 없습니다 말한다 : 이 위젯은 웹 머서, WGS84, UTM 및 콜로라도 주 비행기 맵을 읽습니다. 지도의 좌표 시스템에 대한이 응용 프로그램을 구축 한 사람.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A negative longitude means west of Greenwich. A negative latitude means south of the equator.": {
   "t": "부정적인 경도는 Greenwich의 서쪽을 의미합니다. 부정적인 위도는 equator의 남쪽을 의미합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A note says some sources could not be read: one service did not answer in time. What did arrive is still shown. Try the same click again in a moment.": {
+  "t": "참고는 몇 가지 소스를 읽을 수 없습니다 : 한 서비스는 시간에 응답하지 않았다. 도착한 것은 여전히 표시됩니다. 같은 클릭을 다시 한 순간.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -694,6 +754,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "A value that is a web address shows as a link. Click it and the page opens in a new tab, so the map stays as you left it.": {
+  "t": "웹 주소가 링크로 표시됩니다. 을 클릭하고 페이지가 새 탭에서 열립니다, 그래서지도가 왼쪽으로 유지.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "A warning says no target layer is configured: the app author has not chosen the layer to load into. Contact the GIS Division.": {
   "t": "경고는 대상 레이어가 구성되지 않습니다 : 앱 저자는 레이어를로드하지 않았습니다. GIS 부서에 문의하십시오.",
@@ -827,11 +893,29 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Add expression": {
+  "t": "본문 바로가기",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add format rule": {
+  "t": "형식 규칙 추가",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add imported drawings to existing ones": {
   "t": "기존에 수입된 도면 추가",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Add layer": {
+  "t": "층 추가",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Add map coordinate unit": {
   "t": "맵 좌표 단위 추가",
@@ -1391,6 +1475,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Allows overlapping configured-layer features to participate in popup result cycling.": {
+  "t": "팝업 결과 사이클에 참여할 수 있는 overlapping 구성층 기능을 허용합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Almost any address list out of a spreadsheet works.": {
   "t": "스프레드 시트의 거의 모든 주소 목록.",
   "src": "libretranslate",
@@ -1516,6 +1606,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Arcade expressions": {
+  "t": "아케이드 표현",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "ArcGIS content: search for a layer that is already published.": {
   "t": "ArcGIS 콘텐츠: 이미 출판된 레이어를 검색합니다.",
@@ -2741,8 +2837,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Click a feature on the map and its details open for you to read.": {
+  "t": "지도에 대한 기능을 클릭하고 세부 정보를 읽을 수 있습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click a feature on the map to see its details.": {
+  "t": "지도에 있는 기능을 클릭해서 세부 정보를 볼 수 있습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Click a measurement label to select it and begin editing": {
   "t": "측정 라벨을 클릭하고 편집 시작",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click a new spot at any time. The pin and the coordinates move to the new spot.": {
+  "t": "언제든지 새로운 자리를 클릭하십시오. 핀과 좌표는 새로운 자리로 이동합니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2767,6 +2881,12 @@
  },
  "Click in the box below the buttons and press Ctrl+C to copy what is in it.": {
   "t": "버튼 아래 상자에 클릭하고 Ctrl + C를 눌러서 어떤 것을 복사합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click it once. Give it a moment while the details are collected.": {
+  "t": "한 번 클릭. 세부사항이 수집된 동안 그것을 순간을 주십시오.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2899,6 +3019,12 @@
  },
  "Click the map to place the circle &bull; Esc to cancel": {
   "t": "지도를 클릭하여 원 &bull; 에스크로 취소",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click the map. Native map popup results appear first, and configured REST endpoint results appear last.": {
+  "t": "지도를 클릭합니다. 기본 맵 팝업 결과가 먼저 나타나고, 구성 REST 엔드포인트 결과가 마지막으로 나타납니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3041,11 +3167,23 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Click tolerance (pixels)": {
+  "t": "포용력을 클릭하십시오 (화소)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Clicking the basemap with the check mark applies that same basemap again.": {
   "t": "체크 마크가 기본 맵을 클릭하면 동일한 기본 맵이 다시 적용됩니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Clicking the same place again brings the details straight back.": {
+  "t": "같은 장소를 다시 클릭하여 세부 정보를 곧 다시 가져옵니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Close": {
   "t": "이름 *",
@@ -3091,6 +3229,12 @@
  },
  "Close the widget and its marks leave the map. Open it again and they come back, until you click {clear}.": {
   "t": "위젯을 닫고 그 표는 지도를 남깁니다. 다시 그것을 열고, 당신이 클릭 할 때까지 {clear}·",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Close the window with the small x at its top right when you are done.": {
+  "t": "오른쪽 상단에 작은 x로 창을 닫습니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3163,6 +3307,18 @@
  },
  "Color: {color}": {
   "t": "색깔: {color}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Combined mode queries both sources on the same click, removes duplicates, and opens the results together.": {
+  "t": "같은 클릭에 두 소스를 결합 모드 쿼리, 중복 제거, 함께 결과를 엽니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comma-separated field names to leave out of the popup content.": {
+  "t": "팝업 콘텐츠로 떠나는 Comma-separated 필드 이름.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3247,6 +3403,18 @@
  },
  "Configure Enhanced Locate": {
   "t": "향상된 Locate 구성",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Configured REST layers": {
+  "t": "REST 레이어 구성",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Configured REST layers only": {
+  "t": "구성 REST 레이어만",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3569,6 +3737,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copy log": {
+  "t": "비밀번호",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copy settings XML to clipboard": {
   "t": "클립보드에 복사 설정 XML",
   "src": "libretranslate",
@@ -3655,6 +3829,12 @@
  },
  "Ctrl+Z undoes the last change and Ctrl+Y brings it back.": {
   "t": "Ctrl + Z는 마지막 변경을 취소하고 Ctrl + Y는 다시 가져옵니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Currency (USD)": {
+  "t": "통화 (USD)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3821,6 +4001,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Cycling through popup results does not change the map extent or scale. The map moves only when the user selects the popup Zoom To action.": {
+  "t": "사이클을 통해 팝업 결과가지도를 변경하지 않습니다 또는 규모. 이 맵은 사용자가 팝업 Zoom을 동작할 때만 이동합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Dark": {
   "t": "한국어",
   "src": "libretranslate",
@@ -3832,6 +4018,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Date": {
+  "t": "이름 *",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Date and time": {
+  "t": "일시 및 시간",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Dates come in empty or wrong: the date text is not in the form the widget expected. On that rule choose dateParse and fill in Input date format, for example MM/DD/YYYY.": {
   "t": "날짜는 비어있거나 잘못되었습니다. 날짜 텍스트는 위젯이 예상되지 않습니다. 그 규칙은 dateParse를 선택하고 입력 날짜 형식을 채우십시오. 예를 들어 MM / DD / YYYYY.",
@@ -3889,6 +4087,12 @@
  },
  "Decimal Places:": {
   "t": "소수의 장소:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Decimals": {
+  "t": "십진수",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4955,6 +5159,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Each layer has its own title, hidden fields, format rules, and Arcade expressions. Layers are queried in the order listed and are not drawn on the map.": {
+  "t": "각 층에는 자체 제목, 숨겨진 필드, 형식 규칙 및 아케이드 표현이 있습니다. 레이어는 나열된 순서에 정복하고지도에 그려지지 않습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Each match has a score out of 100. The higher the score, the closer the match. The best match is first.": {
   "t": "각 경기에는 점수가 100점이 있습니다. 더 높은 점수, 더 가까운 경기. 제일 경기는 첫번째입니다.",
   "src": "libretranslate",
@@ -5339,6 +5549,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Enabled": {
+  "t": "이름 *",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "End": {
   "t": "이름 *",
   "src": "libretranslate",
@@ -5371,6 +5587,12 @@
  },
  "Enhanced Measurement": {
   "t": "향상된 측정",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enter a layer URL first.": {
+  "t": "레이어 URL을 먼저 입력합니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5603,6 +5825,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Expands a map click into a small screen-sized query area so point and line features are easier to identify.": {
+  "t": "맵을 작은 화면 크기의 쿼리 영역으로 확장하여 포인트와 라인 기능을 쉽게 식별 할 수 있습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "export": {
   "t": "제품정보",
   "src": "libretranslate",
@@ -5825,6 +6053,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Extra layers: the person who built the app can add layers that are not drawn on the map. Their details are written for this app, so the labels can read differently.": {
+  "t": "추가 레이어 : 응용 프로그램을 구축 한 사람이지도에 그려지지 않는 레이어를 추가 할 수 있습니다. 그들의 세부 사항은이 응용 프로그램에 대한 서면, 그래서 라벨은 다르게 읽을 수 있습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "FacilityID": {
   "t": "시설ID",
   "src": "libretranslate",
@@ -5861,8 +6095,32 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Feature": {
+  "t": "제품 정보",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Feature {idx}": {
   "t": "제품 정보 {idx}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Feature Identify": {
+  "t": "기능 식별",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Feature Identify debug (newest first)": {
+  "t": "debug를 식별하는 기능 (최신 첫 번째)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Feature Identify tells you about whatever you click on the map.": {
+  "t": "Feature Identify는 지도를 클릭한 모든 것에 대해 알려줍니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5927,11 +6185,29 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Field formats": {
+  "t": "필드 형식",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Field mapping": {
   "t": "현장 맵핑",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Field name": {
+  "t": "필드 이름",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Field shown as the popup title. Leave blank to use the service display field.": {
+  "t": "팝업 제목으로 표시된 필드. 서비스 표시 필드를 사용하는 공백을 남겨두십시오.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "File detected, drop to upload.": {
   "t": "파일 감지, 업로드 할 드롭.",
@@ -6017,6 +6293,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Final limit after map and configured results are merged and duplicates are removed.": {
+  "t": "지도 후 최종 제한 및 구성된 결과가 병합되고 중복됩니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Find a basemap": {
   "t": "기본 맵 찾기",
   "src": "libretranslate",
@@ -6025,6 +6307,12 @@
  },
  "Find a place on the map by its address, by its coordinates, or by clicking the map to get the address there.": {
   "t": "주소로 지도를 찾기, 좌표로, 또는 지도를 클릭하여 주소가 나옵니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Find the feature you want on the map, such as a parcel, a road or a point.": {
+  "t": "소포, 도로 또는 지점과 같은지도에서 원하는 기능을 찾습니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6329,6 +6617,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Format a field as a number, currency, percent, or date, or turn it into a link built from a URL template with {FIELD_NAME} tokens.": {
+  "t": "필드를 숫자, 통화, % 또는 날짜로 포맷하거나 URL 템플릿에서 내장 된 링크로 변환 {FIELD_NAME} 토큰.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Forward": {
   "t": "제품정보",
   "src": "libretranslate",
@@ -6373,6 +6667,12 @@
  },
  "from this session that haven't been saved yet.": {
   "t": "아직 저장되지 않은이 세션에서.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Full URL to a queryable layer endpoint ending in a layer number. Use the public address that goes through your Web Adaptor, not a direct ArcGIS Server port.": {
+  "t": "레이어 번호에서 쿼리 가능한 레이어 엔드 포인트에 전체 URL. 웹 어댑터를 통해 진행되는 공공 주소를 사용하여 직접 ArcGIS Server 포트가 아닙니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6929,6 +7229,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Hex color for the selected feature outline. Polygon fill remains transparent.": {
+  "t": "선택된 기능 개요를 위한 Hex 색깔. Polygon 충전은 투명합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hidden fields": {
+  "t": "자위 행위",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Hide {label} ({abbreviation})": {
   "t": "이름 * {label} (주){abbreviation}·",
   "src": "libretranslate",
@@ -6985,6 +7297,18 @@
  },
  "Hide measurements for {name}": {
   "t": "측정을 숨기기 {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Highlight outline color": {
+  "t": "높은 빛 윤곽 색깔",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Highlight selected popup feature": {
+  "t": "선택된 팝업 기능",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7055,6 +7379,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "If nothing is found where you clicked, a short note appears in the widget.": {
+  "t": "당신이 클릭 한 곳을 찾을 수없는 경우, 짧은 메모 위젯에 나타납니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "If nothing is found where you clicked, a short window says so.": {
+  "t": "당신이 클릭 한 곳을 찾을 수없는 경우, 짧은 창은 이렇게 말한다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "If something looks wrong": {
   "t": "뭔가 잘못되었는지",
   "src": "libretranslate",
@@ -7075,6 +7411,12 @@
  },
  "If you do not specify a number of seconds here then the popup will not auto close": {
   "t": "여기에서 몇 초를 지정하지 않으면 팝업이 자동 닫지 않습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "If your click finds more than one feature, small arrows at the top of the window step you through them, one at a time.": {
+  "t": "클릭한 경우 한 가지 기능 이상, 창의 상단에 작은 화살표를 통해, 한 번에.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7193,8 +7535,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "In the map popup": {
+  "t": "지도 팝업에서",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "In this widget panel": {
+  "t": "이 위젯 패널에서",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "In View": {
   "t": "내 계정",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include layers without configured popups": {
+  "t": "구성 팝업없이 레이어 포함",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7318,6 +7678,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Integer": {
+  "t": "팟캐스트",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Integrations": {
   "t": "통합",
@@ -7763,6 +8129,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Layer name (used as the data source label)": {
+  "t": "Layer name (데이터 소스 라벨 사용)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layer REST URL": {
+  "t": "레이어 REST URL",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Layer title": {
   "t": "층 제목",
   "src": "libretranslate",
@@ -7927,6 +8305,18 @@
  },
  "Lines and areas finish on a double-click. A point or a rectangle finishes on its own.": {
   "t": "두 번 클릭에 라인 및 영역 마무리. 자신의 점 또는 직사각형 끝.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Link": {
+  "t": "팟캐스트",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Link text (optional)": {
+  "t": "링크 텍스트 (옵션)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8369,6 +8759,42 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Map layers and configured REST layers": {
+  "t": "지도 층과 형성된 REST 층",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map layers: any layer that is turned on and drawn on the map can answer, using the wording set up in the map itself.": {
+  "t": "지도 층: 지도에 켜고 그려지는 어떤 층든지, 지도 자체에서 놓는 낱말을 사용하여 대답할 수 있습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map popup layers": {
+  "t": "지도 팝업레이어",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map popup layers only": {
+  "t": "지도 팝업레이어만",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map popup results are always listed first. Configured REST endpoint results are appended last.": {
+  "t": "지도 팝업 결과는 항상 목록으로 만들어집니다. 구성 REST endpoint 결과가 마지막으로 부과됩니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map popups stopped appearing: they are paused while this widget is open so your click places a pin instead. Close the widget to get them back.": {
+  "t": "Map popups stop appearing: 이 위젯이 열려있을 때 일시 중지됩니다. 다시 얻을 위젯을 닫습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map Units (linear)": {
   "t": "지도 단위 (linear)",
   "src": "libretranslate",
@@ -8467,6 +8893,12 @@
  },
  "Maximum number of saved drawings": {
   "t": "저장된 그림의 최대 수",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Maximum popup results": {
+  "t": "최대 팝업 결과",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9137,6 +9569,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No feature found at that location.": {
+  "t": "해당 위치에서 찾을 수 없습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No feature layers on the map to style yet.": {
   "t": "아직 스타일의지도에 레이어가 없습니다.",
   "src": "libretranslate",
@@ -9203,6 +9641,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No map selected. Open the widget settings and choose a map.": {
+  "t": "지도 선택 없음. 위젯 설정을 열고지도를 선택합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No map widget connected": {
   "t": "지도 위젯 연결",
   "src": "libretranslate",
@@ -9256,6 +9700,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "No results": {
+  "t": "결과 없음",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "No Results Found": {
   "t": "결과 없음",
@@ -9377,11 +9827,41 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Nothing happens when you click the map: the widget is closed or was not placed on this screen size. Open Feature Identify from the app, then click the map again.": {
+  "t": "지도를 클릭 할 때 아무것도 발생하지 않습니다 : 위젯은 닫히거나이 화면 크기에 배치되지 않았습니다. Open Feature 앱에서 식별한 다음 지도를 다시 클릭합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Nothing happens when you click the map: the widget is not connected to a map. Ask whoever built this app to check the map setting.": {
+  "t": "지도를 클릭 할 때 아무것도 발생하지 않습니다 : 위젯은지도에 연결되지 않습니다. 이 앱을 구축한 분들은 지도 설정 확인을 합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Nothing in the guide matches that word. Try another, or open the sections above.": {
   "t": "가이드의 아무것도 그 단어 일치. 다른 시도, 또는 위의 섹션을 엽니 다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Nothing is found where you know a feature is: the click landed just off the edge. Zoom in and click again, nearer the middle of the feature.": {
+  "t": "기능이 무엇인지 알 수 없습니다 : 클릭은 가장자리에서 착륙. Zoom 에서 다시 클릭, 기능의 중간 근처.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Nothing you click here changes the data. You are only reading it.": {
+  "t": "이 페이지는 자동으로 번역되었습니다. 당신은 단지 그것을 읽습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Notify other widgets of the selected result": {
+  "t": "선택한 결과의 다른 위젯을 통지",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Noto Sans": {
   "t": "노토 산",
@@ -9412,6 +9892,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Number": {
+  "t": "이름 *",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Number of decimal places for area and perimeter measurements, minimum 0, maximum 10": {
   "t": "지역 및 둘레 측정, 최소 0, 최대 10의 소수점",
@@ -9599,6 +10085,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "One click asks {sources}.": {
+  "t": "자주 묻는 질문 {sources}·",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Only basemaps with that text in their names stay in the gallery.": {
   "t": "해당 이용 후기에 달린 코멘트가 없습니다.",
   "src": "libretranslate",
@@ -9665,6 +10157,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Open result list when multiple": {
+  "t": "여러 번의 결과 목록 열기",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Open text formatting options panel": {
   "t": "텍스트 포맷 옵션 패널",
   "src": "libretranslate",
@@ -9689,6 +10187,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Optional. Overrides the title field. The identified feature is available as $feature.": {
+  "t": "옵션. 제목 필드를 삭제합니다. 확인된 기능은 $feature로 제공됩니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "or": {
   "t": "또는",
   "src": "libretranslate",
@@ -9706,6 +10210,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Other parts of the app, such as a table, can follow along and show the same record.": {
+  "t": "테이블과 같은 응용 프로그램의 다른 부분은 따라 따라 수행하고 동일한 기록을 표시합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Outline": {
   "t": "제품정보",
@@ -9743,6 +10253,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Outline width (px)": {
+  "t": "개략 폭 (px)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Outline-only disabled{count}": {
   "t": "장애인{count}",
   "src": "libretranslate",
@@ -9773,6 +10289,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Panel mode is retained for legacy use. It queries only the configured REST layers and leaves the map's normal popup behavior unchanged.": {
+  "t": "위원회 형태는 유산 사용을 위해 유지됩니다. 구성 된 REST 레이어만 쿼리하고지도의 정상적인 팝업 동작을 변경합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Parent Widget Controller": {
   "t": "부모 Widget 관제사",
   "src": "libretranslate",
@@ -9799,6 +10321,12 @@
  },
  "PDF…": {
   "t": "PDF 파일",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Percent": {
+  "t": "퍼센트",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9910,6 +10438,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Pictometry asks you to sign in: the Pictometry viewer needs its own account. Ask whoever built this app if you should have one.": {
+  "t": "Pictometry는 로그인을 요청합니다. Pictometry 뷰어는 자체 계정이 필요합니다. 누구든지이 응용 프로그램을 구축 한 경우 하나.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Pictometry Base URL": {
   "t": "Pictometry 기본 URL",
@@ -10115,6 +10649,30 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Popup mode takes ownership of the map click, gathers every enabled source, and opens one coordinated native popup.": {
+  "t": "팝업 모드는 맵 클릭의 소유권을 가지고, 모든 활성화 소스를 수집하고, 하나의 좌표 기본 팝업을 엽니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Popup sources": {
+  "t": "팝업 소스",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Popup workflow": {
+  "t": "팝업 워크플로우",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Port {port} is a direct ArcGIS Server port. It usually cannot be reached from phones or outside your network. Use the Web Adaptor URL on the standard port.": {
+  "t": "항구 항구 {port} 직접 ArcGIS 서버 포트입니다. 그것은 일반적으로 전화 또는 네트워크 외부에서 도달 할 수 없습니다. 표준 포트에서 웹 어댑터 URL을 사용하십시오.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Portal Source": {
   "t": "비밀번호",
   "src": "libretranslate",
@@ -10126,6 +10684,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Prefix": {
+  "t": "연락처",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Preset Circle Size": {
   "t": "Preset 원형 크기",
@@ -10180,6 +10744,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Press Esc to clear the pin and start over.": {
+  "t": "핀을 지우고 시작하려면 Esc를 누르십시오.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Press Esc to stop drawing.": {
   "t": "보도 자료",
@@ -10289,6 +10859,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Publishes a records-selection-changed message when a result is selected, so widgets such as Table or Property Report can respond to the identify click.": {
+  "t": "결과가 선택될 때 기록 선택 변경된 메시지를 게시하므로 Table 또는 Property Report와 같은 위젯은 식별 클릭에 응답할 수 있습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Radius": {
   "t": "채용정보",
   "src": "libretranslate",
@@ -10303,6 +10879,18 @@
  },
  "Radius measurement enabled. Display the circle radius.": {
   "t": "Radius 측정 가능. 원형 반경을 표시합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Read the details here in the widget.": {
+  "t": "위젯에서 자세한 내용을 읽으십시오.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Read the details in the window that opens over the map.": {
+  "t": "지도 위에 열 창의 세부 사항을 읽으십시오.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10324,6 +10912,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Reading the details": {
+  "t": "자주 묻는 질문",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Reading the numbers": {
   "t": "번호 읽기",
@@ -10445,6 +11039,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Remove": {
+  "t": "기타 제품",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Remove basemap": {
   "t": "Basemap을 제거",
   "src": "libretranslate",
@@ -10468,6 +11068,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Remove duplicate records": {
+  "t": "중복된 기록 제거",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Remove from favorites": {
   "t": "자주 묻는 질문",
@@ -10661,6 +11267,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Results from the map come first. Results from the extra layers come after them.": {
+  "t": "지도에서 결과가 먼저 온다. 추가 레이어의 결과가 그 후 온다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Results per configured layer": {
+  "t": "구성 층 당 결과",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Return to beginning of text editor": {
   "t": "텍스트 편집기의 시작",
   "src": "libretranslate",
@@ -10817,6 +11435,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Row label, or blank for full popup content": {
+  "t": "행 상표, 또는 가득 차있는 팝업 내용을 위한 공백",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Rows to include": {
   "t": "줄을 포함",
   "src": "libretranslate",
@@ -10945,6 +11569,12 @@
  },
  "Search the guide (try \"address\" or \"latitude\")": {
   "t": "가이드 검색 (try \"address\"또는 \"latitude\")",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Search the guide (try \"click\" or \"popup\")": {
+  "t": "가이드 검색 (try \"click\" 또는 \"popup\")",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11207,6 +11837,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Select Map Widget": {
+  "t": "지도 Widget 선택",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select multiple measurements": {
   "t": "다중 측정 선택",
   "src": "libretranslate",
@@ -11299,6 +11935,12 @@
  },
  "Selected Layer": {
   "t": "선택층",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Selection": {
+  "t": "- 연혁",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11585,6 +12227,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Show no-result popup": {
+  "t": "no-result 팝업 보기",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show on map & zoom to loaded": {
   "t": "지도 & 급상승에 표시",
   "src": "libretranslate",
@@ -11611,6 +12259,12 @@
  },
  "Show Pictometry Button": {
   "t": "Pictometry 버튼 표시",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show results": {
+  "t": "결과보기",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11909,6 +12563,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Some popup sources could not be queried. Successful results are still shown.": {
+  "t": "일부 팝업 소스는 queried 수 없습니다. 성공적인 결과가 여전히 표시됩니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Some records failed: their values did not suit the fields in the layer. Use Download failed rows (CSV), fix those rows, and load them again.": {
   "t": "몇몇 기록은 실패했습니다: 그들의 가치는 층에 있는 분야를 적응하지 않았습니다. 다운로드 실패 행 (CSV)를 사용, 그 행을 수정, 그리고 다시로드.",
   "src": "libretranslate",
@@ -12071,6 +12731,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Still stuck? Contact the GIS Division and mention the External Map Coordinates name and this app.": {
+  "t": "아직도 붙어? GIS 사업부에 연락하여 외부 맵 좌표 이름과 이 앱을 언급하십시오.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Still stuck? Contact the GIS Division and mention the Feature Identify widget and this app.": {
+  "t": "아직도 붙어? GIS 부서에 문의하고 기능 식별 위젯과이 응용 프로그램을 언급합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Still stuck? Contact your GIS team and mention the Draw Advanced widget and this app.": {
   "t": "아직도 붙어? GIS 팀에 연락하고 Draw Advanced 위젯과이 응용 프로그램을 언급합니다.",
   "src": "libretranslate",
@@ -12124,6 +12796,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Suffix": {
+  "t": "스핑크",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Summary Statistics": {
   "t": "회사연혁",
@@ -12253,6 +12931,24 @@
  },
  "Template for polyline length labels.": {
   "t": "polyline 길이 라벨에 대한 템플릿.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Test": {
+  "t": "제품정보",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Test failed:": {
+  "t": "테스트 실패:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Testing from this browser...": {
+  "t": "이 브라우저에서 테스트 ...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12479,6 +13175,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The configured layer did not respond in time.": {
+  "t": "형성된 층은 시간에 응답하지 않았습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The configured layer source is enabled, but no layer REST URL is configured.": {
+  "t": "구성 레이어 소스가 활성화되지만 레이어 REST URL이 구성되지 않습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "the coordinates": {
   "t": "좌표",
   "src": "libretranslate",
@@ -12515,8 +13223,32 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The details are listed in the widget, under a title.": {
+  "t": "세부 사항은 목록에서 나열되어 있습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The details box closes by itself after a few seconds. Keep the mouse over it and it stays open.": {
   "t": "세부 사항 상자는 몇 초 후에 스스로 닫습니다. 그것을 통해 마우스를 유지하고 열려 있습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The details open in a small window over the map.": {
+  "t": "지도 위에 작은 창에서 열립니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The details show in the widget instead of over the map: the map window could not open on this device. This happens on some phones and the first result is shown in the widget instead.": {
+  "t": "맵을 넘어 대신 위젯의 세부 사항 쇼 :지도 창이이 장치에서 열 수 없습니다. 이것은 일부 폰에 일어나고 첫 번째 결과는 대신 위젯에 표시됩니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The details take a long time: a service is busy answering. Wait a few seconds, then click again in the same place.": {
+  "t": "세부사항은 장시간을 가지고 갑니다: 서비스는 바쁜 대답입니다. 몇 초를 기다립니다. 같은 곳에서 다시 클릭.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12538,6 +13270,24 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "the extra layers set up for this app": {
+  "t": "이 응용 프로그램에 대한 추가 레이어 설정",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The feature you are looking at": {
+  "t": "당신이 찾고있는 기능",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The feature you are reading is outlined on the map, so you can see which one it is.": {
+  "t": "읽는 기능은지도에 나타날 수 있으므로 어느 것을 볼 수 있습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The file lands in your downloads folder, named after your file with the date and time.": {
   "t": "다운로드 폴더의 파일 토지, 날짜와 시간에 파일 후 이름.",
@@ -12599,11 +13349,35 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "the layers drawn on the map": {
+  "t": "지도에 그려진 층",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The line at the top of the widget names the feature you clicked.": {
+  "t": "위젯 상단의 선은 클릭 한 기능 이름을 지정합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The line at the top of the window names the feature you clicked.": {
+  "t": "창의 상단의 라인은 클릭한 기능입니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The Load step checks the work, then writes the records into the layer.": {
   "t": "로드 단계는 작업을 확인, 다음 레이어에 레코드를 작성.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The map does not move or change scale by itself. Use the zoom action in the details when you want the map to go there.": {
+  "t": "지도 자체로 이동하거나 변경하지 않습니다. 지도를 원할 때 세부 사항의 줌 작업을 사용합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The map is blank: that basemap may not have pictures for this area or zoom level. Try a different basemap.": {
   "t": "지도는 공백입니다: 그 basemap는 이 지역 또는 급상승 수준을 위한 그림이 있을지도 모릅니다. 다른 basemap을 사용해보십시오.",
@@ -12622,6 +13396,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The map popup could not be opened on this device, so the first result is shown here instead.": {
+  "t": "맵 팝업이 장치에서 열 수 없습니다, 그래서 첫 번째 결과는 여기에 표시됩니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The map popup layers could not be queried.": {
+  "t": "지도 팝업 층은 queried 할 수 없습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The numbers describe the spot you clicked, not the center of the map.": {
   "t": "숫자는 클릭 한 자리, 지도의 중심이 아닙니다.",
@@ -12643,6 +13429,12 @@
  },
  "The pin button turns itself off after one click. Click it again for the next spot.": {
   "t": "핀 단추는 1개의 누르기 후에 스스로 끕니다. 다음 자리에 다시 클릭.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The pin disappears when you close the widget. Copy the coordinates first if you need to keep them.": {
+  "t": "핀은 위젯을 닫을 때 사라집니다. 먼저 좌표를 복사하면 유지해야 합니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12695,6 +13487,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "the service did not respond in time.": {
+  "t": "서비스는 시간에 응답하지 않았다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The shapes are 1:1 for one field into one field, M:1 to join several fields into one, 1:M to split one field into several, and M:M for the rest.": {
   "t": "모양은 1개의 분야로 1개의 분야를 위한 1:1입니다, M: 1개의 분야로 몇몇 분야에, 1:M에 결합하기 위하여 나머지를 위한 M:M.",
   "src": "libretranslate",
@@ -12739,6 +13537,24 @@
  },
  "The tools, button by button": {
   "t": "도구, 버튼 버튼",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The URL does not look like an ArcGIS REST endpoint (/rest/services/ is missing).": {
+  "t": "URL은 ArcGIS REST 엔드포인트 (/rest/services/는 누락되지 않습니다)와 같습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The URL should end in a layer number, such as /MapServer/0.": {
+  "t": "URL은 /MapServer/0과 같은 레이어 번호에서 끝납니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The URL uses http. Apps served over https cannot load it.": {
+  "t": "URL은 http를 사용합니다. HTTPS를 통해 제공되는 앱은로드 할 수 없습니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12805,6 +13621,12 @@
  },
  "The widget looks up the nearest address and marks it with a house.": {
   "t": "위젯은 가장 가까운 주소를 보이고 집으로 표시하십시오.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The widget says no map is selected: it has not been joined to a map yet. Ask the person who built the app to pick the map in the widget settings.": {
+  "t": "위젯은지도가 선택되지 않습니다 :지도에 아직 가입되지 않았습니다. 앱을 구축 한 사람이 위젯 설정에서지도를 선택하도록 요청하십시오.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12881,6 +13703,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "This is not a valid URL.": {
+  "t": "이것은 유효한 URL이 아닙니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "This map uses spatial reference {wkid} which the widget cannot convert. Please use a Web Mercator or WGS84 basemap.": {
   "t": "이 지도는 공간 참고를 사용합니다 {wkid} 위젯을 변환 할 수 없습니다. Web Mercator 또는 WGS84 Basemap을 사용하십시오.",
   "src": "libretranslate",
@@ -12955,6 +13783,18 @@
  },
  "Tick \"{limit}\" to look only inside the area the map shows now. This helps when the same street name is in another town.": {
   "t": "킥 \"{limit}\"이 지역 내의 모습은 이제 맵 쇼입니다. 같은 거리 이름이 다른 마을에있을 때이 도움말.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Title expression (Arcade)": {
+  "t": "제목 표현 (Arcade)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Title field": {
+  "t": "회사연혁",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13415,6 +14255,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Under the title is a list. Each line has a label on the left and the value for that feature on the right.": {
+  "t": "제목은 목록입니다. 각 선은 왼쪽의 라벨과 오른쪽의 특징에 대한 값이 있습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Underline": {
   "t": "이름 *",
   "src": "libretranslate",
@@ -13643,6 +14489,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Unnamed layer": {
+  "t": "이름 층",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Update": {
   "t": "(주)",
   "src": "libretranslate",
@@ -13733,6 +14585,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Use a label for a scalar row expression. Leave the label blank when the Arcade returns a full Popup Element dictionary, such as { type: 'text', text: content }. Full popup expressions replace the automatically generated attribute rows.": {
+  "t": "scalar 행식을 위한 라벨을 사용합니다. 아케이드가 { type: 'text', text: content }와 같은 전체 팝업 요소 사전을 반환할 때 라벨 공백을 남겨 주세요. 전체 팝업 표현은 자동으로 생성 된 속성 줄을 대체합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Use ctrl+c or right-click to copy to the clipboard.": {
   "t": "클립보드에 복사하기 위해 ctrl+c 또는 right-click을 사용하십시오.",
   "src": "libretranslate",
@@ -13750,6 +14608,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Use field aliases": {
+  "t": "사용 분야 aliases",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Use source geometry": {
   "t": "공급 업체",
@@ -13931,6 +14795,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Warning: the layer does not list the Query capability.": {
+  "t": "경고: 층은 Query 기능을 나열하지 않습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Warnings:": {
   "t": "경고 :",
   "src": "libretranslate",
@@ -13991,6 +14861,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "When enabled, visible popup-capable map layers can use an automatically generated default popup. Leave disabled to honor the web map popup configuration exactly.": {
+  "t": "활성화되면 팝업 가능한 맵 레이어가 자동으로 생성 된 기본 팝업을 사용할 수 있습니다. 웹 맵 팝업 구성을 정확히 존중하지 마십시오.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "When enabled, your drawing cursor will automatically snap to grid intersection points for precise alignment.": {
   "t": "설정할 때, 드로잉 커서를 자동으로 정확한 정렬을 위해 그리드 교차점에 스냅합니다.",
   "src": "libretranslate",
@@ -14015,6 +14891,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "When the same record comes back from both, you see it once, not twice.": {
+  "t": "동일한 기록이 둘 다에서 돌아올 때, 당신은 그것을 한 번, 두 번 볼 수 있습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "When you come back, a bar at the top offers to bring back what you measured last time. Click Restore to bring it back or the x to discard it.": {
   "t": "다시 올 때, 상단의 바는 당신이 마지막 시간을 측정 한 것을 다시 가져다줍니다. 다시 가져 오기를 클릭하거나 x를 discard에.",
   "src": "libretranslate",
@@ -14023,6 +14905,12 @@
  },
  "Where each format is offered": {
   "t": "각 형식이 제공되는 곳",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Where the details come from": {
+  "t": "자주 묻는 질문",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14255,6 +15143,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "You can also open the list at the top of the window and pick the feature you want by name.": {
+  "t": "창의 상단에 목록을 열 수 있으며 이름으로 원하는 기능을 선택하십시오.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "You can delete a record from the form. There is no undo, so check before you do.": {
   "t": "양식에서 기록을 삭제할 수 있습니다. 아무 것도 없습니다.",
   "src": "libretranslate",
@@ -14317,6 +15211,12 @@
  },
  "Zoom and scale follow the map. They change as you zoom in or out, even before you click.": {
   "t": "Zoom 및 스케일 맵을 따르십시오. 그들은 당신이 줌 또는 밖으로, 당신이 클릭하기 전에.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zoom in before you click where features sit close together. You get a shorter, clearer list.": {
+  "t": "줌을 클릭하기 전에 기능을 함께 앉아. 더 짧고, 더 명확한 목록.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"

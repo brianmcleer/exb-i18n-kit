@@ -83,6 +83,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "(expression error)": {
+  "t": "(погрешность выражения)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "(Mac) to temporarily disable snapping while drawing.": {
   "t": "(Mac) временно отключить щелчок во время рисования.",
   "src": "libretranslate",
@@ -149,11 +155,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "{copy} does nothing: your browser blocked clipboard access. Click in the box below the buttons and press Ctrl+C instead.": {
+  "t": "{copy} Ничего не делает: ваш браузер заблокировал доступ к буферу обмена. Нажмите в поле ниже кнопок и нажмите Ctrl + C.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{count} duplicate key values in the incoming data": {
   "t": "{count} дублирование ключевых значений во входящих данных",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "{count} records": {
+  "t": "{count} рекорды",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "{count} rules": {
   "t": "{count} правила",
@@ -352,6 +370,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "{ms} ms": {
+  "t": "{ms} мс",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "{name}: a satellite view tilted so buildings and terrain show in 3D.": {
   "t": "{name}Вид со спутника наклонен так, что здания и местность отображаются в 3D.",
@@ -641,6 +665,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A black box of small text sits at the bottom of the screen: the diagnostic view is on. Ask the person who built the app to turn it off in the widget settings.": {
+  "t": "В нижней части экрана находится черный ящик с небольшим текстом: включен диагностический вид. Попросите человека, который создал приложение, выключить его в настройках виджета.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A button opens a page with no picture: that website has no imagery for that spot. Try a spot nearby, or a different button.": {
+  "t": "Кнопка открывает страницу без изображения: на этом сайте нет изображений для этого места. Попробуйте место рядом или другую кнопку.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A configured layer could not be queried. Check the layer URL and service access.": {
+  "t": "Сконфигурированный слой не может быть запрошен. Проверьте уровень URL и доступ к сервису.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "a file from your computer": {
   "t": "Файл с вашего компьютера",
   "src": "libretranslate",
@@ -659,6 +701,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A layer you expected is missing from the results: that layer is turned off in the map. Turn it back on in the layer list and click again.": {
+  "t": "Слой, который вы ожидали, отсутствует в результатах: этот слой выключен на карте. Включите его обратно в список слоев и нажмите снова.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A line or shape will not finish: double-click on the last point.": {
   "t": "Линия или форма не закончатся: дважды щелкните по последней точке.",
   "src": "libretranslate",
@@ -671,8 +719,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A message says the map's spatial reference cannot be converted: this widget reads Web Mercator, WGS84, UTM and Colorado State Plane maps. Ask whoever built this app about the map's coordinate system.": {
+  "t": "В сообщении говорится, что пространственная ссылка на карту не может быть преобразована: этот виджет читает карты Web Mercator, WGS84, UTM и Colorado State Plane. Спросите любого, кто создал это приложение, о системе координат карты.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A negative longitude means west of Greenwich. A negative latitude means south of the equator.": {
   "t": "Отрицательная долгота означает запад от Гринвича. Отрицательная широта означает юг экватора.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A note says some sources could not be read: one service did not answer in time. What did arrive is still shown. Try the same click again in a moment.": {
+  "t": "В записке говорится, что некоторые источники не могли быть прочитаны: одна служба не ответила вовремя. То, что произошло, все еще показано. Попробуйте повторить тот же клик через мгновение.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -694,6 +754,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "A value that is a web address shows as a link. Click it and the page opens in a new tab, so the map stays as you left it.": {
+  "t": "Значение, которое является веб-адресом, отображается как ссылка. Нажмите на него, и страница откроется в новой вкладке, поэтому карта остается, когда вы ее оставили.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "A warning says no target layer is configured: the app author has not chosen the layer to load into. Contact the GIS Division.": {
   "t": "Предупреждение гласит, что целевой слой не настроен: автор приложения не выбрал слой для загрузки. Свяжитесь с отделом ГИС.",
@@ -827,11 +893,29 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Add expression": {
+  "t": "Добавить выражение",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add format rule": {
+  "t": "Добавить правило формата",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add imported drawings to existing ones": {
   "t": "Добавить импортные рисунки к существующим",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Add layer": {
+  "t": "Добавить слой",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Add map coordinate unit": {
   "t": "Добавить координаты карты",
@@ -1391,6 +1475,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Allows overlapping configured-layer features to participate in popup result cycling.": {
+  "t": "Позволяет перекрывать функции конфигурированного уровня для участия в всплывающем цикле результатов.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Almost any address list out of a spreadsheet works.": {
   "t": "Почти любой список адресов из электронной таблицы работает.",
   "src": "libretranslate",
@@ -1516,6 +1606,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Arcade expressions": {
+  "t": "Аркадные выражения",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "ArcGIS content: search for a layer that is already published.": {
   "t": "Содержание ArcGIS: поиск слоя, который уже опубликован.",
@@ -2741,8 +2837,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Click a feature on the map and its details open for you to read.": {
+  "t": "Нажмите на функцию на карте, и ее детали откроются для чтения.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click a feature on the map to see its details.": {
+  "t": "Нажмите на функцию на карте, чтобы увидеть ее детали.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Click a measurement label to select it and begin editing": {
   "t": "Нажмите на этикетку измерения, чтобы выбрать ее и начать редактирование",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click a new spot at any time. The pin and the coordinates move to the new spot.": {
+  "t": "Нажмите на новое место в любое время. Штырь и координаты перемещаются на новое место.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2767,6 +2881,12 @@
  },
  "Click in the box below the buttons and press Ctrl+C to copy what is in it.": {
   "t": "Нажмите в поле ниже кнопок и нажмите Ctrl + C, чтобы скопировать то, что в нем.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click it once. Give it a moment while the details are collected.": {
+  "t": "Нажмите один раз. Дайте ему время, пока будут собраны детали.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2899,6 +3019,12 @@
  },
  "Click the map to place the circle &bull; Esc to cancel": {
   "t": "Нажмите на карту, чтобы разместить круг &bull; Esc, чтобы отменить",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click the map. Native map popup results appear first, and configured REST endpoint results appear last.": {
+  "t": "Нажмите на карту. Сначала появляются результаты всплывающего окна карты, а настроенные результаты конечных точек REST появляются последними.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3041,11 +3167,23 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Click tolerance (pixels)": {
+  "t": "Click tolerance (пиксели)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Clicking the basemap with the check mark applies that same basemap again.": {
   "t": "Нажатие на базовую карту с контрольным знаком снова применяет ту же базовую карту.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Clicking the same place again brings the details straight back.": {
+  "t": "Нажатие на одно и то же место снова возвращает детали.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Close": {
   "t": "Закрыть",
@@ -3091,6 +3229,12 @@
  },
  "Close the widget and its marks leave the map. Open it again and they come back, until you click {clear}.": {
   "t": "Закройте виджет, и его отметки покинут карту. Откройте его снова, и они вернутся, пока вы не нажмете {clear}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Close the window with the small x at its top right when you are done.": {
+  "t": "Закройте окно с маленьким x в правом верхнем углу, когда закончите.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3163,6 +3307,18 @@
  },
  "Color: {color}": {
   "t": "Цвет: {color}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Combined mode queries both sources on the same click, removes duplicates, and opens the results together.": {
+  "t": "Комбинированный режим запрашивает оба источника одним щелчком мыши, удаляет дубликаты и открывает результаты вместе.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comma-separated field names to leave out of the popup content.": {
+  "t": "Имена полей, разделенные запятой, чтобы исключить всплывающий контент.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3247,6 +3403,18 @@
  },
  "Configure Enhanced Locate": {
   "t": "Настройка Enhanced Location",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Configured REST layers": {
+  "t": "Настроенные REST-слои",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Configured REST layers only": {
+  "t": "Только сконфигурированные REST-слои",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3569,6 +3737,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copy log": {
+  "t": "Копировать журнал",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copy settings XML to clipboard": {
   "t": "Скопировать настройки XML в буфер обмена",
   "src": "libretranslate",
@@ -3655,6 +3829,12 @@
  },
  "Ctrl+Z undoes the last change and Ctrl+Y brings it back.": {
   "t": "Ctrl+Z отменяет последнее изменение, и Ctrl+Y возвращает его.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Currency (USD)": {
+  "t": "Валюта (USD)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3821,6 +4001,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Cycling through popup results does not change the map extent or scale. The map moves only when the user selects the popup Zoom To action.": {
+  "t": "Велосипед через всплывающие результаты не изменяет масштаб или масштаб карты. Карта перемещается только тогда, когда пользователь выбирает всплывающее окно Zoom To action.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Dark": {
   "t": "темный",
   "src": "libretranslate",
@@ -3832,6 +4018,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Date": {
+  "t": "Дата",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Date and time": {
+  "t": "Дата и время",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Dates come in empty or wrong: the date text is not in the form the widget expected. On that rule choose dateParse and fill in Input date format, for example MM/DD/YYYY.": {
   "t": "Даты бывают пустыми или неправильными: текст даты не соответствует ожидаемой форме виджета. По этому правилу выберите dateParse и заполните формат Input date, например MM/DD/YYYY.",
@@ -3889,6 +4087,12 @@
  },
  "Decimal Places:": {
   "t": "Десятичные места:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Decimals": {
+  "t": "десятичные",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4955,6 +5159,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Each layer has its own title, hidden fields, format rules, and Arcade expressions. Layers are queried in the order listed and are not drawn on the map.": {
+  "t": "Каждый слой имеет свой собственный заголовок, скрытые поля, правила формата и выражения Arcade. Слои запрашиваются в указанном порядке и не нарисованы на карте.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Each match has a score out of 100. The higher the score, the closer the match. The best match is first.": {
   "t": "Каждый матч имеет счет из 100. Чем выше счет, тем ближе матч. Лучший матч - первый.",
   "src": "libretranslate",
@@ -5339,6 +5549,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Enabled": {
+  "t": "включенный",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "End": {
   "t": "Конец",
   "src": "libretranslate",
@@ -5371,6 +5587,12 @@
  },
  "Enhanced Measurement": {
   "t": "Усовершенствованные измерения",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enter a layer URL first.": {
+  "t": "Сначала введите URL-адрес.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5603,6 +5825,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Expands a map click into a small screen-sized query area so point and line features are easier to identify.": {
+  "t": "Расширяет клик по карте в небольшую область запросов размером с экран, поэтому функции точки и линии легче идентифицировать.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "export": {
   "t": "экспорт",
   "src": "libretranslate",
@@ -5825,6 +6053,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Extra layers: the person who built the app can add layers that are not drawn on the map. Their details are written for this app, so the labels can read differently.": {
+  "t": "Дополнительные слои: человек, который создал приложение, может добавить слои, которые не нарисованы на карте. Их данные написаны для этого приложения, поэтому ярлыки могут читать по-разному.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "FacilityID": {
   "t": "Средство",
   "src": "libretranslate",
@@ -5861,8 +6095,32 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Feature": {
+  "t": "Особенность",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Feature {idx}": {
   "t": "Особенность {idx}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Feature Identify": {
+  "t": "Характеристика Определить",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Feature Identify debug (newest first)": {
+  "t": "Функция Identify debug (сначала новая)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Feature Identify tells you about whatever you click on the map.": {
+  "t": "Функция Identify рассказывает вам о том, что вы нажимаете на карту.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5927,11 +6185,29 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Field formats": {
+  "t": "Полевые форматы",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Field mapping": {
   "t": "Карта местности",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Field name": {
+  "t": "Полевое имя",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Field shown as the popup title. Leave blank to use the service display field.": {
+  "t": "Поле показано как всплывающее название. Оставьте пустой, чтобы использовать поле отображения службы.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "File detected, drop to upload.": {
   "t": "Файл обнаружен, выгрузка.",
@@ -6017,6 +6293,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Final limit after map and configured results are merged and duplicates are removed.": {
+  "t": "Окончательный предел после объединения карты и сконфигурированных результатов и удаления дубликатов.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Find a basemap": {
   "t": "Найдите базовую карту",
   "src": "libretranslate",
@@ -6025,6 +6307,12 @@
  },
  "Find a place on the map by its address, by its coordinates, or by clicking the map to get the address there.": {
   "t": "Найдите место на карте по его адресу, по его координатам или нажав на карту, чтобы получить адрес там.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Find the feature you want on the map, such as a parcel, a road or a point.": {
+  "t": "Найдите нужную вам функцию на карте, такую как посылка, дорога или точка.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6329,6 +6617,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Format a field as a number, currency, percent, or date, or turn it into a link built from a URL template with {FIELD_NAME} tokens.": {
+  "t": "Форматируйте поле как число, валюту, процент или дату или превратите его в ссылку, построенную из шаблона URL-адреса. {FIELD_NAME} Токены.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Forward": {
   "t": "Вперед",
   "src": "libretranslate",
@@ -6373,6 +6667,12 @@
  },
  "from this session that haven't been saved yet.": {
   "t": "Из этой сессии, которая еще не была спасена.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Full URL to a queryable layer endpoint ending in a layer number. Use the public address that goes through your Web Adaptor, not a direct ArcGIS Server port.": {
+  "t": "Полный URL до конечной точки запрашиваемого уровня, заканчивающейся номером слоя. Используйте публичный адрес, который проходит через ваш веб-адаптер, а не прямой порт сервера ArcGIS.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6929,6 +7229,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Hex color for the selected feature outline. Polygon fill remains transparent.": {
+  "t": "Цвет Hex для выбранного контура. Полигон остается прозрачным.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hidden fields": {
+  "t": "Скрытые поля",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Hide {label} ({abbreviation})": {
   "t": "прятаться {label} (){abbreviation})",
   "src": "libretranslate",
@@ -6985,6 +7297,18 @@
  },
  "Hide measurements for {name}": {
   "t": "Скрытые измерения для {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Highlight outline color": {
+  "t": "Выделить контурный цвет",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Highlight selected popup feature": {
+  "t": "Выберите функцию popup",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7055,6 +7379,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "If nothing is found where you clicked, a short note appears in the widget.": {
+  "t": "Если ничего не найдено, где вы нажали, в виджете появляется короткая заметка.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "If nothing is found where you clicked, a short window says so.": {
+  "t": "Если ничего не найдено там, где вы щелкнули, короткое окно говорит об этом.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "If something looks wrong": {
   "t": "Если что-то выглядит неправильно",
   "src": "libretranslate",
@@ -7075,6 +7411,12 @@
  },
  "If you do not specify a number of seconds here then the popup will not auto close": {
   "t": "Если вы не укажете количество секунд здесь, то всплывающее окно не будет автоматически закрываться.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "If your click finds more than one feature, small arrows at the top of the window step you through them, one at a time.": {
+  "t": "Если ваш клик находит более одной функции, маленькие стрелки в верхней части окна проходят через них по одной за раз.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7193,8 +7535,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "In the map popup": {
+  "t": "На карте popup",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "In this widget panel": {
+  "t": "В этой панели виджетов",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "In View": {
   "t": "Взгляд",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include layers without configured popups": {
+  "t": "Включает слои без настроенных всплывающих окон",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7318,6 +7678,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Integer": {
+  "t": "целое число",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Integrations": {
   "t": "Интеграция",
@@ -7763,6 +8129,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Layer name (used as the data source label)": {
+  "t": "Название слоя (используется в качестве метки источника данных)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layer REST URL": {
+  "t": "Слой REST URL",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Layer title": {
   "t": "Название уровня",
   "src": "libretranslate",
@@ -7927,6 +8305,18 @@
  },
  "Lines and areas finish on a double-click. A point or a rectangle finishes on its own.": {
   "t": "Линии и области заканчиваются двойным щелчком мыши. Точка или прямоугольник заканчиваются самостоятельно.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Link": {
+  "t": "Ссылка",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Link text (optional)": {
+  "t": "Текст ссылки (факультативно)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8369,6 +8759,42 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Map layers and configured REST layers": {
+  "t": "Слои карт и настроенные REST-слои",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map layers: any layer that is turned on and drawn on the map can answer, using the wording set up in the map itself.": {
+  "t": "Слои карты: любой слой, который включен и нарисован на карте, может ответить, используя формулировку, установленную на самой карте.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map popup layers": {
+  "t": "Всплывающие слои карты",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map popup layers only": {
+  "t": "Карта только всплывающие слои",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map popup results are always listed first. Configured REST endpoint results are appended last.": {
+  "t": "Результаты всплывающих карт всегда указаны первыми. Конфигурированные результаты REST конечных точек прилагаются последними.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map popups stopped appearing: they are paused while this widget is open so your click places a pin instead. Close the widget to get them back.": {
+  "t": "Всплывающие окна карты перестали появляться: они приостановлены, пока этот виджет открыт, поэтому ваш щелчок вместо этого помещает значок. Закройте виджет, чтобы вернуть их.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map Units (linear)": {
   "t": "Единицы карты (линейные)",
   "src": "libretranslate",
@@ -8467,6 +8893,12 @@
  },
  "Maximum number of saved drawings": {
   "t": "Максимальное количество сохраненных рисунков",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Maximum popup results": {
+  "t": "Максимальные всплывающие результаты",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9137,6 +9569,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No feature found at that location.": {
+  "t": "Никаких признаков не найдено в этом месте.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No feature layers on the map to style yet.": {
   "t": "На карте пока нет слоёв функций для стиля.",
   "src": "libretranslate",
@@ -9203,6 +9641,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No map selected. Open the widget settings and choose a map.": {
+  "t": "Карта не выбрана. Откройте настройки виджета и выберите карту.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No map widget connected": {
   "t": "Виджет карты не подключен",
   "src": "libretranslate",
@@ -9256,6 +9700,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "No results": {
+  "t": "Нет результатов",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "No Results Found": {
   "t": "Результаты не найдены",
@@ -9377,11 +9827,41 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Nothing happens when you click the map: the widget is closed or was not placed on this screen size. Open Feature Identify from the app, then click the map again.": {
+  "t": "Ничего не происходит, когда вы нажимаете на карту: виджет закрыт или не был помещен на этот размер экрана. Откройте функцию Идентифицируйте из приложения, затем снова нажмите на карту.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Nothing happens when you click the map: the widget is not connected to a map. Ask whoever built this app to check the map setting.": {
+  "t": "Ничего не происходит, когда вы нажимаете на карту: виджет не подключен к карте. Спросите, кто создал это приложение, чтобы проверить настройку карты.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Nothing in the guide matches that word. Try another, or open the sections above.": {
   "t": "Ничто в руководстве не соответствует этому слову. Попробуйте другой или откройте разделы выше.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Nothing is found where you know a feature is: the click landed just off the edge. Zoom in and click again, nearer the middle of the feature.": {
+  "t": "Ничего не найдено там, где вы знаете, что есть функция: щелчок приземлился с края. Введите и нажмите снова, ближе к середине функции.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Nothing you click here changes the data. You are only reading it.": {
+  "t": "Ничто из того, что вы нажимаете здесь, не изменяет данные. Вы только читаете его.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Notify other widgets of the selected result": {
+  "t": "Уведомление других виджетов выбранного результата",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Noto Sans": {
   "t": "Ното Санс",
@@ -9412,6 +9892,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Number": {
+  "t": "Номер",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Number of decimal places for area and perimeter measurements, minimum 0, maximum 10": {
   "t": "Число десятичных мест для измерения площади и периметра, минимум 0, максимум 10",
@@ -9599,6 +10085,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "One click asks {sources}.": {
+  "t": "Один клик спрашивает {sources}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Only basemaps with that text in their names stay in the gallery.": {
   "t": "В галерее остаются только базовые карты с этим текстом в их именах.",
   "src": "libretranslate",
@@ -9665,6 +10157,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Open result list when multiple": {
+  "t": "Открытый список результатов при множественном",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Open text formatting options panel": {
   "t": "Панель вариантов форматирования открытого текста",
   "src": "libretranslate",
@@ -9689,6 +10187,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Optional. Overrides the title field. The identified feature is available as $feature.": {
+  "t": "Необязательно. Преодоление титульного поля. Выявленная функция доступна как $feature.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "or": {
   "t": "или",
   "src": "libretranslate",
@@ -9706,6 +10210,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Other parts of the app, such as a table, can follow along and show the same record.": {
+  "t": "Другие части приложения, такие как таблица, могут сопровождать и показывать ту же запись.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Outline": {
   "t": "контур",
@@ -9743,6 +10253,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Outline width (px)": {
+  "t": "Ширина линии (px)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Outline-only disabled{count}": {
   "t": "Только для инвалидов{count}",
   "src": "libretranslate",
@@ -9773,6 +10289,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Panel mode is retained for legacy use. It queries only the configured REST layers and leaves the map's normal popup behavior unchanged.": {
+  "t": "Режим панели сохраняется для унаследованного использования. Он запрашивает только настроенные REST-слои и оставляет нормальное всплывающее поведение карты без изменений.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Parent Widget Controller": {
   "t": "Родительский контроллер Виджета",
   "src": "libretranslate",
@@ -9799,6 +10321,12 @@
  },
  "PDF…": {
   "t": "PDF...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Percent": {
+  "t": "%",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9910,6 +10438,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Pictometry asks you to sign in: the Pictometry viewer needs its own account. Ask whoever built this app if you should have one.": {
+  "t": "Pictometry просит вас зарегистрироваться: для просмотра Pictometry нужен свой аккаунт. Спросите, кто создал это приложение, если оно у вас есть.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Pictometry Base URL": {
   "t": "Пиктометрическая база URL",
@@ -10115,6 +10649,30 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Popup mode takes ownership of the map click, gathers every enabled source, and opens one coordinated native popup.": {
+  "t": "Режим Popup берет на себя ответственность за клик по карте, собирает каждый включенный источник и открывает один скоординированный нативный всплывающий окно.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Popup sources": {
+  "t": "Источники Popup",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Popup workflow": {
+  "t": "Всплывающий рабочий процесс",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Port {port} is a direct ArcGIS Server port. It usually cannot be reached from phones or outside your network. Use the Web Adaptor URL on the standard port.": {
+  "t": "Порт {port} Прямой порт ArcGIS Server. Обычно его нельзя получить с телефона или за пределами вашей сети. Используйте URL-адрес веб-адаптера на стандартном порту.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Portal Source": {
   "t": "Портал Источник",
   "src": "libretranslate",
@@ -10126,6 +10684,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Prefix": {
+  "t": "Префикс",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Preset Circle Size": {
   "t": "Предустановленный размер круга",
@@ -10180,6 +10744,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Press Esc to clear the pin and start over.": {
+  "t": "Нажмите Esc, чтобы очистить штифт и начать все сначала.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Press Esc to stop drawing.": {
   "t": "Нажмите Esc, чтобы перестать рисовать.",
@@ -10289,6 +10859,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Publishes a records-selection-changed message when a result is selected, so widgets such as Table or Property Report can respond to the identify click.": {
+  "t": "Публикует сообщение с изменением выбора записей при выборе результата, поэтому виджеты, такие как Таблица или Отчет о собственности, могут реагировать на клик по идентификации.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Radius": {
   "t": "Радиус",
   "src": "libretranslate",
@@ -10303,6 +10879,18 @@
  },
  "Radius measurement enabled. Display the circle radius.": {
   "t": "Радиус измерения включен. Покажите радиус круга.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Read the details here in the widget.": {
+  "t": "Подробности читайте здесь, в виджете.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Read the details in the window that opens over the map.": {
+  "t": "Читайте подробности в окне, которое открывается над картой.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10324,6 +10912,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Reading the details": {
+  "t": "Читать подробности",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Reading the numbers": {
   "t": "Читать цифры",
@@ -10445,6 +11039,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Remove": {
+  "t": "Удалить",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Remove basemap": {
   "t": "Удалить basemap",
   "src": "libretranslate",
@@ -10468,6 +11068,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Remove duplicate records": {
+  "t": "Удалить дублирующие записи",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Remove from favorites": {
   "t": "Удалить из любимых",
@@ -10661,6 +11267,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Results from the map come first. Results from the extra layers come after them.": {
+  "t": "Результаты с карты приходят первыми. Результаты от дополнительных слоев приходят после них.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Results per configured layer": {
+  "t": "Результаты на сконфигурированный слой",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Return to beginning of text editor": {
   "t": "Вернуться к началу текстового редактора",
   "src": "libretranslate",
@@ -10817,6 +11435,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Row label, or blank for full popup content": {
+  "t": "Row label или пустой для полного всплывающего контента",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Rows to include": {
   "t": "Rows включает в себя",
   "src": "libretranslate",
@@ -10945,6 +11569,12 @@
  },
  "Search the guide (try \"address\" or \"latitude\")": {
   "t": "Поиск в руководстве (попробуй \"адрес\" или \"широта\")",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Search the guide (try \"click\" or \"popup\")": {
+  "t": "Поиск в руководстве (попробуйте «click» или «popup»)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11207,6 +11837,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Select Map Widget": {
+  "t": "Выберите Map Widget",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select multiple measurements": {
   "t": "Выберите несколько измерений",
   "src": "libretranslate",
@@ -11299,6 +11935,12 @@
  },
  "Selected Layer": {
   "t": "Выбранный слой",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Selection": {
+  "t": "Выбор",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11585,6 +12227,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Show no-result popup": {
+  "t": "Показать нерезультатное всплывающее окно",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show on map & zoom to loaded": {
   "t": "Показать на карте & Zoom для загрузки",
   "src": "libretranslate",
@@ -11611,6 +12259,12 @@
  },
  "Show Pictometry Button": {
   "t": "Кнопка пиктометрии",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show results": {
+  "t": "Показать результаты",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11909,6 +12563,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Some popup sources could not be queried. Successful results are still shown.": {
+  "t": "Некоторые всплывающие источники не могут быть запрошены. Успешные результаты все еще показывают.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Some records failed: their values did not suit the fields in the layer. Use Download failed rows (CSV), fix those rows, and load them again.": {
   "t": "Некоторые записи провалились: их значения не устраивали поля в слое. Используйте Download failed rows (CSV), исправьте эти строки и загрузите их снова.",
   "src": "libretranslate",
@@ -12071,6 +12731,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Still stuck? Contact the GIS Division and mention the External Map Coordinates name and this app.": {
+  "t": "Все еще застрял? Свяжитесь с отделом ГИС и укажите название Внешних Координатов Карт и это приложение.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Still stuck? Contact the GIS Division and mention the Feature Identify widget and this app.": {
+  "t": "Все еще застрял? Свяжитесь с отделом ГИС и упомяните виджет Feature Identify и это приложение.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Still stuck? Contact your GIS team and mention the Draw Advanced widget and this app.": {
   "t": "Все еще застрял? Свяжитесь с вашей командой ГИС и укажите виджет Draw Advanced и это приложение.",
   "src": "libretranslate",
@@ -12124,6 +12796,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Suffix": {
+  "t": "суффикс",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Summary Statistics": {
   "t": "Краткая статистика",
@@ -12253,6 +12931,24 @@
  },
  "Template for polyline length labels.": {
   "t": "Шаблон для этикеток длиной полилин.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Test": {
+  "t": "Тест",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Test failed:": {
+  "t": "Тест провалился:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Testing from this browser...": {
+  "t": "Тестирование этого браузера...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12479,6 +13175,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The configured layer did not respond in time.": {
+  "t": "Настроенный слой не реагировал вовремя.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The configured layer source is enabled, but no layer REST URL is configured.": {
+  "t": "Включен настроенный источник слоя, но не настроен URL уровня REST.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "the coordinates": {
   "t": "координаты",
   "src": "libretranslate",
@@ -12515,8 +13223,32 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The details are listed in the widget, under a title.": {
+  "t": "Подробности перечислены в виджете, под заголовком.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The details box closes by itself after a few seconds. Keep the mouse over it and it stays open.": {
   "t": "Коробка с деталями закрывается через несколько секунд. Держите мышь над ней, и она остается открытой.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The details open in a small window over the map.": {
+  "t": "Детали открываются в небольшом окне над картой.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The details show in the widget instead of over the map: the map window could not open on this device. This happens on some phones and the first result is shown in the widget instead.": {
+  "t": "Детали отображаются в виджете вместо над картой: окно карты не могло открыться на этом устройстве. Это происходит на некоторых телефонах, и первый результат отображается в виджете.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The details take a long time: a service is busy answering. Wait a few seconds, then click again in the same place.": {
+  "t": "Подробности занимают много времени: служба занята ответом. Подождите несколько секунд, затем нажмите снова в том же месте.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12538,6 +13270,24 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "the extra layers set up for this app": {
+  "t": "Дополнительные слои, настроенные для этого приложения",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The feature you are looking at": {
+  "t": "Особенность, на которую вы смотрите",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The feature you are reading is outlined on the map, so you can see which one it is.": {
+  "t": "Функция, которую вы читаете, обозначена на карте, поэтому вы можете увидеть, какая из них.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The file lands in your downloads folder, named after your file with the date and time.": {
   "t": "Файл попадает в папку загрузки, названную в честь вашего файла с датой и временем.",
@@ -12599,11 +13349,35 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "the layers drawn on the map": {
+  "t": "слои, нарисованные на карте",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The line at the top of the widget names the feature you clicked.": {
+  "t": "Линия в верхней части виджета называет функцию, которую вы нажали.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The line at the top of the window names the feature you clicked.": {
+  "t": "Линия в верхней части окна называет функцию, которую вы нажали.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The Load step checks the work, then writes the records into the layer.": {
   "t": "Шаг Load проверяет работу, затем записывает записи в слой.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The map does not move or change scale by itself. Use the zoom action in the details when you want the map to go there.": {
+  "t": "Карта не перемещается и не изменяет масштаб сама по себе. Используйте действие зума в деталях, когда вы хотите, чтобы карта шла туда.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The map is blank: that basemap may not have pictures for this area or zoom level. Try a different basemap.": {
   "t": "Карта пустая: эта базовая карта может не иметь изображений для этой области или уровня масштабирования. Попробуйте другую базовую карту.",
@@ -12622,6 +13396,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The map popup could not be opened on this device, so the first result is shown here instead.": {
+  "t": "Всплывающее окно карты не могло быть открыто на этом устройстве, поэтому первый результат показан здесь.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The map popup layers could not be queried.": {
+  "t": "Всплывающие слои карты не могли быть запрошены.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The numbers describe the spot you clicked, not the center of the map.": {
   "t": "Цифры описывают место, на которое вы нажали, а не центр карты.",
@@ -12643,6 +13429,12 @@
  },
  "The pin button turns itself off after one click. Click it again for the next spot.": {
   "t": "Кнопка отключается после одного щелчка. Нажмите еще раз для следующего места.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The pin disappears when you close the widget. Copy the coordinates first if you need to keep them.": {
+  "t": "Пин исчезает, когда вы закрываете виджет. Сначала скопируйте координаты, если вам нужно их сохранить.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12695,6 +13487,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "the service did not respond in time.": {
+  "t": "Служба вовремя не ответила.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The shapes are 1:1 for one field into one field, M:1 to join several fields into one, 1:M to split one field into several, and M:M for the rest.": {
   "t": "Формы 1:1 для одного поля в одно поле, M:1 для соединения нескольких полей в одно, 1:M для разделения одного поля на несколько, и M:M для остальных.",
   "src": "libretranslate",
@@ -12739,6 +13537,24 @@
  },
  "The tools, button by button": {
   "t": "Инструменты, кнопка за кнопкой",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The URL does not look like an ArcGIS REST endpoint (/rest/services/ is missing).": {
+  "t": "URL-адрес не похож на конечную точку ArcGIS REST (отдых / услуги / отсутствует).",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The URL should end in a layer number, such as /MapServer/0.": {
+  "t": "URL должен заканчиваться номером слоя, таким как /MapServer/0.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The URL uses http. Apps served over https cannot load it.": {
+  "t": "URL использует http. Приложения, обслуживаемые через https, не могут загрузить его.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12805,6 +13621,12 @@
  },
  "The widget looks up the nearest address and marks it with a house.": {
   "t": "Виджет ищет ближайший адрес и отмечает его домом.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The widget says no map is selected: it has not been joined to a map yet. Ask the person who built the app to pick the map in the widget settings.": {
+  "t": "Виджет говорит, что карта не выбрана: она еще не присоединена к карте. Попросите человека, который создал приложение, выбрать карту в настройках виджета.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12881,6 +13703,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "This is not a valid URL.": {
+  "t": "Это не действительный URL.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "This map uses spatial reference {wkid} which the widget cannot convert. Please use a Web Mercator or WGS84 basemap.": {
   "t": "Карта использует пространственную ссылку {wkid} которые виджет не может конвертировать. Пожалуйста, используйте базовую карту Web Mercator или WGS84.",
   "src": "libretranslate",
@@ -12955,6 +13783,18 @@
  },
  "Tick \"{limit}\" to look only inside the area the map shows now. This helps when the same street name is in another town.": {
   "t": "Тик \"{limit}\"чтобы заглянуть только внутрь области, которую показывает карта. Это помогает, когда одно и то же название улицы находится в другом городе.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Title expression (Arcade)": {
+  "t": "Выражение названия (Arcade)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Title field": {
+  "t": "Полное название",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13415,6 +14255,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Under the title is a list. Each line has a label on the left and the value for that feature on the right.": {
+  "t": "Под заголовком находится список. Каждая строка имеет ярлык слева и значение для этой функции справа.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Underline": {
   "t": "Подчеркнуть",
   "src": "libretranslate",
@@ -13643,6 +14489,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Unnamed layer": {
+  "t": "Безымянный слой",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Update": {
   "t": "обновление",
   "src": "libretranslate",
@@ -13733,6 +14585,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Use a label for a scalar row expression. Leave the label blank when the Arcade returns a full Popup Element dictionary, such as { type: 'text', text: content }. Full popup expressions replace the automatically generated attribute rows.": {
+  "t": "Используйте ярлык для скалярного выражения строки. Оставьте ярлык пустым, когда Arcade вернет полный словарь всплывающих элементов, такой как {тип: 'текст', текст: содержание }. Полные всплывающие выражения заменяют автоматически генерируемые строки атрибутов.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Use ctrl+c or right-click to copy to the clipboard.": {
   "t": "Используйте ctrl+c или правый клик для копирования в буфер обмена.",
   "src": "libretranslate",
@@ -13750,6 +14608,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Use field aliases": {
+  "t": "Использование полевых псевдонимов",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Use source geometry": {
   "t": "Используйте геометрию источника",
@@ -13931,6 +14795,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Warning: the layer does not list the Query capability.": {
+  "t": "Предупреждение: слой не перечисляет возможности запроса.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Warnings:": {
   "t": "Предупреждения:",
   "src": "libretranslate",
@@ -13991,6 +14861,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "When enabled, visible popup-capable map layers can use an automatically generated default popup. Leave disabled to honor the web map popup configuration exactly.": {
+  "t": "При включении видимые всплывающие слои карты могут использовать автоматически генерируемое всплывающее окно по умолчанию. Оставьте отключенным, чтобы точно соблюдать конфигурацию всплывающего окна веб-карты.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "When enabled, your drawing cursor will automatically snap to grid intersection points for precise alignment.": {
   "t": "При включении ваш курсор рисования автоматически щелкнет к точкам пересечения сетки для точного выравнивания.",
   "src": "libretranslate",
@@ -14015,6 +14891,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "When the same record comes back from both, you see it once, not twice.": {
+  "t": "Когда один и тот же рекорд возвращается с обоих, вы видите его один раз, а не два.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "When you come back, a bar at the top offers to bring back what you measured last time. Click Restore to bring it back or the x to discard it.": {
   "t": "Когда вы возвращаетесь, бар наверху предлагает вернуть то, что вы измеряли в прошлый раз. Нажмите Восстановить, чтобы вернуть его или x, чтобы отбросить его.",
   "src": "libretranslate",
@@ -14023,6 +14905,12 @@
  },
  "Where each format is offered": {
   "t": "Где предлагается каждый формат",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Where the details come from": {
+  "t": "Откуда берутся детали",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14255,6 +15143,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "You can also open the list at the top of the window and pick the feature you want by name.": {
+  "t": "Вы также можете открыть список в верхней части окна и выбрать нужную функцию по имени.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "You can delete a record from the form. There is no undo, so check before you do.": {
   "t": "Вы можете удалить запись из формы. Отмены нет, поэтому проверьте, прежде чем делать.",
   "src": "libretranslate",
@@ -14317,6 +15211,12 @@
  },
  "Zoom and scale follow the map. They change as you zoom in or out, even before you click.": {
   "t": "Зум и масштаб следуют за картой. Они меняются по мере увеличения или выключения, даже перед нажатием.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zoom in before you click where features sit close together. You get a shorter, clearer list.": {
+  "t": "Введите Zoom, прежде чем щелкнуть, где функции находятся близко друг к другу. Вы получите более короткий и четкий список.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
