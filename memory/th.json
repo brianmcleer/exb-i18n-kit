@@ -23,6 +23,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "— Select a widget —": {
+  "t": "-เลือกเครื่องมือ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "— Select controller —": {
+  "t": "— เลือก ตัว ควบคุม —",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ ". Leave blank to use built-in defaults.": {
+  "t": "วางช่องว่างไว้ใช้ค่าปริยาย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  ". Open it from the map’s layer list to see the table.": {
   "t": "เปิด จาก รายการ ชั้น บน ของ แผนที่ เพื่อ ดู ตาราง.",
   "src": "libretranslate",
@@ -329,6 +347,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "─── All Widgets ───": {
+  "t": "○ วิดเจ็ตทั้งหมด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "✓ Added": {
   "t": "○ เพิ่ม",
   "src": "libretranslate",
@@ -337,6 +361,18 @@
  },
  "✓ Apply & Close": {
   "t": "○ ใช้และปิด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "1 meter = {conversion} {label} ({abbreviation})": {
+  "t": "1 เมตร = {conversion} {label} ({abbreviation})",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "1 square meter = {conversion} {label} ({abbreviation})": {
+  "t": "1 ตารางเมตร = {conversion} {label} ({abbreviation})",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -442,6 +478,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Abbreviation (Used on map):": {
+  "t": "เปิดใช้งาน (ใช้บนแผนที่):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Accepted types: CSV, TSV, TXT, XLSX, XLS and ODS.": {
   "t": "ประเภทที่ยอมรับ: CSV, TSV, TXT, XLSX, XLS และ ODS",
@@ -575,8 +617,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Add or Change Area Units": {
+  "t": "เพิ่มหรือเปลี่ยนหน่วยพื้นที่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add or change linear units": {
   "t": "เพิ่มหรือเปลี่ยนหน่วยเชิงเส้น",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add or Change Linear Units": {
+  "t": "เพิ่มหรือเปลี่ยนหน่วย Linear",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -682,6 +736,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Address Inspection Failed": {
+  "t": "การตรวจสอบที่อยู่ล้มเหลว",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Address mapping mode": {
   "t": "โหมดการจับคู่ที่อยู่",
@@ -977,6 +1037,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Allow the Identify By Query widget to send feature geometries to this widget using the \"Copy To Draw\" button. Received geometries will appear in My Drawings and be saved to storage.": {
+  "t": "อนุญาตให้ระบุได้โดยการค้นหาวิดเจ็ตที่จะส่งคุณสมบัติ ภูมิศาสตร์มายังวิดเจ็ตนี้ โดยใช้ปุ่ม \"คัดลอกเพื่อวาด\" ได้รับเครื่องราชอิสริยาภรณ์ จะปรากฏในภาพวาดของฉัน และบันทึกไว้เพื่อเก็บ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Allow update and upsert load modes": {
   "t": "อนุญาตให้ปรับปรุงและเพิ่มโหมดโหลด",
   "src": "libretranslate",
@@ -994,6 +1060,42 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Allow users to duplicate an existing drawing.": {
+  "t": "อนุญาตให้ผู้ใช้ทําการคัดลอกรูปภาพที่มีอยู่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Allow users to group multiple drawings together for batch actions.": {
+  "t": "อนุญาตให้ผู้ใช้สามารถจัดกลุ่มภาพหลาย ๆ ภาพเข้าด้วยกันเพื่อทําการสร้างกลุ่มภาพได้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Allow users to lock drawings so they cannot be moved or edited.": {
+  "t": "อนุญาตให้ผู้ใช้ล็อคภาพได้ จึงไม่สามารถย้ายหรือแก้ไขภาพได้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Allow users to merge selected geometries into a single drawing.": {
+  "t": "อนุญาตให้ผู้ใช้ทําการรวมรูปแบบภูมิประเทศที่เลือก ให้เป็นภาพเดี่ยวได้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Allow users to rename the draw layer": {
+  "t": "อนุญาตให้ผู้ใช้เปลี่ยนเลเยอร์ที่วาดได้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Allow users to toggle layer list visibility": {
+  "t": "อนุญาตให้ผู้ใช้สลับชั้นเลเยอร์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Almost any address list out of a spreadsheet works.": {
   "t": "เกือบทุกที่อยู่ที่ทํางานในตารางคํานวณ",
@@ -1024,6 +1126,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "An issue occurred while projecting the location.": {
+  "t": "เกิดปัญหาขึ้นขณะที่กําลังประมาณตําแหน่ง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "an item from ArcGIS": {
   "t": "รายการจากอาร์กกิส",
@@ -1075,6 +1183,12 @@
  },
  "Apply imported settings": {
   "t": "ปรับใช้ค่าที่นําเข้า",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Apply Imported Settings": {
+  "t": "ปรับใช้ค่าที่นําเข้าแล้ว",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1511,6 +1625,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Buffer": {
+  "t": "บัฟเฟอร์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Buffer action buttons": {
   "t": "ปุ่มบัฟเฟอร์การกระทํา",
   "src": "libretranslate",
@@ -1654,6 +1774,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Cancel any active drawing session when the widget panel is closed. Recommended when the widget lives inside a Widget Controller.": {
+  "t": "ยกเลิกวาระงานการวาดใด ๆ ที่ทํางานอยู่ เมื่อมีการปิดพาเนลของวิดเจ็ต แนะนําเมื่อวิดเจ็ตอยู่ภายในตัวควบคุมวิดเจ็ต",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Cancel copy from layer mode": {
   "t": "ยกเลิกการคัดลอกจากโหมดชั้น",
@@ -1925,6 +2051,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Choose which actions are available in the My Drawings toolbar:": {
+  "t": "เลือกการกระทําที่มีบนแถบเครื่องมือวาดภาพ My:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Choose which drawing tools appear in the toolbar. Disabled tools are hidden from users.": {
   "t": "เลือกว่าจะให้เครื่องมือวาดใดปรากฎบนแถบเครื่องมือ เครื่องมือปิดการใช้งานถูกซ่อนจากผู้ใช้",
   "src": "libretranslate",
@@ -2177,6 +2309,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Click to add the example coordinates above": {
+  "t": "คลิกเพื่อเพิ่มพิกัดตัวอย่างด้านบน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Click to apply {title} basemap to the map": {
   "t": "คลิกเพื่อปรับใช้ {title} ฐาน ของ แผนที่",
   "src": "libretranslate",
@@ -2255,6 +2393,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Click to move example values into input fields": {
+  "t": "คลิกเพื่อย้ายตัวอย่างไปยังช่องข้อมูลนําเข้า",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Click to place a circle with an exact radius or area with one click": {
   "t": "คลิกเพื่อวางวงกลม โดยมีรัศมีหรือพื้นที่พอดี โดยคลิกหนึ่งครั้ง",
   "src": "libretranslate",
@@ -2272,6 +2416,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Click to Zoom to Result": {
+  "t": "คลิกเพื่อดูผล",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Clicking the basemap with the check mark applies that same basemap again.": {
   "t": "คลิกฐานแมปด้วยเครื่องหมายเช็ค ใช้ฐานแมปเดิมอีกที",
@@ -2365,6 +2515,12 @@
  },
  "Color used when a user turns on the custom buffer color option.": {
   "t": "สีที่ถูกใช้เมื่อผู้ใช้เปิดการใช้ตัวเลือก บัฟเฟอร์ที่กําหนดเอง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Color, size, and style controls for drawing symbols.": {
+  "t": "ตัวควบคุมการวาดภาพ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2555,8 +2711,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Conversion Factor (One meter is how many of your unit?):": {
+  "t": "ตัวประกอบแปลง (หนึ่งเมตรคือกี่หน่วย?):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Conversion Factor (One square meter is how many of your unit?):": {
+  "t": "ตัวประกอบเปลี่ยนหน่วย (หนึ่งตารางเมตรเป็นกี่หน่วย?):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Coordinate format options": {
   "t": "ตัวเลือกรูปแบบพิกัด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Coordinates": {
+  "t": "พิกัด",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2603,6 +2777,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copy features from map layers into drawings. Includes single click, multi-select, and spatial selection modes.": {
+  "t": "คัดลอกคุณลักษณะจากชั้นแผนที่เป็นภาพวาด รวมการคลิกหนึ่งครั้ง, การเลือกหลายแบบ และการเลือกพื้นที่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copy From": {
   "t": "คัดลอกจาก",
   "src": "libretranslate",
@@ -2623,6 +2803,12 @@
  },
  "Copy from Layer": {
   "t": "คัดลอกจากเลเยอร์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Copy from Map": {
+  "t": "คัดลอกจากแผนที่",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2656,6 +2842,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Create buffer zones around drawn features.": {
+  "t": "สร้างพื้นที่บัฟเฟอร์รอบคุณสมบัติที่วาด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Create New Unit": {
+  "t": "สร้างหน่วยใหม่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Creates new buffer zones or updates existing buffers for selected map graphics using the current distance ({bufferDistance}) and unit ({bufferUnit}) settings.": {
   "t": "สร้างพื้นที่บัฟเฟอร์ใหม่ หรือการปรับปรุงบัฟเฟอร์ที่มีอยู่แล้ว สําหรับกราฟิกบนแผนที่ที่เลือกไว้โดยใช้ระยะทางปัจจุบัน (ปัจจุบัน){bufferDistance}และหน่วย (ค.ศ.{bufferUnit}เซต",
@@ -2861,6 +3059,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Decimal degrees": {
+  "t": "ทศนิยม",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Decimal places": {
   "t": "จํานวนทศนิยม",
   "src": "libretranslate",
@@ -2899,6 +3103,12 @@
  },
  "Default area unit used for area measurements": {
   "t": "หน่วยของพื้นที่ปริยายสําหรับการวัดพื้นที่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default Area Units:": {
+  "t": "หน่วยของพื้นที่ปริยาย:",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2963,6 +3173,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default Layer Name:": {
+  "t": "ชื่อเลเยอร์:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default linear unit": {
   "t": "เชิงเส้นปริยาย",
   "src": "libretranslate",
@@ -2975,11 +3191,41 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default Linear Unit:": {
+  "t": "หน่วย Linear ปริยาย:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default Opacity (%)": {
+  "t": "ระดับความโปร่งแสงปริยาย (%)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default Tab:": {
+  "t": "แท็บปริยาย:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default value": {
   "t": "ค่าปริยาย",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Degrees decimal minutes": {
+  "t": "องศานาทีทศนิยม",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Degrees minutes seconds": {
+  "t": "วินาที",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Delete": {
   "t": "ลบ",
@@ -3070,6 +3316,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Delete Unit": {
+  "t": "ลบหน่วย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Delimiter": {
   "t": "ตัวแยกเสียง",
@@ -3611,6 +3863,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Drawing tool deactivates after completing one shape.": {
+  "t": "เครื่องมือวาดภาพไม่ใช้งานหลังจากเติมรูป 1 รูปแล้ว",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Drawing tool stays active after completing each shape.": {
+  "t": "เครื่องมือวาดยังคงทํางานอยู่ หลังจากเติมรูปแต่ละรูปให้สมบูรณ์แล้ว",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Drawing tools": {
   "t": "เครื่องมือวาดภาพ",
   "src": "libretranslate",
@@ -3625,6 +3889,18 @@
  },
  "Drawing widget navigation tabs": {
   "t": "วาดแท็บนําทางวิดเจ็ต",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Drawings are isolated to this specific application.": {
+  "t": "การวาดภาพแยกมาจากโปรแกรมนี้โดยเฉพาะ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Drawings are shared across all Experience Builder applications on this domain.": {
+  "t": "ภาพวาดมีการใช้ร่วมกันในโปรแกรมสร้างประสบการณ์ทั้งหมดในโดเมนนี้",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3646,6 +3922,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Duplicate drawings": {
+  "t": "ภาพวาดซ้ํากัน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Dynamic Scaling": {
   "t": "การไล่สีแบบไม่ตายตัว",
@@ -3787,6 +4069,12 @@
  },
  "Edit Units": {
   "t": "แก้ไขหน่วย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Edit/Delete - {label}": {
+  "t": "แก้ไข/ลบ - {label}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3935,6 +4223,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Enable Measurements in Features & Capabilities to configure units.": {
+  "t": "เปิดใช้การวัดค่าในคุณสมบัติและค่าความเสถียรเพื่อปรับแต่งหน่วย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enable My Drawings": {
+  "t": "เปิดใช้งานการวาดภาพของฉัน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enable or disable buffer creation for map graphics. When enabled, buffers will be automatically created around new drawings.": {
   "t": "เปิดใช้งานหรือปิดการใช้งานการสร้างบัฟเฟอร์สําหรับกราฟิกบนแผนที่ หากเปิดใช้ จะมีการสร้างบัฟเฟอร์ให้ทํางานโดยอัตโนมัติ เมื่อมีการสร้างรูปภาพใหม่",
   "src": "libretranslate",
@@ -3995,6 +4295,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Enable when the widget is inside a Widget Controller so active drawings are cancelled on close.": {
+  "t": "เปิดใช้งานเมื่อวิดเจ็ตอยู่ภายในตัวควบคุมวิดเจ็ต ดังนั้นภาพวาดที่ทํางานอยู่จึงถูกยกเลิกเมื่อปิดการทํางาน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enable:": {
   "t": "เปิดใช้:",
   "src": "libretranslate",
@@ -4013,8 +4319,32 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Enhanced Locate": {
+  "t": "ปูมบันทึกเพิ่มเติม",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enhanced Locate results": {
+  "t": "เพิ่มผลการค้นหา",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enhanced Locate Widget Version Info": {
+  "t": "เพิ่มข้อมูลการติดตามวิดเจ็ต รุ่น",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enter a title for the draw layer that will appear in the map legend": {
   "t": "เติมชื่อที่จะใช้แสดงในตํานานการวาด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enter an address:": {
+  "t": "ป้อนที่อยู่:",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4067,6 +4397,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Enter the coordinates:": {
+  "t": "ป้อนพิกัด:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enter the text content for your map label. Spaces are preserved.": {
   "t": "ป้อนเนื้อหาข้อความสําหรับป้ายบนแผนที่ของคุณ พื้นที่ถูกเก็บรักษาไว้",
   "src": "libretranslate",
@@ -4114,6 +4450,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Example:": {
+  "t": "ตัวอย่าง:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Excel opens the CSV with accented letters intact, and a value that starts with = or + is kept as text, never run as a formula.": {
   "t": "Excel เปิด CSV ด้วยอักษรตัวเน้นยังคงอยู่ และค่าที่ขึ้นต้นด้วย = + จะเก็บไว้เป็นข้อความ",
@@ -4180,6 +4522,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Export (Shapefile, GeoJSON, KML, CSV)": {
+  "t": "ส่งออก (Shapefile, GoJson, KML, CSV)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Export {name} - choose format": {
   "t": "ส่งออก {name} - เลือกรูปแบบ",
@@ -4345,6 +4693,12 @@
  },
  "FacilityID": {
   "t": "ตัวแสดงสถานะ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Failed to find an address at the location clicked. Please try again.": {
+  "t": "ล้มเหลวในการค้นหาที่อยู่ในตําแหน่งที่คลิก กรุณาลองอีกครั้ง",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4823,6 +5177,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "GeocodeServer Issue": {
+  "t": "ปัญหาเซิร์ฟเวอร์ Goode",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Geocoding progress": {
   "t": "ความคืบหน้าการย้ายภาพ",
   "src": "libretranslate",
@@ -5089,6 +5449,12 @@
  },
  "Grid unit changed to {newUnit}": {
   "t": "หน่วยกริดถูกเปลี่ยนเป็น {newUnit}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Group / Ungroup drawings": {
+  "t": "วาดภาพกลุ่ม / ยกเลิกกลุ่ม",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5375,6 +5741,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Identify By Query": {
+  "t": "แสดงตัวตามการค้นหา",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Identify By Query parent controller widget ID": {
   "t": "ระบุ โดยค้นหาหมายเลขคอนโทรลของคอนโทรลแม่",
   "src": "libretranslate",
@@ -5428,6 +5800,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Import (Shapefile, GeoJSON, KML)": {
+  "t": "นําเข้า (Shapefile, GoJson, KML)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Import / Export Configuration": {
   "t": "ปรับแต่งการนําเข้า/ ส่งออก",
@@ -5573,6 +5951,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Inspect Address by Point": {
+  "t": "ที่อยู่ที่กําหนดโดยจุด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Inspect Locations Address": {
+  "t": "เลือกที่อยู่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Inspector": {
+  "t": "สารวัตร",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "instead.": {
   "t": "แทน",
   "src": "libretranslate",
@@ -5587,6 +5983,12 @@
  },
  "Integrations": {
   "t": "การละเมิดลิขสิทธิ์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Invalid Conversion Factor": {
+  "t": "องค์ประกอบการแปลงไม่ถูกต้อง",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5813,6 +6215,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Label (Full name used in menus):": {
+  "t": "แถบกํากับ (ชื่อเต็มที่ใช้ในเมนู):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Label Buffer": {
   "t": "แถบป้าย",
   "src": "libretranslate",
@@ -5891,8 +6299,32 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Lat Lon": {
+  "t": "ลาว",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Lat Lon Coordinates": {
+  "t": "พิกัดเส้นรุ้ง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Lat/Long": {
   "t": "แบบย่อ/ ยาว",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Latitude (Y)": {
+  "t": "เส้นรุ้ง (Y)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Latitude:": {
+  "t": "เส้นรุ้ง:",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5951,6 +6383,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Length, area, and perimeter measurement labels on drawings.": {
+  "t": "ความ ยาว, พื้น ที่, และ การ วัด ขอบ เขต บน ภาพ วาด.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Length: {textCount} | Spaces: {splitCount}": {
   "t": "ความยาว: {textCount} ○ อวกาศ: {splitCount}",
   "src": "libretranslate",
@@ -5963,11 +6401,29 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Let users show measurements in additional units alongside the primary unit, for example acres with square feet.": {
+  "t": "ให้ผู้ใช้แสดงการวัดในหน่วยเพิ่มเติม ข้างๆ หน่วยหลักเช่น เอเคอร์ที่มีตารางฟุต",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Light": {
   "t": "แสง",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Limit address search to maps extent.": {
+  "t": "จํากัดการค้นหาตามขอบเขต",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Limit how many drawings are stored in the browser. Set to 0 for unlimited. Large numbers of complex drawings may impact browser performance.": {
+  "t": "จํากัดจํานวนภาพวาดที่ถูกเก็บไว้ในเบราว์เซอร์ กําหนดเป็น 0 ไม่จํากัด ภาพ วาด ที่ ซับ ซ้อน จํานวน มาก อาจ มี ผล กระทบ ต่อ การ แสดง ของเบราว์เซอร์.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Line": {
   "t": "เส้น",
@@ -6191,6 +6647,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Locate": {
+  "t": "ค้นหา",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Location": {
+  "t": "ตําแหน่ง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Locator URL": {
   "t": "ที่อยู่ URL ของตัวบันทึก",
   "src": "libretranslate",
@@ -6199,6 +6667,12 @@
  },
  "Lock {name}": {
   "t": "ล็อค {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Lock / Unlock drawings": {
+  "t": "ล็อก/ ปลดล็อค",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6233,6 +6707,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Longitude (X)": {
+  "t": "ลองจิจูด (X)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Longitude:": {
+  "t": "เส้นแวง:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Look for the \"No basemaps configured.\" message in this widget.": {
   "t": "หาข้อความในวิดเจ็ตนี้",
   "src": "libretranslate",
@@ -6262,6 +6748,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Mailing Labels": {
+  "t": "ป้ายจดหมายเวียน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Mailing Labels parent controller widget ID": {
   "t": "แถบข้อความจดหมาย",
@@ -6407,6 +6899,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Map X and Y": {
+  "t": "แผนที่ X และ Y",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Mapping is fixed by the app author.": {
   "t": "การเคาะถูกแก้ไขโดยนักเขียนแอพ",
   "src": "libretranslate",
@@ -6551,6 +7049,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Measurements": {
+  "t": "วัด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Measurements [Adding Measurements]": {
   "t": "วัด [ค่า]",
   "src": "libretranslate",
@@ -6647,6 +7151,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Merge selected drawings": {
+  "t": "ผนวกรวมรูปภาพที่เลือก",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Merge tool": {
   "t": "การรวมวัตถุ",
   "src": "libretranslate",
@@ -6682,6 +7192,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "MGRS": {
+  "t": "เมกะไบต์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Middle Alignment (Current). Center text vertically.": {
   "t": "จัดวางกึ่งกลาง (ปัจจุบัน) กึ่งกลางข้อความทางแนวตั้ง",
@@ -6797,6 +7313,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Multiple Units": {
+  "t": "หลายหน่วย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Multiply by": {
   "t": "คูณด้วย",
   "src": "libretranslate",
@@ -6863,8 +7385,32 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Name (Cannot be changed):": {
+  "t": "ชื่อ (เปลี่ยนไม่ได้):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Name (Must be unique, letters only):": {
+  "t": "ชื่อ (เป็นตัวอักษรเฉพาะ):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Name applied to the graphics layer that holds drawings.": {
   "t": "ชื่อที่ใช้กับเลเยอร์ของกราฟฟิกที่บรรจุการวาด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Name May Only Contain Letters": {
+  "t": "Name=รายการจดหมายName",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Name Must Be Unique": {
+  "t": "ชื่อ ต้อง โดด เด่น",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6970,6 +7516,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "No draw tools enabled. Users will not be able to create new drawings.": {
+  "t": "ยังไม่มีการเปิดใช้งานเครื่องมือวาด ผู้ใช้จะไม่สามารถสร้างภาพใหม่ได้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "No drawings available. Create a drawing in the Draw tab.": {
   "t": "ไม่มีภาพวาดอยู่ สร้างภาพวาดในแท็บวาด",
@@ -7085,6 +7637,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No Results Found": {
+  "t": "ไม่พบผลลัพธ์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No score": {
   "t": "ไม่มีคะแนน",
   "src": "libretranslate",
@@ -7102,6 +7660,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "No widget selected. Click \"Scan App\" to detect widgets, or enter the widget ID manually.": {
+  "t": "ยังไม่มีการเลือกวิดเจ็ต คลิก \"Scan App\" เพื่อตรวจสอบวิดเจ็ต หรือใส่หมายเลขวิดเจ็ตด้วยตนเอง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "None": {
   "t": "ไม่มี",
@@ -7132,6 +7696,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Note: superscript characters may not display correctly here but will work in the application.": {
+  "t": "ข้อควรจํา: ตัวอักษรตัวพิมพ์ใหญ่อาจจะแสดงได้ไม่ถูกต้อง แต่จะทํางานในโปรแกรม",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Notes": {
   "t": "บันทึกย่อ",
@@ -7432,6 +8002,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "outside this coordinate system's area": {
+  "t": "นอกระบบพิกัดนี้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Overlay with blend effects": {
   "t": "ใช้ลูกเล่นผสมแทน",
@@ -7859,11 +8435,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Reads app config to find widgets": {
+  "t": "ปรับแต่งโปรแกรมสําหรับค้นหาวิดเจ็ต",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Reason": {
   "t": "เหตุผล",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Receive from Identify By Query": {
+  "t": "รับจากการแสดงตัวโดยสืบค้น",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Record {objectId} · source row {objectId2}": {
   "t": "บันทึก {objectId} แถวต้นทาง {objectId2}",
@@ -7937,6 +8525,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Remember User Preferences": {
+  "t": "จดจําการตั้งค่าผู้ใช้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Remove basemap": {
   "t": "ลบฐานแมพ",
   "src": "libretranslate",
@@ -7978,6 +8572,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Remove Result": {
+  "t": "ลบผลลัพธ์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Remove rule": {
   "t": "ลบกฏ",
@@ -8032,6 +8632,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Require confirmation before clearing all drawings": {
+  "t": "ต้องการการยืนยันก่อนจะทําการล้างภาพทั้งหมด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "required": {
   "t": "ต้องการ",
@@ -8098,6 +8704,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Results": {
+  "t": "ผลลัพธ์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Results found:": {
+  "t": "พบผลลัพธ์:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Return to beginning of text editor": {
   "t": "กลับไปยังจุดเริ่มต้นเครื่องมือแก้ไขข้อความ",
@@ -8302,6 +8920,30 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Save this widget's configuration to an XML file, or load a saved file to copy settings between applications. Importing merges the file's values onto the current configuration. The selected map widget is not included.": {
+  "t": "บันทึกการปรับแต่งวิดเจ็ตนี้ไปเป็นแฟ้ม XML หรือโหลดแฟ้มที่บันทึกไว้เพื่อคัดลอกการตั้งค่าระหว่างโปรแกรม กําลังรวมค่าของแฟ้มเข้ากับการปรับแต่งปัจจุบัน วิดเจ็ตของแผนที่ที่เลือกไว้ยังไม่ถูกรวมอยู่ด้วย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Save Unit": {
+  "t": "บันทึกหน่วย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Scan App": {
+  "t": "สแกน แอป",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Score": {
+  "t": "คะแนน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Score {score}": {
   "t": "คะแนน {score}",
@@ -8717,6 +9359,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Settings imported. Review the sections below and click Save in the builder to keep them.": {
+  "t": "ตั้งค่าที่นําเข้ามา ตรวจ ดู ส่วน ต่าง ๆ ข้าง ล่าง แล้ว คลิก ที่ บันทึก ไว้ ใน ผู้ สร้าง เพื่อ เก็บ ไว้.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Shape drawing tools": {
   "t": "เครื่องมือวาดรูปทรง",
   "src": "libretranslate",
@@ -8737,6 +9385,30 @@
  },
  "Show {name}": {
   "t": "แสดง {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show a button that sends drawing geometry to the Identify By Query widget for feature identification. The Identify By Query widget must also have its Draw Widget integration enabled.": {
+  "t": "แสดงปุ่มที่ส่งรูปแบบการวาดไปยังหมายเลขประจําตัว โดยค้นหาวิดเจ็ตสําหรับการแสดงตัวของคุณสมบัติ วิดเจ็ตที่ค้นหา จะต้องมีการเปิดใช้งานการรวมวิดเจ็ตเข้าไปด้วย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show a button that sends drawing geometry to the Mailing Labels widget for parcel selection. The Mailing Labels widget must also have its Draw Widget integration enabled.": {
+  "t": "แสดงปุ่มที่ส่งรูปแบบการวาดไปยังวิดเจ็ตการส่งจดหมายสําหรับการเลือกของพัสดุ วิดเจ็ตการส่งเมล ต้องมีการเปิดใช้งานการรวมวิดเจ็ตด้วย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show a confirmation prompt before the Clear All / Delete All action runs.": {
+  "t": "แสดงการแจ้งเตือนก่อนการล้างทั้งหมด / ลบการกระทําทั้งหมดกําลังทํางานอยู่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show a control that zooms the map to a drawing extent.": {
+  "t": "แสดงการควบคุมที่ย่อขยายแผนที่เป็นขอบเขตการวาด",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8764,6 +9436,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Show draw layer in map layer list": {
+  "t": "แสดงเลเยอร์ของเลเยอร์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Show drawing": {
   "t": "แสดงภาพวาด",
@@ -8843,6 +9521,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Show sorting and filtering controls at the top of the My Drawings list.": {
+  "t": "แสดงการเรียงลําดับและการกรองตัวควบคุมอยู่ด้านบนสุดของรายการวาดภาพของฉัน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show template picker": {
   "t": "แสดงตัวเลือกแม่แบบ",
   "src": "libretranslate",
@@ -8854,6 +9538,24 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Show the Export menu. Buffers are exported as their own features in every format.": {
+  "t": "แสดงเมนูส่งออก มี การ ส่ง บัฟเฟอร์ ออก มา เป็น ลักษณะ เฉพาะ ของ ตน ใน ทุก รูป แบบ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show the Import button for loading Shapefile (.zip), GeoJSON, and KML files into My Drawings.": {
+  "t": "แสดงปุ่มนําเข้าสําหรับเรียกตัวชี้ตําแหน่งแฟ้ม (. sipp), GoJson, และแฟ้ม KML ในภาพเขียนของฉัน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show the per-drawing properties / details panel.": {
+  "t": "แสดงแถบแสดงคุณสมบัติ / รายละเอียดในการวาดต่อ ๆ ไป",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Show the primary unit only": {
   "t": "แสดงหน่วยหลักเท่านั้น",
@@ -8944,6 +9646,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Snap drawing vertices to features in other map layers.": {
+  "t": "การ จับ ปลา",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Snap to feature vertices, edges, and intersections while drawing for precise alignment.": {
   "t": "จับเข้ากับลักษณะ vertics, ขอบและตัด ในขณะที่วาดแน่นอน การจัดตําแหน่ง",
@@ -9058,6 +9766,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Sort and filter controls": {
+  "t": "เรียงลําดับและควบคุมตัวกรอง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Sort drawings": {
   "t": "เรียงลําดับรูปภาพ",
@@ -9197,8 +9911,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Stop drawing when widget is closed": {
+  "t": "หยุดการวาดเมื่อวิดเจ็ตถูกปิด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Storage Permission Required": {
   "t": "ต้องการสิทธิ์ในการจัดเก็บ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Storage Scope:": {
+  "t": "ขอบเขตจัดเก็บข้อมูล:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Store each user's measurement units, display options, and decimal places in their browser so they persist between sessions. Users can reset to your defaults at any time.": {
+  "t": "เก็บหน่วยวัด, ตัวเลือกต่าง ๆ ของผู้ใช้ และตําแหน่งทศนิยมในเบราว์เซอร์ไว้ ดังนั้นพวกมันจึงยังคงอยู่ระหว่างวาระการใช้งาน ผู้ใช้สามารถปรับค่ากลับไปใช้ค่าปริยายของคุณได้ทุกเวลา",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9269,6 +10001,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Symbol Editor": {
+  "t": "เครื่องมือแก้ไขสัญลักษณ์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Symbol style customization": {
   "t": "ปรับแต่งรูปแบบสัญลักษณ์",
   "src": "libretranslate",
@@ -9304,6 +10042,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Tabbed panel for managing, sorting, and organizing saved drawings. When disabled, there is no tab bar and only the Draw panel is shown.": {
+  "t": "แผ่น กระดาน สําหรับ การ จัด การ, การ คัด เลือก, และ การ จัด เรียง ภาพ ได้ รับ การ บันทึก. เมื่อปิดการใช้งาน จะไม่มีแถบแท็บ และเฉพาะแถบวาดพาเนลเท่านั้น",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Target": {
   "t": "เป้าหมาย",
@@ -9503,6 +10247,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The address search failed. Check the geocode service in the widget settings, then try again.": {
+  "t": "การค้นหาที่อยู่ล้มเหลว โปรดตรวจสอบบริการดิจิตัลในการตั้งค่าวิดเจ็ต แล้วลองใหม่อีกครั้ง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The buttons on a selected drawing let you {actions}.": {
   "t": "ปุ่มบนรูปภาพที่เลือก จะให้คุณเลือกปุ่ม {actions}.",
   "src": "libretranslate",
@@ -9568,6 +10318,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The geocode service could not be read, or it has no single line address field. The Address tab is hidden until it is fixed in the widget settings.": {
+  "t": "ไม่สามารถอ่านบริการรูปแบบภูมิศาสตร์ได้ หรือไม่มีช่องข้อมูลบรรทัดเดียว แท็บที่อยู่จะถูกซ่อนจนกว่าจะถูกแก้ไขในการตั้งค่าวิดเจ็ต",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The layer is gone: the browser tab was closed or reloaded. Run the file again, or bring back the copy you exported.": {
   "t": "เลเยอร์หายไป: แท็บเบราว์เซอร์ถูกปิดหรือเรียกใหม่ เรียกใช้แฟ้มอีกครั้ง หรือนําสําเนาที่คุณส่งออกกลับมา",
@@ -9671,8 +10427,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The widget controller / sidebar that contains the Identify By Query widget. This ensures the controller panel opens before sending geometry.": {
+  "t": "ตัวควบคุมวิดเจ็ต / แถบด้านข้างที่บรรจุค่าแสดงตัวด้วยการค้นหาวิดเจ็ต นี้ทําให้แน่ใจว่าแผงควบคุมจะเปิด ก่อนที่จะส่งเรขาคณิต",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The widget controller / sidebar that contains the Mailing Labels widget.": {
   "t": "ตัวควบคุมวิดเจ็ต / แถบด้านข้างที่บรรจุวิดเจ็ตการส่งจดหมาย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The widget controller / sidebar that contains the Mailing Labels widget. This ensures the controller panel opens before sending geometry.": {
+  "t": "ตัวควบคุมวิดเจ็ต / แถบด้านข้างที่บรรจุวิดเจ็ตการส่งจดหมาย นี้ทําให้แน่ใจว่าแผงควบคุมจะเปิด ก่อนที่จะส่งเรขาคณิต",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9784,6 +10552,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Those coordinates are outside the area of the coordinate system picked in Units. Pick the system the numbers came from.": {
+  "t": "พิกัดเหล่านั้นอยู่นอกพื้นที่ ของระบบพิกัดที่เลือกในหน่วย เลือกระบบที่ตัวเลขมาจาก",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Those coordinates could not be read. Click the example under the box to see the format this unit expects.": {
+  "t": "พิกัดพวกนั้นอ่านไม่ได้ คลิกตัวอย่างใต้กล่องเพื่อดูรูปแบบของหน่วยนี้ที่คาดหวัง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "To keep your work safe, please use the": {
   "t": "เพื่อให้การทํางานของคุณปลอดภัย โปรดใช้",
@@ -9976,6 +10756,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Tokens:": {
+  "t": "หมึก:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Tokens: YYYY YY MM DD HH mm ss. Blank tries ISO, then general parsing.": {
   "t": "Takes: YYYY YYM DD HHmm s. ว่างเปล่าพยายาม ISO แล้ว paressing ทั่วไป",
@@ -10229,11 +11015,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Undo / Redo": {
+  "t": "เลิกทํา/ ทําซ้ํา",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Undo and redo actions": {
   "t": "เลิกทําและทําอีกครั้ง",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Undo and redo buttons during active drawing.": {
+  "t": "เลิกทําและทําอีกครั้งระหว่างการวาด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Undo last drawing action": {
   "t": "ยกเลิกการกระทําการวาดล่าสุด",
@@ -10260,6 +11058,12 @@
   "added": "2026-10-08"
  },
  "Unit:": {
+  "t": "หน่วย:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Units:": {
   "t": "หน่วย:",
   "src": "libretranslate",
   "reviewed": false,
@@ -10457,6 +11261,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Use the inspect address tool to click on the map and locate the address.": {
+  "t": "ใช้เครื่องมือตรวจสอบที่อยู่ คลิกบนแผนที่ และค้นหาที่อยู่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Use the keyboard": {
   "t": "ใช้แป้นพิมพ์",
   "src": "libretranslate",
@@ -10477,6 +11287,18 @@
  },
  "Used when a user enables custom buffer color.": {
   "t": "ใช้เมื่อผู้ใช้เปิดใช้งานสีบัฟเฟอร์ที่กําหนดเอง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "USNG": {
+  "t": "USNG",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "UTM": {
+  "t": "ขนาด UTM",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10504,6 +11326,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "View drawing properties": {
+  "t": "แสดงคุณสมบัติการวาด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "View options": {
   "t": "ตัวเลือกของมุมมอง",
@@ -10589,6 +11417,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "When on, end users can edit the draw layer name at runtime.": {
+  "t": "เมื่อทํางาน ผู้ใช้ปลายทางจะสามารถแก้ไขชื่อการวาดได้ขณะทํางาน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "When on, end users can show or hide the draw layer in the layer list.": {
+  "t": "เมื่อเปิดใช้งาน ผู้ใช้สุดท้ายจะสามารถแสดงหรือซ่อนเลเยอร์ที่วาดได้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "When on, the draw graphics layer appears in the map’s layer list / legend.": {
+  "t": "เมื่อ มา ถึง ชั้น ภาพ วาด นี้ จะ ปรากฏ อยู่ ใน ราย ชื่อ ชั้น บน ของ แผนที่ / ตํานาน.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Where your choices live": {
   "t": "ที่ๆคุณเลือกอยู่",
   "src": "libretranslate",
@@ -10609,6 +11455,30 @@
  },
  "Widget Behavior": {
   "t": "พฤติกรรมของวิดเจ็ต",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Widget ID: {identifyWidgetId}": {
+  "t": "หมายเลขของวิดเจ็ต: {identifyWidgetId}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Widget ID: {mailingLabelsWidgetId}": {
+  "t": "หมายเลขของวิดเจ็ต: {mailingLabelsWidgetId}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Widget is designed to run in Experience Builder version": {
+  "t": "วิดเจ็ตถูกออกแบบมาให้ทํางานในรุ่นนักสร้างประสบการณ์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Widget Version": {
+  "t": "รุ่นของวิดเจ็ต",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10661,11 +11531,29 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "X (Easting):": {
+  "t": "ค่า X (ค่า):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "X / Longitude field": {
   "t": "ช่องข้อมูล X / ลองติจูด",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "X and Y": {
+  "t": "X และ Y",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "X, Y": {
+  "t": "X, Y",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "XY": {
   "t": "XY",
@@ -10681,6 +11569,12 @@
  },
  "XY coordinates enabled. Display projected X and Y coordinate values.": {
   "t": "เปิดการใช้งานพิกัด XY แสดงค่าพิกัด X และ Y",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Y (Northing):": {
+  "t": "Y (ไม่มีอะไร):",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10783,6 +11677,12 @@
  },
  "Zoom to {name}": {
   "t": "ย่อ/ ขยาย {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zoom to drawing": {
+  "t": "ดูย่อ/ ดูภาพ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"

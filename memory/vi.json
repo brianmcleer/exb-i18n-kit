@@ -23,6 +23,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "— Select a widget —": {
+  "t": "- Chọn một ô điều khiển -",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "— Select controller —": {
+  "t": "— Chọn điều khiển —",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ ". Leave blank to use built-in defaults.": {
+  "t": "Để trống để dùng mặc định có sẵn.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  ". Open it from the map’s layer list to see the table.": {
   "t": "Mở nó ra từ danh sách các lớp để xem bảng.",
   "src": "libretranslate",
@@ -329,6 +347,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "─── All Widgets ───": {
+  "t": "......: Tất cả các ô điều khiển...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "✓ Added": {
   "t": "đã thêm",
   "src": "libretranslate",
@@ -337,6 +361,18 @@
  },
  "✓ Apply & Close": {
   "t": "Đang áp dụng & gần",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "1 meter = {conversion} {label} ({abbreviation})": {
+  "t": "1 mét = {conversion} {label} (Tiếng cười){abbreviation})",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "1 square meter = {conversion} {label} ({abbreviation})": {
+  "t": "1 mét vuông = {conversion} {label} (Tiếng cười){abbreviation})",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -442,6 +478,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Abbreviation (Used on map):": {
+  "t": "Chữ viết tắt (dùng trên bản đồ):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Accepted types: CSV, TSV, TXT, XLSX, XLS and ODS.": {
   "t": "Loại được chấp nhận: CSV, TSV, TXT, XLSX, XLS và ODS.",
@@ -575,8 +617,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Add or Change Area Units": {
+  "t": "Thêm hay Thay đổi đơn vị diện tích",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add or change linear units": {
   "t": "Thêm hay thay đổi đơn vị tuyến tính",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add or Change Linear Units": {
+  "t": "Thêm hay Thay đổi đơn vị tuyến",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -682,6 +736,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Address Inspection Failed": {
+  "t": "Việc kiểm tra địa chỉ bị lỗi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Address mapping mode": {
   "t": "Chế độ bản đồ địa chỉ",
@@ -977,6 +1037,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Allow the Identify By Query widget to send feature geometries to this widget using the \"Copy To Draw\" button. Received geometries will appear in My Drawings and be saved to storage.": {
+  "t": "Cho phép nhận diện bằng cách truy vấn ô điều khiển để gửi tính năng Hình học cho ô điều khiển này bằng nút \"Copy To Draw\". Nhận được hình học sẽ xuất hiện trong bức vẽ của tôi và được lưu trữ vào kho.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Allow update and upsert load modes": {
   "t": "Cho phép cập nhật và nâng cấp chế độ tải",
   "src": "libretranslate",
@@ -994,6 +1060,42 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Allow users to duplicate an existing drawing.": {
+  "t": "Cho phép người dùng sao chép một bản vẽ đã có.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Allow users to group multiple drawings together for batch actions.": {
+  "t": "Cho phép người dùng nhóm nhiều bản vẽ lại cho các hành động hàng loạt.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Allow users to lock drawings so they cannot be moved or edited.": {
+  "t": "Cho phép người dùng khoá các bản vẽ để không thể di chuyển hay chỉnh sửa chúng.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Allow users to merge selected geometries into a single drawing.": {
+  "t": "Cho phép người dùng trộn các hình học được chọn vào một bản vẽ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Allow users to rename the draw layer": {
+  "t": "Cho phép người dùng thay đổi tên của lớp vẽ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Allow users to toggle layer list visibility": {
+  "t": "Cho phép người dùng bật/tắt ô xem danh sách lớp",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Almost any address list out of a spreadsheet works.": {
   "t": "Hầu như bất kỳ địa chỉ nào trong bảng tính.",
@@ -1024,6 +1126,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "An issue occurred while projecting the location.": {
+  "t": "Một vấn đề đã xảy ra khi dự đoán địa điểm.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "an item from ArcGIS": {
   "t": "một mục từ ArcGIS",
@@ -1075,6 +1183,12 @@
  },
  "Apply imported settings": {
   "t": "Áp dụng thiết lập nhập",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Apply Imported Settings": {
+  "t": "Thiết lập",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1511,6 +1625,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Buffer": {
+  "t": "Bộ đệm",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Buffer action buttons": {
   "t": "Nút hành động đệm",
   "src": "libretranslate",
@@ -1654,6 +1774,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Cancel any active drawing session when the widget panel is closed. Recommended when the widget lives inside a Widget Controller.": {
+  "t": "Hủy bỏ bất kỳ phiên chạy vẽ hoạt động nào khi bảng điều khiển đóng. Đề nghị khi thiết bị điều khiển sống bên trong một điều khiển từ xa.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Cancel copy from layer mode": {
   "t": "Hủy bỏ bản sao từ chế độ lớp",
@@ -1925,6 +2051,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Choose which actions are available in the My Drawings toolbar:": {
+  "t": "Chọn những hành động nào sẵn sàng trong thanh công cụ vẽ của tôi:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Choose which drawing tools appear in the toolbar. Disabled tools are hidden from users.": {
   "t": "Chọn những công cụ vẽ nào xuất hiện trên thanh công cụ. Công cụ bị tắt bị ẩn khỏi người dùng.",
   "src": "libretranslate",
@@ -2177,6 +2309,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Click to add the example coordinates above": {
+  "t": "Nhấn vào để thêm các tọa độ ví dụ trên",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Click to apply {title} basemap to the map": {
   "t": "Nhấn vào để áp dụng {title} Sơ đồ cơ bản của bản đồ",
   "src": "libretranslate",
@@ -2255,6 +2393,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Click to move example values into input fields": {
+  "t": "Nhấn vào để di chuyển giá trị ví dụ vào trường nhập",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Click to place a circle with an exact radius or area with one click": {
   "t": "Nhấn vào để đặt một vòng tròn với bán kính hoặc khu vực chính xác với một nhắp",
   "src": "libretranslate",
@@ -2272,6 +2416,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Click to Zoom to Result": {
+  "t": "Nhấn vào để thu nhỏ kết quả",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Clicking the basemap with the check mark applies that same basemap again.": {
   "t": "Ấn vào sơ đồ cơ bản với dấu kiểm tra áp dụng lại bản đồ cơ bản đó.",
@@ -2365,6 +2515,12 @@
  },
  "Color used when a user turns on the custom buffer color option.": {
   "t": "Dùng màu khi người dùng bật tùy chọn bộ đệm tự chọn.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Color, size, and style controls for drawing symbols.": {
+  "t": "Màu, kích cỡ và kiểu dáng điều khiển cho biểu tượng vẽ.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2555,8 +2711,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Conversion Factor (One meter is how many of your unit?):": {
+  "t": "Hệ số đảo ngược (một mét là bao nhiêu đơn vị của bạn):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Conversion Factor (One square meter is how many of your unit?):": {
+  "t": "Hệ số đảo ngược (một mét vuông là bao nhiêu đơn vị của bạn):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Coordinate format options": {
   "t": "Tùy chọn định dạng tọa độ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Coordinates": {
+  "t": "Tọa độ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2603,6 +2777,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copy features from map layers into drawings. Includes single click, multi-select, and spatial selection modes.": {
+  "t": "Chép các tính năng từ các lớp bản đồ vào các bức vẽ. Bao gồm nhắp đơn, đa chọn và chế độ chọn không gian.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copy From": {
   "t": "Chép từ",
   "src": "libretranslate",
@@ -2623,6 +2803,12 @@
  },
  "Copy from Layer": {
   "t": "Chép từ lớp",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Copy from Map": {
+  "t": "Chép từ bản đồ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2656,6 +2842,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Create buffer zones around drawn features.": {
+  "t": "Tạo vùng đệm xung quanh các tính năng được vẽ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Create New Unit": {
+  "t": "Tạo đơn vị mới",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Creates new buffer zones or updates existing buffers for selected map graphics using the current distance ({bufferDistance}) and unit ({bufferUnit}) settings.": {
   "t": "Tạo ra những vùng đệm mới hoặc cập nhật những bộ đệm đã có cho đồ họa được chọn bằng khoảng cách hiện tại{bufferDistance}) và đơn vị ({bufferUnit}) Thiết lập.",
@@ -2861,6 +3059,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Decimal degrees": {
+  "t": "Chữ thập phân",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Decimal places": {
   "t": "Ký hiệu thập phân",
   "src": "libretranslate",
@@ -2899,6 +3103,12 @@
  },
  "Default area unit used for area measurements": {
   "t": "Vùng mặc định dùng cho đo diện tích",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default Area Units:": {
+  "t": "Đơn vị vùng mặc định:",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2963,6 +3173,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default Layer Name:": {
+  "t": "Tên lớp mặc định:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default linear unit": {
   "t": "Đơn vị tuyến tính mặc định",
   "src": "libretranslate",
@@ -2975,11 +3191,41 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default Linear Unit:": {
+  "t": "Đơn vị tuyến mặc định:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default Opacity (%)": {
+  "t": "Độ mờ mặc định (%)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default Tab:": {
+  "t": "Thẻ mặc định:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default value": {
   "t": "Giá trị mặc định",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Degrees decimal minutes": {
+  "t": "phút thập phân âm",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Degrees minutes seconds": {
+  "t": "phút",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Delete": {
   "t": "Xoá",
@@ -3070,6 +3316,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Delete Unit": {
+  "t": "Xoá đơn vị",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Delimiter": {
   "t": "Dấu phân cách",
@@ -3611,6 +3863,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Drawing tool deactivates after completing one shape.": {
+  "t": "Công cụ vẽ không dùng được sau khi hoàn thành một hình.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Drawing tool stays active after completing each shape.": {
+  "t": "Công cụ vẽ vẫn hoạt động sau khi hoàn thành mỗi hình.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Drawing tools": {
   "t": "Công cụ vẽ",
   "src": "libretranslate",
@@ -3625,6 +3889,18 @@
  },
  "Drawing widget navigation tabs": {
   "t": "Đang vẽ các thẻ điều khiển ô điều khiển",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Drawings are isolated to this specific application.": {
+  "t": "Các bức vẽ được tách biệt với ứng dụng cụ thể này.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Drawings are shared across all Experience Builder applications on this domain.": {
+  "t": "Các bản vẽ được chia sẻ qua tất cả các ứng dụng xây dựng kinh nghiệm trong lĩnh vực này.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3646,6 +3922,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Duplicate drawings": {
+  "t": "Vẽ trùng",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Dynamic Scaling": {
   "t": "Co dãn động",
@@ -3787,6 +4069,12 @@
  },
  "Edit Units": {
   "t": "Sửa đơn vị",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Edit/Delete - {label}": {
+  "t": "Sửa/ Xoá {label}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3935,6 +4223,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Enable Measurements in Features & Capabilities to configure units.": {
+  "t": "Cho phép đo lường tính năng và khả năng cấu hình đơn vị.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enable My Drawings": {
+  "t": "Bật bản vẽ của tôi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enable or disable buffer creation for map graphics. When enabled, buffers will be automatically created around new drawings.": {
   "t": "Kích hoạt hay tắt khả năng tạo bộ đệm cho đồ họa sơ đồ. Khi bật, bộ đệm sẽ được tạo tự động xung quanh các bản vẽ mới.",
   "src": "libretranslate",
@@ -3995,6 +4295,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Enable when the widget is inside a Widget Controller so active drawings are cancelled on close.": {
+  "t": "Bật khi ô điều khiển bên trong bộ điều khiển điều khiển hoạt động, thì việc vẽ bị hủy bỏ khi kết thúc.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enable:": {
   "t": "Bật:",
   "src": "libretranslate",
@@ -4013,8 +4319,32 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Enhanced Locate": {
+  "t": "Xác định tăng cường",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enhanced Locate results": {
+  "t": "Xác định kết quả tăng cường",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enhanced Locate Widget Version Info": {
+  "t": "Name",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enter a title for the draw layer that will appear in the map legend": {
   "t": "Hãy nhập tiêu đề lớp vẽ sẽ xuất hiện trong truyền thuyết bản đồ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enter an address:": {
+  "t": "Nhập địa chỉ:",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4067,6 +4397,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Enter the coordinates:": {
+  "t": "Nhập tọa độ:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enter the text content for your map label. Spaces are preserved.": {
   "t": "Nhập nội dung văn bản cho nhãn bản đồ. Không gian được bảo tồn.",
   "src": "libretranslate",
@@ -4114,6 +4450,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Example:": {
+  "t": "Ví dụ:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Excel opens the CSV with accented letters intact, and a value that starts with = or + is kept as text, never run as a formula.": {
   "t": "Push mở CNV với chữ cái còn nguyên vẹn, và một giá trị bắt đầu với = hoặc + được giữ như văn bản, không bao giờ chạy như một công thức.",
@@ -4180,6 +4522,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Export (Shapefile, GeoJSON, KML, CSV)": {
+  "t": "Xuất (Shapefile, GeoJSON, KML, CSV)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Export {name} - choose format": {
   "t": "Xuất {name} - định dạng",
@@ -4345,6 +4693,12 @@
  },
  "FacilityID": {
   "t": "Thư mục",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Failed to find an address at the location clicked. Please try again.": {
+  "t": "Không tìm thấy địa chỉ nào tại nơi đã nhắp. Xin hãy thử lại.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4823,6 +5177,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "GeocodeServer Issue": {
+  "t": "Comment",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Geocoding progress": {
   "t": "Name",
   "src": "libretranslate",
@@ -5089,6 +5449,12 @@
  },
  "Grid unit changed to {newUnit}": {
   "t": "Đơn vị Lưới đã thay đổi {newUnit}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Group / Ungroup drawings": {
+  "t": "Nhóm/ Không nhóm vẽ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5375,6 +5741,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Identify By Query": {
+  "t": "Tìm kiếm qua Truy vấn",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Identify By Query parent controller widget ID": {
   "t": "Nhận diện Bằng cách truy vấn ID điều khiển ô điều khiển phụ huynh",
   "src": "libretranslate",
@@ -5428,6 +5800,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Import (Shapefile, GeoJSON, KML)": {
+  "t": "Nhập (Shapefile, GeoJSON, KML)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Import / Export Configuration": {
   "t": "Cấu hình Nhập / Xuất",
@@ -5573,6 +5951,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Inspect Address by Point": {
+  "t": "Duyệt địa chỉ theo điểm",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Inspect Locations Address": {
+  "t": "Xem xét địa điểm",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Inspector": {
+  "t": "Thanh tra",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "instead.": {
   "t": "Thay vào đó.",
   "src": "libretranslate",
@@ -5587,6 +5983,12 @@
  },
  "Integrations": {
   "t": "Hợp nhất",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Invalid Conversion Factor": {
+  "t": "Hệ số phiên bản không hợp lệ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5813,6 +6215,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Label (Full name used in menus):": {
+  "t": "Nhãn (cả tên được dùng trong trình đơn):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Label Buffer": {
   "t": "Bộ đệm nhãn",
   "src": "libretranslate",
@@ -5891,8 +6299,32 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Lat Lon": {
+  "t": "Lat Lon",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Lat Lon Coordinates": {
+  "t": "Tọa độ Luân Đôn",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Lat/Long": {
   "t": "& Dài",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Latitude (Y)": {
+  "t": "Độ rộng (Y)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Latitude:": {
+  "t": "Độ rộng:",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5951,6 +6383,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Length, area, and perimeter measurement labels on drawings.": {
+  "t": "Chiều dài, diện tích và phạm vi đo đạc trên các bức vẽ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Length: {textCount} | Spaces: {splitCount}": {
   "t": "Chiều dài: {textCount} Vũ trụ: {splitCount}",
   "src": "libretranslate",
@@ -5963,11 +6401,29 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Let users show measurements in additional units alongside the primary unit, for example acres with square feet.": {
+  "t": "Cho phép người dùng hiển thị đo lường trong đơn vị thêm vào bên cạnh đơn vị chính, ví dụ mẫu đất với bàn chân vuông.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Light": {
   "t": "Làm sáng",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Limit address search to maps extent.": {
+  "t": "Giới hạn địa chỉ tìm kiếm trong phạm vi bản đồ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Limit how many drawings are stored in the browser. Set to 0 for unlimited. Large numbers of complex drawings may impact browser performance.": {
+  "t": "Giới hạn số bản vẽ được cất giữ trong trình duyệt. Thiết lập 0 cho vô hạn. Số lượng lớn các hình vẽ phức tạp có thể ảnh hưởng đến hiệu suất trình duyệt.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Line": {
   "t": "Đường",
@@ -6191,6 +6647,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Locate": {
+  "t": "Xác định",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Location": {
+  "t": "Địa điểm",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Locator URL": {
   "t": "Xem URL",
   "src": "libretranslate",
@@ -6199,6 +6667,12 @@
  },
  "Lock {name}": {
   "t": "Khoá {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Lock / Unlock drawings": {
+  "t": "Khoá/ Bỏ khoá các bức vẽ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6233,6 +6707,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Longitude (X)": {
+  "t": "Độ dài (X)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Longitude:": {
+  "t": "Độ dài:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Look for the \"No basemaps configured.\" message in this widget.": {
   "t": "Tìm thông điệp \"Không có sơ đồ cơ bản được cấu hình\" trong ô điều khiển này.",
   "src": "libretranslate",
@@ -6262,6 +6748,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Mailing Labels": {
+  "t": "Nhãn thư",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Mailing Labels parent controller widget ID": {
   "t": "Mã nhận diện ô điều khiển ô điều khiển cha",
@@ -6407,6 +6899,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Map X and Y": {
+  "t": "Ánh xạ X và Y",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Mapping is fixed by the app author.": {
   "t": "Tác giả phần mềm sửa soạn.",
   "src": "libretranslate",
@@ -6551,6 +7049,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Measurements": {
+  "t": "Đo",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Measurements [Adding Measurements]": {
   "t": "Đo",
   "src": "libretranslate",
@@ -6647,6 +7151,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Merge selected drawings": {
+  "t": "Nhập các bức vẽ đã chọn",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Merge tool": {
   "t": "Công cụ trộn",
   "src": "libretranslate",
@@ -6682,6 +7192,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "MGRS": {
+  "t": "MGRS",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Middle Alignment (Current). Center text vertically.": {
   "t": "Khoảng cách giữa (hiện thời). Văn bản chính theo chiều dọc.",
@@ -6797,6 +7313,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Multiple Units": {
+  "t": "Nhiều đơn vị",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Multiply by": {
   "t": "Nhân với",
   "src": "libretranslate",
@@ -6863,8 +7385,32 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Name (Cannot be changed):": {
+  "t": "Tên (không thể đổi):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Name (Must be unique, letters only):": {
+  "t": "Tên (phải là độc nhất, chỉ có chữ):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Name applied to the graphics layer that holds drawings.": {
   "t": "Name",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Name May Only Contain Letters": {
+  "t": "Tên",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Name Must Be Unique": {
+  "t": "Phải có tên riêng",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6970,6 +7516,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "No draw tools enabled. Users will not be able to create new drawings.": {
+  "t": "Không bật công cụ vẽ. Người dùng sẽ không thể tạo ra các bản vẽ mới.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "No drawings available. Create a drawing in the Draw tab.": {
   "t": "Không có bản vẽ nào. Tạo một bản vẽ trong thẻ Draw.",
@@ -7085,6 +7637,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No Results Found": {
+  "t": "Không tìm thấy kết quả",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No score": {
   "t": "Không có điểm",
   "src": "libretranslate",
@@ -7102,6 +7660,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "No widget selected. Click \"Scan App\" to detect widgets, or enter the widget ID manually.": {
+  "t": "Chưa chọn ô điều khiển. Nhấn \"Scan App\" để phát hiện ô điều khiển, hoặc nhập mã nhận diện ô điều khiển.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "None": {
   "t": "Không có",
@@ -7132,6 +7696,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Note: superscript characters may not display correctly here but will work in the application.": {
+  "t": "Ghi chú: ký tự siêu văn bản có thể không hiển thị đúng ở đây nhưng sẽ hoạt động trong ứng dụng này.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Notes": {
   "t": "Ghi chú",
@@ -7432,6 +8002,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "outside this coordinate system's area": {
+  "t": "ra khỏi vùng của hệ tọa độ này",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Overlay with blend effects": {
   "t": "Phủ với hiệu ứng pha trộn",
@@ -7859,11 +8435,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Reads app config to find widgets": {
+  "t": "Đọc ứng dụng cấu hình để tìm ô điều khiển",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Reason": {
   "t": "Lý do",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Receive from Identify By Query": {
+  "t": "Nhận từ nhận diện qua Truy vấn",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Record {objectId} · source row {objectId2}": {
   "t": "Thu {objectId} · Hàng nguồn {objectId2}",
@@ -7937,6 +8525,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Remember User Preferences": {
+  "t": "Nhớ tùy thích của người dùng",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Remove basemap": {
   "t": "Xóa sơ đồ cơ bản",
   "src": "libretranslate",
@@ -7978,6 +8572,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Remove Result": {
+  "t": "Bỏ kết quả",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Remove rule": {
   "t": "Bỏ quy tắc",
@@ -8032,6 +8632,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Require confirmation before clearing all drawings": {
+  "t": "Cần xác nhận trước khi xoá mọi bản vẽ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "required": {
   "t": "yêu cầu",
@@ -8098,6 +8704,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Results": {
+  "t": "Kết quả",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Results found:": {
+  "t": "Kết quả tìm thấy:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Return to beginning of text editor": {
   "t": "Trở lại đầu của trình soạn thảo văn bản",
@@ -8302,6 +8920,30 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Save this widget's configuration to an XML file, or load a saved file to copy settings between applications. Importing merges the file's values onto the current configuration. The selected map widget is not included.": {
+  "t": "Lưu cấu hình của ô điều khiển này vào tập tin XML, hoặc nạp một tập tin đã lưu để sao chép thiết lập giữa các ứng dụng. Nhập kết hợp các giá trị của tập tin vào cấu hình hiện thời. Không bao gồm ô điều khiển sơ đồ đã chọn.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Save Unit": {
+  "t": "Lưu Đơn vị",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Scan App": {
+  "t": "Ứng dụng quét",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Score": {
+  "t": "Điểm",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Score {score}": {
   "t": "Điểm {score}",
@@ -8717,6 +9359,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Settings imported. Review the sections below and click Save in the builder to keep them.": {
+  "t": "Thiết lập được nhập. Xem lại các phần dưới đây và nhấn vào lưu trữ để giữ chúng.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Shape drawing tools": {
   "t": "Công cụ vẽ hình",
   "src": "libretranslate",
@@ -8737,6 +9385,30 @@
  },
  "Show {name}": {
   "t": "Hiện {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show a button that sends drawing geometry to the Identify By Query widget for feature identification. The Identify By Query widget must also have its Draw Widget integration enabled.": {
+  "t": "Hiển thị một nút gửi hình học vẽ tới xác định bởi ô điều khiển truy vấn để nhận diện tính năng. Cần phải xác định khả năng tích hợp của ô điều khiển truy vấn.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show a button that sends drawing geometry to the Mailing Labels widget for parcel selection. The Mailing Labels widget must also have its Draw Widget integration enabled.": {
+  "t": "Hiển thị một nút gửi hình học vẽ cho ô điều khiển thư điện tử để chọn gói. Ô điều khiển thư điện tử cũng cần phải có khả năng tích hợp ô điều khiển Draw.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show a confirmation prompt before the Clear All / Delete All action runs.": {
+  "t": "Hiện dấu nhắc xác nhận trước khi xoá mọi hành động chạy.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show a control that zooms the map to a drawing extent.": {
+  "t": "Hiển thị một điều khiển phóng to bản đồ đến mức độ vẽ.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8764,6 +9436,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Show draw layer in map layer list": {
+  "t": "Hiện lớp trong danh sách lớp bản đồ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Show drawing": {
   "t": "Hiện ảnh",
@@ -8843,6 +9521,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Show sorting and filtering controls at the top of the My Drawings list.": {
+  "t": "Hiện điều khiển sắp xếp và lọc ở đầu danh sách bản vẽ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show template picker": {
   "t": "Hiện bộ kén mẫu",
   "src": "libretranslate",
@@ -8854,6 +9538,24 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Show the Export menu. Buffers are exported as their own features in every format.": {
+  "t": "Cho trình đơn Xuất. Buffer được xuất khẩu như các tính năng riêng của họ trong mọi hình thức.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show the Import button for loading Shapefile (.zip), GeoJSON, and KML files into My Drawings.": {
+  "t": "Hiển thị nút Nhập cho tập tin cấu hình nạp (.zip), GeoJSON và KML trong bản vẽ của tôi.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show the per-drawing properties / details panel.": {
+  "t": "Hiện bảng điều khiển vẽ/ chi tiết",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Show the primary unit only": {
   "t": "Chỉ hiện đơn vị chính",
@@ -8944,6 +9646,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Snap drawing vertices to features in other map layers.": {
+  "t": "Đắp các đỉnh của các lớp bản đồ khác.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Snap to feature vertices, edges, and intersections while drawing for precise alignment.": {
   "t": "Nhấn để đặc trưng cho các đỉnh, các cạnh và các giao điểm trong khi vẽ cho thẳng hàng chính xác.",
@@ -9058,6 +9766,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Sort and filter controls": {
+  "t": "Sắp xếp và lọc điều khiển",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Sort drawings": {
   "t": "Sắp xếp các bức vẽ",
@@ -9197,8 +9911,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Stop drawing when widget is closed": {
+  "t": "Dừng vẽ khi các ô điều khiển đóng",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Storage Permission Required": {
   "t": "Cần thiết quyền lưu trữ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Storage Scope:": {
+  "t": "Phạm vi lưu trữ:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Store each user's measurement units, display options, and decimal places in their browser so they persist between sessions. Users can reset to your defaults at any time.": {
+  "t": "Lưu các đơn vị đo lường của mỗi người dùng, các tùy chọn hiển thị và số thập phân trong trình duyệt của họ vì vậy họ bền bỉ giữa các phiên chạy. Người dùng có thể thiết lập lại mặc định của bạn bất cứ lúc nào.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9269,6 +10001,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Symbol Editor": {
+  "t": "Bộ sửa biểu tượng",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Symbol style customization": {
   "t": "Tùy chỉnh kiểu dáng biểu tượng",
   "src": "libretranslate",
@@ -9304,6 +10042,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Tabbed panel for managing, sorting, and organizing saved drawings. When disabled, there is no tab bar and only the Draw panel is shown.": {
+  "t": "Bảng xếp hình để quản lý, sắp xếp và sắp xếp các bản vẽ đã lưu. Khi bị tắt, không có thanh thẻ và chỉ hiển thị Bảng Vẽ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Target": {
   "t": "Mục tiêu",
@@ -9503,6 +10247,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The address search failed. Check the geocode service in the widget settings, then try again.": {
+  "t": "Việc tìm kiếm địa chỉ bị lỗi. Hãy kiểm tra dịch vụ mã hóa địa lý trong thiết lập ô điều khiển, rồi thử lại.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The buttons on a selected drawing let you {actions}.": {
   "t": "Các nút trên bản vẽ đã chọn cho phép bạn {actions}.",
   "src": "libretranslate",
@@ -9568,6 +10318,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The geocode service could not be read, or it has no single line address field. The Address tab is hidden until it is fixed in the widget settings.": {
+  "t": "Không thể đọc dịch vụ địa lý, hoặc không có một trường địa chỉ. Thẻ địa chỉ bị ẩn cho đến khi cố định trong thiết lập ô điều khiển.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The layer is gone: the browser tab was closed or reloaded. Run the file again, or bring back the copy you exported.": {
   "t": "Lớp đã đi: thẻ trình duyệt đã đóng hoặc tải lại. Chạy lại tập tin, hoặc mang bản sao xuất khẩu về.",
@@ -9671,8 +10427,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The widget controller / sidebar that contains the Identify By Query widget. This ensures the controller panel opens before sending geometry.": {
+  "t": "Bộ điều khiển ô điều khiển ô điều khiển / thanh bên chứa bộ nhận diện bởi ô điều khiển truy vấn. Điều này đảm bảo bảng điều khiển mở ra trước khi gửi hình học.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The widget controller / sidebar that contains the Mailing Labels widget.": {
   "t": "Điều khiển ô điều khiển ô điều khiển / thanh bên chứa ô điều khiển thư điện tử.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The widget controller / sidebar that contains the Mailing Labels widget. This ensures the controller panel opens before sending geometry.": {
+  "t": "Điều khiển ô điều khiển ô điều khiển / thanh bên chứa ô điều khiển thư điện tử. Điều này đảm bảo bảng điều khiển mở ra trước khi gửi hình học.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9784,6 +10552,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Those coordinates are outside the area of the coordinate system picked in Units. Pick the system the numbers came from.": {
+  "t": "Tọa độ đó nằm ngoài vùng của hệ thống tọa độ được chọn trong các đơn vị. Chọn hệ thống những con số đến từ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Those coordinates could not be read. Click the example under the box to see the format this unit expects.": {
+  "t": "Không thể đọc được tọa độ đó. Nhấn vào ví dụ dưới hộp để xem định dạng đơn vị này mong đợi.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "To keep your work safe, please use the": {
   "t": "Để giữ công việc an toàn, xin hãy dùng",
@@ -9976,6 +10756,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Tokens:": {
+  "t": "Sắc:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Tokens: YYYY YY MM DD HH mm ss. Blank tries ISO, then general parsing.": {
   "t": "Tokens: YYY Y MM DH mm ss. Trống thử ISO, rồi phân loại chung.",
@@ -10229,11 +11015,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Undo / Redo": {
+  "t": "Hủy bước / Làm lại",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Undo and redo actions": {
   "t": "Hủy bước và làm lại hành động",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Undo and redo buttons during active drawing.": {
+  "t": "Hủy bỏ và làm lại nút trong khi vẽ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Undo last drawing action": {
   "t": "Hủy bước vẽ cuối",
@@ -10260,6 +11058,12 @@
   "added": "2026-10-08"
  },
  "Unit:": {
+  "t": "Đơn vị:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Units:": {
   "t": "Đơn vị:",
   "src": "libretranslate",
   "reviewed": false,
@@ -10457,6 +11261,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Use the inspect address tool to click on the map and locate the address.": {
+  "t": "Dùng công cụ thanh tra để nhấp vào bản đồ và tìm địa chỉ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Use the keyboard": {
   "t": "Dùng bàn phím",
   "src": "libretranslate",
@@ -10477,6 +11287,18 @@
  },
  "Used when a user enables custom buffer color.": {
   "t": "Dùng khi người dùng hiệu lực màu bộ đệm tự chọn.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "USNG": {
+  "t": "USNG",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "UTM": {
+  "t": "UTM",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10504,6 +11326,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "View drawing properties": {
+  "t": "Xem thuộc tính vẽ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "View options": {
   "t": "Tùy chọn",
@@ -10589,6 +11417,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "When on, end users can edit the draw layer name at runtime.": {
+  "t": "Khi vào, kết thúc người dùng có thể sửa đổi tên lớp vẽ vào lúc chạy.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "When on, end users can show or hide the draw layer in the layer list.": {
+  "t": "Khi trên, người dùng cuối có thể hiển thị hoặc ẩn lớp vẽ trong danh sách lớp.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "When on, the draw graphics layer appears in the map’s layer list / legend.": {
+  "t": "Lớp đồ họa có trong danh sách lớp học / huyền thoại.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Where your choices live": {
   "t": "Nơi bạn lựa chọn",
   "src": "libretranslate",
@@ -10609,6 +11455,30 @@
  },
  "Widget Behavior": {
   "t": "Ứng xử từ khoá",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Widget ID: {identifyWidgetId}": {
+  "t": "ID ô điều khiển: {identifyWidgetId}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Widget ID: {mailingLabelsWidgetId}": {
+  "t": "ID ô điều khiển: {mailingLabelsWidgetId}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Widget is designed to run in Experience Builder version": {
+  "t": "Name",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Widget Version": {
+  "t": "Phiên bản điều khiển",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10661,11 +11531,29 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "X (Easting):": {
+  "t": "X ( đông):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "X / Longitude field": {
   "t": "X / Trường độ dài",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "X and Y": {
+  "t": "X và Y",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "X, Y": {
+  "t": "X, Y",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "XY": {
   "t": "XY",
@@ -10681,6 +11569,12 @@
  },
  "XY coordinates enabled. Display projected X and Y coordinate values.": {
   "t": "Chọn tọa độ XY. Hiển thị giá trị tọa độ X và Y dự đoán.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Y (Northing):": {
+  "t": "Y:",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10783,6 +11677,12 @@
  },
  "Zoom to {name}": {
   "t": "Phóng to {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zoom to drawing": {
+  "t": "Phóng to thu nhỏ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"

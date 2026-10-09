@@ -23,6 +23,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "— Select a widget —": {
+  "t": "— Επιλέξτε ένα γραφικό συστατικό",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "— Select controller —": {
+  "t": "— Επιλογή ελεγκτή",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ ". Leave blank to use built-in defaults.": {
+  "t": ". Αφήστε το κενό για χρήση ενσωματωμένων προεπιλεγμένων.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  ". Open it from the map’s layer list to see the table.": {
   "t": ". Ανοίξτε το από τη λίστα στρώμα του χάρτη για να δείτε τον πίνακα.",
   "src": "libretranslate",
@@ -329,6 +347,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "─── All Widgets ───": {
+  "t": "- Όλα τα συστατικά...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "✓ Added": {
   "t": "✓ Προστέθηκε",
   "src": "libretranslate",
@@ -337,6 +361,18 @@
  },
  "✓ Apply & Close": {
   "t": "✓ Εφαρμογή & Κλείσιμο",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "1 meter = {conversion} {label} ({abbreviation})": {
+  "t": "1 μέτρο = {conversion} {label} ({abbreviation})",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "1 square meter = {conversion} {label} ({abbreviation})": {
+  "t": "1 τετραγωνικό μέτρο = {conversion} {label} ({abbreviation})",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -442,6 +478,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Abbreviation (Used on map):": {
+  "t": "Συντομογραφία (Χρησιμοποιείται στο χάρτη):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Accepted types: CSV, TSV, TXT, XLSX, XLS and ODS.": {
   "t": "Αποδεκτοί τύποι: CSV, TSV, TXT, XLSX, XLS και ODS.",
@@ -575,7 +617,19 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Add or Change Area Units": {
+  "t": "Προσθήκη ή αλλαγή μονάδων περιοχής",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add or change linear units": {
+  "t": "Προσθήκη ή αλλαγή γραμμικών μονάδων",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add or Change Linear Units": {
   "t": "Προσθήκη ή αλλαγή γραμμικών μονάδων",
   "src": "libretranslate",
   "reviewed": false,
@@ -682,6 +736,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Address Inspection Failed": {
+  "t": "Η επιθεώρηση διεύθυνσης απέτυχε",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Address mapping mode": {
   "t": "Λειτουργία χαρτογράφησης διευθύνσεων",
@@ -977,6 +1037,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Allow the Identify By Query widget to send feature geometries to this widget using the \"Copy To Draw\" button. Received geometries will appear in My Drawings and be saved to storage.": {
+  "t": "Επίτρεψε την αναγνώριση από το γραφικό συστατικό ερωτήματος για να στείλει λειτουργίες γεωμετρίες σε αυτό το γραφικό συστατικό χρησιμοποιώντας το κουμπί \"Copy To Draw\". Οι λαμβανόμενες γεωμετρίες θα εμφανιστούν στα Σχέδια Μου και θα αποθηκευτούν στην αποθήκη.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Allow update and upsert load modes": {
   "t": "Να επιτρέπεται η ενημέρωση και η αύξηση του φορτίου",
   "src": "libretranslate",
@@ -994,6 +1060,42 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Allow users to duplicate an existing drawing.": {
+  "t": "Επίτρεψε στους χρήστες να αναπαράγουν ένα υπάρχον σχέδιο.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Allow users to group multiple drawings together for batch actions.": {
+  "t": "Επίτρεψε στους χρήστες να ομαδοποιήσουν πολλαπλά σχέδια μαζί για ομαδικές ενέργειες.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Allow users to lock drawings so they cannot be moved or edited.": {
+  "t": "Αφήστε τους χρήστες να κλειδώσουν σχέδια ώστε να μην μπορούν να μετακινηθούν ή να επεξεργαστούν.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Allow users to merge selected geometries into a single drawing.": {
+  "t": "Επίτρεψε στους χρήστες να συγχωνεύσουν επιλεγμένες γεωμετρίες σε ένα ενιαίο σχέδιο.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Allow users to rename the draw layer": {
+  "t": "Επίτρεψε στους χρήστες να μετονομάσουν το στρώμα σχεδίασης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Allow users to toggle layer list visibility": {
+  "t": "Επίτρεψε στους χρήστες την εναλλαγή της προβολής της λίστας επιπέδων",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Almost any address list out of a spreadsheet works.": {
   "t": "Σχεδόν κάθε λίστα διευθύνσεων από ένα λογιστικό φύλλο λειτουργεί.",
@@ -1024,6 +1126,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "An issue occurred while projecting the location.": {
+  "t": "Ένα θέμα συνέβη κατά την προβολή της τοποθεσίας.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "an item from ArcGIS": {
   "t": "ένα στοιχείο από το ArcGIS",
@@ -1074,6 +1182,12 @@
   "added": "2026-10-08"
  },
  "Apply imported settings": {
+  "t": "Εφαρμογή εισαγόμενων ρυθμίσεων",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Apply Imported Settings": {
   "t": "Εφαρμογή εισαγόμενων ρυθμίσεων",
   "src": "libretranslate",
   "reviewed": false,
@@ -1511,6 +1625,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Buffer": {
+  "t": "Διακόπτης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Buffer action buttons": {
   "t": "Κουμπιά ενέργειας buffer",
   "src": "libretranslate",
@@ -1654,6 +1774,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Cancel any active drawing session when the widget panel is closed. Recommended when the widget lives inside a Widget Controller.": {
+  "t": "Ακύρωση κάθε συνεδρίας ενεργού σχεδίου όταν ο πίνακας γραφικών συστατικών είναι κλειστός. Συνιστάται όταν το widget ζει μέσα σε ένα Widget Controller.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Cancel copy from layer mode": {
   "t": "Ακύρωση αντιγράφου από τη λειτουργία στρώματος",
@@ -1925,6 +2051,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Choose which actions are available in the My Drawings toolbar:": {
+  "t": "Επιλέξτε ποιες ενέργειες είναι διαθέσιμες στη γραμμή εργαλείων My Drawings:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Choose which drawing tools appear in the toolbar. Disabled tools are hidden from users.": {
   "t": "Επιλέξτε ποια εργαλεία σχεδίασης εμφανίζονται στη γραμμή εργαλείων. Τα απενεργοποιημένα εργαλεία είναι κρυμμένα από τους χρήστες.",
   "src": "libretranslate",
@@ -2177,6 +2309,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Click to add the example coordinates above": {
+  "t": "Κάντε κλικ για να προσθέσετε τις παραπάνω συντεταγμένες παραδείγματος",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Click to apply {title} basemap to the map": {
   "t": "Κλικ για εφαρμογή {title} χάρτης βάσης στο χάρτη",
   "src": "libretranslate",
@@ -2255,6 +2393,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Click to move example values into input fields": {
+  "t": "Κλικ για μετακίνηση τιμών παραδείγματος σε πεδία εισόδου",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Click to place a circle with an exact radius or area with one click": {
   "t": "Κάντε κλικ για να τοποθετήσετε έναν κύκλο με ακριβή ακτίνα ή περιοχή με ένα κλικ",
   "src": "libretranslate",
@@ -2272,6 +2416,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Click to Zoom to Result": {
+  "t": "Κλικ για μεγέθυνση για αποτέλεσμα",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Clicking the basemap with the check mark applies that same basemap again.": {
   "t": "Κάνοντας κλικ στο χάρτη βάσης με το σήμα ελέγχου εφαρμόζεται και πάλι ο ίδιος χάρτης βάσης.",
@@ -2365,6 +2515,12 @@
  },
  "Color used when a user turns on the custom buffer color option.": {
   "t": "Χρώμα που χρησιμοποιείται όταν ένας χρήστης ενεργοποιεί την προσαρμοσμένη επιλογή χρώματος ενδιάμεσης μνήμης.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Color, size, and style controls for drawing symbols.": {
+  "t": "Χρώμα, μέγεθος και στυλ ελέγχου για τα σύμβολα σχεδίασης.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2555,8 +2711,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Conversion Factor (One meter is how many of your unit?):": {
+  "t": "Συντελεστής μετατροπής (ένα μέτρο είναι πόσα από τη μονάδα σας;):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Conversion Factor (One square meter is how many of your unit?):": {
+  "t": "Συντελεστής μετατροπής (ένα τετραγωνικό μέτρο είναι πόσα από τη μονάδα σας;):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Coordinate format options": {
   "t": "Επιλογές μορφής συντονισμού",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Coordinates": {
+  "t": "Συντεταγμένες",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2603,6 +2777,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copy features from map layers into drawings. Includes single click, multi-select, and spatial selection modes.": {
+  "t": "Αντιγραφή χαρακτηριστικών από στρώματα χάρτη σε σχέδια. Περιλαμβάνει ένα μόνο κλικ, multi-επιλογή, και λειτουργίες χωρικής επιλογής.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copy From": {
   "t": "Αντιγραφή από",
   "src": "libretranslate",
@@ -2623,6 +2803,12 @@
  },
  "Copy from Layer": {
   "t": "Αντιγραφή από το στρώμα",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Copy from Map": {
+  "t": "Αντιγραφή από τον χάρτη",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2656,6 +2842,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Create buffer zones around drawn features.": {
+  "t": "Δημιουργήστε ζώνες προστασίας γύρω από σχεδιασμένα χαρακτηριστικά.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Create New Unit": {
+  "t": "Δημιουργία νέας μονάδας",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Creates new buffer zones or updates existing buffers for selected map graphics using the current distance ({bufferDistance}) and unit ({bufferUnit}) settings.": {
   "t": "Δημιουργεί νέες ζώνες προστασίας ή ενημερώνει τους υπάρχοντες ρυθμιστές για επιλεγμένα γραφικά χάρτη χρησιμοποιώντας την τρέχουσα απόσταση ({bufferDistance}) και μονάδα ({bufferUnit}) settings.",
@@ -2861,6 +3059,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Decimal degrees": {
+  "t": "Δεκαδικές μοίρες",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Decimal places": {
   "t": "Δεκαδικά μέρη",
   "src": "libretranslate",
@@ -2899,6 +3103,12 @@
  },
  "Default area unit used for area measurements": {
   "t": "Προκαθορισμένη μονάδα εμβαδού που χρησιμοποιείται για μετρήσεις περιοχής",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default Area Units:": {
+  "t": "Προκαθορισμένες μονάδες περιοχής:",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2963,6 +3173,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default Layer Name:": {
+  "t": "Προκαθορισμένο όνομα στρώματος:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default linear unit": {
   "t": "Προκαθορισμένη γραμμική μονάδα",
   "src": "libretranslate",
@@ -2975,11 +3191,41 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default Linear Unit:": {
+  "t": "Προκαθορισμένη γραμμική μονάδα:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default Opacity (%)": {
+  "t": "Προκαθορισμένη Αδιαφάνεια (%)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default Tab:": {
+  "t": "Προκαθορισμένη καρτέλα:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default value": {
   "t": "Προκαθορισμένη τιμή",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Degrees decimal minutes": {
+  "t": "Δεκαδικά λεπτά μοίρες",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Degrees minutes seconds": {
+  "t": "Βαθμός δευτερόλεπτα δευτερόλεπτα",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Delete": {
   "t": "Διαγραφή",
@@ -3070,6 +3316,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Delete Unit": {
+  "t": "Διαγραφή μονάδας",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Delimiter": {
   "t": "Περιοριστής",
@@ -3611,6 +3863,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Drawing tool deactivates after completing one shape.": {
+  "t": "Εργαλείο σχεδίασης απενεργοποιείται μετά την ολοκλήρωση ενός σχήματος.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Drawing tool stays active after completing each shape.": {
+  "t": "Το εργαλείο σχεδίασης παραμένει ενεργό μετά την ολοκλήρωση κάθε σχήματος.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Drawing tools": {
   "t": "Εργαλεία σχεδίασης",
   "src": "libretranslate",
@@ -3625,6 +3889,18 @@
  },
  "Drawing widget navigation tabs": {
   "t": "Σχεδίαση καρτελών πλοήγησης γραφικού συστατικού",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Drawings are isolated to this specific application.": {
+  "t": "Τα σχέδια είναι απομονωμένα στη συγκεκριμένη εφαρμογή.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Drawings are shared across all Experience Builder applications on this domain.": {
+  "t": "Τα σχέδια μοιράζονται σε όλες τις εφαρμογές Experience Builder σε αυτόν τον τομέα.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3646,6 +3922,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Duplicate drawings": {
+  "t": "Διπλά σχέδια",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Dynamic Scaling": {
   "t": "Δυναμική κλιμάκωση",
@@ -3787,6 +4069,12 @@
  },
  "Edit Units": {
   "t": "Επεξεργασία μονάδων",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Edit/Delete - {label}": {
+  "t": "Επεξεργασία/Διαγραφή - {label}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3935,6 +4223,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Enable Measurements in Features & Capabilities to configure units.": {
+  "t": "Ενεργοποίηση Μετρήσεων σε Χαρακτηριστικά & Δυνατότητες για τη ρύθμιση μονάδων.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enable My Drawings": {
+  "t": "Ενεργοποίηση των σχεδίων μου",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enable or disable buffer creation for map graphics. When enabled, buffers will be automatically created around new drawings.": {
   "t": "Ενεργοποίηση ή απενεργοποίηση δημιουργίας ενδιάμεσης μνήμης για γραφικά χάρτη. Όταν ενεργοποιηθεί, οι ρυθμιστές θα δημιουργηθούν αυτόματα γύρω από νέα σχέδια.",
   "src": "libretranslate",
@@ -3995,6 +4295,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Enable when the widget is inside a Widget Controller so active drawings are cancelled on close.": {
+  "t": "Ενεργοποίηση όταν το γραφικό συστατικό βρίσκεται μέσα σε ένα χειριστήριο Widget έτσι ώστε τα ενεργά σχέδια ακυρώνονται στο κλείσιμο.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enable:": {
   "t": "Ενεργοποίηση:",
   "src": "libretranslate",
@@ -4013,8 +4319,32 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Enhanced Locate": {
+  "t": "Ενισχυμένη Εντοπισμός",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enhanced Locate results": {
+  "t": "Ενισχυμένα αποτελέσματα Εντοπισμού",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enhanced Locate Widget Version Info": {
+  "t": "Ενισχυμένη τοποθεσία πληροφοριών έκδοσης γραφικού συστατικού",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enter a title for the draw layer that will appear in the map legend": {
   "t": "Εισάγετε έναν τίτλο για το στρώμα σχεδίασης που θα εμφανιστεί στον θρύλο του χάρτη",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enter an address:": {
+  "t": "Εισάγετε μια διεύθυνση:",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4067,6 +4397,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Enter the coordinates:": {
+  "t": "Εισάγετε τις συντεταγμένες:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enter the text content for your map label. Spaces are preserved.": {
   "t": "Εισάγετε το περιεχόμενο κειμένου για την ετικέτα του χάρτη σας. Διατηρούνται χώροι.",
   "src": "libretranslate",
@@ -4114,6 +4450,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Example:": {
+  "t": "Παράδειγμα:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Excel opens the CSV with accented letters intact, and a value that starts with = or + is kept as text, never run as a formula.": {
   "t": "Excel ανοίγει το CSV με τονισμένα γράμματα άθικτα, και μια τιμή που ξεκινά με = ή + διατηρείται ως κείμενο, ποτέ δεν τρέχει ως μια φόρμουλα.",
@@ -4180,6 +4522,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Export (Shapefile, GeoJSON, KML, CSV)": {
+  "t": "Εξαγωγή (Shapefile, GeoJSON, KML, CSV)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Export {name} - choose format": {
   "t": "Εξαγωγή {name} - επιλέξτε μορφή",
@@ -4345,6 +4693,12 @@
  },
  "FacilityID": {
   "t": "ΕγκατάστασηID",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Failed to find an address at the location clicked. Please try again.": {
+  "t": "Αποτυχία εύρεσης διεύθυνσης στην τοποθεσία που πατήθηκε. Παρακαλώ προσπαθήστε ξανά.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4823,6 +5177,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "GeocodeServer Issue": {
+  "t": "Έκδοση GeocodeServer",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Geocoding progress": {
   "t": "Πρόοδος γεωκωδικοποίησης",
   "src": "libretranslate",
@@ -5089,6 +5449,12 @@
  },
  "Grid unit changed to {newUnit}": {
   "t": "Μονάδα καννάβου άλλαξε σε {newUnit}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Group / Ungroup drawings": {
+  "t": "Ομάδα / Αποσυναρμολόγηση σχεδίων",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5375,6 +5741,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Identify By Query": {
+  "t": "Αναγνώριση με ερώτηση",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Identify By Query parent controller widget ID": {
   "t": "Αναγνωριστικός κωδικός By Query parent controller widget ID",
   "src": "libretranslate",
@@ -5428,6 +5800,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Import (Shapefile, GeoJSON, KML)": {
+  "t": "Εισαγωγή (Shapefile, GeoJSON, KML)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Import / Export Configuration": {
   "t": "Import εισαγωγής / εξαγωγής",
@@ -5573,6 +5951,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Inspect Address by Point": {
+  "t": "Επιθεώρηση διεύθυνσης ανά σημείο",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Inspect Locations Address": {
+  "t": "Έλεγχος της διεύθυνσης των τόπων",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Inspector": {
+  "t": "Επιθεωρητής",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "instead.": {
   "t": "Αντ' αυτού.",
   "src": "libretranslate",
@@ -5587,6 +5983,12 @@
  },
  "Integrations": {
   "t": "Ένταξη",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Invalid Conversion Factor": {
+  "t": "Μη έγκυρος συντελεστής μετατροπής",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5813,6 +6215,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Label (Full name used in menus):": {
+  "t": "Ετικέτα (Πλήρες όνομα που χρησιμοποιείται στα μενού):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Label Buffer": {
   "t": "Διακόπτης ετικέτας",
   "src": "libretranslate",
@@ -5891,8 +6299,32 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Lat Lon": {
+  "t": "Λατ Λον",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Lat Lon Coordinates": {
+  "t": "Lat Lon Συντεταγμένες",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Lat/Long": {
   "t": "Lat/Μαύρο",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Latitude (Y)": {
+  "t": "Γεωγραφικό πλάτος (Y)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Latitude:": {
+  "t": "Γεωγραφικό πλάτος:",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5951,6 +6383,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Length, area, and perimeter measurement labels on drawings.": {
+  "t": "Μήκος, περιοχή και ετικέτα μέτρησης περιμέτρου σε σχέδια.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Length: {textCount} | Spaces: {splitCount}": {
   "t": "Μήκος: {textCount} Χώροι: {splitCount}",
   "src": "libretranslate",
@@ -5963,11 +6401,29 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Let users show measurements in additional units alongside the primary unit, for example acres with square feet.": {
+  "t": "Ας δείχνουν οι χρήστες μετρήσεις σε πρόσθετες μονάδες παράλληλα με την κύρια μονάδα, για παράδειγμα στρέμματα με τετραγωνικά πόδια.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Light": {
   "t": "Φως",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Limit address search to maps extent.": {
+  "t": "Περιορίστε την αναζήτηση διευθύνσεων σε έκταση χαρτών.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Limit how many drawings are stored in the browser. Set to 0 for unlimited. Large numbers of complex drawings may impact browser performance.": {
+  "t": "Περιορίστε πόσα σχέδια αποθηκεύονται στο πρόγραμμα περιήγησης. Ρυθμίστε στο 0 για απεριόριστο. Μεγάλος αριθμός σύνθετων σχεδίων μπορεί να επηρεάσει την απόδοση του προγράμματος περιήγησης.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Line": {
   "t": "Γραμμή",
@@ -6191,6 +6647,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Locate": {
+  "t": "Εντοπισμός",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Location": {
+  "t": "Τοποθεσία",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Locator URL": {
   "t": "URL εντοπισμού",
   "src": "libretranslate",
@@ -6199,6 +6667,12 @@
  },
  "Lock {name}": {
   "t": "Κλείδωμα {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Lock / Unlock drawings": {
+  "t": "Κλείδωμα / Ξεκλείδωμα σχεδίων",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6233,6 +6707,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Longitude (X)": {
+  "t": "Γεωγραφικό μήκος (X)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Longitude:": {
+  "t": "Γεωγραφικό μήκος:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Look for the \"No basemaps configured.\" message in this widget.": {
   "t": "Αναζήτηση για το \"No basemaps ρυθμισμένο.\" μήνυμα σε αυτό το γραφικό συστατικό.",
   "src": "libretranslate",
@@ -6262,6 +6748,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Mailing Labels": {
+  "t": "Ετικέτα αλληλογραφίας",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Mailing Labels parent controller widget ID": {
   "t": "Ταυτότητα γραφικού συστατικού γονικού ελεγκτή",
@@ -6407,6 +6899,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Map X and Y": {
+  "t": "Χάρτης X και Y",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Mapping is fixed by the app author.": {
   "t": "Η χαρτογράφηση καθορίζεται από τον συντάκτη της εφαρμογής.",
   "src": "libretranslate",
@@ -6551,6 +7049,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Measurements": {
+  "t": "Μετρήσεις",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Measurements [Adding Measurements]": {
   "t": "Μετρήσεις [Προσθήκη Μετρήσεων]",
   "src": "libretranslate",
@@ -6647,6 +7151,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Merge selected drawings": {
+  "t": "Συγχώνευση επιλεγμένων σχεδίων",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Merge tool": {
   "t": "Εργαλείο συγχώνευσης",
   "src": "libretranslate",
@@ -6682,6 +7192,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "MGRS": {
+  "t": "MGRS",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Middle Alignment (Current). Center text vertically.": {
   "t": "Μέση Ευθυγράμμιση (Παρούσα). Κεντρικό κείμενο κάθετα.",
@@ -6797,6 +7313,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Multiple Units": {
+  "t": "Πολλαπλές Μονάδες",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Multiply by": {
   "t": "Πολλαπλασιάστε με",
   "src": "libretranslate",
@@ -6863,8 +7385,32 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Name (Cannot be changed):": {
+  "t": "Όνομα (Δεν μπορεί να αλλαχθεί):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Name (Must be unique, letters only):": {
+  "t": "Όνομα (πρέπει να είναι μοναδικό, μόνο γράμματα):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Name applied to the graphics layer that holds drawings.": {
   "t": "Όνομα που εφαρμόζεται στο στρώμα γραφικών που κρατά σχέδια.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Name May Only Contain Letters": {
+  "t": "Το όνομα μπορεί να περιέχει μόνο επιστολές",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Name Must Be Unique": {
+  "t": "Το Όνομα Πρέπει να Είναι Μοναδικό",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6970,6 +7516,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "No draw tools enabled. Users will not be able to create new drawings.": {
+  "t": "Δεν ενεργοποιήθηκαν εργαλεία σχεδίασης. Οι χρήστες δεν θα είναι σε θέση να δημιουργήσουν νέα σχέδια.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "No drawings available. Create a drawing in the Draw tab.": {
   "t": "Δεν υπάρχουν σχέδια διαθέσιμα. Δημιουργία σχεδίου στην καρτέλα Draw.",
@@ -7085,6 +7637,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No Results Found": {
+  "t": "Δε βρέθηκαν αποτελέσματα",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No score": {
   "t": "Χωρίς βαθμολογία",
   "src": "libretranslate",
@@ -7102,6 +7660,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "No widget selected. Click \"Scan App\" to detect widgets, or enter the widget ID manually.": {
+  "t": "Δεν επιλέχθηκε γραφικό συστατικό. Κάντε κλικ στο \"Scan App\" για να ανιχνεύσετε widgets, ή εισάγετε το widget ID με το χέρι.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "None": {
   "t": "Καμία",
@@ -7132,6 +7696,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Note: superscript characters may not display correctly here but will work in the application.": {
+  "t": "Σημείωση: οι χαρακτήρες υπεργραφής μπορεί να μην εμφανίζονται σωστά εδώ αλλά θα λειτουργούν στην εφαρμογή.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Notes": {
   "t": "Σημειώσεις",
@@ -7432,6 +8002,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "outside this coordinate system's area": {
+  "t": "εκτός της περιοχής του συστήματος συντεταγμένων",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Overlay with blend effects": {
   "t": "Επικάλυψη με εφέ μείγματος",
@@ -7859,11 +8435,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Reads app config to find widgets": {
+  "t": "Ανάγνωση ρυθμίσεων εφαρμογής για την εύρεση γραφικών συστατικών",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Reason": {
   "t": "Αιτιολογία",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Receive from Identify By Query": {
+  "t": "Λήψη από την αναγνώριση με ερώτηση",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Record {objectId} · source row {objectId2}": {
   "t": "Εγγραφή {objectId} · γραμμή πηγής {objectId2}",
@@ -7937,6 +8525,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Remember User Preferences": {
+  "t": "Απομνημόνευση Προτιμήσεων χρήστη",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Remove basemap": {
   "t": "Αφαίρεση χάρτη βάσης",
   "src": "libretranslate",
@@ -7978,6 +8572,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Remove Result": {
+  "t": "Αφαίρεση αποτελέσματος",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Remove rule": {
   "t": "Αφαίρεση κανόνα",
@@ -8032,6 +8632,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Require confirmation before clearing all drawings": {
+  "t": "Απαιτείται επιβεβαίωση πριν από την εκκαθάριση όλων των σχεδίων",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "required": {
   "t": "απαιτείται",
@@ -8098,6 +8704,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Results": {
+  "t": "Αποτελέσματα",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Results found:": {
+  "t": "Βρέθηκαν αποτελέσματα:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Return to beginning of text editor": {
   "t": "Επιστροφή στην αρχή του επεξεργαστή κειμένου",
@@ -8302,6 +8920,30 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Save this widget's configuration to an XML file, or load a saved file to copy settings between applications. Importing merges the file's values onto the current configuration. The selected map widget is not included.": {
+  "t": "Αποθήκευση ρυθμίσεων αυτού του γραφικού συστατικού σε ένα αρχείο XML, ή φόρτωση ενός αποθηκευμένου αρχείου για την αντιγραφή ρυθμίσεων μεταξύ εφαρμογών. Η εισαγωγή συγχωνεύει τις τιμές του αρχείου στις τρέχουσες ρυθμίσεις. Το επιλεγμένο γραφικό συστατικό χάρτη δεν περιλαμβάνεται.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Save Unit": {
+  "t": "Αποθήκευση μονάδας",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Scan App": {
+  "t": "Εφαρμογή σάρωσης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Score": {
+  "t": "Βαθμός",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Score {score}": {
   "t": "Βαθμός {score}",
@@ -8717,6 +9359,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Settings imported. Review the sections below and click Save in the builder to keep them.": {
+  "t": "Εισαγωγή ρυθμίσεων. Ανασκόπηση των παρακάτω τμημάτων και κάντε κλικ στο Αποθήκευση στον κατασκευαστή για να τα κρατήσει.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Shape drawing tools": {
   "t": "Εργαλεία σχεδίασης σχήματος",
   "src": "libretranslate",
@@ -8737,6 +9385,30 @@
  },
  "Show {name}": {
   "t": "Εμφάνιση {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show a button that sends drawing geometry to the Identify By Query widget for feature identification. The Identify By Query widget must also have its Draw Widget integration enabled.": {
+  "t": "Εμφάνιση ενός κουμπιού που στέλνει τη γεωμετρία σχεδίασης στο γραφικό συστατικό Identification By Query για την αναγνώριση χαρακτηριστικών. Το γραφικό συστατικό Identification By Query πρέπει επίσης να έχει ενεργοποιημένη την ενσωμάτωση γραφικού υλικού Draw.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show a button that sends drawing geometry to the Mailing Labels widget for parcel selection. The Mailing Labels widget must also have its Draw Widget integration enabled.": {
+  "t": "Εμφάνιση ενός κουμπιού που στέλνει τη γεωμετρία σχεδίασης στο γραφικό συστατικό Mailing Labels για την επιλογή δεμάτων. Το widget Mailing Labels πρέπει επίσης να έχει ενεργοποιημένη την ενσωμάτωση γραφικού συστατικού.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show a confirmation prompt before the Clear All / Delete All action runs.": {
+  "t": "Εμφάνιση μιας ειδοποίησης επιβεβαίωσης πριν από τη διαγραφή όλων / διαγραφή όλων των ενεργειών.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show a control that zooms the map to a drawing extent.": {
+  "t": "Εμφάνιση ενός ελέγχου που μεγεθύνει το χάρτη σε μια έκταση σχεδίασης.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8764,6 +9436,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Show draw layer in map layer list": {
+  "t": "Εμφάνιση στρώματος σχεδίασης στη λίστα στρώματος χάρτη",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Show drawing": {
   "t": "Εμφάνιση σχεδίου",
@@ -8843,6 +9521,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Show sorting and filtering controls at the top of the My Drawings list.": {
+  "t": "Εμφάνιση ελέγχων διαλογής και φιλτραρίσματος στην κορυφή της λίστας των σχεδίων μου.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show template picker": {
   "t": "Εμφάνιση επιλογέα προτύπου",
   "src": "libretranslate",
@@ -8854,6 +9538,24 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Show the Export menu. Buffers are exported as their own features in every format.": {
+  "t": "Εμφάνιση του μενού εξαγωγής. Τα buffers εξάγονται ως δικά τους χαρακτηριστικά σε κάθε μορφή.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show the Import button for loading Shapefile (.zip), GeoJSON, and KML files into My Drawings.": {
+  "t": "Εμφάνιση του κουμπιού εισαγωγής για φόρτωση του Shapefile (.zip), του GeoJSON και των αρχείων KML στα Σχέδια Μου.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show the per-drawing properties / details panel.": {
+  "t": "Εμφάνιση των ιδιοτήτων / λεπτομερειών ανάσυρσης.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Show the primary unit only": {
   "t": "Εμφάνιση μόνο της κύριας μονάδας",
@@ -8944,6 +9646,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Snap drawing vertices to features in other map layers.": {
+  "t": "Snap σχεδίαση κορυφές σε χαρακτηριστικά σε άλλα στρώματα χάρτη.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Snap to feature vertices, edges, and intersections while drawing for precise alignment.": {
   "t": "Snap to feature κορυφές, άκρες, και διασταυρώσεις κατά τη σχεδίαση για ακριβή ευθυγράμμιση.",
@@ -9058,6 +9766,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Sort and filter controls": {
+  "t": "Ταξινόμηση και έλεγχος φίλτρου",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Sort drawings": {
   "t": "Ταξινόμηση σχεδίων",
@@ -9197,8 +9911,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Stop drawing when widget is closed": {
+  "t": "Σταμάτημα σχεδίασης όταν το γραφικό συστατικό είναι κλειστό",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Storage Permission Required": {
   "t": "Απαιτούμενη άδεια αποθήκευσης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Storage Scope:": {
+  "t": "Πεδίο εφαρμογής αποθήκευσης:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Store each user's measurement units, display options, and decimal places in their browser so they persist between sessions. Users can reset to your defaults at any time.": {
+  "t": "Αποθηκεύστε τις μονάδες μέτρησης του κάθε χρήστη, τις επιλογές εμφάνισης και τα δεκαδικά ψηφία στο πρόγραμμα περιήγησής τους ώστε να επιμένουν μεταξύ των συνεδριών. Οι χρήστες μπορούν να επαναφέρουν στις προεπιλογές σας ανά πάσα στιγμή.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9269,6 +10001,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Symbol Editor": {
+  "t": "Επεξεργαστής συμβόλων",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Symbol style customization": {
   "t": "Προσαρμογή στυλ συμβόλου",
   "src": "libretranslate",
@@ -9304,6 +10042,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Tabbed panel for managing, sorting, and organizing saved drawings. When disabled, there is no tab bar and only the Draw panel is shown.": {
+  "t": "Πίνακας με καρτέλες για τη διαχείριση, διαλογή, και οργάνωση αποθηκευμένων σχεδίων. Όταν απενεργοποιηθεί, δεν υπάρχει γραμμή καρτελών και εμφανίζεται μόνο ο πίνακας Ισοπαλίας.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Target": {
   "t": "Στόχος",
@@ -9503,6 +10247,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The address search failed. Check the geocode service in the widget settings, then try again.": {
+  "t": "Η αναζήτηση διεύθυνσης απέτυχε. Ελέγξτε την υπηρεσία geocode στις ρυθμίσεις widget, στη συνέχεια, προσπαθήστε ξανά.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The buttons on a selected drawing let you {actions}.": {
   "t": "Τα κουμπιά σε ένα επιλεγμένο σχέδιο σας επιτρέπουν {actions}.",
   "src": "libretranslate",
@@ -9568,6 +10318,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The geocode service could not be read, or it has no single line address field. The Address tab is hidden until it is fixed in the widget settings.": {
+  "t": "Η υπηρεσία γεωκώδικα δεν μπορούσε να διαβαστεί, ή δεν έχει πεδίο διεύθυνσης μιας γραμμής. Η καρτέλα διεύθυνσης είναι κρυμμένη μέχρι να καθοριστεί στις ρυθμίσεις γραφικού συστατικού.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The layer is gone: the browser tab was closed or reloaded. Run the file again, or bring back the copy you exported.": {
   "t": "Το στρώμα χάθηκε: η καρτέλα του προγράμματος περιήγησης έκλεισε ή φορτώθηκε εκ νέου. Εκτελέστε το αρχείο ξανά, ή φέρτε πίσω το αντίγραφο που εξαγάγατε.",
@@ -9671,8 +10427,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The widget controller / sidebar that contains the Identify By Query widget. This ensures the controller panel opens before sending geometry.": {
+  "t": "Ο ελεγκτής γραφικού συστατικού / πλευρική μπάρα που περιέχει το γραφικό συστατικό Identification By Query. Αυτό εξασφαλίζει ότι ο πίνακας ελέγχου ανοίγει πριν από την αποστολή γεωμετρίας.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The widget controller / sidebar that contains the Mailing Labels widget.": {
   "t": "Ο ελεγκτής γραφικού συστατικού / πλευρική μπάρα που περιέχει το γραφικό συστατικό Mailing Labels.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The widget controller / sidebar that contains the Mailing Labels widget. This ensures the controller panel opens before sending geometry.": {
+  "t": "Ο ελεγκτής γραφικού συστατικού / πλευρική μπάρα που περιέχει το γραφικό συστατικό Mailing Labels. Αυτό εξασφαλίζει ότι ο πίνακας ελέγχου ανοίγει πριν από την αποστολή γεωμετρίας.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9784,6 +10552,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Those coordinates are outside the area of the coordinate system picked in Units. Pick the system the numbers came from.": {
+  "t": "Αυτές οι συντεταγμένες είναι έξω από την περιοχή του συστήματος συντεταγμένων που έχει επιλεγεί στις Μονάδες. Διάλεξε το σύστημα από το οποίο ήρθαν οι αριθμοί.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Those coordinates could not be read. Click the example under the box to see the format this unit expects.": {
+  "t": "Αυτές οι συντεταγμένες δεν μπορούν να διαβαστούν. Κάντε κλικ στο παράδειγμα κάτω από το πλαίσιο για να δείτε τη μορφή που αναμένει αυτή η μονάδα.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "To keep your work safe, please use the": {
   "t": "Για να κρατήσετε τη δουλειά σας ασφαλή, χρησιμοποιήστε το",
@@ -9976,6 +10756,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Tokens:": {
+  "t": "Ένδειξη:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Tokens: YYYY YY MM DD HH mm ss. Blank tries ISO, then general parsing.": {
   "t": "Ένδειξη: YY YM DD HH mm s. Κενές δοκιμές ISO, στη συνέχεια γενική ανάλυση.",
@@ -10229,11 +11015,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Undo / Redo": {
+  "t": "Αναίρεση / Επανάληψη",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Undo and redo actions": {
   "t": "Αναίρεση και επαναφορά ενεργειών",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Undo and redo buttons during active drawing.": {
+  "t": "Αναίρεση και επαναφορά κουμπιών κατά την ενεργό σχεδίαση.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Undo last drawing action": {
   "t": "Αναίρεση ενέργειας τελευταίας σχεδίασης",
@@ -10261,6 +11059,12 @@
  },
  "Unit:": {
   "t": "Μονάδα:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Units:": {
+  "t": "Μονάδες:",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10457,6 +11261,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Use the inspect address tool to click on the map and locate the address.": {
+  "t": "Χρησιμοποιήστε το εργαλείο διευθύνσεων ελέγχου για να κάνετε κλικ στο χάρτη και να εντοπίσετε τη διεύθυνση.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Use the keyboard": {
   "t": "Χρήση πληκτρολογίου",
   "src": "libretranslate",
@@ -10477,6 +11287,18 @@
  },
  "Used when a user enables custom buffer color.": {
   "t": "Χρησιμοποιείται όταν ένας χρήστης επιτρέπει προσαρμοσμένο χρώμα ενδιάμεσης μνήμης.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "USNG": {
+  "t": "USNG",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "UTM": {
+  "t": "UTM",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10504,6 +11326,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "View drawing properties": {
+  "t": "Προβολή ιδιοτήτων σχεδίασης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "View options": {
   "t": "Επιλογές προβολής",
@@ -10589,6 +11417,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "When on, end users can edit the draw layer name at runtime.": {
+  "t": "Όταν ενεργοποιηθεί, οι τελικοί χρήστες μπορούν να επεξεργαστούν το όνομα του στρώματος σχεδίασης κατά το χρόνο εκτέλεσης.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "When on, end users can show or hide the draw layer in the layer list.": {
+  "t": "Όταν ενεργοποιηθεί, οι τελικοί χρήστες μπορούν να εμφανίσουν ή να κρύψουν το στρώμα κλήρωσης στη λίστα στρώματος.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "When on, the draw graphics layer appears in the map’s layer list / legend.": {
+  "t": "Όταν είναι επάνω, το στρώμα σχεδίασης γραφικών εμφανίζεται στη λίστα στρώμα του χάρτη / θρύλος.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Where your choices live": {
   "t": "Όπου ζουν οι επιλογές σου",
   "src": "libretranslate",
@@ -10609,6 +11455,30 @@
  },
  "Widget Behavior": {
   "t": "Συμπεριφορά συστατικών",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Widget ID: {identifyWidgetId}": {
+  "t": "Ταυτότητα συστατικού: {identifyWidgetId}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Widget ID: {mailingLabelsWidgetId}": {
+  "t": "Ταυτότητα συστατικού: {mailingLabelsWidgetId}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Widget is designed to run in Experience Builder version": {
+  "t": "Το Widget έχει σχεδιαστεί για να εκτελείται στην έκδοση Experience Builder",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Widget Version": {
+  "t": "Έκδοση συστατικού",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10661,11 +11531,29 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "X (Easting):": {
+  "t": "Χ (Ανατολή):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "X / Longitude field": {
   "t": "X / Γεωγραφικό μήκος πεδίου",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "X and Y": {
+  "t": "Χ και Υ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "X, Y": {
+  "t": "Χ, Υ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "XY": {
   "t": "ΧΥ",
@@ -10681,6 +11569,12 @@
  },
  "XY coordinates enabled. Display projected X and Y coordinate values.": {
   "t": "Οι συντεταγμένες XY ενεργοποιήθηκαν. Εμφάνιση προβαλλόμενων τιμών συντεταγμένων X και Y.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Y (Northing):": {
+  "t": "Υ (Βόρεια):",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10783,6 +11677,12 @@
  },
  "Zoom to {name}": {
   "t": "Εστίαση σε {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zoom to drawing": {
+  "t": "Εστίαση στη σχεδίαση",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"

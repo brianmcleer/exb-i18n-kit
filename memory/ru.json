@@ -23,6 +23,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "— Select a widget —": {
+  "t": "Выберите виджет —",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "— Select controller —": {
+  "t": "Выберите контроллер —",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ ". Leave blank to use built-in defaults.": {
+  "t": "Оставьте пустой, чтобы использовать встроенные по умолчанию.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  ". Open it from the map’s layer list to see the table.": {
   "t": "Откройте его из списка слоев карты, чтобы увидеть таблицу.",
   "src": "libretranslate",
@@ -329,6 +347,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "─── All Widgets ───": {
+  "t": "Все клипы All Widgets",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "✓ Added": {
   "t": "Добавлено",
   "src": "libretranslate",
@@ -337,6 +361,18 @@
  },
  "✓ Apply & Close": {
   "t": "Скачать Apply & Close",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "1 meter = {conversion} {label} ({abbreviation})": {
+  "t": "1 метр = {conversion} {label} (){abbreviation})",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "1 square meter = {conversion} {label} ({abbreviation})": {
+  "t": "1 квадратный метр = {conversion} {label} (){abbreviation})",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -442,6 +478,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Abbreviation (Used on map):": {
+  "t": "Аббревиатура (используется на карте):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Accepted types: CSV, TSV, TXT, XLSX, XLS and ODS.": {
   "t": "Принятые типы: CSV, TSV, TXT, XLSX, XLS и ODS.",
@@ -575,7 +617,19 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Add or Change Area Units": {
+  "t": "Добавить или изменить единицы площади",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add or change linear units": {
+  "t": "Добавить или изменить линейные единицы",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add or Change Linear Units": {
   "t": "Добавить или изменить линейные единицы",
   "src": "libretranslate",
   "reviewed": false,
@@ -682,6 +736,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Address Inspection Failed": {
+  "t": "Адресная проверка провалилась",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Address mapping mode": {
   "t": "Режим отображения адресов",
@@ -977,6 +1037,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Allow the Identify By Query widget to send feature geometries to this widget using the \"Copy To Draw\" button. Received geometries will appear in My Drawings and be saved to storage.": {
+  "t": "Разрешите виджету Identify By Query отправлять на этот виджет функции геометрии с помощью кнопки «Copy To Draw». Полученные геометрии появятся в Моих Рисунках и будут сохранены на хранение.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Allow update and upsert load modes": {
   "t": "Разрешить режимы обновления и загрузки upsert",
   "src": "libretranslate",
@@ -994,6 +1060,42 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Allow users to duplicate an existing drawing.": {
+  "t": "Позволяет пользователям дублировать существующий рисунок.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Allow users to group multiple drawings together for batch actions.": {
+  "t": "Позволяет пользователям группировать несколько рисунков вместе для пакетных действий.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Allow users to lock drawings so they cannot be moved or edited.": {
+  "t": "Позвольте пользователям блокировать рисунки, чтобы их нельзя было перемещать или редактировать.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Allow users to merge selected geometries into a single drawing.": {
+  "t": "Позволяет пользователям объединить выбранные геометрии в один рисунок.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Allow users to rename the draw layer": {
+  "t": "Позволить пользователям переименовать слой ничьей",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Allow users to toggle layer list visibility": {
+  "t": "Позвольте пользователям переключать видимость списка уровней",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Almost any address list out of a spreadsheet works.": {
   "t": "Почти любой список адресов из электронной таблицы работает.",
@@ -1024,6 +1126,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "An issue occurred while projecting the location.": {
+  "t": "Проблема возникла при проектировании местоположения.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "an item from ArcGIS": {
   "t": "Изделие от ArcGIS",
@@ -1074,6 +1182,12 @@
   "added": "2026-10-08"
  },
  "Apply imported settings": {
+  "t": "Применять импортные настройки",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Apply Imported Settings": {
   "t": "Применять импортные настройки",
   "src": "libretranslate",
   "reviewed": false,
@@ -1511,6 +1625,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Buffer": {
+  "t": "буфер",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Buffer action buttons": {
   "t": "Буферные кнопки действия",
   "src": "libretranslate",
@@ -1654,6 +1774,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Cancel any active drawing session when the widget panel is closed. Recommended when the widget lives inside a Widget Controller.": {
+  "t": "Отмените любой активный сеанс рисования, когда панель виджета закрыта. Рекомендуется, когда виджет живет внутри контроллера виджета.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Cancel copy from layer mode": {
   "t": "Отменить копию в режиме layer",
@@ -1925,6 +2051,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Choose which actions are available in the My Drawings toolbar:": {
+  "t": "Выберите, какие действия доступны в панели инструментов My Drawings:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Choose which drawing tools appear in the toolbar. Disabled tools are hidden from users.": {
   "t": "Выберите, какие инструменты рисования появляются в панели инструментов. Инвалидные инструменты скрыты от пользователей.",
   "src": "libretranslate",
@@ -2177,6 +2309,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Click to add the example coordinates above": {
+  "t": "Нажмите, чтобы добавить приведенные выше координаты",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Click to apply {title} basemap to the map": {
   "t": "Нажмите, чтобы применить {title} Базовая карта на карте",
   "src": "libretranslate",
@@ -2255,6 +2393,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Click to move example values into input fields": {
+  "t": "Нажмите, чтобы перенести значения примеров в поля ввода",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Click to place a circle with an exact radius or area with one click": {
   "t": "Нажмите, чтобы разместить круг с точным радиусом или областью одним щелчком",
   "src": "libretranslate",
@@ -2272,6 +2416,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Click to Zoom to Result": {
+  "t": "Нажмите на Zoom, чтобы получить результат",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Clicking the basemap with the check mark applies that same basemap again.": {
   "t": "Нажатие на базовую карту с контрольным знаком снова применяет ту же базовую карту.",
@@ -2365,6 +2515,12 @@
  },
  "Color used when a user turns on the custom buffer color option.": {
   "t": "Цвет используется, когда пользователь включает пользовательский буфер цветовой опции.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Color, size, and style controls for drawing symbols.": {
+  "t": "Цвет, размер и стиль управления для рисования символов.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2555,8 +2711,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Conversion Factor (One meter is how many of your unit?):": {
+  "t": "Коэффициент конверсии (один метр - сколько единиц?):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Conversion Factor (One square meter is how many of your unit?):": {
+  "t": "Коэффициент конверсии (один квадратный метр - сколько единиц?):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Coordinate format options": {
   "t": "Варианты координированного формата",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Coordinates": {
+  "t": "координация",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2603,6 +2777,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copy features from map layers into drawings. Includes single click, multi-select, and spatial selection modes.": {
+  "t": "Копирование функций из слоев карты в чертежи. Включает режимы одиночного клика, многоразового выбора и пространственного выбора.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copy From": {
   "t": "Копия из",
   "src": "libretranslate",
@@ -2623,6 +2803,12 @@
  },
  "Copy from Layer": {
   "t": "Копия Layer",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Copy from Map": {
+  "t": "Копия с карты",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2656,6 +2842,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Create buffer zones around drawn features.": {
+  "t": "Создание буферных зон вокруг нарисованных функций.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Create New Unit": {
+  "t": "Создать новый блок",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Creates new buffer zones or updates existing buffers for selected map graphics using the current distance ({bufferDistance}) and unit ({bufferUnit}) settings.": {
   "t": "Создает новые буферные зоны или обновляет существующие буферы для выбранной графической карты с использованием текущего расстояния.{bufferDistance}) и единица ({bufferUnit}) настройки.",
@@ -2861,6 +3059,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Decimal degrees": {
+  "t": "Десятичные степени",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Decimal places": {
   "t": "Десятичные места",
   "src": "libretranslate",
@@ -2899,6 +3103,12 @@
  },
  "Default area unit used for area measurements": {
   "t": "Единица зоны дефолта, используемая для измерения площади",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default Area Units:": {
+  "t": "Единицы зоны дефолта:",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2963,6 +3173,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default Layer Name:": {
+  "t": "Название по умолчанию:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default linear unit": {
   "t": "Линейная единица по умолчанию",
   "src": "libretranslate",
@@ -2975,11 +3191,41 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default Linear Unit:": {
+  "t": "Линейный блок по умолчанию:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default Opacity (%)": {
+  "t": "По умолчанию (%)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default Tab:": {
+  "t": "Default Tab:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default value": {
   "t": "Дефолтная стоимость",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Degrees decimal minutes": {
+  "t": "Десятичные минуты",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Degrees minutes seconds": {
+  "t": "Степени минуты секунды",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Delete": {
   "t": "Исключить",
@@ -3070,6 +3316,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Delete Unit": {
+  "t": "Удалить подразделение",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Delimiter": {
   "t": "Ограничитель",
@@ -3611,6 +3863,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Drawing tool deactivates after completing one shape.": {
+  "t": "Инструмент рисования отключается после завершения одной формы.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Drawing tool stays active after completing each shape.": {
+  "t": "Рисунок остается активным после завершения каждой формы.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Drawing tools": {
   "t": "Инструменты для рисования",
   "src": "libretranslate",
@@ -3625,6 +3889,18 @@
  },
  "Drawing widget navigation tabs": {
   "t": "Рисование навигационных вкладок виджета",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Drawings are isolated to this specific application.": {
+  "t": "Рисунки выделены для этого конкретного применения.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Drawings are shared across all Experience Builder applications on this domain.": {
+  "t": "Рисунки используются во всех приложениях Experience Builder в этой области.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3646,6 +3922,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Duplicate drawings": {
+  "t": "Дублирующие рисунки",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Dynamic Scaling": {
   "t": "Динамическое масштабирование",
@@ -3787,6 +4069,12 @@
  },
  "Edit Units": {
   "t": "Редактировать единицы",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Edit/Delete - {label}": {
+  "t": "Редактировать/удалить - {label}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3935,6 +4223,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Enable Measurements in Features & Capabilities to configure units.": {
+  "t": "Включить измерения в функциях и возможностях для настройки единиц.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enable My Drawings": {
+  "t": "Включите мои рисунки",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enable or disable buffer creation for map graphics. When enabled, buffers will be automatically created around new drawings.": {
   "t": "Включить или отключить создание буфера для графической карты. При включении буферы будут автоматически создаваться вокруг новых чертежей.",
   "src": "libretranslate",
@@ -3995,6 +4295,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Enable when the widget is inside a Widget Controller so active drawings are cancelled on close.": {
+  "t": "Включите, когда виджет находится внутри контроллера виджета, чтобы активные чертежи отменялись при закрытии.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enable:": {
   "t": "Включить:",
   "src": "libretranslate",
@@ -4013,8 +4319,32 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Enhanced Locate": {
+  "t": "Расширенное местоположение",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enhanced Locate results": {
+  "t": "Улучшенные результаты поиска",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enhanced Locate Widget Version Info": {
+  "t": "Расширенный поиск Widget Version Info",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enter a title for the draw layer that will appear in the map legend": {
   "t": "Введите название для слоя рисунка, который появится в легенде карты.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enter an address:": {
+  "t": "Введите адрес:",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4067,6 +4397,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Enter the coordinates:": {
+  "t": "Введите координаты:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enter the text content for your map label. Spaces are preserved.": {
   "t": "Введите текстовый контент для вашей метки карты. Пространства сохраняются.",
   "src": "libretranslate",
@@ -4114,6 +4450,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Example:": {
+  "t": "Пример:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Excel opens the CSV with accented letters intact, and a value that starts with = or + is kept as text, never run as a formula.": {
   "t": "Excel открывает CSV с неповрежденными акцентированными буквами, и значение, которое начинается с = или +, сохраняется в виде текста, никогда не работает как формула.",
@@ -4180,6 +4522,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Export (Shapefile, GeoJSON, KML, CSV)": {
+  "t": "Экспорт (Shapefile, GeoJSON, KML, CSV)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Export {name} - choose format": {
   "t": "экспорт {name} Выберите формат",
@@ -4345,6 +4693,12 @@
  },
  "FacilityID": {
   "t": "Средство",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Failed to find an address at the location clicked. Please try again.": {
+  "t": "Не удалось найти адрес в месте нажатия. Пожалуйста, попробуйте еще раз.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4823,6 +5177,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "GeocodeServer Issue": {
+  "t": "Проблема GeocodeServer",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Geocoding progress": {
   "t": "Развитие геокодирования",
   "src": "libretranslate",
@@ -5089,6 +5449,12 @@
  },
  "Grid unit changed to {newUnit}": {
   "t": "Сетевое устройство изменено на {newUnit}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Group / Ungroup drawings": {
+  "t": "Групповые / Ungroup чертежи",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5375,6 +5741,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Identify By Query": {
+  "t": "Определить по запросу",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Identify By Query parent controller widget ID": {
   "t": "определять По запросу родительский контроллер виджет ID",
   "src": "libretranslate",
@@ -5428,6 +5800,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Import (Shapefile, GeoJSON, KML)": {
+  "t": "Импорт (Shapefile, GeoJSON, KML)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Import / Export Configuration": {
   "t": "Конфигурация импорта/экспорта",
@@ -5573,6 +5951,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Inspect Address by Point": {
+  "t": "Проверить адрес по пункту",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Inspect Locations Address": {
+  "t": "Проверить адрес места",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Inspector": {
+  "t": "Инспектор",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "instead.": {
   "t": "Вместо этого.",
   "src": "libretranslate",
@@ -5587,6 +5983,12 @@
  },
  "Integrations": {
   "t": "Интеграция",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Invalid Conversion Factor": {
+  "t": "Недействительный фактор конверсии",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5813,6 +6215,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Label (Full name used in menus):": {
+  "t": "Метка (полное имя, используемое в меню):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Label Buffer": {
   "t": "Название: Buffer",
   "src": "libretranslate",
@@ -5891,8 +6299,32 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Lat Lon": {
+  "t": "Лат Лон",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Lat Lon Coordinates": {
+  "t": "Координаты Лат-Лон",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Lat/Long": {
   "t": "Lat/Long",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Latitude (Y)": {
+  "t": "Широта (Y)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Latitude:": {
+  "t": "Широта:",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5951,6 +6383,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Length, area, and perimeter measurement labels on drawings.": {
+  "t": "Метки для измерения длины, площади и периметра на чертежах.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Length: {textCount} | Spaces: {splitCount}": {
   "t": "Длина: {textCount} Пространства: {splitCount}",
   "src": "libretranslate",
@@ -5963,11 +6401,29 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Let users show measurements in additional units alongside the primary unit, for example acres with square feet.": {
+  "t": "Пусть пользователи показывают измерения в дополнительных единицах рядом с первичной единицей, например акрах с квадратными футами.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Light": {
   "t": "Свет",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Limit address search to maps extent.": {
+  "t": "Ограничьте поиск адресов до размеров карт.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Limit how many drawings are stored in the browser. Set to 0 for unlimited. Large numbers of complex drawings may impact browser performance.": {
+  "t": "Ограничьте количество рисунков, хранящихся в браузере. Установите 0 для неограниченного числа. Большое количество сложных рисунков может повлиять на производительность браузера.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Line": {
   "t": "линия",
@@ -6191,6 +6647,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Locate": {
+  "t": "Расположение",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Location": {
+  "t": "Расположение",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Locator URL": {
   "t": "Локатор URL",
   "src": "libretranslate",
@@ -6199,6 +6667,12 @@
  },
  "Lock {name}": {
   "t": "Замок {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Lock / Unlock drawings": {
+  "t": "Lock / Unlock чертежи",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6233,6 +6707,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Longitude (X)": {
+  "t": "Долгота (X)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Longitude:": {
+  "t": "Долгота:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Look for the \"No basemaps configured.\" message in this widget.": {
   "t": "Ищите сообщение «No basemaps configured» в этом виджете.",
   "src": "libretranslate",
@@ -6262,6 +6748,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Mailing Labels": {
+  "t": "Почтовые этикетки",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Mailing Labels parent controller widget ID": {
   "t": "Mailing Labels родительский контроллер виджет ID",
@@ -6407,6 +6899,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Map X and Y": {
+  "t": "Карта X и Y",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Mapping is fixed by the app author.": {
   "t": "Картографирование фиксируется автором приложения.",
   "src": "libretranslate",
@@ -6551,6 +7049,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Measurements": {
+  "t": "Измерения",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Measurements [Adding Measurements]": {
   "t": "Измерения [Adding Measurements]",
   "src": "libretranslate",
@@ -6647,6 +7151,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Merge selected drawings": {
+  "t": "Слияние выбранных чертежей",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Merge tool": {
   "t": "Слияние инструментов",
   "src": "libretranslate",
@@ -6682,6 +7192,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "MGRS": {
+  "t": "MGRS",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Middle Alignment (Current). Center text vertically.": {
   "t": "Среднее выравнивание (текущее). Центр текста вертикально.",
@@ -6797,6 +7313,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Multiple Units": {
+  "t": "Несколько единиц",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Multiply by": {
   "t": "Умножить на",
   "src": "libretranslate",
@@ -6863,8 +7385,32 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Name (Cannot be changed):": {
+  "t": "Имя (не может быть изменено):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Name (Must be unique, letters only):": {
+  "t": "Имя (должно быть уникальным, только буквы):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Name applied to the graphics layer that holds drawings.": {
   "t": "Название применяется к графическому слою, который содержит рисунки.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Name May Only Contain Letters": {
+  "t": "Имя может содержать только буквы",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Name Must Be Unique": {
+  "t": "Имя должно быть уникальным",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6970,6 +7516,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "No draw tools enabled. Users will not be able to create new drawings.": {
+  "t": "Никаких инструментов для рисования. Пользователи не смогут создавать новые рисунки.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "No drawings available. Create a drawing in the Draw tab.": {
   "t": "Никаких рисунков. Создайте рисунок на вкладке Draw.",
@@ -7085,6 +7637,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No Results Found": {
+  "t": "Результаты не найдены",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No score": {
   "t": "Нет баллов",
   "src": "libretranslate",
@@ -7102,6 +7660,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "No widget selected. Click \"Scan App\" to detect widgets, or enter the widget ID manually.": {
+  "t": "Виджет не выбран. Нажмите «Сканировать приложение» для обнаружения виджетов или введите идентификатор виджета вручную.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "None": {
   "t": "Никто",
@@ -7132,6 +7696,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Note: superscript characters may not display correctly here but will work in the application.": {
+  "t": "Примечание: символы суперскрипта могут отображаться неправильно, но будут работать в приложении.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Notes": {
   "t": "Заметки",
@@ -7432,6 +8002,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "outside this coordinate system's area": {
+  "t": "вне зоны действия этой системы координат",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Overlay with blend effects": {
   "t": "Наложение со смешанными эффектами",
@@ -7859,11 +8435,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Reads app config to find widgets": {
+  "t": "Читает конфигурацию приложения, чтобы найти виджеты",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Reason": {
   "t": "Причина",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Receive from Identify By Query": {
+  "t": "Получить от Identify by Query",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Record {objectId} · source row {objectId2}": {
   "t": "рекорд {objectId} Источник строки {objectId2}",
@@ -7937,6 +8525,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Remember User Preferences": {
+  "t": "Запомните предпочтения пользователей",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Remove basemap": {
   "t": "Удалить basemap",
   "src": "libretranslate",
@@ -7978,6 +8572,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Remove Result": {
+  "t": "Удалить результат",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Remove rule": {
   "t": "Удалить правило",
@@ -8032,6 +8632,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Require confirmation before clearing all drawings": {
+  "t": "Требуйте подтверждения перед очисткой всех чертежей",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "required": {
   "t": "необходимый",
@@ -8098,6 +8704,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Results": {
+  "t": "Результаты",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Results found:": {
+  "t": "Результаты показали:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Return to beginning of text editor": {
   "t": "Вернуться к началу текстового редактора",
@@ -8302,6 +8920,30 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Save this widget's configuration to an XML file, or load a saved file to copy settings between applications. Importing merges the file's values onto the current configuration. The selected map widget is not included.": {
+  "t": "Сохраните конфигурацию этого виджета в файл XML или загрузите сохраненный файл для копирования настроек между приложениями. Импорт объединяет значения файла в текущую конфигурацию. Выбранный виджет карты не включен.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Save Unit": {
+  "t": "Спасательный отряд",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Scan App": {
+  "t": "Scan App",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Score": {
+  "t": "счет",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Score {score}": {
   "t": "счет {score}",
@@ -8717,6 +9359,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Settings imported. Review the sections below and click Save in the builder to keep them.": {
+  "t": "Настройки импортные. Просмотрите разделы ниже и нажмите «Сохранить в конструкторе», чтобы сохранить их.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Shape drawing tools": {
   "t": "Инструменты для рисования формы",
   "src": "libretranslate",
@@ -8737,6 +9385,30 @@
  },
  "Show {name}": {
   "t": "Показать {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show a button that sends drawing geometry to the Identify By Query widget for feature identification. The Identify By Query widget must also have its Draw Widget integration enabled.": {
+  "t": "Покажите кнопку, которая отправляет геометрию рисунка в виджет Identify By Query для идентификации признаков. Виджет Identify By Query также должен включать интеграцию Draw Widget.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show a button that sends drawing geometry to the Mailing Labels widget for parcel selection. The Mailing Labels widget must also have its Draw Widget integration enabled.": {
+  "t": "Покажите кнопку, которая отправляет геометрию рисования в виджет Mailing Labels для выбора посылки. Виджет Mailing Labels также должен иметь встроенную интеграцию Draw Widget.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show a confirmation prompt before the Clear All / Delete All action runs.": {
+  "t": "Покажите подсказку подтверждения перед запуском действия Clear All / Delete All.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show a control that zooms the map to a drawing extent.": {
+  "t": "Покажите контроль, который масштабирует карту в степени рисунка.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8764,6 +9436,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Show draw layer in map layer list": {
+  "t": "Показать слой рисунка в списке слоев карты",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Show drawing": {
   "t": "Показать рисунок",
@@ -8843,6 +9521,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Show sorting and filtering controls at the top of the My Drawings list.": {
+  "t": "Покажите элементы управления сортировкой и фильтрацией в верхней части списка «Мои рисунки».",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show template picker": {
   "t": "Выберите шаблон",
   "src": "libretranslate",
@@ -8854,6 +9538,24 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Show the Export menu. Buffers are exported as their own features in every format.": {
+  "t": "Покажите экспортное меню. Буферы экспортируются как собственные функции в каждом формате.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show the Import button for loading Shapefile (.zip), GeoJSON, and KML files into My Drawings.": {
+  "t": "Покажите кнопку импорта для загрузки файлов Shapefile (.zip), GeoJSON и KML в Мои рисунки.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show the per-drawing properties / details panel.": {
+  "t": "Показать свойства / детали панели.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Show the primary unit only": {
   "t": "Показать только основную единицу",
@@ -8944,6 +9646,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Snap drawing vertices to features in other map layers.": {
+  "t": "Нажмите, рисуя вершины для функций в других слоях карты.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Snap to feature vertices, edges, and intersections while drawing for precise alignment.": {
   "t": "Нажмите, чтобы показать вершины, края и пересечения, рисуя для точного выравнивания.",
@@ -9058,6 +9766,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Sort and filter controls": {
+  "t": "Сортировка и фильтры управления",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Sort drawings": {
   "t": "Сортировать рисунки",
@@ -9197,8 +9911,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Stop drawing when widget is closed": {
+  "t": "Перестаньте рисовать, когда виджет закрыт",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Storage Permission Required": {
   "t": "Разрешение на хранение требуется",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Storage Scope:": {
+  "t": "Сфера хранения:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Store each user's measurement units, display options, and decimal places in their browser so they persist between sessions. Users can reset to your defaults at any time.": {
+  "t": "Храните единицы измерения каждого пользователя, параметры отображения и десятичные места в своем браузере, чтобы они сохранялись между сеансами. Пользователи могут сбросить ваши дефолты в любое время.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9269,6 +10001,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Symbol Editor": {
+  "t": "Символический редактор",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Symbol style customization": {
   "t": "Настройка символьного стиля",
   "src": "libretranslate",
@@ -9304,6 +10042,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Tabbed panel for managing, sorting, and organizing saved drawings. When disabled, there is no tab bar and only the Draw panel is shown.": {
+  "t": "Таббированная панель для управления, сортировки и организации сохраненных рисунков. При отключении нет панели вкладок и показана только панель Draw.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Target": {
   "t": "Цель",
@@ -9503,6 +10247,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The address search failed. Check the geocode service in the widget settings, then try again.": {
+  "t": "Поиск адресов провалился. Проверьте службу геокода в настройках виджета, а затем попробуйте еще раз.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The buttons on a selected drawing let you {actions}.": {
   "t": "Кнопки на выбранном рисунке позволяют {actions}.",
   "src": "libretranslate",
@@ -9568,6 +10318,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The geocode service could not be read, or it has no single line address field. The Address tab is hidden until it is fixed in the widget settings.": {
+  "t": "Служба геокода не может быть прочитана или у нее нет поля адреса одной строки. Вкладка Адрес скрыта до тех пор, пока она не будет исправлена в настройках виджета.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The layer is gone: the browser tab was closed or reloaded. Run the file again, or bring back the copy you exported.": {
   "t": "Слой ушел: вкладка браузера была закрыта или перезагружена. Запустите файл снова или верните копию, которую вы экспортировали.",
@@ -9671,8 +10427,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The widget controller / sidebar that contains the Identify By Query widget. This ensures the controller panel opens before sending geometry.": {
+  "t": "Контроллер виджета / боковая панель, которая содержит виджет Identify By Query. Это обеспечивает открытие панели контроллера перед отправкой геометрии.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The widget controller / sidebar that contains the Mailing Labels widget.": {
   "t": "Контроллер виджета / боковая панель, которая содержит виджет Mailing Labels.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The widget controller / sidebar that contains the Mailing Labels widget. This ensures the controller panel opens before sending geometry.": {
+  "t": "Контроллер виджета / боковая панель, которая содержит виджет Mailing Labels. Это обеспечивает открытие панели контроллера перед отправкой геометрии.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9784,6 +10552,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Those coordinates are outside the area of the coordinate system picked in Units. Pick the system the numbers came from.": {
+  "t": "Эти координаты находятся за пределами области системы координат, выбранной в Единицах. Выберите систему, из которой пришли цифры.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Those coordinates could not be read. Click the example under the box to see the format this unit expects.": {
+  "t": "Эти координаты не могли быть прочитаны. Нажмите на пример под окном, чтобы увидеть формат, который ожидает это устройство.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "To keep your work safe, please use the": {
   "t": "Чтобы ваша работа была безопасной, используйте",
@@ -9976,6 +10756,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Tokens:": {
+  "t": "Токены:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Tokens: YYYY YY MM DD HH mm ss. Blank tries ISO, then general parsing.": {
   "t": "Токены: YYYY YY MM DD HH mm ss. Бланк пробует ISO, затем общий анализ.",
@@ -10229,11 +11015,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Undo / Redo": {
+  "t": "Ундо / Редо",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Undo and redo actions": {
   "t": "Отменить и изменить действия",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Undo and redo buttons during active drawing.": {
+  "t": "Отменить и переделать кнопки во время активного рисования.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Undo last drawing action": {
   "t": "Отменить последний рисунок",
@@ -10261,6 +11059,12 @@
  },
  "Unit:": {
   "t": "Подразделение:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Units:": {
+  "t": "Единицы:",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10457,6 +11261,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Use the inspect address tool to click on the map and locate the address.": {
+  "t": "Используйте инструмент проверки адреса, чтобы нажать на карту и найти адрес.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Use the keyboard": {
   "t": "Используйте клавиатуру",
   "src": "libretranslate",
@@ -10477,6 +11287,18 @@
  },
  "Used when a user enables custom buffer color.": {
   "t": "Используется, когда пользователь включает пользовательский буферный цвет.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "USNG": {
+  "t": "песнь",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "UTM": {
+  "t": "UTM",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10504,6 +11326,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "View drawing properties": {
+  "t": "Посмотреть свойства рисунка",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "View options": {
   "t": "Посмотреть варианты",
@@ -10589,6 +11417,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "When on, end users can edit the draw layer name at runtime.": {
+  "t": "При включении конечные пользователи могут редактировать имя слоя рисования во время выполнения.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "When on, end users can show or hide the draw layer in the layer list.": {
+  "t": "При включении конечные пользователи могут показывать или скрывать слой рисунка в списке слоев.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "When on, the draw graphics layer appears in the map’s layer list / legend.": {
+  "t": "При включении графический слой рисунка появляется в списке слоев / легенде карты.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Where your choices live": {
   "t": "Где живет ваш выбор",
   "src": "libretranslate",
@@ -10609,6 +11455,30 @@
  },
  "Widget Behavior": {
   "t": "Поведение виджета",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Widget ID: {identifyWidgetId}": {
+  "t": "Виджет ID: {identifyWidgetId}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Widget ID: {mailingLabelsWidgetId}": {
+  "t": "Виджет ID: {mailingLabelsWidgetId}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Widget is designed to run in Experience Builder version": {
+  "t": "Widget предназначен для запуска в версии Experience Builder",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Widget Version": {
+  "t": "Версия Widget",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10661,11 +11531,29 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "X (Easting):": {
+  "t": "X (Восток):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "X / Longitude field": {
   "t": "X - поле долготы",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "X and Y": {
+  "t": "X и Y",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "X, Y": {
+  "t": "X, Y",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "XY": {
   "t": "XY",
@@ -10681,6 +11569,12 @@
  },
  "XY coordinates enabled. Display projected X and Y coordinate values.": {
   "t": "XY координаты включены. Проецируемые значения координат X и Y.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Y (Northing):": {
+  "t": "Y (северный):",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10783,6 +11677,12 @@
  },
  "Zoom to {name}": {
   "t": "Зум для {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zoom to drawing": {
+  "t": "Зум для рисования",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"

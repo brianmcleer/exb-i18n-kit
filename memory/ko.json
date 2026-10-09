@@ -23,6 +23,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "— Select a widget —": {
+  "t": "— 위젯을 선택 —",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "— Select controller —": {
+  "t": "— 컨트롤러 선택 —",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ ". Leave blank to use built-in defaults.": {
+  "t": ". 내장된 기본값을 사용하려면 공백을 남겨 주세요.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  ". Open it from the map’s layer list to see the table.": {
   "t": ". 지도의 층 목록에서 테이블을 볼 수 있습니다.",
   "src": "libretranslate",
@@ -329,6 +347,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "─── All Widgets ───": {
+  "t": "── 모든 위젯 ───",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "✓ Added": {
   "t": "✓ 추가",
   "src": "libretranslate",
@@ -337,6 +361,18 @@
  },
  "✓ Apply & Close": {
   "t": "✓ 적용 및 닫기",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "1 meter = {conversion} {label} ({abbreviation})": {
+  "t": "1 미터 = {conversion} {label} (주){abbreviation}·",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "1 square meter = {conversion} {label} ({abbreviation})": {
+  "t": "1 평방 미터 = {conversion} {label} (주){abbreviation}·",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -442,6 +478,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Abbreviation (Used on map):": {
+  "t": "약어 (지도에 사용):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Accepted types: CSV, TSV, TXT, XLSX, XLS and ODS.": {
   "t": "받아들여진 유형: CSV, TSV, TXT, XLSX, XLS 및 ODS.",
@@ -575,8 +617,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Add or Change Area Units": {
+  "t": "추가 또는 변경 영역 단위",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add or change linear units": {
   "t": "선형 단위를 추가하거나 변경하십시오",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add or Change Linear Units": {
+  "t": "선형 단위 추가 또는 변경",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -682,6 +736,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Address Inspection Failed": {
+  "t": "주소 검사 실패",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Address mapping mode": {
   "t": "주소 매핑 모드",
@@ -977,6 +1037,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Allow the Identify By Query widget to send feature geometries to this widget using the \"Copy To Draw\" button. Received geometries will appear in My Drawings and be saved to storage.": {
+  "t": "Identify By Query 위젯을 사용하여 \"Copy To Draw\"버튼을 사용하여이 위젯에 기능 지오메트리를 보낼 수 있습니다. Geometries는 나의 그림에서 나타나고 저장에 저장될 것입니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Allow update and upsert load modes": {
   "t": "업데이트 및 upsert 로드 모드 허용",
   "src": "libretranslate",
@@ -994,6 +1060,42 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Allow users to duplicate an existing drawing.": {
+  "t": "사용자가 기존 도면을 복제 할 수 있습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Allow users to group multiple drawings together for batch actions.": {
+  "t": "일괄 작업에 대해 여러 도면을 그룹화 할 수 있습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Allow users to lock drawings so they cannot be moved or edited.": {
+  "t": "사용자가 그림을 잠글 수 있도록 이동하거나 편집 할 수 없습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Allow users to merge selected geometries into a single drawing.": {
+  "t": "선택한 geometries를 단일 그림으로 병합 할 수 있습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Allow users to rename the draw layer": {
+  "t": "draw layer로 이름을 변경할 수 있습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Allow users to toggle layer list visibility": {
+  "t": "toggle layer list 가시성을 허용",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Almost any address list out of a spreadsheet works.": {
   "t": "스프레드 시트의 거의 모든 주소 목록.",
@@ -1024,6 +1126,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "An issue occurred while projecting the location.": {
+  "t": "문제가 발생했습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "an item from ArcGIS": {
   "t": "ArcGIS의 아이템",
@@ -1075,6 +1183,12 @@
  },
  "Apply imported settings": {
   "t": "수입된 설정 적용",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Apply Imported Settings": {
+  "t": "가져오기 설정",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1511,6 +1625,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Buffer": {
+  "t": "제품정보",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Buffer action buttons": {
   "t": "버퍼 동작 버튼",
   "src": "libretranslate",
@@ -1654,6 +1774,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Cancel any active drawing session when the widget panel is closed. Recommended when the widget lives inside a Widget Controller.": {
+  "t": "위젯 패널이 닫을 때 어떤 활성 그림 세션을 취소. 위젯이 Widget 컨트롤러 내부에 살고있을 때 권장됩니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Cancel copy from layer mode": {
   "t": "레이어 모드에서 복사 취소",
@@ -1925,6 +2051,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Choose which actions are available in the My Drawings toolbar:": {
+  "t": "작업이 My Drawings toolbar에서 사용할 수 있는지 선택하십시오.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Choose which drawing tools appear in the toolbar. Disabled tools are hidden from users.": {
   "t": "도구 모음에 표시되는 것을 선택하십시오. Disabled 도구는 사용자가 숨겨져 있습니다.",
   "src": "libretranslate",
@@ -2177,6 +2309,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Click to add the example coordinates above": {
+  "t": "위의 예제 좌표를 추가하려면",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Click to apply {title} basemap to the map": {
   "t": "자주 묻는 질문 {title} 지도에 basemap",
   "src": "libretranslate",
@@ -2255,6 +2393,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Click to move example values into input fields": {
+  "t": "입력 필드에 example 값을 이동",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Click to place a circle with an exact radius or area with one click": {
   "t": "한 번의 클릭으로 정확한 반경 또는 영역을 가진 원형을 배치하려면",
   "src": "libretranslate",
@@ -2272,6 +2416,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Click to Zoom to Result": {
+  "t": "Zoom 를 클릭하여 결과",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Clicking the basemap with the check mark applies that same basemap again.": {
   "t": "체크 마크가 기본 맵을 클릭하면 동일한 기본 맵이 다시 적용됩니다.",
@@ -2365,6 +2515,12 @@
  },
  "Color used when a user turns on the custom buffer color option.": {
   "t": "사용자가 사용자 정의 버퍼 색상 옵션을 켜면 사용 된 색상.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Color, size, and style controls for drawing symbols.": {
+  "t": "그림 상징을 위한 색깔, 크기 및 작풍 통제.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2555,8 +2711,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Conversion Factor (One meter is how many of your unit?):": {
+  "t": "변환 인자 (1 미터는 단위의 얼마나 많은입니까?):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Conversion Factor (One square meter is how many of your unit?):": {
+  "t": "변환 인자 (1 평방 미터는 단위의 얼마나 많은입니까?):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Coordinate format options": {
   "t": "좌표 형식 옵션",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Coordinates": {
+  "t": "관련 기사",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2603,6 +2777,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copy features from map layers into drawings. Includes single click, multi-select, and spatial selection modes.": {
+  "t": "지도 층에서 그림에 복사 기능. 단일 클릭, 멀티 선택 및 공간 선택 모드를 포함합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copy From": {
   "t": "본문 바로가기",
   "src": "libretranslate",
@@ -2623,6 +2803,12 @@
  },
  "Copy from Layer": {
   "t": "층에서 복사",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Copy from Map": {
+  "t": "본문 바로가기",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2656,6 +2842,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Create buffer zones around drawn features.": {
+  "t": "그려진 특징의 주위에 완충기 지역을 창조하십시오.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Create New Unit": {
+  "t": "새 단위 만들기",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Creates new buffer zones or updates existing buffers for selected map graphics using the current distance ({bufferDistance}) and unit ({bufferUnit}) settings.": {
   "t": "현재 거리를 사용하여 선택한지도 그래픽에 대한 새로운 버퍼 영역 또는 업데이트 기존 버퍼를 만듭니다 ({bufferDistance}) 및 단위 ({bufferUnit}) 설정.",
@@ -2861,6 +3059,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Decimal degrees": {
+  "t": "소수도",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Decimal places": {
   "t": "소수점",
   "src": "libretranslate",
@@ -2899,6 +3103,12 @@
  },
  "Default area unit used for area measurements": {
   "t": "영역 측정에 사용되는 기본 영역 단위",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default Area Units:": {
+  "t": "과태 지역 단위:",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2963,6 +3173,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default Layer Name:": {
+  "t": "기본 층 이름:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default linear unit": {
   "t": "기본 선형 단위",
   "src": "libretranslate",
@@ -2975,11 +3191,41 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default Linear Unit:": {
+  "t": "과태 선형 단위:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default Opacity (%)": {
+  "t": "과태 불투명 (%)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default Tab:": {
+  "t": "기본 탭:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default value": {
   "t": "기본 값",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Degrees decimal minutes": {
+  "t": "정도 소수 분",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Degrees minutes seconds": {
+  "t": "정도 초",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Delete": {
   "t": "이름 *",
@@ -3070,6 +3316,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Delete Unit": {
+  "t": "단위 삭제",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Delimiter": {
   "t": "계정 관리",
@@ -3611,6 +3863,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Drawing tool deactivates after completing one shape.": {
+  "t": "그림 공구는 1개의 모양을 완료한 후에 비활성화합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Drawing tool stays active after completing each shape.": {
+  "t": "그림 공구는 각 모양을 완료한 후에 활동적 체재합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Drawing tools": {
   "t": "그림 공구",
   "src": "libretranslate",
@@ -3625,6 +3889,18 @@
  },
  "Drawing widget navigation tabs": {
   "t": "그림 위젯 탐색 탭",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Drawings are isolated to this specific application.": {
+  "t": "그림은 이 특정한 신청에 고립됩니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Drawings are shared across all Experience Builder applications on this domain.": {
+  "t": "그림은 이 도메인의 모든 경험 Builder 응용 프로그램을 통해 공유됩니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3646,6 +3922,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Duplicate drawings": {
+  "t": "중복 그림",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Dynamic Scaling": {
   "t": "동적 스케일링",
@@ -3787,6 +4069,12 @@
  },
  "Edit Units": {
   "t": "편집 단위",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Edit/Delete - {label}": {
+  "t": "편집 / 편집 - {label}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3935,6 +4223,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Enable Measurements in Features & Capabilities to configure units.": {
+  "t": "기능 및 기능에 대한 사용 가능한 측정은 단위를 구성합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enable My Drawings": {
+  "t": "내 그림 사용",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enable or disable buffer creation for map graphics. When enabled, buffers will be automatically created around new drawings.": {
   "t": "지도 도표를 위한 Enable 또는 disable 완충기 창조. 활성화될 때, 완충기는 새로운 그림의 주위에 자동적으로 창조될 것입니다.",
   "src": "libretranslate",
@@ -3995,6 +4295,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Enable when the widget is inside a Widget Controller so active drawings are cancelled on close.": {
+  "t": "위젯이 Widget 컨트롤러 내부에 있을 때 활성화된 그림은 닫히지 않습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enable:": {
   "t": "유효한:",
   "src": "libretranslate",
@@ -4013,8 +4319,32 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Enhanced Locate": {
+  "t": "향상된 위치",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enhanced Locate results": {
+  "t": "향상된 위치 결과",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enhanced Locate Widget Version Info": {
+  "t": "향상된 Locate Widget 버전 정보",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enter a title for the draw layer that will appear in the map legend": {
   "t": "지도 전설에 나타나는 draw layer의 타이틀을 입력합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enter an address:": {
+  "t": "주소 입력:",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4067,6 +4397,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Enter the coordinates:": {
+  "t": "좌표를 입력하십시오:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enter the text content for your map label. Spaces are preserved.": {
   "t": "맵 라벨에 대한 텍스트 내용을 입력하십시오. 공간은 보존됩니다.",
   "src": "libretranslate",
@@ -4114,6 +4450,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Example:": {
+  "t": "예:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Excel opens the CSV with accented letters intact, and a value that starts with = or + is kept as text, never run as a formula.": {
   "t": "Excel은 강조 된 문자 그대로 CSV를 열고 = 또는 +로 시작하는 값은 텍스트로 유지되며 공식으로 실행되지 않습니다.",
@@ -4180,6 +4522,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Export (Shapefile, GeoJSON, KML, CSV)": {
+  "t": "수출(Shapefile, GeoJSON, KML, CSV)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Export {name} - choose format": {
   "t": "수출입 {name} - 형식 선택",
@@ -4345,6 +4693,12 @@
  },
  "FacilityID": {
   "t": "시설ID",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Failed to find an address at the location clicked. Please try again.": {
+  "t": "위치의 주소를 찾기 위해 실패. 다시 시도하십시오.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4823,6 +5177,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "GeocodeServer Issue": {
+  "t": "GeocodeServer 문제",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Geocoding progress": {
   "t": "Geocoding 진행",
   "src": "libretranslate",
@@ -5089,6 +5449,12 @@
  },
  "Grid unit changed to {newUnit}": {
   "t": "Grid Unit 변경 {newUnit}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Group / Ungroup drawings": {
+  "t": "그룹/Ungroup 그림",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5375,6 +5741,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Identify By Query": {
+  "t": "Query로 식별",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Identify By Query parent controller widget ID": {
   "t": "이름 * Query 부모 컨트롤러 위젯 ID",
   "src": "libretranslate",
@@ -5428,6 +5800,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Import (Shapefile, GeoJSON, KML)": {
+  "t": "수입 (Shapefile, GeoJSON, KML)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Import / Export Configuration": {
   "t": "수입품/수출 윤곽",
@@ -5573,6 +5951,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Inspect Address by Point": {
+  "t": "포인트로 주소 검사",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Inspect Locations Address": {
+  "t": "연락처",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Inspector": {
+  "t": "검사기",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "instead.": {
   "t": "대신.",
   "src": "libretranslate",
@@ -5587,6 +5983,12 @@
  },
  "Integrations": {
   "t": "통합",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Invalid Conversion Factor": {
+  "t": "잘못된 변환 인자",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5813,6 +6215,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Label (Full name used in menus):": {
+  "t": "상표 (메뉴에서 사용되는 가득 차있는 이름):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Label Buffer": {
   "t": "상표 완충기",
   "src": "libretranslate",
@@ -5891,8 +6299,32 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Lat Lon": {
+  "t": "라트 론",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Lat Lon Coordinates": {
+  "t": "Lat Lon 좌표",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Lat/Long": {
   "t": "연락처",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Latitude (Y)": {
+  "t": "위도 (Y)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Latitude:": {
+  "t": "위도:",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5951,6 +6383,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Length, area, and perimeter measurement labels on drawings.": {
+  "t": "도면에 길이, 지역 및 둘레 측정 라벨.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Length: {textCount} | Spaces: {splitCount}": {
   "t": "길이: {textCount} | 공간: {splitCount}",
   "src": "libretranslate",
@@ -5963,11 +6401,29 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Let users show measurements in additional units alongside the primary unit, for example acres with square feet.": {
+  "t": "사용자가 1 차 단위와 함께 측정을 표시하자, 예를 들어 평방 피트와 에이커.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Light": {
   "t": "제품 정보",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Limit address search to maps extent.": {
+  "t": "맵에 대한 제한 주소 검색.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Limit how many drawings are stored in the browser. Set to 0 for unlimited. Large numbers of complex drawings may impact browser performance.": {
+  "t": "브라우저에 몇 가지 그림이 저장되는지 제한하십시오. 무제한 0으로 설정합니다. 복잡한 도면의 큰 숫자는 브라우저 성능에 영향을 줄 수 있습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Line": {
   "t": "제품정보",
@@ -6191,6 +6647,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Locate": {
+  "t": "계정 정보",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Location": {
+  "t": "- 연혁",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Locator URL": {
   "t": "찾기 URL",
   "src": "libretranslate",
@@ -6199,6 +6667,12 @@
  },
  "Lock {name}": {
   "t": "기타 제품 {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Lock / Unlock drawings": {
+  "t": "잠금 / 잠금 해제 그림",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6233,6 +6707,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Longitude (X)": {
+  "t": "경도 (X)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Longitude:": {
+  "t": "경도:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Look for the \"No basemaps configured.\" message in this widget.": {
   "t": "\"No basemaps configuration.\"이 위젯의 메시지.",
   "src": "libretranslate",
@@ -6262,6 +6748,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Mailing Labels": {
+  "t": "메일링 라벨",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Mailing Labels parent controller widget ID": {
   "t": "메일링 라벨 부모 컨트롤러 위젯 ID",
@@ -6407,6 +6899,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Map X and Y": {
+  "t": "지도 X와 Y",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Mapping is fixed by the app author.": {
   "t": "Mapping은 앱 저자에 의해 고정됩니다.",
   "src": "libretranslate",
@@ -6551,6 +7049,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Measurements": {
+  "t": "제품정보",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Measurements [Adding Measurements]": {
   "t": "측정 [추가 측정]",
   "src": "libretranslate",
@@ -6647,6 +7151,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Merge selected drawings": {
+  "t": "선택된 그림",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Merge tool": {
   "t": "Merge 도구",
   "src": "libretranslate",
@@ -6682,6 +7192,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "MGRS": {
+  "t": "사이트맵",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Middle Alignment (Current). Center text vertically.": {
   "t": "중간 정렬 (현재). 중심 텍스트 수직으로.",
@@ -6797,6 +7313,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Multiple Units": {
+  "t": "다수 단위",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Multiply by": {
   "t": "에 의해",
   "src": "libretranslate",
@@ -6863,8 +7385,32 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Name (Cannot be changed):": {
+  "t": "이름 (변화될 수 없습니다):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Name (Must be unique, letters only):": {
+  "t": "이름 (자세한, 문자만 해당):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Name applied to the graphics layer that holds drawings.": {
   "t": "그림을 보유하는 도표 층에 적용된 이름.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Name May Only Contain Letters": {
+  "t": "이름 5월 한정된 편지",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Name Must Be Unique": {
+  "t": "이름 필수",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6970,6 +7516,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "No draw tools enabled. Users will not be able to create new drawings.": {
+  "t": "그릴 도구가 없습니다. 사용자는 새로운 그림을 만들 수 없습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "No drawings available. Create a drawing in the Draw tab.": {
   "t": "사용할 수 없습니다. Draw 탭에서 그림을 만듭니다.",
@@ -7085,6 +7637,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No Results Found": {
+  "t": "결과 없음",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No score": {
   "t": "점수 없음",
   "src": "libretranslate",
@@ -7102,6 +7660,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "No widget selected. Click \"Scan App\" to detect widgets, or enter the widget ID manually.": {
+  "t": "선택된 위젯 없음. 위젯을 감지하려면 \"Scan App\"을 클릭하거나 위젯 ID를 수동으로 입력하십시오.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "None": {
   "t": "이름 *",
@@ -7132,6 +7696,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Note: superscript characters may not display correctly here but will work in the application.": {
+  "t": "참고 : superscript 문자는 여기에 제대로 표시 할 수 없지만 응용 프로그램에서 작동합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Notes": {
   "t": "지원하다",
@@ -7432,6 +8002,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "outside this coordinate system's area": {
+  "t": "이 협조 체계의 지역 밖에",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Overlay with blend effects": {
   "t": "혼합 효과로 오버레이",
@@ -7859,11 +8435,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Reads app config to find widgets": {
+  "t": "위젯을 찾기 위해 앱 설정 읽기",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Reason": {
   "t": "레아슨",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Receive from Identify By Query": {
+  "t": "Query로 Identify 받기",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Record {objectId} · source row {objectId2}": {
   "t": "이름 * {objectId} · 소스 행 {objectId2}",
@@ -7937,6 +8525,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Remember User Preferences": {
+  "t": "사용자 설정 기억",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Remove basemap": {
   "t": "Basemap을 제거",
   "src": "libretranslate",
@@ -7978,6 +8572,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Remove Result": {
+  "t": "결과 제거",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Remove rule": {
   "t": "제거 규칙",
@@ -8032,6 +8632,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Require confirmation before clearing all drawings": {
+  "t": "모든 도면을 정리하기 전에 확인 필요",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "required": {
   "t": "*필수",
@@ -8098,6 +8704,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Results": {
+  "t": "이름 *",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Results found:": {
+  "t": "검색 결과:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Return to beginning of text editor": {
   "t": "텍스트 편집기의 시작",
@@ -8302,6 +8920,30 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Save this widget's configuration to an XML file, or load a saved file to copy settings between applications. Importing merges the file's values onto the current configuration. The selected map widget is not included.": {
+  "t": "XML 파일에 이 위젯의 구성을 저장하거나 응용 프로그램간에 설정을 복사하기 위해 저장된 파일을로드하십시오. importing는 현재 구성에 파일의 값을 병합합니다. 선택한 맵 위젯은 포함되지 않습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Save Unit": {
+  "t": "회사 소개",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Scan App": {
+  "t": "스캔 앱",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Score": {
+  "t": "이름 *",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Score {score}": {
   "t": "이름 * {score}",
@@ -8717,6 +9359,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Settings imported. Review the sections below and click Save in the builder to keep them.": {
+  "t": "반환된 설정. 아래 섹션을 검토하고 Builder에서 저장을 클릭합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Shape drawing tools": {
   "t": "모양 그림 공구",
   "src": "libretranslate",
@@ -8737,6 +9385,30 @@
  },
  "Show {name}": {
   "t": "이름 * {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show a button that sends drawing geometry to the Identify By Query widget for feature identification. The Identify By Query widget must also have its Draw Widget integration enabled.": {
+  "t": "기능 식별을위한 Query 위젯에 의해 식별에 그림 기하학을 보내는 버튼을 표시합니다. Query 위젯에 의해 식별은 Draw Widget 통합 활성화해야합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show a button that sends drawing geometry to the Mailing Labels widget for parcel selection. The Mailing Labels widget must also have its Draw Widget integration enabled.": {
+  "t": "소포 선택을위한 Mailing Labels 위젯에 그리기 형상을 보내는 버튼을 표시합니다. Mailing Labels 위젯은 Draw Widget 통합을 활성화해야합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show a confirmation prompt before the Clear All / Delete All action runs.": {
+  "t": "Clear All / Delete 모든 동작이 실행되기 전에 확인 프롬프트를 표시합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show a control that zooms the map to a drawing extent.": {
+  "t": "지도를 도면으로 확대하는 컨트롤을 표시합니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8764,6 +9436,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Show draw layer in map layer list": {
+  "t": "지도 층 명부에 있는 끌기 층",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Show drawing": {
   "t": "쇼 그림",
@@ -8843,6 +9521,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Show sorting and filtering controls at the top of the My Drawings list.": {
+  "t": "내 그림 목록의 상단에 정렬 및 필터링 컨트롤 표시.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show template picker": {
   "t": "템플릿 선택기",
   "src": "libretranslate",
@@ -8854,6 +9538,24 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Show the Export menu. Buffers are exported as their own features in every format.": {
+  "t": "수출 메뉴 보기 완충기는 각 체재에 있는 그들의 자신의 특징으로 수출됩니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show the Import button for loading Shapefile (.zip), GeoJSON, and KML files into My Drawings.": {
+  "t": "Shapefile (.zip), GeoJSON 및 KML 파일을 내 도면으로 로딩하기 위한 가져 오기 버튼을 표시합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show the per-drawing properties / details panel.": {
+  "t": "per-drawing 속성 / 세부 패널을 표시합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Show the primary unit only": {
   "t": "1차 단위만 표시",
@@ -8944,6 +9646,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Snap drawing vertices to features in other map layers.": {
+  "t": "다른 맵 레이어의 기능에 스냅 드로잉 vertices.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Snap to feature vertices, edges, and intersections while drawing for precise alignment.": {
   "t": "정확한 정렬을 위해 그림하면서 vertices, edges 및 교차점을 특징으로합니다.",
@@ -9058,6 +9766,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Sort and filter controls": {
+  "t": "분류 및 필터 컨트롤",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Sort drawings": {
   "t": "정렬 그림",
@@ -9197,8 +9911,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Stop drawing when widget is closed": {
+  "t": "위젯이 닫힐 때 정지 그림",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Storage Permission Required": {
   "t": "저장 권한",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Storage Scope:": {
+  "t": "저장 범위:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Store each user's measurement units, display options, and decimal places in their browser so they persist between sessions. Users can reset to your defaults at any time.": {
+  "t": "각 사용자의 측정 단위, 디스플레이 옵션 및 브라우저의 소수 장소를 저장하여 세션 간의 지속됩니다. 사용자는 언제든지 기본으로 재설정 할 수 있습니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9269,6 +10001,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Symbol Editor": {
+  "t": "심볼 편집기",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Symbol style customization": {
   "t": "상징 작풍 주문화",
   "src": "libretranslate",
@@ -9304,6 +10042,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Tabbed panel for managing, sorting, and organizing saved drawings. When disabled, there is no tab bar and only the Draw panel is shown.": {
+  "t": "관리, 분류 및 저장 된 도면을 위한 탭 패널. 비활성화 할 때 탭 바가 없으며 그랩 패널 만 표시됩니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Target": {
   "t": "제품정보",
@@ -9503,6 +10247,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The address search failed. Check the geocode service in the widget settings, then try again.": {
+  "t": "주소 검색 실패. 위젯 설정에서 geocode 서비스를 확인, 다음 다시 시도.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The buttons on a selected drawing let you {actions}.": {
   "t": "선택한 그림의 버튼은 당신을 데려 {actions}·",
   "src": "libretranslate",
@@ -9568,6 +10318,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The geocode service could not be read, or it has no single line address field. The Address tab is hidden until it is fixed in the widget settings.": {
+  "t": "geocode 서비스는 읽을 수 없거나 단일 라인 주소 필드가 없습니다. 주소 탭은 위젯 설정에서 고정 될 때까지 숨겨집니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The layer is gone: the browser tab was closed or reloaded. Run the file again, or bring back the copy you exported.": {
   "t": "레이어가 사라졌습니다. 브라우저 탭이 닫히거나 다시로드되었습니다. 파일을 다시 실행하거나 내보내는 사본을 다시 가져옵니다.",
@@ -9671,8 +10427,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The widget controller / sidebar that contains the Identify By Query widget. This ensures the controller panel opens before sending geometry.": {
+  "t": "위젯 컨트롤러 / sidebar Query 위젯에 의해 식별. 이 컨트롤러 패널은 기하학을 보내기 전에 열립니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The widget controller / sidebar that contains the Mailing Labels widget.": {
   "t": "위젯 컨트롤러 / 사이드바는 Mailing Labels 위젯을 포함합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The widget controller / sidebar that contains the Mailing Labels widget. This ensures the controller panel opens before sending geometry.": {
+  "t": "위젯 컨트롤러 / 사이드바는 Mailing Labels 위젯을 포함합니다. 이 컨트롤러 패널은 기하학을 보내기 전에 열립니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9784,6 +10552,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Those coordinates are outside the area of the coordinate system picked in Units. Pick the system the numbers came from.": {
+  "t": "해당 좌표는 단위에서 선택된 좌표계의 외부 영역입니다. 시스템의 번호를 입력합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Those coordinates could not be read. Click the example under the box to see the format this unit expects.": {
+  "t": "그 좌표는 읽을 수 없습니다. 아래 예제를 클릭하여 이 옵션을 볼 수 있습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "To keep your work safe, please use the": {
   "t": "업무의 안전을 유지하려면,",
@@ -9976,6 +10756,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Tokens:": {
+  "t": "토큰:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Tokens: YYYY YY MM DD HH mm ss. Blank tries ISO, then general parsing.": {
   "t": "토큰: YYYY YY MM DD HH mm ss. 공백은 ISO, 그 후에 일반적인 파싱을 삼습니다.",
@@ -10229,11 +11015,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Undo / Redo": {
+  "t": "Undo / 레드오",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Undo and redo actions": {
   "t": "Undo 및 redo 작업",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Undo and redo buttons during active drawing.": {
+  "t": "활동적인 그림 도중 Undo와 redo 단추.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Undo last drawing action": {
   "t": "undo 마지막 그림 활동",
@@ -10260,6 +11058,12 @@
   "added": "2026-10-08"
  },
  "Unit:": {
+  "t": "단위:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Units:": {
   "t": "단위:",
   "src": "libretranslate",
   "reviewed": false,
@@ -10457,6 +11261,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Use the inspect address tool to click on the map and locate the address.": {
+  "t": "지도를 클릭하고 주소를 찾습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Use the keyboard": {
   "t": "키보드 사용",
   "src": "libretranslate",
@@ -10477,6 +11287,18 @@
  },
  "Used when a user enables custom buffer color.": {
   "t": "사용자가 사용자 정의 버퍼 색상을 활성화 할 때 사용하는.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "USNG": {
+  "t": "사이트맵",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "UTM": {
+  "t": "사이트맵",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10504,6 +11326,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "View drawing properties": {
+  "t": "그림 속성",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "View options": {
   "t": "옵션 보기",
@@ -10589,6 +11417,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "When on, end users can edit the draw layer name at runtime.": {
+  "t": "때, 최종 사용자는 런타임에 draw layer 이름을 편집할 수 있습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "When on, end users can show or hide the draw layer in the layer list.": {
+  "t": "언제, 최종 사용자는 레이어 목록에서 draw layer를 표시하거나 숨길 수 있습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "When on, the draw graphics layer appears in the map’s layer list / legend.": {
+  "t": "때, 그릴 도표 층은 지도의 층 명부/ 전설에 나타납니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Where your choices live": {
   "t": "당신의 선택이 사는 곳",
   "src": "libretranslate",
@@ -10609,6 +11455,30 @@
  },
  "Widget Behavior": {
   "t": "위젯 Behavior",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Widget ID: {identifyWidgetId}": {
+  "t": "위젯 ID: {identifyWidgetId}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Widget ID: {mailingLabelsWidgetId}": {
+  "t": "위젯 ID: {mailingLabelsWidgetId}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Widget is designed to run in Experience Builder version": {
+  "t": "Widget은 Experience Builder 버전에서 실행하도록 설계되었습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Widget Version": {
+  "t": "Widget 버전",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10661,11 +11531,29 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "X (Easting):": {
+  "t": "X (동일):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "X / Longitude field": {
   "t": "X / 경도 영역",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "X and Y": {
+  "t": "X와 Y",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "X, Y": {
+  "t": "X의 Y",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "XY": {
   "t": "사이트맵",
@@ -10681,6 +11569,12 @@
  },
  "XY coordinates enabled. Display projected X and Y coordinate values.": {
   "t": "XY 좌표 활성화. 프로젝트 X 및 Y 좌표 값을 표시합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Y (Northing):": {
+  "t": "Y (북):",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10783,6 +11677,12 @@
  },
  "Zoom to {name}": {
   "t": "줌에서 {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zoom to drawing": {
+  "t": "그림에 Zoom",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
