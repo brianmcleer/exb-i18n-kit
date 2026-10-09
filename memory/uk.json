@@ -239,6 +239,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "\"{name}\" does nothing: your browser is blocking location access. Allow location for this page in your browser settings, or type the address instead.": {
+  "t": "« » » » » » » » » » » » » »{name}\"не нічого: ваш браузер блокує доступ до місця розташування. Дозволити розташування для цієї сторінки в налаштуваннях браузера або введіть адресу замість.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "\"{name}\" is greyed out: the widget has no map to click, or the map is still loading. Type the address instead.": {
+  "t": "« » » » » » » » » » » » » »{name}\" сірий: віджет не має карти натиснути, або карта все ще завантаження. Введіть адресу замість.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "\"All\" placeholder": {
   "t": "Акціонер «Все»",
   "src": "libretranslate",
@@ -359,6 +371,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{{#if Municipality}}\n  <p>Incorporated {Municipality}</p>\n{{else}}\n  <p>Unincorporated {Township} Township</p>\n{{/if}}": {
+  "t": "{{#if муніципалітет}} <p>Включений {Municipality}</p> З{else}Головна <p>Універсал {Township} Саджанці</p> Ім'я *",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{activeLabel}: a check mark and border show the basemap being used.": {
   "t": "{activeLabel}: контрольний знак і бордюр показує базову карту.",
   "src": "libretranslate",
@@ -385,6 +403,12 @@
  },
  "{address}": {
   "t": "{address}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{alias} ({type}) : click to insert": {
+  "t": "{alias} (Українська){type}) : натисніть на вставку",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -517,6 +541,12 @@
  },
  "{circle}: click the center, then click again to set the size.": {
   "t": "{circle}: натисніть на центр, потім натисніть знову, щоб встановити розмір.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{clear} removes that list from this browser. The list is only on your own computer, and nobody else sees it.": {
+  "t": "{clear} Видалити список з цього браузера. Список тільки на вашому комп'ютері, і ніхто не бачить його.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1265,8 +1295,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{name}: opens a small menu with Copy link, Email and Text message.": {
+  "t": "{name}: відкриває невелике меню з посиланням на копіювання, електронною поштою та текстом.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{name}: photos taken from the street, as if you were standing there.": {
   "t": "{name}: фото, зняті з вулиці, якби ви стояли там.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{name}: prints the answer card on its own, not the whole page.": {
+  "t": "{name}: друкувати відповідь на картку самостійно, не всю сторінку.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2501,6 +2543,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "A closing {{/if}} needs an opening {{#if FIELD_NAME}}.": {
+  "t": "Введіть номер мобільного, який Ви вказали при укладаннi договору з банком - для ідентифікації.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "a Comments sheet": {
   "t": "лист Коментарі",
   "src": "libretranslate",
@@ -2767,6 +2815,12 @@
  },
  "A report link works for anyone who can open this app, so it is a quick way to hand a property to a colleague.": {
   "t": "Посилання на звіт працює для тих, хто може відкрити цей додаток, тому це швидкий спосіб, щоб руки майно колеги.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A REST URL to a GeocodeServer. Defaults to the ArcGIS World Geocoder. Use an internal composite locator if available.": {
+  "t": "A REST URL на GeocodeServer. За замовчуванням до ArcGIS World Geocoder. Використовуйте внутрішній композитний локатор, якщо доступний.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3121,6 +3175,12 @@
  },
  "Add a \"Show only this layer\" action": {
   "t": "Додати дію \"Показати тільки цей шар\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add a closing {{/if}} for every opening if block.": {
+  "t": "Введіть номер мобільного, який Ви вказали при укладаннi договору.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3821,6 +3881,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Address input label": {
+  "t": "Адреса вхідної етикетки",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address input placeholder": {
+  "t": "Статус на сервери",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address input tooltip": {
+  "t": "Інструмент для введення адреси",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Address Inspection Failed": {
   "t": "Адреса Інспекція",
   "src": "libretranslate",
@@ -3859,6 +3937,12 @@
  },
  "Address lookup failed.": {
   "t": "Зворотній зв'язок",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address lookup results. Swipe up or down to scroll.": {
+  "t": "Результати пошуку адрес. Проведіть або вниз, щоб прокрутити.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4745,8 +4829,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "An {{else}} needs an opening {{#if FIELD_NAME}}.": {
+  "t": "Про нас{else}Для того, щоб розпочати роботу за адресою: http://www.facebook.com",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "an address": {
   "t": "адреса",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "An address right on the edge of an area still matches. The widget looks a short distance around the point.": {
+  "t": "Адреса прямо на краю ділянки ще відповідає. Віджет виглядає на невеликій відстані навколо точки.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5321,6 +5417,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "At the top of the answer card you get {actions}.": {
+  "t": "У верхній частині відповіді ви отримаєте {actions}й",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Attach a photo": {
   "t": "Прикріпити фото",
   "src": "libretranslate",
@@ -5587,6 +5689,12 @@
  },
  "available": {
   "t": "Проживання",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Available fields": {
+  "t": "Доступні поля",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5899,6 +6007,12 @@
  },
  "Badges on a card or in the Activity column: {badges}.": {
   "t": "Значки на картці або в стовпчику дії: {badges}й",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Banner (colored band with optional title)": {
+  "t": "Банер (кольоровий гурт з додатковою назвою)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6521,6 +6635,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Brand colors": {
+  "t": "Брендові кольори",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Breakpoint (px)": {
   "t": "Точка зору (px)",
   "src": "libretranslate",
@@ -6797,6 +6917,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Buttons on the answer card": {
+  "t": "Кнопки на відповідь",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "buttons to back up and restore your drawings.": {
   "t": "кнопки, щоб повернутися і відновити ваші малюнки.",
   "src": "libretranslate",
@@ -6829,6 +6955,12 @@
  },
  "Call {join}": {
   "t": "Дзякуй {join}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Call {part}": {
+  "t": "Дзякуй {part}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7492,6 +7624,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Check the result template:": {
+  "t": "Перевірити шаблон результату:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Checked {rows} rows, {warnings} warnings": {
   "t": "Перевірити {rows} ряди, {warnings} Повідомлення",
@@ -8351,6 +8489,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Clearing your browser data also clears your recent addresses.": {
+  "t": "Очистити дані браузера також очищає ваші останні адреси.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Clearing your browser data removes saved views. Export them first if you want to keep them.": {
   "t": "Очистити дані браузера видаляє збережені види. Експортуйте їх спочатку, якщо ви хочете зберегти їх.",
   "src": "libretranslate",
@@ -8701,6 +8845,12 @@
  },
  "Click one of the tool buttons at the top, such as {distance} or {area}.": {
   "t": "Натисніть одну з кнопок інструментів у верхній частині, такі як {distance} або {area}й",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click one to look it up again.": {
+  "t": "Натисніть, щоб знову виглядати.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9196,6 +9346,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Close results and search another address": {
+  "t": "Закрити результати та пошук іншої адреси",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Close selection mode picker": {
   "t": "Закритий вибір режим пікіровка",
@@ -9887,6 +10043,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Conditional template example": {
+  "t": "Приклад умовного шаблону",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Configuration": {
   "t": "Налаштування",
   "src": "libretranslate",
@@ -9910,6 +10072,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Configuration imported successfully.": {
+  "t": "Конфігурація імпортується успішно.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Configuration imported.": {
   "t": "Налаштування імпортованих.",
@@ -10222,6 +10390,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Constrain search to": {
+  "t": "Пошук обмежень",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Contact": {
   "t": "Контакти",
@@ -10739,6 +10913,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copy link does nothing: this browser does not allow copying from a page. Copy the address out of the box by hand instead.": {
+  "t": "Скопіювати посилання нічого не дає: цей браузер не дозволяє копіювати з сторінки. Скопіюйте адресу з коробки вручну.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copy link or Copy XML says it could not copy: the browser blocked the clipboard. Use Download XML, or copy the address bar after the page updates.": {
   "t": "Скопіювати посилання або скопіювати XML, він не міг копіювати: браузер заблокував буфер обміну. Використовуйте файл XML або скопіюйте адресний рядок після оновлення сторінки.",
   "src": "libretranslate",
@@ -10945,6 +11125,12 @@
  },
  "Could not read the dates from the layers. The range shown is a guess; the builder can set it.": {
   "t": "Не можна прочитати дати з шарів. У діапазоні показано вгадку; конструктор може встановити його.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not read the file. Make sure it is a valid Zone Lookup XML export.": {
+  "t": "Не прочитати файл. Переконайтеся, що це дійсна зона Lookup XML експорт.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11233,6 +11419,12 @@
  },
  "Current configuration as XML (read only)": {
   "t": "Поточна конфігурація як XML (тільки для читання)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Current map extent": {
+  "t": "Поточна розмір карти",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13481,6 +13673,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Download these settings as an XML file.": {
+  "t": "Завантажте ці налаштування як файл XML.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Download unmatched": {
   "t": "Завантажити Unmatched",
   "src": "libretranslate",
@@ -14171,6 +14369,42 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "e.g. \"Address is outside the service area\"": {
+  "t": "e.g. \"Додаток поза зоною обслуговування\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Enter an address above to see your results.\"": {
+  "t": "Наприклад: «Введіть адресу, щоб побачити результати».",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Find your area\"": {
+  "t": "Наприклад: \"Знайди свою область\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Find your pickup area\"": {
+  "t": "Наприклад: «Зберігати свою площу пікапу»",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Lookup results\"": {
+  "t": "e.g. \"Пошуки\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Try another address\"": {
+  "t": "e.g. \"Прийміть іншу адресу\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "e.g. /Parcels/FeatureServer/0": {
   "t": "e.g. /Паркети/ФеатюрСер/0",
   "src": "libretranslate",
@@ -14341,6 +14575,12 @@
  },
  "Each format is one line in the result popup and the Results list. X and Y take a WKID; leave it blank for the map's coordinate system.": {
   "t": "Кожен формат - один рядок у списку результатів. X і Y візьміть WKID; залиште його заготовкою для координаційної системи карти.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Each if block can have only one {{else}}.": {
+  "t": "Кожен, якщо блок може мати тільки один {{else}й",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16435,6 +16675,12 @@
  },
  "Export to PDF": {
   "t": "Експорт в PDF",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export to XML": {
+  "t": "Експорт до XML",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18551,6 +18797,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Generic error message": {
+  "t": "Генетичні повідомлення про помилку",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Geocode": {
   "t": "Геокод",
   "src": "libretranslate",
@@ -18593,6 +18845,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Geocoding": {
+  "t": "Геообробка",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Geocoding failed": {
   "t": "Не вдалося",
   "src": "libretranslate",
@@ -18616,6 +18874,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Geocoding service URL": {
+  "t": "Статус на сервери",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Geocoding Service URL": {
   "t": "Статус на сервери",
@@ -19709,6 +19973,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Header style": {
+  "t": "Стиль заголовка",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Header Text": {
   "t": "Текст заголовка",
   "src": "libretranslate",
@@ -19753,6 +20023,12 @@
  },
  "Heading (title)": {
   "t": "Заголовок (title)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Heading / label color": {
+  "t": "Заголовок / колір етикетки",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19867,6 +20143,18 @@
  },
  "Helvetica (Sans-serif)": {
   "t": "Helvetica (Сан-серіф)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hero subtitle field": {
+  "t": "Герой під назви",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hero title field": {
+  "t": "Герой title поле",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20105,6 +20393,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Highlight fill color": {
+  "t": "Колір: білий колір",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Highlight Geometry": {
   "t": "Геометрія",
   "src": "libretranslate",
@@ -20131,6 +20425,12 @@
  },
  "Highlight outline color": {
   "t": "Колір висотних контурів",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Highlight outline width (pt)": {
+  "t": "Висока ширина контуру (пт)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20615,6 +20915,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "If the address sits outside the areas this app covers, a yellow card says so and offers {tryAnother}.": {
+  "t": "Якщо адреса сидить за межами областей, цей додаток охоплює, жовта картка говорить так і пропонує {tryAnother}й",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "If the app has Print Advanced, set a date here first: it prints whatever the map shows, so the printout carries the date.": {
   "t": "Якщо додаток має друкувати розширений, встановіть дату тут спочатку: він друкує все, що показує карта, тому друк показує дату.",
   "src": "libretranslate",
@@ -20747,6 +21053,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Import / export": {
+  "t": "Імпорт / експорт",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Import / export configuration": {
   "t": "Імпорт / експорт",
   "src": "libretranslate",
@@ -20857,6 +21169,12 @@
  },
  "Import from file": {
   "t": "Імпорт з файлу",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import from XML": {
+  "t": "Імпорт з XML",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21383,6 +21701,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Insert token for field {alias}": {
+  "t": "Вставте токен для поля {alias}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Inside message": {
   "t": "Усередині повідомлення",
   "src": "libretranslate",
@@ -21517,6 +21841,12 @@
  },
  "Interval": {
   "t": "Інтервал",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Intro HTML (optional)": {
+  "t": "Intro HTML (опція)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22327,6 +22657,12 @@
  },
  "Labels": {
   "t": "Етикетки",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Labels & messages": {
+  "t": "Етикетки та повідомлення",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23855,6 +24191,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Load settings from a previously exported XML file.": {
+  "t": "Налаштування навантаження з раніше експортованого XML-файлу.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Load settings from an .xml file": {
   "t": "Налаштування навантаження з файлу .xml",
   "src": "libretranslate",
@@ -23976,6 +24318,12 @@
   "added": "2026-10-09"
  },
  "Loading fields...": {
+  "t": "Навантаження полів ...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Loading fields…": {
   "t": "Навантаження полів ...",
   "src": "libretranslate",
   "reviewed": false,
@@ -25303,6 +25651,12 @@
  },
  "Max photo size (MB)": {
   "t": "Макс розмір фото (МБ)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Max recent searches to keep": {
+  "t": "Максимальні останні пошуки, щоб зберегти",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -26639,6 +26993,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "New search": {
+  "t": "Новий пошук",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "New traverse": {
   "t": "Новий траверс",
   "src": "libretranslate",
@@ -26809,6 +27169,12 @@
  },
  "No comments yet.": {
   "t": "Немає коментарів.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No constraint": {
+  "t": "Немає обмежень",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -27137,6 +27503,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No list of addresses appears: you have typed fewer than three letters, or the address service is slow. Type a little more and wait a second.": {
+  "t": "Немає списку адрес, які ви вводите менше трьох літер, або адресне обслуговування є повільним. Введіть трохи більше і почекайте друга.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No map configured. The widget will still look up zones, but results will not be highlighted on a map.": {
   "t": "Немає настроченої карти. Віджет все ще буде виглядати зони, але результати не будуть виділені на карті.",
   "src": "libretranslate",
@@ -27365,6 +27737,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No recognized settings were found in the file.": {
+  "t": "Не знайдено в файлі налаштувань.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No records found in selected layer": {
   "t": "Не знайдено записів у вибраному шарі",
   "src": "libretranslate",
@@ -27559,6 +27937,12 @@
  },
  "No-result message": {
   "t": "Відсутнє повідомлення",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No-results message": {
+  "t": "Повідомлення про несудимість",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -28313,6 +28697,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "On phones and touch screens: larger touch targets (44px), 16px input font to prevent iOS auto-zoom when focusing the search box, full-width action buttons, thumb-reachable share menu, and tighter spacing on narrow screens. Recommended on. Turn off to keep desktop sizing everywhere.": {
+  "t": "На телефонах і сенсорних екранах: великі сенсорні цілі (44px), 16px вхідні шрифти для запобігання автозиму iOS при фокусі пошукової коробки, повномасштабні кнопки дії, великий палець-від'ємне меню, і затяжний шприц на вузьких екранах. Рекомендовані Вимкніть, щоб зберегти на робочому столі всюди.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "On select, each rule runs an intersect query and appends its HTML to the popup. Tokens:": {
   "t": "На вибір, кожен правило, веде міжсекційний запит і додає його HTML у спливаючу. Жетони:",
   "src": "libretranslate",
@@ -28375,6 +28765,12 @@
  },
  "On the map": {
   "t": "На карті",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On the map, a red dot marks the address and the matching area is shaded.": {
+  "t": "На карті червона точка позначається адреса і зона матчу затінена.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -28925,6 +29321,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Optimize for iframe": {
+  "t": "Оптимізуйте для iframe",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Optimize for mobile": {
+  "t": "Оптимізація для мобільних телефонів",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "optional": {
   "t": "Додатково",
   "src": "libretranslate",
@@ -28997,8 +29405,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Optional. Override the theme accent and heading colors used in the top UI (label, icons, \"Use my location\", focus rings). Leave blank to inherit from the page theme.": {
+  "t": "Додатково. Надіславши тематичні акценти та заголовки кольорів, які використовуються вгорі UI (лаборатор, іконки, \"Використовувати своє розташування\", фокус-кілець). Залиште заготовку в спадок від теми сторінки.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Optional. Overrides the title field. The identified feature is available as $feature.": {
   "t": "Додатково. Надіславши поле назв. Виявлена функція доступна як $feature.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Optional. Pick a field to render as a big colored badge at the top of the result card, plus an optional subtitle underneath. Leave both blank to skip the hero and use only the HTML template.": {
+  "t": "Додатково. Підберіть поле, щоб надати як великий кольоровий значок у верхній частині карти результату, а також додаткові субтитри під ним. Залиште обидва заготовки, щоб пропустити героя і використовувати тільки шаблон HTML.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -29279,6 +29699,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Outside service area message": {
+  "t": "Зовнішній ресурс повідомлення",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Outside the current map scale": {
   "t": "Зовні поточного масштабу карти",
   "src": "libretranslate",
@@ -29299,6 +29725,18 @@
  },
  "outside this coordinate system's area": {
   "t": "поза координатною зоною системи",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Outside-area heading": {
+  "t": "Зовнішній вигляд",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Outside-area retry button label": {
+  "t": "Етикетка кнопки Outside-area",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -30257,6 +30695,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Picking an address from the list is more reliable than typing the whole address and pressing Enter.": {
+  "t": "Підбір адреси зі списку є більш надійним, ніж друк всієї адреси і натискання Enter.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Pictometry asks you to sign in: the Pictometry viewer needs its own account. Ask whoever built this app if you should have one.": {
   "t": "Pictometry попросить вас зареєструватися в: Pictometry глядача потребує свого облікового запису. Якщо ви повинні мати один.",
   "src": "libretranslate",
@@ -30407,8 +30851,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Placeholder heading (before search)": {
+  "t": "Заголовок власника (для пошуку)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Placeholder message (before search)": {
+  "t": "Повідомлення про власника (для пошуку)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Placement": {
   "t": "Місце",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Plain (intro as ordinary text)": {
+  "t": "Плайн (вступ як звичайний текст)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -31513,6 +31975,12 @@
  },
  "Primary": {
   "t": "Головна",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Primary brand color": {
+  "t": "Колір бренду",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -33215,6 +33683,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Reset button label": {
+  "t": "Наклеювання кнопки",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reset button tooltip": {
+  "t": "Задня кнопка",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Reset Default Area Units": {
   "t": "Заміна за замовчуванням",
   "src": "libretranslate",
@@ -33295,6 +33775,12 @@
  },
  "Reset to layout grid": {
   "t": "Заміна на розмітку сітки",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reset to theme": {
+  "t": "Замінити тему",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -33443,6 +33929,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Result hero": {
+  "t": "Результатів пошуку",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Result HTML template": {
+  "t": "Шаблон HTML",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Result navigation": {
   "t": "Навігація",
   "src": "libretranslate",
@@ -33461,6 +33959,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Result template": {
+  "t": "Шаблони пошуку",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Results": {
   "t": "Результати",
   "src": "libretranslate",
@@ -33469,6 +33973,12 @@
  },
  "Results found:": {
   "t": "Результати пошуку:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Results found.": {
+  "t": "Знайдено результати.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -34099,6 +34609,12 @@
  },
  "Save the traverse lines, points, and closed parcel polygon to the configured layers": {
   "t": "Заощаджуйте поперекові лінії, точки та замкнений полігон для настрочених шарів",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Save these settings as an XML file or load them from a previously exported file. The map widget and zone layer references stay app-specific and need to be re-selected after importing.": {
+  "t": "Заощаджуйте ці налаштування як файл XML або завантажуйте їх з попередньо експортованого файлу. Віджети та посилання на шар карт, що зберігаються в додатку, і потрібно переобрати після імпорту.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -35111,6 +35627,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Select a map widget": {
+  "t": "Виберіть віджет на мапі",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select a Map widget": {
   "t": "Виберіть віджет Карта",
   "src": "libretranslate",
@@ -35179,6 +35701,12 @@
  },
  "Select a widget...": {
   "t": "Виберіть віджет...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select a zone layer above to see its fields.": {
+  "t": "Виберіть шар зони вище, щоб побачити його поля.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -35533,6 +36061,12 @@
  },
  "Select the widget controller containing Mailing Labels": {
   "t": "Виберіть контролер віджету, що містить етикетки розсилки",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select the zone layer": {
+  "t": "Виберіть шар зони",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -36143,6 +36677,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Share email subject line": {
+  "t": "Поділитися електронною поштою",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Share options": {
   "t": "Параметри акції",
   "src": "libretranslate",
@@ -36209,6 +36749,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show \"Click map\" mode toggle": {
+  "t": "Показати режим \"Click map\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show \"Show print area\" toggle": {
   "t": "Показати \"Показати область друку\"",
   "src": "libretranslate",
@@ -36217,6 +36763,12 @@
  },
  "Show \"Use current location\"": {
   "t": "Показати \"Використовувати поточне розташування\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show \"Use my location\" button": {
+  "t": "Показати кнопку \"Використовувати своє розташування\"",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -36869,8 +37421,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show Print button on result": {
+  "t": "Показати кнопку друку на результат",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show Related Table Summaries": {
   "t": "Показати Схожі таблиці Сумпери",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show reset button": {
+  "t": "Показати скидання кнопка",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -36913,6 +37477,12 @@
  },
  "Show Segment Labels": {
   "t": "Показати етикетки сегмента",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show Share button on result": {
+  "t": "Показати кнопку Поділитися на результат",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -37123,6 +37693,12 @@
  },
  "Showing only": {
   "t": "Показати тільки",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Shown above the address input. Plain HTML.": {
+  "t": "Показати над входом адреси. Плайн HTML.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -38555,6 +39131,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Still stuck? Contact the GIS Division and mention the Zone Lookup widget and this app.": {
+  "t": "Натюрморт? Зв'язатися з відділом ГІС і згадувати віджет Зона Дивитися і це додаток.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Still stuck? Contact your GIS team and mention the Draw Advanced widget and this app.": {
   "t": "Натюрморт? Зв'язатися з командою ГІС і згадати про розширений віджет Draw і цей додаток.",
   "src": "libretranslate",
@@ -38785,6 +39367,12 @@
  },
  "Submit button label": {
   "t": "Наклейка кнопки",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Submit button tooltip": {
+  "t": "Налаштування кнопки",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -39755,6 +40343,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The answer says the address is outside the area: that address is not in the areas this app covers. Check the address, then use the phone number or contact shown on the card.": {
+  "t": "Відповідь говорить адреса поза зоною: що адреса не перебуває в зонах цієї програми охоплює. Перевірити адресу, потім використовувати номер телефону або контакт, що відображається на картці.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The area as stated on the deed or record document, saved alongside the calculated area": {
   "t": "Площа, яка зазначена на вилученому або записному документі, збереженому поряд з розрахунковою зоною",
   "src": "libretranslate",
@@ -39887,8 +40481,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The card stays empty after a long wait: the address service or the area layer did not answer. Reload the page and try again.": {
+  "t": "Картка залишається порожнім після довгого очікування: адресне обслуговування або шар площі не відповів. Перезавантажити сторінку і спробувати знову.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The closure error was distributed proportionally along each boundary line (Bowditch compass rule); your entered values are kept as records": {
   "t": "Похибка закриття була розподілена пропорційно по кожному граничному рядку (право правила компасів)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The colored bar at the top of the card is the short answer, such as the area name and the date.": {
+  "t": "Кольоровий брус на верхній частині карти є короткою відповіддю, такими як назва площі і дата.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -40349,6 +40955,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The map where the address pin and zone highlight are drawn. Optional : the widget still returns results without a map.": {
+  "t": "На карті, де намальовані адресні шпильки та зони. Додатково : віджет ще повертає результати без карти.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The Map widget this Parcel Drafter works against": {
   "t": "Віджет карти цього проекту Парсель працює проти",
   "src": "libretranslate",
@@ -40517,6 +41129,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The polygon feature layer that holds the zones.": {
+  "t": "Шар полігону, який тримає зони.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The presenter window does not open: the browser blocked a pop up. Allow pop ups for this site and press W again.": {
   "t": "Ведучий вікно не відкривається: браузер заблокував спливаюче вікно. Дозволити на цей сайт і натиснути W знову.",
   "src": "libretranslate",
@@ -40547,6 +41165,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The printout shows the whole page: the print window was opened from the browser menu. Use the {name} button on the answer card instead.": {
+  "t": "У меню браузера відкрився вікно друку. Використання {name} кнопка на карті відповіді замість.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The projection engine supports this WKID.": {
   "t": "Двигун проекції підтримує цей WKID.",
   "src": "libretranslate",
@@ -40570,6 +41194,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The rest of the card gives the details for the address you looked up.": {
+  "t": "Решта картки дає деталі для адреси, яку ви переглядали.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The result layout could not be read. Please contact the app administrator.": {
   "t": "Розмітка результату не можна прочитати. Будь ласка, зв'яжіться з адміністратором програми.",
@@ -41167,6 +41797,12 @@
  },
  "This field is required for generating labels": {
   "t": "Для створення етикеток обов'язкове поле",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "This guide follows the app: it only describes the buttons this app is showing you.": {
+  "t": "Цей посібник слідувати за додатком: він тільки описує кнопки, це додаток показує вам.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -43463,6 +44099,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Use {{#if FIELD_NAME}}, {{else}}, and {{/if}}. Field names may contain letters, numbers, and underscores and may not start with a number. Close each directive with two braces.": {
+  "t": "Ім'я *{else}(Українська) Прізвища поля може містити літери, цифри, підставки і не можуть починатися з числа. Закрийте кожну директиву двома брекетами.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use {{#if FIELD_NAME}}...{{else}}...{{/if}} to choose text when a field is populated or empty. Missing, null, empty, and whitespace-only values use the else branch. Zero and false count as populated. This is template syntax, not Arcade.": {
+  "t": "Зареєструватися{else}* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * Помилки, нулі, порожні та біло-просторові значення використовують інше відділення. Зеро і помилкова кількість, як заселений. Це шаблон Синтаксис, не Аркада.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use {FIELD_NAME} to insert a field value. Field names ignore capitalization, and values are HTML-escaped. Date fields use long English dates in UTC.": {
+  "t": "Зареєструватися {FIELD_NAME} вставити значення поля. Назви поля ігнорують капіталізацію та значення HTML-розгортаються. Дати полів використовувати довгі англійські дати в UTC.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Use {fieldName} placeholders from the added data.": {
   "t": "Зареєструватися {fieldName} розміщення учасників з доданих даних.",
   "src": "libretranslate",
@@ -43591,6 +44245,12 @@
  },
  "Use My Location": {
   "t": "Використовуйте мій Місцезнаходження",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use no more than 64 nested if blocks.": {
+  "t": "Використовуйте не більше, ніж 64, якщо блоки.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -45011,6 +45671,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Widget fills its parent’s height and stretches the result card to remove void space below. Use when embedding as a fixed-size iframe.": {
+  "t": "Віджет заповнює висоту свого батька і простягає картку результату для видалення недійсного простору нижче. Використовуйте при вбудовуванні як фіксований розмір iframe.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Widget functions": {
   "t": "Функції віджету",
   "src": "libretranslate",
@@ -45533,6 +46199,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Your address is not in the list: the house number or the spelling may be slightly off. Try the street name on its own, then pick the right one from the list.": {
+  "t": "Ваша адреса не в списку: номер будинку або запис може бути трохи вимкнено. Спробуйте назву вулиці на власній, потім заберіть праву з списку.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Your basemap, map extent, and layer data stay the same. The comparison uses temporary layer copies.": {
   "t": "Ваша базова карта, розмір карти, і дані шару залишаються однаковими. У порівнянні використовуються тимчасові копії шару.",
   "src": "libretranslate",
@@ -45563,6 +46235,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Your last few addresses are listed under \"{recent}\" when the box is empty.": {
+  "t": "Останні кілька адрес вказані в розділі \"{recent}\", коли ящик порожній.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Your location could not be determined right now.": {
   "t": "Ваше розташування не може бути визначене прямо зараз.",
   "src": "libretranslate",
@@ -45577,6 +46255,12 @@
  },
  "Your measurement choices are remembered in this browser. Reset Measurement Defaults puts them back.": {
   "t": "Ваш вибір вимірювань запам'ятовується в цьому браузері. Вимірювання за замовчуванням кладуть їх назад.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Your recent addresses": {
+  "t": "Останні адреси",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -45671,6 +46355,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Zone layer": {
+  "t": "Шар зони",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zone layer extent": {
+  "t": "Площа ділянки",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Zone Lookup": {
   "t": "Пошук зони",
   "src": "libretranslate",
@@ -45727,6 +46423,12 @@
  },
  "Zoom is the map's zoom level. A bigger number means the map is zoomed in closer.": {
   "t": "Zoom - рівень масштабу карти. Більший номер означає, що карта збільшена в більшій мірі.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zoom level after lookup": {
+  "t": "Рівень Zoom після перегляду",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"

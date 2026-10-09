@@ -239,6 +239,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "\"{name}\" does nothing: your browser is blocking location access. Allow location for this page in your browser settings, or type the address instead.": {
+  "t": "\"{name}\" 什么也不做: 您的瀏覽器正在阻擋位置存取 。 在您的瀏覽器設定中允許此頁面的位置, 或是輸入地址 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "\"{name}\" is greyed out: the widget has no map to click, or the map is still loading. Type the address instead.": {
+  "t": "\"{name}\" 已灰化: 部件沒有地圖可以點擊, 或是地圖仍在載入 。 輸入地址。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "\"All\" placeholder": {
   "t": "\"所有\"占位符",
   "src": "libretranslate",
@@ -359,6 +371,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{{#if Municipality}}\n  <p>Incorporated {Municipality}</p>\n{{else}}\n  <p>Unincorporated {Township} Township</p>\n{{/if}}": {
+  "t": "城市 <p> 公司化 {Municipality}</p > {{else}? <p> 未建立 {Township} 鎮區 </p> /",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{activeLabel}: a check mark and border show the basemap being used.": {
   "t": "{activeLabel}: 檢查符號與邊框顯示正在使用的底圖 。",
   "src": "libretranslate",
@@ -385,6 +403,12 @@
  },
  "{address}": {
   "t": "{address}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{alias} ({type}) : click to insert": {
+  "t": "{alias} ({type}: 點擊以插入",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -517,6 +541,12 @@
  },
  "{circle}: click the center, then click again to set the size.": {
   "t": "{circle}: 點擊中心,然後再次點擊以設定大小。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{clear} removes that list from this browser. The list is only on your own computer, and nobody else sees it.": {
+  "t": "{clear} 從此瀏覽器移除此清單 。 單子只放在你自己的電腦上 沒有人看到它",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1265,8 +1295,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{name}: opens a small menu with Copy link, Email and Text message.": {
+  "t": "{name}: 開啟一個带有副本連結、 電子郵件與文字訊息的小選單 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{name}: photos taken from the street, as if you were standing there.": {
   "t": "{name}照片從街上拍下來,",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{name}: prints the answer card on its own, not the whole page.": {
+  "t": "{name}:自行打印答錄卡,而非整頁.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2501,6 +2543,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "A closing {{/if}} needs an opening {{#if FIELD_NAME}}.": {
+  "t": "一個關閉的QQ/ifQQ需要一個開頭。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "a Comments sheet": {
   "t": "註解表",
   "src": "libretranslate",
@@ -2767,6 +2815,12 @@
  },
  "A report link works for anyone who can open this app, so it is a quick way to hand a property to a colleague.": {
   "t": "一個報告連結對任何能開啟這個應用程式的人都有效,",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A REST URL to a GeocodeServer. Defaults to the ArcGIS World Geocoder. Use an internal composite locator if available.": {
+  "t": "地理碼服務器的 REST URL 。 ArcGIS世界地理編碼器的預設值 。 如果有的話, 請使用內部复合定位器 。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3121,6 +3175,12 @@
  },
  "Add a \"Show only this layer\" action": {
   "t": "新增「 只顯示這層 」 動作",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add a closing {{/if}} for every opening if block.": {
+  "t": "新增關閉的QQ/ ifQQQ,",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3821,6 +3881,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Address input label": {
+  "t": "地址輸入標籤",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address input placeholder": {
+  "t": "位址輸入占位符",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address input tooltip": {
+  "t": "地址輸入工具提示",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Address Inspection Failed": {
   "t": "位址檢查失敗",
   "src": "libretranslate",
@@ -3859,6 +3937,12 @@
  },
  "Address lookup failed.": {
   "t": "搜尋地址失敗 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address lookup results. Swipe up or down to scroll.": {
+  "t": "地址查詢結果 。 刷上或下卷.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4745,8 +4829,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "An {{else}} needs an opening {{#if FIELD_NAME}}.": {
+  "t": "一個{{else}需要一個開幕曲目",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "an address": {
   "t": "地址",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "An address right on the edge of an area still matches. The widget looks a short distance around the point.": {
+  "t": "一個區域邊緣的地址仍然匹配 元件看起來很短的距離",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5321,6 +5417,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "At the top of the answer card you get {actions}.": {
+  "t": "在答錄卡的頂端 {actions}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Attach a photo": {
   "t": "附上照片",
   "src": "libretranslate",
@@ -5587,6 +5689,12 @@
  },
  "available": {
   "t": "可用",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Available fields": {
+  "t": "可用的字段",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5899,6 +6007,12 @@
  },
  "Badges on a card or in the Activity column: {badges}.": {
   "t": "卡片或活動列上的徽章 : {badges}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Banner (colored band with optional title)": {
+  "t": "Banner( 有可選擇標題的彩色樂團)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6521,6 +6635,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Brand colors": {
+  "t": "彩色",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Breakpoint (px)": {
   "t": "中斷點 (px)",
   "src": "libretranslate",
@@ -6797,6 +6917,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Buttons on the answer card": {
+  "t": "答錄卡上的按鈕",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "buttons to back up and restore your drawings.": {
   "t": "以備回您的畫面。",
   "src": "libretranslate",
@@ -6829,6 +6955,12 @@
  },
  "Call {join}": {
   "t": "呼叫 {join}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Call {part}": {
+  "t": "呼叫 {part}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7492,6 +7624,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Check the result template:": {
+  "t": "檢查結果樣本 :",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Checked {rows} rows, {warnings} warnings": {
   "t": "已檢查 {rows} 行 {warnings} 警告",
@@ -8351,6 +8489,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Clearing your browser data also clears your recent addresses.": {
+  "t": "清除您的瀏覽器資料也清除您的最近地址 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Clearing your browser data removes saved views. Export them first if you want to keep them.": {
   "t": "清除您的瀏覽器資料移除已儲存的檢視 。 如果您要保留, 先匯出它們 。",
   "src": "libretranslate",
@@ -8701,6 +8845,12 @@
  },
  "Click one of the tool buttons at the top, such as {distance} or {area}.": {
   "t": "點擊上方的工具按鍵之一, 例如 {distance} 或 {area}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click one to look it up again.": {
+  "t": "點一再查一遍",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9196,6 +9346,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Close results and search another address": {
+  "t": "關閉結果並搜尋另一個地址",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Close selection mode picker": {
   "t": "關閉選取模式拾取器",
@@ -9887,6 +10043,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Conditional template example": {
+  "t": "條件樣本示例",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Configuration": {
   "t": "配置",
   "src": "libretranslate",
@@ -9910,6 +10072,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Configuration imported successfully.": {
+  "t": "配置已成功匯入 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Configuration imported.": {
   "t": "配置已匯入 。",
@@ -10222,6 +10390,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Constrain search to": {
+  "t": "限制搜尋到",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Contact": {
   "t": "聯絡人",
@@ -10739,6 +10913,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copy link does nothing: this browser does not allow copying from a page. Copy the address out of the box by hand instead.": {
+  "t": "复制連結無效: 此瀏覽器不允許從頁面复制 。 代之以手抄出盒子的地址.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copy link or Copy XML says it could not copy: the browser blocked the clipboard. Use Download XML, or copy the address bar after the page updates.": {
   "t": "复制連結或复制 XML 表示無法复制: 瀏覽器封鎖剪貼板 。 使用下載 XML, 或是在更新頁面後复制地址列 。",
   "src": "libretranslate",
@@ -10945,6 +11125,12 @@
  },
  "Could not read the dates from the layers. The range shown is a guess; the builder can set it.": {
   "t": "無法從層面讀取日期 。 顯示的範圍是猜測; 建構者可以設定它 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not read the file. Make sure it is a valid Zone Lookup XML export.": {
+  "t": "無法讀取檔案 。 請確認它是一個有效的 Zone Lookup XML 匯出 。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11233,6 +11419,12 @@
  },
  "Current configuration as XML (read only)": {
   "t": "目前設定為 XML (只讀)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Current map extent": {
+  "t": "目前地圖範圍",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13481,6 +13673,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Download these settings as an XML file.": {
+  "t": "下載這些設定值為 XML 檔案 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Download unmatched": {
   "t": "下載未匹配",
   "src": "libretranslate",
@@ -14171,6 +14369,42 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "e.g. \"Address is outside the service area\"": {
+  "t": "例如\"地址不在服務區內\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Enter an address above to see your results.\"": {
+  "t": "例如,\"進入上面的地址 看你的結果。\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Find your area\"": {
+  "t": "比如\"找到你的區域\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Find your pickup area\"": {
+  "t": "比如\"找到你的皮卡區\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Lookup results\"": {
+  "t": "例如,“尋找結果”",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Try another address\"": {
+  "t": "例如,\"找別的地址\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "e.g. /Parcels/FeatureServer/0": {
   "t": "例如,/Parcels/FeatureServer/0",
   "src": "libretranslate",
@@ -14341,6 +14575,12 @@
  },
  "Each format is one line in the result popup and the Results list. X and Y take a WKID; leave it blank for the map's coordinate system.": {
   "t": "每個格式都是結果彈出和結果清單中的一行 。 X 和 Y 取一個 WKID; 將它留為空白的地圖座標系統 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Each if block can have only one {{else}}.": {
+  "t": "如果區塊只能有一個 {{else}? ? ?",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16435,6 +16675,12 @@
  },
  "Export to PDF": {
   "t": "匯出到 PDF",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export to XML": {
+  "t": "匯出到 XML",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18551,6 +18797,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Generic error message": {
+  "t": "一般錯誤訊息",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Geocode": {
   "t": "地理碼",
   "src": "libretranslate",
@@ -18593,6 +18845,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Geocoding": {
+  "t": "地理编码",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Geocoding failed": {
   "t": "地理編碼失敗",
   "src": "libretranslate",
@@ -18616,6 +18874,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Geocoding service URL": {
+  "t": "地理編碼服務 URL",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Geocoding Service URL": {
   "t": "地理編碼服務 URL",
@@ -19709,6 +19973,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Header style": {
+  "t": "信頭樣式",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Header Text": {
   "t": "信頭文字",
   "src": "libretranslate",
@@ -19753,6 +20023,12 @@
  },
  "Heading (title)": {
   "t": "标题(标题)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Heading / label color": {
+  "t": "頭部/ 標籤顏色",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19867,6 +20143,18 @@
  },
  "Helvetica (Sans-serif)": {
   "t": "海爾維蒂卡( 聖撒里夫 )",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hero subtitle field": {
+  "t": "英雄字幕字段",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hero title field": {
+  "t": "英雄標題字段",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20105,6 +20393,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Highlight fill color": {
+  "t": "突顯填充顏色",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Highlight Geometry": {
   "t": "突顯幾何",
   "src": "libretranslate",
@@ -20131,6 +20425,12 @@
  },
  "Highlight outline color": {
   "t": "突顯大纲顏色",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Highlight outline width (pt)": {
+  "t": "突顯大纲寬度 (pt)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20615,6 +20915,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "If the address sits outside the areas this app covers, a yellow card says so and offers {tryAnother}.": {
+  "t": "如果地址在應用程式的封面外 黃卡上寫著并發佈 {tryAnother}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "If the app has Print Advanced, set a date here first: it prints whatever the map shows, so the printout carries the date.": {
   "t": "如果應用程式有 Prind Advance, 請先在這裡設定日期: 它會列印地圖所顯示的, 所以印出時會附上日期 。",
   "src": "libretranslate",
@@ -20747,6 +21053,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Import / export": {
+  "t": "匯入/ 匯出",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Import / export configuration": {
   "t": "匯入/ 匯出設定",
   "src": "libretranslate",
@@ -20857,6 +21169,12 @@
  },
  "Import from file": {
   "t": "從檔案匯入",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import from XML": {
+  "t": "從 XML 匯入",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21383,6 +21701,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Insert token for field {alias}": {
+  "t": "插入字段的符號 {alias}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Inside message": {
   "t": "內部信件",
   "src": "libretranslate",
@@ -21517,6 +21841,12 @@
  },
  "Interval": {
   "t": "間接",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Intro HTML (optional)": {
+  "t": "內部 HTML( 可選擇的)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22327,6 +22657,12 @@
  },
  "Labels": {
   "t": "標籤",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Labels & messages": {
+  "t": "標籤信件( M)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23855,6 +24191,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Load settings from a previously exported XML file.": {
+  "t": "從先前匯出 XML 檔案載入設定值 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Load settings from an .xml file": {
   "t": "從. xml 檔案載入設定值",
   "src": "libretranslate",
@@ -23976,6 +24318,12 @@
   "added": "2026-10-09"
  },
  "Loading fields...": {
+  "t": "正在載入字段...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Loading fields…": {
   "t": "正在載入字段...",
   "src": "libretranslate",
   "reviewed": false,
@@ -25303,6 +25651,12 @@
  },
  "Max photo size (MB)": {
   "t": "最大相片大小 (MB)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Max recent searches to keep": {
+  "t": "最大距離搜尋",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -26639,6 +26993,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "New search": {
+  "t": "新搜尋",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "New traverse": {
   "t": "新的轉移",
   "src": "libretranslate",
@@ -26809,6 +27169,12 @@
  },
  "No comments yet.": {
   "t": "還沒有評論",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No constraint": {
+  "t": "沒有限制",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -27137,6 +27503,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No list of addresses appears: you have typed fewer than three letters, or the address service is slow. Type a little more and wait a second.": {
+  "t": "沒有列出地址列表 : 您輸入的字數不足 3 個, 或地址服務慢 。 再打一點,等一下",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No map configured. The widget will still look up zones, but results will not be highlighted on a map.": {
   "t": "沒有設定地圖 。 元件仍會往上看區域, 但結果不會在地圖上突顯 。",
   "src": "libretranslate",
@@ -27365,6 +27737,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No recognized settings were found in the file.": {
+  "t": "檔案中找不到認證的設定值 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No records found in selected layer": {
   "t": "所選層中找不到紀錄",
   "src": "libretranslate",
@@ -27558,6 +27936,12 @@
   "added": "2026-10-09"
  },
  "No-result message": {
+  "t": "沒有結果的消息",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No-results message": {
   "t": "沒有結果的消息",
   "src": "libretranslate",
   "reviewed": false,
@@ -28313,6 +28697,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "On phones and touch screens: larger touch targets (44px), 16px input font to prevent iOS auto-zoom when focusing the search box, full-width action buttons, thumb-reachable share menu, and tighter spacing on narrow screens. Recommended on. Turn off to keep desktop sizing everywhere.": {
+  "t": "在手機和觸摸螢幕上:较大的觸摸目標(44px),16px輸入字型以阻止iOS自動區域聚焦搜索盒,全wids動作按鈕,拇指可觸摸共享選單,以及收緊窄螢幕上的間距. 推荐 關閉以保持桌面大小 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "On select, each rule runs an intersect query and appends its HTML to the popup. Tokens:": {
   "t": "選取時, 每條規則都執行交叉查詢, 將 HTML 附加到彈出處 。 托肯斯 :",
   "src": "libretranslate",
@@ -28375,6 +28765,12 @@
  },
  "On the map": {
   "t": "在地圖上",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On the map, a red dot marks the address and the matching area is shaded.": {
+  "t": "在地圖上, 一個紅點會標記住址,",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -28925,6 +29321,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Optimize for iframe": {
+  "t": "优化iframe",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Optimize for mobile": {
+  "t": "优化手機",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "optional": {
   "t": "選擇性",
   "src": "libretranslate",
@@ -28997,8 +29405,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Optional. Override the theme accent and heading colors used in the top UI (label, icons, \"Use my location\", focus rings). Leave blank to inherit from the page theme.": {
+  "t": "可選的 覆蓋 UI( 標籤、 圖示、 \"使用我的位置\" 、 焦點環) 中所使用的主題重音和領域顏色 。 留空白以繼承頁面主題 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Optional. Overrides the title field. The identified feature is available as $feature.": {
   "t": "可選的 覆蓋標題字段。 已查明的功能是$feature。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Optional. Pick a field to render as a big colored badge at the top of the result card, plus an optional subtitle underneath. Leave both blank to skip the hero and use only the HTML template.": {
+  "t": "可選的 選擇一個字段來做成大彩色的徽章 在結果卡的頂部 加上下面的可選字幕 留下空白以跳過主角, 只使用 HTML 樣本 。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -29279,6 +29699,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Outside service area message": {
+  "t": "外部服務區域訊息",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Outside the current map scale": {
   "t": "在目前的地圖比例之外",
   "src": "libretranslate",
@@ -29299,6 +29725,18 @@
  },
  "outside this coordinate system's area": {
   "t": "在座標系統範圍外",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Outside-area heading": {
+  "t": "外區領域",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Outside-area retry button label": {
+  "t": "外區重試按鈕標籤",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -30257,6 +30695,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Picking an address from the list is more reliable than typing the whole address and pressing Enter.": {
+  "t": "從清單中選取地址比打入整個地址和按 Enter 更可靠 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Pictometry asks you to sign in: the Pictometry viewer needs its own account. Ask whoever built this app if you should have one.": {
   "t": "Pictometer 要求您簽署: Pictometer 檢視器需要自己的帳號 。 問是誰造的這個應用程式 你是否該有",
   "src": "libretranslate",
@@ -30407,8 +30851,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Placeholder heading (before search)": {
+  "t": "占位符方向( 在搜尋前)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Placeholder message (before search)": {
+  "t": "占位符信件( 搜索前)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Placement": {
   "t": "位置",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Plain (intro as ordinary text)": {
+  "t": "普通( 引入為普通文字)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -31513,6 +31975,12 @@
  },
  "Primary": {
   "t": "初等教育",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Primary brand color": {
+  "t": "主要品牌顏色",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -33215,6 +33683,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Reset button label": {
+  "t": "重置按鍵標籤",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reset button tooltip": {
+  "t": "重置按鍵工具提示",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Reset Default Area Units": {
   "t": "重置預設區域單位",
   "src": "libretranslate",
@@ -33295,6 +33775,12 @@
  },
  "Reset to layout grid": {
   "t": "重置以佈局格",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reset to theme": {
+  "t": "重置為主題",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -33443,6 +33929,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Result hero": {
+  "t": "結果英雄",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Result HTML template": {
+  "t": "結果 HTML 模板",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Result navigation": {
   "t": "結果導覽",
   "src": "libretranslate",
@@ -33461,6 +33959,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Result template": {
+  "t": "結果樣本",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Results": {
   "t": "成果",
   "src": "libretranslate",
@@ -33469,6 +33973,12 @@
  },
  "Results found:": {
   "t": "結果 :",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Results found.": {
+  "t": "已找到成果。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -34099,6 +34609,12 @@
  },
  "Save the traverse lines, points, and closed parcel polygon to the configured layers": {
   "t": "儲存橫行、 點和已關閉的包裹多边形到已設定的層次",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Save these settings as an XML file or load them from a previously exported file. The map widget and zone layer references stay app-specific and need to be re-selected after importing.": {
+  "t": "將這些設定儲存為 XML 檔案或從先前匯出的文件載入 。 地圖元件與區域層次參考會保持應用程式的特异性, 在匯入後需要重新選擇 。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -35111,6 +35627,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Select a map widget": {
+  "t": "選擇地圖元件",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select a Map widget": {
   "t": "選擇地圖元件",
   "src": "libretranslate",
@@ -35179,6 +35701,12 @@
  },
  "Select a widget...": {
   "t": "選擇元件...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select a zone layer above to see its fields.": {
+  "t": "選擇上面的區域來查看它的欄位 。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -35533,6 +36061,12 @@
  },
  "Select the widget controller containing Mailing Labels": {
   "t": "選擇包含信件標籤的元件控制器",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select the zone layer": {
+  "t": "選擇區域層",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -36143,6 +36677,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Share email subject line": {
+  "t": "分享電子郵件主題行",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Share options": {
   "t": "分享選項",
   "src": "libretranslate",
@@ -36209,6 +36749,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show \"Click map\" mode toggle": {
+  "t": "顯示「 點擊地圖」 模式切換",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show \"Show print area\" toggle": {
   "t": "顯示「 顯示列印區域」 切換",
   "src": "libretranslate",
@@ -36217,6 +36763,12 @@
  },
  "Show \"Use current location\"": {
   "t": "顯示「 使用目前位置 」",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show \"Use my location\" button": {
+  "t": "顯示「 使用我的位置 」 按鈕",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -36869,8 +37421,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show Print button on result": {
+  "t": "結果顯示列印按鈕",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show Related Table Summaries": {
   "t": "顯示相關表格摘要",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show reset button": {
+  "t": "顯示重設按鈕",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -36913,6 +37477,12 @@
  },
  "Show Segment Labels": {
   "t": "顯示片段標籤",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show Share button on result": {
+  "t": "結果顯示共享按鈕",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -37123,6 +37693,12 @@
  },
  "Showing only": {
   "t": "只顯示",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Shown above the address input. Plain HTML.": {
+  "t": "顯示在地址輸入上面 。 普通的HTML。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -38555,6 +39131,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Still stuck? Contact the GIS Division and mention the Zone Lookup widget and this app.": {
+  "t": "還卡著? 聯系GIS分部 提到區域搜尋元件和這個應用程式",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Still stuck? Contact your GIS team and mention the Draw Advanced widget and this app.": {
   "t": "還卡著? 聯絡您的 GIS 團隊, 並提到 Draw 高级元件與這個應用程式 。",
   "src": "libretranslate",
@@ -38785,6 +39367,12 @@
  },
  "Submit button label": {
   "t": "提交按鍵標籤",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Submit button tooltip": {
+  "t": "提交按鍵工具提示",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -39755,6 +40343,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The answer says the address is outside the area: that address is not in the areas this app covers. Check the address, then use the phone number or contact shown on the card.": {
+  "t": "答案是:地址不在這個應用程式的範圍內。 檢查地址, 然后使用卡片上的電話號碼或聯絡人 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The area as stated on the deed or record document, saved alongside the calculated area": {
   "t": "地契或紀錄文件上顯示的區域, 和計算區域一起保存",
   "src": "libretranslate",
@@ -39887,8 +40481,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The card stays empty after a long wait: the address service or the area layer did not answer. Reload the page and try again.": {
+  "t": "等待很久後卡片仍為空 : 地址服務或區域層沒有回答 。 重新載入頁面再試一次 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The closure error was distributed proportionally along each boundary line (Bowditch compass rule); your entered values are kept as records": {
   "t": "關閉錯誤沿每條界線成比例分配( Bowditch 指南針規則) ; 您輸入的數值被保留為紀錄",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The colored bar at the top of the card is the short answer, such as the area name and the date.": {
+  "t": "卡片上方的彩色酒吧是短答,例如區域名和日期.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -40349,6 +40955,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The map where the address pin and zone highlight are drawn. Optional : the widget still returns results without a map.": {
+  "t": "地圖 : 地圖 : 選擇性 : 元件仍會在沒有地圖的情况下傳回結果 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The Map widget this Parcel Drafter works against": {
   "t": "Parcel 翻譯器的地圖元件",
   "src": "libretranslate",
@@ -40517,6 +41129,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The polygon feature layer that holds the zones.": {
+  "t": "控制區域的多边形特征層 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The presenter window does not open: the browser blocked a pop up. Allow pop ups for this site and press W again.": {
   "t": "介面視窗不開啟: 瀏覽器封鎖了彈出 。 允許在此網站上彈出並再次按下 W 。",
   "src": "libretranslate",
@@ -40547,6 +41165,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The printout shows the whole page: the print window was opened from the browser menu. Use the {name} button on the answer card instead.": {
+  "t": "列印顯示整頁: 列印視窗從瀏覽器選單開啟 。 使用 {name} 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The projection engine supports this WKID.": {
   "t": "投影引擎支援此 WKID 。",
   "src": "libretranslate",
@@ -40570,6 +41194,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The rest of the card gives the details for the address you looked up.": {
+  "t": "其余的卡片提供了你查的地址",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The result layout could not be read. Please contact the app administrator.": {
   "t": "無法讀取結果佈局 。 請聯繫應用程式管理員 。",
@@ -41167,6 +41797,12 @@
  },
  "This field is required for generating labels": {
   "t": "產生標籤需要此字段",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "This guide follows the app: it only describes the buttons this app is showing you.": {
+  "t": "此導覽遵循應用程式: 它只描述此應用程式顯示的按鈕 。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -43463,6 +44099,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Use {{#if FIELD_NAME}}, {{else}}, and {{/if}}. Field names may contain letters, numbers, and underscores and may not start with a number. Close each directive with two braces.": {
+  "t": "使用 {if FIELD NAME},{{else}~和/如果~~。 字段名稱可能包含字母, 數字, 以及下划線, 而不是從數字開始 。 每條指令都用兩個牙套關閉",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use {{#if FIELD_NAME}}...{{else}}...{{/if}} to choose text when a field is populated or empty. Missing, null, empty, and whitespace-only values use the else branch. Zero and false count as populated. This is template syntax, not Arcade.": {
+  "t": "使用 {if FIELD NAME}{{{else}{...}/ if} 選取文字 。 缺少, 無效, 空的, 以及白空的數值使用其他分支 。 零和假數是人口 這是樣本語法 不是街机",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use {FIELD_NAME} to insert a field value. Field names ignore capitalization, and values are HTML-escaped. Date fields use long English dates in UTC.": {
+  "t": "使用 {FIELD_NAME} 插入字段值。 字段名稱忽略資本化, 數值被 HTML 忽略 。 日期字段在 UTC 使用長的英文日期 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Use {fieldName} placeholders from the added data.": {
   "t": "使用 {fieldName} 新增資料中的占位符。",
   "src": "libretranslate",
@@ -43591,6 +44245,12 @@
  },
  "Use My Location": {
   "t": "使用我的位置",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use no more than 64 nested if blocks.": {
+  "t": "如果區塊使用不超过64個巢",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -45011,6 +45671,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Widget fills its parent’s height and stretches the result card to remove void space below. Use when embedding as a fixed-size iframe.": {
+  "t": "元件填充其母體的高度並拉伸結果卡以移除下面的空間 。 嵌入為固定大小的 iframe 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Widget functions": {
   "t": "元件函數",
   "src": "libretranslate",
@@ -45533,6 +46199,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Your address is not in the list: the house number or the spelling may be slightly off. Try the street name on its own, then pick the right one from the list.": {
+  "t": "您的住址不在清單中: 房子號碼或拼音可能稍稍關閉 。 自己試試街名,然後從名單上選對的名.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Your basemap, map extent, and layer data stay the same. The comparison uses temporary layer copies.": {
   "t": "您的基底圖、 地圖範圍、 層層數據都一樣 。 比較使用暫時層面副本 。",
   "src": "libretranslate",
@@ -45563,6 +46235,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Your last few addresses are listed under \"{recent}\" when the box is empty.": {
+  "t": "你最后的幾個地址列于\"{recent}\" 箱空后.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Your location could not be determined right now.": {
   "t": "你的位置目前無法确定",
   "src": "libretranslate",
@@ -45577,6 +46255,12 @@
  },
  "Your measurement choices are remembered in this browser. Reset Measurement Defaults puts them back.": {
   "t": "您的測量選擇在此瀏覽器中被記住 。 重置測量預設值會放回去",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Your recent addresses": {
+  "t": "您最近的地址",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -45671,6 +46355,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Zone layer": {
+  "t": "區層",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zone layer extent": {
+  "t": "區層範圍",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Zone Lookup": {
   "t": "區域搜尋",
   "src": "libretranslate",
@@ -45727,6 +46423,12 @@
  },
  "Zoom is the map's zoom level. A bigger number means the map is zoomed in closer.": {
   "t": "縮放是地圖的縮放關卡 。 大數字表示地圖放大得更近",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zoom level after lookup": {
+  "t": "查詢後縮放關卡",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"

@@ -239,6 +239,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "\"{name}\" does nothing: your browser is blocking location access. Allow location for this page in your browser settings, or type the address instead.": {
+  "t": "\"{name}\"nem csinál semmit: a böngészője blokkolja a hely elérését. Helyezze el ezt az oldalt a böngésző beállításaiban, vagy írja be helyette a címet.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "\"{name}\" is greyed out: the widget has no map to click, or the map is still loading. Type the address instead.": {
+  "t": "\"{name}\"kipirult: a widget-nek nincs térképe a kattintáshoz, vagy a térkép még mindig töltődik. Írd be helyette a címet.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "\"All\" placeholder": {
   "t": "\"Minden\"",
   "src": "libretranslate",
@@ -359,6 +371,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{{#if Municipality}}\n  <p>Incorporated {Municipality}</p>\n{{else}}\n  <p>Unincorporated {Township} Township</p>\n{{/if}}": {
+  "t": "{{# if community} < p > Összetétel {Municipality}< / p > {{else}- Igen. < p > Beépített {Township} Körzet < / p > {/ Ha}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{activeLabel}: a check mark and border show the basemap being used.": {
   "t": "{activeLabel}: ellenőrző jel és határjelző jelzi a használt alaplapot.",
   "src": "libretranslate",
@@ -385,6 +403,12 @@
  },
  "{address}": {
   "t": "{address}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{alias} ({type}) : click to insert": {
+  "t": "{alias} ({type}): kattintson a beszúráshoz",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -517,6 +541,12 @@
  },
  "{circle}: click the center, then click again to set the size.": {
   "t": "{circle}: kattintson a központ, majd kattintson újra beállítani a méretet.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{clear} removes that list from this browser. The list is only on your own computer, and nobody else sees it.": {
+  "t": "{clear} eltávolítja a listát a böngészőről. A lista csak a saját gépeden van, és senki más nem látja.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1265,8 +1295,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{name}: opens a small menu with Copy link, Email and Text message.": {
+  "t": "{name}: megnyit egy kis menü másolási link, e-mail és szöveg üzenetet.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{name}: photos taken from the street, as if you were standing there.": {
   "t": "{name}: képek az utcáról, mintha ott állt volna.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{name}: prints the answer card on its own, not the whole page.": {
+  "t": "{name}: saját maga nyomtatja ki a válaszkártyát, nem az egész oldalt.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2501,6 +2543,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "A closing {{/if}} needs an opening {{#if FIELD_NAME}}.": {
+  "t": "A zárás {{/ if} szükséges egy nyílás {{{# if FIELD _ Name}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "a Comments sheet": {
   "t": "egy megjegyzési lap",
   "src": "libretranslate",
@@ -2767,6 +2815,12 @@
  },
  "A report link works for anyone who can open this app, so it is a quick way to hand a property to a colleague.": {
   "t": "A jelentés link működik bárki, aki meg tudja nyitni ezt az alkalmazást, így ez egy gyors módja annak, hogy átadja egy ingatlan egy kolléga.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A REST URL to a GeocodeServer. Defaults to the ArcGIS World Geocoder. Use an internal composite locator if available.": {
+  "t": "REST URL egy GeocodeServernek. Alapértelmezés az ArcGIS World Geocoderre. Használjon belső kompozit lokátort, ha van.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3121,6 +3175,12 @@
  },
  "Add a \"Show only this layer\" action": {
   "t": "\"Csak ez a réteg megjelenítése\" művelet hozzáadása",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add a closing {{/if}} for every opening if block.": {
+  "t": "Minden nyíláshoz adjon hozzá egy zárójelet, ha blokkot tartalmaz.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3821,6 +3881,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Address input label": {
+  "t": "A bemeneti cím címe",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address input placeholder": {
+  "t": "Az input placeHolder címe",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address input tooltip": {
+  "t": "A bemeneti eszköztipp címe",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Address Inspection Failed": {
   "t": "Cím ellenőrzés sikertelen",
   "src": "libretranslate",
@@ -3859,6 +3937,12 @@
  },
  "Address lookup failed.": {
   "t": "A cím keresése nem sikerült.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address lookup results. Swipe up or down to scroll.": {
+  "t": "A cím megkeresi az eredményeket. Felfelé vagy lefelé görgetünk.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4745,8 +4829,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "An {{else}} needs an opening {{#if FIELD_NAME}}.": {
+  "t": "An {{else}Ki kell nyitni, ha FIELD-nek hívnak.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "an address": {
   "t": "cím",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "An address right on the edge of an area still matches. The widget looks a short distance around the point.": {
+  "t": "Egy cím egy terület szélén még mindig egyezik. A widget rövid távolságnak tűnik a pont körül.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5321,6 +5417,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "At the top of the answer card you get {actions}.": {
+  "t": "A válaszkártya tetején {actions}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Attach a photo": {
   "t": "Fotó csatolása",
   "src": "libretranslate",
@@ -5587,6 +5689,12 @@
  },
  "available": {
   "t": "rendelkezésre áll",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Available fields": {
+  "t": "Rendelkezésre álló mezők",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5899,6 +6007,12 @@
  },
  "Badges on a card or in the Activity column: {badges}.": {
   "t": "A kártyán vagy a tevékenységoszlopban szereplő jelvények: {badges}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Banner (colored band with optional title)": {
+  "t": "Banner (színes sáv opcionális címmel)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6521,6 +6635,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Brand colors": {
+  "t": "Márkaszínek",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Breakpoint (px)": {
   "t": "Töréspont (px)",
   "src": "libretranslate",
@@ -6797,6 +6917,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Buttons on the answer card": {
+  "t": "Gombok a válaszkártyán",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "buttons to back up and restore your drawings.": {
   "t": "gombokat, hogy vissza, és helyreállítsa a rajzokat.",
   "src": "libretranslate",
@@ -6829,6 +6955,12 @@
  },
  "Call {join}": {
   "t": "Hívás {join}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Call {part}": {
+  "t": "Hívás {part}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7492,6 +7624,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Check the result template:": {
+  "t": "Az eredménysablon ellenőrzése:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Checked {rows} rows, {warnings} warnings": {
   "t": "Ellenőrzött {rows} sorok, {warnings} figyelmeztetések",
@@ -8351,6 +8489,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Clearing your browser data also clears your recent addresses.": {
+  "t": "A böngésző adatainak törlése szintén törli a legutóbbi címeit.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Clearing your browser data removes saved views. Export them first if you want to keep them.": {
   "t": "A böngésző adatainak törlése eltávolítja a mentett nézeteket. Először exportáld őket, ha meg akarod tartani őket.",
   "src": "libretranslate",
@@ -8701,6 +8845,12 @@
  },
  "Click one of the tool buttons at the top, such as {distance} or {area}.": {
   "t": "Kattintson az egyik eszköz gombok tetején, mint például {distance} vagy {area}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click one to look it up again.": {
+  "t": "Kattintson az egyikre, ha szeretné újra megnézni.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9196,6 +9346,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Close results and search another address": {
+  "t": "Zárja le az eredményeket és keressen egy másik címet",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Close selection mode picker": {
   "t": "A kiválasztási mód bezárása",
@@ -9887,6 +10043,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Conditional template example": {
+  "t": "Feltételes sablonpélda",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Configuration": {
   "t": "Beállítás",
   "src": "libretranslate",
@@ -9910,6 +10072,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Configuration imported successfully.": {
+  "t": "Beállítás sikeresen importálva.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Configuration imported.": {
   "t": "Behozott konfiguráció.",
@@ -10222,6 +10390,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Constrain search to": {
+  "t": "A keresés folytatása",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Contact": {
   "t": "Kapcsolat",
@@ -10739,6 +10913,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copy link does nothing: this browser does not allow copying from a page. Copy the address out of the box by hand instead.": {
+  "t": "Másolás link nem csinál semmit: ez a böngésző nem engedélyezi másolás egy oldalon. Másolja ki helyette a címet a dobozból.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copy link or Copy XML says it could not copy: the browser blocked the clipboard. Use Download XML, or copy the address bar after the page updates.": {
   "t": "A link másolása vagy az XML másolása nem sikerült: a böngésző blokkolta a vágólapot. Használja a Letöltés XML, vagy másolja a cím sáv után az oldal frissítések.",
   "src": "libretranslate",
@@ -10945,6 +11125,12 @@
  },
  "Could not read the dates from the layers. The range shown is a guess; the builder can set it.": {
   "t": "Nem sikerült elolvasni a rétegek dátumát. A bemutatott tartomány egy tipp; az építész be tudja állítani.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not read the file. Make sure it is a valid Zone Lookup XML export.": {
+  "t": "Nem sikerült elolvasni a fájlt. Győződjön meg róla, hogy ez egy érvényes Zone Lookup XML export.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11233,6 +11419,12 @@
  },
  "Current configuration as XML (read only)": {
   "t": "Aktuális konfiguráció XML-ként (csak olvasható)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Current map extent": {
+  "t": "Aktuális térkép kiterjedése",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13481,6 +13673,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Download these settings as an XML file.": {
+  "t": "Töltse le ezeket a beállításokat XML fájlként.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Download unmatched": {
   "t": "Letöltés páratlan",
   "src": "libretranslate",
@@ -14171,6 +14369,42 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "e.g. \"Address is outside the service area\"": {
+  "t": "pl. \"A cím a szolgáltatási területen kívül található\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Enter an address above to see your results.\"": {
+  "t": "pl. \"Adja meg a fenti címet, hogy lássa az eredményeket\".",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Find your area\"": {
+  "t": "pl. \"Keresse meg a területet\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Find your pickup area\"": {
+  "t": "pl. \"Keresse meg a pickup területen\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Lookup results\"": {
+  "t": "pl. \"Keresés eredményei\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Try another address\"": {
+  "t": "pl. \"Próbálja ki egy másik címet\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "e.g. /Parcels/FeatureServer/0": {
   "t": "pl. / Parcels / FeatureServer / 0",
   "src": "libretranslate",
@@ -14341,6 +14575,12 @@
  },
  "Each format is one line in the result popup and the Results list. X and Y take a WKID; leave it blank for the map's coordinate system.": {
   "t": "Minden formátum egy sor az eredmény popup és az Eredmények listája. X és Y vegyen WKID; hagyja üresen a térkép koordináta rendszer.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Each if block can have only one {{else}}.": {
+  "t": "Minden ha blokk lehet csak egy {{else}}.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16435,6 +16675,12 @@
  },
  "Export to PDF": {
   "t": "Exportálás PDF-re",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export to XML": {
+  "t": "Exportálás XML- be",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18551,6 +18797,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Generic error message": {
+  "t": "Általános hibaüzenet",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Geocode": {
   "t": "Geocode",
   "src": "libretranslate",
@@ -18593,6 +18845,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Geocoding": {
+  "t": "Földkódolás",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Geocoding failed": {
   "t": "A földrajzi kódolás nem sikerült",
   "src": "libretranslate",
@@ -18616,6 +18874,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Geocoding service URL": {
+  "t": "Földkódolási szolgáltatás URL",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Geocoding Service URL": {
   "t": "Földkódolási szolgáltatás URL",
@@ -19709,6 +19973,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Header style": {
+  "t": "Fejléc",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Header Text": {
   "t": "A fejléc szövege",
   "src": "libretranslate",
@@ -19753,6 +20023,12 @@
  },
  "Heading (title)": {
   "t": "Cím (cím)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Heading / label color": {
+  "t": "Címkék / címkék színe",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19867,6 +20143,18 @@
  },
  "Helvetica (Sans-serif)": {
   "t": "Helvetica (Sans- serif)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hero subtitle field": {
+  "t": "Hős felirat mező",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hero title field": {
+  "t": "Hős címmező",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20105,6 +20393,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Highlight fill color": {
+  "t": "Kiemelés kitöltési színe",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Highlight Geometry": {
   "t": "Kiemelt geometria",
   "src": "libretranslate",
@@ -20131,6 +20425,12 @@
  },
  "Highlight outline color": {
   "t": "A vázlat színe",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Highlight outline width (pt)": {
+  "t": "Kiemelt körvonalszélesség (pt)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20615,6 +20915,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "If the address sits outside the areas this app covers, a yellow card says so and offers {tryAnother}.": {
+  "t": "Ha a cím kívül esik azokon a területeken, amelyeket ez az alkalmazás fedez, egy sárga kártya azt mondja, és kínál {tryAnother}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "If the app has Print Advanced, set a date here first: it prints whatever the map shows, so the printout carries the date.": {
   "t": "Ha az alkalmazás Print Advanced, állítsa be a dátumot itt először: kinyomtatja, amit a térkép mutat, így a kinyomtatás a dátum.",
   "src": "libretranslate",
@@ -20747,6 +21053,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Import / export": {
+  "t": "Import / export",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Import / export configuration": {
   "t": "Import / export konfiguráció",
   "src": "libretranslate",
@@ -20857,6 +21169,12 @@
  },
  "Import from file": {
   "t": "Importálás fájlból",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import from XML": {
+  "t": "Import XML-ből",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21383,6 +21701,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Insert token for field {alias}": {
+  "t": "Jelmagyarázat beszúrása mezőhöz {alias}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Inside message": {
   "t": "Belső üzenet",
   "src": "libretranslate",
@@ -21517,6 +21841,12 @@
  },
  "Interval": {
   "t": "Interval",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Intro HTML (optional)": {
+  "t": "Bevezető HTML (nem kötelező)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22327,6 +22657,12 @@
  },
  "Labels": {
   "t": "Címkék",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Labels & messages": {
+  "t": "Címkék és üzenetek",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23855,6 +24191,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Load settings from a previously exported XML file.": {
+  "t": "A beállítások betöltése egy korábban exportált XML fájlból.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Load settings from an .xml file": {
   "t": "Beállítások betöltése egy .xml fájlból",
   "src": "libretranslate",
@@ -23976,6 +24318,12 @@
   "added": "2026-10-09"
  },
  "Loading fields...": {
+  "t": "Betöltő mezők...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Loading fields…": {
   "t": "Betöltő mezők...",
   "src": "libretranslate",
   "reviewed": false,
@@ -25303,6 +25651,12 @@
  },
  "Max photo size (MB)": {
   "t": "Maximális képméret (MB)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Max recent searches to keep": {
+  "t": "Max legutóbbi keresések tartani",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -26639,6 +26993,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "New search": {
+  "t": "Új keresés",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "New traverse": {
   "t": "Új átjáró",
   "src": "libretranslate",
@@ -26809,6 +27169,12 @@
  },
  "No comments yet.": {
   "t": "Még nincs hozzászólás.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No constraint": {
+  "t": "Nincs kényszer",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -27137,6 +27503,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No list of addresses appears: you have typed fewer than three letters, or the address service is slow. Type a little more and wait a second.": {
+  "t": "Nem jelenik meg címlista: kevesebb mint három betűt gépelt, vagy a címszolgáltatás lassú. Gépelj még egy kicsit, és várj egy percet.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No map configured. The widget will still look up zones, but results will not be highlighted on a map.": {
   "t": "Nincs beállított térkép. A widget továbbra is keresni zónák, de az eredmények nem lesz kiemelve a térképen.",
   "src": "libretranslate",
@@ -27365,6 +27737,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No recognized settings were found in the file.": {
+  "t": "A fájlban nem található elismert beállítás.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No records found in selected layer": {
   "t": "Nincs bejegyzés a kiválasztott rétegben",
   "src": "libretranslate",
@@ -27559,6 +27937,12 @@
  },
  "No-result message": {
   "t": "Nem-eredmény üzenet",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No-results message": {
+  "t": "Nem-eredmények üzenet",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -28313,6 +28697,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "On phones and touch screens: larger touch targets (44px), 16px input font to prevent iOS auto-zoom when focusing the search box, full-width action buttons, thumb-reachable share menu, and tighter spacing on narrow screens. Recommended on. Turn off to keep desktop sizing everywhere.": {
+  "t": "A telefonok és érintőképernyők: nagyobb érintési célok (44px), 16px bemenet betűtípus, hogy megakadályozza az iOS auto-zoom, amikor fókuszálja a kereső doboz, teljes szélességű akciógombok, thumb- elérhető megosztási menü, és szűkebb távolság a szűk képernyők. Ajánlva. Kapcsold ki, hogy az asztali méréseket mindenhol fenntartsd.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "On select, each rule runs an intersect query and appends its HTML to the popup. Tokens:": {
   "t": "A kiválasztáskor minden szabály futtat egy intersect lekérdezést, és csatolja a HTML-t a megjelenítéshez. Tokens:",
   "src": "libretranslate",
@@ -28375,6 +28765,12 @@
  },
  "On the map": {
   "t": "A térképen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On the map, a red dot marks the address and the matching area is shaded.": {
+  "t": "A térképen egy piros pont jelzi a címet, és a megfelelő terület árnyékolt.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -28925,6 +29321,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Optimize for iframe": {
+  "t": "Optimalizálás iframe",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Optimize for mobile": {
+  "t": "Optimalizálás mobilhoz",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "optional": {
   "t": "választható",
   "src": "libretranslate",
@@ -28997,8 +29405,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Optional. Override the theme accent and heading colors used in the top UI (label, icons, \"Use my location\", focus rings). Leave blank to inherit from the page theme.": {
+  "t": "Nem kötelező. Felülírja a téma akcentus és irányszínek használt felső UI (címke, ikonok, \"Használja a helyét\", fókusz gyűrűk). Hagyjuk üresen, hogy örökölje az oldal téma.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Optional. Overrides the title field. The identified feature is available as $feature.": {
   "t": "Nem kötelező. Felülírja a címmezőt. Az azonosított funkció $funkcióként érhető el.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Optional. Pick a field to render as a big colored badge at the top of the result card, plus an optional subtitle underneath. Leave both blank to skip the hero and use only the HTML template.": {
+  "t": "Nem kötelező. Válasszon egy mezőt, hogy egy nagy színű jelvény tetején az eredmény kártya, plusz egy opcionális felirat alatta. Hagyja, hogy mindkét üres, hogy hagyja ki a hős, és csak a HTML sablon.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -29279,6 +29699,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Outside service area message": {
+  "t": "A szolgáltatás területén kívüli üzenet",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Outside the current map scale": {
   "t": "Az aktuális térképskálán kívül",
   "src": "libretranslate",
@@ -29299,6 +29725,18 @@
  },
  "outside this coordinate system's area": {
   "t": "a koordináta-rendszer területén kívül",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Outside-area heading": {
+  "t": "Külső terület",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Outside-area retry button label": {
+  "t": "Külsõ területû visszaállítás gomb címke",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -30257,6 +30695,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Picking an address from the list is more reliable than typing the whole address and pressing Enter.": {
+  "t": "Egy cím kiválasztása a listáról megbízhatóbb, mint az egész cím beírása és az Enter megnyomása.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Pictometry asks you to sign in: the Pictometry viewer needs its own account. Ask whoever built this app if you should have one.": {
   "t": "A piktometria arra kéri Önt, hogy jelentkezzen be: a Pictometry nézőnek saját számlára van szüksége. Kérdezd meg, ki építette ezt az appot, hogy kell-e.",
   "src": "libretranslate",
@@ -30407,8 +30851,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Placeholder heading (before search)": {
+  "t": "Helyettesítő irány (keresés előtt)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Placeholder message (before search)": {
+  "t": "Helyettesítő üzenet (keresés előtt)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Placement": {
   "t": "Elhelyezés",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Plain (intro as ordinary text)": {
+  "t": "Sima (bevezető, mint szokásos szöveg)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -31513,6 +31975,12 @@
  },
  "Primary": {
   "t": "Elsődleges",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Primary brand color": {
+  "t": "Elsődleges márkaszín",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -33215,6 +33683,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Reset button label": {
+  "t": "A gomb újraindítása",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reset button tooltip": {
+  "t": "A gomb visszaállítása",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Reset Default Area Units": {
   "t": "Alapértelmezett területi egységek újraindítása",
   "src": "libretranslate",
@@ -33295,6 +33775,12 @@
  },
  "Reset to layout grid": {
   "t": "Elosztási rács újraindítása",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reset to theme": {
+  "t": "A téma újraindítása",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -33443,6 +33929,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Result hero": {
+  "t": "Eredmény hős",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Result HTML template": {
+  "t": "HTML- sablon",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Result navigation": {
   "t": "Eredménynavigáció",
   "src": "libretranslate",
@@ -33461,6 +33959,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Result template": {
+  "t": "Eredménysablon",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Results": {
   "t": "Eredmények",
   "src": "libretranslate",
@@ -33469,6 +33973,12 @@
  },
  "Results found:": {
   "t": "Eredmények:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Results found.": {
+  "t": "Megvan az eredmény.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -34099,6 +34609,12 @@
  },
  "Save the traverse lines, points, and closed parcel polygon to the configured layers": {
   "t": "Mentse a keresztirányú vonalak, pontok, és zárt csomag sokszög a konfigurált rétegek",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Save these settings as an XML file or load them from a previously exported file. The map widget and zone layer references stay app-specific and need to be re-selected after importing.": {
+  "t": "Mentse ezeket a beállításokat XML fájlként, vagy töltse ki őket egy korábban kivitt fájlból. A térkép widget és zóna réteg hivatkozások marad app- specific, és újra kell választani importálás után.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -35111,6 +35627,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Select a map widget": {
+  "t": "Válassza ki a térkép grafikonját",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select a Map widget": {
   "t": "Válasszon ki egy térképelemet",
   "src": "libretranslate",
@@ -35179,6 +35701,12 @@
  },
  "Select a widget...": {
   "t": "Válassza ki a widget...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select a zone layer above to see its fields.": {
+  "t": "Válassza ki a fenti zónaréteget a mezők megtekintéséhez.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -35533,6 +36061,12 @@
  },
  "Select the widget controller containing Mailing Labels": {
   "t": "Válassza ki a levelezési címkéket tartalmazó widget vezérlőt",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select the zone layer": {
+  "t": "Válassza ki a zóna réteget",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -36143,6 +36677,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Share email subject line": {
+  "t": "E-mail címsor megosztása",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Share options": {
   "t": "Megosztás opciók",
   "src": "libretranslate",
@@ -36209,6 +36749,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show \"Click map\" mode toggle": {
+  "t": "A \"Kattintson a térképre\" mód megjelenítése",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show \"Show print area\" toggle": {
   "t": "A nyomtatási terület megjelenítése",
   "src": "libretranslate",
@@ -36217,6 +36763,12 @@
  },
  "Show \"Use current location\"": {
   "t": "\"A jelenlegi hely használata\" megjelenítése",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show \"Use my location\" button": {
+  "t": "A \"Használja a helyemet\" gomb megjelenítése",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -36869,8 +37421,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show Print button on result": {
+  "t": "Nyomtatási gomb megjelenítése az eredménynél",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show Related Table Summaries": {
   "t": "A kapcsolódó táblázati összefoglalók megjelenítése",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show reset button": {
+  "t": "A visszaállítás gomb megjelenítése",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -36913,6 +37477,12 @@
  },
  "Show Segment Labels": {
   "t": "A szegmentációs címkék megjelenítése",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show Share button on result": {
+  "t": "Megosztás gomb megjelenítése az eredménynél",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -37123,6 +37693,12 @@
  },
  "Showing only": {
   "t": "Csak megjelenítése",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Shown above the address input. Plain HTML.": {
+  "t": "A címbevitel felett látható. Egyszerű HTML.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -38555,6 +39131,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Still stuck? Contact the GIS Division and mention the Zone Lookup widget and this app.": {
+  "t": "Még mindig? Lépjen kapcsolatba a FIS Division, és említse a Zone Lookup widget és ezt az alkalmazást.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Still stuck? Contact your GIS team and mention the Draw Advanced widget and this app.": {
   "t": "Még mindig? Lépjen kapcsolatba a SIG csapattal, és említse meg a Draw Advanced widget-et és ezt az alkalmazást.",
   "src": "libretranslate",
@@ -38785,6 +39367,12 @@
  },
  "Submit button label": {
   "t": "Adja meg a gomb címkéjét",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Submit button tooltip": {
+  "t": "Gombelövés",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -39755,6 +40343,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The answer says the address is outside the area: that address is not in the areas this app covers. Check the address, then use the phone number or contact shown on the card.": {
+  "t": "A válasz szerint a cím a területen kívül van: ez a cím nem azon a területen van, ahol az alkalmazás található. Ellenőrizze a címet, majd használja a telefonszámot vagy kapcsolatot látható a kártyán.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The area as stated on the deed or record document, saved alongside the calculated area": {
   "t": "Az okmányon vagy az okmányon feltüntetett terület, a számított terület mellett mentve",
   "src": "libretranslate",
@@ -39887,8 +40481,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The card stays empty after a long wait: the address service or the area layer did not answer. Reload the page and try again.": {
+  "t": "A kártya hosszú várakozás után üres marad: a címszolgáltatás vagy a területi réteg nem válaszolt. Újratölti az oldalt, és próbálja újra.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The closure error was distributed proportionally along each boundary line (Bowditch compass rule); your entered values are kept as records": {
   "t": "A lezárási hiba arányosan oszlott el az egyes határvonalak mentén (Bowditch iránytű szabály); a megadott értékeket nyilvántartásként őrzik",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The colored bar at the top of the card is the short answer, such as the area name and the date.": {
+  "t": "A színes sáv a lap tetején a rövid válasz, mint például a terület neve és a dátum.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -40349,6 +40955,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The map where the address pin and zone highlight are drawn. Optional : the widget still returns results without a map.": {
+  "t": "A térkép, ahol a címtábla és a zóna kiemelése van rajzolva. Opcionális: a widget még mindig téríti vissza az eredményeket térkép nélkül.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The Map widget this Parcel Drafter works against": {
   "t": "A térkép widget ez Parcel Drafter ellen dolgozik",
   "src": "libretranslate",
@@ -40517,6 +41129,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The polygon feature layer that holds the zones.": {
+  "t": "A sokszög réteg tartja a zónákat.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The presenter window does not open: the browser blocked a pop up. Allow pop ups for this site and press W again.": {
   "t": "A presenter ablak nem nyílik meg: a böngésző blokkolja a felugrást. Hagyja felugrani ezt az oldalt, és nyomja meg újra W.",
   "src": "libretranslate",
@@ -40547,6 +41165,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The printout shows the whole page: the print window was opened from the browser menu. Use the {name} button on the answer card instead.": {
+  "t": "A nyomtatás az egész oldalt mutatja: a nyomtatási ablak a böngésző menüjéből lett megnyitva. A {name} gomb helyett a válaszkártyán.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The projection engine supports this WKID.": {
   "t": "A kivetítő motor támogatja ezt a WKID-t.",
   "src": "libretranslate",
@@ -40570,6 +41194,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The rest of the card gives the details for the address you looked up.": {
+  "t": "A kártya többi része megadja a keresett cím részleteit.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The result layout could not be read. Please contact the app administrator.": {
   "t": "Az eredmény elrendezését nem sikerült leolvasni. Kérjük, lépjen kapcsolatba az alkalmazás adminisztrátorával.",
@@ -41167,6 +41797,12 @@
  },
  "This field is required for generating labels": {
   "t": "Ez a mező szükséges a címkék létrehozásához",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "This guide follows the app: it only describes the buttons this app is showing you.": {
+  "t": "Ez az útmutató követi az alkalmazást: csak azokat a gombokat írja le, amelyeket ez az alkalmazás mutat.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -43463,6 +44099,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Use {{#if FIELD_NAME}}, {{else}}, and {{/if}}. Field names may contain letters, numbers, and underscores and may not start with a number. Close each directive with two braces.": {
+  "t": "{{# if FIELD _ NAME}, {{else}és ha. A mezőnevek tartalmazhatnak betűket, számokat és aláhúzásokat, és nem kezdhetnek számokkal. Zárjon le minden irányelvet két fogszabályzóval.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use {{#if FIELD_NAME}}...{{else}}...{{/if}} to choose text when a field is populated or empty. Missing, null, empty, and whitespace-only values use the else branch. Zero and false count as populated. This is template syntax, not Arcade.": {
+  "t": "{{# if FIELD _ NAME}}... {{else}Válassza ki a szöveget, ha egy mező lakott vagy üres. Hiányzó, nullás, üres, és fehér, csak értékek használja a másik ág. Nulla és hamis népességnek számít. Ez sablon szintaxis, nem Arcade.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use {FIELD_NAME} to insert a field value. Field names ignore capitalization, and values are HTML-escaped. Date fields use long English dates in UTC.": {
+  "t": "Felhasználás {FIELD_NAME} a mező értékének beszúrása. A mezőnevek figyelmen kívül hagyják a kapitalizációt, és az értékek HTML- mentesek. Date mezők használ hosszú angol dátumok UTC.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Use {fieldName} placeholders from the added data.": {
   "t": "Felhasználás {fieldName} a placeables a hozzáadott adatokból.",
   "src": "libretranslate",
@@ -43591,6 +44245,12 @@
  },
  "Use My Location": {
   "t": "A Hely használata",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use no more than 64 nested if blocks.": {
+  "t": "Legfeljebb 64 fészket használjon, ha blokkok vannak benne.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -45011,6 +45671,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Widget fills its parent’s height and stretches the result card to remove void space below. Use when embedding as a fixed-size iframe.": {
+  "t": "A Widget betölti szülőjének a magasságát, és kiterjeszti az eredménykártyát, hogy eltávolítsa az üres helyet. Használata fix méretű iframe.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Widget functions": {
   "t": "Widget függvények",
   "src": "libretranslate",
@@ -45533,6 +46199,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Your address is not in the list: the house number or the spelling may be slightly off. Try the street name on its own, then pick the right one from the list.": {
+  "t": "Az Ön címe nem szerepel a listán: a házszám vagy a helyesírás kissé elmarad. Próbáld meg az utcanevet egyedül, aztán válassz egyet a listáról.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Your basemap, map extent, and layer data stay the same. The comparison uses temporary layer copies.": {
   "t": "A bázis, a térkép kiterjedése, és a réteg adatok ugyanazok maradnak. Az összehasonlítás ideiglenes rétegmásolatokat használ.",
   "src": "libretranslate",
@@ -45563,6 +46235,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Your last few addresses are listed under \"{recent}\" when the box is empty.": {
+  "t": "Az utolsó néhány címed a \"{recent}\"amikor a doboz üres.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Your location could not be determined right now.": {
   "t": "A helyzeted jelenleg nem meghatározható.",
   "src": "libretranslate",
@@ -45577,6 +46255,12 @@
  },
  "Your measurement choices are remembered in this browser. Reset Measurement Defaults puts them back.": {
   "t": "Az Ön mérési lehetőségeire ebben a böngészőben emlékezünk. Az alapértelmezések újraindítása visszaállítja őket.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Your recent addresses": {
+  "t": "A legutóbbi címei",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -45671,6 +46355,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Zone layer": {
+  "t": "Övezet réteg",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zone layer extent": {
+  "t": "Övezet-réteg kiterjedése",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Zone Lookup": {
   "t": "Zone Lookup",
   "src": "libretranslate",
@@ -45727,6 +46423,12 @@
  },
  "Zoom is the map's zoom level. A bigger number means the map is zoomed in closer.": {
   "t": "A zoom a térkép zoom szintje. A nagyobb szám azt jelenti, hogy a térkép közelebb van.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zoom level after lookup": {
+  "t": "Nagyítási szint a keresés után",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"

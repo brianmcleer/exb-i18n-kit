@@ -239,6 +239,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "\"{name}\" does nothing: your browser is blocking location access. Allow location for this page in your browser settings, or type the address instead.": {
+  "t": "\"{name}\"لا شيء، مركبك يحجب الوصول إلى الموقع\" إسمحْ للموقعِ لهذه الصفحةِ في بَعْضاتِكَ، أَو يَطْبعُ العنوانَ بدلاً مِنْ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "\"{name}\" is greyed out: the widget has no map to click, or the map is still loading. Type the address instead.": {
+  "t": "\"{name}لا توجد خريطة للنقر، أو الخريطة لا تزال تحمل. اطبع العنوان بدلاً من ذلك",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "\"All\" placeholder": {
   "t": "\"جميع\" مالك مكان",
   "src": "libretranslate",
@@ -359,6 +371,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{{#if Municipality}}\n  <p>Incorporated {Municipality}</p>\n{{else}}\n  <p>Unincorporated {Township} Township</p>\n{{/if}}": {
+  "t": "{# If Municipality}} <Incorporated {Municipality}/ / / {{else}? <Unincorpor {Township} Township/p> { {/ }",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{activeLabel}: a check mark and border show the basemap being used.": {
   "t": "{activeLabel}: a check mark and border show the basemap being used.",
   "src": "libretranslate",
@@ -385,6 +403,12 @@
  },
  "{address}": {
   "t": "{address}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{alias} ({type}) : click to insert": {
+  "t": "{alias} )أ({type}نقر على ما يلي:",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -517,6 +541,12 @@
  },
  "{circle}: click the center, then click again to set the size.": {
   "t": "{circle}نقر المركز، ثم نقر مرة أخرى لتحديد الحجم.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{clear} removes that list from this browser. The list is only on your own computer, and nobody else sees it.": {
+  "t": "{clear} يزيل تلك القائمة من هذا المستنقع القائمة على الكمبيوتر الخاص بك فقط، ولا أحد آخر يرى ذلك.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1265,8 +1295,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{name}: opens a small menu with Copy link, Email and Text message.": {
+  "t": "{name}: يفتح قائمة صغيرة مع وصلة النسخ، البريد الإلكتروني ورسالة النص.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{name}: photos taken from the street, as if you were standing there.": {
   "t": "{name}صور ملتقطة من الشارع كما لو كنت واقفا هناك",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{name}: prints the answer card on its own, not the whole page.": {
+  "t": "{name}يطبع بطاقة الإجابة لوحدها وليس الصفحة بأكملها",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2771,6 +2813,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "A REST URL to a GeocodeServer. Defaults to the ArcGIS World Geocoder. Use an internal composite locator if available.": {
+  "t": "A REST URL to a GeocodeServer. Defaults to the ArcGIS World Geocoder. استخدموا موقعاً مركباً داخلياً إذا كان متاحاً",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A rule says which field from your data fills which field in the layer.": {
   "t": "قاعدة تقول أي ميدان من بياناتك يملأ أي ميدان في الطبقة",
   "src": "libretranslate",
@@ -3121,6 +3169,12 @@
  },
  "Add a \"Show only this layer\" action": {
   "t": "أضف \"أعرض فقط هذه الطبقة\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add a closing {{/if}} for every opening if block.": {
+  "t": "أضف {/ } } { } { } { { } { } لكل فتحة إذا كُلّت.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3821,6 +3875,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Address input label": {
+  "t": "بطاقة بيانات",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address input placeholder": {
+  "t": "عامل مدخل",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address input tooltip": {
+  "t": "أداة مدخلات العنوان",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Address Inspection Failed": {
   "t": "العنوان الفاشل",
   "src": "libretranslate",
@@ -3859,6 +3931,12 @@
  },
  "Address lookup failed.": {
   "t": "المشاهدة فشلت",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address lookup results. Swipe up or down to scroll.": {
+  "t": "نتائج البحث انحنوا أو انحنوا",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4745,8 +4823,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "An {{else}} needs an opening {{#if FIELD_NAME}}.": {
+  "t": "A {{else}{يحتاج إلى فتح } {إذا فيلد NAME}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "an address": {
   "t": "عنوان",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "An address right on the edge of an area still matches. The widget looks a short distance around the point.": {
+  "t": "عنوان على حافة المنطقة لا يزال مطابقاً النسيج يبدو مسافة قصيرة حول النقطة",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5321,6 +5411,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "At the top of the answer card you get {actions}.": {
+  "t": "في أعلى بطاقة الإجابة تحصل على {actions}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Attach a photo": {
   "t": "التقط صورة",
   "src": "libretranslate",
@@ -5587,6 +5683,12 @@
  },
  "available": {
   "t": "متاح",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Available fields": {
+  "t": "الميادين المتاحة",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5899,6 +6001,12 @@
  },
  "Badges on a card or in the Activity column: {badges}.": {
   "t": "بادجس على بطاقة أو في عمود النشاط: {badges}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Banner (colored band with optional title)": {
+  "t": "Banner (colored band with optional title)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6521,6 +6629,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Brand colors": {
+  "t": "ألوان براند",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Breakpoint (px)": {
   "t": "نقطة التفريغ (بالحد الأقصى)",
   "src": "libretranslate",
@@ -6797,6 +6911,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Buttons on the answer card": {
+  "t": "بوتون على بطاقة الإجابة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "buttons to back up and restore your drawings.": {
   "t": "أزرار للتراجع واستعادة رسوماتك",
   "src": "libretranslate",
@@ -6829,6 +6949,12 @@
  },
  "Call {join}": {
   "t": "اتصل {join}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Call {part}": {
+  "t": "اتصل {part}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7492,6 +7618,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Check the result template:": {
+  "t": "تحقق من نموذج النتيجة:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Checked {rows} rows, {warnings} warnings": {
   "t": "تم التحقق منها {rows} الصفوف {warnings} الإنذارات",
@@ -8351,6 +8483,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Clearing your browser data also clears your recent addresses.": {
+  "t": "تصفية بياناتك أيضاً توضح عناوينك الأخيرة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Clearing your browser data removes saved views. Export them first if you want to keep them.": {
   "t": "تصفية بياناتك تزيل الآراء المنقذة تصديرهم أولاً إذا أردت الاحتفاظ بهم",
   "src": "libretranslate",
@@ -8701,6 +8839,12 @@
  },
  "Click one of the tool buttons at the top, such as {distance} or {area}.": {
   "t": "إضغط على أحد أزرار الأدوات في الأعلى، مثل {distance} أو {area}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click one to look it up again.": {
+  "t": "اضغطي واحدة لتبحثي عنها مجدداً",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9196,6 +9340,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Close results and search another address": {
+  "t": "تُغلق النتائج وتبحث عن عنوان آخر",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Close selection mode picker": {
   "t": "جهاز اختيار قريب",
@@ -9887,6 +10037,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Conditional template example": {
+  "t": "نموذج تقليدي",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Configuration": {
   "t": "الاتحاد",
   "src": "libretranslate",
@@ -9910,6 +10066,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Configuration imported successfully.": {
+  "t": "تم استيراد الإتحاد بنجاح",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Configuration imported.": {
   "t": "المصادرة المستوردة",
@@ -10222,6 +10384,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Constrain search to": {
+  "t": "تفتيش الكونسترين",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Contact": {
   "t": "الاتصال",
@@ -10739,6 +10907,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copy link does nothing: this browser does not allow copying from a page. Copy the address out of the box by hand instead.": {
+  "t": "وصلة النسخ لا تفعل شيئاً هذا المصفح لا يسمح بالنسخ من صفحة عُلم العنوان من الصندوق باليد بدلاً من ذلك",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copy link or Copy XML says it could not copy: the browser blocked the clipboard. Use Download XML, or copy the address bar after the page updates.": {
   "t": "وصلة النسخ أو نسخة XML يقول أنه لا يمكن نسخ: استخدمي حمولة \"إكس إم إل\" أو نسخي شريط العنوان بعد تحديث الصفحة",
   "src": "libretranslate",
@@ -10945,6 +11119,12 @@
  },
  "Could not read the dates from the layers. The range shown is a guess; the builder can set it.": {
   "t": "لا يمكن قراءة التواريخ من الطبقات المدى الموضح هو تخمين، يمكن للبنّاء أن يضعه.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not read the file. Make sure it is a valid Zone Lookup XML export.": {
+  "t": "لم أستطع قراءة الملف تأكد من أن تكون منطقة صالحة للبحث عن تصدير (إكس إم إل)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11233,6 +11413,12 @@
  },
  "Current configuration as XML (read only)": {
   "t": "التكوين الحالي كرمز XML (القراءة فقط)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Current map extent": {
+  "t": "نطاق الخريطة الحالي",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13481,6 +13667,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Download these settings as an XML file.": {
+  "t": "تحميل هذه الأماكن كملف من طراز XML.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Download unmatched": {
   "t": "تحميل غير مطابق",
   "src": "libretranslate",
@@ -14171,6 +14363,42 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "e.g. \"Address is outside the service area\"": {
+  "t": "على سبيل المثال، \"ألبسة خارج منطقة الخدمة\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Enter an address above to see your results.\"": {
+  "t": "على سبيل المثال \"بعد عنوان من هنا لرؤية نتائجك\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Find your area\"": {
+  "t": "على سبيل المثال \"أغلق منطقتك\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Find your pickup area\"": {
+  "t": "على سبيل المثال \"أغلقوا منطقة التقاطكم\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Lookup results\"": {
+  "t": "على سبيل المثال \"نتائج البحث\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Try another address\"": {
+  "t": "على سبيل المثال \"جرب عنوان آخر\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "e.g. /Parcels/FeatureServer/0": {
   "t": "e.g. /Parcels/FeatureServer/0",
   "src": "libretranslate",
@@ -14341,6 +14569,12 @@
  },
  "Each format is one line in the result popup and the Results list. X and Y take a WKID; leave it blank for the map's coordinate system.": {
   "t": "وكل شكل من أشكاله هو خط واحد في النتائج وقائمة النتائج. (إكس) و(ي) خذوا (واي كيد) وتركوه فارغاً لنظام تنسيق الخريطة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Each if block can have only one {{else}}.": {
+  "t": "كُلّ إذا كتلة يُمْكِنُ أَنْ يَكُونَ عِنْدَهُ فقط واحد {{else}}.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16435,6 +16669,12 @@
  },
  "Export to PDF": {
   "t": "Export to PDF",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export to XML": {
+  "t": "Export to XML",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18551,6 +18791,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Generic error message": {
+  "t": "رسالة الخطأ العام",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Geocode": {
   "t": "Geocode",
   "src": "libretranslate",
@@ -18593,6 +18839,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Geocoding": {
+  "t": "Geocoding",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Geocoding failed": {
   "t": "باء - فشل التصنيف الجغرافي",
   "src": "libretranslate",
@@ -18616,6 +18868,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Geocoding service URL": {
+  "t": "خدمة الترميز الجغرافي",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Geocoding Service URL": {
   "t": "دائرة الترميز الجغرافي",
@@ -19709,6 +19967,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Header style": {
+  "t": "أسلوب الرأس",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Header Text": {
   "t": "المنسِّق الرئيسي",
   "src": "libretranslate",
@@ -19753,6 +20017,12 @@
  },
  "Heading (title)": {
   "t": "العنوان (الترجمة)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Heading / label color": {
+  "t": "العنوان/ لون العلامة",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19867,6 +20137,18 @@
  },
  "Helvetica (Sans-serif)": {
   "t": "Helvetica (Sans-serif)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hero subtitle field": {
+  "t": "ترجمة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hero title field": {
+  "t": "حقل اللقب الكهربائي",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20105,6 +20387,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Highlight fill color": {
+  "t": "اللون المرتفع",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Highlight Geometry": {
   "t": "Highlight Geometry",
   "src": "libretranslate",
@@ -20131,6 +20419,12 @@
  },
  "Highlight outline color": {
   "t": "لون المخطط",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Highlight outline width (pt)": {
+  "t": "عرض موجز للخطوط العريضة",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20615,6 +20909,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "If the address sits outside the areas this app covers, a yellow card says so and offers {tryAnother}.": {
+  "t": "إذا كان العنوان يجلس خارج المناطق التي يغطيها هذا التطبيق، بطاقة صفراء تقول ذلك وعرض {tryAnother}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "If the app has Print Advanced, set a date here first: it prints whatever the map shows, so the printout carries the date.": {
   "t": "إذا كان التطبيق قد تقدم مطبوعاً، حدد موعداً هنا أولاً، يطبع أيّاً كان ما تظهره الخريطة،",
   "src": "libretranslate",
@@ -20747,6 +21047,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Import / export": {
+  "t": "الواردات/الصادرات",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Import / export configuration": {
   "t": "تشكيلة الواردات/الصادرات",
   "src": "libretranslate",
@@ -20857,6 +21163,12 @@
  },
  "Import from file": {
   "t": "الواردات من الملف",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import from XML": {
+  "t": "استيراد من طراز XML",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21383,6 +21695,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Insert token for field {alias}": {
+  "t": "Insert token for field {alias}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Inside message": {
   "t": "رسالة داخلية",
   "src": "libretranslate",
@@ -21517,6 +21835,12 @@
  },
  "Interval": {
   "t": "الفترات الفاصلة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Intro HTML (optional)": {
+  "t": "Intro HTML (optional)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22327,6 +22651,12 @@
  },
  "Labels": {
   "t": "Labels",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Labels & messages": {
+  "t": "رسائل لابلز",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23855,6 +24185,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Load settings from a previously exported XML file.": {
+  "t": "Load settings from a previously exported XML file.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Load settings from an .xml file": {
   "t": "لواد من ملف اكسميل",
   "src": "libretranslate",
@@ -23976,6 +24312,12 @@
   "added": "2026-10-09"
  },
  "Loading fields...": {
+  "t": "حقول الضغط",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Loading fields…": {
   "t": "حقول الضغط",
   "src": "libretranslate",
   "reviewed": false,
@@ -25303,6 +25645,12 @@
  },
  "Max photo size (MB)": {
   "t": "الحد الأقصى لحجم الصور",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Max recent searches to keep": {
+  "t": "(ماكس) البحث الأخير",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -26639,6 +26987,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "New search": {
+  "t": "البحث الجديد",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "New traverse": {
   "t": "مسار جديد",
   "src": "libretranslate",
@@ -26809,6 +27163,12 @@
  },
  "No comments yet.": {
   "t": "لا تعليقات بعد",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No constraint": {
+  "t": "لا قيود",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -27137,6 +27497,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No list of addresses appears: you have typed fewer than three letters, or the address service is slow. Type a little more and wait a second.": {
+  "t": "لا توجد قائمة بالعناوين: لقد كتبت أقل من ثلاث رسائل، أو أن خدمة العنوان بطيئة. جهز أكثر قليلا وانتظر ثانية",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No map configured. The widget will still look up zones, but results will not be highlighted on a map.": {
   "t": "لا توجد خريطة تم تشكيلها ستبحث النواة عن المناطق لكن لن يتم إبراز النتائج على الخريطة",
   "src": "libretranslate",
@@ -27365,6 +27731,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No recognized settings were found in the file.": {
+  "t": "No recognized settings were found in the file.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No records found in selected layer": {
   "t": "لا توجد سجلات في طبقة مختارة",
   "src": "libretranslate",
@@ -27559,6 +27931,12 @@
  },
  "No-result message": {
   "t": "رسالة لا ترد",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No-results message": {
+  "t": "رسالة لا نتائج",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -28313,6 +28691,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "On phones and touch screens: larger touch targets (44px), 16px input font to prevent iOS auto-zoom when focusing the search box, full-width action buttons, thumb-reachable share menu, and tighter spacing on narrow screens. Recommended on. Turn off to keep desktop sizing everywhere.": {
+  "t": "On phones and touch screens: larger touch targets (44px), 16px input font to prevent iOS auto-zoom when focusing the search box, full-width action blues, thumb-reachable menu, and tighter spacing on narrow screens. أوصي به أطفأوا للإبقاء على التنظيف المكتبي في كل مكان",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "On select, each rule runs an intersect query and appends its HTML to the popup. Tokens:": {
   "t": "وعند الاختيار، تجري كل قاعدة استفساراً متقاطعاً وتذييل جهازها الآلي إلى البابا. Tokens:",
   "src": "libretranslate",
@@ -28375,6 +28759,12 @@
  },
  "On the map": {
   "t": "على الخريطة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On the map, a red dot marks the address and the matching area is shaded.": {
+  "t": "على الخريطة، نقطة حمراء ترمز إلى العنوان والمنطقة المطابقة مظلة.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -28925,6 +29315,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Optimize for iframe": {
+  "t": "الاستخدام الأمثل للحاسب الآلي",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Optimize for mobile": {
+  "t": "الاستخدام الأمثل للهواتف النقالة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "optional": {
   "t": "اختياري",
   "src": "libretranslate",
@@ -28997,8 +29399,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Optional. Override the theme accent and heading colors used in the top UI (label, icons, \"Use my location\", focus rings). Leave blank to inherit from the page theme.": {
+  "t": "اختياري تخطي اللكنة الموضوعية وألوان العناوين المُستخدمة في أعلى الأوّل (بل، إيكونز، \"استخدم موقعي\" إتركْ فارغاً للإرث مِنْ الموضوعِ الصفحةِ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Optional. Overrides the title field. The identified feature is available as $feature.": {
   "t": "اختياري يتخطى حقل العنوان والسمة المحددة متاحة على أنها ميزات.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Optional. Pick a field to render as a big colored badge at the top of the result card, plus an optional subtitle underneath. Leave both blank to skip the hero and use only the HTML template.": {
+  "t": "اختياري اختر حقل لتجعله شارة ملونة كبيرة على قمة بطاقة النتائج بالإضافة إلى عنوان فرعي اختياري تحته إتركْ كلا فارغَ لتَرْك البطلِ وإستعملْ فقط نموذج HTML.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -29279,6 +29693,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Outside service area message": {
+  "t": "رسالة خارج منطقة الخدمة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Outside the current map scale": {
   "t": "خارج جدول الخرائط الحالي",
   "src": "libretranslate",
@@ -29299,6 +29719,18 @@
  },
  "outside this coordinate system's area": {
   "t": "خارج منطقة النظام",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Outside-area heading": {
+  "t": "خارج المنطقة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Outside-area retry button label": {
+  "t": "العلامة الخارجية",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -30257,6 +30689,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Picking an address from the list is more reliable than typing the whole address and pressing Enter.": {
+  "t": "إن اختيار عنوان من القائمة أكثر موثوقية من تحديد العنوان بأكمله وإلحاح الدخول.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Pictometry asks you to sign in: the Pictometry viewer needs its own account. Ask whoever built this app if you should have one.": {
   "t": "الكيمياء تطلب منك أن توقع على المشاهد يحتاج إلى حسابه الخاص إسألي من بنى هذا التطبيق إن كان عليكِ الحصول على واحدة",
   "src": "libretranslate",
@@ -30407,8 +30845,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Placeholder heading (before search)": {
+  "t": "محلل متجه (قبل البحث)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Placeholder message (before search)": {
+  "t": "رسالة حاملة الأماكن (قبل البحث)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Placement": {
   "t": "التنسيب",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Plain (intro as ordinary text)": {
+  "t": "بلين (في النص العادي)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -31513,6 +31969,12 @@
  },
  "Primary": {
   "t": "الابتدائي",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Primary brand color": {
+  "t": "لون العلامة التجارية",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -33215,6 +33677,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Reset button label": {
+  "t": "علامة الزر",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reset button tooltip": {
+  "t": "أداة إعادة الزر",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Reset Default Area Units": {
   "t": "وحدات المنطقة الافتراضية",
   "src": "libretranslate",
@@ -33295,6 +33769,12 @@
  },
  "Reset to layout grid": {
   "t": "إعادة تصميم الشبكة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reset to theme": {
+  "t": "إعادة تحديد الموضوع",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -33443,6 +33923,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Result hero": {
+  "t": "بطل النتائج",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Result HTML template": {
+  "t": "النموذج الترددي HTML",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Result navigation": {
   "t": "الملاحة",
   "src": "libretranslate",
@@ -33461,6 +33953,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Result template": {
+  "t": "نموذج النتائج",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Results": {
   "t": "النتائج",
   "src": "libretranslate",
@@ -33469,6 +33967,12 @@
  },
  "Results found:": {
   "t": "النتائج وجدت:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Results found.": {
+  "t": "النتائج وجدت",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -34099,6 +34603,12 @@
  },
  "Save the traverse lines, points, and closed parcel polygon to the configured layers": {
   "t": "انقذوا الخطوط المتناظرة والنقاط و البوليجون المغلق على الطبقات المكوّنة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Save these settings as an XML file or load them from a previously exported file. The map widget and zone layer references stay app-specific and need to be re-selected after importing.": {
+  "t": "وفّر هذه الأماكن كملف من طراز XML أو تحميلها من ملف سبق تصديره. وتظل مراجع نظام الخرائط وطبقة المناطق محددة التطبيق، ويلزم إعادة انتخابها بعد استيرادها.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -35111,6 +35621,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Select a map widget": {
+  "t": "إختاروا خريطة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select a Map widget": {
   "t": "اختيار خريطة",
   "src": "libretranslate",
@@ -35179,6 +35695,12 @@
  },
  "Select a widget...": {
   "t": "...اختاروا واقي",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select a zone layer above to see its fields.": {
+  "t": "اختيار طبقة منطقة فوق لرؤية حقولها.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -35533,6 +36055,12 @@
  },
  "Select the widget controller containing Mailing Labels": {
   "t": "(اختاروا جهاز التحكم بالألوان المحتوي على (مايلينج لابلز",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select the zone layer": {
+  "t": "اختيار طبقة المنطقة",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -36143,6 +36671,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Share email subject line": {
+  "t": "Sharemail subject line",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Share options": {
   "t": "خيارات الحصة",
   "src": "libretranslate",
@@ -36209,6 +36743,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show \"Click map\" mode toggle": {
+  "t": "اظهري \"الخريطه\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show \"Show print area\" toggle": {
   "t": "اظهروا \"منطقة طباعة شاو\"",
   "src": "libretranslate",
@@ -36217,6 +36757,12 @@
  },
  "Show \"Use current location\"": {
   "t": "اظهر \"استخدم الموقع الحالي\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show \"Use my location\" button": {
+  "t": "اظهر زر \"استخدم موقعي\"",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -36869,8 +37415,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show Print button on result": {
+  "t": "الزر المطبوع على النتيجة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show Related Table Summaries": {
   "t": "موجزات الجدول ذات الصلة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show reset button": {
+  "t": "اظهر زر إعادة التشغيل",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -36913,6 +37471,12 @@
  },
  "Show Segment Labels": {
   "t": "Segment Labels",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show Share button on result": {
+  "t": "اعرض زر التشارك على النتيجة",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -37123,6 +37687,12 @@
  },
  "Showing only": {
   "t": "تظهر فقط",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Shown above the address input. Plain HTML.": {
+  "t": "تظهر فوق مدخل العنوان (بلان هيل)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -38555,6 +39125,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Still stuck? Contact the GIS Division and mention the Zone Lookup widget and this app.": {
+  "t": "لا تزال عالقة؟ اتصلي بشعبة نظام المعلومات الجغرافية و تذكري شبكة البحث عن المنطقة وهذا التطبيق",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Still stuck? Contact your GIS team and mention the Draw Advanced widget and this app.": {
   "t": "لا تزال عالقة؟ اتصلي بفريق نظام المعلومات الجغرافية الخاص بك و تذكري الطبق المتقدم وهذا التطبيق",
   "src": "libretranslate",
@@ -38785,6 +39361,12 @@
  },
  "Submit button label": {
   "t": "علامة الزر",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Submit button tooltip": {
+  "t": "أداة الزر",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -39755,6 +40337,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The answer says the address is outside the area: that address is not in the areas this app covers. Check the address, then use the phone number or contact shown on the card.": {
+  "t": "والجواب يقول إن العنوان خارج المنطقة: ذلك العنوان ليس في المناطق التي يغطيها هذا التطبيق. تحقق من العنوان ثم استخدم رقم الهاتف أو الاتصال على البطاقة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The area as stated on the deed or record document, saved alongside the calculated area": {
   "t": "المنطقة على النحو المبين في الوثيقة المتعلقة بالأفعال أو الوثائق المسجلة، المحتفظ بها إلى جانب المنطقة المحسوبة",
   "src": "libretranslate",
@@ -39887,8 +40475,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The card stays empty after a long wait: the address service or the area layer did not answer. Reload the page and try again.": {
+  "t": "والبطاقة تبقى فارغة بعد انتظار طويل: خدمة العنوان أو طبقة المنطقة لم تجب. أعد تشغيل الصفحة وحاول مرة أخرى.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The closure error was distributed proportionally along each boundary line (Bowditch compass rule); your entered values are kept as records": {
   "t": "تم توزيع خطأ الإقفال بالتناسب على طول كل خط حدودي (قاعدة بواديتش البوصلة)؛ وتُحفظ قيمك المُدخلة كسجلات",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The colored bar at the top of the card is the short answer, such as the area name and the date.": {
+  "t": "الحانة الملونة في أعلى البطاقة هي الجواب القصير، مثل اسم المنطقة والموعد.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -40349,6 +40949,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The map where the address pin and zone highlight are drawn. Optional : the widget still returns results without a map.": {
+  "t": "The map where the address tank and zone highlights are drawn. اختياري: لا تزال الشبكة تعود دون خريطة.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The Map widget this Parcel Drafter works against": {
   "t": "الخريطة تَنْقلُ هذا محررِ بارسيل يعمل ضدّ",
   "src": "libretranslate",
@@ -40517,6 +41123,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The polygon feature layer that holds the zones.": {
+  "t": "طبقة البوليجون الخاصة التي تحتوي على المناطق",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The presenter window does not open: the browser blocked a pop up. Allow pop ups for this site and press W again.": {
   "t": "نافذة المُقدّم لا تُفتح: قام المُتصفح بإغلاق الباب. إسمحي بالظهور لهذا الموقع و إضغطي على دبليو مجدداً",
   "src": "libretranslate",
@@ -40547,6 +41159,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The printout shows the whole page: the print window was opened from the browser menu. Use the {name} button on the answer card instead.": {
+  "t": "المطبوعات تُظهر الصفحة بأكملها: فتحت نافذة المطبوعات من قائمة المصفوفين استخدام {name} زر على بطاقة الإجابة بدلاً من ذلك",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The projection engine supports this WKID.": {
   "t": "محرك الإسقاط يدعم هذا WKID.",
   "src": "libretranslate",
@@ -40570,6 +41188,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The rest of the card gives the details for the address you looked up.": {
+  "t": "بقية البطاقة تعطي تفاصيل عن العنوان الذي بحثت عنه",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The result layout could not be read. Please contact the app administrator.": {
   "t": "ولا يمكن قراءة مخطط النتائج. من فضلك اتصل بمدير التطبيقات",
@@ -41167,6 +41791,12 @@
  },
  "This field is required for generating labels": {
   "t": "هذا المجال مطلوب لتوليد بطاقات",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "This guide follows the app: it only describes the buttons this app is showing you.": {
+  "t": "هذا الدليل يتبع التطبيق: إنه فقط يصف الأزرار التي يظهرها لك هذا التطبيق",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -43463,6 +44093,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Use {{#if FIELD_NAME}}, {{else}}, and {{/if}}. Field names may contain letters, numbers, and underscores and may not start with a number. Close each directive with two braces.": {
+  "t": "Use {#if FIELD NAME}, {{else}و {/ } {/ } وقد تتضمن الأسماء الميدانية رسائل وأرقاماً، وتؤكد على عدد من الأسماء وقد لا تبدأ بها. اغلق كل توجيه مع اثنين من الصدريات.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use {{#if FIELD_NAME}}...{{else}}...{{/if}} to choose text when a field is populated or empty. Missing, null, empty, and whitespace-only values use the else branch. Zero and false count as populated. This is template syntax, not Arcade.": {
+  "t": "إستعملْ {# If FIELD NAME}{else}}... {// } لاختيار النص عندما يكون الحقل مأهولة بالسكان أو فارغة. المفقودات، والباطلة، فارغة، والقيم الفضائية البيضاء وحدها تستخدم الفرع الآخر. إحصاء صفري ومزيف كمأهولة هذا هو الترادف، وليس أركيد.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use {FIELD_NAME} to insert a field value. Field names ignore capitalization, and values are HTML-escaped. Date fields use long English dates in UTC.": {
+  "t": "الاستخدام {FIELD_NAME} لإدخال قيمة ميدانية. فالأسماء الميدانية تتجاهل الرسملة، والقيم مطلية على نظام HTML. تستخدم حقول التاريخ تواريخ إنجليزية طويلة في جامعة أمريكا اللاتينية.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Use {fieldName} placeholders from the added data.": {
   "t": "الاستخدام {fieldName} ملاجئ من البيانات الإضافية",
   "src": "libretranslate",
@@ -43591,6 +44239,12 @@
  },
  "Use My Location": {
   "t": "استخدم موقعي",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use no more than 64 nested if blocks.": {
+  "t": "لا تستخدم أكثر من 64 محروقاً إن كانت مجمدة",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -45011,6 +45665,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Widget fills its parent’s height and stretches the result card to remove void space below. Use when embedding as a fixed-size iframe.": {
+  "t": "وتملأ الزوجة ارتفاع والدها وتمتد بطاقة النتيجة لإزالة الحيز الفارغ أدناه. استعمل عندما تدمج كإطار ثابت الحجم",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Widget functions": {
   "t": "الوظائف النظامية",
   "src": "libretranslate",
@@ -45533,6 +46193,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Your address is not in the list: the house number or the spelling may be slightly off. Try the street name on its own, then pick the right one from the list.": {
+  "t": "عنوانكَ لَيسَ في القائمةِ: رقم البيت أَو التهجئة قَدْ تَكُونُ قليلاً مِنْ. جربي اسم الشارع من تلقاء نفسها ثم اختاري الشخص المناسب من القائمة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Your basemap, map extent, and layer data stay the same. The comparison uses temporary layer copies.": {
   "t": "خريطة قاعدتك، مدى الخريطة، وبيانات الطبقات تبقى على حالها. وتستخدم المقارنة نسخاً مؤقتة من الطبقات.",
   "src": "libretranslate",
@@ -45563,6 +46229,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Your last few addresses are listed under \"{recent}\" when the box is empty.": {
+  "t": "عناوينكم الأخيرة مُدرجة تحت{recent}عندما يكون الصندوق فارغاً",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Your location could not be determined right now.": {
   "t": "موقعك لا يمكن تحديده الآن",
   "src": "libretranslate",
@@ -45577,6 +46249,12 @@
  },
  "Your measurement choices are remembered in this browser. Reset Measurement Defaults puts them back.": {
   "t": "خيارات قياسك تُذكر في هذا المستنقع التخلف عن القياس يعيدهم",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Your recent addresses": {
+  "t": "عناوينك الأخيرة",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -45671,6 +46349,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Zone layer": {
+  "t": "طبقة المنطقة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zone layer extent": {
+  "t": "نطاق طبقة المنطقة",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Zone Lookup": {
   "t": "منطقة البحث",
   "src": "libretranslate",
@@ -45727,6 +46417,12 @@
  },
  "Zoom is the map's zoom level. A bigger number means the map is zoomed in closer.": {
   "t": "(زووم) هو مستوى زوم الخريطة رقم أكبر يعني أن الخريطة تُحدّد أكثر",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zoom level after lookup": {
+  "t": "مستوى التكبير بعد المراقبة",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"

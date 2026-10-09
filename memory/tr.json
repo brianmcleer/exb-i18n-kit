@@ -239,6 +239,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "\"{name}\" does nothing: your browser is blocking location access. Allow location for this page in your browser settings, or type the address instead.": {
+  "t": "\" \"\"{name}\"Hiçbir şey yok: Tarayıcınız yer erişimini engelliyor. Tarayıcı ayarlarınızda bu sayfa için yer izin verin veya bunun yerine adresi yazın.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "\"{name}\" is greyed out: the widget has no map to click, or the map is still loading. Type the address instead.": {
+  "t": "\" \"\"{name}\" gried out: widget'ın tıklamak için harita yok veya harita hala yükleniyor. Bunun yerine adresi yazın.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "\"All\" placeholder": {
   "t": "\"All\" yer sahibi",
   "src": "libretranslate",
@@ -359,6 +371,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{{#if Municipality}}\n  <p>Incorporated {Municipality}</p>\n{{else}}\n  <p>Unincorporated {Township} Township</p>\n{{/if}}": {
+  "t": "{{ #if Belediyesi}} <p>Instrid {Municipality}</p> {{else}} <p>Uninstrid {Township} Township</p> {{/if}}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{activeLabel}: a check mark and border show the basemap being used.": {
   "t": "{activeLabel}: Bir çek işareti ve sınır üssünü kullanır.",
   "src": "libretranslate",
@@ -385,6 +403,12 @@
  },
  "{address}": {
   "t": "{address}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{alias} ({type}) : click to insert": {
+  "t": "{alias} ({type}) : eklemek için tıklayın",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -517,6 +541,12 @@
  },
  "{circle}: click the center, then click again to set the size.": {
   "t": "{circle}: Merkeze tıklayın, sonra boyutu belirlemek için tekrar tıklayın.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{clear} removes that list from this browser. The list is only on your own computer, and nobody else sees it.": {
+  "t": "{clear} Bu tarayıcıdan bu listeyi kaldırır. Liste sadece kendi bilgisayarınızda ve kimse bunu görmüyor.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1229,6 +1259,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{name} is greyed out because this app does not show a map beside the widget.": {
+  "t": "{name} Gried out çünkü bu uygulama pencerenin yanında bir harita göstermez.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{name}: a satellite view tilted so buildings and terrain show in 3D.": {
   "t": "{name}: 3D'de bu kadar bina ve arazi şovu bir uydu görüşü.",
   "src": "libretranslate",
@@ -1247,14 +1283,38 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{name}: lets you pick a spot on the map. Click the button, then click the map. Click the button again to stop.": {
+  "t": "{name}: Haritada bir nokta seçmenize izin verin. Düğmeye tıklayın, sonra haritayı tıklayın. Tekrar durdurmak için düğmesine tıklayın.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{name}: Microsoft's street-level photos, similar to Street View.": {
   "t": "{name}: Microsoft'un sokak seviyesindeki fotoğrafları, Street View gibi.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{name}: opens a small menu with Copy link, Email and Text message.": {
+  "t": "{name}: Kopya bağlantı, E-posta ve Text mesajı ile küçük bir menü açın.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{name}: photos taken from the street, as if you were standing there.": {
   "t": "{name}Sokaktan çekilen fotoğraflar, orada duruyormuş gibi.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{name}: prints the answer card on its own, not the whole page.": {
+  "t": "{name}: Cevabı kartı kendi başına yazdır, tüm sayfa değil.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{name}: uses the location of the device you are on. Your browser asks for permission the first time. Choose Allow.": {
+  "t": "{name}: Üzerinde olduğunuz cihazın yerini kullanın. Tarayıcınız ilk kez izin istedi. İzin seçin.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1354,6 +1414,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "{reset} sits below the box. It empties the box and clears the answer.": {
+  "t": "{reset} Kutunun altında oturur. Kutuyu boşaltır ve cevabı temizler.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "{resetVisibility} puts every layer back the way it was when the page opened": {
   "t": "{resetVisibility} Her katmanı sayfa açıldığında olduğu şekilde geri koyar.",
@@ -2471,6 +2537,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "A closing {{/if}} needs an opening {{#if FIELD_NAME}}.": {
+  "t": "Kapanış {{ /if}} bir açılış {{#if FIELD NAME}} gerektirir.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "a Comments sheet": {
   "t": "Bir Yorumlar sayfası",
   "src": "libretranslate",
@@ -2737,6 +2809,12 @@
  },
  "A report link works for anyone who can open this app, so it is a quick way to hand a property to a colleague.": {
   "t": "Bir rapor bağlantısı bu uygulamayı açıklayabilecek herkes için çalışır, bu yüzden bir mülke bir meslektaşına el koymanın hızlı bir yoludur.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A REST URL to a GeocodeServer. Defaults to the ArcGIS World Geocoder. Use an internal composite locator if available.": {
+  "t": "Bir REST URL bir GeocodeServer'a. ArcGIS World Geocoder'e dönerler. Mevcut olursa iç bir kompozit taşıyıcı kullanın.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3091,6 +3169,12 @@
  },
  "Add a \"Show only this layer\" action": {
   "t": "Bir \"Sadece bu katman\" eylemi ekleyin",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add a closing {{/if}} for every opening if block.": {
+  "t": "Blok varsa her açılış için kapanış {{/if}} ekleyin.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3791,6 +3875,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Address input label": {
+  "t": "Adres girişi etiketi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address input placeholder": {
+  "t": "Adres girişi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address input tooltip": {
+  "t": "Adres girişi aracıtip",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Address Inspection Failed": {
   "t": "Adres İnceleme Başarısız Oldu",
   "src": "libretranslate",
@@ -3829,6 +3931,12 @@
  },
  "Address lookup failed.": {
   "t": "Address lookup başarısız oldu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address lookup results. Swipe up or down to scroll.": {
+  "t": "Address lookup sonuçları. Swipe yukarı ya da aşağı kaydırın.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4715,8 +4823,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "An {{else}} needs an opening {{#if FIELD_NAME}}.": {
+  "t": "Bir {{else}Bir açılış {{#if FIELD NAME}} gerekir.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "an address": {
   "t": "Bir adres",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "An address right on the edge of an area still matches. The widget looks a short distance around the point.": {
+  "t": "Bir alanın kenarında doğru bir adres hala maçları. Widget noktanın etrafında kısa bir mesafe görünüyor.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5291,6 +5411,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "At the top of the answer card you get {actions}.": {
+  "t": "Cevap kartının üst kısmında, aldığınız cevap kartı {actions}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Attach a photo": {
   "t": "Bir fotoğraf",
   "src": "libretranslate",
@@ -5557,6 +5683,12 @@
  },
  "available": {
   "t": "mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut mevcut",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Available fields": {
+  "t": "Mevcut alanlar",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5869,6 +6001,12 @@
  },
  "Badges on a card or in the Activity column: {badges}.": {
   "t": "Bir kartta veya Etkinlik sütununda kapılar: {badges}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Banner (colored band with optional title)": {
+  "t": "Banner (belirli başlık ile renkli grup)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6491,6 +6629,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Brand colors": {
+  "t": "Marka renkleri",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Breakpoint (px)": {
   "t": "Breakpoint (px)",
   "src": "libretranslate",
@@ -6767,6 +6911,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Buttons on the answer card": {
+  "t": "Cevap kartında düğmeler",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "buttons to back up and restore your drawings.": {
   "t": "Çizimlerinizi geri yüklemek ve geri yüklemek için düğmeler.",
   "src": "libretranslate",
@@ -6799,6 +6949,12 @@
  },
  "Call {join}": {
   "t": "Call Call Call {join}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Call {part}": {
+  "t": "Call Call Call {part}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7462,6 +7618,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Check the result template:": {
+  "t": "Sonuç şablonu kontrol edin:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Checked {rows} rows, {warnings} warnings": {
   "t": "Checked {rows} satırlar, {warnings} Uyarılar",
@@ -8321,6 +8483,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Clearing your browser data also clears your recent addresses.": {
+  "t": "Tarayıcı verilerinizi temizlemek de son adreslerinizi açıklayın.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Clearing your browser data removes saved views. Export them first if you want to keep them.": {
   "t": "Tarayıcı verilerini temizlemek, kaydedilen görüşleri ortadan kaldırır. Onları ilk önce onları tutmak istiyorsanız.",
   "src": "libretranslate",
@@ -8671,6 +8839,12 @@
  },
  "Click one of the tool buttons at the top, such as {distance} or {area}.": {
   "t": "En üstteki araç düğmelerinden birini tıklayın, örneğin {distance} veya {area}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click one to look it up again.": {
+  "t": "Tekrar bakmak için bir tane tıklayın.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9166,6 +9340,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Close results and search another address": {
+  "t": "Yakın sonuçlar ve başka bir adres arama",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Close selection mode picker": {
   "t": "Yakın seçim modu seçici",
@@ -9857,6 +10037,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Conditional template example": {
+  "t": "Koşul örneği",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Configuration": {
   "t": "Yapılandırma",
   "src": "libretranslate",
@@ -9880,6 +10066,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Configuration imported successfully.": {
+  "t": "Kurulum başarıyla tamamlandı.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Configuration imported.": {
   "t": "Eklenme ithal edildi.",
@@ -10192,6 +10384,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Constrain search to": {
+  "t": "Eklenme aramasını",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Contact": {
   "t": "İletişim",
@@ -10709,6 +10907,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copy link does nothing: this browser does not allow copying from a page. Copy the address out of the box by hand instead.": {
+  "t": "Kopya bağlantı hiçbir şey yapmaz: bu tarayıcı bir sayfadan kopyalamaya izin vermez. Bunun yerine kutudan gelen adresi kopyalayın.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copy link or Copy XML says it could not copy: the browser blocked the clipboard. Use Download XML, or copy the address bar after the page updates.": {
   "t": "Kopya link veya kopya XML kopyalayamadığını söylüyor: tarayıcı klibi engelledi. XML'i kullanın veya sayfa güncellemelerinden sonra adresi çubuğu kopyalayın.",
   "src": "libretranslate",
@@ -10915,6 +11119,12 @@
  },
  "Could not read the dates from the layers. The range shown is a guess; the builder can set it.": {
   "t": "Tarihleri katmanlardan okuyamazdı. Gösterilen aralık bir tahmindir; inşaatçı bunu ayarlanabilir.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not read the file. Make sure it is a valid Zone Lookup XML export.": {
+  "t": "Dosyayı okumayabilir. Geçerli bir bölge XML ihracat olduğundan emin olun.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11203,6 +11413,12 @@
  },
  "Current configuration as XML (read only)": {
   "t": "XML olarak mevcut konfigürasyon (yalnızca okunur)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Current map extent": {
+  "t": "Şimdiki harita boyutu",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13451,6 +13667,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Download these settings as an XML file.": {
+  "t": "Bu ayarları XML dosyası olarak indirin.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Download unmatched": {
   "t": "Download unmatched",
   "src": "libretranslate",
@@ -14141,6 +14363,42 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "e.g. \"Address is outside the service area\"": {
+  "t": "E.g. \"Address hizmet alanının dışında\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Enter an address above to see your results.\"": {
+  "t": "E.g. \"Sonuçlarınızı görmek için yukarıdaki bir adrese tıklayın.\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Find your area\"": {
+  "t": "E.g. \"Bölgenizi bulun\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Find your pickup area\"": {
+  "t": "E.g. \" pickup alanınızı bulun\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Lookup results\"": {
+  "t": "e.g. \"Bakup sonuçları\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Try another address\"": {
+  "t": "E.g. \"Başka bir adres\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "e.g. /Parcels/FeatureServer/0": {
   "t": "e.g. /Parcels / Stand/0",
   "src": "libretranslate",
@@ -14311,6 +14569,12 @@
  },
  "Each format is one line in the result popup and the Results list. X and Y take a WKID; leave it blank for the map's coordinate system.": {
   "t": "Her format sonuç popup ve sonuçlar listesinde bir çizgidir. X ve Y bir WKID alır; haritanın koordinat sistemi için boş bırakın.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Each if block can have only one {{else}}.": {
+  "t": "Her blok sadece bir tane olabilirse{else}.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16405,6 +16669,12 @@
  },
  "Export to PDF": {
   "t": "PDF'ye ihracat",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export to XML": {
+  "t": "XML'e ihracat",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18521,6 +18791,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Generic error message": {
+  "t": "Genric hata mesajı",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Geocode": {
   "t": "Geocode",
   "src": "libretranslate",
@@ -18563,6 +18839,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Geocoding": {
+  "t": "Geocoding",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Geocoding failed": {
   "t": "Geocoding başarısız oldu",
   "src": "libretranslate",
@@ -18586,6 +18868,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Geocoding service URL": {
+  "t": "Geocoding service URL",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Geocoding Service URL": {
   "t": "Geocoding Service URL",
@@ -19679,6 +19967,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Header style": {
+  "t": "Header tarzı",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Header Text": {
   "t": "Header Text",
   "src": "libretranslate",
@@ -19723,6 +20017,12 @@
  },
  "Heading (title)": {
   "t": "Başlık (İngilizce)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Heading / label color": {
+  "t": "Heading / etiket rengi",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19837,6 +20137,18 @@
  },
  "Helvetica (Sans-serif)": {
   "t": "Helvetica (Sans-serif)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hero subtitle field": {
+  "t": "Hero subtitle alanı",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hero title field": {
+  "t": "Kahraman Adı Alan",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20075,6 +20387,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Highlight fill color": {
+  "t": "Yüksek ışık renk doldurur",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Highlight Geometry": {
   "t": "Highlight Geometry",
   "src": "libretranslate",
@@ -20101,6 +20419,12 @@
  },
  "Highlight outline color": {
   "t": "Highlight draft renk",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Highlight outline width (pt)": {
+  "t": "Highlight draft genişliği (pt)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20239,6 +20563,12 @@
  },
  "Horizontal: {value} pt": {
   "t": "Yatay: {value} pt",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "House number first, then the street name, works best: 250 N 5th St.": {
+  "t": "Ev numarası önce, sonra sokak adı, en iyi çalışır: 250 N 5th St.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20579,6 +20909,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "If the address sits outside the areas this app covers, a yellow card says so and offers {tryAnother}.": {
+  "t": "Eğer adres bu uygulama alanları dışında oturursa, sarı bir kart bunu söylüyor ve teklifler sunuyor {tryAnother}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "If the app has Print Advanced, set a date here first: it prints whatever the map shows, so the printout carries the date.": {
   "t": "Uygulama Advanced'e sahipseniz, ilk olarak bir tarih ayarlayın: harita şovlarını gösteren her şeyi yazdırır, bu yüzden baskı tarihi taşır.",
   "src": "libretranslate",
@@ -20711,6 +21047,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Import / export": {
+  "t": "İthalat / ihracat",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Import / export configuration": {
   "t": "İthalat / ihracat yapılandırma",
   "src": "libretranslate",
@@ -20821,6 +21163,12 @@
  },
  "Import from file": {
   "t": "File from file",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import from XML": {
+  "t": "XML",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21347,6 +21695,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Insert token for field {alias}": {
+  "t": "Alan için Ekle token for field {alias}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Inside message": {
   "t": "Inside message",
   "src": "libretranslate",
@@ -21481,6 +21835,12 @@
  },
  "Interval": {
   "t": "Interval Interval",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Intro HTML (optional)": {
+  "t": "Intro HTML (optional)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22291,6 +22651,12 @@
  },
  "Labels": {
   "t": "Etiketler Etiketler",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Labels & messages": {
+  "t": "Etiketler & mesajlar",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23819,6 +24185,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Load settings from a previously exported XML file.": {
+  "t": "Daha önce XML ihraç edilen bir dosyadan yükleme ayarları.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Load settings from an .xml file": {
   "t": "Bir .xml dosyasından yükleme ayarları",
   "src": "libretranslate",
@@ -23940,6 +24312,12 @@
   "added": "2026-10-09"
  },
  "Loading fields...": {
+  "t": "Yükleme alanları...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Loading fields…": {
   "t": "Yükleme alanları...",
   "src": "libretranslate",
   "reviewed": false,
@@ -25267,6 +25645,12 @@
  },
  "Max photo size (MB)": {
   "t": "Max fotoğraf boyutu (MB)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Max recent searches to keep": {
+  "t": "Max son aramalar devam etmek için",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -26603,6 +26987,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "New search": {
+  "t": "Yeni arama",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "New traverse": {
   "t": "New traverse",
   "src": "libretranslate",
@@ -26773,6 +27163,12 @@
  },
  "No comments yet.": {
   "t": "Henüz yorum yok.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No constraint": {
+  "t": "Hiçbir kısıtlama yok",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -27101,6 +27497,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No list of addresses appears: you have typed fewer than three letters, or the address service is slow. Type a little more and wait a second.": {
+  "t": "Hiçbir adres listesi görünür: üç harften daha az tipiniz var veya adres servisi yavaş. Biraz daha yazın ve ikinci bekleyin.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No map configured. The widget will still look up zones, but results will not be highlighted on a map.": {
   "t": "Hiçbir harita yapılandırılmadı. Widget hala bölgeleri görünecek, ancak sonuçlar bir harita üzerinde vurgulanamaz.",
   "src": "libretranslate",
@@ -27329,6 +27731,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No recognized settings were found in the file.": {
+  "t": "Dosyada tanınamayan ayarlar bulunamadı.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No records found in selected layer": {
   "t": "Seçilen katmanda bulunan hiçbir kayıt bulunamadı",
   "src": "libretranslate",
@@ -27523,6 +27931,12 @@
  },
  "No-result message": {
   "t": "No-result message",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No-results message": {
+  "t": "Hayırlı mesaj",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -28277,6 +28691,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "On phones and touch screens: larger touch targets (44px), 16px input font to prevent iOS auto-zoom when focusing the search box, full-width action buttons, thumb-reachable share menu, and tighter spacing on narrow screens. Recommended on. Turn off to keep desktop sizing everywhere.": {
+  "t": "telefonlarda ve dokunmatik ekranlarda: daha büyük dokunuş hedefleri (44px), 16px giriş fontu, arama kutusuna odaklandığında, tam geniş aksiyon düğmeleri, parmak ulaşılabilen hisse menüsü ve dar ekranlarda sıkı spacing. Önerilen. Her yerde masaüstü boyut tutmak için dışarı çıkın.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "On select, each rule runs an intersect query and appends its HTML to the popup. Tokens:": {
   "t": "Seçilmiş olarak, her kural HTML'yi popup'a intersect bir sorgu ve uygulamaktadır. Hediyeler:",
   "src": "libretranslate",
@@ -28339,6 +28759,12 @@
  },
  "On the map": {
   "t": "Haritada",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On the map, a red dot marks the address and the matching area is shaded.": {
+  "t": "Haritada, kırmızı bir nokta adresi işaret eder ve eşleştirme alanı gölgelenir.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -28889,6 +29315,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Optimize for iframe": {
+  "t": "Iframe için optimize",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Optimize for mobile": {
+  "t": "Mobil için optimize",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "optional": {
   "t": "Seçmeli opsiyonel",
   "src": "libretranslate",
@@ -28961,8 +29399,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Optional. Override the theme accent and heading colors used in the top UI (label, icons, \"Use my location\", focus rings). Leave blank to inherit from the page theme.": {
+  "t": "Seçmeli. En üst UI'de kullanılan tema aksanını ve sıra renklerini genişletin (Label, icons, \"Yerimi kullanın\", odak halkalar). Sayfa temasından miras almak için boş bırakın.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Optional. Overrides the title field. The identified feature is available as $feature.": {
   "t": "Seçmeli. Overrides the name field. Tanımlanan özellik $feature olarak kullanılabilir.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Optional. Pick a field to render as a big colored badge at the top of the result card, plus an optional subtitle underneath. Leave both blank to skip the hero and use only the HTML template.": {
+  "t": "Seçmeli. Sonuç kartının tepesinde büyük renkli bir badge olarak oluşturmak için bir alan seçin, artı altında bir isteğe bağlı alt başlık. Kahramanı atlamak ve sadece HTML şablonunu kullanmak için her ikisini de boş bırakın.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -29059,6 +29509,12 @@
  },
  "Other parts of the app, such as a table, can follow along and show the same record.": {
   "t": "Uygulamanın diğer kısımları, bir masa gibi, aynı kaydı takip edebilir ve gösterebilir.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Other ways to look up a place": {
+  "t": "Bir yere bakmak için diğer yollar",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -29237,6 +29693,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Outside service area message": {
+  "t": "Dış hizmet alanı mesajı",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Outside the current map scale": {
   "t": "Mevcut harita ölçeği dışında",
   "src": "libretranslate",
@@ -29257,6 +29719,18 @@
  },
  "outside this coordinate system's area": {
   "t": "Bu koordinat sisteminin dışında",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Outside-area heading": {
+  "t": "Dışarıdan-area",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Outside-area retry button label": {
+  "t": "Dışarıda-area retry düğmesine etiket",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -30215,6 +30689,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Picking an address from the list is more reliable than typing the whole address and pressing Enter.": {
+  "t": "Listeden bir adres almak, tüm adresi yazmaktan daha güvenilirdir.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Pictometry asks you to sign in: the Pictometry viewer needs its own account. Ask whoever built this app if you should have one.": {
   "t": "Pictometri size işaret etmenizi ister: Pictometry viewer kendi hesabına ihtiyaç duyar. Bu uygulamayı kim inşa edersen sorun.",
   "src": "libretranslate",
@@ -30365,8 +30845,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Placeholder heading (before search)": {
+  "t": "Placeholder ( aramadan önce)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Placeholder message (before search)": {
+  "t": "Placeholder message ( aramadan önce)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Placement": {
   "t": "Placement",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Plain (intro as ordinary text)": {
+  "t": "Plain (normal metin olarak)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -31475,6 +31973,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Primary brand color": {
+  "t": "İlk marka rengi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Primary Key Field": {
   "t": "Temel Anahtar Alan",
   "src": "libretranslate",
@@ -32152,6 +32656,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Reading the answer": {
+  "t": "Cevabı oku",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Reading the details": {
   "t": "Ayrıntıları okumak",
@@ -33167,6 +33677,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Reset button label": {
+  "t": "Sıfır düğme etiketi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reset button tooltip": {
+  "t": "Sıfır düğme aleti",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Reset Default Area Units": {
   "t": "Varsayılan Alan Birimleri",
   "src": "libretranslate",
@@ -33247,6 +33769,12 @@
  },
  "Reset to layout grid": {
   "t": "Yapın",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reset to theme": {
+  "t": "Tartışmaya Yeniden Yapın",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -33395,6 +33923,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Result hero": {
+  "t": "Sonuç kahraman",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Result HTML template": {
+  "t": "Sonuç HTML şablonu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Result navigation": {
   "t": "Sonuç navigasyon",
   "src": "libretranslate",
@@ -33413,6 +33953,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Result template": {
+  "t": "Sonuç şablon",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Results": {
   "t": "Sonuçlar Sonuçlar Sonuçlar Sonuçlar",
   "src": "libretranslate",
@@ -33421,6 +33967,12 @@
  },
  "Results found:": {
   "t": "Sonuçlar bulundu:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Results found.": {
+  "t": "Sonuçlar bulundu.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -34051,6 +34603,12 @@
  },
  "Save the traverse lines, points, and closed parcel polygon to the configured layers": {
   "t": "Ters çizgileri kurtar, puanlar ve yapılandırılmış tabakalara parsel poligon kapat",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Save these settings as an XML file or load them from a previously exported file. The map widget and zone layer references stay app-specific and need to be re-selected after importing.": {
+  "t": "Bu ayarları bir XML dosyası olarak kaydedin veya daha önce ihraç edilen bir dosyadan yükler. Harita widget ve bölge tabaka referansları uygulamaya özel olarak kalır ve ithalattan sonra yeniden seçilmelidir.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -35063,6 +35621,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Select a map widget": {
+  "t": "Bir harita öğesi seçin",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select a Map widget": {
   "t": "Bir Map widget seçin",
   "src": "libretranslate",
@@ -35131,6 +35695,12 @@
  },
  "Select a widget...": {
   "t": "Bir widget seçin...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select a zone layer above to see its fields.": {
+  "t": "Alanlarını görmek için yukarıdaki bir bölge katmanı seçin.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -35485,6 +36055,12 @@
  },
  "Select the widget controller containing Mailing Labels": {
   "t": "Mailing Tags içeren widget kontrolörünü seçin",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select the zone layer": {
+  "t": "Bölge katmanı seçin",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -36095,6 +36671,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Share email subject line": {
+  "t": "Paylaş e-posta konu satırı",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Share options": {
   "t": "Paylaş seçenekleri",
   "src": "libretranslate",
@@ -36161,6 +36743,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show \"Click map\" mode toggle": {
+  "t": "Show \"Click map\" mode toggle",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show \"Show print area\" toggle": {
   "t": "Show \"Show print alanı\" toggle",
   "src": "libretranslate",
@@ -36169,6 +36757,12 @@
  },
  "Show \"Use current location\"": {
   "t": "Show \"Use current location\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show \"Use my location\" button": {
+  "t": "Show \"Use my location\" butonun",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -36821,8 +37415,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show Print button on result": {
+  "t": "Show Print düğmesine sonuç olarak",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show Related Table Summaries": {
   "t": "Show Related Table Summaries",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show reset button": {
+  "t": "Show reset düğmesi",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -36865,6 +37471,12 @@
  },
  "Show Segment Labels": {
   "t": "Show Segment Etiketler",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show Share button on result": {
+  "t": "Show Share butonunu sonuçta",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -37075,6 +37687,12 @@
  },
  "Showing only": {
   "t": "Sadece sadece sadece göstermek",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Shown above the address input. Plain HTML.": {
+  "t": "Adres girişinin üstünde göster. Plain HTML.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -38507,6 +39125,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Still stuck? Contact the GIS Division and mention the Zone Lookup widget and this app.": {
+  "t": "Hala sıkıştı? GIS Bölüm ile iletişime geçin ve Bölgenin Bakışı ve bu uygulamadan bahsedin.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Still stuck? Contact your GIS team and mention the Draw Advanced widget and this app.": {
   "t": "Hala sıkıştı? GIS ekibinizle iletişime geçin ve Draw Advanced widget ve bu uygulamadan bahsedin.",
   "src": "libretranslate",
@@ -38737,6 +39361,12 @@
  },
  "Submit button label": {
   "t": "Gönder butonun etiket",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Submit button tooltip": {
+  "t": "Gönder düğmesine gönder",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -39707,6 +40337,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The answer says the address is outside the area: that address is not in the areas this app covers. Check the address, then use the phone number or contact shown on the card.": {
+  "t": "Cevap, adresin bölgenin dışında olduğunu söylüyor: Bu adres bu uygulama kapaklarında değil. Adresi kontrol edin, sonra kart üzerinde gösterilen telefon numarasını veya temasını kullanın.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The area as stated on the deed or record document, saved alongside the calculated area": {
   "t": "Bölge, hesaplanan alanın yanında kaydedilen veya kayıt belgesinde belirtildiği gibi, hesaplanan alanın yanında kurtarıldı.",
   "src": "libretranslate",
@@ -39839,8 +40475,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The card stays empty after a long wait: the address service or the area layer did not answer. Reload the page and try again.": {
+  "t": "Kart uzun bir beklemeden sonra boş kalır: adres servisi veya alan tabakası cevap vermedi. Sayfayı yeniden yükleyin ve tekrar deneyin.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The closure error was distributed proportionally along each boundary line (Bowditch compass rule); your entered values are kept as records": {
   "t": "Kapanış hatası her sınır hattı boyunca orantılı olarak dağıtıldı (Bowditch compass kuralı); girdi değerleriniz kayıt olarak tutuluyor",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The colored bar at the top of the card is the short answer, such as the area name and the date.": {
+  "t": "Kartın üst kısmındaki renkli bar, alan adı ve tarihi gibi kısa bir cevaptır.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -40217,6 +40865,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The list of addresses appears once you have typed about three letters. Picking from the list is the surest way to get the right spot.": {
+  "t": "Adresin listesi, yaklaşık üç mektup yazdığınız bir kez görünür. Listeden almak doğru noktayı elde etmenin en emin yoludur.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The list shows 50 tickets a page. The First, Prev, Next and Last buttons move between pages, and the count above the list says where you are.": {
   "t": "Liste bir sayfayı 50 bilet gösteriyor. İlk, Prev, Sonraki ve Son düğmeler sayfalar arasında hareket eder ve liste üzerindeki sayı nerede olduğunuzu söylüyor.",
   "src": "libretranslate",
@@ -40291,6 +40945,12 @@
  },
  "The map view did not finish loading.": {
   "t": "Harita görüşü yüklemeyi bitirmedi.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The map where the address pin and zone highlight are drawn. Optional : the widget still returns results without a map.": {
+  "t": "adresi pin ve bölgenin vurgulandığı harita çizilir. Seçmeli: widget hala bir harita olmadan sonuçları döndürür.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -40463,6 +41123,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The polygon feature layer that holds the zones.": {
+  "t": "Bölgeleri tutan poligon özelliği tabakası.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The presenter window does not open: the browser blocked a pop up. Allow pop ups for this site and press W again.": {
   "t": "Şimdiki pencere açık değil: tarayıcı bir popu engelledi. Bu site için pop ups izin verin ve W tekrar basın.",
   "src": "libretranslate",
@@ -40493,6 +41159,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The printout shows the whole page: the print window was opened from the browser menu. Use the {name} button on the answer card instead.": {
+  "t": "Baskı tüm sayfayı gösteriyor: baskı penceresi tarayıcı menüden açıldı. Kullanın {name} Bunun yerine cevap kartı üzerinde düğme.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The projection engine supports this WKID.": {
   "t": "projeksiyon motoru bu WKID'i destekliyor.",
   "src": "libretranslate",
@@ -40516,6 +41188,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The rest of the card gives the details for the address you looked up.": {
+  "t": "Kartın geri kalanı, baktığınız adres için ayrıntıları verir.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The result layout could not be read. Please contact the app administrator.": {
   "t": "Sonuç düzeni okunamadı. Lütfen uygulama yöneticisi ile iletişime geçin.",
@@ -40636,6 +41314,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The small x at the right end of the box empties it so you can start over.": {
+  "t": "Kutunun sağ ucundaki küçük x, böylece baştan başlayabilirsiniz.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The Sort list orders by Newest, Oldest, Name or Type.": {
   "t": "En İyi, En Eski, Ad veya Tip tarafından liste siparişleri.",
@@ -40855,6 +41539,12 @@
  },
  "The width you drag the side panel to is kept as well.": {
   "t": "Yan paneli sürükleyeceğiniz genişlik de tutulur.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The wording in the answer may change to match the area your address is in.": {
+  "t": "Cevapdaki kelime, adresinizle eşleştirmek için değişebilir.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -41101,6 +41791,12 @@
  },
  "This field is required for generating labels": {
   "t": "Bu alan etiketleri oluşturmak için gereklidir",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "This guide follows the app: it only describes the buttons this app is showing you.": {
+  "t": "Bu kılavuz uygulamayı takip eder: bu uygulamanın size gösterdiği düğmeleri sadece açıklar.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -43397,6 +44093,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Use {{#if FIELD_NAME}}, {{else}}, and {{/if}}. Field names may contain letters, numbers, and underscores and may not start with a number. Close each directive with two braces.": {
+  "t": "{{#if FIELD NAME}} kullanın, {{else}ve {{ /if}}. Alan isimleri mektuplar, sayılar ve işaretler içerebilir ve bir numarayla başlamayabilir. Her yönergeyi iki dişle kapatın.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use {{#if FIELD_NAME}}...{{else}}...{{/if}} to choose text when a field is populated or empty. Missing, null, empty, and whitespace-only values use the else branch. Zero and false count as populated. This is template syntax, not Arcade.": {
+  "t": "{{#if FIELD NAME}} kullanın...{else}...{{/if}} bir alan ya da boş olduğunda metin seçmek. Eksik, null, boş ve beyaz uzay-sadece değerleri başka bir dal kullanır. Sıfır ve sahte sayı olarak. Bu şablon sözlüğü, Arcade değil.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use {FIELD_NAME} to insert a field value. Field names ignore capitalization, and values are HTML-escaped. Date fields use long English dates in UTC.": {
+  "t": "Use Use Use Use Use {FIELD_NAME} Bir alan değerini eklemek için. Alan isimleri sermayeleştirmeyi görmezden gelir ve değerler HTML-escaped. Tarih alanları UTC'de uzun İngilizce tarihleri kullanır.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Use {fieldName} placeholders from the added data.": {
   "t": "Use Use Use Use Use {fieldName} Ek verilerden gelen yer sahipleri.",
   "src": "libretranslate",
@@ -43529,6 +44243,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Use no more than 64 nested if blocks.": {
+  "t": "Bloklar halinde 64'den fazla nested kullanın.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Use Parent Geometry": {
   "t": "Ebeveyn Geometry",
   "src": "libretranslate",
@@ -43621,6 +44341,12 @@
  },
  "Use the Copy Lat/Lon button above or press Control+C to copy the coordinates.": {
   "t": "koordinatları kopyalamak için Kopya Lat/Lon düğmesine tıklayın.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use the down and up arrow keys to move through the list, then press Enter to choose one.": {
+  "t": "Liste aracılığıyla hareket etmek için aşağı ve yukarı ok anahtarlarını kullanın, sonra basın bir tane seçmek için girin.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -44939,6 +45665,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Widget fills its parent’s height and stretches the result card to remove void space below. Use when embedding as a fixed-size iframe.": {
+  "t": "Widget, ebeveynlerinin yüksekliğini doldurur ve aşağıdaki boşluğu kaldırmak için sonuç kartı genişletir. Sabit büyüklükte bir iframe olarak gömülürken kullanın.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Widget functions": {
   "t": "Widget işlevleri",
   "src": "libretranslate",
@@ -45443,6 +46175,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "You do not have to type an address. You can also use {ways}.": {
+  "t": "Bir adres yazmak zorunda değilsiniz. Ayrıca kullanabilirsiniz {ways}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "You have drawings saved from a previous session.": {
   "t": "Önceki bir seanstan kurtarılmış çizimleriniz var.",
   "src": "libretranslate",
@@ -45451,6 +46189,12 @@
  },
  "You have reached the limit of {max} saved instances. Delete one before saving another.": {
   "t": "Sınırına ulaştın {max} Kurtarılan örnekler. Başkasını kurtarmadan önce birini delete.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Your address is not in the list: the house number or the spelling may be slightly off. Try the street name on its own, then pick the right one from the list.": {
+  "t": "Adresiniz listede değil: ev numarası veya büyü biraz uzakta olabilir. Sokak adını kendi başına deneyin, sonra listeden doğru olanı seçin.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -45485,6 +46229,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Your last few addresses are listed under \"{recent}\" when the box is empty.": {
+  "t": "Son birkaç adresiniz “En son birkaç adres” altında listeleniyor{recent}“ Kutu boş olduğunda.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Your location could not be determined right now.": {
   "t": "Konumunuz şu anda belirlenemezdi.",
   "src": "libretranslate",
@@ -45499,6 +46249,12 @@
  },
  "Your measurement choices are remembered in this browser. Reset Measurement Defaults puts them back.": {
   "t": "Ölçüm seçenekleriniz bu tarayıcıda hatırlanır. Test Temsilleri onları geri getirir.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Your recent addresses": {
+  "t": "Son adresleriniz",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -45593,6 +46349,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Zone layer": {
+  "t": "Bölge katmanı",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zone layer extent": {
+  "t": "Bölgesi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Zone Lookup": {
   "t": "Bölge Bakup",
   "src": "libretranslate",
@@ -45649,6 +46417,12 @@
  },
  "Zoom is the map's zoom level. A bigger number means the map is zoomed in closer.": {
   "t": "Zoom, haritanın zoom seviyesidir. Daha büyük bir sayı, haritanın daha yakın olduğu anlamına gelir.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zoom level after lookup": {
+  "t": "After lookup",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"

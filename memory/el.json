@@ -239,6 +239,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "\"{name}\" does nothing: your browser is blocking location access. Allow location for this page in your browser settings, or type the address instead.": {
+  "t": "\"{name}\" δεν κάνει τίποτα: ο περιηγητής σας εμποδίζει την πρόσβαση τοποθεσίας. Επίτρεψε τοποθεσία για αυτή τη σελίδα στις ρυθμίσεις του προγράμματος περιήγησης ή πληκτρολογήστε τη διεύθυνση.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "\"{name}\" is greyed out: the widget has no map to click, or the map is still loading. Type the address instead.": {
+  "t": "\"{name}\" είναι γκρι έξω: το widget δεν έχει χάρτη για να κάνει κλικ, ή ο χάρτης εξακολουθεί να φορτώνει. Γράψε τη διεύθυνση.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "\"All\" placeholder": {
   "t": "\" Όλοι\" κάτοχοι θέσεων",
   "src": "libretranslate",
@@ -359,6 +371,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{{#if Municipality}}\n  <p>Incorporated {Municipality}</p>\n{{else}}\n  <p>Unincorporated {Township} Township</p>\n{{/if}}": {
+  "t": "{{# αν Δήμος} <p>Εταιρείες {Municipality}</p> {{else}} <p>Μη ενσωματωμένη {Township} Πόλη </p> {{/ αν}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{activeLabel}: a check mark and border show the basemap being used.": {
   "t": "{activeLabel}: ένα σήμα ελέγχου και τα σύνορα δείχνουν το χάρτη βάσης που χρησιμοποιείται.",
   "src": "libretranslate",
@@ -385,6 +403,12 @@
  },
  "{address}": {
   "t": "{address}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{alias} ({type}) : click to insert": {
+  "t": "{alias} ({type}) : κλικ για την εισαγωγή",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -517,6 +541,12 @@
  },
  "{circle}: click the center, then click again to set the size.": {
   "t": "{circle}: κάντε κλικ στο κέντρο, στη συνέχεια, κάντε κλικ ξανά για να ρυθμίσετε το μέγεθος.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{clear} removes that list from this browser. The list is only on your own computer, and nobody else sees it.": {
+  "t": "{clear} αφαιρεί τη λίστα από αυτό το πρόγραμμα περιήγησης. Η λίστα είναι μόνο στον υπολογιστή σου, και κανείς άλλος δεν την βλέπει.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1265,8 +1295,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{name}: opens a small menu with Copy link, Email and Text message.": {
+  "t": "{name}: ανοίγει ένα μικρό μενού με Copy link, Email και μήνυμα κειμένου.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{name}: photos taken from the street, as if you were standing there.": {
   "t": "{name}: φωτογραφίες που τραβήχτηκαν από το δρόμο, σαν να στεκόσουν εκεί.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{name}: prints the answer card on its own, not the whole page.": {
+  "t": "{name}: εκτυπώνει την κάρτα απάντησης από μόνη της, όχι ολόκληρη τη σελίδα.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2501,6 +2543,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "A closing {{/if}} needs an opening {{#if FIELD_NAME}}.": {
+  "t": "Ένα κλείσιμο {{/ if} χρειάζεται ένα άνοιγμα {{# if FILD NAME}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "a Comments sheet": {
   "t": "ένα φύλλο σχολίων",
   "src": "libretranslate",
@@ -2767,6 +2815,12 @@
  },
  "A report link works for anyone who can open this app, so it is a quick way to hand a property to a colleague.": {
   "t": "Ένας σύνδεσμος έκθεσης λειτουργεί για οποιονδήποτε μπορεί να ανοίξει αυτή την εφαρμογή, έτσι είναι ένας γρήγορος τρόπος για να παραδώσει μια ιδιοκτησία σε έναν συνάδελφο.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A REST URL to a GeocodeServer. Defaults to the ArcGIS World Geocoder. Use an internal composite locator if available.": {
+  "t": "Ένα REST URL σε ένα GeocodeServer. Προκαθορισμένα στον Παγκόσμιο Γεωκωδικοποιητή ArcGIS. Χρησιμοποιήστε έναν εσωτερικό σύνθετο εντοπιστή, εάν υπάρχει.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3121,6 +3175,12 @@
  },
  "Add a \"Show only this layer\" action": {
   "t": "Προσθήκη ενός \"Εμφάνιση μόνο αυτό το στρώμα\" δράση",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add a closing {{/if}} for every opening if block.": {
+  "t": "Προσθέστε ένα κλείσιμο {{/ if} για κάθε άνοιγμα αν μπλοκάρετε.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3821,6 +3881,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Address input label": {
+  "t": "Ετικέτα εισόδου διεύθυνσης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address input placeholder": {
+  "t": "Διαχειριστής τόπου εισόδου διεύθυνσης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address input tooltip": {
+  "t": "Εργαλείο εισόδου διευθύνσεων",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Address Inspection Failed": {
   "t": "Η επιθεώρηση διεύθυνσης απέτυχε",
   "src": "libretranslate",
@@ -3859,6 +3937,12 @@
  },
  "Address lookup failed.": {
   "t": "Η αναζήτηση διεύθυνσης απέτυχε.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address lookup results. Swipe up or down to scroll.": {
+  "t": "Αποτελέσματα αναζήτησης διευθύνσεων. Γύρνα πάνω ή κάτω για να πας πάσο.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4745,8 +4829,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "An {{else}} needs an opening {{#if FIELD_NAME}}.": {
+  "t": "Α{else}} χρειάζεται ένα άνοιγμα {{# αν FILD NAME}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "an address": {
   "t": "διεύθυνση",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "An address right on the edge of an area still matches. The widget looks a short distance around the point.": {
+  "t": "Μια διεύθυνση ακριβώς στην άκρη μιας περιοχής ταιριάζει ακόμα. Το γραφικό συστατικό φαίνεται σε μικρή απόσταση γύρω από το σημείο.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5321,6 +5417,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "At the top of the answer card you get {actions}.": {
+  "t": "Στην κορυφή της κάρτας απάντησης παίρνεις {actions}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Attach a photo": {
   "t": "Επισύναψη φωτογραφίας",
   "src": "libretranslate",
@@ -5587,6 +5689,12 @@
  },
  "available": {
   "t": "διαθέσιμο",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Available fields": {
+  "t": "Διαθέσιμα πεδία",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5899,6 +6007,12 @@
  },
  "Badges on a card or in the Activity column: {badges}.": {
   "t": "Σήματα σε κάρτα ή στη στήλη δραστηριότητας: {badges}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Banner (colored band with optional title)": {
+  "t": "Banner (χρώμα μπάντας με προαιρετικό τίτλο)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6521,6 +6635,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Brand colors": {
+  "t": "Χρώμα μάρκας",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Breakpoint (px)": {
   "t": "Σημείο διακοπής (px)",
   "src": "libretranslate",
@@ -6797,6 +6917,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Buttons on the answer card": {
+  "t": "Κουμπιά στην κάρτα απάντησης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "buttons to back up and restore your drawings.": {
   "t": "κουμπιά για να δημιουργήσετε αντίγραφα ασφαλείας και να επαναφέρετε τα σχέδιά σας.",
   "src": "libretranslate",
@@ -6829,6 +6955,12 @@
  },
  "Call {join}": {
   "t": "Κλήση {join}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Call {part}": {
+  "t": "Κλήση {part}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7492,6 +7624,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Check the result template:": {
+  "t": "Έλεγχος του προτύπου αποτελέσματος:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Checked {rows} rows, {warnings} warnings": {
   "t": "Ελέγχθηκε {rows} σειρές, {warnings} προειδοποιήσεις",
@@ -8351,6 +8489,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Clearing your browser data also clears your recent addresses.": {
+  "t": "Η εκκαθάριση των δεδομένων του browser σας καθαρίζει επίσης τις πρόσφατες διευθύνσεις σας.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Clearing your browser data removes saved views. Export them first if you want to keep them.": {
   "t": "Ο καθαρισμός των δεδομένων του περιηγητή σας αφαιρεί τις αποθηκευμένες προβολές. Εξαγωγή τους πρώτα, αν θέλετε να τους κρατήσει.",
   "src": "libretranslate",
@@ -8701,6 +8845,12 @@
  },
  "Click one of the tool buttons at the top, such as {distance} or {area}.": {
   "t": "Κάντε κλικ σε ένα από τα κουμπιά εργαλείων στην κορυφή, όπως {distance} ή {area}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click one to look it up again.": {
+  "t": "Κάνε κλικ σε ένα για να το ψάξεις ξανά.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9196,6 +9346,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Close results and search another address": {
+  "t": "Κλείσιμο αποτελεσμάτων και αναζήτηση άλλης διεύθυνσης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Close selection mode picker": {
   "t": "Κλείσιμο επιλογέα τρόπου επιλογής",
@@ -9887,6 +10043,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Conditional template example": {
+  "t": "Παράδειγμα προτύπου υπό όρους",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Configuration": {
   "t": "Configuration",
   "src": "libretranslate",
@@ -9910,6 +10072,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Configuration imported successfully.": {
+  "t": "Η ρύθμιση εισήχθη με επιτυχία.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Configuration imported.": {
   "t": "Εισαγωγή ρυθμίσεων.",
@@ -10222,6 +10390,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Constrain search to": {
+  "t": "Περιορισμός της αναζήτησης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Contact": {
   "t": "Επικοινωνία",
@@ -10739,6 +10913,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copy link does nothing: this browser does not allow copying from a page. Copy the address out of the box by hand instead.": {
+  "t": "Ο σύνδεσμος αντιγραφής δεν κάνει τίποτα: αυτός ο περιηγητής δεν επιτρέπει την αντιγραφή από μια σελίδα. Αντίγραφο της διεύθυνσης από το κουτί με το χέρι.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copy link or Copy XML says it could not copy: the browser blocked the clipboard. Use Download XML, or copy the address bar after the page updates.": {
   "t": "Αντιγραφή συνδέσμου ή αντιγραφή XML λέει ότι δεν μπορεί να αντιγραφεί: ο περιηγητής μπλόκαρε το πρόχειρο. Χρησιμοποιήστε το Download XML ή αντιγράψτε τη γραμμή διευθύνσεων μετά τις ενημερώσεις της σελίδας.",
   "src": "libretranslate",
@@ -10945,6 +11125,12 @@
  },
  "Could not read the dates from the layers. The range shown is a guess; the builder can set it.": {
   "t": "Αδυναμία ανάγνωσης των ημερομηνιών από τα στρώματα. Το εύρος που φαίνεται είναι μια εικασία· ο κατασκευαστής μπορεί να το ρυθμίσει.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not read the file. Make sure it is a valid Zone Lookup XML export.": {
+  "t": "Αδυναμία ανάγνωσης του αρχείου. Βεβαιωθείτε ότι είναι μια έγκυρη Zone Lookup XML εξαγωγή.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11233,6 +11419,12 @@
  },
  "Current configuration as XML (read only)": {
   "t": "Τρέχουσες ρυθμίσεις ως XML (μόνο ανάγνωση)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Current map extent": {
+  "t": "Τρέχουσα έκταση χάρτη",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13481,6 +13673,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Download these settings as an XML file.": {
+  "t": "Κατεβάστε αυτές τις ρυθμίσεις ως αρχείο XML.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Download unmatched": {
   "t": "Λήψη μη αντιστοιχισμένων",
   "src": "libretranslate",
@@ -14171,6 +14369,42 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "e.g. \"Address is outside the service area\"": {
+  "t": "Π.χ. η διεύθυνση είναι εκτός του χώρου εξυπηρέτησης.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Enter an address above to see your results.\"": {
+  "t": "Π.χ. \"Εισαγάγετε μια διεύθυνση παραπάνω για να δείτε τα αποτελέσματά σας.\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Find your area\"": {
+  "t": "π.χ. \"Βρείτε την περιοχή σας\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Find your pickup area\"": {
+  "t": "Π.χ. \"Βρείτε την περιοχή παραλαβής σας\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Lookup results\"": {
+  "t": "Π.χ. αποτελέσματα αναζήτησης\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Try another address\"": {
+  "t": "Π.χ. \"Δοκιμάστε άλλη διεύθυνση\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "e.g. /Parcels/FeatureServer/0": {
   "t": "π.χ. /Parcels/FeatureServer/0",
   "src": "libretranslate",
@@ -14341,6 +14575,12 @@
  },
  "Each format is one line in the result popup and the Results list. X and Y take a WKID; leave it blank for the map's coordinate system.": {
   "t": "Κάθε μορφή είναι μία γραμμή στο αναδυόμενο αποτέλεσμα και στη λίστα αποτελεσμάτων. X και Y πάρτε ένα WKID? Αφήστε το κενό για το σύστημα συντεταγμένων του χάρτη.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Each if block can have only one {{else}}.": {
+  "t": "Καθένα αν μπλοκ μπορεί να έχει μόνο ένα {{else}- Ναι.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16435,6 +16675,12 @@
  },
  "Export to PDF": {
   "t": "Εξαγωγή σε PDF",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export to XML": {
+  "t": "Εξαγωγή σε XML",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18551,6 +18797,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Generic error message": {
+  "t": "Γενικό μήνυμα σφάλματος",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Geocode": {
   "t": "Γεωκωδικός",
   "src": "libretranslate",
@@ -18593,6 +18845,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Geocoding": {
+  "t": "Γεωκωδικοποίηση",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Geocoding failed": {
   "t": "Αποτυχία γεωκωδικοποίησης",
   "src": "libretranslate",
@@ -18616,6 +18874,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Geocoding service URL": {
+  "t": "URL υπηρεσίας γεωκωδικοποίησης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Geocoding Service URL": {
   "t": "URL υπηρεσίας γεωκωδικοποίησης",
@@ -19709,6 +19973,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Header style": {
+  "t": "Στυλ κεφαλίδας",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Header Text": {
   "t": "Κείμενο κεφαλίδας",
   "src": "libretranslate",
@@ -19753,6 +20023,12 @@
  },
  "Heading (title)": {
   "t": "Τίτλος (τίτλος)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Heading / label color": {
+  "t": "Τίτλος / χρώμα ετικέτας",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19867,6 +20143,18 @@
  },
  "Helvetica (Sans-serif)": {
   "t": "Ελβετικά (Sans-serif)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hero subtitle field": {
+  "t": "Πεδίο υποτίτλων Hero",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hero title field": {
+  "t": "Πεδίο τίτλου ήρωα",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20105,6 +20393,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Highlight fill color": {
+  "t": "Χρώμα γεμίσματος επισήμανσης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Highlight Geometry": {
   "t": "Κύρια γεωμετρία",
   "src": "libretranslate",
@@ -20131,6 +20425,12 @@
  },
  "Highlight outline color": {
   "t": "Χρώμα περιγράμματος επισήμανσης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Highlight outline width (pt)": {
+  "t": "Πλάτος περιγράμματος επισήμανσης (pt)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20615,6 +20915,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "If the address sits outside the areas this app covers, a yellow card says so and offers {tryAnother}.": {
+  "t": "Αν η διεύθυνση βρίσκεται έξω από τις περιοχές που καλύπτει αυτή η εφαρμογή, μια κίτρινη κάρτα το λέει και προσφέρει {tryAnother}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "If the app has Print Advanced, set a date here first: it prints whatever the map shows, so the printout carries the date.": {
   "t": "Αν η εφαρμογή έχει Print Advanced, ορίστε εδώ μια ημερομηνία πρώτα: εκτυπώνει ό, τι δείχνει ο χάρτης, έτσι ώστε η εκτύπωση να μεταφέρει την ημερομηνία.",
   "src": "libretranslate",
@@ -20747,6 +21053,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Import / export": {
+  "t": "Εισαγωγή / εξαγωγή",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Import / export configuration": {
   "t": "Εισαγωγή/εξαγωγή διαμόρφωσης",
   "src": "libretranslate",
@@ -20857,6 +21169,12 @@
  },
  "Import from file": {
   "t": "Εισαγωγή από το αρχείο",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import from XML": {
+  "t": "Εισαγωγή από XML",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21383,6 +21701,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Insert token for field {alias}": {
+  "t": "Εισαγωγή ενδεικτικού για το πεδίο {alias}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Inside message": {
   "t": "Εσωτερικό μήνυμα",
   "src": "libretranslate",
@@ -21517,6 +21841,12 @@
  },
  "Interval": {
   "t": "Διάστημα",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Intro HTML (optional)": {
+  "t": "Εισαγωγή HTML (προαιρετικό)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22327,6 +22657,12 @@
  },
  "Labels": {
   "t": "Ετικέτες",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Labels & messages": {
+  "t": "Ετικέτα & μηνύματα",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23855,6 +24191,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Load settings from a previously exported XML file.": {
+  "t": "settings φόρτωσης από ένα προηγουμένως εξαγόμενο αρχείο XML.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Load settings from an .xml file": {
   "t": "settings φόρτωσης από ένα αρχείο .xml",
   "src": "libretranslate",
@@ -23976,6 +24318,12 @@
   "added": "2026-10-09"
  },
  "Loading fields...": {
+  "t": "Φόρτωση πεδίων...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Loading fields…": {
   "t": "Φόρτωση πεδίων...",
   "src": "libretranslate",
   "reviewed": false,
@@ -25303,6 +25651,12 @@
  },
  "Max photo size (MB)": {
   "t": "Μέγιστο μέγεθος φωτογραφίας (MB)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Max recent searches to keep": {
+  "t": "Μέγ. πρόσφατες αναζητήσεις για διατήρηση",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -26639,6 +26993,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "New search": {
+  "t": "Νέα αναζήτηση",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "New traverse": {
   "t": "Νέο πέρασμα",
   "src": "libretranslate",
@@ -26809,6 +27169,12 @@
  },
  "No comments yet.": {
   "t": "Κανένα σχόλιο ακόμα.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No constraint": {
+  "t": "Χωρίς περιορισμό",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -27137,6 +27503,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No list of addresses appears: you have typed fewer than three letters, or the address service is slow. Type a little more and wait a second.": {
+  "t": "Δεν εμφανίζεται καμία λίστα διευθύνσεων: έχετε πληκτρολογήσει λιγότερα από τρία γράμματα, ή η υπηρεσία διεύθυνσης είναι αργή. Πληκτρολογήστε λίγο περισσότερο και περιμένετε ένα δευτερόλεπτο.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No map configured. The widget will still look up zones, but results will not be highlighted on a map.": {
   "t": "Δεν έχει ρυθμιστεί χάρτης. Το widget θα εξακολουθεί να ψάχνει τις ζώνες, αλλά τα αποτελέσματα δεν θα επισημαίνονται σε ένα χάρτη.",
   "src": "libretranslate",
@@ -27365,6 +27737,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No recognized settings were found in the file.": {
+  "t": "Δεν βρέθηκαν αναγνωρισμένες ρυθμίσεις στο αρχείο.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No records found in selected layer": {
   "t": "Δε βρέθηκαν εγγραφές σε επιλεγμένο στρώμα",
   "src": "libretranslate",
@@ -27559,6 +27937,12 @@
  },
  "No-result message": {
   "t": "Μήνυμα χωρίς αποτέλεσμα",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No-results message": {
+  "t": "Μήνυμα χωρίς αποτελέσματα",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -28313,6 +28697,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "On phones and touch screens: larger touch targets (44px), 16px input font to prevent iOS auto-zoom when focusing the search box, full-width action buttons, thumb-reachable share menu, and tighter spacing on narrow screens. Recommended on. Turn off to keep desktop sizing everywhere.": {
+  "t": "Στα τηλέφωνα και στις οθόνες αφής: μεγαλύτεροι στόχοι αφής (44px), 16px γραμματοσειρά εισόδου για να αποτρέψει το iOS auto-zoom κατά την εστίαση του πλαισίου αναζήτησης, κουμπιά δράσης πλήρους πλάτους, το μενού κοινής χρήσης με τον αντίχειρα, και στενότερη απόσταση σε στενές οθόνες. Προτείνεται. Κλείσ' το για να έχεις παντού μέγεθος επιφάνειας εργασίας.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "On select, each rule runs an intersect query and appends its HTML to the popup. Tokens:": {
   "t": "Στην επιλογή, κάθε κανόνας τρέχει ένα τέμπλο ερώτημα και προσαρτά HTML του στο αναδυόμενο. Ένδειξη:",
   "src": "libretranslate",
@@ -28375,6 +28765,12 @@
  },
  "On the map": {
   "t": "Στο χάρτη",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On the map, a red dot marks the address and the matching area is shaded.": {
+  "t": "Στο χάρτη, μια κόκκινη τελεία σηματοδοτεί τη διεύθυνση και η περιοχή που ταιριάζει σκιάζεται.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -28925,6 +29321,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Optimize for iframe": {
+  "t": "Βελτιστοποίηση για iframe",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Optimize for mobile": {
+  "t": "Βελτιστοποίηση για κινητά",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "optional": {
   "t": "προαιρετικό",
   "src": "libretranslate",
@@ -28997,8 +29405,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Optional. Override the theme accent and heading colors used in the top UI (label, icons, \"Use my location\", focus rings). Leave blank to inherit from the page theme.": {
+  "t": "Προαιρετικό. Αντικατάσταση της έμφασης θέμα και τα χρώματα επικεφαλίδας που χρησιμοποιούνται στην κορυφή UI (ετικέτα, εικονίδια, \"Χρησιμοποιήστε τη θέση μου\", δαχτυλίδια εστίασης). Αφήστε το κενό να κληρονομήσει από το θέμα της σελίδας.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Optional. Overrides the title field. The identified feature is available as $feature.": {
   "t": "Προαιρετικό. Υπερτερεί του πεδίου τίτλου. Το αναγνωρισμένο χαρακτηριστικό είναι διαθέσιμο ως $feature.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Optional. Pick a field to render as a big colored badge at the top of the result card, plus an optional subtitle underneath. Leave both blank to skip the hero and use only the HTML template.": {
+  "t": "Προαιρετικό. Επιλέξτε ένα πεδίο για να αποδώσετε ως ένα μεγάλο έγχρωμο σήμα στην κορυφή της κάρτας αποτελεσμάτων, συν έναν προαιρετικό υπότιτλο από κάτω. Αφήστε και τα δύο κενά για να παραλείψετε τον ήρωα και χρησιμοποιήστε μόνο το πρότυπο HTML.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -29279,6 +29699,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Outside service area message": {
+  "t": "Μήνυμα περιοχής εξωτερικής υπηρεσίας",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Outside the current map scale": {
   "t": "Έξω από την τρέχουσα κλίμακα χάρτη",
   "src": "libretranslate",
@@ -29299,6 +29725,18 @@
  },
  "outside this coordinate system's area": {
   "t": "εκτός της περιοχής του συστήματος συντεταγμένων",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Outside-area heading": {
+  "t": "Τίτλος εξωτερικής περιοχής",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Outside-area retry button label": {
+  "t": "Ετικέτα πλήκτρων επανέναρξης εξωτερικής περιοχής",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -30257,6 +30695,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Picking an address from the list is more reliable than typing the whole address and pressing Enter.": {
+  "t": "Η επιλογή μιας διεύθυνσης από τη λίστα είναι πιο αξιόπιστη από την πληκτρολόγηση ολόκληρης της διεύθυνσης και το πάτημα Enter.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Pictometry asks you to sign in: the Pictometry viewer needs its own account. Ask whoever built this app if you should have one.": {
   "t": "Η πικτομετρία σας ζητά να συνδεθείτε: ο προβολέας της πικτομετρίας χρειάζεται δικό του λογαριασμό. Ρώτα όποιον έφτιαξε την εφαρμογή αν πρέπει να την έχεις.",
   "src": "libretranslate",
@@ -30407,8 +30851,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Placeholder heading (before search)": {
+  "t": "Τίτλος του κατόχου (πριν την αναζήτηση)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Placeholder message (before search)": {
+  "t": "Μήνυμα χρήστη (πριν από την αναζήτηση)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Placement": {
   "t": "Τοποθέτηση",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Plain (intro as ordinary text)": {
+  "t": "Απλό (εισάγεται ως συνηθισμένο κείμενο)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -31513,6 +31975,12 @@
  },
  "Primary": {
   "t": "Πρωτοβάθμια",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Primary brand color": {
+  "t": "Βασικό χρώμα μάρκας",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -33215,6 +33683,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Reset button label": {
+  "t": "Επαναφορά ετικέτας κουμπιού",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reset button tooltip": {
+  "t": "Επαναφορά υποδείξεων κουμπιών",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Reset Default Area Units": {
   "t": "Επαναφορά μονάδων προκαθορισμένης περιοχής",
   "src": "libretranslate",
@@ -33295,6 +33775,12 @@
  },
  "Reset to layout grid": {
   "t": "Επαναφορά στο πλέγμα διάταξης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reset to theme": {
+  "t": "Επαναφορά στο θέμα",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -33443,6 +33929,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Result hero": {
+  "t": "Αποτέλεσμα ήρωα",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Result HTML template": {
+  "t": "Αποτέλεσμα προτύπου HTML",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Result navigation": {
   "t": "Πλοήγηση αποτελεσμάτων",
   "src": "libretranslate",
@@ -33461,6 +33959,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Result template": {
+  "t": "Πρότυπο αποτελέσματος",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Results": {
   "t": "Αποτελέσματα",
   "src": "libretranslate",
@@ -33469,6 +33973,12 @@
  },
  "Results found:": {
   "t": "Βρέθηκαν αποτελέσματα:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Results found.": {
+  "t": "Βρέθηκαν αποτελέσματα.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -34099,6 +34609,12 @@
  },
  "Save the traverse lines, points, and closed parcel polygon to the configured layers": {
   "t": "Αποθήκευση των τραβερών γραμμών, σημείων και κλειστού πολυγώνου δεμάτων στα ρυθμισμένα στρώματα",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Save these settings as an XML file or load them from a previously exported file. The map widget and zone layer references stay app-specific and need to be re-selected after importing.": {
+  "t": "Αποθήκευση αυτών των ρυθμίσεων ως αρχείο XML ή φόρτωση τους από ένα προηγουμένως εξαγόμενο αρχείο. Το γραφικό συστατικό χάρτη και οι αναφορές στρώμα ζώνης παραμένουν app-specific και πρέπει να επανεκλεγεί μετά την εισαγωγή.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -35111,6 +35627,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Select a map widget": {
+  "t": "Επιλέξτε ένα γραφικό συστατικό χάρτη",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select a Map widget": {
   "t": "Επιλέξτε ένα γραφικό συστατικό χάρτη",
   "src": "libretranslate",
@@ -35179,6 +35701,12 @@
  },
  "Select a widget...": {
   "t": "Επιλέξτε ένα γραφικό συστατικό...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select a zone layer above to see its fields.": {
+  "t": "Επιλέξτε ένα στρώμα ζώνης από πάνω για να δείτε τα πεδία του.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -35533,6 +36061,12 @@
  },
  "Select the widget controller containing Mailing Labels": {
   "t": "Επιλέξτε τον ελεγκτή γραφικού συστατικού που περιέχει ετικέτες αλληλογραφίας",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select the zone layer": {
+  "t": "Επιλέξτε το στρώμα ζώνης",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -36143,6 +36677,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Share email subject line": {
+  "t": "Κοινή χρήση γραμμής θέματος email",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Share options": {
   "t": "Επιλογές μετοχής",
   "src": "libretranslate",
@@ -36209,6 +36749,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show \"Click map\" mode toggle": {
+  "t": "Εμφάνιση \"Κάντε κλικ στο χάρτη\" λειτουργία εναλλαγής",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show \"Show print area\" toggle": {
   "t": "Εμφάνιση \" Εμφάνιση περιοχής εκτύπωσης\" εναλλαγή",
   "src": "libretranslate",
@@ -36217,6 +36763,12 @@
  },
  "Show \"Use current location\"": {
   "t": "Εμφάνιση \" Χρήση τρέχουσας τοποθεσίας\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show \"Use my location\" button": {
+  "t": "Εμφάνιση \" Χρήση της θέσης μου\" κουμπί",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -36869,8 +37421,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show Print button on result": {
+  "t": "Εμφάνιση κουμπιού εκτύπωσης στο αποτέλεσμα",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show Related Table Summaries": {
   "t": "Εμφάνιση σχετικών περιλήψεων πίνακα",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show reset button": {
+  "t": "Εμφάνιση κουμπιού επαναφοράς",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -36913,6 +37477,12 @@
  },
  "Show Segment Labels": {
   "t": "Εμφάνιση ετικετών τμήματος",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show Share button on result": {
+  "t": "Εμφάνιση κουμπιού κοινής χρήσης στο αποτέλεσμα",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -37123,6 +37693,12 @@
  },
  "Showing only": {
   "t": "Εμφάνιση μόνο",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Shown above the address input. Plain HTML.": {
+  "t": "Εμφάνιση πάνω από την είσοδο της διεύθυνσης. Απλό HTML.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -38555,6 +39131,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Still stuck? Contact the GIS Division and mention the Zone Lookup widget and this app.": {
+  "t": "Ακόμα κολλημένος; Επικοινωνήστε με τον Τομέα GIS και αναφέρετε το γραφικό συστατικό Zone Lookup και αυτή την εφαρμογή.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Still stuck? Contact your GIS team and mention the Draw Advanced widget and this app.": {
   "t": "Ακόμα κολλημένος; Επικοινωνήστε με την ομάδα GIS σας και αναφέρετε το Draw Advanced widget και αυτή την εφαρμογή.",
   "src": "libretranslate",
@@ -38785,6 +39367,12 @@
  },
  "Submit button label": {
   "t": "Υποβολή ετικέτας κουμπιού",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Submit button tooltip": {
+  "t": "Υποβάλετε την εργαλειοθήκη του κουμπιού",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -39755,6 +40343,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The answer says the address is outside the area: that address is not in the areas this app covers. Check the address, then use the phone number or contact shown on the card.": {
+  "t": "Η απάντηση λέει ότι η διεύθυνση είναι έξω από την περιοχή: αυτή η διεύθυνση δεν βρίσκεται στους τομείς που καλύπτει αυτή η εφαρμογή. Ελέγξτε τη διεύθυνση, στη συνέχεια, χρησιμοποιήστε τον αριθμό τηλεφώνου ή την επαφή που εμφανίζεται στην κάρτα.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The area as stated on the deed or record document, saved alongside the calculated area": {
   "t": "Η περιοχή όπως αναφέρεται στο έγγραφο ή το έγγραφο καταγραφής, αποθηκεύεται παράλληλα με την υπολογιζόμενη περιοχή",
   "src": "libretranslate",
@@ -39887,8 +40481,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The card stays empty after a long wait: the address service or the area layer did not answer. Reload the page and try again.": {
+  "t": "Η κάρτα παραμένει άδεια μετά από μεγάλη αναμονή: η υπηρεσία διεύθυνσης ή το στρώμα περιοχής δεν απάντησε. Ξαναγεμίστε τη σελίδα και προσπαθήστε ξανά.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The closure error was distributed proportionally along each boundary line (Bowditch compass rule); your entered values are kept as records": {
   "t": "Το σφάλμα κλεισίματος διανεμήθηκε αναλογικά σε κάθε γραμμή ορίου (κανόνας πυξίδας Bowditch)?",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The colored bar at the top of the card is the short answer, such as the area name and the date.": {
+  "t": "Η έγχρωμη μπάρα στο πάνω μέρος της κάρτας είναι η σύντομη απάντηση, όπως το όνομα περιοχής και η ημερομηνία.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -40349,6 +40955,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The map where the address pin and zone highlight are drawn. Optional : the widget still returns results without a map.": {
+  "t": "Ο χάρτης όπου σχεδιάζεται η καρφίτσα διεύθυνσης και η επισήμανση ζώνης. Προαιρετικό: το widget επιστρέφει ακόμα αποτελέσματα χωρίς χάρτη.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The Map widget this Parcel Drafter works against": {
   "t": "Το γραφικό συστατικό χάρτη αυτό Parcel Drader λειτουργεί κατά",
   "src": "libretranslate",
@@ -40517,6 +41129,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The polygon feature layer that holds the zones.": {
+  "t": "Το στρώμα γνώρισμα πολύγωνο που συγκρατεί τις ζώνες.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The presenter window does not open: the browser blocked a pop up. Allow pop ups for this site and press W again.": {
   "t": "Το παράθυρο παρουσίασης δεν ανοίγει: ο περιηγητής μπλόκαρε ένα αναδυόμενο. Επιτρέπει την εμφάνιση ups για αυτό το site και πατήστε ξανά W.",
   "src": "libretranslate",
@@ -40547,6 +41165,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The printout shows the whole page: the print window was opened from the browser menu. Use the {name} button on the answer card instead.": {
+  "t": "Η εκτύπωση δείχνει ολόκληρη τη σελίδα: το παράθυρο εκτύπωσης άνοιξε από το μενού του προγράμματος περιήγησης. Χρήση του {name} αντί για κουμπί στην κάρτα απάντησης.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The projection engine supports this WKID.": {
   "t": "Η μηχανή προβολής υποστηρίζει αυτό το WKID.",
   "src": "libretranslate",
@@ -40570,6 +41194,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The rest of the card gives the details for the address you looked up.": {
+  "t": "Το υπόλοιπο της κάρτας δίνει τις λεπτομέρειες για τη διεύθυνση που κοίταξε επάνω.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The result layout could not be read. Please contact the app administrator.": {
   "t": "Η διάταξη του αποτελέσματος δεν μπορεί να διαβαστεί. Παρακαλώ επικοινωνήστε με τον διαχειριστή της εφαρμογής.",
@@ -41167,6 +41797,12 @@
  },
  "This field is required for generating labels": {
   "t": "Το πεδίο αυτό απαιτείται για την παραγωγή ετικετών",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "This guide follows the app: it only describes the buttons this app is showing you.": {
+  "t": "Αυτός ο οδηγός ακολουθεί την εφαρμογή: περιγράφει μόνο τα κουμπιά που σας δείχνει αυτή η εφαρμογή.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -43463,6 +44099,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Use {{#if FIELD_NAME}}, {{else}}, and {{/if}}. Field names may contain letters, numbers, and underscores and may not start with a number. Close each directive with two braces.": {
+  "t": "Χρήση {{# if FILD NAME}, {{else}}, και {{/ if}. Τα ονόματα πεδίου μπορούν να περιέχουν γράμματα, αριθμούς και υπογράμμους και δεν μπορούν να ξεκινήσουν με αριθμό. Κλείστε κάθε οδηγία με δύο σιδεράκια.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use {{#if FIELD_NAME}}...{{else}}...{{/if}} to choose text when a field is populated or empty. Missing, null, empty, and whitespace-only values use the else branch. Zero and false count as populated. This is template syntax, not Arcade.": {
+  "t": "Χρήση {{# if FILD NAME}... {{else}}... {{/ if} για να επιλέξετε κείμενο όταν ένα πεδίο είναι κατοικημένο ή κενό. Αγνοούμενες, άκυρες, κενές και τιμές μόνο για το κενό, χρησιμοποιούν το άλλο κλαδί. Μηδέν και ψευδής καταμέτρηση όπως πυκνώθηκε. Αυτό είναι σύνταξη προτύπου, όχι Arcade.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use {FIELD_NAME} to insert a field value. Field names ignore capitalization, and values are HTML-escaped. Date fields use long English dates in UTC.": {
+  "t": "Χρήση {FIELD_NAME} για την εισαγωγή μιας τιμής πεδίου. Τα ονόματα πεδίου αγνοούν την κεφαλαιοποίηση, και οι τιμές είναι HTML-αποκεφαλισμένες. Τα πεδία ημερομηνίας χρησιμοποιούν μακρές αγγλικές ημερομηνίες σε UTC.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Use {fieldName} placeholders from the added data.": {
   "t": "Χρήση {fieldName} placeholders από τα πρόσθετα στοιχεία.",
   "src": "libretranslate",
@@ -43591,6 +44245,12 @@
  },
  "Use My Location": {
   "t": "Χρήση της τοποθεσίας μου",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use no more than 64 nested if blocks.": {
+  "t": "Να μην χρησιμοποιείται πάνω από 64 φωλιασμένα εάν μπλοκ.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -45011,6 +45671,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Widget fills its parent’s height and stretches the result card to remove void space below. Use when embedding as a fixed-size iframe.": {
+  "t": "Το Widget γεμίζει το ύψος του γονέα του και απλώνει την κάρτα αποτελεσμάτων για να αφαιρέσει τον κενό χώρο από κάτω. Χρήση κατά την ενσωμάτωση ως πλαίσιο σταθερού μεγέθους.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Widget functions": {
   "t": "Συναρτήσεις γραφικού συστατικού",
   "src": "libretranslate",
@@ -45533,6 +46199,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Your address is not in the list: the house number or the spelling may be slightly off. Try the street name on its own, then pick the right one from the list.": {
+  "t": "Η διεύθυνσή σας δεν είναι στη λίστα: ο αριθμός του σπιτιού ή η ορθογραφία μπορεί να είναι ελαφρώς εκτός. Δοκιμάστε το όνομα του δρόμου από μόνο του, στη συνέχεια, επιλέξτε το σωστό από τη λίστα.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Your basemap, map extent, and layer data stay the same. The comparison uses temporary layer copies.": {
   "t": "Ο χάρτης βάσης, η έκταση του χάρτη και τα δεδομένα του στρώματος παραμένουν ίδια. Η σύγκριση χρησιμοποιεί αντίγραφα προσωρινού στρώματος.",
   "src": "libretranslate",
@@ -45563,6 +46235,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Your last few addresses are listed under \"{recent}\" when the box is empty.": {
+  "t": "Οι τελευταίες σας διευθύνσεις είναι καταχωρημένες...{recent}\" όταν το κουτί είναι άδειο.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Your location could not be determined right now.": {
   "t": "Η θέση σου δεν μπορεί να προσδιοριστεί τώρα.",
   "src": "libretranslate",
@@ -45577,6 +46255,12 @@
  },
  "Your measurement choices are remembered in this browser. Reset Measurement Defaults puts them back.": {
   "t": "Οι επιλογές μέτρησης θυμόμαστε σε αυτό το πρόγραμμα περιήγησης. Επαναφορά των προκαθορισμένων μετρήσεων τα βάζει πίσω.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Your recent addresses": {
+  "t": "Οι πρόσφατες διευθύνσεις σας",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -45671,6 +46355,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Zone layer": {
+  "t": "Στρώμα ζώνης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zone layer extent": {
+  "t": "Έκταση στρώματος ζώνης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Zone Lookup": {
   "t": "Αναζήτηση ζώνης",
   "src": "libretranslate",
@@ -45727,6 +46423,12 @@
  },
  "Zoom is the map's zoom level. A bigger number means the map is zoomed in closer.": {
   "t": "Ο Ζουμ είναι το ζουμ επίπεδο του χάρτη. Ένας μεγαλύτερος αριθμός σημαίνει ότι ο χάρτης είναι πιο κοντά.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zoom level after lookup": {
+  "t": "Επίπεδο εστίασης μετά την αναζήτηση",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"

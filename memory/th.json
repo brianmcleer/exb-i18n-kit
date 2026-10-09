@@ -239,6 +239,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "\"{name}\" does nothing: your browser is blocking location access. Allow location for this page in your browser settings, or type the address instead.": {
+  "t": "\"{name}\"ไม่ทําอะไร เบราว์เซอร์ของคุณ ปิดกั้นการเข้าถึงตําแหน่ง อนุญาตให้ตําแหน่งของหน้านี้อยู่ในการตั้งค่าของเบราว์เซอร์ของคุณ หรือพิมพ์ที่อยู่แทน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "\"{name}\" is greyed out: the widget has no map to click, or the map is still loading. Type the address instead.": {
+  "t": "\"{name}\"มีสีเทาออก: วิดเจ็ตมีแผนที่ที่จะคลิกไม่ได้ หรือแผนที่ยังคงโหลด พิมพ์ที่อยู่แทน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "\"All\" placeholder": {
   "t": "ที่อยู่ \"ทั้งหมด\"",
   "src": "libretranslate",
@@ -359,6 +371,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{{#if Municipality}}\n  <p>Incorporated {Municipality}</p>\n{{else}}\n  <p>Unincorporated {Township} Township</p>\n{{/if}}": {
+  "t": "[[[[# if musicipalies] <p> วางจําหน่าย {Municipality}<p> (เสียงปรบมือ){else}) <p> ไม่รวม {Township} เทศบาลเมือง ( {/if}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{activeLabel}: a check mark and border show the basemap being used.": {
   "t": "{activeLabel}เครื่องหมายและกรอบแสดงฐานการใช้",
   "src": "libretranslate",
@@ -385,6 +403,12 @@
  },
  "{address}": {
   "t": "{address}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{alias} ({type}) : click to insert": {
+  "t": "{alias} ({type}คลิกเพื่อแทรก",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -517,6 +541,12 @@
  },
  "{circle}: click the center, then click again to set the size.": {
   "t": "{circle}คลิกตรงกลาง แล้วคลิกอีกครั้งเพื่อตั้งค่าขนาด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{clear} removes that list from this browser. The list is only on your own computer, and nobody else sees it.": {
+  "t": "{clear} เอารายการออกจากเบราว์เซอร์นี้ รายชื่ออยู่ที่คอมพิวเตอร์ของคุณ และไม่มีใครเห็นมัน",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1265,8 +1295,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{name}: opens a small menu with Copy link, Email and Text message.": {
+  "t": "{name}: เปิดเมนูขนาดเล็กด้วยคัดลอกลิงก์, อีเมล และข้อความ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{name}: photos taken from the street, as if you were standing there.": {
   "t": "{name}รูปที่ถ่ายมาจากถนน ราวกับว่าคุณยืนอยู่ตรงนั้น",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{name}: prints the answer card on its own, not the whole page.": {
+  "t": "{name}พิมพ์ใบคําตอบด้วยตัวเอง ไม่ใช่ทั้งหน้า",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2501,6 +2543,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "A closing {{/if}} needs an opening {{#if FIELD_NAME}}.": {
+  "t": "การปิดโปรแกรม ( {/if} ต้องการการเปิด {1} หาก Field swo}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "a Comments sheet": {
   "t": "แผ่นงานคําอธิบาย",
   "src": "libretranslate",
@@ -2767,6 +2815,12 @@
  },
  "A report link works for anyone who can open this app, so it is a quick way to hand a property to a colleague.": {
   "t": "การเชื่อมโยงในรายงานใช้ได้กับใครก็ตามที่สามารถเปิดแอพนี้ ดังนั้นมันเป็นวิธีอย่างรวดเร็วที่จะมอบทรัพย์สินให้กับเพื่อนร่วมงาน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A REST URL to a GeocodeServer. Defaults to the ArcGIS World Geocoder. Use an internal composite locator if available.": {
+  "t": "ที่อยู่ URL RIST ไปยังเครื่องแม่ข่าย Goocode ค่าปริยายสําหรับ AcGIS World Geocode ใช้ค่าที่ตั้งภายในหากมี",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3121,6 +3175,12 @@
  },
  "Add a \"Show only this layer\" action": {
   "t": "เพิ่มการกระทํา \"แสดงเฉพาะเลเยอร์นี้\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add a closing {{/if}} for every opening if block.": {
+  "t": "เพิ่มการปิด { {/if} สําหรับทุกการเปิดถ้าบล็อค",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3821,6 +3881,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Address input label": {
+  "t": "ป้ายที่ป้อนที่อยู่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address input placeholder": {
+  "t": "ส่วนของที่อยู่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address input tooltip": {
+  "t": "กล่องนําเข้าที่อยู่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Address Inspection Failed": {
   "t": "การตรวจสอบที่อยู่ล้มเหลว",
   "src": "libretranslate",
@@ -3859,6 +3937,12 @@
  },
  "Address lookup failed.": {
   "t": "การค้นหาที่อยู่ล้มเหลว",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address lookup results. Swipe up or down to scroll.": {
+  "t": "ผลการค้นหาที่อยู่ ม้วนขึ้นหรือลงเพื่อเลื่อน",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4745,8 +4829,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "An {{else}} needs an opening {{#if FIELD_NAME}}.": {
+  "t": "A {2{else}ต้องการการเปิด {2} ถ้า FIDID CO}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "an address": {
   "t": "ที่อยู่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "An address right on the edge of an area still matches. The widget looks a short distance around the point.": {
+  "t": "ที่อยู่ของบริเวณใกล้เคียง วิดเจ็ตมีลักษณะเป็นระยะทางที่สั้นรอบจุด",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5321,6 +5417,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "At the top of the answer card you get {actions}.": {
+  "t": "ที่ด้านบนของใบคําตอบที่คุณได้ {actions}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Attach a photo": {
   "t": "แนบภาพ",
   "src": "libretranslate",
@@ -5587,6 +5689,12 @@
  },
  "available": {
   "t": "มี",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Available fields": {
+  "t": "ช่องข้อมูลที่มีอยู่",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5899,6 +6007,12 @@
  },
  "Badges on a card or in the Activity column: {badges}.": {
   "t": "อาชญากรรมบนไพ่หรือในคอลัมน์กิจกรรม: {badges}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Banner (colored band with optional title)": {
+  "t": "แบนเนอร์ (แถบสีที่มีชื่อแทน)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6521,6 +6635,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Brand colors": {
+  "t": "สีหัวกระดาษ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Breakpoint (px)": {
   "t": "จุดหยุด (px)",
   "src": "libretranslate",
@@ -6797,6 +6917,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Buttons on the answer card": {
+  "t": "ปุ่มบนใบตอบ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "buttons to back up and restore your drawings.": {
   "t": "ปุ่มสํารองและเรียกคืนภาพวาดของคุณ",
   "src": "libretranslate",
@@ -6829,6 +6955,12 @@
  },
  "Call {join}": {
   "t": "เรียก {join}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Call {part}": {
+  "t": "เรียก {part}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7492,6 +7624,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Check the result template:": {
+  "t": "ตรวจสอบแม่แบบผลลัพธ์:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Checked {rows} rows, {warnings} warnings": {
   "t": "ตรวจสอบแล้ว {rows} แถว {warnings} คําเตือน",
@@ -8351,6 +8489,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Clearing your browser data also clears your recent addresses.": {
+  "t": "ล้างข้อมูลที่อยู่ล่าสุดของคุณด้วย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Clearing your browser data removes saved views. Export them first if you want to keep them.": {
   "t": "กําลังล้างข้อมูลการลบมุมมองที่บันทึกไว้ของเบราว์เซอร์ ส่งออกพวกเขาก่อน หากคุณต้องการเก็บมันไว้",
   "src": "libretranslate",
@@ -8701,6 +8845,12 @@
  },
  "Click one of the tool buttons at the top, such as {distance} or {area}.": {
   "t": "คลิกปุ่มเครื่องมือปุ่มหนึ่งด้านบนเช่น {distance} หรือ {area}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click one to look it up again.": {
+  "t": "คลิก 1 ดูอีกที",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9196,6 +9346,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Close results and search another address": {
+  "t": "ปิดผลลัพธ์และค้นหาที่อยู่อื่น",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Close selection mode picker": {
   "t": "เครื่องมือเลือกโหมดปิด",
@@ -9887,6 +10043,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Conditional template example": {
+  "t": "ตัวอย่างแม่แบบเงื่อนไข",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Configuration": {
   "t": "ปรับแต่ง",
   "src": "libretranslate",
@@ -9910,6 +10072,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Configuration imported successfully.": {
+  "t": "นําเข้าค่าปรับแต่งเรียบร้อยแล้ว",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Configuration imported.": {
   "t": "นําเข้าค่าปรับแต่ง",
@@ -10222,6 +10390,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Constrain search to": {
+  "t": "สืบค้นต่อไป",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Contact": {
   "t": "ติดต่อ",
@@ -10739,6 +10913,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copy link does nothing: this browser does not allow copying from a page. Copy the address out of the box by hand instead.": {
+  "t": "คัดลอกที่อยู่เชื่อมโยงไม่มีอะไร: เบราว์เซอร์นี้ไม่อนุญาตให้คัดลอกจากหน้าเดียว คัดลอกที่อยู่ออกจากกล่องด้วยมือแทน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copy link or Copy XML says it could not copy: the browser blocked the clipboard. Use Download XML, or copy the address bar after the page updates.": {
   "t": "คัดลอกลิงก์หรือคัดลอก XML แจ้งว่าไม่สามารถคัดลอกได้: เบราว์เซอร์ได้ปิดกั้นคลิปบอร์ด ใช้การดาวน์โหลด XML หรือคัดลอกแถบที่อยู่ หลังจากการปรับปรุงหน้าเว็บแล้ว",
   "src": "libretranslate",
@@ -10945,6 +11125,12 @@
  },
  "Could not read the dates from the layers. The range shown is a guess; the builder can set it.": {
   "t": "ไม่สามารถอ่านวันที่จากชั้นได้ ช่วง ดัง กล่าว แสดง ให้ เห็น เป็น การ เดา; ผู้ สร้าง สามารถ กําหนด ได้.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not read the file. Make sure it is a valid Zone Lookup XML export.": {
+  "t": "ไม่สามารถอ่านแฟ้มได้ ตรวจสอบให้แน่ใจว่าเป็นโปรแกรมส่งออกแบบ XML ที่ใช้งานได้",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11233,6 +11419,12 @@
  },
  "Current configuration as XML (read only)": {
   "t": "การปรับแต่งปัจจุบันเป็น XML (อ่านอย่างเดียว)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Current map extent": {
+  "t": "ขนาดของแผนที่ปัจจุบัน",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13481,6 +13673,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Download these settings as an XML file.": {
+  "t": "ดาวน์โหลดการตั้งค่าเหล่านี้ให้เป็นแฟ้ม XML",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Download unmatched": {
   "t": "ดาวน์โหลดรายการ",
   "src": "libretranslate",
@@ -14171,6 +14369,42 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "e.g. \"Address is outside the service area\"": {
+  "t": "เช่น \"การแต่งตัวอยู่นอกพื้นที่บริการ\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Enter an address above to see your results.\"": {
+  "t": "เช่น \"ป้อนที่อยู่ด้านบนเพื่อดูผลของคุณ.\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Find your area\"": {
+  "t": "เช่น \"ค้นหาพื้นที่ของคุณ\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Find your pickup area\"": {
+  "t": "เช่น \"หาพื้นที่รับของ\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Lookup results\"": {
+  "t": "เช่น \"ผลการค้นหา\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Try another address\"": {
+  "t": "เช่น \"ลองใช้ที่อยู่อื่นดู\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "e.g. /Parcels/FeatureServer/0": {
   "t": "เพิ่มรายการโปรด",
   "src": "libretranslate",
@@ -14341,6 +14575,12 @@
  },
  "Each format is one line in the result popup and the Results list. X and Y take a WKID; leave it blank for the map's coordinate system.": {
   "t": "แต่ละรูปแบบเป็นบรรทัดเดียวในผลลัพธ์ป๊อปอัปและรายการผลลัพธ์ X และ Y นํา WKID; ปล่อยว่างสําหรับระบบพิกัดแผนที่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Each if block can have only one {{else}}.": {
+  "t": "แต่ละบล็อกจะมีได้เพียงหนึ่งเดียว{else}อืม",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16435,6 +16675,12 @@
  },
  "Export to PDF": {
   "t": "ส่งออกไปยัง PDF",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export to XML": {
+  "t": "ส่งออกไปยัง XML",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18551,6 +18797,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Generic error message": {
+  "t": "ข้อความผิดพลาดทั่วไป",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Geocode": {
   "t": "รหัสภูมิศาสตร์",
   "src": "libretranslate",
@@ -18593,6 +18845,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Geocoding": {
+  "t": "การเขียนภาพ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Geocoding failed": {
   "t": "การจับคู่ภาพล้มเหลว",
   "src": "libretranslate",
@@ -18616,6 +18874,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Geocoding service URL": {
+  "t": "เพิ่มที่อยู่ URL ของบริการ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Geocoding Service URL": {
   "t": "ที่อยู่ URL ของบริการ GoCoting",
@@ -19709,6 +19973,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Header style": {
+  "t": "รูปแบบหัวจดหมาย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Header Text": {
   "t": "ข้อความส่วนหัว",
   "src": "libretranslate",
@@ -19753,6 +20023,12 @@
  },
  "Heading (title)": {
   "t": "ไปยัง (ชื่อ)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Heading / label color": {
+  "t": "สีเส้นการลาก",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19867,6 +20143,18 @@
  },
  "Helvetica (Sans-serif)": {
   "t": "เฮลเวติกา (Sans-serif)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hero subtitle field": {
+  "t": "ช่องข้อมูลแสดงคําบรรยายของ Hero",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hero title field": {
+  "t": "ช่องข้อมูลชื่อเพลง",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20105,6 +20393,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Highlight fill color": {
+  "t": "สีเติมเน้น",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Highlight Geometry": {
   "t": "เน้นเรขาคณิต",
   "src": "libretranslate",
@@ -20131,6 +20425,12 @@
  },
  "Highlight outline color": {
   "t": "เน้นสีกรอบ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Highlight outline width (pt)": {
+  "t": "ความกว้างเส้นการเน้น (pt)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20615,6 +20915,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "If the address sits outside the areas this app covers, a yellow card says so and offers {tryAnother}.": {
+  "t": "ถ้าที่อยู่อยู่นอกพื้นที่ที่แอพนี้ครอบคลุม การ์ดสีเหลืองกล่าวว่าดังนั้นและนําเสนอ {tryAnother}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "If the app has Print Advanced, set a date here first: it prints whatever the map shows, so the printout carries the date.": {
   "t": "หากโปรแกรมมีขั้นสูงการพิมพ์ ให้กําหนดวันที่ที่นี่ก่อน: มันพิมพ์สิ่งที่แสดงบนแผนที่ ดังนั้น printout จะดําเนินการวันที่ด้วย",
   "src": "libretranslate",
@@ -20747,6 +21053,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Import / export": {
+  "t": "นําเข้า / ส่งออก",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Import / export configuration": {
   "t": "นําเข้า/ ส่งออก",
   "src": "libretranslate",
@@ -20857,6 +21169,12 @@
  },
  "Import from file": {
   "t": "นําเข้าจากแฟ้ม",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import from XML": {
+  "t": "นําเข้าจาก XML",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21383,6 +21701,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Insert token for field {alias}": {
+  "t": "แทรกสัญลักษณ์สําหรับช่องข้อมูล {alias}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Inside message": {
   "t": "ในจดหมาย",
   "src": "libretranslate",
@@ -21517,6 +21841,12 @@
  },
  "Interval": {
   "t": "ช่วงเวลา",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Intro HTML (optional)": {
+  "t": "พิมพ์แบบ HTML แบบ Intro (ตัวเลือกเพิ่มเติม)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22327,6 +22657,12 @@
  },
  "Labels": {
   "t": "ป้าย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Labels & messages": {
+  "t": "ป้ายข้อความ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23855,6 +24191,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Load settings from a previously exported XML file.": {
+  "t": "โหลดการตั้งค่าจากแฟ้ม XML ที่ได้ส่งออกก่อนหน้านี้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Load settings from an .xml file": {
   "t": "โหลดค่าจากแฟ้ม .xml",
   "src": "libretranslate",
@@ -23976,6 +24318,12 @@
   "added": "2026-10-09"
  },
  "Loading fields...": {
+  "t": "กําลังโหลดช่องข้อมูล...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Loading fields…": {
   "t": "กําลังโหลดช่องข้อมูล...",
   "src": "libretranslate",
   "reviewed": false,
@@ -25303,6 +25651,12 @@
  },
  "Max photo size (MB)": {
   "t": "ขนาดสูงสุดของภาพถ่าย (MB)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Max recent searches to keep": {
+  "t": "การค้นหาเมื่อเร็ว ๆ นี้สูงสุดที่จะคงไว้",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -26639,6 +26993,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "New search": {
+  "t": "สืบค้นใหม่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "New traverse": {
   "t": "เส้นทางใหม่",
   "src": "libretranslate",
@@ -26809,6 +27169,12 @@
  },
  "No comments yet.": {
   "t": "ยังไม่มีความคิดเห็น",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No constraint": {
+  "t": "ไม่มีเงื่อนไข",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -27137,6 +27503,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No list of addresses appears: you have typed fewer than three letters, or the address service is slow. Type a little more and wait a second.": {
+  "t": "ไม่พบรายการที่อยู่: คุณได้พิมพ์ตัวอักษรน้อยกว่า 3 ตัว หรือบริการที่อยู่จะช้า พิมพ์อีก และรอแป๊บ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No map configured. The widget will still look up zones, but results will not be highlighted on a map.": {
   "t": "ยังไม่มีการปรับแต่งแผนที่ วิดเจ็ตจะยังค้นหาพื้นที่ แต่ผลลัพธ์จะไม่ถูกเน้นบนแผนที่",
   "src": "libretranslate",
@@ -27365,6 +27737,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No recognized settings were found in the file.": {
+  "t": "ไม่พบค่าที่ยอมรับได้ในแฟ้ม",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No records found in selected layer": {
   "t": "ไม่พบบันทึกในเลเยอร์ที่เลือกไว้",
   "src": "libretranslate",
@@ -27558,6 +27936,12 @@
   "added": "2026-10-09"
  },
  "No-result message": {
+  "t": "ไม่มีข้อความซ้ํา",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No-results message": {
   "t": "ไม่มีข้อความซ้ํา",
   "src": "libretranslate",
   "reviewed": false,
@@ -28313,6 +28697,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "On phones and touch screens: larger touch targets (44px), 16px input font to prevent iOS auto-zoom when focusing the search box, full-width action buttons, thumb-reachable share menu, and tighter spacing on narrow screens. Recommended on. Turn off to keep desktop sizing everywhere.": {
+  "t": "บนหน้าจอโทรศัพท์และการสัมผัส: เป้าหมายการสัมผัสขนาดใหญ่ (44px), แบบอักษรนําเข้า 16px เพื่อป้องกันไม่ให้ OS อัตโนมัติโซม เมื่อโฟกัสไปที่กล่องการค้นหา, ปุ่มการกระทําแบบเต็มขั้น, เมนูการใช้ร่วมกันแบบใช้นิ้ว, และระยะที่สั้นลงบนหน้าจอแคบ ขอแนะนํา ปิดเพื่อให้พื้นที่ทํางานปรับขนาดทุกที่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "On select, each rule runs an intersect query and appends its HTML to the popup. Tokens:": {
   "t": "ในการเลือก กฎแต่ละตัวจะมีการค้นหาจากอินเตอร์เซก และเพิ่ม HTML เข้ากับหน้าต่างผุด หมึก:",
   "src": "libretranslate",
@@ -28375,6 +28765,12 @@
  },
  "On the map": {
   "t": "บนแผนที่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On the map, a red dot marks the address and the matching area is shaded.": {
+  "t": "ในแผนที่ จุดสีแดงขีดที่อยู่ และพื้นที่ที่ตรงกันถูกแรเงา",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -28925,6 +29321,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Optimize for iframe": {
+  "t": "ปรับตั้งภาพสําหรับกรอบภาพ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Optimize for mobile": {
+  "t": "ออปติเมชันสําหรับมือถือ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "optional": {
   "t": "ตัวเลือก",
   "src": "libretranslate",
@@ -28997,8 +29405,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Optional. Override the theme accent and heading colors used in the top UI (label, icons, \"Use my location\", focus rings). Leave blank to inherit from the page theme.": {
+  "t": "ทางเลือก แทนที่สําเนียงชุดตกแต่ง และสีหัวเรื่องที่ใช้ใน UI ด้านบน (ป้าย, ไอคอน, \"ใช้ตําแหน่งของฉัน\", แหวนโฟกัส) ทิ้งช่องว่างไว้เป็นมรดกจากชุดตกแต่งหน้ากระดาษ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Optional. Overrides the title field. The identified feature is available as $feature.": {
   "t": "ทางเลือก แซงหน้าสนาม คุณสมบัติที่ระบุได้คือ $fesative",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Optional. Pick a field to render as a big colored badge at the top of the result card, plus an optional subtitle underneath. Leave both blank to skip the hero and use only the HTML template.": {
+  "t": "ทางเลือก เลือกสนามที่จะแสดงเป็นตราสีขนาดใหญ่ที่ด้านบนสุดของบัตรผล รวมกับซับไตเติ้ลด้านล่าง ออกจากช่องว่างทั้งคู่เพื่อข้ามพระเอกและใช้เฉพาะเอกสาร HTML",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -29279,6 +29699,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Outside service area message": {
+  "t": "ข้อความภายนอกพื้นที่บริการ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Outside the current map scale": {
   "t": "นอกสัดส่วนแผนที่ปัจจุบัน",
   "src": "libretranslate",
@@ -29299,6 +29725,18 @@
  },
  "outside this coordinate system's area": {
   "t": "นอกระบบพิกัดนี้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Outside-area heading": {
+  "t": "หัวเรื่องภายนอก",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Outside-area retry button label": {
+  "t": "ลบรายการ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -30257,6 +30695,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Picking an address from the list is more reliable than typing the whole address and pressing Enter.": {
+  "t": "การเลือกที่อยู่จากรายการ เชื่อถือได้มากกว่าการพิมพ์ที่อยู่ทั้งหมด และกดที่ป้อน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Pictometry asks you to sign in: the Pictometry viewer needs its own account. Ask whoever built this app if you should have one.": {
   "t": "Picotomery ขอให้คุณเซ็น: เครื่องมือแสดง Picthomotry ต้องการบัญชีผู้ใช้ของตัวเอง ถามว่าใครสร้างแอพนี้ ถ้าคุณมี",
   "src": "libretranslate",
@@ -30407,8 +30851,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Placeholder heading (before search)": {
+  "t": "ตําแหน่งตัวชี้ (ก่อนทําการค้นหา)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Placeholder message (before search)": {
+  "t": "วางจดหมาย (ก่อนทําการค้น)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Placement": {
   "t": "ตําแหน่ง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Plain (intro as ordinary text)": {
+  "t": "ข้อความธรรมดา (intro เป็นข้อความธรรมดา)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -31513,6 +31975,12 @@
  },
  "Primary": {
   "t": "หลัก",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Primary brand color": {
+  "t": "สีของแบรนด์หลัก",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -33215,6 +33683,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Reset button label": {
+  "t": "ตั้งค่าป้ายบนปุ่มใหม่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reset button tooltip": {
+  "t": "ตั้งค่าทูลทิปของปุ่มใหม่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Reset Default Area Units": {
   "t": "ตั้งค่าหน่วยของพื้นที่ปริยาย",
   "src": "libretranslate",
@@ -33295,6 +33775,12 @@
  },
  "Reset to layout grid": {
   "t": "ปรับเป็นแนวตารางผังแป้นพิมพ์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reset to theme": {
+  "t": "ปรับกลับไปใช้ชุดตกแต่ง",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -33443,6 +33929,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Result hero": {
+  "t": "วีรบุรุษ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Result HTML template": {
+  "t": "แสดงผลเป็นต้นแบบ HTML",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Result navigation": {
   "t": "การนําทางผลลัพธ์",
   "src": "libretranslate",
@@ -33461,6 +33959,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Result template": {
+  "t": "ต้นแบบผลลัพธ์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Results": {
   "t": "ผลลัพธ์",
   "src": "libretranslate",
@@ -33469,6 +33973,12 @@
  },
  "Results found:": {
   "t": "พบผลลัพธ์:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Results found.": {
+  "t": "พบผลลัพธ์แล้ว",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -34099,6 +34609,12 @@
  },
  "Save the traverse lines, points, and closed parcel polygon to the configured layers": {
   "t": "บันทึกเส้นเดิน, จุด, และปิดแพ็กเกจเป็นชั้นปรับแต่ง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Save these settings as an XML file or load them from a previously exported file. The map widget and zone layer references stay app-specific and need to be re-selected after importing.": {
+  "t": "บันทึกการตั้งค่าเหล่านี้เป็นแฟ้ม XML หรือโหลดแฟ้มจากแฟ้มที่ส่งออกก่อนหน้านี้ วิดเจ็ตและส่วนอ้างอิงชั้นของแผนที่ จะยังคงระบุโปรแกรมอยู่ และจําเป็นต้องเลือกอีกครั้งหลังจากนําเข้าแล้ว",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -35111,6 +35627,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Select a map widget": {
+  "t": "เลือกวิดเจ็ตของแผนที่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select a Map widget": {
   "t": "เลือกวิดเจ็ตของแผนที่",
   "src": "libretranslate",
@@ -35179,6 +35701,12 @@
  },
  "Select a widget...": {
   "t": "เลือกวิดเจ็ต...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select a zone layer above to see its fields.": {
+  "t": "เลือกเลเยอร์ของเขตเวลาเพื่อดูช่องข้อมูล",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -35533,6 +36061,12 @@
  },
  "Select the widget controller containing Mailing Labels": {
   "t": "เลือกตัวควบคุมวิดเจ็ตที่บรรจุป้ายจดหมายเวียน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select the zone layer": {
+  "t": "เลือกเลเยอร์ของพื้นที่",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -36143,6 +36677,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Share email subject line": {
+  "t": "ใช้บรรทัดเรื่องอีเมลร่วมกัน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Share options": {
   "t": "ตัวเลือกการใช้ร่วมกัน",
   "src": "libretranslate",
@@ -36209,6 +36749,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show \"Click map\" mode toggle": {
+  "t": "แสดงการสลับโหมด \"คลิกที่\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show \"Show print area\" toggle": {
   "t": "แสดงพื้นที่การพิมพ์",
   "src": "libretranslate",
@@ -36217,6 +36763,12 @@
  },
  "Show \"Use current location\"": {
   "t": "แสดงตําแหน่งปัจจุบัน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show \"Use my location\" button": {
+  "t": "แสดงปุ่ม \"ใช้ตําแหน่งของฉัน\"",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -36869,8 +37421,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show Print button on result": {
+  "t": "แสดงปุ่มพิมพ์ตามผล",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show Related Table Summaries": {
   "t": "แสดงผลรวมตารางที่เกี่ยวข้อง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show reset button": {
+  "t": "แสดงปุ่มรีเซ็ต",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -36913,6 +37477,12 @@
  },
  "Show Segment Labels": {
   "t": "แสดงแถบรายการ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show Share button on result": {
+  "t": "แสดงปุ่มใช้ร่วมกันกับผลลัพธ์",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -37123,6 +37693,12 @@
  },
  "Showing only": {
   "t": "การแสดงเท่านั้น",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Shown above the address input. Plain HTML.": {
+  "t": "แสดงเหนือรายการที่อยู่ แบบ HTML ธรรมดา",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -38555,6 +39131,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Still stuck? Contact the GIS Division and mention the Zone Lookup widget and this app.": {
+  "t": "ยังติดอยู่อีกเหรอ? ติดต่อส่วน GPS และพูดถึงวิดเจ็ตค้นหาโซน และแอพนี้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Still stuck? Contact your GIS team and mention the Draw Advanced widget and this app.": {
   "t": "ยังติดอยู่อีกเหรอ? ติดต่อทีม GIS ของคุณ และพูดถึงวิดเจ็ตขั้นสูงและแอพนี้",
   "src": "libretranslate",
@@ -38785,6 +39367,12 @@
  },
  "Submit button label": {
   "t": "แถบป้ายปุ่มส่ง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Submit button tooltip": {
+  "t": "ทูลทิปปุ่มส่ง",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -39755,6 +40343,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The answer says the address is outside the area: that address is not in the areas this app covers. Check the address, then use the phone number or contact shown on the card.": {
+  "t": "คําตอบบอกว่า ที่อยู่อยู่นอกพื้นที่: ที่อยู่ไม่ได้อยู่ในพื้นที่ที่แอพนี้ครอบคลุมอยู่ ตรวจ ดู ที่ อยู่ แล้ว ใช้ หมาย เลข โทรศัพท์ หรือ สิ่ง ที่ พบ ใน บัตร.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The area as stated on the deed or record document, saved alongside the calculated area": {
   "t": "พื้นที่ที่ระบุไว้บนเอกสารโฉบหรือบันทึกลงแฟ้ม โดยบันทึกไว้ตามพื้นที่ที่คํานวณไว้",
   "src": "libretranslate",
@@ -39887,8 +40481,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The card stays empty after a long wait: the address service or the area layer did not answer. Reload the page and try again.": {
+  "t": "ไพ่ยังคงว่างหลังจากรอมานาน: บริการที่อยู่หรือชั้นพื้นที่ยังไม่ตอบรับ เรียกหน้าเว็บใหม่อีกครั้งแล้วลองใหม่อีกครั้ง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The closure error was distributed proportionally along each boundary line (Bowditch compass rule); your entered values are kept as records": {
   "t": "ข้อผิดพลาดในการปิดถูกกระจายตามสัดส่วนแต่ละเส้น (กฎเข็มทิศบาวดิช); ค่าที่เข้ามาของคุณจะถูกเก็บเป็นบันทึก",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The colored bar at the top of the card is the short answer, such as the area name and the date.": {
+  "t": "แถบ สี ที่ อยู่ ด้าน บน ของ บัตร คือ คํา ตอบ สั้น ๆ เช่น ชื่อ บริเวณ และ วัน ที่.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -40349,6 +40955,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The map where the address pin and zone highlight are drawn. Optional : the widget still returns results without a map.": {
+  "t": "แผนที่ที่จุดเน้นที่ตําแหน่ง และพื้นที่ ตัวเลือก: วิดเจ็ตยังคงมีผลกลับมาโดยไม่มีแผนที่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The Map widget this Parcel Drafter works against": {
   "t": "วิดเจ็ตของแผนที่นี้ตัวร่างแบบพาร์เซลล์ใช้ได้กับ",
   "src": "libretranslate",
@@ -40517,6 +41129,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The polygon feature layer that holds the zones.": {
+  "t": "ชั้น รูป ทรง สี่ เหลี่ยม ผืน ผ้า ซึ่ง ครอบ คลุม บริเวณ นั้น.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The presenter window does not open: the browser blocked a pop up. Allow pop ups for this site and press W again.": {
   "t": "หน้าต่างตัวแสดงยังไม่เปิด: ตัวเรียกดูบล็อคหน้าต่างผุดขึ้นมา อนุญาตให้เปิดเว็บไซต์นี้ และกด W อีกครั้ง",
   "src": "libretranslate",
@@ -40547,6 +41165,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The printout shows the whole page: the print window was opened from the browser menu. Use the {name} button on the answer card instead.": {
+  "t": "การพิมพ์จะแสดงทั้งหน้า: หน้าต่างการพิมพ์ถูกเปิดจากเมนูเว็บเบราว์เซอร์ ใช้ {name} กระดุมบนใบตอบรับแทน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The projection engine supports this WKID.": {
   "t": "กลไกโปรเจคชันรองรับ WKID นี้",
   "src": "libretranslate",
@@ -40570,6 +41194,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The rest of the card gives the details for the address you looked up.": {
+  "t": "นามบัตรที่เหลือ ให้รายละเอียดที่อยู่ที่คุณหา",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The result layout could not be read. Please contact the app administrator.": {
   "t": "ไม่สามารถอ่านการจัดวางผลลัพธ์ได้ กรุณาติดต่อผู้ดูแลระบบ",
@@ -41167,6 +41797,12 @@
  },
  "This field is required for generating labels": {
   "t": "ช่องข้อมูลนี้จําเป็นสําหรับการสร้างป้าย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "This guide follows the app: it only describes the buttons this app is showing you.": {
+  "t": "มัคคุเทศก์นี้ทําตามแอพ มันบรรยายเฉพาะปุ่มที่โปรแกรมนี้แสดง",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -43463,6 +44099,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Use {{#if FIELD_NAME}}, {{else}}, and {{/if}}. Field names may contain letters, numbers, and underscores and may not start with a number. Close each directive with two braces.": {
+  "t": "ใช้ {2} หาก FELD BAR NAME OF TRANSLATORS{else}และ { {/i} ชื่อ สนาม อาจ มี ตัว อักษร, ตัว เลข, และ ตัว เน้น และ อาจ ไม่ เริ่ม ด้วย ตัว เลข. ปิดแต่ละคําสั่งด้วยสองคาน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use {{#if FIELD_NAME}}...{{else}}...{{/if}} to choose text when a field is populated or empty. Missing, null, empty, and whitespace-only values use the else branch. Zero and false count as populated. This is template syntax, not Arcade.": {
+  "t": "ใช้ {2} หาก FELD NAME OF TRANSLATORS{else}}... { {/if} เพื่อเลือกข้อความเมื่อมีช่องหรือว่างอยู่ ค่าว่าง, ว่าง, และช่องว่างเท่านั้น ใช้กิ่งอื่น ศูนย์และจํานวนเท็จเป็นจํานวนคน นี่คือไวยากรณ์แม่แบบ ไม่ใช่อาร์เคด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use {FIELD_NAME} to insert a field value. Field names ignore capitalization, and values are HTML-escaped. Date fields use long English dates in UTC.": {
+  "t": "ใช้ {FIELD_NAME} ในการใส่ค่าในช่องข้อมูล ชื่อสนามไม่สนใจการสร้างเงินทุน ค่านิยมเป็นแบบ HTML ช่องข้อมูลวันที่ ใช้วันที่ภาษาอังกฤษยาวใน UTC",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Use {fieldName} placeholders from the added data.": {
   "t": "ใช้ {fieldName} ผู้ถือหุ้นจากข้อมูลที่ถูกเพิ่ม",
   "src": "libretranslate",
@@ -43591,6 +44245,12 @@
  },
  "Use My Location": {
   "t": "ใช้ ตําแหน่ง ของ ฉัน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use no more than 64 nested if blocks.": {
+  "t": "ใช้ไม่ได้มากกว่า 64 รังถ้าบล็อก",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -45011,6 +45671,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Widget fills its parent’s height and stretches the result card to remove void space below. Use when embedding as a fixed-size iframe.": {
+  "t": "วิดเจ็ต จะ ทดแทน ความ สูง ของ บิดา มารดา และ จะ ยืด บัตร นั้น ออก ไป เพื่อ ลบ ช่อง ว่าง ข้าง ล่าง. ใช้เมื่อฝังเป็นกรอบขนาดคงที่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Widget functions": {
   "t": "ฟังก์ชันของวิดเจ็ต",
   "src": "libretranslate",
@@ -45533,6 +46199,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Your address is not in the list: the house number or the spelling may be slightly off. Try the street name on its own, then pick the right one from the list.": {
+  "t": "ที่ อยู่ ของ คุณ ไม่ มี อยู่ ใน รายการ: หมาย เลข บ้าน หรือ คํา สะกด อาจ ไม่ มี อยู่ บ้าง. ลอง ใช้ ชื่อ ถนน เอง แล้ว เลือก ชื่อ ที่ ถูก ต้อง จาก รายการ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Your basemap, map extent, and layer data stay the same. The comparison uses temporary layer copies.": {
   "t": "พื้นฐาน, แผนที่, และข้อมูลชั้นๆเดียวกัน การ เปรียบ เทียบ นี้ ใช้ สําเนา แบบ ชั่ว คราว.",
   "src": "libretranslate",
@@ -45563,6 +46235,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Your last few addresses are listed under \"{recent}\" when the box is empty.": {
+  "t": "ที่อยู่สุดท้ายของคุณมีรายชื่อ \"{recent}เมื่อกล่องว่างเปล่า",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Your location could not be determined right now.": {
   "t": "ตําแหน่งของคุณไม่สามารถกําหนดได้ในขณะนี้",
   "src": "libretranslate",
@@ -45577,6 +46255,12 @@
  },
  "Your measurement choices are remembered in this browser. Reset Measurement Defaults puts them back.": {
   "t": "ตัวเลือกการวัดของคุณจะถูกจดจําไว้ในเบราว์เซอร์นี้ การปรับค่าค่าเริ่มต้น ทําให้พวกเขากลับมา",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Your recent addresses": {
+  "t": "ที่อยู่ล่าสุดของคุณ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -45671,6 +46355,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Zone layer": {
+  "t": "เลเยอร์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zone layer extent": {
+  "t": "ขอบเขตเลเยอร์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Zone Lookup": {
   "t": "การค้นหาจากโซน",
   "src": "libretranslate",
@@ -45727,6 +46423,12 @@
  },
  "Zoom is the map's zoom level. A bigger number means the map is zoomed in closer.": {
   "t": "ซูมเป็นระดับซูมของแผนที่ จํานวนที่มากขึ้นหมายถึงแผนที่ ถูกขยายในใกล้ชิด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zoom level after lookup": {
+  "t": "ระดับการย่อ/ ขยายหลังการค้นหา",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
