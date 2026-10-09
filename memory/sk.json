@@ -275,6 +275,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{badge} items": {
+  "t": "{badge} položky",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{basemap}: swaps the background map, for example imagery instead of streets.": {
   "t": "{basemap}: vymení mapu pozadia, napríklad obrazy namiesto ulíc.",
   "src": "libretranslate",
@@ -337,6 +343,18 @@
  },
  "{combinedFeatureCount} records available": {
   "t": "{combinedFeatureCount} dostupné záznamy",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{comments} comment": {
+  "t": "{comments} poznámka",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{comments} comments": {
+  "t": "{comments} pripomienky",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -821,6 +839,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "{photos} photo": {
+  "t": "{photos} foto",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{photos} photos": {
+  "t": "{photos} fotky",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{point}: click once to record the location of a spot on the map.": {
   "t": "{point}: kliknite raz zaznamenať umiestnenie miesta na mape.",
   "src": "libretranslate",
@@ -1163,6 +1193,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "← Back": {
+  "t": "← Späť",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "── Custom ──": {
   "t": "Vlastník",
   "src": "libretranslate",
@@ -1499,6 +1535,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "a camera with the number of pictures": {
+  "t": "kamera s počtom obrázkov",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "a Comments sheet": {
+  "t": "a Komentár",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A configured layer could not be queried. Check the layer URL and service access.": {
   "t": "Nakonfigurovaná vrstva nemôže byť pýtať. Skontrolujte URL vrstvy a prístup k službe.",
   "src": "libretranslate",
@@ -1685,11 +1733,23 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "a Photos sheet": {
+  "t": "a Fotografia",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A picture is missing: that preview could not be shown. Click or tap the basemap name to try it anyway.": {
   "t": "Chýba obrázok: že náhľad nie je možné zobraziť. Kliknutím alebo ťuknite na meno basemapky, aby ste to skúsili.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "A red message says the Tickets layer was not found: the layer title in the settings does not match the web map. Check spelling and capitalization.": {
+  "t": "Červená správa hovorí, že vrstva vstupeniek nebola nájdená: titulok vrstvy v nastaveniach nezodpovedá webovej mape. Skontrolujte pravopis a kapitalizáciu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "A repeat click at the same place at the same scale is answered from memory for this many seconds instead of re-querying the service. 0 disables.": {
   "t": "Opakované kliknutie na rovnakom mieste v rovnakej mierke je zodpovedané z pamäte pre tento počet sekúnd namiesto opätovného získavania služby. 0 vypne.",
@@ -1733,14 +1793,44 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "a speech bubble with the number of comments": {
+  "t": "rečová bublina s počtom komentárov",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A spreadsheet of your rows with MATCH_STATUS, MATCH_SCORE, the address you sent, the address the locator matched, the address type, a plain reason for every row that did not match, and coordinates for every row that did. Open it in Excel and filter on MATCH_STATUS.": {
   "t": "Tabuľky vašich riadkov s MATCH STATUS, MATCH SCORE, adresu, ktorú ste poslali, adresu, ktorú lokátor spároval, typ adresy, jasný dôvod pre každý riadok, ktorý sa nezhodoval, a súradnice pre každý riadok, ktorý sa tak stalo. Otvorte ho v programe Excel a prefiltrujte na MATCH STATUS.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "a star when a survey answer exists": {
+  "t": "hviezda, keď odpoveď na prieskum existuje",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "a Surveys sheet": {
+  "t": "a Surveys list",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A tick on the Survey tab means an answer exists. Has Survey in the list finds all of them.": {
+  "t": "Kliknite na záložku Prieskum znamená odpoveď existuje. Má prieskum v zozname nájde všetky z nich.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A ticked box means the layer is on the map. A grey name means the layer is outside its visible range: zoom in or out and it appears.": {
   "t": "Zaškrtnuté políčko znamená, že vrstva je na mape. Sivý názov znamená, že vrstva je mimo svojho viditeľného rozsahu: zoom dovnútra alebo von a objaví sa.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A ticket you just changed still shows old values in the list: press Refresh.": {
+  "t": "Lístok ste práve zmenili stále ukazuje staré hodnoty v zozname: stlačte Refresh.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2017,6 +2107,12 @@
  },
  "Add buffer distances around selection areas to include nearby features": {
   "t": "Pridať nárazník vzdialenosti okolo výberových oblastí zahrnúť okolité funkcie",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add comment": {
+  "t": "Pridať komentár",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2356,6 +2452,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Adding comment": {
+  "t": "Pridáva sa komentár",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Adding layer…": {
   "t": "Pridáva sa vrstva...",
@@ -3257,6 +3359,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "An amber warning under Priority means the department and category do not match. Save changes stays off until you fix it.": {
+  "t": "Jantárové varovanie v rámci priority znamená, že oddelenie a kategória sa nezhodujú. Uložiť zmeny zostane vypnuté, kým to neopravíte.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "An export shows an error or nothing happens: the download was blocked. Allow downloads for this site and try again.": {
   "t": "Export ukazuje chybu alebo nič sa nestane: sťahovanie bolo zablokované. Povoliť stiahnutie pre túto stránku a skúste to znova.",
   "src": "libretranslate",
@@ -3307,6 +3415,12 @@
  },
  "Animations": {
   "t": "Animácie",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Anonymous": {
+  "t": "Anonymný",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3641,6 +3755,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Assigned and Category follow each other: picking a category suggests its department, and picking a department narrows the categories to the ones it handles.": {
+  "t": "Pridelené a kategórie sledovať navzájom: výber kategórie navrhuje svoje oddelenie, a výber oddelenie zužuje kategórie na tie, ktoré manipuluje.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Assignment Change": {
+  "t": "Zmena pridelenia",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Asturian (Asturianu)": {
   "t": "Asturian (Asturianu)",
   "src": "libretranslate",
@@ -3659,8 +3785,26 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Attach a photo": {
+  "t": "Pripojiť fotografiu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Attach a photo to this comment": {
+  "t": "Pripojiť fotografiu k tomuto komentáru",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Attach image": {
   "t": "Pripojiť obrázok",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Attached photo preview": {
+  "t": "Pripojený náhľad fotografie",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3905,6 +4049,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Back to ticket list": {
+  "t": "Späť na zoznam lístkov",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Background and border": {
   "t": "Súvislosti a hranice",
   "src": "libretranslate",
@@ -4006,6 +4156,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Badges on a card or in the Activity column: {badges}.": {
+  "t": "Odznaky na karte alebo v stĺpci Aktivita: {badges}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Banner message": {
   "t": "Name",
@@ -4877,6 +5033,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Cards and Table": {
+  "t": "Karty a tabuľky",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Cards shows one card per ticket: the status and priority chips, the ticket number, the category, the start of the description and who it is assigned to.": {
+  "t": "Karty zobrazujú jednu kartu na lístok: status a prioritné čipy, číslo cestovného lístka, kategóriu, začiatok popisu a komu je pridelený.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Carry basemap to next map": {
   "t": "Nosiť basemap na nasledujúcu mapu",
   "src": "libretranslate",
@@ -5027,6 +5195,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Change status to {S}": {
+  "t": "Zmeniť stav {S}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Change symbol": {
   "t": "Zmeniť symbol",
   "src": "libretranslate",
@@ -5051,6 +5225,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Change to {S}": {
+  "t": "Zmena na {S}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Changed from the layout": {
   "t": "Zmena z rozloženia",
   "src": "libretranslate",
@@ -5059,6 +5239,12 @@
  },
  "Changed your mind? Press Esc or click the x on the blue bar to stop drawing.": {
   "t": "Zmenil si názor? Stlačte Esc alebo kliknite na x na modrej lište zastaviť kreslenie.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Changing Status opens a note box, and the note is required. For Resolved it is the Resolution note, for Closed the Closure note, otherwise the Status change comment. The submitter receives it.": {
+  "t": "Zmena stavu otvorí zápisník, a poznámka je potrebné. Pre vyriešené je to poznámka k rezolúcii, pre zatvorenie oznámenia o uzavretí, inak poznámka k zmene stavu. Odosielateľ ho dostane.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5669,6 +5855,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Clear All takes every filter, the search, the date range and the column filters off in one click.": {
+  "t": "Vyčistiť Všetky berú každý filter, vyhľadávanie, rozsah dátumu a stĺpec filtre vypnuté jedným kliknutím.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Clear empties the form so you can start on another file.": {
   "t": "Vymazať vyprázdňuje formulár, takže môžete začať na inom súbore.",
   "src": "libretranslate",
@@ -5749,6 +5941,12 @@
  },
  "Clear: {clearBtnTitle}": {
   "t": "Vyčistiť: {clearBtnTitle}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Clearing the browser's site data resets all of them. None of these preferences are stored on the server.": {
+  "t": "Vyčistenie webových údajov prehliadača resetuje všetky. Žiadne z týchto preferencií nie sú uložené na serveri.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5857,6 +6055,12 @@
  },
  "Click a parcel line on the map to load its traverse for editing.": {
   "t": "Kliknutím na parcelu na mapu načítate jeho traverse pre úpravu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click a picture to see it large. The left and right arrow keys move between pictures; Esc or a click outside closes the viewer.": {
+  "t": "Kliknite na obrázok vidieť to veľké. Ľavé a pravé šípky pohybovať medzi obrázkami; Esc alebo kliknite von zavrie diváka.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6293,6 +6497,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Click to view — {fullCat}": {
+  "t": "Kliknite pre zobrazenie {fullCat}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Click to Zoom to Result": {
   "t": "Kliknite pre zväčšenie na výsledok",
   "src": "libretranslate",
@@ -6395,6 +6605,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Closed date": {
+  "t": "Dátum uzavretia",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Closest locator candidate": {
   "t": "Najbližší kandidát na lokalizáciu",
   "src": "libretranslate",
@@ -6409,6 +6625,12 @@
  },
  "Closing the widget, changing the map, or leaving the app also stops comparison.": {
   "t": "Zatvorenie widgetu, zmena mapy, alebo opustenie aplikácie tiež zastaví porovnanie.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Closure note": {
+  "t": "Poznámka o uzavretí",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6631,6 +6853,36 @@
  },
  "Comment": {
   "t": "Poznámka",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comment explaining status change to {S}, required": {
+  "t": "Komentár vysvetľujúci zmenu stavu {S}, požadované",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comment History ({commentsCount})": {
+  "t": "História komentára ({commentsCount})",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comment text": {
+  "t": "Text poznámky",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comment type": {
+  "t": "Typ komentára",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comment visibility": {
+  "t": "Viditeľnosť komentára",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7075,6 +7327,12 @@
  },
  "Connected": {
   "t": "Pripojený",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Connecting to map... never goes away: the widget is not linked to a map, or the map failed to load. In the builder, pick the map in the widget settings.": {
+  "t": "Pripojenie k mape... nikdy nezmizne: widget nie je spojený s mapou, alebo mapa sa nepodarilo načítať. V staviteľ, vyberte mapu v nastaveniach widgetu.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7637,6 +7895,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Created": {
+  "t": "Vytvorené",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Created {count} mailing labels": {
   "t": "Vytvorené {count} poštové štítky",
   "src": "libretranslate",
@@ -8111,6 +8375,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Date limits the list to tickets created between two days. Leave one side empty for an open range.": {
+  "t": "Dátum obmedzuje zoznam na vstupenky vytvorené medzi dvoma dňami. Nechajte jednu stranu prázdnu pre voľný dosah.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "date the work was completed": {
+  "t": "dátum ukončenia práce",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Dates": {
+  "t": "datle",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Dates come in empty or wrong: the date text is not in the form the widget expected. On that rule choose dateParse and fill in Input date format, for example MM/DD/YYYY.": {
   "t": "Dátumy prichádzajú prázdne alebo nesprávne: dátum text nie je vo forme widget očakávané. Na tomto pravidle zvoľte dátumParse a vyplňte formát dátumu vstupu, napríklad MM/DD/RRRR.",
   "src": "libretranslate",
@@ -8561,6 +8843,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Defaults to today. Set this to the actual completion date if it differs.": {
+  "t": "Defaults today. Nastavte to na skutočný dátum dokončenia, ak sa líši.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Define your own label dimensions": {
   "t": "Definovať vlastné rozmery štítka",
   "src": "libretranslate",
@@ -8779,6 +9067,12 @@
  },
  "Descending shows largest values first; ascending shows smallest first.": {
   "t": "Zostupne ukazuje najväčšie hodnoty ako prvý; vzostupne ukazuje najmenšie ako prvé.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Describe what was done to resolve this issue…": {
+  "t": "Opíšte, čo sa urobilo na vyriešenie tohto problému...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9580,6 +9874,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Drag the line at the right edge of a heading to make a column wider or narrower. Double click the line to put the width back. With the keyboard, Tab to the line and press the left or right arrow.": {
+  "t": "Presuňte čiaru na pravom okraji záhlavia, aby bol stĺpec širší alebo užší. Dvojitým kliknutím na čiaru vrátite šírku späť. Pomocou klávesnice, Tab na riadok a stlačte ľavú alebo pravú šípku.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Drag to reorder": {
   "t": "Presunúť na zmenu poradia",
@@ -10445,6 +10745,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Email": {
+  "t": "E-mail",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Empty labels: Verify field mappings and data quality": {
   "t": "Prázdne štítky: Overiť mapovanie polí a kvalitu údajov",
   "src": "libretranslate",
@@ -11291,6 +11597,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Every change is recorded: a status change writes a public comment, a routing change writes an internal note, and a backdated date writes an internal note saying who set it.": {
+  "t": "Každá zmena je zaznamenaná: zmena stavu napíše verejný komentár, zmena smerovania napíše internú poznámku a zadaný dátum napíše internú poznámku, ktorá hovorí, kto ju nastavil.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Every feature in the layer gets a page, even ones far outside the map. The layer filter still applies.": {
   "t": "Každá funkcia vo vrstve dostane stránku, dokonca aj tie ďaleko mimo mapy. Filter vrstvy stále platí.",
   "src": "libretranslate",
@@ -11363,6 +11675,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Everything you can change is on the Details tab, under the submitter, description and dates.": {
+  "t": "Všetko, čo môžete zmeniť, je na záložke Detaily, pod odosielateľom, popisom a dátumami.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Exact pixel width and height for the map-only image. Leave 0 to use the layout frame size.": {
   "t": "Presná šírka a výška pixelu pre obraz iba mapy. Nechajte 0 na použitie veľkosti rozloženia rámu.",
   "src": "libretranslate",
@@ -11389,6 +11707,12 @@
  },
  "Example: {sample}": {
   "t": "Príklad: {sample}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Excel export": {
+  "t": "Vývoz Excelu",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11549,6 +11873,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Explain the status change to {S}…": {
+  "t": "Vysvetlite zmenu stavu {S}...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Explain why this ticket is being closed…": {
+  "t": "Vysvetlite, prečo je tento lístok uzavretý...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "export": {
   "t": "vývoz",
   "src": "libretranslate",
@@ -11695,6 +12031,18 @@
  },
  "Export defaults": {
   "t": "Štandardný export",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export does nothing or shows an error: the spreadsheet library could not be downloaded. Check the network connection and try again.": {
+  "t": "Export nerobí nič alebo ukazuje chybu: knižnicu tabuľky nebolo možné stiahnuť. Skontrolujte sieťové pripojenie a skúste to znova.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export downloads every ticket that matches the current filters, not just the page on screen, as an Excel workbook.": {
+  "t": "Exportuje každý lístok, ktorý zodpovedá aktuálnym filtrom, nielen stránku na obrazovke, ako zošit programu Excel.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12601,6 +12949,12 @@
  },
  "Fit to Geometry": {
   "t": "Prispôsobiť geometrii",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fix routing errors before saving": {
+  "t": "Opraviť chyby v smerovaní pred uložením",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14231,14 +14585,44 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Has Comments keeps only tickets that already have a comment.": {
+  "t": "Má Komentáre drží len vstupenky, ktoré už majú komentár.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Has Comments or the Comments tab is missing: the comments table is not in the web map. Add it as a table in Map Viewer, save the map and reload.": {
+  "t": "Má Komentáre alebo záložka Komentáre chýba: komentáre tabuľka nie je na webovej mape. Pridať ako tabuľku v Map Viewer, uložiť mapu a znovu načítať.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Has Photos": {
   "t": "Má fotky",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Has Photos keeps only tickets with a picture attached.": {
+  "t": "Má Fotografie drží len vstupenky s priloženým obrázkom.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "has response": {
+  "t": "má odpoveď",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Has Survey": {
   "t": "Má prieskum",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Has Survey keeps only tickets whose submitter answered the survey.": {
+  "t": "Má prieskum má len vstupenky, ktorých odosielateľ odpovedal na prieskum.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14719,6 +15103,18 @@
  },
  "Horizontal: {value} pt": {
   "t": "Horizontálne: {value} pt",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hover a card or a row and its point lights up on the map.": {
+  "t": "Presuňte kartu alebo riadok a jeho bod sa rozsvieti na mape.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hover a date in the list to see the full date and time.": {
+  "t": "Vznášať dátum v zozname vidieť celý dátum a čas.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15245,6 +15641,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "In the table, click a column heading to sort by it: once for descending, again for ascending, a third time to go back to newest first.": {
+  "t": "V tabuľke kliknite na hlavičku stĺpca, aby ste ho triedili: raz za zostup, znovu za vzostup, tretíkrát za návrat k najnovšiemu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "In the widget, select address type and generate labels": {
   "t": "Vo widgete vyberte typ adresy a vygenerujte etikety",
   "src": "libretranslate",
@@ -15637,6 +16039,12 @@
  },
  "Internal": {
   "t": "Interné",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Internal Note": {
+  "t": "Interná poznámka",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16696,6 +17104,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Leave a note…": {
+  "t": "Zanechajte odkaz...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Leave blank and the widget shows the center of the map in this format, which is always a valid example.": {
   "t": "Zanechať prázdne a widget ukazuje stred mapy v tomto formáte, čo je vždy platný príklad.",
@@ -18005,6 +18419,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map extent keeps only the tickets inside the part of the map you are looking at, and follows the map as you pan and zoom.": {
+  "t": "Rozsah mapy drží len vstupenky vnútri časti mapy, na ktorú sa pozeráte, a sleduje mapu, ako si pan a zoom.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map fields": {
   "t": "Polia mapy",
   "src": "libretranslate",
@@ -19121,6 +19541,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "most or fewest comments": {
+  "t": "väčšina alebo niekoľko komentárov",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Move {name} down": {
   "t": "Presunúť {name} dole",
   "src": "libretranslate",
@@ -19499,6 +19925,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "newest first, oldest first, priority, status, category": {
+  "t": "najnovší prvý, najstarší prvý, priorita, status, kategória",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Next": {
   "t": "Nasledujúci",
   "src": "libretranslate",
@@ -19589,6 +20021,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No comments yet.": {
+  "t": "Zatiaľ žiadne komentáre.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No copyable layers found.": {
   "t": "Nenašli sa žiadne kopírovateľné vrstvy.",
   "src": "libretranslate",
@@ -19606,6 +20044,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "No description": {
+  "t": "Žiadny popis",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "No draw tools enabled. Users will not be able to create new drawings.": {
   "t": "Žiadne náradie na ťahanie. Užívatelia nebudú môcť vytvárať nové výkresy.",
@@ -19921,6 +20365,12 @@
  },
  "No parcel polygon was created because no lines are marked as Boundary Line. Set the Line type to Boundary Line in the grid or in the toolbar before digitizing, then save again.": {
   "t": "Nebol vytvorený žiadny polygón parcely, pretože žiadne línie nie sú označené ako ohraničená čiara. Pred digitalizáciou nastavte typ čiary na ohraničenú čiaru v mriežke alebo v paneli nástrojov a potom znovu uložte.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No photos found for this ticket.": {
+  "t": "Na tento lístok sa nenašli žiadne fotky.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20873,6 +21323,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Only visible to staff": {
+  "t": "Viditeľné len pre personál",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "OOS=Out of Service ACT=Active": {
   "t": "OOS = mimo služby ACT=Active",
   "src": "libretranslate",
@@ -20965,6 +21421,12 @@
  },
  "Open the My Drawings tab to rename, restyle, or delete what you drew.": {
   "t": "Otvorte záložku Moje výkresy, aby ste premenovali, premenili štýl alebo vymazali to, čo ste nakreslili.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Opening the app with ?ticket_number=123 on the end of the address opens that ticket straight away.": {
+  "t": "Otvorenie aplikácie s?ticket number=123 na konci adresy otvorí tento lístok hneď.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21773,14 +22235,44 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Phone": {
+  "t": "Telefón",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Photo": {
   "t": "Foto",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Photo {idx}": {
+  "t": "Foto {idx}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Photo attached to this comment": {
+  "t": "Fotografia priložená k tomuto komentáru",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Photo attaches one picture to the note. A small preview appears; Remove takes it off again. A picture on an internal note is never shown to the submitter.": {
+  "t": "Fotografia prikladá jeden obrázok k poznámke. Zobrazí sa malý náhľad; Odstrániť ho znova. Obrázok na internej poznámke nie je nikdy zobrazený odosielateľovi.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Photos": {
   "t": "Fotografie",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Photos ({photosCount})": {
+  "t": "Fotografie ({photosCount})",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21979,6 +22471,12 @@
  },
  "Pictures": {
   "t": "Obrázky",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Pictures must be JPG, PNG, WebP, HEIC or AVIF and under 15 MB. Location and camera details are stripped before upload.": {
+  "t": "Obrázky musia byť JPG, PNG, WebP, HEIC alebo AVIF a pod 15 MB. Údaje o polohe a fotoaparáte sa pred nahrávaním vymažú.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22589,6 +23087,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Press Enter in the search box instead of clicking Search.": {
+  "t": "Stlačte tlačidlo Zadajte do vyhľadávacieho poľa namiesto kliknutia Hľadať.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Press Enter or click {locate}. Every good match gets a mailbox mark on the map.": {
   "t": "Stlačte tlačidlo Enter alebo kliknite {locate}Každý dobrý zápas dostane na mape poštovú schránku.",
   "src": "libretranslate",
@@ -23021,6 +23525,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Public means the submitter can see it on their status page and by email. Internal means staff only.": {
+  "t": "Verejnosť znamená, že odosielateľ ho môže vidieť na ich statusovej stránke a e-mailom. Vnútorný znamená len personál.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Public Response": {
+  "t": "Reakcia verejnosti",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Publishes a records-selection-changed message when a result is selected, so widgets such as Table or Property Report can respond to the identify click.": {
   "t": "Vydáva správu o zmene výberu záznamov, keď je vybraný výsledok, takže widgety, ako je Table alebo Property Report, môžu reagovať na identifikačné kliknutie.",
   "src": "libretranslate",
@@ -23290,6 +23806,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "reason ticket is being closed": {
+  "t": "dôvod, prečo je vstupenka uzavretá",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Receive from Identify By Query": {
   "t": "Dostať z identifikácie podľa otázky",
@@ -23639,6 +24161,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Remove attached photo": {
+  "t": "Odstrániť pripojenú fotografiu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Remove basemap": {
   "t": "Odstrániť basemap",
   "src": "libretranslate",
@@ -23927,6 +24455,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Required before changing status to {S}": {
+  "t": "Vyžaduje sa pred zmenou stavu na {S}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Required Field Missing": {
   "t": "Požadované chýbajúce pole",
   "src": "libretranslate",
@@ -24017,8 +24551,26 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Resolution and closure notes are limited to 500 characters. A counter appears when you get close.": {
+  "t": "Poznámky k rozlíšeniu a zatvoreniu sú obmedzené na 500 znakov. Keď sa priblížite, objaví sa počítadlo.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Resolution note": {
+  "t": "Poznámka k riešeniu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Resolve a Google Font family to its TTF files and fill the fields below.": {
   "t": "Presuňte rodinu Google Font do svojich súborov TTF a vyplňte polia nižšie.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Resolve the routing warning above before saving": {
+  "t": "Pred uložením upozornenia o smerovaní",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -24028,6 +24580,24 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Resolved": {
+  "t": "Vyriešené",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Resolved date": {
+  "t": "Vyriešený dátum",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Resolved date and Closed date start at today. Set an earlier day if the work finished before now. The date cannot be in the future or before the ticket was created.": {
+  "t": "Vyriešený dátum a uzavretý dátum začína dnes. Nastaviť skorší deň, ak práca skončila pred teraz. Dátum nemôže byť v budúcnosti, ani pred tým, než bol vytvorený lístok.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "REST Service URL": {
   "t": "REST Service URL",
@@ -24109,6 +24679,12 @@
  },
  "Return to the start screen and clear the current traverse": {
   "t": "Vráťte sa na domovskú obrazovku a vyčistiť aktuálny traverse",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Return to ticket list": {
+  "t": "Návrat na zoznam lístkov",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -24485,6 +25061,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Save changes stays grey: a status change needs a note, or the amber warning above it is still showing.": {
+  "t": "Uložiť zmeny zostane šedá: zmena stavu si vyžaduje poznámku, alebo oranžové varovanie nad ním je stále zobrazené.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Save current settings to a file": {
   "t": "Uložiť aktuálne nastavenia do súboru",
   "src": "libretranslate",
@@ -24611,8 +25193,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Saving changes": {
+  "t": "Ukladanie zmien",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Saving PDF": {
   "t": "Ukladanie PDF",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Saving…": {
+  "t": "Ukladanie...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -25711,6 +26305,12 @@
  },
  "Sends the basemap chosen in either basemap gallery to the next app. The destination app needs a Map Switcher connected to its map to apply it.": {
   "t": "Poslať basemap vybraný v oboch basemap galérie do ďalšej aplikácie. Cieľová aplikácia potrebuje Map Switcher pripojený na svoju mapu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "sent with the resolution email": {
+  "t": "odoslaný s e-mailom pre riešenie krízových situácií",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -27059,6 +27659,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Sort sets the order: {orders}.": {
+  "t": "Triediť nastaví poradie: {orders}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Sort:": {
   "t": "Triediť:",
   "src": "libretranslate",
@@ -27293,6 +27899,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Staff · Internal": {
+  "t": "Personál · Interný",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Staff · Public": {
+  "t": "Personál · Verejný",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Standard address labels, 3 across × 10 down": {
   "t": "Štandardné adresné štítky, 3 cez × 10 nadol",
   "src": "libretranslate",
@@ -27401,6 +28019,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Status change comment": {
+  "t": "Poznámka k zmene stavu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Status Update": {
+  "t": "Aktualizácia stavu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Status: Drag mode is active. Move mouse and click to place the label.": {
   "t": "Stav: Drag mód je aktívny. Pohybujte myšou a kliknite na miesto štítku.",
   "src": "libretranslate",
@@ -27499,6 +28129,12 @@
  },
  "Still stuck? Contact the GIS Division and mention the Property Report name and this app.": {
   "t": "Stále zaseknutý? Kontaktujte Divíziu GIS a uveďte názov správy o nehnuteľnosti a túto aplikáciu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Still stuck? Contact the GIS Division and mention the RAC Ticket Manager name and this app.": {
+  "t": "Stále zaseknutý? Kontaktujte Divíziu GIS a uveďte názov správcu vstupeniek RAC a túto aplikáciu.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -27611,11 +28247,35 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Subcategory": {
+  "t": "Podkategória",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Subcategory lists the choices for the category. Pick None when nothing fits.": {
+  "t": "Podkategória uvádza voľby pre kategóriu. Vybrať žiadne, keď nič sedí.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Submitted address": {
   "t": "Predložená adresa",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Submitter": {
+  "t": "Odosielateľ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "submitter will be notified": {
+  "t": "Zasielateľ bude informovaný",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Submitting to print service…": {
   "t": "Predkladanie tlačovej služby...",
@@ -27697,6 +28357,18 @@
  },
  "Survey": {
   "t": "Prieskum",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "survey answered first or last": {
+  "t": "prieskum odpovedal prvý alebo posledný",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Survey response received": {
+  "t": "Prijaté odpovede prieskumu",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -27865,6 +28537,12 @@
  },
  "Table of Contents": {
   "t": "Obsah",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Table shows the same tickets as rows with a column for each field.": {
+  "t": "Tabuľka zobrazuje rovnaké vstupenky ako riadky s stĺpcom pre každé pole.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -28325,6 +29003,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The button reads Exporting… while the file is built; a long list can take a minute. The file is named RAC_Export with the date.": {
+  "t": "Tlačidlo číta Exportovať... zatiaľ čo súbor je postavený; dlhý zoznam môže trvať minútu. Súbor sa s dátumom nazýva RAC Export.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The buttons along the top": {
   "t": "Tlačidlá na vrchu",
   "src": "libretranslate",
@@ -28372,6 +29056,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The comment saved but the photo did not: the picture was too large or not an image. Attach it again as a JPG or PNG under 15 MB.": {
+  "t": "Komentár uložený, ale fotografia nie: obraz bol príliš veľký alebo nie obrázok. Pripojte ho znova ako JPG alebo PNG pod 15 MB.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The Comments tab lists every note with the author and the time. A red Internal chip marks the staff only ones.": {
+  "t": "V záložke Komentáre sú uvedené všetky poznámky s autorom a časom. Červený vnútorný čip označuje personál len jeden.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The comparison could not be prepared. Check the selected layers and try again.": {
   "t": "Porovnanie nebolo možné pripraviť. Skontrolujte vybrané vrstvy a skúste to znova.",
@@ -28649,6 +29345,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The list shows 50 tickets a page. The First, Prev, Next and Last buttons move between pages, and the count above the list says where you are.": {
+  "t": "Zoznam ukazuje 50 vstupeniek na stránku. Prvé, Prev, Ďalšie a Posledné tlačidlá sa pohybujú medzi stránkami a počet nad zoznamom hovorí, kde ste.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The Load step checks the work, then writes the records into the layer.": {
   "t": "Načítať krok kontroluje prácu, potom napíše záznamy do vrstvy.",
   "src": "libretranslate",
@@ -28771,6 +29473,12 @@
  },
  "The PDF uses the same sections you see on screen; sections marked by the administrator as screen only are left out.": {
   "t": "PDF používa rovnaké časti, ktoré vidíte na obrazovke; časti označené správcom ako obrazovka sú vynechané.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The Photos tab shows every picture and video on the ticket, labelled with who added it: Submitter, Staff · Public or Staff · Internal.": {
+  "t": "Záložka Fotografie zobrazuje každý obrázok a video na lístku, označené s tým, kto ju pridal: Odosielateľ, Personál · Verejnosť alebo zamestnanci · Interný.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -28901,6 +29609,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The small funnel in a heading opens a filter for that column only: tick values, type part of a ticket number, or pick one day (Today fills in the date). A blue funnel means a filter is on. Done closes it.": {
+  "t": "Malý lievik v hlavičke otvára filter iba pre tento stĺpec: hodnoty kliešťov, časť čísla cestovného lístka alebo vyber jeden deň (Dnes vyplní dátum). Modrý lievik znamená, že je zapnutý filter. Uzavrite to.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The small map at the top of the report shows the property; its buttons zoom the main map or copy the coordinates.": {
   "t": "Malá mapa v hornej časti správy zobrazuje vlastnosť; jej tlačidlá zosilňujú hlavnú mapu alebo kopírujú súradnice.",
   "src": "libretranslate",
@@ -28949,6 +29663,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The Survey tab shows the star rating and any comment the submitter left after the ticket was resolved.": {
+  "t": "Záložka Survey zobrazuje hodnotenie hviezdy a akýkoľvek komentár, ktorý odosielateľ odišiel po vyriešení cestovného lístka.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The target layer could not be prepared for editing.": {
   "t": "Cieľová vrstva nemohla byť pripravená na úpravu.",
   "src": "libretranslate",
@@ -28963,6 +29683,12 @@
  },
  "The tools, button by button": {
   "t": "Nástroje, tlačidlo po tlačidle",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The type list labels the note: Public Response, Status Update or Assignment Change for public notes. Internal notes are always Internal Note.": {
+  "t": "Zoznam typov označuje poznámku: Reakcia verejnosti, Aktualizácia stavu alebo zmena pridelenia pre verejné poznámky. Vnútorné poznámky sú vždy Interné Note.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -29053,6 +29779,18 @@
  },
  "The widget says no map is selected: it has not been joined to a map yet. Ask the person who built the app to pick the map in the widget settings.": {
   "t": "Widget hovorí, že žiadna mapa nie je vybraná: ešte nebola pripojená k mape. Opýtajte sa osoby, ktorá postavila aplikáciu vybrať mapu v nastaveniach widgetu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The width you drag the side panel to is kept as well.": {
+  "t": "Šírka bočného panelu je zachovaná.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The workbook has a Summary sheet, a Tickets sheet, {sheets}, each only when there is something to put in it.": {
+  "t": "Zošit má prehľad, list vstupeniek, {sheets}, každý len keď tam je niečo dať do nej.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -29377,6 +30115,18 @@
  },
  "Tick the box beside the layer to show it on the map. Untick it to hide it.": {
   "t": "Označte políčko vedľa vrstvy, aby ste ho ukázali na mape. Untick to skryť.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Ticket detail": {
+  "t": "Detail vstupenky",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Ticket detail tabs": {
+  "t": "Detailné karty vstupeniek",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -30173,6 +30923,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Type a word like status or photo in the box above to jump to the right line of this guide.": {
+  "t": "Zadajte slovo ako stav alebo fotografiu do poľa vyššie pre skok na pravú čiaru tohto sprievodcu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Type an address in the box at the top and pick a match. The map moves to that spot.": {
   "t": "Zadajte adresu v políčku hore a vyberte zápas. Mapa sa presunie na to miesto.",
   "src": "libretranslate",
@@ -30199,6 +30955,12 @@
  },
  "Type in the box above the list to show only measurements whose name or type contains that word.": {
   "t": "Napíšte do kolónky nad zoznamom a zobrazíte iba merania, ktorých názov alebo typ obsahuje toto slovo.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Type in the Leave a note box on the Details tab and press Comment.": {
+  "t": "Napíšte do Zanechať poznámky na záložke Detaily a stlačte komentár.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -30283,6 +31045,12 @@
  },
  "Unable to retrieve features from the layer": {
   "t": "Nepodarilo sa získať funkcie z vrstvy",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Unassigned": {
+  "t": "Nezaradené",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -30587,6 +31355,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Unnamed": {
+  "t": "Bez mena",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Unnamed layer": {
   "t": "Nemenovaná vrstva",
   "src": "libretranslate",
@@ -30671,8 +31445,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Updated": {
+  "t": "Aktualizované",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Updates the visual opacity of existing buffers on selected graphics to {bufferOpacity}% without changing buffer geometry.": {
   "t": "Aktualizuje vizuálnu opacitu existujúcich nárazníkov na zvolenej grafike {bufferOpacity}% bez zmeny geometrie nárazníka.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Updating a ticket": {
+  "t": "Aktualizácia vstupenky",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -31229,6 +32015,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Video {att_name}": {
+  "t": "Video {att_name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Video {idx}": {
+  "t": "Video {idx}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Vietnamese (Tiếng Việt)": {
   "t": "Vietnamčina (Ti",
   "src": "libretranslate",
@@ -31243,6 +32041,12 @@
  },
  "View {combinedFeatureCount} {sectionTitle} records in detail pane": {
   "t": "Zobraziť {combinedFeatureCount} {sectionTitle} záznamy v detailnej tabuli",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "View {label}{badge}": {
+  "t": "Zobraziť {label}{badge}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -31273,6 +32077,12 @@
  },
  "View drawing properties": {
   "t": "Vlastnosti výkresu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "View full size: {att_name}": {
+  "t": "Zobraziť celú veľkosť: {att_name}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -31579,6 +32389,12 @@
  },
  "What goes on the page": {
   "t": "Čo sa deje na strane",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "What is remembered": {
+  "t": "Čo sa pamätá",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -32257,6 +33073,12 @@
  },
  "Your results": {
   "t": "Výsledky",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Your search, filters, sort order, Cards or Table choice, column widths and column filters are kept in this browser and come back next time you open the app.": {
+  "t": "Vaše vyhľadávanie, filtre, poradie, výber kariet alebo stolov, šírky stĺpcov a stĺpcové filtre sa uchovávajú v tomto prehliadači a vracajú sa nabudúce, keď otvoríte aplikáciu.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
