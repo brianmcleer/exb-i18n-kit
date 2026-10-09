@@ -2303,6 +2303,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Advanced options cards open by default": {
+  "t": "Uobičajeno otvorene napredne opcije",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Aerial and satellite imagery from the OpenStreetMap Editor Layer Index that covers the part of the map you are looking at. It is added under your layers, like a second basemap.": {
   "t": "Aerijalni i satelitski prikazi iz OpenStreetMap indeksa uređivača koji pokriva dio mape koju gledate. Dodaje se ispod vaših slojeva, kao drugi bazni plan.",
   "src": "libretranslate",
@@ -3359,6 +3365,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Background and border": {
+  "t": "Pozadina i rub",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Background Color": {
   "t": "Boja _pozadine:",
   "src": "libretranslate",
@@ -3569,8 +3581,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Black": {
+  "t": "Crni",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "blank": {
   "t": "prazno",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Blank = outline color": {
+  "t": "Prazna = boja ocrtavanja",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3619,6 +3643,12 @@
  },
  "Blending {title} over the current basemap. Use the slider to adjust transparency.": {
   "t": "Stapanje {title} preko trenutne bazne mape. Koristite klizač za podešavanje prozirnosti.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Blue": {
+  "t": "Plavo",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3767,6 +3797,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Bottom left": {
+  "t": "Donje lijevo",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Bottom left (over map)": {
   "t": "Preostalo donje (preko mape)",
   "src": "libretranslate",
@@ -3775,6 +3811,12 @@
  },
  "Bottom panel": {
   "t": "Donja ploča",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Bottom right": {
+  "t": "Donje desno",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4123,6 +4165,12 @@
  },
  "Cell ids (A1, B2) in cells": {
   "t": "Idi ćelija (A1, B2) u ćelijama",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Cell ids (A1, B2) in each cell": {
+  "t": "Idi polja (A1, B2) u svakoj ćeliji",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6215,6 +6263,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Coordinate labels": {
+  "t": "_Koordinate",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Coordinate precision in popup results": {
   "t": "Preciznost koordinacije u iskačućim rezultatima",
   "src": "libretranslate",
@@ -6445,6 +6499,12 @@
  },
  "Copyright / credits text for the {copyright} element.": {
   "t": "Copyright / credits tekst za element {copyright}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Corner coordinate labels": {
+  "t": "Ugao koordinata",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7153,6 +7213,12 @@
  },
  "Default Field Mappings": {
   "t": "Uobičajena mapa polja",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default file name": {
+  "t": "Uobičajeno ime datoteke",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8555,6 +8621,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Draws a zoomed-out locator map in a corner of the map frame, with a rectangle showing the printed extent. No second map frame in the .pagx is needed.": {
+  "t": "Iscrtava mapu za traženje uvećanja u uglu okvira mape, sa pravougaonikom koji prikazuje štampani opseg. Nije potreban drugi okvir mape u .pagx-u.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Draws an ArcGIS Pro style grid over the map frame: a graticule (latitude/longitude), a measured grid (map units), or an alphanumeric reference grid. It follows rotated maps and other output coordinate systems (a graticule on a projected map is projected for you). Everything here is the default look for this layout: lines (color, width, opacity, pattern, tick and cross size), interval, labels (color, size, bold, halo and its color, inside or outside, sides, along-the-edge side labels, coordinate or number format, corner coordinates) and reference grid letters and cell ids. Apply to all layouts copies it everywhere. Users can restyle it in the Grid style panel, and Reset to layout grid returns to these settings; hide that panel under the runtime controls to keep this look fixed.": {
+  "t": "Crta ArcGIS Pro stilsku mrežu preko okvira mape: gratikula (latituda/dužina), izmjerena mreža (mapa jedinica), ili alfanumerička referentna mreža. Ona prati rotirajuće karte i druge izlazne koordinatne sisteme (gratikula na projektovanoj mapi je projektovana za vas). Sve ovdje je uobičajeni izgled za ovaj raspored: linije (boja, širina, neprozirnost, šablon, krpelj i ukrštena veličina), interval, oznake (boja, veličina, podebljana, halo i njegova boja, unutar ili izvan, strane, duž rubnih bočnih oznaka, koordinata ili brojeva, kordinata ugao) i referentna rešetka) slova i identifikacije.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Drop a file here": {
   "t": "Ispusti ovdje datoteku",
   "src": "libretranslate",
@@ -8689,6 +8767,12 @@
  },
  "Each button opens the pinned spot in another website: {links}.": {
   "t": "Svako dugme otvara priklješteno mjesto na drugoj web stranici: {links}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Each card can be opened and closed by the user, and their choice is remembered in their browser. These are the starting positions. Map series opens by itself whenever a series is switched on.": {
+  "t": "Svaka kartica može biti otvorena i zatvorena od strane korisnika, a njihov izbor je zapamćen u njihovom pregledniku. Ovo su početne pozicije. Serija mapa se otvara sama od sebe kad god je serija uključena.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10217,6 +10301,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Extent indicator color": {
+  "t": "Boja ekstentnog pokazivača",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Extent indicator width": {
+  "t": "Ekstentna širina pokazivača",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "External Map Coordinates": {
   "t": "Vanjske mape",
   "src": "libretranslate",
@@ -10871,8 +10967,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Fixed interval (degrees or map units)": {
+  "t": "Fiksni interval (stepeni ili jedinice mape)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Fixed scale": {
   "t": "Fiksno skaliranje",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fixed scale (1:n)": {
+  "t": "Fiksna skala (1:n)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11771,6 +11879,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Graticule (latitude/longitude)": {
+  "t": "Zahvalnost (latitude/londitude)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Gray": {
+  "t": "Gray",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "grid": {
   "t": "mreža",
   "src": "libretranslate",
@@ -11785,6 +11905,12 @@
  },
  "Grid (Thumbnails)": {
   "t": "Mreža (Thumbnails)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid and graticule": {
+  "t": "Mreža i gratikul",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12005,6 +12131,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Grid style panel": {
+  "t": "Panel stila mreže",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Grid style: open it under Grid type to change the grid your way. Pick the line color, width, opacity and pattern, or draw only edge ticks and crosses. Set a custom interval, the label color, size, bold and halo, which sides get labels, labels that run along the side edges, and the coordinate or number format. Reference grids can put letters on rows and print cell ids like A1 in every cell. Reset to layout grid puts everything back.": {
   "t": "Stil mreže: otvorite ga ispod tipa mreže da promijenite mrežu. Odaberite boju linije, širinu, neprozirnost i šablon ili crtajte samo rubne krpelje i krstove. Postavite prilagođeni interval, boju oznake, veličinu, podebljanu i halo, koje strane dobijaju oznake, oznake koje se pokreću uz bočne rubove i formate koordinata ili broja. Referentna mreža može staviti slova na redove i ispisivati idove ćelija poput A1 u svakoj ćeliji. Resetiraj na mrežu rasporeda stavlja sve nazad.",
   "src": "libretranslate",
@@ -12019,6 +12151,12 @@
  },
  "Grid Theme:": {
   "t": "Mreža Tema:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid toggle": {
+  "t": "Mreža koja preklopi",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12258,6 +12396,12 @@
   "added": "2026-10-09"
  },
  "Height": {
+  "t": "Visina",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Height (in)": {
   "t": "Visina",
   "src": "libretranslate",
   "reviewed": false,
@@ -13073,6 +13217,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Inside the frame": {
+  "t": "Unutar okvira",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Inside the map": {
   "t": "Unutar mape",
   "src": "libretranslate",
@@ -13631,6 +13781,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Label placement": {
+  "t": "Postavljanje oznake",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Label position": {
   "t": "Pozicija oznake",
   "src": "libretranslate",
@@ -13729,6 +13885,12 @@
  },
  "Labels": {
   "t": "_Oznake",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Labels each corner of the map frame with its full coordinate: latitude and longitude for a graticule, northing and easting for a measured grid. Edge labels that would crowd a corner are dropped.": {
+  "t": "Označava svaki ugao okvira mape sa punim koordinatama: geografska širina i dužina za gratikulu, sjever i istok za izmjerenu mrežu. Oznake rubova koje bi nakupile ugao su ispuštene.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14315,6 +14477,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Limit (map pages)": {
+  "t": "Limit (mapa stranice)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Limit address search to maps extent.": {
   "t": "Ograniči pretragu adrese u mjerilu mape.",
   "src": "libretranslate",
@@ -14365,6 +14533,12 @@
  },
  "Line color": {
   "t": "Boja linije",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Line color (any)": {
+  "t": "Boja linije (bilo koja)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14423,6 +14597,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Line pattern": {
+  "t": "Šablon za crtanje",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Line Segments": {
   "t": "Segmenti linija",
   "src": "libretranslate",
@@ -14437,6 +14617,12 @@
  },
  "Line Segments not recommended for freehand tools.": {
   "t": "Segmenti linije se ne preporučuju za alate slobodne ruke.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Line style": {
+  "t": "Stil linije",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15305,6 +15491,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map series limits": {
+  "t": "Ograničenja serije mapa",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map series pages set their own scale in the Map series panel; this scale is for single-page exports.": {
   "t": "Stranice serije mapa postavljaju vlastitu skalu u panelu serije Mapa; ova ljestvica je za izvoz jedne stranice.",
   "src": "libretranslate",
@@ -15313,6 +15505,18 @@
  },
  "Map series progress": {
   "t": "Napredak serije mapa",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map series run in the browser, so every page is held in memory until the PDF is saved. Recommended: warn above 20 and limit at 50 (the defaults). About 1 MB and 5 to 10 seconds per page at 200 DPI; a locator overview roughly doubles the time. Raise the limit only for fast machines and 150 DPI or less; 200 is the most allowed. The index and legend pages are not counted. A grid series over the limit always stops.": {
+  "t": "Serija mapa pokrenuta u pregledniku, tako da se svaka stranica drži u memoriji dok se PDF ne snimi. Preporučeno: upozorenje iznad 20 i ograničenje na 50 (uobičajeno). Oko 1 MB i 5 do 10 sekundi po stranici na 200 DPI; pregled lokatora grubo udvostručuje vrijeme. Podignite ograničenje samo za brze mašine i 150 DPI ili manje; 200 je najdopuštenije. Indeks i legendarne stranice se ne računaju. Serija rešetki preko ograničenja uvijek prestaje.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map series section": {
+  "t": "Sekcija za seriju mapa",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15419,6 +15623,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Margin from frame edge (in)": {
+  "t": "Lijeva margina od ruba okvira (u)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Margins": {
   "t": "Margine",
   "src": "libretranslate",
@@ -15521,6 +15731,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Max map capture (px, long edge; blank = auto)": {
+  "t": "Maks hvatanje mape (px, dugi rub; prazan = auto)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Max scale": {
   "t": "Maksimalna skala",
   "src": "libretranslate",
@@ -15613,6 +15829,12 @@
  },
  "Measured (map units)": {
   "t": "Izmjereno (mapa jedinica)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Measured grid (map units)": {
+  "t": "Izmjerena mreža (mapa jedinica)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15757,6 +15979,12 @@
  },
  "Measuring": {
   "t": "Mjerenje",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Medium": {
+  "t": "Srednje",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17879,6 +18107,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Orange": {
+  "t": "Narandžasta",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Order": {
   "t": "Poredak",
   "src": "libretranslate",
@@ -18005,6 +18239,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Outside the frame": {
+  "t": "Izvan okvira",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Outside the map": {
   "t": "Izvan mape",
   "src": "libretranslate",
@@ -18013,6 +18253,12 @@
  },
  "outside this coordinate system's area": {
   "t": "izvan područja ovog koordinatnog sistema",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Over the limit": {
+  "t": "Preko granice",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18053,6 +18299,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Overview inset toggle": {
+  "t": "Preklopi pregled",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Overview inset: adds the small locator map in the corner, with a red box showing where the main map sits.": {
   "t": "Inset pregleda: dodaje malu lokatorsku kartu u uglu, sa crvenom kutijom koja prikazuje gdje se nalazi glavna karta.",
   "src": "libretranslate",
@@ -18061,6 +18313,12 @@
  },
  "Overview map on by default": {
   "t": "Uobičajeno pregledaj mapu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Overview scale": {
+  "t": "Pregled skala",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18301,6 +18559,12 @@
  },
  "Paste XML to import": {
   "t": "Umetni XML za uvoz",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Patch (swatch) size": {
+  "t": "Veličina patch-a (sat)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19049,6 +19313,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Position": {
+  "t": "Pozicija",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Postal code": {
   "t": "Poštanski broj",
   "src": "libretranslate",
@@ -19325,6 +19595,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Preview fill color (hex)": {
+  "t": "Boja popunjavanja za prethodni pregled (hex)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Preview first record": {
   "t": "Pregled prve ploče",
   "src": "libretranslate",
@@ -19357,6 +19633,12 @@
  },
  "Preview outline color (hex)": {
   "t": "Boja prethodnog prikaza (hex)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preview outline width (px)": {
+  "t": "Širina prethodnog prikaza (px)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19451,6 +19733,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Print the first pages (one page per feature only)": {
+  "t": "Štampaj prve stranice (samo jednu stranicu po osobini)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Print-ready labels": {
   "t": "_Štampaj",
   "src": "libretranslate",
@@ -19471,6 +19759,12 @@
  },
  "Print-Ready Labels: spread out the labels so they do not overlap when exported to PDF.": {
   "t": "Ispiši-Spremne Naljepnice: raširite oznake tako da se ne preklapaju pri izvozu u PDF.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "printed scale": {
+  "t": "skaliranje štampano",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19501,6 +19795,12 @@
  },
  "Prints at 1:{scale}": {
   "t": "Otisci na 1:{scale}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Prints the same legend the Legend widget shows: visible layers, group layers, map service sublayers, and all renderer types. Choose a panel beside the map (the map shrinks to make room) or a corner overlay. The legend fits itself: more columns, then smaller text, then an honest \"+ N more\" note.": {
+  "t": "Ispisuje istu legendu koju Legend grafički element prikazuje: vidljive slojeve, grupne slojeve, podslojeve servisa mape i sve vrste iscrtavanja. Odaberite ploču pored mape (mapa se smanjuje da napravi mjesta) ili preklapanje ugao. Legenda se uklapa: više kolona, zatim manji tekst, zatim pošten+ N više nota.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19889,6 +20189,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Red": {
+  "t": "Crveno",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Red messages on the Load step: a rule points at a field that is not there, or a required field is left empty. Press Back and fix the rule the message names.": {
   "t": "Crvene poruke na koraku učitavanja: tačka pravila na polju koje nije tu ili je potrebno polje prazno. Pritisnite Nazad i popravite pravila imena poruka.",
   "src": "libretranslate",
@@ -19927,6 +20233,12 @@
  },
  "Reference (A-1 index)": {
   "t": "Referenca (Indeks A-1)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reference grid (A-1 index)": {
+  "t": "Referentna mreža (Indeks A-1)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20431,6 +20743,12 @@
  },
  "Right panel": {
   "t": "Desna ploča",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Right panel (beside the map)": {
+  "t": "Desna ploča (pored mape)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22223,6 +22541,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show grid": {
+  "t": "Pokaži mrežu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show help": {
   "t": "Pokaži pomoć",
   "src": "libretranslate",
@@ -22285,6 +22609,12 @@
  },
  "Show labels": {
   "t": "Pokaži oznake",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show layer names": {
+  "t": "Pokaži imena slojeva",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22415,6 +22745,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show overview inset": {
+  "t": "Pregled prikaza",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show Pictometry Button": {
   "t": "Dugmad za piktometriju",
   "src": "libretranslate",
@@ -22537,6 +22873,12 @@
  },
  "Show this segment on the map": {
   "t": "Po_kaži podsjetnik",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show title": {
+  "t": "Pokaži naslov",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22927,6 +23269,12 @@
  },
  "Solid": {
   "t": "Čvrsto",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Solid lines": {
+  "t": "Pune linije",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23453,6 +23801,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Stop the export": {
+  "t": "Zaustavi izvoz",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Stopping after this page...": {
   "t": "Zaustavljanje nakon ove stranice...",
   "src": "libretranslate",
@@ -23965,6 +24319,12 @@
  },
  "Text shown in the layout's title. Defaults to the layout name.": {
   "t": "Tekst prikazan u naslovu rasporeda. Uobičajeno za ime rasporeda.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Text size": {
+  "t": "Veličina teksta",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -25169,6 +25529,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Title": {
+  "t": "Naslov",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Title Case the names": {
   "t": "Naslov Slučaja imena",
   "src": "libretranslate",
@@ -25499,6 +25865,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Top left": {
+  "t": "Gornje lijevo",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Top left (over map)": {
   "t": "Preostalo na vrhu (preko mape)",
   "src": "libretranslate",
@@ -25513,6 +25885,12 @@
  },
  "Top page margin in points": {
   "t": "margina gornje stranice u bodovima",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Top right": {
+  "t": "Gornje desno",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -26861,6 +27239,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Warn above (map pages)": {
+  "t": "Upozorenje iznad (mapa stranice)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Warning": {
   "t": "Upozorenje",
   "src": "libretranslate",
@@ -27149,6 +27533,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "White": {
+  "t": "Bijelo",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Whole layer (beyond the map)": {
   "t": "Cijeli sloj (izvan mape)",
   "src": "libretranslate",
@@ -27199,6 +27589,12 @@
  },
  "Width": {
   "t": "Širina",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Width (in)": {
+  "t": "Širina (u)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
