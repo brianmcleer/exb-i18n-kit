@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.3 (2026-10-09)
+
+- `sync`, `localize` and `audit` on a widgets folder skipped every widget whose manifest author starts
+  with "Esri", so customized forks (map-layers-custom) never picked up the shared memory. A widget
+  with Esri in the author line is now skipped only when it has no `i18n/translations.lock.json`.
+- `memory/sources.json`: registers the new settings strings of enhanced-measurement and rac-manager.
+
 ## 1.0.2 (2026-10-08)
 
 - The shared memory now lives on the `translation-memory` branch. `main` is protected (pull requests

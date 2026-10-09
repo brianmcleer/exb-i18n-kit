@@ -75,7 +75,9 @@ function widgetTargets (target, cfg) {
     const d = path.join(abs, e.name)
     if (!isWidgetFolder(d) || (cfg.exclude || []).includes(e.name)) continue
     const m = JSON.parse(fs.readFileSync(path.join(d, 'manifest.json'), 'utf8').replace(/^﻿/, ''))
-    if (typeof m.author === 'string' && /^esri\b/i.test(m.author.trim())) continue
+    // Esri's own widgets are skipped, but a customized fork with Esri in the author line
+    // (map-layers-custom: "Esri R&D Center Beijing (customized)") is ours once it has a lock.
+    if (typeof m.author === 'string' && /^esri\b/i.test(m.author.trim()) && !fs.existsSync(path.join(d, 'i18n', 'translations.lock.json'))) continue
     if (discoverParts(d).length) out.push(d)
   }
   return out
