@@ -155,6 +155,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{addLayerError}: make sure the address is the layer itself, not a web page, and that you can open it in a new tab.": {
+  "t": "{addLayerError}Убедитесь, что адрес является самим слоем, а не веб-страницей, и что вы можете открыть его в новой вкладке.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{area}: click each corner of a shape, then double-click to close it. You get the area and the edge around it.": {
   "t": "{area}: щелкните каждый угол формы, затем дважды щелкните, чтобы закрыть его. Вы получаете область и край вокруг нее.",
   "src": "libretranslate",
@@ -323,8 +329,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{exportMapImage} in the {batchOptions} menu gives you a picture to paste into a document or email.": {
+  "t": "{exportMapImage} в {batchOptions} Меню дает вам картинку для вставки в документ или электронную почту.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{exportMapImage} saves a picture of the map as a PNG file": {
   "t": "{exportMapImage} сохраняет изображение карты в виде файла PNG",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{exportViews} saves your views to a file. {importViews} loads them on another computer or shares them with a colleague.": {
+  "t": "{exportViews} Сохраняет ваши взгляды в файл. {importViews} Загружает их на другой компьютер или делится с коллегой.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -719,6 +737,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{soloLayer} in a layer’s menu is the fastest way to compare one layer against the basemap.": {
+  "t": "{soloLayer} В меню слоя это самый быстрый способ сравнить один слой с базовой картой.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{soloLayer}: turns every other layer off in one click so only this one is left on the map.": {
   "t": "{soloLayer}Выключает каждый другой слой одним щелчком мыши, поэтому на карте остается только этот.",
   "src": "libretranslate",
@@ -965,6 +989,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "A copied link carries which layers are on, nothing more. Whoever opens it sees those layers; their own map is not changed.": {
+  "t": "Копированная ссылка несет в себе то, какие слои включены, не более того. Тот, кто откроет его, увидит эти слои; их собственная карта не изменится.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A count beside the box tells you how many layers match.": {
   "t": "Подсчет рядом с коробкой показывает, сколько слоев совпадают.",
   "src": "libretranslate",
@@ -1001,6 +1031,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "A layer is ticked but missing from the map: its group is off. Tick the group too.": {
+  "t": "Слой тикает, но отсутствует на карте: его группа выключена. И группа тоже.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A layer is unavailable: its service may be offline, it may require sign-in, or its layer type may not work in a 2D map. Check that layer in the map.": {
   "t": "Слой недоступен: его служба может быть автономной, может потребоваться вход в систему, или его тип слоя может не работать на 2D-карте. Проверьте этот слой на карте.",
   "src": "libretranslate",
@@ -1013,6 +1049,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "A layer name is grey and nothing shows on the map: the layer only draws between certain zoom levels. Zoom in, or out, until the name turns dark.": {
+  "t": "Название слоя серое, и на карте ничего не видно: слой рисует только между определенными уровнями зума. Зум в, или наружу, пока имя не станет темным.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer says ({layerUnavailable}) and draws nothing: the service is down or blocked on your network. Wait a few minutes and, if the note stays, tell the GIS Division which layer.": {
+  "t": "Слой говорит:{layerUnavailable}) и ничего не привлекает: сервис отключен или заблокирован в вашей сети. Подождите несколько минут и, если записка останется, сообщите отделу ГИС, какой слой.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer switched off by itself when you turned another on: both sit in a group that allows one layer at a time. Turn the one you want back on.": {
+  "t": "Слой выключается сам по себе, когда вы включаете другой: оба сидят в группе, которая позволяет один слой за раз. Включи то, что хочешь.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A layer you expected is missing from the results: that layer is turned off in the map. Turn it back on in the layer list and click again.": {
   "t": "Слой, который вы ожидали, отсутствует в результатах: этот слой выключен на карте. Включите его обратно в список слоев и нажмите снова.",
   "src": "libretranslate",
@@ -1021,6 +1075,12 @@
  },
  "A line or shape will not finish: double-click on the last point.": {
   "t": "Линия или форма не закончатся: дважды щелкните по последней точке.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A link you were sent shows fewer layers than expected: the link only names layers this map has. Turn on what you need and copy a fresh link.": {
+  "t": "Ссылка, которую вы отправили, показывает меньше слоев, чем ожидалось: ссылка содержит только слои имен. Включите то, что вам нужно, и скопируйте новую ссылку.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1127,6 +1187,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A web map or web scene, or any combination of the two.": {
+  "t": "Веб-карта или веб-сцена, или любая их комбинация.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "a zipped Shapefile": {
   "t": "Застегнутый Shapefile",
   "src": "libretranslate",
@@ -1175,6 +1241,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Add \"Copy link to these layers\" to batch options": {
+  "t": "Добавить «копировать ссылку на эти слои» в пакетные опции",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add \"Export layer list (CSV)\" to batch options": {
+  "t": "Добавить «Список уровней экспорта (CSV)» в пакетные опции",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add & load new data": {
   "t": "Добавить и загрузить новые данные",
   "src": "libretranslate",
@@ -1186,6 +1264,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Add a \"Show only this layer\" action": {
+  "t": "Добавить действие «Показать только этот слой»",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Add a coordinate format": {
   "t": "Добавить формат координат",
@@ -1199,6 +1283,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Add a file saved on your computer. It is added to the map for this session only — it is not uploaded or saved.": {
+  "t": "Добавьте файл, сохраненный на вашем компьютере. Он добавляется на карту только для этой сессии — он не загружается и не сохраняется.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add a header at the top of each page": {
   "t": "Добавление заголовка в верхней части каждой страницы",
   "src": "libretranslate",
@@ -1207,6 +1297,12 @@
  },
  "Add a layer": {
   "t": "Добавить слой",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add a layer that already lives online by pasting its web address. Use this for a hosted service, or for a GeoJSON, CSV, or KML file that is published on the web.": {
+  "t": "Добавьте слой, который уже живет в Интернете, вставив свой веб-адрес. Используйте это для размещенной службы или для файла GeoJSON, CSV или KML, который публикуется в Интернете.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1271,6 +1367,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Add extra layer tools (flash, copy URL, refresh, details)": {
+  "t": "Добавьте дополнительные инструменты уровня (флеш, копирование URL, обновление, детали)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add format rule": {
   "t": "Добавить правило формата",
   "src": "libretranslate",
@@ -1291,6 +1393,12 @@
  },
  "Add layer from URL": {
   "t": "Добавить слой из URL",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add layer from URL (header)": {
+  "t": "Добавить слой из URL (заголовок)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1367,6 +1475,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Add preset from map": {
+  "t": "Добавить preset с карты",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add Site": {
+  "t": "Добавить сайт",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add text annotation": {
   "t": "Добавить текстовую аннотацию",
   "src": "libretranslate",
@@ -1426,6 +1546,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Adding your own layer": {
+  "t": "Добавление собственного слоя",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Additional area units: {join}": {
   "t": "Дополнительные единицы площади: {join}",
@@ -1615,6 +1741,12 @@
  },
  "Adjust divider position: {position} percent": {
   "t": "Скорректировать положение дел: {position} %",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Adjust layer transparency": {
+  "t": "Корректировка уровня прозрачности",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1858,6 +1990,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Allow collapsing the layer list": {
+  "t": "Позволить разрушить список слоев",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Allow deleting features": {
   "t": "Разрешить удаление функций",
@@ -2273,6 +2411,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Auto-include new sub-layers": {
+  "t": "Автовключить новые подслои",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Auto-include new sub-layers added to": {
+  "t": "Авто-включает новые подслои, добавленные в",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Auto-match by name": {
   "t": "Автоматический матч по имени",
   "src": "libretranslate",
@@ -2500,6 +2650,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Basemap switcher (header)": {
+  "t": "Переключатель Basemap (заголовок)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Basemaps could not be loaded": {
   "t": "Баземапы не могут быть загружены",
@@ -3023,6 +3179,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Carry basemap to next map": {
+  "t": "Перенос базовой карты на следующую карту",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Center · {srLabel}": {
   "t": "Центр · {srLabel}",
   "src": "libretranslate",
@@ -3095,6 +3257,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Change symbols for layers generated at runtime": {
+  "t": "Изменение символов для слоев, генерируемых во время выполнения",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Change Text Options:": {
   "t": "Измените варианты текста:",
   "src": "libretranslate",
@@ -3133,6 +3301,12 @@
  },
  "Check label alignment with your specific printer and label sheets": {
   "t": "Проверьте соответствие этикетки вашему конкретному принтеру и листам этикеток",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Check layer services on a timer and mark ones that do not answer": {
+  "t": "Проверьте уровень услуг на таймере и пометьте те, которые не отвечают",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3289,6 +3463,30 @@
  },
  "Choose color": {
   "t": "Выберите цвет",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose from {sitesCount} available map. Selecting a map will navigate you to that location and keep the current basemap.": {
+  "t": "Выбрать из {sitesCount} Доступная карта. Выбор карты приведет вас к этому месту и сохранит текущую базовую карту.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose from {sitesCount} available map. Selecting a map will navigate you to that location.": {
+  "t": "Выбрать из {sitesCount} Доступная карта. Выбор карты приведет вас к этому месту.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location and keep the current basemap.": {
+  "t": "Выбрать из {sitesCount} Доступные карты. Выбор карты приведет вас к этому месту и сохранит текущую базовую карту.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location.": {
+  "t": "Выбрать из {sitesCount} Доступные карты. Выбор карты приведет вас к этому месту.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3479,6 +3677,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Clean up layer names in the list (underscores to spaces)": {
+  "t": "Очистите имена слоев в списке (подчеркните пробелы)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Clear": {
   "t": "Чисто.",
   "src": "libretranslate",
@@ -3610,6 +3814,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Clearing your browser data removes saved views. Export them first if you want to keep them.": {
+  "t": "Очистка данных браузера удаляет сохраненные просмотры. Сначала экспортируйте их, если хотите сохранить.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Clearing your browser history and site data removes saved measurements. Export what you want to keep.": {
   "t": "Очистка истории браузера и данных сайта удаляет сохраненные измерения. Экспортируйте то, что вы хотите сохранить.",
@@ -3895,6 +4105,12 @@
  },
  "click the pin button on {inspector} and then click the map": {
   "t": "Нажмите кнопку PIN {inspector} Затем нажмите на карту",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click the plus icon in the top bar to open the {addLayerTitle} panel.": {
+  "t": "Нажмите значок плюс в верхней панели, чтобы открыть {addLayerTitle} панель.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4207,6 +4423,12 @@
  },
  "Color: {color}": {
   "t": "Цвет: {color}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Combined legend panel (header)": {
+  "t": "Комбинированная панель легенд (заголовок)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4805,6 +5027,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copy link appears in the batch options menu, so turn on \"Enable layer batch options\" in Options as well.": {
+  "t": "Ссылка копирования появляется в меню пакетных опций, поэтому включите «Включить пакетные опции слоя» в опциях.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copy link to these layers": {
   "t": "Копировать ссылки на эти слои",
   "src": "libretranslate",
@@ -4855,6 +5083,18 @@
  },
  "Could not copy the link": {
   "t": "Не удалось скопировать ссылку",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not export the settings.": {
+  "t": "Не удалось экспортировать настройки.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not read that file. Make sure it is an XML file exported from this widget.": {
+  "t": "Я не мог прочитать этот файл. Убедитесь, что это XML-файл, экспортированный из этого виджета.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5999,6 +6239,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Drag a file from your computer, or click to browse": {
+  "t": "Перетащите файл с вашего компьютера или нажмите, чтобы просмотреть",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Drag a layer up or down to change which one draws on top.": {
   "t": "Перетащите слой вверх или вниз, чтобы изменить, какой из них рисует сверху.",
   "src": "libretranslate",
@@ -6803,6 +7049,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Enable layer batch options": {
+  "t": "Включите опции пакетов layer",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enable local storage to use the My Drawings feature": {
   "t": "Возможность локального хранения для использования функции My Drawings",
   "src": "libretranslate",
@@ -6869,6 +7121,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Enable or disable pop-up": {
+  "t": "Включить или отключить pop-up",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enable or disable the halo (outline) effect around the measurement label text for better visibility": {
   "t": "Включить или отключить эффект гало (маршрут) вокруг текста метки измерения для лучшей видимости",
   "src": "libretranslate",
@@ -6883,6 +7141,12 @@
  },
  "Enable print-ready label spacing for PDF export": {
   "t": "Включите готовый к печати интервал для экспорта PDF",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enable saved layer views": {
+  "t": "Скачать Saved Layer Views",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6967,6 +7231,12 @@
  },
  "Enhanced Measurement": {
   "t": "Усовершенствованные измерения",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enhanced options": {
+  "t": "Расширенные варианты",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7241,6 +7511,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Example: {sample}": {
+  "t": "Пример: {sample}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Excel opens the CSV with accented letters intact, and a value that starts with = or + is kept as text, never run as a formula.": {
   "t": "Excel открывает CSV с неповрежденными акцентированными буквами, и значение, которое начинается с = или +, сохраняется в виде текста, никогда не работает как формула.",
   "src": "libretranslate",
@@ -7249,6 +7525,12 @@
  },
  "Existing Drawings Found": {
   "t": "Найдены существующие рисунки",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Exit focus": {
+  "t": "Фокус на выходе",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7276,6 +7558,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Expand all layers by default": {
+  "t": "Расширяйте все слои по умолчанию",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Expand drawing": {
   "t": "Расширить рисунок",
@@ -7457,6 +7745,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Export layer list appears in the batch options menu, so turn on \"Enable layer batch options\" in Options as well.": {
+  "t": "Список экспортного уровня появляется в меню пакетных опций, поэтому включите «Включить пакетные опции слоя» в опциях.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Export map image": {
   "t": "Карта экспорта",
   "src": "libretranslate",
@@ -7507,6 +7801,12 @@
  },
  "Export Settings": {
   "t": "Настройки экспорта",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export settings (XML)": {
+  "t": "Настройки экспорта (XML)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7571,6 +7871,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Extra features added by this custom Map Layers widget.": {
+  "t": "Дополнительные функции, добавленные этим пользовательским виджетом Map Layers.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Extra large labels, 2 across × 5 down": {
   "t": "Дополнительные большие этикетки, 2 в × 5 вниз",
   "src": "libretranslate",
@@ -7585,6 +7891,12 @@
  },
  "FacilityID": {
   "t": "Средство",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fading a layer with {transparency} often shows more than turning others off.": {
+  "t": "Увлажняющий слой с {transparency} Часто показывает больше, чем выключает других.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7793,6 +8105,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "File": {
+  "t": "Файл",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "File detected, drop to upload.": {
   "t": "Файл обнаружен, выгрузка.",
   "src": "libretranslate",
@@ -7852,6 +8170,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Filter box placeholder text": {
+  "t": "Фильтр коробки заполнитель текста",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Filter by layer or feature name...": {
   "t": "Фильтр по слою или имени функции...",
@@ -7990,6 +8314,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Flash / locate": {
+  "t": "Flash / Местонахождение",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Flash / locate layer": {
   "t": "Flash / Локальный слой",
@@ -8275,6 +8605,12 @@
  },
  "For better performance, consider filtering your data first": {
   "t": "Для лучшей производительности рассмотрите возможность фильтрации ваших данных в первую очередь.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "for example: GJ_|CityOf_|sde\\.": {
+  "t": "Например, GJ | CityOf |sde.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8569,6 +8905,12 @@
  },
  "GeoJSON": {
   "t": "ГеоДжон",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "GeoJSON, CSV, KML, or a zipped shapefile (.zip)": {
+  "t": "GeoJSON, CSV, KML или zipped shapefile (.zip)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8881,6 +9223,12 @@
  },
  "Group joins several drawings so they move together.": {
   "t": "Группа объединяет несколько рисунков, чтобы они двигались вместе.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Groups that allow one layer at a time": {
+  "t": "Группы, которые позволяют один слой за раз",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9263,6 +9611,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Hover a layer name to read the full title when it is cut off.": {
+  "t": "Наведите имя слоя, чтобы прочитать полный заголовок, когда он отрезан.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hover a view in the list and use the trash icon to delete it.": {
+  "t": "Закройте вид в списке и используйте значок мусора, чтобы удалить его.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "How to Use This Widget": {
   "t": "Как использовать этот виджет",
   "src": "libretranslate",
@@ -9377,6 +9737,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Imagery nearby tab (OpenStreetMap Editor Layer Index)": {
+  "t": "Изображения рядом вкладка (OpenStreetMap Editor Layer Index)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "import": {
   "t": "импорт",
   "src": "libretranslate",
@@ -9400,6 +9766,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Import / export settings": {
+  "t": "Условия импорта/экспорта",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Import / Export Settings": {
   "t": "Настройки импорта / экспорта",
@@ -9475,6 +9847,12 @@
  },
  "Import Settings": {
   "t": "Настройки импорта",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import settings (XML)": {
+  "t": "Настройки импорта (XML)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9598,6 +9976,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Index URL (leave blank for the osmlab.github.io copy)": {
+  "t": "URL-адрес индекса (оставьте пустой для копии osmlab.github.io)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Individual line segment measurements disabled. Display length labels on each segment of the line.": {
   "t": "Отдельные измерения сегмента линии отключены. Отображение длинных меток на каждом сегменте линии.",
@@ -10415,8 +10799,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "layers on": {
+  "t": "слои на",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Layers switched on / total layers": {
   "t": "Слои включены / полные слои",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layers you add from a web address or file last until the page reloads. Reload the page and they are gone.": {
+  "t": "Слои, которые вы добавляете с веб-адреса или файла, продолжаются до перезагрузки страницы. Перезагрузите страницу, и они исчезнут.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10507,6 +10903,12 @@
  },
  "Let users show measurements in additional units alongside the primary unit, for example acres with square feet.": {
   "t": "Пусть пользователи показывают измерения в дополнительных единицах рядом с первичной единицей, например акрах с квадратными футами.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Let users star favorite layers and filter to them": {
+  "t": "Пусть пользователи просматривают любимые слои и фильтруют их.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10789,6 +11191,12 @@
  },
  "Loading data...": {
   "t": "Загрузка данных...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Loading group layers from the map…": {
+  "t": "Загрузка групповых слоев с карты...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11243,6 +11651,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map Switcher": {
+  "t": "Переключатель карт",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map Switcher - Select a map to navigate to": {
+  "t": "Map Switcher - Выберите карту для навигации",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map Units (linear)": {
   "t": "Единицы карты (линейные)",
   "src": "libretranslate",
@@ -11285,6 +11705,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "mapContainer": {
+  "t": "КартаКонтейнер",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Mapped": {
   "t": "замаскированный",
   "src": "libretranslate",
@@ -11305,6 +11731,12 @@
  },
  "Master opacity": {
   "t": "Непрозрачность",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Master opacity slider (header)": {
+  "t": "Слайдер непрозрачности (заголовок)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11765,6 +12197,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Minutes between checks (1 to 120)": {
+  "t": "Минуты между проверками (1-120)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Mobile-friendly interface": {
   "t": "Мобильный дружественный интерфейс",
   "src": "libretranslate",
@@ -11803,6 +12241,12 @@
  },
  "More actions for {label}": {
   "t": "Больше действий для {label}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Most layers vanished and a Layer focus card is showing: click Exit focus on the card to bring them back.": {
+  "t": "Большинство слоев исчезло, и карта фокусировки уровня показывает: нажмите «Выход» на карте, чтобы вернуть их.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11855,6 +12299,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Move site {index} down": {
+  "t": "Переместить сайт {index} вниз",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Move site {index} up": {
+  "t": "Переместить сайт {index} вверх",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Move to bottom": {
   "t": "Двигаться до дна",
   "src": "libretranslate",
@@ -11863,6 +12319,12 @@
  },
  "Move to top": {
   "t": "Двигаться до вершины",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Move to top / bottom": {
+  "t": "Двигаться вверх/вниз",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12029,8 +12491,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Navigate to {label}": {
+  "t": "Навигация для {label}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Navigate within dropdown menus": {
   "t": "Навигация в выпадающих меню",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Navigating to selected map. Please wait.": {
+  "t": "Переход на выбранную карту. Пожалуйста, подождите.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12257,6 +12731,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No group layers were found in this map. Add a group in the web map (in Map Viewer) and refresh to use auto-include.": {
+  "t": "На этой карте не было найдено групповых слоев. Добавьте группу на веб-карту (в Map Viewer) и обновите ее, чтобы использовать автоматическое включение.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No group layers were found in this map. Add a group in the web map (in Map Viewer) and refresh.": {
+  "t": "На этой карте не было найдено групповых слоев. Добавить группу на веб-карту (в Map Viewer) и обновить.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No imagery in the index covers this area.": {
   "t": "Ни одно изображение в индексе не охватывает эту область.",
   "src": "libretranslate",
@@ -12328,6 +12814,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "No map selected: the first Map widget in the app is used. Select one here if the app has more than one map.": {
+  "t": "Карта не выбрана: используется первый виджет карты в приложении. Выберите один из них, если приложение имеет более одной карты.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "No map selected. Open the widget settings and choose a map.": {
   "t": "Карта не выбрана. Откройте настройки виджета и выберите карту.",
@@ -12407,6 +12899,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No presets yet.": {
+  "t": "Никаких предустановок.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No recognized settings were found in that file.": {
+  "t": "В этом файле не было обнаружено никаких распознанных настроек.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No records found in selected layer": {
   "t": "Нет записей, найденных в выбранном слое",
   "src": "libretranslate",
@@ -12463,6 +12967,18 @@
  },
  "No selection made. Generate labels for ALL features in the layer?": {
   "t": "Выбор не сделан. Создавать этикетки для всех функций в слое?",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No sites configured": {
+  "t": "Сайты не настроены",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No sites configured. Please configure map sites in the widget settings.": {
+  "t": "Сайты не настроены. Пожалуйста, настройте сайты карты в настройках виджета.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12803,6 +13319,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "On the {imageryTab} tab, pick an aerial or satellite source that covers the area on screen and click Add. It goes under your layers, like a second basemap. Each source has its own terms of use.": {
+  "t": "Над {imageryTab} Вкладка, выберите воздушный или спутниковый источник, который охватывает область на экране и нажмите Добавить. Он проходит под вашими слоями, как вторая базовая карта. Каждый источник имеет свои условия использования.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "On the {inspector} tab.": {
   "t": "Над {inspector} вкладка.",
   "src": "libretranslate",
@@ -12811,6 +13333,24 @@
  },
  "On the Draw tab, click a shape button: point, line, area, or text.": {
   "t": "На вкладке Draw нажмите кнопку формы: точка, линия, область или текст.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On the File tab, choose a file from your computer: GeoJSON, CSV with coordinates, KML, or a zipped shapefile.": {
+  "t": "На вкладке «Файл» выберите файл с вашего компьютера: GeoJSON, CSV с координатами, KML или застегнутый файл формы.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "on the map. Every other layer is hidden until you exit.": {
+  "t": "На карте. Все остальные слои скрыты, пока вы не выйдете.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On the URL tab, paste a web address for the layer (an ArcGIS service, WMS, WMTS, GeoJSON, CSV or KML link) or a 32-character ArcGIS item ID, then click {addLayerSubmit}.": {
+  "t": "На вкладке URL вставьте веб-адрес для слоя (служба ArcGIS, WMS, WMTS, ссылка GeoJSON, CSV или KML) или идентификатор элемента ArcGIS с 32 символами, затем нажмите {addLayerSubmit}.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12877,6 +13417,12 @@
  },
  "One click asks {sources}.": {
   "t": "Один клик спрашивает {sources}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "One layer at a time in": {
+  "t": "Один слой за один раз в",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13175,6 +13721,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Parcel Drafter": {
+  "t": "Разработчик",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Parent Widget Controller": {
   "t": "Родительский контроллер Виджета",
   "src": "libretranslate",
@@ -13366,6 +13918,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Pick one layer per group (radio buttons)": {
+  "t": "Выберите один слой на группу (радио кнопки)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Pick one of them under Source layer. That is the data the next two steps work on.": {
   "t": "Выберите один из них под слоем Source. Это данные, над которыми работают следующие два шага.",
@@ -13703,6 +14261,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Prefix to strip (regular expression, case-insensitive)": {
+  "t": "Префикс для полоски (регулярное выражение, нечувствительный к случаю)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Preparing comparison...": {
   "t": "Подготовка сравнения...",
   "src": "libretranslate",
@@ -13711,6 +14275,12 @@
  },
  "Preparing labels for printing...": {
   "t": "Подготовка этикеток для печати...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preset": {
+  "t": "Предустановленный",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13738,6 +14308,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Preset name": {
+  "t": "Предварительное название",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preset views (built into the app)": {
+  "t": "Предварительный просмотр (встроен в приложение)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Presets": {
   "t": "Предустановки",
@@ -14135,6 +14717,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Record layer on and off clicks in usage telemetry (layer name and group path only)": {
+  "t": "Запись слоев на и выключать клики в телеметрии использования (только имя уровня и групповой путь)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Record processing limits": {
   "t": "Предельные сроки обработки записей",
   "src": "libretranslate",
@@ -14291,6 +14879,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Remove file": {
+  "t": "Удалить файл",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Remove from favorites": {
   "t": "Удалить из любимых",
   "src": "libretranslate",
@@ -14357,6 +14951,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Reorder layers": {
+  "t": "Упорядочение слоев",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Replace": {
   "t": "Заменить",
   "src": "libretranslate",
@@ -14387,8 +14987,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Replace this preset with the layers currently on in the map": {
+  "t": "Замените эту предустановку слоями, которые в настоящее время находятся на карте.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Report an issue": {
   "t": "Сообщить о проблеме",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Report layers that fail to load or draw in usage telemetry (layer path and reason only)": {
+  "t": "Слои отчетов, которые не загружаются или не рисуют в телеметрии использования (только путь слоя и причина)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14497,6 +15109,12 @@
  },
  "Restore": {
   "t": "Восстановить",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Restoring your layers…": {
+  "t": "Восстановление ваших слоев...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14759,6 +15377,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Save a view before you start clicking around. Getting back is then one click.": {
+  "t": "Сохраните вид, прежде чем начать щелкать. Возвращение - это один клик.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Save current settings to a file": {
   "t": "Сохранить текущие настройки в файл",
   "src": "libretranslate",
@@ -14789,6 +15413,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Save the Options and Enhanced options to an XML file, or load them from one. The map selection is not included.": {
+  "t": "Сохраните опции и расширенные опции в файл XML или загрузите их из одного. Выбор карты не включен.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Save this field-mapping as a reusable .xml file": {
   "t": "Сохраните эту карту поля в виде многоразового файла .xml",
   "src": "libretranslate",
@@ -14809,6 +15439,12 @@
  },
  "Saved views": {
   "t": "Сохраненные взгляды",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Saved views are kept in this browser on this computer. They are not on the map itself, and another computer or browser will not have them unless you export and import.": {
+  "t": "Сохраненные просмотры хранятся в этом браузере на этом компьютере. Их нет на самой карте, и другой компьютер или браузер не будет иметь их, если вы не экспортируете и не импортируете.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14879,8 +15515,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Search descriptions and tags too, not only names": {
+  "t": "Поисковые описания и теги, а не только имена",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Search imagery by name": {
   "t": "Поиск изображений по имени",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Search layers": {
+  "t": "Поисковые слои",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15071,8 +15719,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Select a map to navigate to a different view": {
+  "t": "Выберите карту, чтобы перейти к другому виду",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select a Map widget": {
   "t": "Выберите виджет карты",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select a map widget in the widget settings to begin.": {
+  "t": "Выберите виджет карты в настройках виджета, чтобы начать.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15263,6 +15923,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Select map to view": {
+  "t": "Выберите карту для просмотра",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select Map Widget": {
   "t": "Выберите Map Widget",
   "src": "libretranslate",
@@ -15307,6 +15973,12 @@
  },
  "Select the Identify By Query widget": {
   "t": "Выберите виджет Identify by Query",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select the layers to display for users.": {
+  "t": "Выберите слои для отображения для пользователей.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15473,6 +16145,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Sends the basemap chosen in either basemap gallery to the next app. The destination app needs a Map Switcher connected to its map to apply it.": {
+  "t": "Отправляет базовую карту, выбранную в любой галерее базовой карты, в следующее приложение. Приложению назначения нужен коммутатор карты, подключенный к его карте, чтобы применить его.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Separate columns": {
   "t": "Отдельные колонны",
   "src": "libretranslate",
@@ -15517,6 +16195,12 @@
  },
  "Set Start to skip labels already used on a partial sheet. Start at 5 leaves the first four slots blank.": {
   "t": "Начните пропускать ярлыки, уже используемые на частичном листе. Начните с 5, оставьте первые четыре слота пустыми.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Set the layers up once, choose {copyLayerLink}, and paste the link into an email so a colleague opens the same view.": {
+  "t": "Установите слои один раз, выберите {copyLayerLink}И вставьте ссылку в электронное письмо, чтобы коллега открыл то же самое представление.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15571,6 +16255,12 @@
  },
  "Settings have been applied to the widget": {
   "t": "Настройки были применены к виджету",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Settings imported. Remember to save the widget.": {
+  "t": "Настройки импортные. Не забудьте сохранить виджет.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15661,6 +16351,12 @@
  },
  "Show a control that zooms the map to a drawing extent.": {
   "t": "Покажите контроль, который масштабирует карту в степени рисунка.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show a visible-layer count badge": {
+  "t": "Показать значок счета видимого слоя",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15797,6 +16493,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show layers for map data only": {
+  "t": "Показать уровни только для картографических данных",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show legend": {
+  "t": "Показать легенду",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show legend for all visible layers by default": {
+  "t": "Показать легенду для всех видимых слоев по умолчанию",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show length, perimeter, and radius in additional units alongside the primary unit": {
   "t": "Показать длину, периметр и радиус в дополнительных единицах рядом с основной единицей",
   "src": "libretranslate",
@@ -15863,6 +16577,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show or hide labels": {
+  "t": "Показать или скрыть этикетки",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show other visible layers on both sides": {
   "t": "Показать другие видимые слои с обеих сторон",
   "src": "libretranslate",
@@ -15907,6 +16627,12 @@
  },
  "Show sorting and filtering controls at the top of the My Drawings list.": {
   "t": "Покажите элементы управления сортировкой и фильтрацией в верхней части списка «Мои рисунки».",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show tables": {
+  "t": "Показать столы",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16001,6 +16727,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Showing only": {
+  "t": "Показывать только",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Shown in the Units list on the Coordinates tab.": {
   "t": "Показано в списке единиц на вкладке Координаты.",
   "src": "libretranslate",
@@ -16055,6 +16787,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Site {index}": {
+  "t": "Сайт {index}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Site name": {
+  "t": "Название сайта",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Sites": {
+  "t": "Сайты",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Size (px)": {
   "t": "Размер (px)",
   "src": "libretranslate",
@@ -16084,6 +16834,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Skip to main content": {
+  "t": "Пропустить основной контент",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Slow performance: Use geometry selection to limit records": {
   "t": "Медленная производительность: используйте выбор геометрии для ограничения записей",
@@ -16331,6 +17087,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Specify which layers will be displayed for each map": {
+  "t": "Укажите, какие слои будут отображаться для каждой карты.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Split tool": {
   "t": "Сплит инструмент",
   "src": "libretranslate",
@@ -16375,6 +17137,12 @@
  },
  "Start": {
   "t": "Начинать",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Start collapsed when the app loads": {
+  "t": "Старт рухнул, когда приложение загружается",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16507,6 +17275,12 @@
  },
  "Still stuck? Contact the GIS Division and mention the Mailing Labels name and this app.": {
   "t": "Все еще застрял? Свяжитесь с отделом ГИС и упомяните название Mailing Labels и это приложение.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Still stuck? Contact the GIS Division and mention the Map Layers name and this app.": {
+  "t": "Все еще застрял? Свяжитесь с отделом ГИС и укажите название слоев карты и это приложение.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16661,6 +17435,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Switch to...": {
+  "t": "Переключитесь на...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Switched to blend mode. Use the slider to adjust transparency.": {
   "t": "Переключен на режим смешивания. Используйте слайдер для настройки прозрачности.",
   "src": "libretranslate",
@@ -16696,6 +17476,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Symbology and structure are kept where supported.": {
+  "t": "Симбология и структура хранятся там, где они поддерживаются.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Symbology changes how the layer is drawn on the map. Choose the Layer, pick a symbol, and the map redraws.": {
   "t": "Символология меняет то, как слой нарисован на карте. Выберите Слой, выберите символ, и карта перерисует.",
@@ -17009,6 +17795,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The {imageryTab} tab says the index could not be read: the network is blocking the OpenStreetMap site. Try again later or from another connection.": {
+  "t": "The {imageryTab} На вкладке написано, что индекс читать нельзя: сеть блокирует сайт OpenStreetMap. Попробуй позже или из другой связи.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The {results} tab lists everything you found, with a count at the top.": {
   "t": "The {results} На вкладке перечислено все, что вы нашли, с подсчетом в верхней части.",
   "src": "libretranslate",
@@ -17231,6 +18023,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The filter shows no layers: check the spelling, or clear the box with the x to see everything again.": {
+  "t": "Фильтр не показывает никаких слоев: проверьте орфографию или очистите коробку с x, чтобы увидеть все снова.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The first row has to be the column headings, one heading per column.": {
   "t": "Первой строкой должны быть заголовки колонок, по одному на колонку.",
   "src": "libretranslate",
@@ -17315,6 +18113,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The list is empty or stuck loading: reload the page. The map takes a moment to connect on slow networks.": {
+  "t": "Список пуст или застрял: перезагрузите страницу. Карта требует времени для подключения к медленным сетям.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The Load step checks the work, then writes the records into the layer.": {
   "t": "Шаг Load проверяет работу, затем записывает записи в слой.",
   "src": "libretranslate",
@@ -17365,6 +18169,18 @@
  },
  "The map popup layers could not be queried.": {
   "t": "Всплывающие слои карты не могли быть запрошены.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The names under {presetViews} at the top of the menu came with the app. Pick one and the layers switch to that set. They cannot be changed or deleted.": {
+  "t": "Имена под {presetViews} В верхней части меню появилось приложение. Выберите один, и слои переключатся на этот набор. Они не могут быть изменены или удалены.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The new layer appears at the top of the list. Use its three-dot menu to change its symbol or remove it.": {
+  "t": "Новый слой появляется в верхней части списка. Используйте трехточечное меню, чтобы изменить символ или удалить его.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17873,6 +18689,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Title Case the names": {
+  "t": "Название Случай с именами",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Title expression (Arcade)": {
   "t": "Выражение названия (Arcade)",
   "src": "libretranslate",
@@ -17908,6 +18730,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "To use a view later, click the bookmark icon and pick its name. The layers switch to match.": {
+  "t": "Чтобы использовать вид позже, нажмите значок закладки и выберите его имя. Слои переключаются на совпадение.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "To use the My Drawings panel, you must allow saving drawings in your browser's local storage.": {
   "t": "Чтобы использовать панель «Мои рисунки», вы должны разрешить сохранение рисунков в локальном хранилище вашего браузера.",
@@ -18028,6 +18856,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Toggle layer visibility": {
+  "t": "Видимость слоя переключателя",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Toggle measurement label editing mode. When enabled, click on measurement labels in the map to select and customize them.": {
   "t": "Режим редактирования меток измерения Toggle. При включении нажмите на метки измерения на карте, чтобы выбрать и настроить их.",
@@ -18305,8 +19139,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Turn on for any group whose layers should show one at a time. With \"Use tick boxes\" on, those layers get round buttons instead of boxes; with eye icons the group still allows only one.": {
+  "t": "Включите для любой группы, чьи слои должны показывать по одному за раз. При включении «Использовать клещевые коробки» эти слои получают круглые кнопки вместо коробок; с иконками для глаз группа по-прежнему допускает только одну.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Turn on for any group whose new sub-layers should appear in the deployed app automatically — no rebuild or republish needed when you add layers to that group in the web map.": {
+  "t": "Включите для любой группы, новые подслои которой должны отображаться в развернутом приложении автоматически — не нужно перестраивать или переиздавать, когда вы добавляете слои в эту группу на веб-карте.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Turn on No empty to drop blank records, and No duplicates to remove repeats.": {
   "t": "Включите No empty, чтобы выбросить пустые записи, и No duplicates, чтобы удалить повторы.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Turn on parent groups when a layer is checked on": {
+  "t": "Включите родительские группы, когда слой проверяется",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18317,8 +19169,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Turn on the layers you want in the map, then click Add preset from map. Presets appear at the top of the Saved views menu for every user and cannot be changed by them. They show even when saved layer views are off.": {
+  "t": "Включите нужные вам слои на карте, затем нажмите «Добавить предварительно установленный с карты». Предустановки отображаются в верхней части меню сохраненных просмотров для каждого пользователя и не могут быть изменены ими. Они показывают даже тогда, когда сохраненные слои не отображаются.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Turn on the layers you want, click the bookmark icon, choose {saveCurrentView}, type a name and click {save}.": {
+  "t": "Включите нужные вам слои, нажмите значок закладки, выберите {saveCurrentView}Введите имя и нажмите {save}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Turning layers on and off": {
   "t": "Включение и выключение слоев",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Turning layers on and off changes only your screen. The map everyone else sees is not affected.": {
+  "t": "Включение и выключение слоев изменяет только ваш экран. Карта, которую видят все остальные, не пострадала.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18719,6 +19589,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Update from map": {
+  "t": "Обновление с карты",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Update only (match by key)": {
   "t": "Только обновление (матч по ключу)",
   "src": "libretranslate",
@@ -18781,6 +19657,12 @@
  },
  "URL": {
   "t": "URL",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "URL or item ID": {
+  "t": "URL или идентификатор элемента",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18953,6 +19835,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Use tick boxes to control layer visibility": {
+  "t": "Используйте галочки для контроля видимости слоя",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Used between this coordinate system and WGS84. Automatic picks the best equation-based transformation for the area of the map.": {
   "t": "Используется между этой системой координат и WGS84. Автоматически выбирает лучшее преобразование на основе уравнений для области карты.",
   "src": "libretranslate",
@@ -19069,6 +19957,12 @@
  },
  "View drawing properties": {
   "t": "Посмотреть свойства рисунка",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "View layer details": {
+  "t": "Просмотр слоев детали",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19591,6 +20485,12 @@
  },
  "You cannot select anything on the map: no map is connected to this widget. Ask whoever set up the app to add one in the settings.": {
   "t": "Вы не можете выбрать что-либо на карте: ни одна карта не связана с этим виджетом. Спросите любого, кто настроил приложение, чтобы добавить его в настройки.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "You changed a lot and want to start over: open the {batchOptions} menu and choose {resetVisibility}.": {
+  "t": "Вы сильно изменились и хотите начать все сначала: откройте {batchOptions} меню и выбрать {resetVisibility}.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"

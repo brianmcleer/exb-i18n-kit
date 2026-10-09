@@ -155,6 +155,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{addLayerError}: make sure the address is the layer itself, not a web page, and that you can open it in a new tab.": {
+  "t": "{addLayerError}: переконайтеся, що адреса є самим шаром, не веб-сторінки, і що ви можете відкрити його в новій вкладці.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{area}: click each corner of a shape, then double-click to close it. You get the area and the edge around it.": {
   "t": "{area}: натисніть кожен кут форми, потім двічі клацніть, щоб закрити його. Ви отримуєте площу і краю навколо нього.",
   "src": "libretranslate",
@@ -323,8 +329,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{exportMapImage} in the {batchOptions} menu gives you a picture to paste into a document or email.": {
+  "t": "{exportMapImage} в {batchOptions} Меню дає вам зображення, щоб вставити в документ або електронну пошту.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{exportMapImage} saves a picture of the map as a PNG file": {
   "t": "{exportMapImage} зберігає зображення карти як файл PNG",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{exportViews} saves your views to a file. {importViews} loads them on another computer or shares them with a colleague.": {
+  "t": "{exportViews} зберігає ваші погляди на файл. {importViews} завантажує їх на інший комп'ютер або розподіляє їх з колегою.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -719,6 +737,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{soloLayer} in a layer’s menu is the fastest way to compare one layer against the basemap.": {
+  "t": "{soloLayer} у меню шару є найшвидшим способом порівняти один шар на базову карту.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{soloLayer}: turns every other layer off in one click so only this one is left on the map.": {
   "t": "{soloLayer}: Вимкніть кожен інший шар одним клацанням так тільки це зліва на карті.",
   "src": "libretranslate",
@@ -965,6 +989,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "A copied link carries which layers are on, nothing more. Whoever opens it sees those layers; their own map is not changed.": {
+  "t": "Скопійоване посилання несе які шари, що знаходяться на, нічого більше. Хто, хто відкрив його, бачить ті шари, їх карта не змінюється.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A count beside the box tells you how many layers match.": {
   "t": "Кількість біля коробки говорить вам, скільки шарів відповідають.",
   "src": "libretranslate",
@@ -1001,6 +1031,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "A layer is ticked but missing from the map: its group is off. Tick the group too.": {
+  "t": "Шар тьмяний, але відсутній з карти: її група вимкнена. Зніміть групу теж.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A layer is unavailable: its service may be offline, it may require sign-in, or its layer type may not work in a 2D map. Check that layer in the map.": {
   "t": "Шар недоступний: його обслуговування може бути в автономному режимі, він може вимагати реєстрації, або його тип шару не може працювати в 2D карті. Перевірити шар на карті.",
   "src": "libretranslate",
@@ -1013,6 +1049,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "A layer name is grey and nothing shows on the map: the layer only draws between certain zoom levels. Zoom in, or out, until the name turns dark.": {
+  "t": "Назва шару сіра і нічого не показує на мапі: шар тільки протягується між певними рівнями зумів. Зомбі, або з-під, доки назва виходить темним.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer says ({layerUnavailable}) and draws nothing: the service is down or blocked on your network. Wait a few minutes and, if the note stays, tell the GIS Division which layer.": {
+  "t": "A шар коментує ({layerUnavailable}) і нічого не малює: послуга вниз або заблокована в мережі. Зачекайте кілька хвилин і, якщо замітка залишається, розкажіть розділ ГІС, який шар.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer switched off by itself when you turned another on: both sit in a group that allows one layer at a time. Turn the one you want back on.": {
+  "t": "Шар відключений самостійно, коли ви перетворили ще одну на: як сідати в групі, що дозволяє одночасно один шар. Поверніть один, який ви хочете повернутися.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A layer you expected is missing from the results: that layer is turned off in the map. Turn it back on in the layer list and click again.": {
   "t": "Шар, який ви очікуєте, відсутні з результатів: що шар вимкнений на мапі. Поверніть його назад в список шарів і натисніть знову.",
   "src": "libretranslate",
@@ -1021,6 +1075,12 @@
  },
  "A line or shape will not finish: double-click on the last point.": {
   "t": "Лінія або форма не закінчуються: двічі клацніть на останню точку.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A link you were sent shows fewer layers than expected: the link only names layers this map has. Turn on what you need and copy a fresh link.": {
+  "t": "Посилання, яку ви відправили, показує менше шарів, ніж очікувалося: посилання тільки шари цієї карти має. Поверніть на те, що потрібно і скопіюйте свіжу посилання.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1127,6 +1187,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A web map or web scene, or any combination of the two.": {
+  "t": "Веб-карта або веб-сцена, або будь-яке поєднання двох.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "a zipped Shapefile": {
   "t": "збитий файл",
   "src": "libretranslate",
@@ -1175,6 +1241,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Add \"Copy link to these layers\" to batch options": {
+  "t": "Додати \"Купити посилання на ці шари\" на параметри партії",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add \"Export layer list (CSV)\" to batch options": {
+  "t": "Додати \"Вихідний список шарів (CSV) до пакетних варіантів",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add & load new data": {
   "t": "Додавання та завантаження нових даних",
   "src": "libretranslate",
@@ -1186,6 +1264,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Add a \"Show only this layer\" action": {
+  "t": "Додати дію \"Показати тільки цей шар\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Add a coordinate format": {
   "t": "Додавання формату координат",
@@ -1199,6 +1283,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Add a file saved on your computer. It is added to the map for this session only — it is not uploaded or saved.": {
+  "t": "Додати файл, який зберігається на вашому комп'ютері. Додана до карти для цієї сесії тільки — вона не завантажується або збережена.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add a header at the top of each page": {
   "t": "Додати заголовок у верхній частині кожної сторінки",
   "src": "libretranslate",
@@ -1207,6 +1297,12 @@
  },
  "Add a layer": {
   "t": "Додати шар",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add a layer that already lives online by pasting its web address. Use this for a hosted service, or for a GeoJSON, CSV, or KML file that is published on the web.": {
+  "t": "Додайте шар, який вже живе онлайн, поставивши свою веб-адресу. Використовуйте це для хостингу або для GeoJSON, CSV або KML файл, який публікується на сайті.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1271,6 +1367,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Add extra layer tools (flash, copy URL, refresh, details)": {
+  "t": "Додати додаткові інструменти шару (флеш, копіювання URL, оновлення, деталі)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add format rule": {
   "t": "Додати правило формату",
   "src": "libretranslate",
@@ -1291,6 +1393,12 @@
  },
  "Add layer from URL": {
   "t": "Додати шар з URL",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add layer from URL (header)": {
+  "t": "Додати шар з URL (головки)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1367,6 +1475,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Add preset from map": {
+  "t": "Додати пресет з карти",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add Site": {
+  "t": "Додати сайт",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add text annotation": {
   "t": "Додавання анотації тексту",
   "src": "libretranslate",
@@ -1426,6 +1546,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Adding your own layer": {
+  "t": "Додавання власного шару",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Additional area units: {join}": {
   "t": "Додаткові одиниці площі: {join}",
@@ -1615,6 +1741,12 @@
  },
  "Adjust divider position: {position} percent": {
   "t": "Регульувати позицію дивідора: {position} відсоток",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Adjust layer transparency": {
+  "t": "Регульована прозорість шару",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1858,6 +1990,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Allow collapsing the layer list": {
+  "t": "Дозволити розбір шарів",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Allow deleting features": {
   "t": "Додаткові функції видалення",
@@ -2273,6 +2411,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Auto-include new sub-layers": {
+  "t": "Авто-включити нові підшарки",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Auto-include new sub-layers added to": {
+  "t": "Авто-включити нові під-шари додано",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Auto-match by name": {
   "t": "Автоматч за назвою",
   "src": "libretranslate",
@@ -2500,6 +2650,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Basemap switcher (header)": {
+  "t": "Перемикач Basemap (голова)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Basemaps could not be loaded": {
   "t": "Базикарти не можуть бути завантажені",
@@ -3023,6 +3179,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Carry basemap to next map": {
+  "t": "Карта каррі на карті",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Center · {srLabel}": {
   "t": "Центр · {srLabel}",
   "src": "libretranslate",
@@ -3095,6 +3257,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Change symbols for layers generated at runtime": {
+  "t": "Зміна символів для шарів, створених в режимі runtime",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Change Text Options:": {
   "t": "Зміна параметрів тексту:",
   "src": "libretranslate",
@@ -3133,6 +3301,12 @@
  },
  "Check label alignment with your specific printer and label sheets": {
   "t": "Перевірити вирівнювання етикеток з вашим специфічним принтером та листами етикеток",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Check layer services on a timer and mark ones that do not answer": {
+  "t": "Перевірити шарові послуги по таймеру і розмітці, які не відповідають",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3289,6 +3463,30 @@
  },
  "Choose color": {
   "t": "Виберіть колір",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose from {sitesCount} available map. Selecting a map will navigate you to that location and keep the current basemap.": {
+  "t": "Виберіть {sitesCount} доступна карта. Вибір карти буде навігувати вас до цього місця розташування і зберігати поточний базовий карти.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose from {sitesCount} available map. Selecting a map will navigate you to that location.": {
+  "t": "Виберіть {sitesCount} доступна карта. Вибір карти буде навігати вас на це місце.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location and keep the current basemap.": {
+  "t": "Виберіть {sitesCount} доступні карти. Вибір карти буде навігувати вас до цього місця розташування і зберігати поточний базовий карти.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location.": {
+  "t": "Виберіть {sitesCount} доступні карти. Вибір карти буде навігати вас на це місце.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3479,6 +3677,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Clean up layer names in the list (underscores to spaces)": {
+  "t": "Чисті топові імена в списку (для просторів)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Clear": {
   "t": "Очистити",
   "src": "libretranslate",
@@ -3610,6 +3814,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Clearing your browser data removes saved views. Export them first if you want to keep them.": {
+  "t": "Очистити дані браузера видаляє збережені види. Експортуйте їх спочатку, якщо ви хочете зберегти їх.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Clearing your browser history and site data removes saved measurements. Export what you want to keep.": {
   "t": "Очистити історію браузера та дані сайту видаляє збережені вимірювання. Експортувати те, що ви хочете зберегти.",
@@ -3895,6 +4105,12 @@
  },
  "click the pin button on {inspector} and then click the map": {
   "t": "натисніть кнопку шпилька на {inspector} а потім натисніть на карті",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click the plus icon in the top bar to open the {addLayerTitle} panel.": {
+  "t": "Натисніть піктограму плюс у верхній панелі, щоб відкрити {addLayerTitle} панель.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4207,6 +4423,12 @@
  },
  "Color: {color}": {
   "t": "Колір: {color}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Combined legend panel (header)": {
+  "t": "Комбінована легенда панель (голова)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4805,6 +5027,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copy link appears in the batch options menu, so turn on \"Enable layer batch options\" in Options as well.": {
+  "t": "Скопіювати посилання з'являється в меню пакетних опцій, тому ввімкніть \"Включні параметри пакету шарів\" в опції і.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copy link to these layers": {
   "t": "Скопіювати посилання на ці шари",
   "src": "libretranslate",
@@ -4855,6 +5083,18 @@
  },
  "Could not copy the link": {
   "t": "Чи не копіювати посилання",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not export the settings.": {
+  "t": "Не експортувати налаштування.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not read that file. Make sure it is an XML file exported from this widget.": {
+  "t": "Не прочитайте цей файл. Переконайтеся, що це файл XML, який експортується з цього віджету.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5999,6 +6239,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Drag a file from your computer, or click to browse": {
+  "t": "Перетягніть файл з вашого комп'ютера, або натисніть кнопку, щоб переглянути",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Drag a layer up or down to change which one draws on top.": {
   "t": "Перетягніть шар вгору або вниз, щоб змінити, який зверху намалюйте.",
   "src": "libretranslate",
@@ -6803,6 +7049,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Enable layer batch options": {
+  "t": "Увімкнути параметри партії шару",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enable local storage to use the My Drawings feature": {
   "t": "Увімкнути місцеве зберігання для використання функції My Drawings",
   "src": "libretranslate",
@@ -6869,6 +7121,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Enable or disable pop-up": {
+  "t": "Увімкнути або вимкнути",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enable or disable the halo (outline) effect around the measurement label text for better visibility": {
   "t": "Увімкнути або вимкнути ефект гало (outline) навколо вимірювання тексту етикетки для кращої видимості",
   "src": "libretranslate",
@@ -6883,6 +7141,12 @@
  },
  "Enable print-ready label spacing for PDF export": {
   "t": "Увімкнути розпакування етикеток для експорту PDF",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enable saved layer views": {
+  "t": "Увімкнути збережені види шару",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6967,6 +7231,12 @@
  },
  "Enhanced Measurement": {
   "t": "Покращений вимір",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enhanced options": {
+  "t": "Покращені параметри",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7241,6 +7511,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Example: {sample}": {
+  "t": "Приклад: {sample}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Excel opens the CSV with accented letters intact, and a value that starts with = or + is kept as text, never run as a formula.": {
   "t": "Excel відкриває CSV з акцентованими літерами, і значення, яке починається з = або + зберігається як текст, ніколи не працює як формула.",
   "src": "libretranslate",
@@ -7249,6 +7525,12 @@
  },
  "Existing Drawings Found": {
   "t": "Заснування елементів",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Exit focus": {
+  "t": "Випадковий фокус",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7276,6 +7558,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Expand all layers by default": {
+  "t": "Розгорніть всі шари за замовчуванням",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Expand drawing": {
   "t": "Розширити креслення",
@@ -7457,6 +7745,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Export layer list appears in the batch options menu, so turn on \"Enable layer batch options\" in Options as well.": {
+  "t": "Експорт списку шарів з'являється в меню пакетних опцій, тому ввімкніть \"Включні параметри пакету шарів\" в опції.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Export map image": {
   "t": "Експорт зображень",
   "src": "libretranslate",
@@ -7507,6 +7801,12 @@
  },
  "Export Settings": {
   "t": "Параметри експорту",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export settings (XML)": {
+  "t": "Параметри експорту (XML)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7571,6 +7871,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Extra features added by this custom Map Layers widget.": {
+  "t": "Додаткові функції, що додані цим користувальницьких шарів мапи віджет.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Extra large labels, 2 across × 5 down": {
   "t": "Додаткові великі етикетки, 2 через × 5 вниз",
   "src": "libretranslate",
@@ -7585,6 +7891,12 @@
  },
  "FacilityID": {
   "t": "Фатих",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fading a layer with {transparency} often shows more than turning others off.": {
+  "t": "Захоплення шару за допомогою {transparency} часто показує більше, ніж перевернути інші.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7793,6 +8105,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "File": {
+  "t": "Головна",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "File detected, drop to upload.": {
   "t": "Виявлено файл, що падає на завантаження.",
   "src": "libretranslate",
@@ -7852,6 +8170,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Filter box placeholder text": {
+  "t": "Фільтр-перекладач текстовий",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Filter by layer or feature name...": {
   "t": "Фільтр за шаром або назвою функції...",
@@ -7990,6 +8314,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Flash / locate": {
+  "t": "Флеш / локація",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Flash / locate layer": {
   "t": "Флеш / розташувати шар",
@@ -8275,6 +8605,12 @@
  },
  "For better performance, consider filtering your data first": {
   "t": "Для кращої роботи слід спочатку фільтрувати дані",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "for example: GJ_|CityOf_|sde\\.": {
+  "t": "Наприклад: GJ UDCityOf DSSde\\",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8569,6 +8905,12 @@
  },
  "GeoJSON": {
   "t": "ГеоДжсон",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "GeoJSON, CSV, KML, or a zipped shapefile (.zip)": {
+  "t": "GeoJSON, CSV, KML, або збитий файл форми (.zip)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8881,6 +9223,12 @@
  },
  "Group joins several drawings so they move together.": {
   "t": "Група приєднується до декількох креслень, щоб вони рухалися разом.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Groups that allow one layer at a time": {
+  "t": "Групи, які дозволяють одночасно один шар",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9263,6 +9611,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Hover a layer name to read the full title when it is cut off.": {
+  "t": "Поверніть ім'я шару, щоб прочитати повну назву, коли вона вимкнена.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hover a view in the list and use the trash icon to delete it.": {
+  "t": "Перемістити перегляд у списку і використовувати значок сміття, щоб видалити його.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "How to Use This Widget": {
   "t": "Як використовувати цей віджет",
   "src": "libretranslate",
@@ -9377,6 +9737,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Imagery nearby tab (OpenStreetMap Editor Layer Index)": {
+  "t": "Imagery next tab (OpenStreetMap Editor Layer Index)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "import": {
   "t": "Імпорт",
   "src": "libretranslate",
@@ -9400,6 +9766,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Import / export settings": {
+  "t": "Імпорт / експорт",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Import / Export Settings": {
   "t": "Параметри імпорту / експорту",
@@ -9475,6 +9847,12 @@
  },
  "Import Settings": {
   "t": "Налаштування імпорту",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import settings (XML)": {
+  "t": "Параметри імпорту (XML)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9598,6 +9976,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Index URL (leave blank for the osmlab.github.io copy)": {
+  "t": "Індекс URL (збережіть порожній для osmlab.github.io copy)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Individual line segment measurements disabled. Display length labels on each segment of the line.": {
   "t": "Вимкнення індивідуального сегмента лінії. Відобразити етикетки довжини на кожному сегменті лінії.",
@@ -10415,8 +10799,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "layers on": {
+  "t": "шари на",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Layers switched on / total layers": {
   "t": "Шари, що переводяться на / загальний шари",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layers you add from a web address or file last until the page reloads. Reload the page and they are gone.": {
+  "t": "Шари, які ви додаєте з веб-адреси або файлу, останні до перевантаження сторінки. Перевантажити сторінку і вони пішли.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10507,6 +10903,12 @@
  },
  "Let users show measurements in additional units alongside the primary unit, for example acres with square feet.": {
   "t": "Нехай користувачі покажуть вимірювання в додаткових одиницях поряд з первинним блоком, наприклад, акрів з квадратними ногами.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Let users star favorite layers and filter to them": {
+  "t": "Дозвольте користувачам зірвати улюблені шари і фільтрувати їх",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10789,6 +11191,12 @@
  },
  "Loading data...": {
   "t": "Завантаження даних...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Loading group layers from the map…": {
+  "t": "Навантаження групових шарів з карти ...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11243,6 +11651,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map Switcher": {
+  "t": "Карта Switcher",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map Switcher - Select a map to navigate to": {
+  "t": "Карта Switcher - Виберіть карту для навігації",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map Units (linear)": {
   "t": "Мапи (лінійний)",
   "src": "libretranslate",
@@ -11285,6 +11705,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "mapContainer": {
+  "t": "мапаКонтейнер",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Mapped": {
   "t": "Покоївка",
   "src": "libretranslate",
@@ -11305,6 +11731,12 @@
  },
  "Master opacity": {
   "t": "Майстер-пропісіті",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Master opacity slider (header)": {
+  "t": "Майстер opacity слайдер (голова)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11765,6 +12197,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Minutes between checks (1 to 120)": {
+  "t": "Протоколи між чеками (1 до 120)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Mobile-friendly interface": {
   "t": "Зручний інтерфейс",
   "src": "libretranslate",
@@ -11803,6 +12241,12 @@
  },
  "More actions for {label}": {
   "t": "Більше дій {label}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Most layers vanished and a Layer focus card is showing: click Exit focus on the card to bring them back.": {
+  "t": "Більшість шарів, які викрали, і шар фокус-карти показує: натисніть кнопку Вимкніть фокус на картці, щоб повернути їх назад.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11855,6 +12299,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Move site {index} down": {
+  "t": "Веб-сайт {index} вниз",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Move site {index} up": {
+  "t": "Веб-сайт {index} вгору",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Move to bottom": {
   "t": "Перемістити в дно",
   "src": "libretranslate",
@@ -11863,6 +12319,12 @@
  },
  "Move to top": {
   "t": "Перемістити вгорі",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Move to top / bottom": {
+  "t": "Перемістити вгорі / дно",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12029,8 +12491,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Navigate to {label}": {
+  "t": "Навігація {label}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Navigate within dropdown menus": {
   "t": "Navigate в меню випадаючого меню",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Navigating to selected map. Please wait.": {
+  "t": "Навігація до вибраної карти. Будь ласка, почекайте.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12257,6 +12731,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No group layers were found in this map. Add a group in the web map (in Map Viewer) and refresh to use auto-include.": {
+  "t": "На цій мапі розміщені шари групи. Додайте групу в веб-карту (на мапі Viewer) і освіжайте, щоб використовувати авто-включ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No group layers were found in this map. Add a group in the web map (in Map Viewer) and refresh.": {
+  "t": "На цій мапі розміщені шари групи. Додайте групу в веб-карту (в мапи) і освіжайте.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No imagery in the index covers this area.": {
   "t": "Немає зображень в індексі охоплює цю область.",
   "src": "libretranslate",
@@ -12328,6 +12814,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "No map selected: the first Map widget in the app is used. Select one here if the app has more than one map.": {
+  "t": "Немає вибраної карти: використовується перший віджет карти в додатку. Виберіть один тут, якщо додаток має більше однієї карти.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "No map selected. Open the widget settings and choose a map.": {
   "t": "Немає вибраної карти. Відкрийте налаштування віджету та оберіть карту.",
@@ -12407,6 +12899,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No presets yet.": {
+  "t": "Немає пресетів ще.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No recognized settings were found in that file.": {
+  "t": "Визначені параметри були знайдені в цьому файлі.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No records found in selected layer": {
   "t": "Не знайдено записів у вибраному шарі",
   "src": "libretranslate",
@@ -12463,6 +12967,18 @@
  },
  "No selection made. Generate labels for ALL features in the layer?": {
   "t": "Немає вибору. Генерувати етикетки для всіх особливостей в шарі?",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No sites configured": {
+  "t": "Немає сайтів, налаштованих",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No sites configured. Please configure map sites in the widget settings.": {
+  "t": "Немає сайтів, налаштованих. Будь ласка, налаштуйте сайти на карті в налаштуваннях віджету.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12803,6 +13319,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "On the {imageryTab} tab, pick an aerial or satellite source that covers the area on screen and click Add. It goes under your layers, like a second basemap. Each source has its own terms of use.": {
+  "t": "Про нас {imageryTab} вкладка, підібрати аеромобільне або супутникове джерело, яке охоплює область на екрані і натисніть кнопку Додати. Під ваші шари, як друга базова карта. Кожне джерело має свої умови використання.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "On the {inspector} tab.": {
   "t": "Про нас {inspector} Увійти",
   "src": "libretranslate",
@@ -12811,6 +13333,24 @@
  },
  "On the Draw tab, click a shape button: point, line, area, or text.": {
   "t": "На вкладці «На малюнку» натисніть кнопку «форма»: точка, рядок, зона або текст.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On the File tab, choose a file from your computer: GeoJSON, CSV with coordinates, KML, or a zipped shapefile.": {
+  "t": "На вкладці Файл виберіть файл з вашого комп'ютера: GeoJSON, CSV з координатами, KML, або збитого профілю форми.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "on the map. Every other layer is hidden until you exit.": {
+  "t": "на карті. Кожен інший шар прихований до виходу.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On the URL tab, paste a web address for the layer (an ArcGIS service, WMS, WMTS, GeoJSON, CSV or KML link) or a 32-character ArcGIS item ID, then click {addLayerSubmit}.": {
+  "t": "На вкладці URL вставте веб-адресу для шару (сервіс ArcGIS, WMS, WMTS, GeoJSON, CSV або KML посилання) або 32-character ArcGIS пункт ID, потім натисніть кнопку {addLayerSubmit}й",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12877,6 +13417,12 @@
  },
  "One click asks {sources}.": {
   "t": "Один клік запитує {sources}й",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "One layer at a time in": {
+  "t": "Один шар в часі",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13175,6 +13721,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Parcel Drafter": {
+  "t": "Парсельний проект",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Parent Widget Controller": {
   "t": "Парентний Widget контролер",
   "src": "libretranslate",
@@ -13366,6 +13918,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Pick one layer per group (radio buttons)": {
+  "t": "Підберіть один шар на групу (радіо гудзики)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Pick one of them under Source layer. That is the data the next two steps work on.": {
   "t": "Підберіть один з них під Джерельним шаром. Це дані про наступні два кроки.",
@@ -13703,6 +14261,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Prefix to strip (regular expression, case-insensitive)": {
+  "t": "Префікс на смугу (регулярний вираз, випадок-інженситивний)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Preparing comparison...": {
   "t": "Порівняння...",
   "src": "libretranslate",
@@ -13711,6 +14275,12 @@
  },
  "Preparing labels for printing...": {
   "t": "Підготовка етикеток для друку ...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preset": {
+  "t": "Зареєструватися",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13738,6 +14308,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Preset name": {
+  "t": "Ім'я",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preset views (built into the app)": {
+  "t": "Попередній перегляд (збудований в додаток)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Presets": {
   "t": "Пресети",
@@ -14135,6 +14717,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Record layer on and off clicks in usage telemetry (layer name and group path only)": {
+  "t": "Запис шарів на та відключення кліків у використанні телеметрія (тільки про назву та груповий шлях)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Record processing limits": {
   "t": "Обмеження обробки записів",
   "src": "libretranslate",
@@ -14291,6 +14879,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Remove file": {
+  "t": "Видалити файл",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Remove from favorites": {
   "t": "Видалити з улюблених",
   "src": "libretranslate",
@@ -14357,6 +14951,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Reorder layers": {
+  "t": "Напилення шарів",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Replace": {
   "t": "Зареєструватися",
   "src": "libretranslate",
@@ -14387,8 +14987,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Replace this preset with the layers currently on in the map": {
+  "t": "Замініть цей пресет з шарами в даний час на карті",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Report an issue": {
   "t": "Повідомити питання",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Report layers that fail to load or draw in usage telemetry (layer path and reason only)": {
+  "t": "Повідомляти шари, які не завантажують або фіксують при використанні телеметрії (рівний шлях і причина тільки)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14497,6 +15109,12 @@
  },
  "Restore": {
   "t": "Відновити",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Restoring your layers…": {
+  "t": "Відновлення ваших шарів...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14759,6 +15377,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Save a view before you start clicking around. Getting back is then one click.": {
+  "t": "Заощаджуйте перегляд перед тим, як почати клацання навколо. Поверніть назад, потім натисніть кнопку.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Save current settings to a file": {
   "t": "Збережіть поточні налаштування до файлу",
   "src": "libretranslate",
@@ -14789,6 +15413,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Save the Options and Enhanced options to an XML file, or load them from one. The map selection is not included.": {
+  "t": "Збережіть параметри та розширені параметри до XML-файлу або завантажуйте їх з одного. Вибір карти не входить.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Save this field-mapping as a reusable .xml file": {
   "t": "Заощаджуйте цей файл, як багаторазовий файл .xml",
   "src": "libretranslate",
@@ -14809,6 +15439,12 @@
  },
  "Saved views": {
   "t": "Збережені перегляди",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Saved views are kept in this browser on this computer. They are not on the map itself, and another computer or browser will not have them unless you export and import.": {
+  "t": "Збережені перегляди зберігаються в цьому браузері на цьому комп'ютері. Вони не на карті, а інший комп'ютер або браузер не будуть мати їх, якщо ви експортуєте і імпортувати.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14879,8 +15515,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Search descriptions and tags too, not only names": {
+  "t": "Пошук описів і тегів теж, не тільки імен",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Search imagery by name": {
   "t": "Пошук зображень за назвою",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Search layers": {
+  "t": "Пошук шарів",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15071,8 +15719,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Select a map to navigate to a different view": {
+  "t": "Виберіть карту для навігації в інший вид",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select a Map widget": {
   "t": "Виберіть віджет Карта",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select a map widget in the widget settings to begin.": {
+  "t": "Виберіть віджет у налаштуваннях віджету.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15263,6 +15923,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Select map to view": {
+  "t": "Виберіть карту для перегляду",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select Map Widget": {
   "t": "Виберіть карту Віджети",
   "src": "libretranslate",
@@ -15307,6 +15973,12 @@
  },
  "Select the Identify By Query widget": {
   "t": "Виберіть віджет Identify By Query",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select the layers to display for users.": {
+  "t": "Виберіть шари для відображення користувачів.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15473,6 +16145,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Sends the basemap chosen in either basemap gallery to the next app. The destination app needs a Map Switcher connected to its map to apply it.": {
+  "t": "Надсилання базової карти, обраної в галереї базової карти на наступний додаток. Програма призначення вимагає перемикача карти, підключеного до його карти, щоб застосувати його.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Separate columns": {
   "t": "Окремі стовпчики",
   "src": "libretranslate",
@@ -15517,6 +16195,12 @@
  },
  "Set Start to skip labels already used on a partial sheet. Start at 5 leaves the first four slots blank.": {
   "t": "Встановити стартові етикетки вже використовуються на частковому аркуші. Починайте в 5 листках перші чотири слоти заготовки.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Set the layers up once, choose {copyLayerLink}, and paste the link into an email so a colleague opens the same view.": {
+  "t": "Встановіть шари вгору один раз, виберіть {copyLayerLink}, і вставте посилання на електронну пошту, щоб колега відкриває той самий вигляд.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15571,6 +16255,12 @@
  },
  "Settings have been applied to the widget": {
   "t": "Налаштування були застосовані до віджету",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Settings imported. Remember to save the widget.": {
+  "t": "Налаштування імпортованих. Пам'ятайте, щоб зберегти віджет.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15661,6 +16351,12 @@
  },
  "Show a control that zooms the map to a drawing extent.": {
   "t": "Показати контроль, який збільшує карту в масштабі малювання.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show a visible-layer count badge": {
+  "t": "Показати видимий шар підрахунку значка",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15797,6 +16493,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show layers for map data only": {
+  "t": "Показати шари для даних мапа",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show legend": {
+  "t": "Показати легенду",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show legend for all visible layers by default": {
+  "t": "Показати легенду для всіх видимих шарів за замовчуванням",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show length, perimeter, and radius in additional units alongside the primary unit": {
   "t": "Показати довжину, периметр і радіус в додаткових одиницях поряд з первинним блоком",
   "src": "libretranslate",
@@ -15863,6 +16577,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show or hide labels": {
+  "t": "Показати або приховати етикетки",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show other visible layers on both sides": {
   "t": "Показати інші видимі шари з обох сторін",
   "src": "libretranslate",
@@ -15907,6 +16627,12 @@
  },
  "Show sorting and filtering controls at the top of the My Drawings list.": {
   "t": "Показати сортування та фільтрування елементів у верхній частині списку Мої креслення.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show tables": {
+  "t": "Показати таблиці",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16001,6 +16727,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Showing only": {
+  "t": "Показати тільки",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Shown in the Units list on the Coordinates tab.": {
   "t": "Показати у списку блоків на вкладці Координи.",
   "src": "libretranslate",
@@ -16055,6 +16787,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Site {index}": {
+  "t": "Веб-сайт {index}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Site name": {
+  "t": "Назва сайту",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Sites": {
+  "t": "Сайти",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Size (px)": {
   "t": "Розмір (px)",
   "src": "libretranslate",
@@ -16084,6 +16834,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Skip to main content": {
+  "t": "Головна",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Slow performance: Use geometry selection to limit records": {
   "t": "Повільна продуктивність: Використовуйте вибір геометрії для обмеження записів",
@@ -16331,6 +17087,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Specify which layers will be displayed for each map": {
+  "t": "Вкажіть, які шари будуть відображатися для кожної карти",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Split tool": {
   "t": "Спліт інструменту",
   "src": "libretranslate",
@@ -16375,6 +17137,12 @@
  },
  "Start": {
   "t": "Почати",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Start collapsed when the app loads": {
+  "t": "Почати згорнути, коли завантаження програми",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16507,6 +17275,12 @@
  },
  "Still stuck? Contact the GIS Division and mention the Mailing Labels name and this app.": {
   "t": "Натюрморт? Зв'язатися з відділом ГІС і згадувати ім'я листівок і це додаток.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Still stuck? Contact the GIS Division and mention the Map Layers name and this app.": {
+  "t": "Натюрморт? Зв'язатися з відділом ГІС і згадувати ім'я шарів карти і це додаток.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16661,6 +17435,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Switch to...": {
+  "t": "Перемикач...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Switched to blend mode. Use the slider to adjust transparency.": {
   "t": "Перемкнено до змішаного режиму. Використовуйте слайдер для регулювання прозорості.",
   "src": "libretranslate",
@@ -16696,6 +17476,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Symbology and structure are kept where supported.": {
+  "t": "Симбіологія і структура зберігаються в де підтримується.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Symbology changes how the layer is drawn on the map. Choose the Layer, pick a symbol, and the map redraws.": {
   "t": "Symbology змінює, як на мапи намальовується шар. Виберіть шар, оберіть символ, і мапи.",
@@ -17009,6 +17795,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The {imageryTab} tab says the index could not be read: the network is blocking the OpenStreetMap site. Try again later or from another connection.": {
+  "t": "Про нас {imageryTab} Вкладка говорить індекс не можна прочитати: мережа блокує сайт OpenStreetMap. Спробуйте ще раз або з іншого з'єднання.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The {results} tab lists everything you found, with a count at the top.": {
   "t": "Про нас {results} Вкладка перераховує все, що ви знайшли, з підрахунком на вершині.",
   "src": "libretranslate",
@@ -17231,6 +18023,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The filter shows no layers: check the spelling, or clear the box with the x to see everything again.": {
+  "t": "Фільтр не показує шарів: перевірте формулювання, або очистити коробку з х, щоб побачити все знову.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The first row has to be the column headings, one heading per column.": {
   "t": "Перший ряд має бути заголовки стовпців, одна заголовка за стовпчик.",
   "src": "libretranslate",
@@ -17315,6 +18113,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The list is empty or stuck loading: reload the page. The map takes a moment to connect on slow networks.": {
+  "t": "Список порожній або стейк-завантаження: перезавантажити сторінку. Карта займає момент підключення на повільних мережах.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The Load step checks the work, then writes the records into the layer.": {
   "t": "Крок навантаження перевіряє роботу, потім записує записи в шар.",
   "src": "libretranslate",
@@ -17365,6 +18169,18 @@
  },
  "The map popup layers could not be queried.": {
   "t": "Не можна перемішувати мапи.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The names under {presetViews} at the top of the menu came with the app. Pick one and the layers switch to that set. They cannot be changed or deleted.": {
+  "t": "Назви під {presetViews} у верхній частині меню прийшов з додатком. Підібрати один і шари перемкнути до цього набору. Вони не можуть бути змінені або видалені.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The new layer appears at the top of the list. Use its three-dot menu to change its symbol or remove it.": {
+  "t": "У верхній частині списку з'являється новий шар. Використовуйте свій триточний меню, щоб змінити його символ або видалити його.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17873,6 +18689,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Title Case the names": {
+  "t": "Головна Випадок імен",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Title expression (Arcade)": {
   "t": "Назва експресії (аркада)",
   "src": "libretranslate",
@@ -17908,6 +18730,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "To use a view later, click the bookmark icon and pick its name. The layers switch to match.": {
+  "t": "Щоб скористатися переглядом пізніше, натисніть значок закладки та оберіть його ім'я. Перемикач шарів до матчу.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "To use the My Drawings panel, you must allow saving drawings in your browser's local storage.": {
   "t": "Щоб використовувати панель My Drawings, ви повинні дозволити зберегти малюнки в локальному носінні браузера.",
@@ -18028,6 +18856,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Toggle layer visibility": {
+  "t": "видимість шару",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Toggle measurement label editing mode. When enabled, click on measurement labels in the map to select and customize them.": {
   "t": "Режим редагування етикеток Toggle. При включенні натисніть на вимірювання етикеток на карті, щоб вибрати та налаштувати їх.",
@@ -18305,8 +19139,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Turn on for any group whose layers should show one at a time. With \"Use tick boxes\" on, those layers get round buttons instead of boxes; with eye icons the group still allows only one.": {
+  "t": "Поверніть на будь-яку групу, шари яких повинні показати один раз. З «Використовувати щілинні коробки» на цих шарах отримайте круглі кнопки замість ящиків; з іконками очей група все ще дозволяє тільки один.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Turn on for any group whose new sub-layers should appear in the deployed app automatically — no rebuild or republish needed when you add layers to that group in the web map.": {
+  "t": "Увімкніть для будь-якої групи, нові під-шари повинні з'являтися в розгорнутому додатку автоматично — не перебудувати або перепланувати потрібно, коли ви додаєте шари до цієї групи в веб-карті.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Turn on No empty to drop blank records, and No duplicates to remove repeats.": {
   "t": "Увімкніть не порожні, щоб зменшити порожні записи, і не дублікати для видалення повторів.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Turn on parent groups when a layer is checked on": {
+  "t": "Увімкніть батьківські групи при перевірці шару",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18317,8 +19169,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Turn on the layers you want in the map, then click Add preset from map. Presets appear at the top of the Saved views menu for every user and cannot be changed by them. They show even when saved layer views are off.": {
+  "t": "Увімкніть шари, які ви хочете на карті, потім натисніть кнопку Додати припуск з карти. У верхній частині меню «Ощадний перегляд» для кожного користувача та їх не можна змінити. Вони показують навіть при збережених видах шару.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Turn on the layers you want, click the bookmark icon, choose {saveCurrentView}, type a name and click {save}.": {
+  "t": "Увімкніть шари, які ви хочете, натисніть значок закладки, виберіть {saveCurrentView}, введіть ім'я та натисніть {save}й",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Turning layers on and off": {
   "t": "Увімкнення шарів і відключення",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Turning layers on and off changes only your screen. The map everyone else sees is not affected.": {
+  "t": "Увімкніть шари і відключіть зміни тільки екран. На карті все інше не впливає.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18719,6 +19589,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Update from map": {
+  "t": "Оновлення з карти",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Update only (match by key)": {
   "t": "Оновити тільки (матч за ключем)",
   "src": "libretranslate",
@@ -18781,6 +19657,12 @@
  },
  "URL": {
   "t": "Контакти",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "URL or item ID": {
+  "t": "Ім'я користувача",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18953,6 +19835,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Use tick boxes to control layer visibility": {
+  "t": "Використовуйте tick коробки для управління видимістю шару",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Used between this coordinate system and WGS84. Automatic picks the best equation-based transformation for the area of the map.": {
   "t": "Використовується між координатною системою і WGS84. Автоматична підбирає найбільшу трансформацію рівнянь для площі карти.",
   "src": "libretranslate",
@@ -19069,6 +19957,12 @@
  },
  "View drawing properties": {
   "t": "Перегляд властивостей малюнка",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "View layer details": {
+  "t": "Докладніше про шар",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19591,6 +20485,12 @@
  },
  "You cannot select anything on the map: no map is connected to this widget. Ask whoever set up the app to add one in the settings.": {
   "t": "Ви не можете вибрати все на карті: немає карти підключено до цього віджету. Запитайте, хто встановив додаток, щоб додати один в налаштуваннях.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "You changed a lot and want to start over: open the {batchOptions} menu and choose {resetVisibility}.": {
+  "t": "Ви змінили багато і хочете запустити: відкрити {batchOptions} меню {resetVisibility}й",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"

@@ -155,6 +155,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{addLayerError}: make sure the address is the layer itself, not a web page, and that you can open it in a new tab.": {
+  "t": "{addLayerError}: Hãy kiểm tra xem địa chỉ là lớp, không phải trang web, và bạn có thể mở nó trong trang mới.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{area}: click each corner of a shape, then double-click to close it. You get the area and the edge around it.": {
   "t": "{area}: nhấp vào mỗi góc của một hình, rồi nhấn đôi để đóng lại. Bạn có được khu vực và các cạnh xung quanh nó.",
   "src": "libretranslate",
@@ -323,8 +329,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{exportMapImage} in the {batchOptions} menu gives you a picture to paste into a document or email.": {
+  "t": "{exportMapImage} trong {batchOptions} trình đơn cho bạn một hình ảnh để dán vào tài liệu hoặc email.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{exportMapImage} saves a picture of the map as a PNG file": {
   "t": "{exportMapImage} Lưu ảnh của bản đồ dạng tập tin PNG",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{exportViews} saves your views to a file. {importViews} loads them on another computer or shares them with a colleague.": {
+  "t": "{exportViews} lưu quan điểm của bạn vào tập tin. {importViews} nạp vào máy tính khác hoặc chia sẻ chúng với đồng nghiệp.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -719,6 +737,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{soloLayer} in a layer’s menu is the fastest way to compare one layer against the basemap.": {
+  "t": "{soloLayer} trong thực đơn của một lớp là cách nhanh nhất để so sánh một lớp với sơ đồ cơ bản.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{soloLayer}: turns every other layer off in one click so only this one is left on the map.": {
   "t": "{soloLayer}: tắt mỗi lớp khác trong một click, vì vậy chỉ có lớp này còn lại trên bản đồ.",
   "src": "libretranslate",
@@ -965,6 +989,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "A copied link carries which layers are on, nothing more. Whoever opens it sees those layers; their own map is not changed.": {
+  "t": "Một liên kết sao chép mang những lớp nào được bật, không gì hơn. Ai mở cửa ra sẽ thấy các tầng đó, còn bản đồ của chúng nó thì không hề thay đổi.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A count beside the box tells you how many layers match.": {
   "t": "Số lượng bên cạnh hộp cho bạn biết bao nhiêu lớp khớp.",
   "src": "libretranslate",
@@ -1001,6 +1031,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "A layer is ticked but missing from the map: its group is off. Tick the group too.": {
+  "t": "Một lớp được đánh dấu nhưng bị thiếu trong bản đồ: nhóm của nó bị tắt. Cả nhóm nữa.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A layer is unavailable: its service may be offline, it may require sign-in, or its layer type may not work in a 2D map. Check that layer in the map.": {
   "t": "Một lớp không sẵn sàng: dịch vụ của nó có thể bị ngắt kết nối, có thể cần phải đăng nhập, hoặc kiểu lớp có thể không hoạt động trong bản đồ 2D. Kiểm tra lớp trên bản đồ.",
   "src": "libretranslate",
@@ -1013,6 +1049,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "A layer name is grey and nothing shows on the map: the layer only draws between certain zoom levels. Zoom in, or out, until the name turns dark.": {
+  "t": "Một lớp tên là xám và không có gì hiển thị trên bản đồ: lớp chỉ vẽ giữa một số cấp độ phóng đại. Phóng to ra cho đến khi cái tên trở nên tối.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer says ({layerUnavailable}) and draws nothing: the service is down or blocked on your network. Wait a few minutes and, if the note stays, tell the GIS Division which layer.": {
+  "t": "Một lớp nói ({layerUnavailable}) và không vẽ gì: dịch vụ bị tắt hoặc bị chặn trong mạng của bạn. Chờ một chút và nếu tờ giấy còn lại, nói với đơn vị GIS lớp nào.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer switched off by itself when you turned another on: both sit in a group that allows one layer at a time. Turn the one you want back on.": {
+  "t": "Một lớp tự tắt đi khi bạn bật một lớp khác: cả hai ngồi trong một nhóm cho phép mỗi lớp một lúc. Bật cái nào anh muốn.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A layer you expected is missing from the results: that layer is turned off in the map. Turn it back on in the layer list and click again.": {
   "t": "Một lớp bạn mong đợi bị thiếu trong kết quả: lớp đó được tắt trong bản đồ. Bật nó lên lại trong danh sách lớp và click một lần nữa.",
   "src": "libretranslate",
@@ -1021,6 +1075,12 @@
  },
  "A line or shape will not finish: double-click on the last point.": {
   "t": "Một dòng hoặc hình dạng sẽ không hoàn tất: nhấn đôi vào điểm cuối cùng.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A link you were sent shows fewer layers than expected: the link only names layers this map has. Turn on what you need and copy a fresh link.": {
+  "t": "Một liên kết bạn được gửi cho thấy ít lớp hơn dự kiến: liên kết chỉ có các lớp bản đồ này. Bật những gì bạn cần và sao chép một liên kết mới.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1127,6 +1187,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A web map or web scene, or any combination of the two.": {
+  "t": "Một bản đồ web hoặc cảnh web, hoặc bất kỳ kết hợp của cả hai.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "a zipped Shapefile": {
   "t": "một tập tin hình nén zip",
   "src": "libretranslate",
@@ -1175,6 +1241,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Add \"Copy link to these layers\" to batch options": {
+  "t": "Thêm liên kết « Các lớp » vào các tùy chọn mẻ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add \"Export layer list (CSV)\" to batch options": {
+  "t": "Thêm danh sách lớp cổng (CSV) để sắp xếp các tùy chọn",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add & load new data": {
   "t": "Thêm dữ liệu mới",
   "src": "libretranslate",
@@ -1186,6 +1264,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Add a \"Show only this layer\" action": {
+  "t": "Thêm hành động « Hiển thị chỉ lớp này »",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Add a coordinate format": {
   "t": "Thêm định dạng tọa độ",
@@ -1199,6 +1283,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Add a file saved on your computer. It is added to the map for this session only — it is not uploaded or saved.": {
+  "t": "Thêm tập tin đã lưu vào máy tính của bạn. Nó được thêm vào bản đồ cho phiên họp này — không được tải lên hoặc lưu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add a header at the top of each page": {
   "t": "Thêm một đầu trang ở đầu mỗi trang",
   "src": "libretranslate",
@@ -1207,6 +1297,12 @@
  },
  "Add a layer": {
   "t": "Thêm lớp",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add a layer that already lives online by pasting its web address. Use this for a hosted service, or for a GeoJSON, CSV, or KML file that is published on the web.": {
+  "t": "Thêm một lớp đã sống trên mạng bằng cách dán địa chỉ web của nó. Dùng cái này cho dịch vụ máy, hoặc cho một file GeoJSON, CSV, hoặc KML được xuất bản trên web.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1271,6 +1367,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Add extra layer tools (flash, copy URL, refresh, details)": {
+  "t": "Thêm các công cụ cho lớp (fsh, sao chép URL, cập nhật, chi tiết)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add format rule": {
   "t": "Thêm quy tắc định dạng",
   "src": "libretranslate",
@@ -1291,6 +1393,12 @@
  },
  "Add layer from URL": {
   "t": "Thêm lớp từ URL",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add layer from URL (header)": {
+  "t": "Thêm lớp từ URL (đầu trang)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1367,6 +1475,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Add preset from map": {
+  "t": "Thêm định sẵn từ bản đồ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add Site": {
+  "t": "Thêm chỗ ngồi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add text annotation": {
   "t": "Ghi chú chữ",
   "src": "libretranslate",
@@ -1426,6 +1546,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Adding your own layer": {
+  "t": "Thêm lớp của riêng bạn",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Additional area units: {join}": {
   "t": "Đơn vị khu vực thêm: {join}",
@@ -1615,6 +1741,12 @@
  },
  "Adjust divider position: {position} percent": {
   "t": "Điều chỉnh vị trí phân chia: {position} %",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Adjust layer transparency": {
+  "t": "Điều chỉnh độ trong suốt của lớp",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1858,6 +1990,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Allow collapsing the layer list": {
+  "t": "Cho phép sụp đổ danh sách lớp",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Allow deleting features": {
   "t": "Cho phép xóa tính năng",
@@ -2273,6 +2411,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Auto-include new sub-layers": {
+  "t": "Tự động ẩn các tàu ngầm mới",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Auto-include new sub-layers added to": {
+  "t": "Tự động ẩn các sublayers mới thêm vào",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Auto-match by name": {
   "t": "Tự động trùng tên",
   "src": "libretranslate",
@@ -2500,6 +2650,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Basemap switcher (header)": {
+  "t": "Comment",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Basemaps could not be loaded": {
   "t": "Không thể tải bản đồ cơ bản",
@@ -3023,6 +3179,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Carry basemap to next map": {
+  "t": "Đem sơ đồ cơ bản tới bản đồ kế tiếp",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Center · {srLabel}": {
   "t": "Trung tâm 0 {srLabel}",
   "src": "libretranslate",
@@ -3095,6 +3257,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Change symbols for layers generated at runtime": {
+  "t": "Thay đổi biểu tượng cho lớp tạo ra lúc chạy",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Change Text Options:": {
   "t": "Thay đổi",
   "src": "libretranslate",
@@ -3133,6 +3301,12 @@
  },
  "Check label alignment with your specific printer and label sheets": {
   "t": "Kiểm tra canh nhãn với tờ nhãn đặc trưng của bạn",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Check layer services on a timer and mark ones that do not answer": {
+  "t": "Kiểm tra dịch vụ lớp trên đồng hồ hẹn giờ và những cái không trả lời",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3289,6 +3463,30 @@
  },
  "Choose color": {
   "t": "Chọn màu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose from {sitesCount} available map. Selecting a map will navigate you to that location and keep the current basemap.": {
+  "t": "Chọn từ {sitesCount} có sẵn bản đồ. Chọn một bản đồ sẽ định hướng bạn đến vị trí đó và giữ sơ đồ cơ sở hiện thời.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose from {sitesCount} available map. Selecting a map will navigate you to that location.": {
+  "t": "Chọn từ {sitesCount} có sẵn bản đồ. Chọn một bản đồ sẽ định hướng bạn đến địa điểm đó.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location and keep the current basemap.": {
+  "t": "Chọn từ {sitesCount} Bản đồ có sẵn. Chọn một bản đồ sẽ định hướng bạn đến vị trí đó và giữ sơ đồ cơ sở hiện thời.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location.": {
+  "t": "Chọn từ {sitesCount} Bản đồ có sẵn. Chọn một bản đồ sẽ định hướng bạn đến địa điểm đó.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3479,6 +3677,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Clean up layer names in the list (underscores to spaces)": {
+  "t": "Xoá các tên lớp trong danh sách (dưới các khoảng trống)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Clear": {
   "t": "& Xoá",
   "src": "libretranslate",
@@ -3610,6 +3814,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Clearing your browser data removes saved views. Export them first if you want to keep them.": {
+  "t": "Đang dọn dẹp dữ liệu trình duyệt của bạn gỡ bỏ các ô xem đã lưu. Xuất chúng trước nếu muốn giữ chúng.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Clearing your browser history and site data removes saved measurements. Export what you want to keep.": {
   "t": "Đang xoá lịch sử trình duyệt và dữ liệu nơi Mạng của bạn gỡ bỏ các phép đo đã lưu. Xuất những gì bạn muốn giữ.",
@@ -3895,6 +4105,12 @@
  },
  "click the pin button on {inspector} and then click the map": {
   "t": "Nhấn vào nút ghim {inspector} rồi nhấp vào bản đồ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click the plus icon in the top bar to open the {addLayerTitle} panel.": {
+  "t": "Ấn vào biểu tượng cộng trong thanh trên để mở {addLayerTitle} bảng điều khiển.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4207,6 +4423,12 @@
  },
  "Color: {color}": {
   "t": "Màu: {color}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Combined legend panel (header)": {
+  "t": "Bảng huyền thoại đã kết hợp (đầu)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4805,6 +5027,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copy link appears in the batch options menu, so turn on \"Enable layer batch options\" in Options as well.": {
+  "t": "Chép liên kết xuất hiện trong trình đơn tùy chọn hàng loạt, nên cũng bật tùy chọn \"Các lớp dễ dàng truy cập\" trong Tùy chọn.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copy link to these layers": {
   "t": "Chép liên kết tới những lớp này",
   "src": "libretranslate",
@@ -4855,6 +5083,18 @@
  },
  "Could not copy the link": {
   "t": "Không thể sao chép liên kết",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not export the settings.": {
+  "t": "Không thể xuất khẩu các thiết lập.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not read that file. Make sure it is an XML file exported from this widget.": {
+  "t": "Không thể đọc tập tin đó. Hãy kiểm tra xem nó là tập tin XML được xuất từ ô điều khiển này.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5999,6 +6239,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Drag a file from your computer, or click to browse": {
+  "t": "Kéo tập tin từ máy tính của bạn, hoặc nhắp vào để duyệt",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Drag a layer up or down to change which one draws on top.": {
   "t": "Kéo một lớp lên hoặc xuống để thay đổi mà một người vẽ trên đầu.",
   "src": "libretranslate",
@@ -6803,6 +7049,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Enable layer batch options": {
+  "t": "Bật tùy chọn hàng loạt lớp",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enable local storage to use the My Drawings feature": {
   "t": "Cho phép lưu trữ cục bộ dùng tính năng vẽ của tôi",
   "src": "libretranslate",
@@ -6869,6 +7121,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Enable or disable pop-up": {
+  "t": "Bật hay tắt bật lên",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enable or disable the halo (outline) effect around the measurement label text for better visibility": {
   "t": "Kích hoạt hay tắt hiệu ứng halo (dòng ra) xung quanh văn bản nhãn cho tầm nhìn tốt hơn",
   "src": "libretranslate",
@@ -6883,6 +7141,12 @@
  },
  "Enable print-ready label spacing for PDF export": {
   "t": "Bật khoảng cách nhãn sẵn sàng cho xuất PDF",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enable saved layer views": {
+  "t": "Bật ô xem lớp đã lưu",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6967,6 +7231,12 @@
  },
  "Enhanced Measurement": {
   "t": "Đo tăng cường",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enhanced options": {
+  "t": "Tùy chọn tăng cường",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7241,6 +7511,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Example: {sample}": {
+  "t": "Ví dụ: {sample}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Excel opens the CSV with accented letters intact, and a value that starts with = or + is kept as text, never run as a formula.": {
   "t": "Push mở CNV với chữ cái còn nguyên vẹn, và một giá trị bắt đầu với = hoặc + được giữ như văn bản, không bao giờ chạy như một công thức.",
   "src": "libretranslate",
@@ -7249,6 +7525,12 @@
  },
  "Existing Drawings Found": {
   "t": "Tìm thấy bản vẽ tồn tại",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Exit focus": {
+  "t": "Thoát tiêu điểm",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7276,6 +7558,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Expand all layers by default": {
+  "t": "Mở rộng mọi lớp theo mặc định",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Expand drawing": {
   "t": "Vẽ mở rộng",
@@ -7457,6 +7745,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Export layer list appears in the batch options menu, so turn on \"Enable layer batch options\" in Options as well.": {
+  "t": "Danh sách lớp xuất ra trong trình đơn tùy chọn hàng loạt, vậy hãy bật \"Các tùy chọn mẻ lớp dễ dàng\" trong Tùy chọn.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Export map image": {
   "t": "Xuất ảnh sơ đồ",
   "src": "libretranslate",
@@ -7507,6 +7801,12 @@
  },
  "Export Settings": {
   "t": "Thiết lập Xuất",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export settings (XML)": {
+  "t": "Xuất thiết lập (XML)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7571,6 +7871,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Extra features added by this custom Map Layers widget.": {
+  "t": "Thêm tính năng do ô điều khiển sơ đồ tuỳ thích này thêm vào.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Extra large labels, 2 across × 5 down": {
   "t": "Nhãn thêm lớn, 2 trên × 5 xuống",
   "src": "libretranslate",
@@ -7585,6 +7891,12 @@
  },
  "FacilityID": {
   "t": "Thư mục",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fading a layer with {transparency} often shows more than turning others off.": {
+  "t": "Tạo ra một lớp bằng {transparency} Thường cho thấy nhiều hơn là chỉ tắt người khác.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7793,6 +8105,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "File": {
+  "t": "Tập tin",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "File detected, drop to upload.": {
   "t": "Tập tin được phát hiện, cần tải lên.",
   "src": "libretranslate",
@@ -7852,6 +8170,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Filter box placeholder text": {
+  "t": "Lọc hộp giữ chỗ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Filter by layer or feature name...": {
   "t": "Lọc theo lớp hoặc tên tính năng...",
@@ -7990,6 +8314,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Flash / locate": {
+  "t": "Chớp / định vị",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Flash / locate layer": {
   "t": "Flash/ định vị lớp",
@@ -8275,6 +8605,12 @@
  },
  "For better performance, consider filtering your data first": {
   "t": "Để đạt hiệu suất tốt hơn, hãy xem xét việc lọc dữ liệu trước.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "for example: GJ_|CityOf_|sde\\.": {
+  "t": "Ví dụ như: GJ City Brades\\.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8569,6 +8905,12 @@
  },
  "GeoJSON": {
   "t": "GeoJSON",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "GeoJSON, CSV, KML, or a zipped shapefile (.zip)": {
+  "t": "GeoJSON, CSV, KML, hoặc một tập tin hình dạng đã nén zip (.zip)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8881,6 +9223,12 @@
  },
  "Group joins several drawings so they move together.": {
   "t": "Các nhóm tham gia vào nhiều bức vẽ nên họ di chuyển cùng nhau.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Groups that allow one layer at a time": {
+  "t": "Nhóm cho phép từng lớp một",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9263,6 +9611,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Hover a layer name to read the full title when it is cut off.": {
+  "t": "Đánh dấu một tên lớp để đọc tiêu đề đầy đủ khi nó bị cắt.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hover a view in the list and use the trash icon to delete it.": {
+  "t": "Gỡ bỏ ô xem trong danh sách và dùng biểu tượng thùng rác để xoá nó.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "How to Use This Widget": {
   "t": "Cách dùng ô điều khiển này",
   "src": "libretranslate",
@@ -9377,6 +9737,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Imagery nearby tab (OpenStreetMap Editor Layer Index)": {
+  "t": "Bộ xem ảnh gần thẻ ( mở ra chỉ mục Lớp soạn thảo)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "import": {
   "t": "nhập",
   "src": "libretranslate",
@@ -9400,6 +9766,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Import / export settings": {
+  "t": "Thiết lập Nhập / Xuất",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Import / Export Settings": {
   "t": "Thiết lập Nhập / Xuất",
@@ -9475,6 +9847,12 @@
  },
  "Import Settings": {
   "t": "Thiết lập Nhập",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import settings (XML)": {
+  "t": "Nhập thiết lập (XML)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9598,6 +9976,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Index URL (leave blank for the osmlab.github.io copy)": {
+  "t": "Địa chỉ Mạng phụ lục (để trống cho osmlab.githib.io copy)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Individual line segment measurements disabled. Display length labels on each segment of the line.": {
   "t": "Các phép đo đoạn riêng lẻ bị tắt. Hiện chú thích về mỗi đoạn thẳng",
@@ -10415,8 +10799,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "layers on": {
+  "t": "lớp",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Layers switched on / total layers": {
   "t": "Lớp được bật / tổng lớp",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layers you add from a web address or file last until the page reloads. Reload the page and they are gone.": {
+  "t": "Lớp bạn thêm vào địa chỉ hay tập tin của trang Mạng cuối cùng cho đến khi tải lại trang. Nạp lại trang web và chúng biến mất.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10507,6 +10903,12 @@
  },
  "Let users show measurements in additional units alongside the primary unit, for example acres with square feet.": {
   "t": "Cho phép người dùng hiển thị đo lường trong đơn vị thêm vào bên cạnh đơn vị chính, ví dụ mẫu đất với bàn chân vuông.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Let users star favorite layers and filter to them": {
+  "t": "Hãy để cho người dùng yêu thích lớp và bộ lọc đến chúng",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10789,6 +11191,12 @@
  },
  "Loading data...": {
   "t": "Đang nạp dữ liệu...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Loading group layers from the map…": {
+  "t": "Đang tải các lớp nhóm từ bản đồ...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11243,6 +11651,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map Switcher": {
+  "t": "Trình đổi bản đồ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map Switcher - Select a map to navigate to": {
+  "t": "Trình đổi bản đồ - Chọn bản đồ cần định hướng tới",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map Units (linear)": {
   "t": "Đơn vị sơ đồ ( Tuyến tính)",
   "src": "libretranslate",
@@ -11285,6 +11705,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "mapContainer": {
+  "t": "Container bản đồ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Mapped": {
   "t": "Bản đồ",
   "src": "libretranslate",
@@ -11305,6 +11731,12 @@
  },
  "Master opacity": {
   "t": "Độ mờ đục",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Master opacity slider (header)": {
+  "t": "Con trượt Master (đầu)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11765,6 +12197,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Minutes between checks (1 to 120)": {
+  "t": "Phút giữa các ngân phiếu (1 đến 120)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Mobile-friendly interface": {
   "t": "Giao diện người dùng di động",
   "src": "libretranslate",
@@ -11803,6 +12241,12 @@
  },
  "More actions for {label}": {
   "t": "Thêm hành động cho {label}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Most layers vanished and a Layer focus card is showing: click Exit focus on the card to bring them back.": {
+  "t": "Hầu hết các lớp đều biến mất và một thẻ tiêu điểm được hiển thị: hãy nhấn vào nút Thoát tập trung vào thẻ để mang chúng trở lại.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11855,6 +12299,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Move site {index} down": {
+  "t": "Chuyển vị trí {index} & Xuống",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Move site {index} up": {
+  "t": "Chuyển vị trí {index} lên",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Move to bottom": {
   "t": "Chuyển tới cuối",
   "src": "libretranslate",
@@ -11863,6 +12319,12 @@
  },
  "Move to top": {
   "t": "Chuyển lên trên",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Move to top / bottom": {
+  "t": "Chuyển tới trên / dưới",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12029,8 +12491,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Navigate to {label}": {
+  "t": "Chuyển tới {label}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Navigate within dropdown menus": {
   "t": "Name",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Navigating to selected map. Please wait.": {
+  "t": "Chuyển sang bản đồ đã chọn. Đợi đã.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12257,6 +12731,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No group layers were found in this map. Add a group in the web map (in Map Viewer) and refresh to use auto-include.": {
+  "t": "Không có lớp nào được tìm thấy trong bản đồ này. Thêm một nhóm trong bản đồ web (trong trình xem bản đồ) và phần mở rộng để dùng tự động kết nối.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No group layers were found in this map. Add a group in the web map (in Map Viewer) and refresh.": {
+  "t": "Không có lớp nào được tìm thấy trong bản đồ này. Thêm nhóm vào bản đồ web (theo trình xem bản đồ) và cập nhật lại.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No imagery in the index covers this area.": {
   "t": "Không có hình ảnh trong chỉ số bao phủ khu vực này.",
   "src": "libretranslate",
@@ -12328,6 +12814,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "No map selected: the first Map widget in the app is used. Select one here if the app has more than one map.": {
+  "t": "Chưa chọn bản đồ: các ô điều khiển sơ đồ đầu tiên trong ứng dụng này được dùng. Ở đây hãy chọn một nếu ứng dụng có nhiều bản đồ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "No map selected. Open the widget settings and choose a map.": {
   "t": "Chưa chọn bản đồ. Mở thiết lập ô điều khiển và chọn bản đồ.",
@@ -12407,6 +12899,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No presets yet.": {
+  "t": "Chưa có định sẵn.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No recognized settings were found in that file.": {
+  "t": "Không tìm thấy thiết lập nào trong tập tin đó.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No records found in selected layer": {
   "t": "Không tìm thấy hồ sơ trong lớp đã chọn",
   "src": "libretranslate",
@@ -12463,6 +12967,18 @@
  },
  "No selection made. Generate labels for ALL features in the layer?": {
   "t": "Không có lựa chọn nào. Tạo nhãn cho mọi tính năng trong lớp?",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No sites configured": {
+  "t": "Chưa cấu hình nơi Mạng",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No sites configured. Please configure map sites in the widget settings.": {
+  "t": "Chưa cấu hình nơi Mạng. Hãy cấu hình sơ đồ trong thiết lập ô điều khiển.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12803,6 +13319,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "On the {imageryTab} tab, pick an aerial or satellite source that covers the area on screen and click Add. It goes under your layers, like a second basemap. Each source has its own terms of use.": {
+  "t": "Trên {imageryTab} tab, chọn một nguồn trên không hoặc vệ tinh bao phủ khu vực trên màn hình và nhấn nút Thêm. Nó đi dưới lớp của bạn, như một bản đồ cơ bản thứ hai. Mỗi nguồn đều có những điều khoản riêng.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "On the {inspector} tab.": {
   "t": "Trên {inspector} Thẻ.",
   "src": "libretranslate",
@@ -12811,6 +13333,24 @@
  },
  "On the Draw tab, click a shape button: point, line, area, or text.": {
   "t": "Trên trang Draw, hãy nhắp vào cái nút hình: điểm, dòng, diện tích hoặc chữ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On the File tab, choose a file from your computer: GeoJSON, CSV with coordinates, KML, or a zipped shapefile.": {
+  "t": "Trên thẻ tập tin, hãy chọn một tập tin từ máy tính của bạn: GeoJSON, CNV với tọa độ, KML, hoặc tập tin hình đã nén zip.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "on the map. Every other layer is hidden until you exit.": {
+  "t": "trên bản đồ. Tất cả các lớp khác đều bị che giấu cho đến khi anh ra.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On the URL tab, paste a web address for the layer (an ArcGIS service, WMS, WMTS, GeoJSON, CSV or KML link) or a 32-character ArcGIS item ID, then click {addLayerSubmit}.": {
+  "t": "Trên thẻ URL, hãy dán một địa chỉ Mạng cho lớp (một dịch vụ ArcGIS, WMS, WMTS, GeoJSON, CSV hay KML) hoặc một mã số mục 32 xác định, rồi nhấn vào {addLayerSubmit}.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12877,6 +13417,12 @@
  },
  "One click asks {sources}.": {
   "t": "Name {sources}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "One layer at a time in": {
+  "t": "Từng lớp một",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13175,6 +13721,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Parcel Drafter": {
+  "t": "Trình nháp Parcel",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Parent Widget Controller": {
   "t": "Bộ điều khiển máy phụ huynh",
   "src": "libretranslate",
@@ -13366,6 +13918,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Pick one layer per group (radio buttons)": {
+  "t": "Chọn một lớp trên mỗi nhóm (cái nút vô tuyến)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Pick one of them under Source layer. That is the data the next two steps work on.": {
   "t": "Chọn một trong số chúng dưới lớp gốc. Đó là dữ liệu trong hai bước tiếp theo.",
@@ -13703,6 +14261,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Prefix to strip (regular expression, case-insensitive)": {
+  "t": "Tiền tố để dải (iểu thức chính quy, nhạy cảm trường hợp)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Preparing comparison...": {
   "t": "Đang chuẩn bị so sánh...",
   "src": "libretranslate",
@@ -13711,6 +14275,12 @@
  },
  "Preparing labels for printing...": {
   "t": "Đang chuẩn bị nhãn để in...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preset": {
+  "t": "Định sẵn",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13738,6 +14308,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Preset name": {
+  "t": "Đặt sẵn tên",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preset views (built into the app)": {
+  "t": "Xem định sẵn (được xây dựng thành ứng dụng)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Presets": {
   "t": "Định sẵn",
@@ -14135,6 +14717,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Record layer on and off clicks in usage telemetry (layer name and group path only)": {
+  "t": "Lớp ghi vào và tắt nhắp trong khả năng đo tần số (chỉ tên và đường dẫn nhóm)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Record processing limits": {
   "t": "Giới hạn xử lý thu",
   "src": "libretranslate",
@@ -14291,6 +14879,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Remove file": {
+  "t": "Bỏ tập tin",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Remove from favorites": {
   "t": "Gỡ bỏ mục ưa thích",
   "src": "libretranslate",
@@ -14357,6 +14951,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Reorder layers": {
+  "t": "Sắp xếp lại các lớp",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Replace": {
   "t": "Thay thế",
   "src": "libretranslate",
@@ -14387,8 +14987,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Replace this preset with the layers currently on in the map": {
+  "t": "Thay thế định sẵn này bằng các lớp hiện tại trên bản đồ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Report an issue": {
   "t": "Báo cáo một vấn đề",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Report layers that fail to load or draw in usage telemetry (layer path and reason only)": {
+  "t": "Báo cáo các lớp không tải hay vẽ trong khả năng đo lường (chỉ đường dẫn và lý do)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14497,6 +15109,12 @@
  },
  "Restore": {
   "t": "Phục hồi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Restoring your layers…": {
+  "t": "Phục hồi các lớp...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14759,6 +15377,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Save a view before you start clicking around. Getting back is then one click.": {
+  "t": "Lưu ô xem trước khi bạn bắt đầu nhấp chuột xung quanh. Quay lại là một cú click chuột.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Save current settings to a file": {
   "t": "Lưu thiết lập hiện thời vào tập tin",
   "src": "libretranslate",
@@ -14789,6 +15413,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Save the Options and Enhanced options to an XML file, or load them from one. The map selection is not included.": {
+  "t": "Lưu các tùy chọn và tăng cường vào tập tin XML, hoặc nạp chúng từ một. Không tính lựa chọn bản đồ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Save this field-mapping as a reusable .xml file": {
   "t": "Lưu bản in này dạng tập tin .xml có thể sử dụng lại",
   "src": "libretranslate",
@@ -14809,6 +15439,12 @@
  },
  "Saved views": {
   "t": "Lưu ô xem",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Saved views are kept in this browser on this computer. They are not on the map itself, and another computer or browser will not have them unless you export and import.": {
+  "t": "Ô xem đã lưu được giữ trong trình duyệt này trên máy tính này. Chúng không có trên bản đồ, và một máy tính hoặc trình duyệt khác sẽ không có chúng trừ khi bạn xuất khẩu và nhập khẩu.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14879,8 +15515,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Search descriptions and tags too, not only names": {
+  "t": "Tìm kiếm mô tả và thẻ cũng vậy, không chỉ tên",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Search imagery by name": {
   "t": "Tìm kiếm ảnh theo tên",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Search layers": {
+  "t": "Tìm kiếm các lớp",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15071,8 +15719,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Select a map to navigate to a different view": {
+  "t": "Chọn một bản đồ để di chuyển tới một ô xem khác",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select a Map widget": {
   "t": "Chọn một ô điều khiển sơ đồ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select a map widget in the widget settings to begin.": {
+  "t": "Chọn một ô điều khiển sơ đồ trong thiết lập ô điều khiển để khởi chạy.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15263,6 +15923,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Select map to view": {
+  "t": "Chọn bản đồ cần xem",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select Map Widget": {
   "t": "Chọn ô điều khiển",
   "src": "libretranslate",
@@ -15307,6 +15973,12 @@
  },
  "Select the Identify By Query widget": {
   "t": "Chọn kiểu dáng:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select the layers to display for users.": {
+  "t": "Chọn những lớp cần hiển thị cho người dùng.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15473,6 +16145,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Sends the basemap chosen in either basemap gallery to the next app. The destination app needs a Map Switcher connected to its map to apply it.": {
+  "t": "Gửi sơ đồ cơ bản được chọn trong cả hai khung ảnh cơ bản tới ứng dụng tiếp theo. Ứng dụng đích cần một bộ chuyển bản đồ kết nối với bản đồ để áp dụng nó.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Separate columns": {
   "t": "Cột riêng",
   "src": "libretranslate",
@@ -15517,6 +16195,12 @@
  },
  "Set Start to skip labels already used on a partial sheet. Start at 5 leaves the first four slots blank.": {
   "t": "Đặt bắt đầu bỏ qua chú thích đã được dùng trên tờ phần. Bắt đầu lúc 5 giờ, bốn khe trống đầu tiên.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Set the layers up once, choose {copyLayerLink}, and paste the link into an email so a colleague opens the same view.": {
+  "t": "Chọn {copyLayerLink}và dán liên kết vào email để đồng nghiệp mở cùng một ô xem.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15571,6 +16255,12 @@
  },
  "Settings have been applied to the widget": {
   "t": "Thiết lập đã được áp dụng cho ô điều khiển",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Settings imported. Remember to save the widget.": {
+  "t": "Thiết lập được nhập. Hãy nhớ lưu các ô điều khiển.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15661,6 +16351,12 @@
  },
  "Show a control that zooms the map to a drawing extent.": {
   "t": "Hiển thị một điều khiển phóng to bản đồ đến mức độ vẽ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show a visible-layer count badge": {
+  "t": "Hiển thị phù hiệu đếm hiển thị",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15797,6 +16493,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show layers for map data only": {
+  "t": "Chỉ hiển thị lớp cho dữ liệu sơ đồ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show legend": {
+  "t": "Truyền thuyết",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show legend for all visible layers by default": {
+  "t": "Hiển thị huyền thoại cho mọi lớp nhìn thấy theo mặc định",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show length, perimeter, and radius in additional units alongside the primary unit": {
   "t": "Hiện chiều dài, vành đai và bán kính của đơn vị bổ sung bên cạnh đơn vị chính",
   "src": "libretranslate",
@@ -15863,6 +16577,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show or hide labels": {
+  "t": "Hiện hay ẩn nhãn",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show other visible layers on both sides": {
   "t": "Hiển thị các lớp nhìn thấy khác trên cả hai mặt",
   "src": "libretranslate",
@@ -15907,6 +16627,12 @@
  },
  "Show sorting and filtering controls at the top of the My Drawings list.": {
   "t": "Hiện điều khiển sắp xếp và lọc ở đầu danh sách bản vẽ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show tables": {
+  "t": "Hiện bảng",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16001,6 +16727,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Showing only": {
+  "t": "Chỉ hiện",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Shown in the Units list on the Coordinates tab.": {
   "t": "Hiện trong danh sách các đơn vị trên trang tọa độ.",
   "src": "libretranslate",
@@ -16055,6 +16787,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Site {index}": {
+  "t": "Nơi Mạng {index}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Site name": {
+  "t": "Tên chỗ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Sites": {
+  "t": "Nơi ngồi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Size (px)": {
   "t": "Cỡ (px)",
   "src": "libretranslate",
@@ -16084,6 +16834,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Skip to main content": {
+  "t": "Bỏ qua nội dung chính",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Slow performance: Use geometry selection to limit records": {
   "t": "Hiệu suất chậm:",
@@ -16331,6 +17087,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Specify which layers will be displayed for each map": {
+  "t": "Chỉ định những lớp nào sẽ được hiển thị cho mỗi bản đồ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Split tool": {
   "t": "Công cụ tách",
   "src": "libretranslate",
@@ -16375,6 +17137,12 @@
  },
  "Start": {
   "t": "Chạy",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Start collapsed when the app loads": {
+  "t": "Name",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16507,6 +17275,12 @@
  },
  "Still stuck? Contact the GIS Division and mention the Mailing Labels name and this app.": {
   "t": "Vẫn kẹt à? Liên lạc với đơn vị GIS và đề cập đến tên nhãn hiệu thư tín và ứng dụng này.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Still stuck? Contact the GIS Division and mention the Map Layers name and this app.": {
+  "t": "Vẫn kẹt à? Liên lạc với đơn vị GIS và đề cập đến tên các lớp bản đồ và ứng dụng này.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16661,6 +17435,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Switch to...": {
+  "t": "Chuyển sang...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Switched to blend mode. Use the slider to adjust transparency.": {
   "t": "Đã chuyển sang chế độ pha trộn. Dùng con trượt để điều chỉnh độ trong suốt.",
   "src": "libretranslate",
@@ -16696,6 +17476,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Symbology and structure are kept where supported.": {
+  "t": "Khí tượng và cấu trúc được giữ ở nơi hỗ trợ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Symbology changes how the layer is drawn on the map. Choose the Layer, pick a symbol, and the map redraws.": {
   "t": "Biểu tượng thay đổi cách vẽ lớp trên bản đồ. Chọn lớp, chọn biểu tượng, và vẽ lại bản đồ.",
@@ -17009,6 +17795,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The {imageryTab} tab says the index could not be read: the network is blocking the OpenStreetMap site. Try again later or from another connection.": {
+  "t": "Hạt {imageryTab} tab nói không thể đọc chỉ mục: mạng đang chặn đường dẫn OpenStreetMap. Hãy thử lại sau hoặc từ kết nối khác.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The {results} tab lists everything you found, with a count at the top.": {
   "t": "Hạt {results} Thẻ tab liệt kê tất cả những gì bạn tìm thấy, với số đếm ở trên cùng.",
   "src": "libretranslate",
@@ -17231,6 +18023,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The filter shows no layers: check the spelling, or clear the box with the x to see everything again.": {
+  "t": "Bộ lọc hiển thị không có lớp: hãy kiểm tra chính tả, hoặc xóa hộp với x để xem lại mọi thứ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The first row has to be the column headings, one heading per column.": {
   "t": "Hàng đầu tiên phải là tiêu đề cột, một tiêu đề trên mỗi cột.",
   "src": "libretranslate",
@@ -17315,6 +18113,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The list is empty or stuck loading: reload the page. The map takes a moment to connect on slow networks.": {
+  "t": "Danh sách rỗng hoặc bị mắc kẹt: nạp lại trang. Bản đồ cần một chút thời gian để kết nối với mạng lưới chậm.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The Load step checks the work, then writes the records into the layer.": {
   "t": "Bước trọng tải kiểm tra công việc, rồi ghi lại hồ sơ vào lớp.",
   "src": "libretranslate",
@@ -17365,6 +18169,18 @@
  },
  "The map popup layers could not be queried.": {
   "t": "Không thể truy vấn các lớp bật lên bản đồ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The names under {presetViews} at the top of the menu came with the app. Pick one and the layers switch to that set. They cannot be changed or deleted.": {
+  "t": "Những cái tên dưới {presetViews} ở trên cùng của thực đơn đến với ứng dụng. Chọn một và các lớp chuyển sang bộ đó. Không thể thay đổi hoặc xoá bỏ chúng.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The new layer appears at the top of the list. Use its three-dot menu to change its symbol or remove it.": {
+  "t": "Lớp mới xuất hiện ở đầu danh sách. Dùng thực đơn 3 chấm của nó để thay đổi biểu tượng hoặc loại bỏ nó.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17873,6 +18689,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Title Case the names": {
+  "t": "Tựa Đặt tên",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Title expression (Arcade)": {
   "t": "Biểu thức tiêu đề (Arcade)",
   "src": "libretranslate",
@@ -17908,6 +18730,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "To use a view later, click the bookmark icon and pick its name. The layers switch to match.": {
+  "t": "Để sử dụng ô xem sau, hãy nhắp vào biểu tượng Đánh dấu và chọn tên nó. Các lớp chuyển sang khớp.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "To use the My Drawings panel, you must allow saving drawings in your browser's local storage.": {
   "t": "Để dùng bảng vẽ của tôi, bạn phải cho phép lưu các bản vẽ trong kho lưu trữ cục bộ của trình duyệt.",
@@ -18028,6 +18856,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Toggle layer visibility": {
+  "t": "Bật/ tắt ô xem lớp",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Toggle measurement label editing mode. When enabled, click on measurement labels in the map to select and customize them.": {
   "t": "Bật/ tắt chế độ hiệu chỉnh nhãn. Khi bật, hãy nhắp vào nhãn đo trong bản đồ để chọn và tùy chỉnh chúng.",
@@ -18305,8 +19139,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Turn on for any group whose layers should show one at a time. With \"Use tick boxes\" on, those layers get round buttons instead of boxes; with eye icons the group still allows only one.": {
+  "t": "Khởi động cho bất kỳ nhóm nào có lớp nên hiển thị từng lớp một. Với \"dùng hộp đánh dấu\", những lớp này nhận được các nút tròn thay vì hộp; với biểu tượng mắt nhóm vẫn cho phép chỉ một.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Turn on for any group whose new sub-layers should appear in the deployed app automatically — no rebuild or republish needed when you add layers to that group in the web map.": {
+  "t": "Khởi động cho bất kỳ nhóm nào có các sub-layers mới xuất hiện tự động trong ứng dụng đã triển khai — không cần xây dựng lại hay tái công bố khi bạn thêm các lớp vào nhóm đó trong bản đồ web.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Turn on No empty to drop blank records, and No duplicates to remove repeats.": {
   "t": "Bật mục rỗng để thả hồ sơ rỗng, và không có bản sao để gỡ bỏ lặp lại.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Turn on parent groups when a layer is checked on": {
+  "t": "Bật nhóm cha mẹ khi kiểm tra lớp",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18317,8 +19169,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Turn on the layers you want in the map, then click Add preset from map. Presets appear at the top of the Saved views menu for every user and cannot be changed by them. They show even when saved layer views are off.": {
+  "t": "Bật các lớp bạn muốn trong bản đồ, rồi nhấn nút Thêm vào định sẵn từ bản đồ. Định sẵn xuất hiện ở đầu trình đơn xem đã lưu cho mỗi người dùng và không thể thay đổi bởi chúng. Chúng hiển thị ngay cả khi các lớp được lưu xem tắt.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Turn on the layers you want, click the bookmark icon, choose {saveCurrentView}, type a name and click {save}.": {
+  "t": "Bật các lớp bạn muốn, nhắp vào biểu tượng Đánh dấu, chọn {saveCurrentView}, gõ tên và nhắp vào {save}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Turning layers on and off": {
   "t": "Bật/tắt lớp",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Turning layers on and off changes only your screen. The map everyone else sees is not affected.": {
+  "t": "Bật và tắt các lớp chỉ màn hình của bạn. Bản đồ mà mọi người khác thấy không bị ảnh hưởng.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18719,6 +19589,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Update from map": {
+  "t": "Cập nhật từ bản đồ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Update only (match by key)": {
   "t": "Chỉ cập nhật (tùy theo phím)",
   "src": "libretranslate",
@@ -18781,6 +19657,12 @@
  },
  "URL": {
   "t": "URL",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "URL or item ID": {
+  "t": "URL hay ID mục",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18953,6 +19835,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Use tick boxes to control layer visibility": {
+  "t": "Dùng hộp đánh dấu để điều khiển ô xem lớp",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Used between this coordinate system and WGS84. Automatic picks the best equation-based transformation for the area of the map.": {
   "t": "Dùng giữa hệ thống tọa độ này và WGS84 Tự động chọn sự biến đổi dựa trên phương trình tốt nhất cho diện tích của bản đồ.",
   "src": "libretranslate",
@@ -19069,6 +19957,12 @@
  },
  "View drawing properties": {
   "t": "Xem thuộc tính vẽ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "View layer details": {
+  "t": "Xem chi tiết lớp",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19591,6 +20485,12 @@
  },
  "You cannot select anything on the map: no map is connected to this widget. Ask whoever set up the app to add one in the settings.": {
   "t": "Không thể chọn bất cứ điều gì trên bản đồ: không có bản đồ nào được kết nối đến ô điều khiển này. Yêu cầu bất cứ ai thiết lập ứng dụng để thêm vào thiết lập.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "You changed a lot and want to start over: open the {batchOptions} menu and choose {resetVisibility}.": {
+  "t": "Bạn đã thay đổi rất nhiều và muốn bắt đầu lại: mở {batchOptions} trình đơn và chọn {resetVisibility}.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"

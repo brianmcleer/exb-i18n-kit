@@ -155,6 +155,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{addLayerError}: make sure the address is the layer itself, not a web page, and that you can open it in a new tab.": {
+  "t": "{addLayerError}: Βεβαιωθείτε ότι η διεύθυνση είναι το ίδιο το στρώμα, όχι μια ιστοσελίδα, και ότι μπορείτε να το ανοίξετε σε μια νέα καρτέλα.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{area}: click each corner of a shape, then double-click to close it. You get the area and the edge around it.": {
   "t": "{area}: κάντε κλικ σε κάθε γωνία ενός σχήματος, στη συνέχεια, κάντε διπλό κλικ για να το κλείσετε. Παίρνεις την περιοχή και την άκρη γύρω της.",
   "src": "libretranslate",
@@ -323,8 +329,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{exportMapImage} in the {batchOptions} menu gives you a picture to paste into a document or email.": {
+  "t": "{exportMapImage} στο {batchOptions} μενού σας δίνει μια εικόνα για να επικολλήσετε σε ένα έγγραφο ή το email.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{exportMapImage} saves a picture of the map as a PNG file": {
   "t": "{exportMapImage} αποθηκεύει μια εικόνα του χάρτη ως αρχείο PNG",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{exportViews} saves your views to a file. {importViews} loads them on another computer or shares them with a colleague.": {
+  "t": "{exportViews} αποθηκεύει τις απόψεις σας σε ένα αρχείο. {importViews} Τα φορτώνουν σε άλλο υπολογιστή ή τα μοιράζονται με συνάδελφο.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -719,6 +737,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{soloLayer} in a layer’s menu is the fastest way to compare one layer against the basemap.": {
+  "t": "{soloLayer} στο μενού ενός στρώματος είναι ο ταχύτερος τρόπος για να συγκρίνετε ένα στρώμα με το χάρτη βάσης.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{soloLayer}: turns every other layer off in one click so only this one is left on the map.": {
   "t": "{soloLayer}: Σβήνει κάθε άλλο στρώμα σε ένα κλικ, έτσι μόνο αυτό μένει στο χάρτη.",
   "src": "libretranslate",
@@ -965,6 +989,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "A copied link carries which layers are on, nothing more. Whoever opens it sees those layers; their own map is not changed.": {
+  "t": "Ένας αντιγραφόμενος σύνδεσμος μεταφέρει τα στρώματα που είναι επάνω, τίποτα περισσότερο. Όποιος το ανοίγει βλέπει αυτά τα στρώματα· ο δικός του χάρτης δεν αλλάζει.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A count beside the box tells you how many layers match.": {
   "t": "Μια μέτρηση δίπλα στο κουτί σας λέει πόσα στρώματα ταιριάζουν.",
   "src": "libretranslate",
@@ -1001,6 +1031,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "A layer is ticked but missing from the map: its group is off. Tick the group too.": {
+  "t": "Ένα στρώμα είναι ενεργοποιημένο αλλά λείπει από το χάρτη: η ομάδα του είναι εκτός. Τικ στην ομάδα επίσης.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A layer is unavailable: its service may be offline, it may require sign-in, or its layer type may not work in a 2D map. Check that layer in the map.": {
   "t": "Ένα στρώμα δεν είναι διαθέσιμο: η υπηρεσία του μπορεί να είναι εκτός σύνδεσης, μπορεί να απαιτεί σύνδεση, ή ο τύπος στρώματός του μπορεί να μην λειτουργεί σε ένα χάρτη 2D. Έλεγξε το στρώμα στο χάρτη.",
   "src": "libretranslate",
@@ -1013,6 +1049,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "A layer name is grey and nothing shows on the map: the layer only draws between certain zoom levels. Zoom in, or out, until the name turns dark.": {
+  "t": "Ένα όνομα στρώμα είναι γκρι και τίποτα δεν δείχνει στο χάρτη: το στρώμα αντλεί μόνο μεταξύ ορισμένων επιπέδων ζουμ. Ζουμ, ή έξω, μέχρι το όνομα να σκοτεινιάσει.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer says ({layerUnavailable}) and draws nothing: the service is down or blocked on your network. Wait a few minutes and, if the note stays, tell the GIS Division which layer.": {
+  "t": "Ένα στρώμα λέει ({layerUnavailable}) και δεν αντλεί τίποτα: η υπηρεσία είναι κάτω ή μπλοκαρισμένο στο δίκτυό σας. Περιμένετε λίγα λεπτά και, αν το σημείωμα μείνει, πείτε στο τμήμα GIS ποιο στρώμα.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer switched off by itself when you turned another on: both sit in a group that allows one layer at a time. Turn the one you want back on.": {
+  "t": "Ένα στρώμα απενεργοποιημένο από μόνο του όταν ενεργοποιήσετε ένα άλλο: και οι δύο κάθονται σε μια ομάδα που επιτρέπει ένα στρώμα κάθε φορά. Άνοιξε αυτό που θέλεις πίσω.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A layer you expected is missing from the results: that layer is turned off in the map. Turn it back on in the layer list and click again.": {
   "t": "Ένα στρώμα που περιμένατε λείπει από τα αποτελέσματα: αυτό το στρώμα απενεργοποιείται στο χάρτη. Ενεργοποιήστε το πάλι στη λίστα στρώματος και κάντε κλικ ξανά.",
   "src": "libretranslate",
@@ -1021,6 +1075,12 @@
  },
  "A line or shape will not finish: double-click on the last point.": {
   "t": "Μια γραμμή ή σχήμα δεν θα τελειώσει: κάντε διπλό κλικ στο τελευταίο σημείο.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A link you were sent shows fewer layers than expected: the link only names layers this map has. Turn on what you need and copy a fresh link.": {
+  "t": "Ένας σύνδεσμος που σας έστειλαν δείχνει λιγότερα στρώματα από ό, τι αναμενόταν: ο σύνδεσμος μόνο ονόματα στρώματα αυτός ο χάρτης έχει. Ενεργοποιήστε αυτό που χρειάζεστε και αντιγράψτε ένα νέο σύνδεσμο.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1127,6 +1187,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A web map or web scene, or any combination of the two.": {
+  "t": "Ένας διαδικτυακός χάρτης ή μια διαδικτυακή σκηνή, ή οποιονδήποτε συνδυασμό των δύο.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "a zipped Shapefile": {
   "t": "ένα φερμουάρ Shapefile",
   "src": "libretranslate",
@@ -1175,6 +1241,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Add \"Copy link to these layers\" to batch options": {
+  "t": "Προσθήκη \"Copy σύνδεση σε αυτά τα στρώματα\" σε επιλογές παρτίδα",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add \"Export layer list (CSV)\" to batch options": {
+  "t": "Προσθήκη \"Εξαγωγική λίστα στρώματος (CSV)\" σε επιλογές παρτίδων",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add & load new data": {
   "t": "Προσθήκη & φόρτωσης νέων δεδομένων",
   "src": "libretranslate",
@@ -1186,6 +1264,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Add a \"Show only this layer\" action": {
+  "t": "Προσθήκη ενός \"Εμφάνιση μόνο αυτό το στρώμα\" δράση",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Add a coordinate format": {
   "t": "Προσθήκη μιας μορφής συντεταγμένων",
@@ -1199,6 +1283,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Add a file saved on your computer. It is added to the map for this session only — it is not uploaded or saved.": {
+  "t": "Προσθέστε ένα αρχείο αποθηκευμένο στον υπολογιστή σας. Προστίθεται στο χάρτη μόνο για αυτή τη συνεδρία — δεν αναρτάται ούτε αποθηκεύεται.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add a header at the top of each page": {
   "t": "Προσθέστε μια επικεφαλίδα στην κορυφή κάθε σελίδας",
   "src": "libretranslate",
@@ -1207,6 +1297,12 @@
  },
  "Add a layer": {
   "t": "Προσθήκη στρώματος",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add a layer that already lives online by pasting its web address. Use this for a hosted service, or for a GeoJSON, CSV, or KML file that is published on the web.": {
+  "t": "Προσθέστε ένα στρώμα που ήδη ζει σε απευθείας σύνδεση επικολλώντας τη διεύθυνση web του. Χρησιμοποιήστε αυτό για μια υπηρεσία φιλοξενίας, ή για ένα αρχείο GeoJSON, CSV, ή KML που δημοσιεύεται στο διαδίκτυο.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1271,6 +1367,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Add extra layer tools (flash, copy URL, refresh, details)": {
+  "t": "Προσθέστε επιπλέον εργαλεία στρώματος (flash, αντίγραφο URL, ανανέωση, λεπτομέρειες)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add format rule": {
   "t": "Προσθήκη κανόνα μορφής",
   "src": "libretranslate",
@@ -1291,6 +1393,12 @@
  },
  "Add layer from URL": {
   "t": "Προσθήκη στρώματος από το URL",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add layer from URL (header)": {
+  "t": "Προσθήκη στρώματος από URL (επικεφαλής)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1367,6 +1475,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Add preset from map": {
+  "t": "Προσθήκη προεπιλογής από το χάρτη",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add Site": {
+  "t": "Προσθήκη τοποθεσίας",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add text annotation": {
   "t": "Προσθήκη σημείωσης κειμένου",
   "src": "libretranslate",
@@ -1426,6 +1546,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Adding your own layer": {
+  "t": "Προσθήκη του δικού σας στρώματος",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Additional area units: {join}": {
   "t": "Πρόσθετες μονάδες περιοχής: {join}",
@@ -1615,6 +1741,12 @@
  },
  "Adjust divider position: {position} percent": {
   "t": "Ρυθμίστε τη θέση του διαχωριστικού: {position} %",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Adjust layer transparency": {
+  "t": "Προσαρμογή διαφάνειας στρώματος",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1858,6 +1990,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Allow collapsing the layer list": {
+  "t": "Επίτρεψε κατάρρευση της λίστας επιπέδων",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Allow deleting features": {
   "t": "Επίτρεψε χαρακτηριστικά διαγραφής",
@@ -2273,6 +2411,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Auto-include new sub-layers": {
+  "t": "Αυτόματη συμπερίληψη νέων υποστρωμάτων",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Auto-include new sub-layers added to": {
+  "t": "Αυτόματη συμπερίληψη νέων υποστρωμάτων που προστίθενται σε",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Auto-match by name": {
   "t": "Αυτόματη αντιστοίχιση με όνομα",
   "src": "libretranslate",
@@ -2500,6 +2650,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Basemap switcher (header)": {
+  "t": "Διακόπτης χαρτών βάσης (επικεφαλής)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Basemaps could not be loaded": {
   "t": "Αδύνατη η φόρτωση των χαρτών βάσης",
@@ -3023,6 +3179,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Carry basemap to next map": {
+  "t": "Μεταφορά χάρτη βάσης στον επόμενο χάρτη",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Center · {srLabel}": {
   "t": "Κέντρο · {srLabel}",
   "src": "libretranslate",
@@ -3095,6 +3257,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Change symbols for layers generated at runtime": {
+  "t": "Αλλαγή συμβόλων για στρώματα που δημιουργούνται στο χρόνο εκτέλεσης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Change Text Options:": {
   "t": "Τροποποίηση επιλογών κειμένου:",
   "src": "libretranslate",
@@ -3133,6 +3301,12 @@
  },
  "Check label alignment with your specific printer and label sheets": {
   "t": "Ελέγξτε την ευθυγράμμιση ετικέτας με τον συγκεκριμένο εκτυπωτή και τα φύλλα ετικέτας σας",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Check layer services on a timer and mark ones that do not answer": {
+  "t": "Ελέγξτε τις υπηρεσίες στρώμα σε ένα χρονόμετρο και σημειώστε αυτές που δεν απαντούν",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3289,6 +3463,30 @@
  },
  "Choose color": {
   "t": "Επιλογή χρώματος",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose from {sitesCount} available map. Selecting a map will navigate you to that location and keep the current basemap.": {
+  "t": "Επιλογή από {sitesCount} διαθέσιμος χάρτης. Η επιλογή ενός χάρτη θα σας πλοηγήσει σε αυτή την τοποθεσία και να κρατήσει τον τρέχοντα χάρτη βάσης.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose from {sitesCount} available map. Selecting a map will navigate you to that location.": {
+  "t": "Επιλογή από {sitesCount} διαθέσιμος χάρτης. Η επιλογή ενός χάρτη θα σας οδηγήσει σε αυτή την τοποθεσία.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location and keep the current basemap.": {
+  "t": "Επιλογή από {sitesCount} διαθέσιμους χάρτες. Η επιλογή ενός χάρτη θα σας πλοηγήσει σε αυτή την τοποθεσία και να κρατήσει τον τρέχοντα χάρτη βάσης.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location.": {
+  "t": "Επιλογή από {sitesCount} διαθέσιμους χάρτες. Η επιλογή ενός χάρτη θα σας οδηγήσει σε αυτή την τοποθεσία.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3479,6 +3677,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Clean up layer names in the list (underscores to spaces)": {
+  "t": "Καθαρισμός ονομάτων στρώμα στη λίστα (υποβρύχιες θέσεις)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Clear": {
   "t": "Καθαρισμός",
   "src": "libretranslate",
@@ -3610,6 +3814,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Clearing your browser data removes saved views. Export them first if you want to keep them.": {
+  "t": "Ο καθαρισμός των δεδομένων του περιηγητή σας αφαιρεί τις αποθηκευμένες προβολές. Εξαγωγή τους πρώτα, αν θέλετε να τους κρατήσει.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Clearing your browser history and site data removes saved measurements. Export what you want to keep.": {
   "t": "Καθαρίζοντας το ιστορικό του προγράμματος περιήγησης και τα δεδομένα της ιστοσελίδας σας αφαιρεί τις αποθηκευμένες μετρήσεις. Εξαγωγή ό, τι θέλετε να κρατήσετε.",
@@ -3895,6 +4105,12 @@
  },
  "click the pin button on {inspector} and then click the map": {
   "t": "Κάντε κλικ στο κουμπί της καρφίτσας {inspector} και στη συνέχεια κάντε κλικ στο χάρτη",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click the plus icon in the top bar to open the {addLayerTitle} panel.": {
+  "t": "Κάντε κλικ στο εικονίδιο συν στην πάνω γραμμή για να ανοίξετε το {addLayerTitle} πάνελ.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4207,6 +4423,12 @@
  },
  "Color: {color}": {
   "t": "Χρώμα: {color}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Combined legend panel (header)": {
+  "t": "Πίνακας συνδυασμένων θρύλων (επικεφαλής)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4805,6 +5027,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copy link appears in the batch options menu, so turn on \"Enable layer batch options\" in Options as well.": {
+  "t": "Αντιγραφή σύνδεσμο εμφανίζεται στο μενού επιλογές παρτίδα, έτσι ώστε να ενεργοποιήσετε \"Enable επιλογές παρτίδα στρώμα\" σε Επιλογές, καθώς και.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copy link to these layers": {
   "t": "Αντιγραφή συνδέσμου σε αυτά τα στρώματα",
   "src": "libretranslate",
@@ -4855,6 +5083,18 @@
  },
  "Could not copy the link": {
   "t": "Αδυναμία αντιγραφής του δεσμού",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not export the settings.": {
+  "t": "Αδυναμία εξαγωγής των ρυθμίσεων.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not read that file. Make sure it is an XML file exported from this widget.": {
+  "t": "Αδυναμία ανάγνωσης του αρχείου. Βεβαιωθείτε ότι είναι ένα αρχείο XML που εξάγεται από αυτό το γραφικό συστατικό.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5999,6 +6239,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Drag a file from your computer, or click to browse": {
+  "t": "Σύρετε ένα αρχείο από τον υπολογιστή σας, ή κάντε κλικ για περιήγηση",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Drag a layer up or down to change which one draws on top.": {
   "t": "Σύρετε ένα στρώμα προς τα πάνω ή προς τα κάτω για να αλλάξετε ποια αντλεί από πάνω.",
   "src": "libretranslate",
@@ -6803,6 +7049,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Enable layer batch options": {
+  "t": "Ενεργοποίηση επιλογών παρτίδας στρώματος",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enable local storage to use the My Drawings feature": {
   "t": "Ενεργοποίηση τοπικής αποθήκευσης για χρήση της λειτουργίας My Drawings",
   "src": "libretranslate",
@@ -6869,6 +7121,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Enable or disable pop-up": {
+  "t": "Ενεργοποίηση ή απενεργοποίηση αναδυόμενου-up",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enable or disable the halo (outline) effect around the measurement label text for better visibility": {
   "t": "Ενεργοποίηση ή απενεργοποίηση του αποτελέσματος φωτοστέφανου (outline) γύρω από το κείμενο ετικέτας μέτρησης για καλύτερη ορατότητα",
   "src": "libretranslate",
@@ -6883,6 +7141,12 @@
  },
  "Enable print-ready label spacing for PDF export": {
   "t": "Ενεργοποίηση διαπόστασης ετικέτας για εξαγωγή PDF",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enable saved layer views": {
+  "t": "Ενεργοποίηση αποθηκευμένων προβολών στρώματος",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6967,6 +7231,12 @@
  },
  "Enhanced Measurement": {
   "t": "Ενισχυμένη μέτρηση",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enhanced options": {
+  "t": "Ενισχυμένες επιλογές",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7241,6 +7511,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Example: {sample}": {
+  "t": "Παράδειγμα: {sample}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Excel opens the CSV with accented letters intact, and a value that starts with = or + is kept as text, never run as a formula.": {
   "t": "Excel ανοίγει το CSV με τονισμένα γράμματα άθικτα, και μια τιμή που ξεκινά με = ή + διατηρείται ως κείμενο, ποτέ δεν τρέχει ως μια φόρμουλα.",
   "src": "libretranslate",
@@ -7249,6 +7525,12 @@
  },
  "Existing Drawings Found": {
   "t": "Βρέθηκαν υπάρχοντα σχέδια",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Exit focus": {
+  "t": "Εστίαση εξόδου",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7276,6 +7558,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Expand all layers by default": {
+  "t": "Ανάπτυξη όλων των στρωμάτων εξ ορισμού",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Expand drawing": {
   "t": "Επέκταση σχεδίου",
@@ -7457,6 +7745,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Export layer list appears in the batch options menu, so turn on \"Enable layer batch options\" in Options as well.": {
+  "t": "Εξαγωγή λίστα στρώμα εμφανίζεται στο μενού επιλογές παρτίδα, έτσι ώστε να ενεργοποιήσετε \"Enable επιλογές παρτίδα στρώμα\" σε Επιλογές, καθώς και.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Export map image": {
   "t": "Εξαγωγή εικόνας χάρτη",
   "src": "libretranslate",
@@ -7507,6 +7801,12 @@
  },
  "Export Settings": {
   "t": "Settings εξαγωγής",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export settings (XML)": {
+  "t": "settings εξαγωγής (XML)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7571,6 +7871,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Extra features added by this custom Map Layers widget.": {
+  "t": "Επιπλέον χαρακτηριστικά που προστίθενται από αυτό το προσαρμοσμένο γραφικό συστατικό Layers Map.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Extra large labels, 2 across × 5 down": {
   "t": "Επιπλέον μεγάλες ετικέτες, 2 απέναντι × 5 κάτω",
   "src": "libretranslate",
@@ -7585,6 +7891,12 @@
  },
  "FacilityID": {
   "t": "ΕγκατάστασηID",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fading a layer with {transparency} often shows more than turning others off.": {
+  "t": "Διαμόρφωση στρώματος με {transparency} συχνά δείχνει κάτι περισσότερο από το να κλείνεις τους άλλους.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7793,6 +8105,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "File": {
+  "t": "Αρχείο",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "File detected, drop to upload.": {
   "t": "Ανιχνεύθηκε αρχείο, πτώση για αποστολή.",
   "src": "libretranslate",
@@ -7852,6 +8170,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Filter box placeholder text": {
+  "t": "Κείμενο τοποθέτου πλαισίου φίλτρου",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Filter by layer or feature name...": {
   "t": "Φίλτρο κατά στρώμα ή χαρακτηριστικό όνομα...",
@@ -7990,6 +8314,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Flash / locate": {
+  "t": "Φλας / εντοπισμός",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Flash / locate layer": {
   "t": "Φλας / εντοπισμού στρώματος",
@@ -8275,6 +8605,12 @@
  },
  "For better performance, consider filtering your data first": {
   "t": "Για καλύτερη απόδοση, εξετάστε πρώτα το φιλτράρισμα των δεδομένων σας",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "for example: GJ_|CityOf_|sde\\.": {
+  "t": "για παράδειγμα: GJ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8569,6 +8905,12 @@
  },
  "GeoJSON": {
   "t": "ΓεωJSON",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "GeoJSON, CSV, KML, or a zipped shapefile (.zip)": {
+  "t": "GeoJSON, CSV, KML, ή ένα αρχείο σχήματος με φερμουάρ (zip)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8881,6 +9223,12 @@
  },
  "Group joins several drawings so they move together.": {
   "t": "Η ομάδα ενώνει διάφορα σχέδια για να κινηθούν μαζί.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Groups that allow one layer at a time": {
+  "t": "Ομάδες που επιτρέπουν ένα στρώμα κάθε φορά",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9263,6 +9611,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Hover a layer name to read the full title when it is cut off.": {
+  "t": "Hover ένα όνομα στρώμα για να διαβάσετε τον πλήρη τίτλο όταν είναι κομμένο.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hover a view in the list and use the trash icon to delete it.": {
+  "t": "Κάντε μια προβολή στη λίστα και χρησιμοποιήστε το εικονίδιο απορριμμάτων για να τη διαγράψετε.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "How to Use This Widget": {
   "t": "Πώς να χρησιμοποιήσετε αυτό το συστατικό",
   "src": "libretranslate",
@@ -9377,6 +9737,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Imagery nearby tab (OpenStreetMap Editor Layer Index)": {
+  "t": "Κοντινή καρτέλα εικονογράφησης (OpenStreetMap Editor Layer Index)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "import": {
   "t": "εισαγωγή",
   "src": "libretranslate",
@@ -9400,6 +9766,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Import / export settings": {
+  "t": "Εισαγωγή / εξαγωγή ρυθμίσεων",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Import / Export Settings": {
   "t": "Import εισαγωγής / εξαγωγής",
@@ -9475,6 +9847,12 @@
  },
  "Import Settings": {
   "t": "Settings εισαγωγής",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import settings (XML)": {
+  "t": "settings εισαγωγής (XML)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9598,6 +9976,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Index URL (leave blank for the osmlab.github.io copy)": {
+  "t": "URL δείκτη (αφήστε κενό για το αντίγραφο osmlab.github.io)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Individual line segment measurements disabled. Display length labels on each segment of the line.": {
   "t": "Οι μετρήσεις μεμονωμένων τμημάτων γραμμής απενεργοποιήθηκαν. Εμφάνιση ετικετών μήκους σε κάθε τμήμα της γραμμής.",
@@ -10415,8 +10799,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "layers on": {
+  "t": "στρώματα",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Layers switched on / total layers": {
   "t": "Στρώματα ενεργοποιημένα/ολικά στρώματα",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layers you add from a web address or file last until the page reloads. Reload the page and they are gone.": {
+  "t": "Στρώματα που προσθέτετε από μια διεύθυνση web ή αρχείο διαρκεί μέχρι την επαναφόρτωση της σελίδας. Ξαναγέμισε τη σελίδα και έφυγαν.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10507,6 +10903,12 @@
  },
  "Let users show measurements in additional units alongside the primary unit, for example acres with square feet.": {
   "t": "Ας δείχνουν οι χρήστες μετρήσεις σε πρόσθετες μονάδες παράλληλα με την κύρια μονάδα, για παράδειγμα στρέμματα με τετραγωνικά πόδια.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Let users star favorite layers and filter to them": {
+  "t": "Αφήστε τους χρήστες να παρουσιάσουν τα αγαπημένα τους στρώματα και να τα φιλτράρουν",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10789,6 +11191,12 @@
  },
  "Loading data...": {
   "t": "Φόρτωση δεδομένων...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Loading group layers from the map…": {
+  "t": "Φόρτωση στρωμάτων ομάδας από το χάρτη...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11243,6 +11651,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map Switcher": {
+  "t": "Διακόπτης χαρτών",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map Switcher - Select a map to navigate to": {
+  "t": "Διακόπτης χαρτών - Επιλέξτε έναν χάρτη για πλοήγηση",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map Units (linear)": {
   "t": "Μονάδες χαρτών (γραμμικές)",
   "src": "libretranslate",
@@ -11285,6 +11705,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "mapContainer": {
+  "t": "mapContainer",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Mapped": {
   "t": "Σκεπασμένο",
   "src": "libretranslate",
@@ -11305,6 +11731,12 @@
  },
  "Master opacity": {
   "t": "Κύρια αδιαφάνεια",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Master opacity slider (header)": {
+  "t": "Κύρια κύλιση αδιαφάνειας (κεφαλής)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11765,6 +12197,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Minutes between checks (1 to 120)": {
+  "t": "Πρακτικά των ελέγχων (1 έως 120)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Mobile-friendly interface": {
   "t": "Κινητή φιλική διεπαφή",
   "src": "libretranslate",
@@ -11803,6 +12241,12 @@
  },
  "More actions for {label}": {
   "t": "Περισσότερες ενέργειες {label}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Most layers vanished and a Layer focus card is showing: click Exit focus on the card to bring them back.": {
+  "t": "Τα περισσότερα στρώματα εξαφανίστηκαν και μια κάρτα εστίασης Layer δείχνει: κάντε κλικ στην εστίαση εξόδου στην κάρτα για να τα φέρετε πίσω.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11855,6 +12299,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Move site {index} down": {
+  "t": "Μετακίνηση τοποθεσίας {index} Κάτω",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Move site {index} up": {
+  "t": "Μετακίνηση τοποθεσίας {index} Πάνω",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Move to bottom": {
   "t": "Μετακίνηση στο κάτω μέρος",
   "src": "libretranslate",
@@ -11863,6 +12319,12 @@
  },
  "Move to top": {
   "t": "Μετακίνηση στην κορυφή",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Move to top / bottom": {
+  "t": "Μετακίνηση στο πάνω / κάτω",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12029,8 +12491,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Navigate to {label}": {
+  "t": "Πλοηγηθείτε σε {label}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Navigate within dropdown menus": {
   "t": "Πλοήγηση στα αναπτυσσόμενα μενού",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Navigating to selected map. Please wait.": {
+  "t": "Πλοήγηση σε επιλεγμένο χάρτη. Παρακαλώ περιμένετε.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12257,6 +12731,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No group layers were found in this map. Add a group in the web map (in Map Viewer) and refresh to use auto-include.": {
+  "t": "Δεν βρέθηκαν στρώματα ομάδας σε αυτόν τον χάρτη. Προσθέστε μια ομάδα στο web map (in Map Viewer) και ανανεώστε τη χρήση αυτόματης ενσωμάτωσης.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No group layers were found in this map. Add a group in the web map (in Map Viewer) and refresh.": {
+  "t": "Δεν βρέθηκαν στρώματα ομάδας σε αυτόν τον χάρτη. Προσθέστε μια ομάδα στο χάρτη (στο Map Viewer) και ανανεώστε.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No imagery in the index covers this area.": {
   "t": "Καμία εικόνα στο ευρετήριο δεν καλύπτει αυτή την περιοχή.",
   "src": "libretranslate",
@@ -12328,6 +12814,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "No map selected: the first Map widget in the app is used. Select one here if the app has more than one map.": {
+  "t": "Δεν επιλέχθηκε χάρτης: χρησιμοποιείται το πρώτο γραφικό συστατικό χάρτη στην εφαρμογή. Επιλέξτε ένα εδώ αν η εφαρμογή έχει περισσότερους από έναν χάρτες.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "No map selected. Open the widget settings and choose a map.": {
   "t": "Δεν επιλέχθηκε χάρτης. Ανοίξτε τις ρυθμίσεις γραφικού συστατικού και επιλέξτε ένα χάρτη.",
@@ -12407,6 +12899,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No presets yet.": {
+  "t": "Όχι προεπιλογές ακόμα.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No recognized settings were found in that file.": {
+  "t": "Δεν βρέθηκαν αναγνωρισμένες ρυθμίσεις σε αυτό το αρχείο.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No records found in selected layer": {
   "t": "Δε βρέθηκαν εγγραφές σε επιλεγμένο στρώμα",
   "src": "libretranslate",
@@ -12463,6 +12967,18 @@
  },
  "No selection made. Generate labels for ALL features in the layer?": {
   "t": "Δεν έγινε επιλογή. Δημιουργία ετικετών για όλα τα χαρακτηριστικά στο στρώμα;",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No sites configured": {
+  "t": "Δεν έχουν ρυθμιστεί περιοχές",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No sites configured. Please configure map sites in the widget settings.": {
+  "t": "Δεν έχουν ρυθμιστεί τοποθεσίες. Παρακαλώ ρυθμίστε τις τοποθεσίες χάρτη στις ρυθμίσεις widget.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12803,6 +13319,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "On the {imageryTab} tab, pick an aerial or satellite source that covers the area on screen and click Add. It goes under your layers, like a second basemap. Each source has its own terms of use.": {
+  "t": "Στο {imageryTab} καρτέλα, επιλέξτε μια εναέρια ή δορυφορική πηγή που καλύπτει την περιοχή στην οθόνη και κάντε κλικ στο Προσθήκη. Πάει κάτω από τα στρώματα σας, σαν ένα δεύτερο χάρτη βάσης. Κάθε πηγή έχει τους δικούς της όρους χρήσης.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "On the {inspector} tab.": {
   "t": "Στο {inspector} καρτέλα.",
   "src": "libretranslate",
@@ -12811,6 +13333,24 @@
  },
  "On the Draw tab, click a shape button: point, line, area, or text.": {
   "t": "Στην καρτέλα Draw, κάντε κλικ σε ένα κουμπί σχήματος: σημείο, γραμμή, περιοχή ή κείμενο.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On the File tab, choose a file from your computer: GeoJSON, CSV with coordinates, KML, or a zipped shapefile.": {
+  "t": "Στην καρτέλα File, επιλέξτε ένα αρχείο από τον υπολογιστή σας: GeoJSON, CSV με συντεταγμένες, KML, ή ένα αρχείο σχήματος με φερμουάρ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "on the map. Every other layer is hidden until you exit.": {
+  "t": "στο χάρτη. Κάθε άλλο στρώμα είναι κρυμμένο μέχρι να βγείτε.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On the URL tab, paste a web address for the layer (an ArcGIS service, WMS, WMTS, GeoJSON, CSV or KML link) or a 32-character ArcGIS item ID, then click {addLayerSubmit}.": {
+  "t": "Στην καρτέλα URL, επικολλήστε μια διεύθυνση ιστού για το στρώμα (υπηρεσία ArcGIS, WMS, WMTS, GeoJSON, CSV ή KML link) ή 32 χαρακτήρων ArcGIS item ID, στη συνέχεια κάντε κλικ {addLayerSubmit}.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12877,6 +13417,12 @@
  },
  "One click asks {sources}.": {
   "t": "Ένα κλικ ρωτάει {sources}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "One layer at a time in": {
+  "t": "Ένα στρώμα τη φορά",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13175,6 +13721,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Parcel Drafter": {
+  "t": "Συντάκτης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Parent Widget Controller": {
   "t": "Ελεγκτής γονικού συστατικού",
   "src": "libretranslate",
@@ -13366,6 +13918,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Pick one layer per group (radio buttons)": {
+  "t": "Επιλέξτε ένα στρώμα ανά ομάδα (κουμπιάradiδιο)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Pick one of them under Source layer. That is the data the next two steps work on.": {
   "t": "Διάλεξε ένα από αυτά κάτω από το στρώμα Πηγής. Αυτά είναι τα δεδομένα στα οποία εργάζονται τα επόμενα δύο βήματα.",
@@ -13703,6 +14261,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Prefix to strip (regular expression, case-insensitive)": {
+  "t": "Πρόθεμα σε ταινία (κανονική έκφραση, περίπτωση-αναίσθητη)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Preparing comparison...": {
   "t": "Προετοιμασία σύγκρισης...",
   "src": "libretranslate",
@@ -13711,6 +14275,12 @@
  },
  "Preparing labels for printing...": {
   "t": "Προετοιμασία ετικετών για εκτύπωση...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preset": {
+  "t": "Προκαθορισμένο",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13738,6 +14308,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Preset name": {
+  "t": "Προκαθορισμένο όνομα",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preset views (built into the app)": {
+  "t": "Προκαθορισμένη προβολή (ενσωματώνεται στην εφαρμογή)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Presets": {
   "t": "Προεπιλογές",
@@ -14135,6 +14717,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Record layer on and off clicks in usage telemetry (layer name and group path only)": {
+  "t": "Καταγραφή στρώμα on και off κλικ στη χρήση τηλεμετρία (όνομα στρώματος και διαδρομή ομάδα μόνο)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Record processing limits": {
   "t": "Όρια επεξεργασίας αρχείων",
   "src": "libretranslate",
@@ -14291,6 +14879,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Remove file": {
+  "t": "Αφαίρεση αρχείου",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Remove from favorites": {
   "t": "Αφαίρεση από τα αγαπημένα",
   "src": "libretranslate",
@@ -14357,6 +14951,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Reorder layers": {
+  "t": "Επαναπαραγγελία στρωμάτων",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Replace": {
   "t": "Αντικατάσταση",
   "src": "libretranslate",
@@ -14387,8 +14987,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Replace this preset with the layers currently on in the map": {
+  "t": "Αντικατάσταση αυτής της προεπιλογής με τα στρώματα που βρίσκονται στο χάρτη",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Report an issue": {
   "t": "Αναφορά θέματος",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Report layers that fail to load or draw in usage telemetry (layer path and reason only)": {
+  "t": "Αναφορά στρωμάτων που αποτυγχάνουν να φορτώσουν ή να σχεδιάσουν τη χρήση τηλεμετρίας (διαδρομή στρώματος και λογική μόνο)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14497,6 +15109,12 @@
  },
  "Restore": {
   "t": "Επαναφορά",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Restoring your layers…": {
+  "t": "Αποκατάσταση στρώματα σας...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14759,6 +15377,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Save a view before you start clicking around. Getting back is then one click.": {
+  "t": "Αποθήκευση προβολής πριν αρχίσετε να κάνετε κλικ γύρω. Η επιστροφή είναι ένα κλικ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Save current settings to a file": {
   "t": "Αποθήκευση τρεχουσών ρυθμίσεων σε ένα αρχείο",
   "src": "libretranslate",
@@ -14789,6 +15413,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Save the Options and Enhanced options to an XML file, or load them from one. The map selection is not included.": {
+  "t": "Αποθήκευση των επιλογών και βελτιωμένες επιλογές σε ένα αρχείο XML, ή φόρτωση τους από ένα. Η επιλογή χάρτη δεν περιλαμβάνεται.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Save this field-mapping as a reusable .xml file": {
   "t": "Αποθήκευση αυτής της εφαρμογής πεδίου ως επαναχρησιμοποιήσιμο αρχείο .xml",
   "src": "libretranslate",
@@ -14809,6 +15439,12 @@
  },
  "Saved views": {
   "t": "Αποθήκευση προβολών",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Saved views are kept in this browser on this computer. They are not on the map itself, and another computer or browser will not have them unless you export and import.": {
+  "t": "Οι αποθηκευμένες προβολές διατηρούνται σε αυτό το πρόγραμμα περιήγησης σε αυτόν τον υπολογιστή. Δεν βρίσκονται στον ίδιο το χάρτη, και ένας άλλος υπολογιστής ή πρόγραμμα περιήγησης δεν θα τους έχουν εκτός εάν εξαγάγετε και εισαγωγή.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14879,8 +15515,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Search descriptions and tags too, not only names": {
+  "t": "Αναζήτηση περιγραφών και ετικετών πάρα πολύ, όχι μόνο ονόματα",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Search imagery by name": {
   "t": "Αναζήτηση εικόνων με όνομα",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Search layers": {
+  "t": "Αναζήτηση στρωμάτων",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15071,8 +15719,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Select a map to navigate to a different view": {
+  "t": "Επιλέξτε ένα χάρτη για να περιηγηθείτε σε μια διαφορετική προβολή",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select a Map widget": {
   "t": "Επιλέξτε ένα γραφικό συστατικό χάρτη",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select a map widget in the widget settings to begin.": {
+  "t": "Επιλέξτε ένα γραφικό συστατικό χάρτη στις ρυθμίσεις widget για να ξεκινήσετε.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15263,6 +15923,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Select map to view": {
+  "t": "Επιλογή χάρτη για προβολή",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select Map Widget": {
   "t": "Επιλογή γραφικού συστατικού χάρτη",
   "src": "libretranslate",
@@ -15307,6 +15973,12 @@
  },
  "Select the Identify By Query widget": {
   "t": "Επιλέξτε το γραφικό συστατικό αναγνώρισης με ερώτηση",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select the layers to display for users.": {
+  "t": "Επιλέξτε τα στρώματα που θα εμφανιστούν για τους χρήστες.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15473,6 +16145,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Sends the basemap chosen in either basemap gallery to the next app. The destination app needs a Map Switcher connected to its map to apply it.": {
+  "t": "Στέλνει τον χάρτη βάσης που επιλέγεται σε οποιαδήποτε γκαλερί basemap στην επόμενη εφαρμογή. Η εφαρμογή προορισμού χρειάζεται ένα Map Switcher συνδεδεμένο στο χάρτη του για να το εφαρμόσει.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Separate columns": {
   "t": "Χωριστές στήλες",
   "src": "libretranslate",
@@ -15517,6 +16195,12 @@
  },
  "Set Start to skip labels already used on a partial sheet. Start at 5 leaves the first four slots blank.": {
   "t": "Ορισμός Έναρξη για παράλειψη ετικετών που έχουν ήδη χρησιμοποιηθεί σε ένα μερικό φύλλο. Ξεκινήστε στις 5 αφήνει τις τέσσερις πρώτες θέσεις κενές.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Set the layers up once, choose {copyLayerLink}, and paste the link into an email so a colleague opens the same view.": {
+  "t": "Ρυθμίστε τα στρώματα μία φορά, επιλέξτε {copyLayerLink}, και επικολλήστε το σύνδεσμο σε ένα email έτσι ώστε ένας συνάδελφος ανοίγει την ίδια θέα.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15571,6 +16255,12 @@
  },
  "Settings have been applied to the widget": {
   "t": "Οι ρυθμίσεις έχουν εφαρμοστεί στο γραφικό συστατικό",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Settings imported. Remember to save the widget.": {
+  "t": "Εισαγωγή ρυθμίσεων. Θυμηθείτε να αποθηκεύσετε το widget.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15661,6 +16351,12 @@
  },
  "Show a control that zooms the map to a drawing extent.": {
   "t": "Εμφάνιση ενός ελέγχου που μεγεθύνει το χάρτη σε μια έκταση σχεδίασης.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show a visible-layer count badge": {
+  "t": "Εμφάνιση ενός σήματος καταμέτρησης ορατού στρώματος",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15797,6 +16493,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show layers for map data only": {
+  "t": "Εμφάνιση μόνο στρωμάτων για δεδομένα χάρτη",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show legend": {
+  "t": "Εμφάνιση θρύλου",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show legend for all visible layers by default": {
+  "t": "Εμφάνιση θρύλου για όλα τα ορατά στρώματα από προεπιλογή",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show length, perimeter, and radius in additional units alongside the primary unit": {
   "t": "Εμφάνιση μήκους, περιμέτρου και ακτίνας σε πρόσθετες μονάδες παράλληλα με την κύρια μονάδα",
   "src": "libretranslate",
@@ -15863,6 +16577,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show or hide labels": {
+  "t": "Εμφάνιση ή απόκρυψη ετικετών",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show other visible layers on both sides": {
   "t": "Εμφάνιση άλλων ορατών στρωμάτων και στις δύο πλευρές",
   "src": "libretranslate",
@@ -15907,6 +16627,12 @@
  },
  "Show sorting and filtering controls at the top of the My Drawings list.": {
   "t": "Εμφάνιση ελέγχων διαλογής και φιλτραρίσματος στην κορυφή της λίστας των σχεδίων μου.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show tables": {
+  "t": "Εμφάνιση πινάκων",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16001,6 +16727,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Showing only": {
+  "t": "Εμφάνιση μόνο",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Shown in the Units list on the Coordinates tab.": {
   "t": "Εμφανίστηκε στη λίστα μονάδων στην καρτέλα Συντεταγμένες.",
   "src": "libretranslate",
@@ -16055,6 +16787,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Site {index}": {
+  "t": "Ιστοσελίδα {index}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Site name": {
+  "t": "Όνομα τοποθεσίας",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Sites": {
+  "t": "Τόποι",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Size (px)": {
   "t": "Μέγεθος (px)",
   "src": "libretranslate",
@@ -16084,6 +16834,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Skip to main content": {
+  "t": "Μετάβαση στο κύριο περιεχόμενο",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Slow performance: Use geometry selection to limit records": {
   "t": "Αργές επιδόσεις: Χρήση επιλογής γεωμετρίας για τον περιορισμό αρχείων",
@@ -16331,6 +17087,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Specify which layers will be displayed for each map": {
+  "t": "Καθορίστε ποια στρώματα θα εμφανίζονται για κάθε χάρτη",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Split tool": {
   "t": "Εργαλείο διαχωρισμού",
   "src": "libretranslate",
@@ -16375,6 +17137,12 @@
  },
  "Start": {
   "t": "Έναρξη",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Start collapsed when the app loads": {
+  "t": "Έναρξη κατάρρευσης όταν φορτώνει η εφαρμογή",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16507,6 +17275,12 @@
  },
  "Still stuck? Contact the GIS Division and mention the Mailing Labels name and this app.": {
   "t": "Ακόμα κολλημένος; Επικοινωνήστε με το τμήμα GIS και αναφέρετε το όνομα των Labels και αυτή την εφαρμογή.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Still stuck? Contact the GIS Division and mention the Map Layers name and this app.": {
+  "t": "Ακόμα κολλημένος; Επικοινωνήστε με τον Τομέα GIS και αναφέρετε το όνομα Map Layers και αυτή την εφαρμογή.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16661,6 +17435,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Switch to...": {
+  "t": "Αλλαγή σε...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Switched to blend mode. Use the slider to adjust transparency.": {
   "t": "Εναλλάχτηκε σε λειτουργία ανάμειξης. Χρησιμοποιήστε την κύλιση για να ρυθμίσετε τη διαφάνεια.",
   "src": "libretranslate",
@@ -16696,6 +17476,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Symbology and structure are kept where supported.": {
+  "t": "Συμβολισμός και δομή διατηρούνται όπου υποστηρίζεται.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Symbology changes how the layer is drawn on the map. Choose the Layer, pick a symbol, and the map redraws.": {
   "t": "Ο συμβολισμός αλλάζει πώς σχεδιάζεται το στρώμα στο χάρτη. Επιλέξτε το στρώμα, επιλέξτε ένα σύμβολο, και ο χάρτης ξανασχίζει.",
@@ -17009,6 +17795,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The {imageryTab} tab says the index could not be read: the network is blocking the OpenStreetMap site. Try again later or from another connection.": {
+  "t": "Η {imageryTab} Η καρτέλα λέει ότι ο δείκτης δεν μπορούσε να διαβαστεί: το δίκτυο μπλοκάρει την ιστοσελίδα OpenStreetMap. Δοκιμάστε ξανά αργότερα ή από άλλη σύνδεση.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The {results} tab lists everything you found, with a count at the top.": {
   "t": "Η {results} Η καρτέλα παραθέτει όλα όσα βρήκατε, με μια καταμέτρηση στην κορυφή.",
   "src": "libretranslate",
@@ -17231,6 +18023,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The filter shows no layers: check the spelling, or clear the box with the x to see everything again.": {
+  "t": "Το φίλτρο δεν εμφανίζει στρώματα: ελέγξτε την ορθογραφία, ή καθαρίστε το κουτί με το x για να δείτε τα πάντα ξανά.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The first row has to be the column headings, one heading per column.": {
   "t": "Η πρώτη σειρά πρέπει να είναι οι επικεφαλίδες στήλης, μία επικεφαλίδα ανά στήλη.",
   "src": "libretranslate",
@@ -17315,6 +18113,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The list is empty or stuck loading: reload the page. The map takes a moment to connect on slow networks.": {
+  "t": "Η λίστα είναι άδεια ή κολλημένη φόρτωση: επαναφόρτωση της σελίδας. Ο χάρτης παίρνει μια στιγμή για να συνδεθεί σε αργά δίκτυα.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The Load step checks the work, then writes the records into the layer.": {
   "t": "Το βήμα φόρτωσης ελέγχει την εργασία και στη συνέχεια γράφει τα αρχεία στο στρώμα.",
   "src": "libretranslate",
@@ -17365,6 +18169,18 @@
  },
  "The map popup layers could not be queried.": {
   "t": "Τα αναδυόμενα στρώματα χάρτη δεν μπορούσαν να τεθούν υπό αμφισβήτηση.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The names under {presetViews} at the top of the menu came with the app. Pick one and the layers switch to that set. They cannot be changed or deleted.": {
+  "t": "Τα ονόματα {presetViews} στην κορυφή του μενού ήρθε με την εφαρμογή. Διάλεξε ένα και τα στρώματα αλλάζουν σε αυτό το σύνολο. Δεν μπορούν να αλλάξουν ή να διαγραφούν.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The new layer appears at the top of the list. Use its three-dot menu to change its symbol or remove it.": {
+  "t": "Το νέο στρώμα εμφανίζεται στην κορυφή της λίστας. Χρησιμοποιήστε το μενού τριών κουκίδων για να αλλάξετε το σύμβολο ή να το αφαιρέσετε.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17873,6 +18689,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Title Case the names": {
+  "t": "Τίτλος Υπόθεση των ονομάτων",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Title expression (Arcade)": {
   "t": "Έκφραση τίτλου (Arcade)",
   "src": "libretranslate",
@@ -17908,6 +18730,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "To use a view later, click the bookmark icon and pick its name. The layers switch to match.": {
+  "t": "Για να χρησιμοποιήσετε μια προβολή αργότερα, κάντε κλικ στο εικονίδιο σελιδοδείκτη και επιλέξτε το όνομά του. Τα στρώματα αλλάζουν σε αντιστοιχία.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "To use the My Drawings panel, you must allow saving drawings in your browser's local storage.": {
   "t": "Για να χρησιμοποιήσετε τον πίνακα σχεδίων My, πρέπει να επιτρέψετε την αποθήκευση σχεδίων στην τοπική αποθήκευση του browser σας.",
@@ -18028,6 +18856,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Toggle layer visibility": {
+  "t": "Εναλλαγή ορατότητας στρώματος",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Toggle measurement label editing mode. When enabled, click on measurement labels in the map to select and customize them.": {
   "t": "Εναλλαγή λειτουργίας επεξεργασίας ετικέτας μέτρησης. Όταν ενεργοποιηθεί, κάντε κλικ στις ετικέτες μέτρησης στο χάρτη για να τις επιλέξετε και να τις προσαρμόσετε.",
@@ -18305,8 +19139,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Turn on for any group whose layers should show one at a time. With \"Use tick boxes\" on, those layers get round buttons instead of boxes; with eye icons the group still allows only one.": {
+  "t": "Ενεργοποιήστε για κάθε ομάδα των οποίων τα στρώματα πρέπει να δείχνουν ένα κάθε φορά. Με \"Χρησιμοποιήστε κουτάκια τικ\" on, αυτά τα στρώματα παίρνουν στρογγυλά κουμπιά αντί για κουτιά?Με τα εικονίδια μάτι η ομάδα εξακολουθεί να επιτρέπει μόνο ένα.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Turn on for any group whose new sub-layers should appear in the deployed app automatically — no rebuild or republish needed when you add layers to that group in the web map.": {
+  "t": "Ενεργοποιήστε για κάθε ομάδα των οποίων τα νέα υποστρώματα θα πρέπει να εμφανίζονται αυτόματα στην εφαρμογή που αναπτύσσεται - δεν χρειάζεται να ξαναχτίσετε ή να αναδημοσιεύσετε όταν προσθέσετε στρώματα σε αυτή την ομάδα στο χάρτη ιστού.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Turn on No empty to drop blank records, and No duplicates to remove repeats.": {
   "t": "Ενεργοποιήστε Κανένα κενό για να ρίξει κενά αρχεία, και κανένα αντίγραφο για να αφαιρέσετε τις επαναλήψεις.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Turn on parent groups when a layer is checked on": {
+  "t": "Ενεργοποιήστε τις ομάδες γονέων όταν ένα στρώμα είναι ενεργοποιημένο",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18317,8 +19169,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Turn on the layers you want in the map, then click Add preset from map. Presets appear at the top of the Saved views menu for every user and cannot be changed by them. They show even when saved layer views are off.": {
+  "t": "Ενεργοποιήστε τα στρώματα που θέλετε στο χάρτη, στη συνέχεια, κάντε κλικ Προσθήκη προεπιλογής από το χάρτη. Οι Presets εμφανίζονται στην κορυφή του μενού Saved views για κάθε χρήστη και δεν μπορούν να αλλάξουν από αυτούς. Δείχνουν ακόμη και όταν οι αποθηκευμένες απόψεις στρώμα είναι μακριά.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Turn on the layers you want, click the bookmark icon, choose {saveCurrentView}, type a name and click {save}.": {
+  "t": "Ενεργοποιήστε τα στρώματα που θέλετε, κάντε κλικ στο εικονίδιο σελιδοδείκτη, επιλέξτε {saveCurrentView}, πληκτρολογήστε ένα όνομα και κάντε κλικ {save}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Turning layers on and off": {
   "t": "Ενεργοποίηση στρωμάτων σε και εκτός",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Turning layers on and off changes only your screen. The map everyone else sees is not affected.": {
+  "t": "Ανοίγοντας στρώματα πάνω και έξω αλλάζει μόνο η οθόνη σας. Ο χάρτης που βλέπουν όλοι οι άλλοι δεν επηρεάζεται.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18719,6 +19589,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Update from map": {
+  "t": "Ενημέρωση από το χάρτη",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Update only (match by key)": {
   "t": "Ενημέρωση μόνο (αντιστοιχία με το πλήκτρο)",
   "src": "libretranslate",
@@ -18781,6 +19657,12 @@
  },
  "URL": {
   "t": "URL",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "URL or item ID": {
+  "t": "Ταυτότητα URL ή αντικειμένου",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18953,6 +19835,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Use tick boxes to control layer visibility": {
+  "t": "Χρήση κουτιών επιλογής για τον έλεγχο της ορατότητας στρώματος",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Used between this coordinate system and WGS84. Automatic picks the best equation-based transformation for the area of the map.": {
   "t": "Χρησιμοποιείται μεταξύ αυτού του συστήματος συντεταγμένων και του WGS84. Αυτόματος επιλέγει τον καλύτερο μετασχηματισμό με βάση την εξίσωση για την περιοχή του χάρτη.",
   "src": "libretranslate",
@@ -19069,6 +19957,12 @@
  },
  "View drawing properties": {
   "t": "Προβολή ιδιοτήτων σχεδίασης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "View layer details": {
+  "t": "Προβολή λεπτομερειών στρώματος",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19591,6 +20485,12 @@
  },
  "You cannot select anything on the map: no map is connected to this widget. Ask whoever set up the app to add one in the settings.": {
   "t": "Δεν μπορείτε να επιλέξετε τίποτα στο χάρτη: κανένας χάρτης δεν είναι συνδεδεμένος με αυτό το γραφικό συστατικό. Ρωτήστε όποιον έφτιαξε την εφαρμογή για να προσθέσει ένα στις ρυθμίσεις.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "You changed a lot and want to start over: open the {batchOptions} menu and choose {resetVisibility}.": {
+  "t": "Αλλάξατε πολύ και θέλετε να ξεκινήσετε από την αρχή: ανοίξτε το {batchOptions} μενού και επιλέξτε {resetVisibility}.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"

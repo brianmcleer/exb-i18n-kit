@@ -155,6 +155,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{addLayerError}: make sure the address is the layer itself, not a web page, and that you can open it in a new tab.": {
+  "t": "{addLayerError}สืบค้นเมื่อ:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{area}: click each corner of a shape, then double-click to close it. You get the area and the edge around it.": {
   "t": "{area}คลิกแต่ละมุมของรูปร่าง แล้วดับเบิลคลิก คุณจะได้พื้นที่และขอบรอบมัน",
   "src": "libretranslate",
@@ -323,8 +329,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{exportMapImage} in the {batchOptions} menu gives you a picture to paste into a document or email.": {
+  "t": "{exportMapImage} ใน {batchOptions} เมนูให้ภาพกับคุณเพื่อวางลงในเอกสารหรืออีเมล",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{exportMapImage} saves a picture of the map as a PNG file": {
   "t": "{exportMapImage} บันทึกภาพของแผนที่เป็นแฟ้ม PNG",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{exportViews} saves your views to a file. {importViews} loads them on another computer or shares them with a colleague.": {
+  "t": "{exportViews} บันทึกมุมมองของคุณไปยังแฟ้ม {importViews} ใส่ลงในคอมพิวเตอร์อื่น หรือร่วมกับเพื่อนร่วมงาน",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -719,6 +737,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{soloLayer} in a layer’s menu is the fastest way to compare one layer against the basemap.": {
+  "t": "{soloLayer} ใน เมนู ชั้น บน เป็น วิธี ที่ รวด เร็ว ที่ สุด ใน การ เทียบ ชั้น หนึ่ง กับ เบสแมพ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{soloLayer}: turns every other layer off in one click so only this one is left on the map.": {
   "t": "{soloLayer}ปิดทุกชั้นในหนึ่งคลิก เหลือเพียงชั้นเดียวบนแผนที่",
   "src": "libretranslate",
@@ -965,6 +989,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "A copied link carries which layers are on, nothing more. Whoever opens it sees those layers; their own map is not changed.": {
+  "t": "ลิ้งค์ที่เลียนแบบแล้ว ประกอบด้วยชั้นไหน ไม่มีอะไรมากกว่านั้น ใครก็ตามที่เปิดมันจะเห็นชั้นเหล่านั้น และแผนที่ของตัวเองไม่ได้เปลี่ยนแปลง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A count beside the box tells you how many layers match.": {
   "t": "การนับข้างกล่อง บอกคุณว่ากี่ชั้นตรงกัน",
   "src": "libretranslate",
@@ -1001,6 +1031,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "A layer is ticked but missing from the map: its group is off. Tick the group too.": {
+  "t": "การกาเลือกเลเยอร์ถูกกาเลือกไว้แต่หายไปจากแผนที่: ปิดการใช้งานกลุ่มภาพ เลือกกลุ่มด้วย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A layer is unavailable: its service may be offline, it may require sign-in, or its layer type may not work in a 2D map. Check that layer in the map.": {
   "t": "ไม่สามารถใช้ชั้นได้: บริการของมันอาจจะออฟไลน์, มันอาจต้องการลายเซ็นภายใน, หรือชนิดชั้นของมันอาจจะไม่ทํางานในแผนที่ 2 มิติ ตรวจสอบเลเยอร์ในแผนที่",
   "src": "libretranslate",
@@ -1013,6 +1049,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "A layer name is grey and nothing shows on the map: the layer only draws between certain zoom levels. Zoom in, or out, until the name turns dark.": {
+  "t": "ชื่อชั้นคือสีเทา และไม่มีอะไรในแผนที่: เลเยอร์จะวาดเฉพาะระดับการย่อ/ ขยายเท่านั้น ซูมเข้าหรือออกจนกว่าชื่อจะมืด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer says ({layerUnavailable}) and draws nothing: the service is down or blocked on your network. Wait a few minutes and, if the note stays, tell the GIS Division which layer.": {
+  "t": "เลเยอร์:{layerUnavailable}) และไม่ได้วาดอะไรเลย บริการล่มหรือถูกปิดกั้นบนเครือข่ายของคุณ รอสักครู่ ถ้าโน้ตยังอยู่ บอกหน่วย จีไอเอส ว่าชั้นไหน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer switched off by itself when you turned another on: both sit in a group that allows one layer at a time. Turn the one you want back on.": {
+  "t": "เลเยอร์ปิดเองเมื่อคุณเปิดอีกชั้นหนึ่ง: ทั้งคู่อยู่ในกลุ่มที่อนุญาตให้ 1 ชั้นได้ทีละชั้น เปิดอันที่คุณต้องการกลับมา",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A layer you expected is missing from the results: that layer is turned off in the map. Turn it back on in the layer list and click again.": {
   "t": "ชั้นที่คุณคาดว่าจะหายไปจากผลลัพธ์: ชั้นนั้นถูกปิดในแผนที่ กดกลับในรายการเลเยอร์แล้วคลิกอีกครั้ง",
   "src": "libretranslate",
@@ -1021,6 +1075,12 @@
  },
  "A line or shape will not finish: double-click on the last point.": {
   "t": "เส้นหรือรูปร่างจะไม่สมบูรณ์: คลิกซ้อนบนจุดสุดท้าย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A link you were sent shows fewer layers than expected: the link only names layers this map has. Turn on what you need and copy a fresh link.": {
+  "t": "ส่วนเชื่อมโยงที่คุณส่งมา แสดงน้อยกว่าที่คาดไว้ การเชื่อมโยงเฉพาะชื่อเท่านั้น เปิดสิ่งที่คุณต้องการ และคัดลอกลิงก์ใหม่",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1127,6 +1187,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A web map or web scene, or any combination of the two.": {
+  "t": "แผนที่เว็บ หรือภาพบนเว็บ หรือภาพประกอบของทั้งสองภาพ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "a zipped Shapefile": {
   "t": "แฟ้มรูปทรงแบบบีบอัด",
   "src": "libretranslate",
@@ -1175,6 +1241,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Add \"Copy link to these layers\" to batch options": {
+  "t": "เพิ่มตัวเลือก \"คัดลอกลิงก์ไปยังเลเยอร์เหล่านี้\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add \"Export layer list (CSV)\" to batch options": {
+  "t": "เพิ่มรายการเลเยอร์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add & load new data": {
   "t": "เพิ่มข้อมูลใหม่",
   "src": "libretranslate",
@@ -1186,6 +1264,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Add a \"Show only this layer\" action": {
+  "t": "เพิ่มการกระทํา \"แสดงเฉพาะเลเยอร์นี้\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Add a coordinate format": {
   "t": "เพิ่มรูปแบบพิกัด",
@@ -1199,6 +1283,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Add a file saved on your computer. It is added to the map for this session only — it is not uploaded or saved.": {
+  "t": "เพิ่มแฟ้มที่ถูกบันทึกบนคอมพิวเตอร์ของคุณ วารสาร นี้ ถูก เพิ่ม เข้า ไป ใน แผนที่ สําหรับ วาระ การ ประชุม นี้ เท่า นั้น นั่น คือ ไม่ ได้ ถูก อัปโหลด หรือ เก็บ ไว้.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add a header at the top of each page": {
   "t": "เพิ่มหัวจดหมายอยู่ด้านบนของแต่ละหน้า",
   "src": "libretranslate",
@@ -1207,6 +1297,12 @@
  },
  "Add a layer": {
   "t": "เพิ่มเลเยอร์...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add a layer that already lives online by pasting its web address. Use this for a hosted service, or for a GeoJSON, CSV, or KML file that is published on the web.": {
+  "t": "เพิ่มเลเยอร์ที่ออนไลน์อยู่แล้ว โดยการแปะที่อยู่เว็บไซต์ ใช้นี่สําหรับบริการโฮสต์ หรือสําหรับ GoJson, CSV, หรือแฟ้ม KML ที่เผยแพร่บนเว็บ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1271,6 +1367,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Add extra layer tools (flash, copy URL, refresh, details)": {
+  "t": "เพิ่มเลเยอร์...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add format rule": {
   "t": "เพิ่มกฏการฟอร์แมต",
   "src": "libretranslate",
@@ -1291,6 +1393,12 @@
  },
  "Add layer from URL": {
   "t": "เพิ่มเลเยอร์จากที่อยู่ URL",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add layer from URL (header)": {
+  "t": "เพิ่มเลเยอร์จากที่อยู่ URL (ส่วนหัว)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1367,6 +1475,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Add preset from map": {
+  "t": "เพิ่มชุดสําเร็จจากแผนที่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add Site": {
+  "t": "เพิ่มไซต์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Add text annotation": {
   "t": "เพิ่มหมายเหตุกํากับข้อความ",
   "src": "libretranslate",
@@ -1426,6 +1546,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Adding your own layer": {
+  "t": "เพิ่มเลเยอร์ของคุณเอง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Additional area units: {join}": {
   "t": "หน่วยพื้นที่เพิ่มเติม: {join}",
@@ -1615,6 +1741,12 @@
  },
  "Adjust divider position: {position} percent": {
   "t": "ปรับตําแหน่งตัวแบ่ง: {position} เปอร์เซ็นต์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Adjust layer transparency": {
+  "t": "ปรับแก้ความโปร่งแสงของเลเยอร์",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1858,6 +1990,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Allow collapsing the layer list": {
+  "t": "อนุญาตให้ยุบรายการเลเยอร์ได้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Allow deleting features": {
   "t": "อนุญาตให้ลบคุณสมบัติ",
@@ -2273,6 +2411,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Auto-include new sub-layers": {
+  "t": "ตัวสํารองอัตโนมัติ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Auto-include new sub-layers added to": {
+  "t": "ตัวสํารองใหม่ที่เพิ่มเข้ามาอัตโนมัติ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Auto-match by name": {
   "t": "จับคู่อัตโนมัติโดยใช้ชื่อ",
   "src": "libretranslate",
@@ -2500,6 +2650,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Basemap switcher (header)": {
+  "t": "ตัวสลับฐานแมป (หัว)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Basemaps could not be loaded": {
   "t": "ไม่สามารถโหลดฐานแมปได้",
@@ -3023,6 +3179,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Carry basemap to next map": {
+  "t": "ลากฐานแมพไปยังแผนที่ถัดไป",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Center · {srLabel}": {
   "t": "ศูนย์ {srLabel}",
   "src": "libretranslate",
@@ -3095,6 +3257,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Change symbols for layers generated at runtime": {
+  "t": "เปลี่ยนสัญลักษณ์ของเลเยอร์ที่ถูกสร้างเมื่อทํางาน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Change Text Options:": {
   "t": "เปลี่ยนตัวเลือกข้อความ:",
   "src": "libretranslate",
@@ -3133,6 +3301,12 @@
  },
  "Check label alignment with your specific printer and label sheets": {
   "t": "ตรวจสอบการเรียงป้ายโดยใช้แผ่นงานและป้ายที่ระบุไว้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Check layer services on a timer and mark ones that do not answer": {
+  "t": "ตรวจสอบบริการเลเยอร์บนตัวจับเวลา และทําเครื่องหมายตัวที่ไม่สามารถตอบได้",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3289,6 +3463,30 @@
  },
  "Choose color": {
   "t": "เลือกสี",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose from {sitesCount} available map. Selecting a map will navigate you to that location and keep the current basemap.": {
+  "t": "เลือกจาก {sitesCount} มีแผนที่อยู่ การเลือกแผนที่จะนําทางคุณไปยังสถานที่นั้น และเก็บฐานแมปปัจจุบันไว้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose from {sitesCount} available map. Selecting a map will navigate you to that location.": {
+  "t": "เลือกจาก {sitesCount} มีแผนที่อยู่ การเลือกแผนที่จะนําทางคุณไปยังสถานที่นั้น",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location and keep the current basemap.": {
+  "t": "เลือกจาก {sitesCount} มีแผนที่อยู่ การเลือกแผนที่จะนําทางคุณไปยังสถานที่นั้น และเก็บฐานแมปปัจจุบันไว้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location.": {
+  "t": "เลือกจาก {sitesCount} มีแผนที่อยู่ การเลือกแผนที่จะนําทางคุณไปยังสถานที่นั้น",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3479,6 +3677,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Clean up layer names in the list (underscores to spaces)": {
+  "t": "ล้างชื่อเลเยอร์ในรายการ (ลดระดับไปยังช่องว่าง)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Clear": {
   "t": "ล้าง",
   "src": "libretranslate",
@@ -3610,6 +3814,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Clearing your browser data removes saved views. Export them first if you want to keep them.": {
+  "t": "กําลังล้างข้อมูลการลบมุมมองที่บันทึกไว้ของเบราว์เซอร์ ส่งออกพวกเขาก่อน หากคุณต้องการเก็บมันไว้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Clearing your browser history and site data removes saved measurements. Export what you want to keep.": {
   "t": "กําลังล้างประวัติและข้อมูลของเว็บไซต์ที่บันทึกไว้ ส่งออกสิ่งที่คุณต้องการเก็บ",
@@ -3895,6 +4105,12 @@
  },
  "click the pin button on {inspector} and then click the map": {
   "t": "คลิกที่ปุ่มปักหมุด {inspector} แล้วคลิกที่แผนที่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click the plus icon in the top bar to open the {addLayerTitle} panel.": {
+  "t": "คลิกไอคอนบวกในแถบด้านบนเพื่อเปิด {addLayerTitle} แผง",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4207,6 +4423,12 @@
  },
  "Color: {color}": {
   "t": "สี: {color}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Combined legend panel (header)": {
+  "t": "แผงรวมตํานาน (ส่วนหัว)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4805,6 +5027,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copy link appears in the batch options menu, so turn on \"Enable layer batch options\" in Options as well.": {
+  "t": "ตัวเลือกการคัดลอก",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copy link to these layers": {
   "t": "คัดลอกที่อยู่เชื่อมโยงไปยังเลเยอร์เหล่านี้",
   "src": "libretranslate",
@@ -4855,6 +5083,18 @@
  },
  "Could not copy the link": {
   "t": "ไม่สามารถคัดลอกลิงก์ได้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not export the settings.": {
+  "t": "ไม่สามารถส่งออกการตั้งค่าได้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not read that file. Make sure it is an XML file exported from this widget.": {
+  "t": "ไม่สามารถอ่านแฟ้มนี้ได้ ให้แน่ใจว่าเป็นแฟ้ม XML ที่ส่งออกมาจากวิดเจ็ตนี้",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5999,6 +6239,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Drag a file from your computer, or click to browse": {
+  "t": "ลากแฟ้มจากคอมพิวเตอร์ของคุณ หรือคลิกที่เว็บ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Drag a layer up or down to change which one draws on top.": {
   "t": "ลากชั้นขึ้นหรือลงเพื่อเปลี่ยนที่วาดด้านบน",
   "src": "libretranslate",
@@ -6803,6 +7049,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Enable layer batch options": {
+  "t": "ตัวเลือกเลเยอร์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enable local storage to use the My Drawings feature": {
   "t": "เปิดใช้การจัดเก็บในเครื่อง เพื่อใช้คุณสมบัติการวาดของฉัน",
   "src": "libretranslate",
@@ -6869,6 +7121,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Enable or disable pop-up": {
+  "t": "เปิดหรือปิดการใช้งานป๊อปอัพ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enable or disable the halo (outline) effect around the measurement label text for better visibility": {
   "t": "เปิดหรือปิดลูกเล่นของฮาโลม (บรรทัดที่อยู่นอก) รอบข้อความกํากับการวัดเพื่อการมองเห็นได้ดีขึ้น",
   "src": "libretranslate",
@@ -6883,6 +7141,12 @@
  },
  "Enable print-ready label spacing for PDF export": {
   "t": "เปิดใช้การแทนที่ป้ายสําหรับส่งออกเป็น PDF",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enable saved layer views": {
+  "t": "เปิดใช้การแสดงเลเยอร์ที่บันทึกไว้",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6967,6 +7231,12 @@
  },
  "Enhanced Measurement": {
   "t": "การวัดค่าเพิ่มเติม",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enhanced options": {
+  "t": "ตัวเลือกเพิ่มเติม",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7241,6 +7511,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Example: {sample}": {
+  "t": "ตัวอย่าง: {sample}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Excel opens the CSV with accented letters intact, and a value that starts with = or + is kept as text, never run as a formula.": {
   "t": "Excel เปิด CSV ด้วยอักษรตัวเน้นยังคงอยู่ และค่าที่ขึ้นต้นด้วย = + จะเก็บไว้เป็นข้อความ",
   "src": "libretranslate",
@@ -7249,6 +7525,12 @@
  },
  "Existing Drawings Found": {
   "t": "พบภาพวาดที่มี",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Exit focus": {
+  "t": "ออกจากโฟกัส",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7276,6 +7558,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Expand all layers by default": {
+  "t": "เพิ่มเลเยอร์...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Expand drawing": {
   "t": "ขยายการวาด",
@@ -7457,6 +7745,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Export layer list appears in the batch options menu, so turn on \"Enable layer batch options\" in Options as well.": {
+  "t": "รายการเลเยอร์ที่จะส่งออก จะปรากฎในเมนูตัวเลือกต่าง ๆ ของชุดภาพ หากเป็นเช่นนั้น ให้เปิดเมนู \"เลือกชุดเลเยอร์\" ในตัวเลือกด้วย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Export map image": {
   "t": "ส่งออกรูปภาพต่าง ๆ",
   "src": "libretranslate",
@@ -7507,6 +7801,12 @@
  },
  "Export Settings": {
   "t": "ตั้งค่า",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export settings (XML)": {
+  "t": "ตั้งค่าต่าง ๆ (XML)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7571,6 +7871,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Extra features added by this custom Map Layers widget.": {
+  "t": "คุณสมบัติพิเศษต่าง ๆ ที่ถูกเพิ่มโดยวิดเจ็ตต่าง ๆ ของแผนที่นี้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Extra large labels, 2 across × 5 down": {
   "t": "ลบป้าย",
   "src": "libretranslate",
@@ -7585,6 +7891,12 @@
  },
  "FacilityID": {
   "t": "ตัวแสดงสถานะ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fading a layer with {transparency} often shows more than turning others off.": {
+  "t": "สร้างเลเยอร์ใหม่ {transparency} บ่อย ครั้ง ไม่ ใช่ แค่ การ ปิด เรื่อง ของ คน อื่น.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7793,6 +8105,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "File": {
+  "t": "แฟ้ม",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "File detected, drop to upload.": {
   "t": "ตรวจสอบพบแฟ้ม และส่งเพื่ออัปโหลด",
   "src": "libretranslate",
@@ -7852,6 +8170,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Filter box placeholder text": {
+  "t": "ข้อความสําหรับแทนที่กล่องตัวกรอง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Filter by layer or feature name...": {
   "t": "กรองด้วยเลเยอร์หรือชื่อคุณสมบัติ...",
@@ -7990,6 +8314,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Flash / locate": {
+  "t": "แฟลช / ตําแหน่ง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Flash / locate layer": {
   "t": "แฟลช/ ตําแหน่งเลเยอร์",
@@ -8275,6 +8605,12 @@
  },
  "For better performance, consider filtering your data first": {
   "t": "สําหรับประสิทธิภาพที่ดีขึ้น พิจารณาการกรองข้อมูลก่อน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "for example: GJ_|CityOf_|sde\\.": {
+  "t": "ตัวอย่างเช่น: GJ CityOf sde\\.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8569,6 +8905,12 @@
  },
  "GeoJSON": {
   "t": "จี เจ สัน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "GeoJSON, CSV, KML, or a zipped shapefile (.zip)": {
+  "t": "GoJson, CSV, KML หรือแฟ้มรูปร่างแบบบีบอัด (.zip)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8881,6 +9223,12 @@
  },
  "Group joins several drawings so they move together.": {
   "t": "กลุ่มรวมภาพไว้หลายภาพเพื่อให้มันรวมกัน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Groups that allow one layer at a time": {
+  "t": "กลุ่มที่อนุญาตให้ทีละชั้น",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9263,6 +9611,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Hover a layer name to read the full title when it is cut off.": {
+  "t": "ลบชื่อชั้นเพื่ออ่านชื่อเต็มเมื่อตัดชื่อแฟ้มออก",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hover a view in the list and use the trash icon to delete it.": {
+  "t": "ลบมุมมองในรายการแล้วใช้ไอคอนถังขยะลบ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "How to Use This Widget": {
   "t": "วิธี ใช้ วิดเจ็ต นี้",
   "src": "libretranslate",
@@ -9377,6 +9737,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Imagery nearby tab (OpenStreetMap Editor Layer Index)": {
+  "t": "เพิ่มเลเยอร์...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "import": {
   "t": "นําเข้า",
   "src": "libretranslate",
@@ -9400,6 +9766,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Import / export settings": {
+  "t": "ตั้งค่า/ ส่งออก",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Import / Export Settings": {
   "t": "ตั้งค่าต่าง ๆ ของแฟ้ม / ส่งออก",
@@ -9475,6 +9847,12 @@
  },
  "Import Settings": {
   "t": "ตั้งค่าการนําเข้า",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import settings (XML)": {
+  "t": "ตั้งค่าต่าง ๆ (XML)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9598,6 +9976,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Index URL (leave blank for the osmlab.github.io copy)": {
+  "t": "ที่อยู่ URL ของดัชนี (ปล่อยว่างไว้สําหรับ osmap.jithub.io คัดลอก)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Individual line segment measurements disabled. Display length labels on each segment of the line.": {
   "t": "การ วัด เส้น แบ่ง แต่ ละ เส้น ไม่ มี การ วัด. แสดงป้ายบอกความยาวในแต่ละส่วนของบรรทัด",
@@ -10415,8 +10799,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "layers on": {
+  "t": "เลเยอร์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Layers switched on / total layers": {
   "t": "เลเยอร์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layers you add from a web address or file last until the page reloads. Reload the page and they are gone.": {
+  "t": "เลเยอร์ที่คุณเพิ่มจากที่อยู่เว็บหรือแฟ้มล่าสุดจนกว่าหน้าจะถูกโหลดใหม่ เอาหน้านั้นกลับมาใช้ใหม่ แล้วก็หายไป",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10507,6 +10903,12 @@
  },
  "Let users show measurements in additional units alongside the primary unit, for example acres with square feet.": {
   "t": "ให้ผู้ใช้แสดงการวัดในหน่วยเพิ่มเติม ข้างๆ หน่วยหลักเช่น เอเคอร์ที่มีตารางฟุต",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Let users star favorite layers and filter to them": {
+  "t": "ให้ผู้ใช้สามารถเรียกชั้นต่าง ๆ และกรองได้",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10789,6 +11191,12 @@
  },
  "Loading data...": {
   "t": "กําลังโหลดข้อมูล...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Loading group layers from the map…": {
+  "t": "กําลังโหลดเลเยอร์กลุ่มจากแผนที่...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11243,6 +11651,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map Switcher": {
+  "t": "ตัวสลับผังแผนที่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map Switcher - Select a map to navigate to": {
+  "t": "โปรแกรมสลับแผนที่ - เลือกแผนที่ที่จะใช้นําทางไปยัง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map Units (linear)": {
   "t": "หน่วยของแผนที่ (เชิงเส้น)",
   "src": "libretranslate",
@@ -11285,6 +11705,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "mapContainer": {
+  "t": "ผู้ทําแผนที่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Mapped": {
   "t": "แผนที่",
   "src": "libretranslate",
@@ -11305,6 +11731,12 @@
  },
  "Master opacity": {
   "t": "ความทึบแสง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Master opacity slider (header)": {
+  "t": "แถบเส้นทแยง",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11765,6 +12197,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Minutes between checks (1 to 120)": {
+  "t": "นาทีระหว่างการตรวจสอบ (1 ถึง 120)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Mobile-friendly interface": {
   "t": "ส่วนติดต่อผู้ใช้ที่เป็นมิตรกับโมบายล์",
   "src": "libretranslate",
@@ -11803,6 +12241,12 @@
  },
  "More actions for {label}": {
   "t": "การกระทําเพิ่มเติมสําหรับ {label}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Most layers vanished and a Layer focus card is showing: click Exit focus on the card to bring them back.": {
+  "t": "ชั้นส่วนใหญ่หายไป และการ์ดโฟกัสชั้นในจะแสดง: คลิกที่จุดโฟกัสบนการ์ดเพื่อนํามันกลับมา",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11855,6 +12299,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Move site {index} down": {
+  "t": "ย้ายไซต์ {index} ลง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Move site {index} up": {
+  "t": "ย้ายไซต์ {index} ขึ้น",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Move to bottom": {
   "t": "ย้ายลงด้านล่าง",
   "src": "libretranslate",
@@ -11863,6 +12319,12 @@
  },
  "Move to top": {
   "t": "ย้ายไปยังด้านบน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Move to top / bottom": {
+  "t": "ย้ายไปยังด้านบน/ ล่าง",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12029,8 +12491,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Navigate to {label}": {
+  "t": "นํามายัง {label}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Navigate within dropdown menus": {
   "t": "นํากลับมาใช้ในเมนูหย่อนลง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Navigating to selected map. Please wait.": {
+  "t": "บินไปยังแผนที่ที่เลือก โปรดรอ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12257,6 +12731,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No group layers were found in this map. Add a group in the web map (in Map Viewer) and refresh to use auto-include.": {
+  "t": "ไม่พบชั้นกลุ่มในแผนที่นี้ เพิ่มกลุ่มในแผนที่เว็บ (ในโปรแกรมดูแผนที่) และรีเฟรชที่จะใช้ตัวเลือกอัตโนมัติ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No group layers were found in this map. Add a group in the web map (in Map Viewer) and refresh.": {
+  "t": "ไม่พบชั้นกลุ่มในแผนที่นี้ เพิ่มกลุ่มในแผนที่เว็บ (ในโปรแกรมดูแผนที่) และรีเฟรช",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No imagery in the index covers this area.": {
   "t": "ไม่ มี ภาพ ใน ดัชนี ครอบ คลุม บริเวณ นี้.",
   "src": "libretranslate",
@@ -12328,6 +12814,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "No map selected: the first Map widget in the app is used. Select one here if the app has more than one map.": {
+  "t": "ยังไม่มีการเลือกแผนที่: วิดเจ็ตแรกของแผนที่ในโปรแกรม เลือกที่นี่ หากโปรแกรมมีแผนที่มากกว่าหนึ่งตัว",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "No map selected. Open the widget settings and choose a map.": {
   "t": "ยังไม่มีการเลือกแผนที่ เปิดการตั้งค่าวิดเจ็ตและเลือกแผนที่",
@@ -12407,6 +12899,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No presets yet.": {
+  "t": "ยังไม่ได้ชุดสําเร็จ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No recognized settings were found in that file.": {
+  "t": "ไม่พบค่าที่ระบุในแฟ้มดังกล่าว",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No records found in selected layer": {
   "t": "ไม่พบบันทึกในเลเยอร์ที่เลือกไว้",
   "src": "libretranslate",
@@ -12463,6 +12967,18 @@
  },
  "No selection made. Generate labels for ALL features in the layer?": {
   "t": "ไม่มีการเลือก สร้างป้ายสําหรับทุกคุณสมบัติในชั้น?",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No sites configured": {
+  "t": "ยังไม่มีการกําหนดเว็บไซต์ใด ๆ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No sites configured. Please configure map sites in the widget settings.": {
+  "t": "ยังไม่มีการปรับแต่งเว็บไซต์ โปรดทําการปรับแต่งไซต์แผนที่ในการตั้งค่าวิดเจ็ต",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12803,6 +13319,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "On the {imageryTab} tab, pick an aerial or satellite source that covers the area on screen and click Add. It goes under your layers, like a second basemap. Each source has its own terms of use.": {
+  "t": "บน {imageryTab} แท็บ เลือกแหล่งดาวเทียมหรือดาวเทียม ที่ครอบคลุมพื้นที่บนหน้าจอ และคลิกเพิ่ม มันไปอยู่ใต้ชั้นของคุณเช่นเบสแมพที่สอง แหล่งที่มาแต่ละแหล่งมีลักษณะของตัวเองของการใช้งาน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "On the {inspector} tab.": {
   "t": "บน {inspector} แท็บ",
   "src": "libretranslate",
@@ -12811,6 +13333,24 @@
  },
  "On the Draw tab, click a shape button: point, line, area, or text.": {
   "t": "บนแท็บการวาด ให้คลิกที่ปุ่มรูปร่าง: จุด, บรรทัด, พื้นที่, หรือข้อความ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On the File tab, choose a file from your computer: GeoJSON, CSV with coordinates, KML, or a zipped shapefile.": {
+  "t": "บนแท็บแฟ้ม ให้เลือกแฟ้มจากคอมพิวเตอร์ของคุณ: GoJson, CSV กับพิกัด, KML หรือแฟ้มรูปร่างแบบบีบอัด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "on the map. Every other layer is hidden until you exit.": {
+  "t": "ในแผนที่ ทุกๆชั้นถูกซ่อน จนกว่าคุณจะออกไป",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On the URL tab, paste a web address for the layer (an ArcGIS service, WMS, WMTS, GeoJSON, CSV or KML link) or a 32-character ArcGIS item ID, then click {addLayerSubmit}.": {
+  "t": "บนแท็บที่อยู่ URL, วางที่อยู่เว็บไซต์สําหรับชั้น (บริการ A archGIS, WMS, WMTS, Geojson, CSV หรือ KML) หรือหมายเลขรายการ Aknkacter ArGIS จากนั้นคลิก {addLayerSubmit}.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12877,6 +13417,12 @@
  },
  "One click asks {sources}.": {
   "t": "คลิกหนึ่งครั้งถาม {sources}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "One layer at a time in": {
+  "t": "เลเยอร์ถัดไป",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13175,6 +13721,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Parcel Drafter": {
+  "t": "ตัวร่างแบบ Parcel",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Parent Widget Controller": {
   "t": "ตัวควบคุมวิดเจ็ตของผู้ปกครอง",
   "src": "libretranslate",
@@ -13366,6 +13918,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Pick one layer per group (radio buttons)": {
+  "t": "เลือกหนึ่งชั้นต่อกลุ่ม (ปุ่มสะท้อนแสง)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Pick one of them under Source layer. That is the data the next two steps work on.": {
   "t": "เลือกอันนึงใต้ชั้นแหล่ง นั่นคือข้อมูลในอีกสองขั้นต่อไป",
@@ -13703,6 +14261,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Prefix to strip (regular expression, case-insensitive)": {
+  "t": "นําหน้าก่อนทําการดึงข้อมูล (แสดงเงื่อนไข, แยกแยะตัวพิมพ์เล็ก- ใหญ่)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Preparing comparison...": {
   "t": "เตรียมการเปรียบเทียบ...",
   "src": "libretranslate",
@@ -13711,6 +14275,12 @@
  },
  "Preparing labels for printing...": {
   "t": "กําลังเตรียมป้ายสําหรับการพิมพ์...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preset": {
+  "t": "ชุดสําเร็จ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13738,6 +14308,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Preset name": {
+  "t": "ชื่อชุดสําเร็จ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preset views (built into the app)": {
+  "t": "มุมมองแบบชุด (สร้างเป็นโปรแกรม)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Presets": {
   "t": "ชุดสําเร็จ",
@@ -14135,6 +14717,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Record layer on and off clicks in usage telemetry (layer name and group path only)": {
+  "t": "เลเยอร์ถัดไป",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Record processing limits": {
   "t": "จํากัดการประมวลผลการบันทึก",
   "src": "libretranslate",
@@ -14291,6 +14879,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Remove file": {
+  "t": "ลบแฟ้ม",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Remove from favorites": {
   "t": "เอาออกจากรายการโปรด",
   "src": "libretranslate",
@@ -14357,6 +14951,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Reorder layers": {
+  "t": "สร้างเลเยอร์ใหม่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Replace": {
   "t": "แทนที่",
   "src": "libretranslate",
@@ -14387,8 +14987,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Replace this preset with the layers currently on in the map": {
+  "t": "แทนที่ชุดสําเร็จนี้ ด้วยเลเยอร์ที่อยู่บนแผนที่ปัจจุบัน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Report an issue": {
   "t": "รายงาน ฉบับ หนึ่ง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Report layers that fail to load or draw in usage telemetry (layer path and reason only)": {
+  "t": "ชั้นรายงานที่ล้มเหลวในการโหลดหรือวาดในการใช้งาน Telemery (เส้นทางสําหรับค้นหาและเหตุผลเท่านั้น)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14497,6 +15109,12 @@
  },
  "Restore": {
   "t": "เรียกคืน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Restoring your layers…": {
+  "t": "เพิ่มชั้นของคุณ...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14759,6 +15377,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Save a view before you start clicking around. Getting back is then one click.": {
+  "t": "บันทึกมุมมองก่อนที่จะเริ่มคลิกรอบ ๆ กลับมาคือหนึ่งคลิก",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Save current settings to a file": {
   "t": "บันทึกการตั้งค่าปัจจุบันเป็นแฟ้ม",
   "src": "libretranslate",
@@ -14789,6 +15413,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Save the Options and Enhanced options to an XML file, or load them from one. The map selection is not included.": {
+  "t": "บันทึกตัวเลือกและเพิ่มตัวเลือกไปยังแฟ้ม XML หรือโหลดมาจากแฟ้มเดียว การคัดเลือกแผนที่ไม่ได้รวมไปด้วย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Save this field-mapping as a reusable .xml file": {
   "t": "บันทึกช่องข้อมูลนี้เป็นแฟ้ม .xml ที่ใช้งานได้",
   "src": "libretranslate",
@@ -14809,6 +15439,12 @@
  },
  "Saved views": {
   "t": "บันทึกมุมมอง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Saved views are kept in this browser on this computer. They are not on the map itself, and another computer or browser will not have them unless you export and import.": {
+  "t": "มุมมองที่ถูกบันทึกจะถูกเก็บไว้ในเบราว์เซอร์นี้บนคอมพิวเตอร์นี้ มันไม่ได้อยู่บนแผนที่ของมันเอง และคอมพิวเตอร์หรือเบราว์เซอร์ตัวอื่น ๆ จะไม่มีมัน จนกว่าคุณจะส่งออกและนําเข้า",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14879,8 +15515,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Search descriptions and tags too, not only names": {
+  "t": "ค้นหารายละเอียดและป้ายกํากับด้วย ไม่เฉพาะชื่อ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Search imagery by name": {
   "t": "ค้นหาภาพตามชื่อ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Search layers": {
+  "t": "ค้นหาในเลเยอร์",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15071,8 +15719,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Select a map to navigate to a different view": {
+  "t": "เลือกแผนที่ที่จะนําทางไปยังมุมมองอื่น",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select a Map widget": {
   "t": "เลือกวิดเจ็ตของแผนที่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select a map widget in the widget settings to begin.": {
+  "t": "เลือกวิดเจ็ตของแผนที่ในการตั้งค่าวิดเจ็ตที่จะเริ่ม",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15263,6 +15923,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Select map to view": {
+  "t": "เลือกแผนที่ที่จะแสดง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select Map Widget": {
   "t": "เลือกวิดเจ็ตของแผนที่",
   "src": "libretranslate",
@@ -15307,6 +15973,12 @@
  },
  "Select the Identify By Query widget": {
   "t": "เลือกแบบอักษรที่จะใช้ค้นหาวิดเจ็ต",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select the layers to display for users.": {
+  "t": "เลือกเลเยอร์เพื่อแสดงสําหรับผู้ใช้",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15473,6 +16145,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Sends the basemap chosen in either basemap gallery to the next app. The destination app needs a Map Switcher connected to its map to apply it.": {
+  "t": "ส่งบาแมปที่ถูกเลือกในคลังภาพฐานแมปไปยังโปรแกรมถัดไป App ปลายทางต้องการตัวสลับแผนที่ที่เชื่อมต่อกับแผนที่ของมันเพื่อนําไปใช้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Separate columns": {
   "t": "แยกคอลัมน์",
   "src": "libretranslate",
@@ -15517,6 +16195,12 @@
  },
  "Set Start to skip labels already used on a partial sheet. Start at 5 leaves the first four slots blank.": {
   "t": "ตั้งค่าเริ่มการข้ามป้ายที่ถูกใช้แล้วบนแผ่นงานบางส่วน เริ่มที่ 5 เหลือช่องว่าง 4 ช่องแรก",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Set the layers up once, choose {copyLayerLink}, and paste the link into an email so a colleague opens the same view.": {
+  "t": "ตั้งค่าเลเยอร์ใหม่ {copyLayerLink}และวางลิงก์ลงในอีเมล เพื่อให้เพื่อนร่วมงานเปิดมุมมองเดียวกัน",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15571,6 +16255,12 @@
  },
  "Settings have been applied to the widget": {
   "t": "การตั้งค่าได้ถูกปรับใช้กับวิดเจ็ตแล้ว",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Settings imported. Remember to save the widget.": {
+  "t": "ตั้งค่าที่นําเข้ามา อย่าลืมบันทึกวิดเจ็ต",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15661,6 +16351,12 @@
  },
  "Show a control that zooms the map to a drawing extent.": {
   "t": "แสดงการควบคุมที่ย่อขยายแผนที่เป็นขอบเขตการวาด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show a visible-layer count badge": {
+  "t": "แสดงสัญลักษณ์นับที่มองเห็นได้",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15797,6 +16493,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show layers for map data only": {
+  "t": "แสดงเลเยอร์ของข้อมูลแผนที่เท่านั้น",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show legend": {
+  "t": "แสดงตํานาน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show legend for all visible layers by default": {
+  "t": "แสดงตํานานของเลเยอร์ที่มองเห็นได้โดยปริยาย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show length, perimeter, and radius in additional units alongside the primary unit": {
   "t": "แสดงความยาว, ความยาวรอบรูป, และรัศมีในหน่วยเพิ่มเติม เคียงข้างหน่วยหลัก",
   "src": "libretranslate",
@@ -15863,6 +16577,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show or hide labels": {
+  "t": "แสดงหรือซ่อนป้าย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show other visible layers on both sides": {
   "t": "แสดงเลเยอร์ที่มองเห็นได้ทั้งสองข้าง",
   "src": "libretranslate",
@@ -15907,6 +16627,12 @@
  },
  "Show sorting and filtering controls at the top of the My Drawings list.": {
   "t": "แสดงการเรียงลําดับและการกรองตัวควบคุมอยู่ด้านบนสุดของรายการวาดภาพของฉัน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show tables": {
+  "t": "แสดงตาราง",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16001,6 +16727,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Showing only": {
+  "t": "การแสดงเท่านั้น",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Shown in the Units list on the Coordinates tab.": {
   "t": "แสดงในรายการของหน่วยในแท็บพิกัด",
   "src": "libretranslate",
@@ -16055,6 +16787,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Site {index}": {
+  "t": "Site {index}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Site name": {
+  "t": "ชื่อไซต์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Sites": {
+  "t": "ที่นั่ง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Size (px)": {
   "t": "ขนาด (px)",
   "src": "libretranslate",
@@ -16084,6 +16834,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Skip to main content": {
+  "t": "ข้ามไปยังเนื้อหาหลัก",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Slow performance: Use geometry selection to limit records": {
   "t": "ประสิทธิภาพต่ํา: ใช้การเลือกเรขาคณิตเพื่อจํากัดการบันทึก",
@@ -16331,6 +17087,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Specify which layers will be displayed for each map": {
+  "t": "แสดงเลเยอร์ของแต่ละแผนที่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Split tool": {
   "t": "แยกเครื่องมือ",
   "src": "libretranslate",
@@ -16375,6 +17137,12 @@
  },
  "Start": {
   "t": "เริ่ม",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Start collapsed when the app loads": {
+  "t": "เริ่มยุบเมื่อโหลดแอพ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16507,6 +17275,12 @@
  },
  "Still stuck? Contact the GIS Division and mention the Mailing Labels name and this app.": {
   "t": "ยังติดอยู่อีกเหรอ? ติดต่อหน่วย GPS และพูดถึงชื่อ Mailing app นี้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Still stuck? Contact the GIS Division and mention the Map Layers name and this app.": {
+  "t": "ยังติดอยู่อีกเหรอ? ติดต่อแผนก GIS และพูดถึงชื่อบนแผนที่และแอพนี้",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16661,6 +17435,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Switch to...": {
+  "t": "สลับไปยัง...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Switched to blend mode. Use the slider to adjust transparency.": {
   "t": "สลับเป็นโหมดการผสม ใช้แถบเลื่อนเพื่อปรับค่าความโปร่งแสง",
   "src": "libretranslate",
@@ -16696,6 +17476,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Symbology and structure are kept where supported.": {
+  "t": "ความ หมาย ของ สัญลักษณ์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Symbology changes how the layer is drawn on the map. Choose the Layer, pick a symbol, and the map redraws.": {
   "t": "สัญลักษณ์เปลี่ยนวิธีการวาดชั้นในแผนที่ เลือกเลเยอร์, เลือกสัญลักษณ์, และวาดแผนที่ใหม่",
@@ -17009,6 +17795,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The {imageryTab} tab says the index could not be read: the network is blocking the OpenStreetMap site. Try again later or from another connection.": {
+  "t": "เดอะ {imageryTab} แท็บบอกว่า ไม่สามารถอ่านดัชนีได้: เครือข่ายถูกปิดกั้นเว็บไซต์ OpenStatMap ลองอีกครั้งในภายหลังหรือจากการเชื่อมต่ออื่น",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The {results} tab lists everything you found, with a count at the top.": {
   "t": "เดอะ {results} แท็บรายการทุกอย่างที่คุณพบ โดยนับจากด้านบน",
   "src": "libretranslate",
@@ -17231,6 +18023,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The filter shows no layers: check the spelling, or clear the box with the x to see everything again.": {
+  "t": "ตัวกรองแสดงถึงไม่มีชั้น: ตรวจดูการสะกด, หรือล้างกล่องด้วย x เพื่อดูทุกอย่างอีกครั้ง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The first row has to be the column headings, one heading per column.": {
   "t": "แถวแรกต้องเป็นหัวคอลัมน์, หนึ่งหัวต่อคอลัมน์",
   "src": "libretranslate",
@@ -17315,6 +18113,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The list is empty or stuck loading: reload the page. The map takes a moment to connect on slow networks.": {
+  "t": "รายการว่างเปล่าหรือมีการโหลด: เรียกหน้าเว็บใหม่อีกครั้ง แผนที่ใช้เวลาสักครู่ในการเชื่อมต่อกับเครือข่ายที่ช้า",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The Load step checks the work, then writes the records into the layer.": {
   "t": "ขั้น ตอน ต่าง ๆ ที่ ทํา ไป จะ ตรวจ สอบ งาน นั้น แล้ว เขียน บันทึก ลง ใน ชั้น ต่าง ๆ.",
   "src": "libretranslate",
@@ -17365,6 +18169,18 @@
  },
  "The map popup layers could not be queried.": {
   "t": "ไม่สามารถค้นหาเลเยอร์บนแผนที่ได้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The names under {presetViews} at the top of the menu came with the app. Pick one and the layers switch to that set. They cannot be changed or deleted.": {
+  "t": "ชื่อที่อยู่ด้านล่าง {presetViews} ที่ด้านบนของเมนูมาพร้อมกับแอพ เลือกหนึ่งและชั้นสลับกับเซตที่ มันไม่สามารถเปลี่ยนแปลงหรือลบได้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The new layer appears at the top of the list. Use its three-dot menu to change its symbol or remove it.": {
+  "t": "เลเยอร์ถัดไปปรากฏอยู่ด้านบนสุดของรายการ ใช้เมนู 3 จุด เพื่อเปลี่ยนสัญลักษณ์ หรือลบออกไป",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17873,6 +18689,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Title Case the names": {
+  "t": "ชื่อ ชื่อ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Title expression (Arcade)": {
   "t": "นิพจน์หัวเรื่อง (Arcade)",
   "src": "libretranslate",
@@ -17908,6 +18730,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "To use a view later, click the bookmark icon and pick its name. The layers switch to match.": {
+  "t": "ใช้มุมมองในภายหลัง ให้คลิกที่ไอคอนที่คั่นหน้า แล้วเลือกชื่อ ชั้นเปลี่ยนให้ตรงกัน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "To use the My Drawings panel, you must allow saving drawings in your browser's local storage.": {
   "t": "ในการใช้แผงวาดภาพ My คุณต้องอนุญาตให้บันทึกภาพวาดในคลังภายในเบราว์เซอร์ของคุณ",
@@ -18028,6 +18856,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Toggle layer visibility": {
+  "t": "เปิด/ ปิด รูรับแสงของเลเยอร์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Toggle measurement label editing mode. When enabled, click on measurement labels in the map to select and customize them.": {
   "t": "เปิด/ ปิด การปรับค่าป้าย หากเปิดใช้ จะมีการคลิกบนป้ายวัดในแผนที่เพื่อเลือกและปรับแต่งป้าย",
@@ -18305,8 +19139,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Turn on for any group whose layers should show one at a time. With \"Use tick boxes\" on, those layers get round buttons instead of boxes; with eye icons the group still allows only one.": {
+  "t": "เปิดสําหรับกลุ่มใด ๆ ที่ชั้นควรจะแสดงหนึ่งในเวลา ด้วย \"ใช้กล่องติ๊ก\" ชั้นเหล่านี้จะได้ปุ่มกลมแทนกล่อง; ด้วยไอคอนตา กลุ่มยังคงอนุญาตให้ใช้เพียงปุ่มเดียว",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Turn on for any group whose new sub-layers should appear in the deployed app automatically — no rebuild or republish needed when you add layers to that group in the web map.": {
+  "t": "เปิดสําหรับกลุ่มใด ๆ ที่ตัวย่อยใหม่ควรจะปรากฏในโปรแกรมใช้งานโดยอัตโนมัติ — ไม่มีการสร้างหรือแทนที่ที่ต้องการ เมื่อคุณเพิ่มชั้นเข้าไปในกลุ่มในแผนที่เว็บ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Turn on No empty to drop blank records, and No duplicates to remove repeats.": {
   "t": "เปิด ไม่ให้ปล่อยรายการว่างลงถังขยะ และไม่มีรายการซ้ําที่จะลบการเกิดขึ้นอีก",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Turn on parent groups when a layer is checked on": {
+  "t": "เปิดใช้กลุ่มแม่เมื่อมีการตรวจสอบเลเยอร์",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18317,8 +19169,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Turn on the layers you want in the map, then click Add preset from map. Presets appear at the top of the Saved views menu for every user and cannot be changed by them. They show even when saved layer views are off.": {
+  "t": "เปิดบนชั้นที่คุณต้องการในแผนที่แล้วคลิก เพิ่มชุดสําเร็จจากแผนที่ การตั้งค่าปรากฏอยู่ด้านบนสุดของเมนูมุมมองที่บันทึกไว้สําหรับผู้ใช้ทุกคน และไม่สามารถเปลี่ยนแปลงได้โดยพวกมัน พวกเขาแสดงแม้เมื่อมุมมองชั้นบันทึกไว้ปิด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Turn on the layers you want, click the bookmark icon, choose {saveCurrentView}, type a name and click {save}.": {
+  "t": "เปิดบนเลเยอร์ที่คุณต้องการ ให้คลิกที่ไอคอนที่คั่นหน้า แล้วเลือก {saveCurrentView}พิมพ์ชื่อและคลิก {save}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Turning layers on and off": {
   "t": "เปลี่ยนเลเยอร์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Turning layers on and off changes only your screen. The map everyone else sees is not affected.": {
+  "t": "เปลี่ยนเฉพาะหน้าจอของคุณ แผนที่ที่ทุกคนเห็น ไม่ได้รับผลกระทบ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18719,6 +19589,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Update from map": {
+  "t": "ปรับปรุงจากแผนที่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Update only (match by key)": {
   "t": "ปรับปรุงเฉพาะ (ตรงกันกับกุญแจ)",
   "src": "libretranslate",
@@ -18781,6 +19657,12 @@
  },
  "URL": {
   "t": "ที่อยู่ URL",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "URL or item ID": {
+  "t": "ที่อยู่ URL หรือหมายเลขรายการ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18953,6 +19835,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Use tick boxes to control layer visibility": {
+  "t": "ใช้กล่องกาเลือกเพื่อใช้แสดงเลเยอร์ของตัวควบคุม",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Used between this coordinate system and WGS84. Automatic picks the best equation-based transformation for the area of the map.": {
   "t": "ใช้ระหว่างระบบพิกัดนี้กับ WGS84 อัตโนมัติเลือกการแปลงสมการที่ดีที่สุด สําหรับพื้นที่ของแผนที่",
   "src": "libretranslate",
@@ -19069,6 +19957,12 @@
  },
  "View drawing properties": {
   "t": "แสดงคุณสมบัติการวาด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "View layer details": {
+  "t": "รายละเอียดเลเยอร์",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19591,6 +20485,12 @@
  },
  "You cannot select anything on the map: no map is connected to this widget. Ask whoever set up the app to add one in the settings.": {
   "t": "คุณไม่สามารถเลือกสิ่งใด ๆ บนแผนที่ได้: ไม่มีแผนที่ที่เชื่อมต่อกับวิดเจ็ตนี้ ถามคนที่ติดตั้งโปรแกรมนี้ ให้เพิ่มลงในเซต",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "You changed a lot and want to start over: open the {batchOptions} menu and choose {resetVisibility}.": {
+  "t": "คุณเปลี่ยนไปมากและต้องการที่จะเริ่มต้นอีกครั้ง : เปิด {batchOptions} เมนูและเลือก {resetVisibility}.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
