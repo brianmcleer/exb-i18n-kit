@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.2.2 (2026-10-09)
+
+- `wire` no longer translates text returned by error, log, telemetry or report helpers
+  (`errorToText`, `logMessage`, ...): that text goes to logs and dashboards, which should stay in one
+  language. Found when the City of Grand Junction widgets' shared telemetry file got wired.
+- A file can opt out of `wire` with a `// exb-i18n-ignore-file` comment near the top (for example a
+  file synced from a master copy across several widgets).
+
 ## 1.2.1 (2026-10-09)
 
 - Bosnian, Croatian and Serbian get machine translations. LibreTranslate has no model for them, so

@@ -561,3 +561,21 @@ test('runtime and settings catalogs stay separate and backups sort by timestamp'
  restoreLatest(dir)
  assert.equal(fs.readFileSync(path.join(dir,'src/runtime/widget.tsx'),'utf8'),'newer')
 })
+
+test('wire leaves error, log and telemetry text alone (Oct 2026)', (t) => {
+  let ts
+  try { ts = require('typescript') } catch (e) { return t.skip('typescript not installed') }
+  void ts
+  const { wireWidget } = require('../lib/wire')
+  const dir = freshWidget()
+  const shared = path.join(dir, 'src/shared/beacon.ts')
+  fs.mkdirSync(path.dirname(shared), { recursive: true })
+  fs.writeFileSync(shared, "function errorToText (err: any): string {\n  if (!err) return 'unknown error'\n  return String(err)\n}\nexport function statusText (): string { return 'Saved to the map' }\n")
+  const ignored = path.join(dir, 'src/shared/synced.ts')
+  fs.writeFileSync(ignored, "// exb-i18n-ignore-file\nexport function hintText (): string { return 'Click the map' }\n")
+  wireWidget(dir, { apply: true })
+  const out = fs.readFileSync(shared, 'utf8')
+  assert.match(out, /return 'unknown error'/, 'error helper untouched')
+  assert.match(out, /return __t\("savedToTheMap"\)/, 'UI helper in the same file still wired')
+  assert.match(fs.readFileSync(ignored, 'utf8'), /return 'Click the map'/, 'exb-i18n-ignore-file honored')
+})
