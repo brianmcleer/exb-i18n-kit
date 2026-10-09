@@ -122,8 +122,9 @@ Matching forgives case, spacing, trailing `:` `...`, placeholder names and artic
 
 | Command | What it does |
 |---|---|
-| `localize <widget>` | Everything for a new widget: backup, extract, sync, report. |
-| `restore <widget>` | Undo the last `localize`. |
+| `localize <widget>` | Everything for a new widget: backup, extract, wire, sync, report. |
+| `wire <widget or folder> [--apply]` | Second pass for what `extract` cannot reach (see below). Part of `localize`; run it on its own for widgets localized before 1.1. |
+| `restore <widget>` | Undo the last `localize` or `wire`. |
 | `sync <widget or folder>` | Create or update the language files and `manifest.json`. |
 | `watch <widget or folder>` | `sync` on every save. |
 | `audit <widget or folder>` | List hardcoded English. `--strict` fails for CI. |
@@ -150,7 +151,28 @@ aria-label={`Opacity ${pct}%`}                   ->  aria-label={t('opacityPct',
 announceStatus('Buffer removed')                 ->  announceStatus(t('bufferRemoved'))
 ```
 
-It uses the translator your code already has (`this.nls`, `t` from `hooks.useTranslation`, `props.nls`). Where there is none, it lists the spot instead of guessing; [docs/WIRING.md](docs/WIRING.md) shows how to add one in a few lines. Always review the diff.
+It uses the translator your code already has (`this.nls`, `t` from `hooks.useTranslation`, `props.nls`). Then `wire` covers the rest:
+
+```tsx
+// anywhere in src/: class helpers, module-level code, child components without intl
+jsx('div', { children: 'Mailing Labels' })      ->  jsx('div', { children: __t('mailingLabels') })
+{ label: 'Point', placeholder: 'Search…' }      ->  { label: __t('point'), placeholder: __t('search') }
+getToolHint () { return 'Click to add a point' } ->  getToolHint () { return __t('clickToAddAPoint') }
+config.areaButtonText || 'Freehand Area'        ->  __tc(config.areaButtonText, 'freehandArea')
+setStatus('Searching…')                         ->  setStatus(__t('searching'))
+defaultMessages.searching                       ->  __m.searching
+const t = (id) => defaultMessages[id] ...       ->  const t = (id) => { { const __i = __tryIntl(id, values); ... }
+```
+
+`__t`, `__tc`, `__m` and `__tryIntl` come from a small generated helper next to each part's
+translations (`src/runtime/i18n-t.ts`, `src/setting/i18n-t.ts`). The entry component (`widget.tsx`,
+`setting.tsx`) hands the widget's intl to it on every render, so every module of the widget follows the
+app language, including code that runs outside React. `__tc` also translates a config value that is
+still the English default (settings panels that saved the default as text).
+
+Left alone on purpose: strings the same file compares against (`label.includes('Freehand Line')`,
+`=== 'Point'`, `case 'Area':`), constructor arguments (`new GraphicsLayer({ title })`), keys, ids,
+CSS, console and `Error` messages. Always review the diff and type check; `restore` undoes a run.
 
 ## Requirements and limits
 

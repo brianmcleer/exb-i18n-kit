@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.1.0 (2026-10-09)
+
+- New `wire` command, also run by `localize` (`--no-wire` to skip). A second pass for any custom widget
+  that catches what `extract` cannot reach: English with no translator in scope, props passed through
+  `jsx()` / `createElement` instead of JSX, UI fields of object literals (`label`, `placeholder`, ...),
+  config fallbacks (`config.x || 'Default'`, which also translates a config value still equal to the
+  English default), returns of label/hint/text helpers, status setters, direct reads of the messages
+  object (`defaultMessages.key`, always English before), and hand-written translators that never ask
+  intl. They all go through a generated helper per part (`src/<part>/i18n-t.ts`) that the entry
+  component feeds with the widget's intl. Strings the same file compares against are left alone.
+  Backed up in `i18n/backup/<time>-wire`; `restore` undoes it. Found on the City of Grand Junction
+  widgets, where 650+ strings stayed English after `localize`.
+
 ## 1.0.4 (2026-10-09)
 
 - An Esri match whose "translation" is the English itself (Esri bundles that ship English in a locale

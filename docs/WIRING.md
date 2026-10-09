@@ -1,7 +1,8 @@
 # Wiring a translator into a widget
 
-`extract` only rewrites code where a translator is already in scope. If it reports
-`no translator in scope`, add one of these and run it again.
+`extract` only rewrites code where a translator is already in scope. Since 1.1, `localize` follows it
+with `wire`, which handles those spots itself through a shared helper (`src/<part>/i18n-t.ts`). Use the
+patterns below when you prefer a hand-written translator, or for code `wire` reports as "by hand".
 
 ## Class component (widget.tsx, setting.tsx)
 

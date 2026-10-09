@@ -18,7 +18,9 @@ const HELP = `exb-i18n ${pkg.version}  Localization for ArcGIS Experience Builde
 
 Usage
   exb-i18n localize <widget>                             do it all: extract + sync + report (backs up first)
-  exb-i18n restore  <widget>                             undo the last localize/extract
+  exb-i18n restore  <widget>                             undo the last localize/extract/wire
+  exb-i18n wire   <widget-or-widgets-folder> [--apply]   second pass: English outside any translator, config
+                                                         defaults, jsx() props, direct messages reads (then sync)
   exb-i18n sync   <widget-or-widgets-folder> [options]   create/update locale files
   exb-i18n watch  <widget-or-widgets-folder> [options]   sync again whenever a default.ts changes
   exb-i18n review <widget-or-widgets-folder> [--locales es]  sync, then write i18n/review/<locale>.csv sheets
@@ -45,6 +47,7 @@ Options
   --no-cldr              skip Unicode CLDR unit names (downloaded once, cached in ~/.exb-i18n)
   --cldr-tarball <tgz>   use a local cldr-units-full .tgz (offline machines)
   --dry-run              report only, write nothing
+  --no-wire              localize: skip the wire pass
   --json                 machine-readable output (audit, status)
   --strict               audit/check exit with code 1 when anything is found
 
@@ -57,7 +60,7 @@ function parseArgs (argv) {
     if (!a.startsWith('--')) { out._.push(a); continue }
     const [k, inline] = a.slice(2).split('=')
     const flag = k.replace(/-([a-z])/g, (m, c) => c.toUpperCase())
-    if (['dryRun', 'json', 'strict', 'noShipMachine', 'noCldr', 'noMemory', 'refreshCldr', 'apply', 'help', 'version'].includes(flag)) { out[flag] = true; continue }
+    if (['dryRun', 'json', 'strict', 'noShipMachine', 'noCldr', 'noMemory', 'refreshCldr', 'apply', 'help', 'version', 'noWire'].includes(flag)) { out[flag] = true; continue }
     const v = inline !== undefined ? inline : argv[++i]
     if (flag === 'tm') out.tm.push(v)
     else out[flag] = v
@@ -252,6 +255,14 @@ async function main () {
       const skipped = result.results.flatMap(r => r.skipped)
       const added = Object.values(result.added).reduce((n, a) => n + Object.keys(a).length, 0)
       log(`    ${edits} change(s) in ${changed} file(s), ${added} new key(s)${backupDir ? `; originals saved in ${path.relative(w, backupDir)}` : ''}`)
+      if (!args.noWire) {
+        const { wireWidget } = require('../lib/wire')
+        const wr = wireWidget(w, { client: cfg.client, apply: true })
+        const files = (wr.results || []).filter(r => r.changed).length
+        const keys = Object.values(wr.added || {}).reduce((n, a) => n + Object.keys(a).length, 0)
+        if (files) log(`    wire: ${files} more file(s), ${keys} new key(s) (English outside a translator, config defaults, messages reads)`)
+        for (const r of wr.results || []) for (const p of r.report) if (/by hand/.test(p.why)) log(`    hand edit: ${r.rel}: ${p.why}`)
+      }
       log('2/3 Writing language files')
       await runSync([w], cfg, args, log)
       log('3/3 Checking what is left')
@@ -269,6 +280,14 @@ async function main () {
       const r = restoreLatest(w)
       log(`${path.basename(w)}: restored ${r.restored.length} file(s) from i18n/backup/${r.from}. Run sync to refresh the language files.`)
     }
+  } else if (cmd === 'wire') {
+    const { wireWidget, formatWire } = require('../lib/wire')
+    for (const w of targets) {
+      const r = wireWidget(w, { client: cfg.client, apply: !!args.apply })
+      log(formatWire(r, !!args.apply))
+      if (!args.apply && args.json) console.log(JSON.stringify(r.results.flatMap(x => x.report.map(p => Object.assign({ file: x.rel }, p))), null, 2))
+    }
+    log(args.apply ? 'Next: exb-i18n sync <folder>, type check, then test ?locale=es. Undo: exb-i18n restore <widget>' : 'Dry run. Add --apply to write (originals go to i18n/backup).')
   } else if (cmd === 'extract') {
     const { extractWidget, formatExtract } = require('../lib/extract')
     for (const w of targets) {
