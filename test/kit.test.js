@@ -403,3 +403,161 @@ test('wire: English outside a translator, config defaults, jsx() props, messages
   assert.doesNotMatch(fs.readFileSync(file, 'utf8'), /__t\(/)
   assert.ok(!fs.existsSync(path.join(dir, 'src/runtime/i18n-t.ts')))
 })
+
+test('UI flow follows local helper parameters, aliases and notification arguments safely', () => {
+  const ts = require('typescript')
+  const { wireWidget } = require('../lib/wire')
+  const { auditWidget } = require('../lib/audit')
+  const dir = freshWidget()
+  const file = path.join(dir, 'src/runtime/widget.tsx')
+  fs.writeFileSync(file, `import { jsx } from 'jimu-core'
+export default function Widget(props: any) {
+  const panel = (key: string, title: string, body: any) => jsx('div', {key, children: [title, body]})
+  const wrapper = (key: string, heading: string) => panel(key, heading, null)
+  const heading = 'Draw selection'
+  const alias = heading
+  const showMessage = (severity: string, message: string) => console.log(severity, message)
+  const customNotice = (code: string, text: string) => console.log(code, text)
+  showMessage('success', 'Features selected')
+  customNotice('Saved ID', 'Selection saved')
+  console.log('Debug output')
+  return wrapper('Panel ID', alias)
+}
+`)
+  const opts = {sinkArgs: {customNotice: [1]}}
+  const before = auditWidget(dir, opts)
+  for (const text of ['Draw selection', 'Features selected', 'Selection saved']) assert.ok(before.findings.some(f => f.text === text), text)
+  for (const text of ['Panel ID', 'Saved ID', 'Debug output']) assert.ok(!before.findings.some(f => f.text === text), text)
+  wireWidget(dir, {...opts, apply: true})
+  const out = fs.readFileSync(file, 'utf8')
+  assert.match(out, /const heading = __t\("drawSelection"\)/)
+  assert.match(out, /showMessage\('success', __t\("featuresSelected"\)\)/)
+  assert.match(out, /customNotice\('Saved ID', __t\("selectionSaved"\)\)/)
+  assert.match(out, /wrapper\('Panel ID', alias\)/)
+  assert.strictEqual(auditWidget(dir, opts).findings.length, 0)
+  assert.strictEqual(auditWidget(dir, opts).missing.length, 0)
+  assert.strictEqual(wireWidget(dir, {...opts, apply: true}).results.filter(r => r.changed).length, 0)
+  assert.strictEqual(ts.transpileModule(out, {fileName: file, reportDiagnostics: true}).diagnostics.length, 0)
+})
+
+test('UI metadata in array callbacks and complete concatenated sentences', () => {
+  const {wireWidget} = require('../lib/wire')
+  const {auditWidget} = require('../lib/audit')
+  const dir=freshWidget(), file=path.join(dir,'src/runtime/widget.tsx')
+  fs.writeFileSync(file, `import {jsx} from 'jimu-core'
+export default function Widget(props: any) {
+  const options = [{value: 'sheet-id', detail: 'Full sheet label'}]
+  const current = options.find(o => o.value === props.value)?.detail
+  const setError = (value: string) => console.log(value)
+  setError('Importing "' + props.filename + '" replaces the current settings. Continue?')
+  return jsx('div', {title: current, children: options.map(o => jsx('span', {children: o.detail}))})
+}
+`)
+  assert.ok(auditWidget(dir).findings.some(f=>f.text==='Full sheet label'))
+  wireWidget(dir,{apply:true})
+  const out=fs.readFileSync(file,'utf8')
+  assert.match(out,/detail: __t\("fullSheetLabel"\)/)
+  assert.match(out,/setError\(__t\([^\n]+value1: props.filename/)
+  assert.match(out,/value: 'sheet-id'/)
+  assert.strictEqual(auditWidget(dir).findings.length,0)
+  assert.strictEqual(wireWidget(dir,{apply:true}).results.filter(r=>r.changed).length,0)
+})
+
+test('module UI metadata uses getters and follows locale changes after import', () => {
+  const vm = require('vm'), ts = require('typescript')
+  const {wireWidget,helperSource}=require('../lib/wire')
+  const {auditWidget}=require('../lib/audit')
+  const dir=freshWidget(), file=path.join(dir,'src/runtime/metadata.ts')
+  fs.writeFileSync(file,"export const formats = [{value: 'format-id', description: 'Full sheet label'}]\n")
+  wireWidget(dir,{apply:true})
+  const source=fs.readFileSync(file,'utf8')
+  assert.match(source,/get description \(\) \{ return __t\("fullSheetLabel"\) \}/)
+  const helperContext={exports:{},require:()=>({default:{fullSheetLabel:'Full sheet label'}})}
+  vm.runInNewContext(ts.transpileModule(helperSource('./translations/default'),{compilerOptions:{module:ts.ModuleKind.CommonJS}}).outputText,helperContext)
+  const ctx={exports:{},require:()=>helperContext.exports}
+  vm.runInNewContext(ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.CommonJS}}).outputText,ctx)
+  assert.equal(ctx.exports.formats[0].description,'Full sheet label')
+  helperContext.exports.__setIntl({formatMessage:()=> 'Étiquette pleine page'})
+  assert.equal(ctx.exports.formats[0].description,'Étiquette pleine page')
+  helperContext.exports.__setIntl({formatMessage:()=> 'Etiqueta de página completa'})
+  assert.equal(ctx.exports.formats[0].description,'Etiqueta de página completa')
+  assert.equal(auditWidget(dir).findings.length,0)
+  assert.equal(wireWidget(dir,{apply:true}).results.filter(r=>r.changed).length,0)
+})
+
+test('destructured metadata bindings preserve IDs and translate displayed details', () => {
+  const {wireWidget}=require('../lib/wire'), {auditWidget}=require('../lib/audit')
+  const dir=freshWidget(),file=path.join(dir,'src/runtime/widget.tsx')
+  fs.writeFileSync(file,`import {jsx} from 'jimu-core'
+export default function Widget(props: any) {
+ const options=[{id: 'Option ID', detail: 'Return address labels'}]
+ return jsx('div', {children: options.map(({id, detail: caption}) => jsx('span', {key:id, children:caption}))})
+}`)
+  assert.ok(auditWidget(dir).findings.some(f=>f.text==='Return address labels'))
+  wireWidget(dir,{apply:true})
+  assert.match(fs.readFileSync(file,'utf8'),/detail: __t\("returnAddressLabels"\)/)
+  assert.match(fs.readFileSync(file,'utf8'),/id: 'Option ID'/)
+  assert.equal(auditWidget(dir).findings.length,0)
+})
+
+test('fixed English number/date locales are flagged and can opt into app locale', () => {
+ const {wireWidget}=require('../lib/wire'),{auditWidget}=require('../lib/audit')
+ const dir=freshWidget(),file=path.join(dir,'src/runtime/widget.tsx')
+ fs.writeFileSync(file,`import {jsx} from 'jimu-core'
+export default function Widget(props: any) {
+ const amount=props.amount.toLocaleString('en-US', {style:'currency', currency:'USD'})
+ const date=new Date(props.date).toLocaleDateString('en-US', {month:'long'})
+ return jsx('div', {children:[date,amount]})
+}`)
+ assert.equal(auditWidget(dir).findings.filter(f=>f.kind==='locale').length,2)
+ wireWidget(dir,{apply:true})
+ assert.match(fs.readFileSync(file,'utf8'),/'en-US'/,'fixed format remains unless opted in')
+ wireWidget(dir,{apply:true,localizeFormats:true})
+ const out=fs.readFileSync(file,'utf8')
+ assert.doesNotMatch(out,/'en-US'/)
+ assert.match(out,/currency:'USD'/)
+ assert.match(out,/month:'long'/)
+ assert.match(out,/toLocaleDateString\(__locale\(\)/)
+ assert.match(fs.readFileSync(path.join(dir,'src/runtime/i18n-t.ts'),'utf8'),/export function __locale/)
+ assert.equal(auditWidget(dir).findings.length,0)
+ assert.equal(wireWidget(dir,{apply:true,localizeFormats:true}).results.filter(r=>r.changed).length,0)
+})
+
+test('local UI return helpers and dynamically indexed labels are discovered', () => {
+ const {wireWidget}=require('../lib/wire'),{auditWidget}=require('../lib/audit')
+ const dir=freshWidget(),file=path.join(dir,'src/runtime/widget.tsx')
+ fs.writeFileSync(file,`import {jsx} from 'jimu-core'
+const labels={ok:'Address matched',missing:'No address found'}
+function formatWhen(date: Date) { return 'Yesterday, ' + date.toLocaleTimeString() }
+export default function Widget(props: any) {
+ return jsx('div', {children:[labels[props.status],formatWhen(props.date)]})
+}`)
+ const before=auditWidget(dir)
+ assert.ok(before.findings.some(f=>f.text==='Address matched'))
+ assert.ok(before.findings.some(f=>f.text.includes('Yesterday')))
+ wireWidget(dir,{apply:true,localizeFormats:true})
+ // A containing sentence rewrite can cover a child formatting edit; repeat is
+ // deliberately supported and must converge without duplicate captures.
+ wireWidget(dir,{apply:true,localizeFormats:true})
+ const out=fs.readFileSync(file,'utf8')
+ assert.match(out,/get ok \(\)/)
+ assert.match(out,/toLocaleTimeString\(__locale\(\)\)/)
+ assert.equal(auditWidget(dir).findings.length,0)
+ assert.equal(wireWidget(dir,{apply:true,localizeFormats:true}).results.filter(r=>r.changed).length,0)
+})
+
+test('runtime and settings catalogs stay separate and backups sort by timestamp', () => {
+ const {auditWidget}=require('../lib/audit'),{restoreLatest}=require('../lib/localize')
+ const dir=freshWidget(),setting=path.join(dir,'src/setting/translations')
+ fs.mkdirSync(setting,{recursive:true});fs.writeFileSync(path.join(setting,'default.ts'),"export default {settingOnly: 'Settings only'}\n")
+ fs.writeFileSync(path.join(dir,'src/runtime/widget.tsx'),"import {__t} from './i18n-t'\nexport const text=__t('settingOnly')\n")
+ const a=auditWidget(dir)
+ assert.ok(a.missing.includes('settingOnly'))
+ assert.ok(a.findings.some(f=>f.kind==='timing'))
+ const root=path.join(dir,'i18n/backup')
+ for(const[name,text]of [['2030-01-01T01-01-01-wire','older'],['2030-01-01T01-01-01-100Z-abcd-wire','newer']]) {
+  const d=path.join(root,name,'src/runtime');fs.mkdirSync(d,{recursive:true});fs.writeFileSync(path.join(d,'widget.tsx'),text)
+ }
+ restoreLatest(dir)
+ assert.equal(fs.readFileSync(path.join(dir,'src/runtime/widget.tsx'),'utf8'),'newer')
+})

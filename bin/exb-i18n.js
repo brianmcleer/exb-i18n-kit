@@ -47,6 +47,7 @@ Options
   --no-cldr              skip Unicode CLDR unit names (downloaded once, cached in ~/.exb-i18n)
   --cldr-tarball <tgz>   use a local cldr-units-full .tgz (offline machines)
   --dry-run              report only, write nothing
+  --localize-formats     wire/localize: replace fixed English date/number locales with the app locale
   --no-wire              localize: skip the wire pass
   --json                 machine-readable output (audit, status)
   --strict               audit/check exit with code 1 when anything is found
@@ -60,7 +61,7 @@ function parseArgs (argv) {
     if (!a.startsWith('--')) { out._.push(a); continue }
     const [k, inline] = a.slice(2).split('=')
     const flag = k.replace(/-([a-z])/g, (m, c) => c.toUpperCase())
-    if (['dryRun', 'json', 'strict', 'noShipMachine', 'noCldr', 'noMemory', 'refreshCldr', 'apply', 'help', 'version', 'noWire'].includes(flag)) { out[flag] = true; continue }
+    if (['dryRun', 'json', 'strict', 'noShipMachine', 'noCldr', 'noMemory', 'refreshCldr', 'apply', 'help', 'version', 'noWire', 'localizeFormats'].includes(flag)) { out[flag] = true; continue }
     const v = inline !== undefined ? inline : argv[++i]
     if (flag === 'tm') out.tm.push(v)
     else out[flag] = v
@@ -236,7 +237,7 @@ async function main () {
     let found = 0
     const all = []
     for (const w of targets) {
-      const r = auditWidget(w, { client: cfg.client, sinks: cfg.sinks })
+      const r = auditWidget(w, { client: cfg.client, sinks: cfg.sinks, sinkArgs: cfg.sinkArgs })
       found += r.findings.length + r.missing.length
       all.push(r)
       if (!args.json) console.log(formatAudit(r) + '\n')
@@ -250,14 +251,14 @@ async function main () {
       const name = path.basename(w)
       log(`\n== ${name} ==`)
       log('1/3 Moving hardcoded English into translations/default.ts')
-      const { result, backupDir, changed } = backupAndExtract(w, { client: cfg.client, prefix: args.prefix || cfg.prefix, sinks: cfg.sinks })
+      const { result, backupDir, changed } = backupAndExtract(w, { client: cfg.client, prefix: args.prefix || cfg.prefix, sinks: cfg.sinks, sinkArgs: cfg.sinkArgs })
       const edits = result.results.reduce((n, r) => n + r.edits.length, 0)
       const skipped = result.results.flatMap(r => r.skipped)
       const added = Object.values(result.added).reduce((n, a) => n + Object.keys(a).length, 0)
       log(`    ${edits} change(s) in ${changed} file(s), ${added} new key(s)${backupDir ? `; originals saved in ${path.relative(w, backupDir)}` : ''}`)
       if (!args.noWire) {
         const { wireWidget } = require('../lib/wire')
-        const wr = wireWidget(w, { client: cfg.client, apply: true })
+        const wr = wireWidget(w, { client: cfg.client, sinks: cfg.sinks, sinkArgs: cfg.sinkArgs, localizeFormats: args.localizeFormats || cfg.localizeFormats, apply: true })
         const files = (wr.results || []).filter(r => r.changed).length
         const keys = Object.values(wr.added || {}).reduce((n, a) => n + Object.keys(a).length, 0)
         if (files) log(`    wire: ${files} more file(s), ${keys} new key(s) (English outside a translator, config defaults, messages reads)`)
@@ -266,8 +267,8 @@ async function main () {
       log('2/3 Writing language files')
       await runSync([w], cfg, args, log)
       log('3/3 Checking what is left')
-      const a = auditWidget(w, { client: cfg.client, sinks: cfg.sinks })
-      if (!skipped.length && !a.findings.length && !a.missing.length) log('    Nothing left. Every UI string is translatable.')
+      const a = auditWidget(w, { client: cfg.client, sinks: cfg.sinks, sinkArgs: cfg.sinkArgs })
+      if (!skipped.length && !a.findings.length && !a.missing.length) log('    No remaining findings in the supported static patterns. Test the UI in your target languages.')
       for (const s of skipped) log(`    hand edit: ${s.file}:${s.line}  ${s.why}  ${s.text}`)
       if (a.missing.length) log(`    keys used in code but missing from default.ts: ${a.missing.join(', ')}`)
       if (skipped.some(s => /translator/.test(s.why))) log('    "no translator in scope": see docs/WIRING.md, add one, then run localize again.')
@@ -283,7 +284,7 @@ async function main () {
   } else if (cmd === 'wire') {
     const { wireWidget, formatWire } = require('../lib/wire')
     for (const w of targets) {
-      const r = wireWidget(w, { client: cfg.client, apply: !!args.apply })
+      const r = wireWidget(w, { client: cfg.client, sinks: cfg.sinks, sinkArgs: cfg.sinkArgs, localizeFormats: args.localizeFormats || cfg.localizeFormats, apply: !!args.apply })
       log(formatWire(r, !!args.apply))
       if (!args.apply && args.json) console.log(JSON.stringify(r.results.flatMap(x => x.report.map(p => Object.assign({ file: x.rel }, p))), null, 2))
     }
@@ -291,7 +292,7 @@ async function main () {
   } else if (cmd === 'extract') {
     const { extractWidget, formatExtract } = require('../lib/extract')
     for (const w of targets) {
-      const r = extractWidget(w, { client: cfg.client, apply: !!args.apply, prefix: args.prefix || cfg.prefix, sinks: cfg.sinks })
+      const r = extractWidget(w, { client: cfg.client, apply: !!args.apply, prefix: args.prefix || cfg.prefix, sinks: cfg.sinks, sinkArgs: cfg.sinkArgs })
       console.log(`${path.basename(w)}\n` + formatExtract(r, !!args.apply) + '\n')
     }
     if (args.apply) log('Next: review the diff in git, then run exb-i18n sync.')

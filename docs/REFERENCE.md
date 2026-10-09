@@ -26,6 +26,9 @@
 | `shipMachine` | `false` keeps machine translations out of the language files (review only) |
 | `fillMissingWithEnglish` | write English for untranslated keys. Experience Builder loads a widget's messages from the language file only, so without this react-intl logs a missing-translation error per key |
 | `reviewFiles` | `true` makes every sync also write review sheets |
+| `localizeFormats` | opt in to the app locale for English/browser date and number formatting; preserves formatting options, currencies and units |
+| `sinks` | additional message function names, using argument 0 |
+| `sinkArgs` | map function names to zero-based UI argument indexes, e.g. `{ "customNotice": [1] }`; an empty array disables that sink |
 | `prefix` | key prefix for new keys from `localize` / `extract`, per translations folder |
 
 ## Status labels
@@ -75,3 +78,9 @@ Placeholders are protected, damaged results are dropped, ICU plural messages are
 ## Running the shared memory yourself
 
 `memory-build --sources memory/sources.json --out memory --provider libretranslate --lt-url ...` translates strings missing from `memory/<locale>.json`. It never changes an existing entry. [memory-workflow.yml](memory-workflow.yml) runs it weekly on GitHub Actions.
+
+## Static audit limits
+
+`audit`, `wire`, and `extract` share notification argument selection. `audit` and `wire` also follow local helper parameters and variable/array metadata bindings. `__t` and `__tc` are recognized as translators. Calls evaluated outside a function are flagged because they can run before the widget receives its locale. Wiring module UI properties uses getters; standalone module and class initializers can need hand edits.
+
+`--strict` fails for remaining findings or missing keys. Missing-key candidates may be Experience Builder common messages or dynamic message objects; verify their source before adding English defaults. Translation status measures known catalog entries, not every displayed string or linguistic quality. Test drawing, search, export, keyboard/screen-reader text, settings and locale switching.
