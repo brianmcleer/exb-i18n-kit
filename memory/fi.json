@@ -173,6 +173,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ ". Manage which data sources are available in the \"App data sources\" picker below.": {
+  "t": ". Hallitse, mitkä tietolähteet ovat saatavilla alla olevassa \"App data sources\" kerääjässä.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  ". Open it from the map’s layer list to see the table.": {
   "t": ". Avaa se kartalta.",
   "src": "libretranslate",
@@ -307,6 +313,12 @@
  },
  "(symbology not supported)": {
   "t": "(symbologiaa ei tueta)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "(unnamed)": {
+  "t": "(nimetön)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -779,6 +791,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{field,label?}": {
+  "t": "Kenttä, etiketti?",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{fieldId}-help": {
   "t": "{fieldId}-",
   "src": "libretranslate",
@@ -922,6 +940,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "{label,value,isLink?,href?}": {
+  "t": "{merkki, arvo, onLink?, href?}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "{label} (opens in new tab)": {
   "t": "{label} (avautuu uudessa välilehdessä)",
@@ -1373,6 +1397,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{sourcesCount} source": {
+  "t": "{sourcesCount} lähde",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{sourcesCount} sources": {
+  "t": "{sourcesCount} lähteet",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{spotlight}: shows only this layer and covers the list with a card while you look. Click Exit focus on the card, or {clearSpotlight} in the menu, to bring the other layers back.": {
   "t": "{spotlight}: näyttää vain tämän kerroksen ja kattaa luettelon kortilla, kun katsot. Napsauta Poistu keskittyä kortin, tai {clearSpotlight} Valikossa, tuoda muut kerrokset takaisin.",
   "src": "libretranslate",
@@ -1649,8 +1685,38 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "+ Add lookup rule": {
+  "t": "+ Lisää hakusääntö",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "+ Add URL rule": {
+  "t": "+ Lisää URL- sääntö",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "+ bold": {
   "t": "+ lihava",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "+ Data source": {
+  "t": "+ Tietolähde",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "+ Geocode source": {
+  "t": "+ Geokoodilähde",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "+ Layer source": {
+  "t": "+ Kerroslähde",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1675,6 +1741,12 @@
  },
  "─── All Widgets ───": {
   "t": "Kaikki widgetit",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "⚠ Click Scan then select a Widget Controller below to finish setup.": {
+  "t": "Napsauta Skannaa sitten valitse alla oleva Widget Controller viimeistelemään asetukset.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2731,6 +2803,12 @@
  },
  "Action": {
   "t": "Toiminto",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Action bar": {
+  "t": "Toimintapalkki",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4607,6 +4685,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Arcade expression": {
+  "t": "Arcaden lauseke",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Arcade expressions": {
   "t": "Arcade-ilmaisut",
   "src": "libretranslate",
@@ -4895,6 +4979,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Attribute Table": {
+  "t": "Attribuuttitaulukko",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Attribute Table Mode": {
+  "t": "Attribuuttitaulukkotila",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Attributes are automatically populated from Header Info fields. Configure those fields in the Header Info Layer section above.": {
   "t": "Attribuutit ovat automaattisesti asuttuja Header Info -kentistä. Aseta nuo kentät edellä olevasta otsikon tietotaso-osiosta.",
   "src": "libretranslate",
@@ -4951,6 +5047,30 @@
  },
  "Auto-detected from the parent above. Pick \"Widget Controller → Accordion\" when the accordion lives inside a widget controller panel.": {
   "t": "Automaattinen havainto vanhemmalta. Valitse \"Widget Controller → Harmonia\" kun haitari asuu sisällä widget ohjain paneeli.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Auto-dock on small screens": {
+  "t": "Automaattinen lukitus pienille näytöille",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Auto-expand on controller open": {
+  "t": "Automaattilaajennus ohjaimelle auki",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Auto-expand on table open": {
+  "t": "Automaattilaajennus pöydällä auki",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Auto-generate from settings": {
+  "t": "Luo automaattisesti asetuksista",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5188,6 +5308,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Back to auto-generate": {
+  "t": "Takaisin automaattiseen generointiin",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Back to geocoding results": {
   "t": "Takaisin geokoodaustuloksiin",
@@ -5479,6 +5605,12 @@
  },
  "Before Data": {
   "t": "Ennen dataa",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Behavior": {
+  "t": "Käytös",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5795,6 +5927,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Bottom center": {
+  "t": "Alakeskus",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Bottom left": {
   "t": "Alavasen",
   "src": "libretranslate",
@@ -5827,6 +5965,12 @@
  },
  "Bottom right (over map)": {
   "t": "Alaoikealla (kartalla)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Bound to app data source": {
+  "t": "Rajattu sovelluksen tietolähteeseen",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6307,6 +6451,12 @@
  },
  "Catalan (Català)": {
   "t": "katalaani (Català)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Categories (comma)": {
+  "t": "Ryhmät (comma)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7493,6 +7643,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Click": {
+  "t": "Klikkaa",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Click \"Fetch Fields\" above to load available fields": {
   "t": "Klikkaa \"Hae kentät\" yllä ladataksesi käytettävissä olevat kentät",
   "src": "libretranslate",
@@ -8231,6 +8387,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Close button": {
+  "t": "Sulje painike",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Close compare": {
   "t": "Sulje vertailu",
   "src": "libretranslate",
@@ -8399,6 +8561,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Collapse all": {
+  "t": "Tuhoa kaikki",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Collapse All": {
   "t": "Sammuta kaikki",
   "src": "libretranslate",
@@ -8410,6 +8578,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Collapse button": {
+  "t": "Romahduspainike",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Collapse drawing": {
   "t": "Romahdus",
@@ -8437,6 +8611,12 @@
  },
  "Collapsed by default": {
   "t": "Oletuksena kaatunut",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Collapsible popup": {
+  "t": "Kokoonpantavissa oleva ponnahdusikkuna",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8897,6 +9077,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Configuration exported.": {
+  "t": "Asetukset viety.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Configuration imported and applied.": {
+  "t": "Asetukset tuotu ja sovellettu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Configuration imported successfully!": {
   "t": "Asetukset tuotiin onnistuneesti!",
   "src": "libretranslate",
@@ -9307,6 +9499,12 @@
  },
  "Controls polygon fill transparency. 0 = outline only (see-through), 0.3 = semi-transparent, 1 = solid opaque fill.": {
   "t": "Ohjaus monikulmio täyttää läpinäkyvyyden. 0 = vain ääriviiva (ks. läpivienti), 0,3 = puoliläpinäkyvä, 1 = kiinteä läpinäkymätön täyte.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Controls the map popup used by search results (the shared MapView popup). Applies to whichever popup behavior is selected above.": {
+  "t": "Ohjaa hakutulosten käyttämää karttaponnahdusta (jaettu MapView ponnahdusikkuna). Koskee sitä, mikä ponnahdusikkuna käyttäytyy yllä.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9833,6 +10031,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Could not read widgets from app config.": {
+  "t": "Sovelluskonfigin elementtejä ei voitu lukea.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Could not resolve that address.": {
   "t": "Sitä osoitetta ei voitu ratkaista.",
   "src": "libretranslate",
@@ -9865,6 +10069,12 @@
  },
  "Country - Country name (optional)": {
   "t": "Maa - Maan nimi (vapaaehtoinen)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Country code(s)": {
+  "t": "Maakoodi [s]",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10225,6 +10435,30 @@
  },
  "Custom (from an older configuration)": {
   "t": "Oma (vanhemmasta kokoonpanosta)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Custom (write my own)": {
+  "t": "Oma (kirjoita oma)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Custom Arcade popup expression": {
+  "t": "Oma Arcade ponnahdusikkuna",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Custom Arcade popup expression for this source": {
+  "t": "Oma Arcade ponnahdusikkuna tälle lähdekoodille",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Custom Arcade popup for this source (optional; overrides the shared one)": {
+  "t": "Oma Arcade ponnahdusikkuna tälle lähteelle (valinnainen; ohittaa jaetun)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10975,6 +11209,12 @@
  },
  "Default source index (-1 = All)": {
   "t": "Oletuslähdeindeksi (-1 = Kaikki)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default state": {
+  "t": "Oletustila",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11897,6 +12137,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Divider": {
+  "t": "Jakaja",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Divider position": {
   "t": "Jakaja-asema",
   "src": "libretranslate",
@@ -11920,6 +12166,24 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Dock position": {
+  "t": "Telakan sijainti",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Dock side": {
+  "t": "Telakan sivu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Dock the popup": {
+  "t": "Pudota ponnahdusikkuna",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Docked on the map": {
   "t": "Telakoitu kartalle",
@@ -12965,6 +13229,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Each entry is one option in the search box dropdown. Drag the ⠿ handle to reorder; click a row to expand or collapse it.": {
+  "t": "Jokainen merkintä on yksi vaihtoehto hakuruudun pudotus. Vedä Kahva uudelleen tilaukseen; klikkaa riviä laajentaa tai romahtaa sitä.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Each format is one line in the result popup and the Results list. X and Y take a WKID; leave it blank for the map's coordinate system.": {
   "t": "Jokainen muoto on yksi rivi tulos ponnahdusikkunassa ja tulosluettelossa. X ja Y ottavat WKID:n. Jätä se tyhjäksi kartan koordinaattijärjestelmää varten.",
   "src": "libretranslate",
@@ -13150,6 +13420,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Edit this expression (switch to Custom)": {
+  "t": "Muokkaa tätä ilmaisua (vaihda omaan)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Edit traverse": {
   "t": "Muokkaa kulkua",
@@ -13823,6 +14099,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "ends with": {
+  "t": "päättyy",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Engine-level switches for the files this widget writes. All are safe to leave as they are.": {
   "t": "Moottoritason kytkimet tiedostoja tämä widget kirjoittaa. Kaikki ovat turvassa.",
   "src": "libretranslate",
@@ -13945,6 +14227,12 @@
  },
  "Enter an address:": {
   "t": "Anna osoite:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enter an Arcade expression that returns the popup HTML…": {
+  "t": "Anna Arcade-ilmaisu, joka palauttaa ponnahdusikkunan HTML...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14357,6 +14645,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Exact match": {
+  "t": "Täsmällinen vastaavuus",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Exact pixel width and height for the map-only image. Leave 0 to use the layout frame size.": {
   "t": "Tarkka pikselileveys ja korkeus vain karttakuvan. Jätä 0 käyttää asettelukehys koko.",
   "src": "libretranslate",
@@ -14453,6 +14747,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Excluded fields (comma)": {
+  "t": "Muut kentät (comma)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Existing Drawings Found": {
   "t": "Olemassa olevat piirrokset löytyi",
   "src": "libretranslate",
@@ -14527,6 +14827,12 @@
  },
  "Expand {tableName}": {
   "t": "Laajenna {tableName}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Expand all": {
+  "t": "Laajenna kaikki",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14611,6 +14917,12 @@
  },
  "Explain why this ticket is being closed…": {
   "t": "Selitä, miksi lippu on suljettu...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Explicit fields (JSON array of": {
+  "t": "Eksplisiittiset kentät",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15311,6 +15623,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Feature navigation (paging)": {
+  "t": "Ominaisuusnavigointi (haku)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "feature selected": {
   "t": "ominaisuus valittu",
   "src": "libretranslate",
@@ -15449,6 +15767,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Field list": {
+  "t": "Kenttäluettelo",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Field mapping": {
   "t": "Kentän kartoitus",
   "src": "libretranslate",
@@ -15517,6 +15841,12 @@
  },
  "Field validation and error checking": {
   "t": "Kentän validointi ja virheiden tarkistaminen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Field values matching a rule render as links. Empty \"base URL\" uses the value as-is.": {
+  "t": "Kenttäarvot, jotka vastaavat sääntöä, tekevät linkeiksi. Tyhjä \"perus URL\" käyttää arvoa sellaisena kuin se on.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15673,6 +16003,12 @@
  },
  "Filter": {
   "t": "Suodatin",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Filter (where clause)": {
+  "t": "Suodatin (jos sellainen on)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16009,6 +16345,12 @@
  },
  "Finnish (Suomi)": {
   "t": "Suomi (Suomi)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "First": {
+  "t": "Ensimmäinen",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16867,6 +17209,18 @@
  },
  "Generated {filename} with {count} mailing labels successfully!": {
   "t": "Luotu {filename} kun {count} Lähetetään tarroja onnistuneesti!",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Generated Arcade expression (read-only preview)": {
+  "t": "Luotu Arcade lauseke (lukea vain esikatselu)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Generated Arcade popup expression (read only)": {
+  "t": "Luotu Arcade ponnahdusikkunan ilme (lue vain)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18071,6 +18425,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Heading (title)": {
+  "t": "Nimike",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Hebrew (עברית)": {
   "t": "Heprea",
   "src": "libretranslate",
@@ -18427,6 +18787,12 @@
  },
  "Highlight row on hover": {
   "t": "Korosta rivi leijuvalla",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Highlight selected feature": {
+  "t": "Korosta valittu ominaisuus",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19247,6 +19613,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Include all fields": {
+  "t": "Sisältää kaikki kentät",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Include feature attributes": {
   "t": "Sisällytä ominaisuustiedot",
   "src": "libretranslate",
@@ -19523,6 +19895,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Inside message": {
+  "t": "Sisäinen viesti",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Inside the frame": {
   "t": "Kehyksen sisällä",
   "src": "libretranslate",
@@ -19537,6 +19915,12 @@
  },
  "Inside the print area": {
   "t": "Tulostusalueen sisällä",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Inside/Outside message": {
+  "t": "Sisä-/ulkopuolinen viesti",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19741,6 +20125,12 @@
  },
  "is not empty": {
   "t": "ei ole tyhjä",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "is turned into a link. The exact expression it will use is shown below.": {
+  "t": "on muuttunut linkiksi. Jäljempänä esitetään tarkka ilmaisu, jota se käyttää.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20741,6 +21131,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Layer popup (Arcade)": {
+  "t": "Tason ponnahdusikkuna (arkki)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Layer REST URL": {
   "t": "Tason REST- URL",
   "src": "libretranslate",
@@ -20791,6 +21187,12 @@
  },
  "Layer Title Text": {
   "t": "Tason otsikko Teksti",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layer URL": {
+  "t": "Tason URL",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20935,6 +21337,12 @@
  },
  "Leave blank to use the layer name": {
   "t": "Jätä tyhjäksi käyttääksesi kerroksen nimeä",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Leave blank to use the shared popup expression…": {
+  "t": "Jätä tyhjäksi käyttää jaettua ponnahdusikkunaa...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21503,6 +21911,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Link text": {
+  "t": "Linkkiteksti",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Link Text": {
   "t": "Linkkiteksti",
   "src": "libretranslate",
@@ -21523,6 +21937,12 @@
  },
  "Link URL Field": {
   "t": "Linkin URL- kenttä",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Linked Controller": {
+  "t": "Linked Controller",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21881,6 +22301,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Loading spinner": {
+  "t": "Ladataan pyöritintä",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Loading takes a long time: the map or basemaps have not finished loading. Give them a moment, then reload the page if they still do not appear.": {
   "t": "Lataaminen kestää pitkään: kartta tai pohjakartat eivät ole ladanneet loppuun. Anna heille hetki, sitten ladata sivun, jos ne eivät vieläkään näy.",
   "src": "libretranslate",
@@ -21967,6 +22393,12 @@
  },
  "Location summary": {
   "t": "Sijaintitiivistelmä",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Location type": {
+  "t": "Sijaintityyppi",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22949,6 +23381,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Match type": {
+  "t": "Ottelun tyyppi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Match URL contains": {
   "t": "Ottelun URL sisältää",
   "src": "libretranslate",
@@ -23047,6 +23485,12 @@
  },
  "Max Height (mm)": {
   "t": "Max korkeus (mm)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Max inline actions": {
+  "t": "Max-inline-toiminnot",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -24743,6 +25187,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No layout component!": {
+  "t": "Ei layout-komponenttia!",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No layouts configured. Import an ArcGIS Pro .pagx layout file in the widget settings.": {
   "t": "Alusta ei ole määritetty. Tuo ArcGIS Pro .pagx layout-tiedosto widget-asetuksissa.",
   "src": "libretranslate",
@@ -25157,6 +25607,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No-result message": {
+  "t": "Ei tuloksia",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "none": {
   "t": "ei yhtään",
   "src": "libretranslate",
@@ -25315,6 +25771,12 @@
  },
  "Note: superscript characters may not display correctly here but will work in the application.": {
   "t": "Huomaa: Superskriptimerkit eivät välttämättä näytä oikein tässä, mutta toimivat sovelluksessa.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Note: these configure the map's shared popup, so they also affect other popups opened on the same map.": {
+  "t": "Huom. Nämä määrittelevät kartan jaetun ponnahdusikkunan, joten ne vaikuttavat myös muihin samalla kartalla avattuihin ponnahdusikkunoihin.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -25817,6 +26279,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "On select, each rule runs an intersect query and appends its HTML to the popup. Tokens:": {
+  "t": "Valittaessa, jokainen sääntö ajaa intersect kyselyn ja liittää sen HTML ponnahdusikkunaan. Tokens:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "On the {address} tab.": {
   "t": "Euroopan {address} Katso.",
   "src": "libretranslate",
@@ -25997,6 +26465,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Online 10.1.": {
+  "t": "Online 10.1.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Only basemaps with that text in their names stay in the gallery.": {
   "t": "Vain basmapit, joilla on tuo teksti, pysyvät galleriassa.",
   "src": "libretranslate",
@@ -26069,6 +26543,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Only within current map view": {
+  "t": "Vain nykyisen karttanäkymän sisällä",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "OOS=Out of Service ACT=Active": {
   "t": "OOS=Out of Service ACT=Active",
   "src": "libretranslate",
@@ -26119,6 +26599,12 @@
  },
  "Open {units} to change how numbers are shown. Everything already measured updates at once.": {
   "t": "Avaa {units} muuttaa numeroiden näyttämistä. Kaikki mitattiin jo kerralla.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Open automatically on select": {
+  "t": "Avaa automaattisesti valitsemalla",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -26197,6 +26683,12 @@
  },
  "Open service": {
   "t": "Avoin palvelu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Open sidebar": {
+  "t": "Avaa sivupalkki",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -26603,8 +27095,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Output type": {
+  "t": "Tulostustyyppi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Outside boundary message": {
   "t": "Ulkorajaviesti",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Outside message": {
+  "t": "Ulkopuolinen viesti",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -26647,6 +27151,12 @@
  },
  "Overlaps": {
   "t": "Ylitykset",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Overlay": {
+  "t": "Ohitus",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -27473,6 +27983,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Pick one or more feature layers from this app's data sources; each is added as a search source below. Bindings are app-specific and are not carried by the XML export.": {
+  "t": "Valitse yksi tai useampi ominaisuuskerros tämän sovelluksen tietolähteistä; jokainen lisätään hakulähteeksi alla. Sitomiset ovat sovelluskohtaisia eivätkä ne ole XML-viennin mukana.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Pick outline color": {
   "t": "Valitse ääriviivan väri",
   "src": "libretranslate",
@@ -27643,6 +28159,12 @@
  },
  "Place Pin on Map": {
   "t": "Paikka Pin kartalla",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Placeholder": {
+  "t": "Paikka",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -28049,6 +28571,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Popup display": {
+  "t": "Ponnahdusikkuna",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Popup Display Settings": {
   "t": "Ponnahdusikkunan asetukset",
   "src": "libretranslate",
@@ -28075,6 +28603,18 @@
  },
  "Popup sources": {
   "t": "Ponnahduslähteet",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Popup title": {
+  "t": "Ponnahduksen nimi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Popup title template": {
+  "t": "Ponnahdusikkunan otsikkomalli",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -29693,6 +30233,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Remove lookup rule {i}": {
+  "t": "Poista hakusääntö {i}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Remove override": {
   "t": "Poista ohitus",
   "src": "libretranslate",
@@ -29728,6 +30274,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Remove search source {name}": {
+  "t": "Poista hakulähde {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Remove section": {
   "t": "Poista kohta",
@@ -29767,6 +30319,12 @@
  },
  "Remove this override": {
   "t": "Poista tämä ohitus",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Remove URL rule {i}": {
+  "t": "Poista URL- sääntö {i}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -30035,6 +30593,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Reset from auto-generated": {
+  "t": "Nollaa automaattisesti luodusta",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Reset Measurement Defaults": {
   "t": "Nollaa mittausoletukset",
   "src": "libretranslate",
@@ -30094,6 +30658,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Resizable": {
+  "t": "Uudelleen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Resize {header} column": {
   "t": "Muuta kokoa {header} sarake",
@@ -30161,6 +30731,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Respect reduced motion": {
+  "t": "Pienennettyjen esitysten kunnioittaminen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "REST Service URL": {
   "t": "REST-palvelun URL",
   "src": "libretranslate",
@@ -30217,6 +30793,12 @@
  },
  "Result panel": {
   "t": "Tulospaneeli",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Result symbol color [r,g,b,a] (optional JSON)": {
+  "t": "Tulossymbolin väri [r,g,b,a] (valinnainen JSON)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -30437,6 +31019,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Rooftop": {
+  "t": "Katto",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Rotate": {
   "t": "Kierrä",
   "src": "libretranslate",
@@ -30605,6 +31193,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Rounded": {
+  "t": "pyöristetty",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Rounded corners": {
   "t": "Pyörivät kulmat",
   "src": "libretranslate",
@@ -30658,6 +31252,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Rule {i}: {outputType}": {
+  "t": "artikla {i}: {outputType}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Rule enabled": {
   "t": "Sääntö käytössä",
@@ -31037,6 +31637,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Scan": {
+  "t": "Etsi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Scan App": {
   "t": "Etsi sovellus",
   "src": "libretranslate",
@@ -31205,6 +31811,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Search fields (comma)": {
+  "t": "Hakukentät (comma)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Search for a property or location": {
   "t": "Etsi kiinteistöä tai sijaintia",
   "src": "libretranslate",
@@ -31295,6 +31907,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Search sources": {
+  "t": "Hakulähteet",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Search Sources": {
   "t": "Hakulähteet",
   "src": "libretranslate",
@@ -31309,6 +31927,12 @@
  },
  "Search suggestions": {
   "t": "Hakuehdotukset",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Search template": {
+  "t": "Hakumalli",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -31469,6 +32093,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Second": {
+  "t": "Toinen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Second side label (optional)": {
   "t": "Toisen puolen etiketti (valinnainen)",
   "src": "libretranslate",
@@ -31501,6 +32131,12 @@
  },
  "Section Headers": {
   "t": "Jaoston otsikot",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Section heading": {
+  "t": "Erityisjaoston otsikko",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -32885,6 +33521,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show action bar": {
+  "t": "Näytä toimintopalkki",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show address in menu header": {
   "t": "Näytä osoite valikossa otsikossa",
   "src": "libretranslate",
@@ -32981,6 +33623,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show close button": {
+  "t": "Näytä sulje- painike",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show collapse button": {
+  "t": "Näytä kaatumisnappi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show Coordinate Labels": {
   "t": "Näytä koordinaatit",
   "src": "libretranslate",
@@ -33035,6 +33689,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show dock or undock button": {
+  "t": "Näytä laiturin tai peruuta painike",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show dock/undock button": {
+  "t": "Näytä laiturin ja takanappi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show draw layer in map layer list": {
   "t": "Näytä piirtokerros karttakerrosluettelossa",
   "src": "libretranslate",
@@ -33055,6 +33721,12 @@
  },
  "Show favorites only": {
   "t": "Näytä vain suosikit",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show feature navigation": {
+  "t": "Näytä ominaisuus navigointi",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -33103,6 +33775,12 @@
  },
  "Show Grid": {
   "t": "Näytä ruudukko",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show heading": {
+  "t": "Näytä otsikko",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -33208,6 +33886,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Show loading spinner": {
+  "t": "Näytä latausspinner",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Show Map Alt Text": {
   "t": "Näytä kartan muu teksti",
@@ -33665,6 +34349,36 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Side panel": {
+  "t": "Sivupaneeli",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Sidebar auto-expands when a tool is opened from the linked Widget Controller, and collapses when the tool is closed. The controller's tool panel is repositioned into this sidebar area.": {
+  "t": "Sivupalkki laajenee automaattisesti, kun työkalu avataan kytketystä Widget Controllerista ja kaatuu, kun työkalu on suljettu. Ohjaimen työkalupaneeli asetetaan uudelleen tälle sivupalkin alueelle.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Sidebar auto-expands when an attribute table opens (e.g. from a feature action or \"Add to Table\"). No additional setup needed — just place your Table widget inside this sidebar's collapsible panel.": {
+  "t": "Sivupalkki laajenee automaattisesti, kun ominaisuustaulukko avautuu (esim. ominaisuustoiminnosta tai \"Lisää taulukkoon\"). Ei lisäasetukset tarvitaan vain sijoittaa taulukon widget sisällä tämän sivupalkin kokoontaittuva paneeli.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Sidebar Behavior": {
+  "t": "Sivupalkin käyttäytyminen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Sidebar Custom": {
+  "t": "Sivupalkki",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Simple arrow": {
   "t": "Yksinkertainen nuoli",
   "src": "libretranslate",
@@ -33719,6 +34433,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Single-line field": {
+  "t": "Yksilinjainen kenttä",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Sinhala (සිංහල)": {
   "t": "Sinhala (...)",
   "src": "libretranslate",
@@ -33739,6 +34459,12 @@
  },
  "Sites": {
   "t": "Sivustot",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Size": {
+  "t": "Koko",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -34175,6 +34901,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Source {name}": {
+  "t": "Lähde {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Source coordinate system (WKID)": {
   "t": "Lähdekoordinaattijärjestelmä (WKID)",
   "src": "libretranslate",
@@ -34285,6 +35017,12 @@
  },
  "Spatial lookup popup": {
   "t": "Spatial lookup ponnahdusikkuna",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Spatial lookup rules": {
+  "t": "Alueellisen etsinnän säännöt",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -34523,6 +35261,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "starts with": {
+  "t": "alkaa",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "State": {
   "t": "Tila",
   "src": "libretranslate",
@@ -34579,6 +35323,12 @@
  },
  "Stated area field": {
   "t": "Osa-alue",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Static lines (optional JSON array of": {
+  "t": "Staattiset linjat (valinnainen JSON joukko",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -34853,6 +35603,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Style and size are visual themes applied live to the search box; \"Default\" leaves the native look untouched. Accent color drives the focus ring and button hover across the non-default styles.": {
+  "t": "Tyyli ja koko ovat visuaalisia teemoja sovelletaan suorana hakuruutuun; \"Default\" jättää natiivi näyttää koskematon. Aksentti väri ajaa tarkennusrenkaan ja painikkeen leijuu kautta ei-oletustyyliin.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Style editor": {
   "t": "Tyylieditori",
   "src": "libretranslate",
@@ -35023,6 +35779,12 @@
  },
  "Suffix": {
   "t": "Loppuliite",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Suggestions for this source": {
+  "t": "Ehdotukset tälle lähteelle",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -35200,6 +35962,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Switching to Custom copies this generated expression into an editable box so you can tweak it; after that it no longer changes when you edit the options above.": {
+  "t": "Siirrytään muokattuihin kopioihin ja luodaan tämä ilmaisu muokattavissa olevaan laatikkoon, jotta voit muokata sitä; sen jälkeen se ei enää muutu, kun muokkaat yllä olevia vaihtoehtoja.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Symbol Editor": {
   "t": "Symbolimuokkain",
@@ -36767,6 +37535,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The widget builds the popup expression for you from the options above: every field on the layer is listed (except the excluded ones), and any value that matches a": {
+  "t": "Widget rakentaa ponnahdusikkunan lauseke sinulle edellä olevista vaihtoehdoista: jokainen kentän kerros on listattu (paitsi pois suljettuja), ja arvo, joka vastaa",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The widget controller / sidebar that contains the Identify By Query widget.": {
   "t": "Widget ohjain / sivupalkki, joka sisältää Tunnista Query widget.",
   "src": "libretranslate",
@@ -37421,6 +38195,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Tip: the expression should return a string (HTML allowed). Use $feature to read attributes.": {
+  "t": "Vihje: lausekkeen pitäisi palauttaa merkkijono (HTML sallittu). Käytä $ ominaisuus lukea ominaisuuksia.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Tips and Best Practices": {
   "t": "Vinkkejä ja parhaita käytäntöjä",
   "src": "libretranslate",
@@ -37513,6 +38293,12 @@
  },
  "to manually enter values.": {
   "t": "antaa arvot manuaalisesti.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "to populate the dropdown with all widgets in your app, then select the Widget Controller whose tools should appear in this sidebar.": {
+  "t": "Asuttaa pudotus alas kaikki widgetit sovelluksen, valitse Widget Controller, jonka työkaluja pitäisi näkyä tässä sivupalkissa.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -37685,6 +38471,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Toggle sidebar": {
+  "t": "Vaihda sivupalkkia",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Toggle text halo effect, currently disabled": {
   "t": "Vaihda tekstin halo-efekti, tällä hetkellä pois käytöstä",
   "src": "libretranslate",
@@ -37811,6 +38603,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Top center": {
+  "t": "Yläkeskus",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Top left": {
   "t": "Ylävasen",
   "src": "libretranslate",
@@ -37831,6 +38629,12 @@
  },
  "Top page margin in points": {
   "t": "Yläsivun marginaali pisteissä",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Top panel": {
+  "t": "Yläpaneeli",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -39023,6 +39827,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "URL formatting rule": {
+  "t": "URL-muotoilusääntö",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "URL formatting rules": {
+  "t": "URL-muotoilusäännöt",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "URL or item ID": {
   "t": "URL tai kohteen ID",
   "src": "libretranslate",
@@ -39761,6 +40577,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Visible parts of the popup": {
+  "t": "Ponnahdusikkunan näkyvät osat",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Visible scale": {
   "t": "Näkyvä asteikko",
   "src": "libretranslate",
@@ -40415,6 +41237,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Widget Controller": {
+  "t": "Widget- ohjainComment",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Widget Controller (open / close as a panel)": {
   "t": "Widget Controller (avaa / sulje paneelina)",
   "src": "libretranslate",
@@ -40423,6 +41251,18 @@
  },
  "Widget Controller → Accordion (nested)": {
   "t": "Widget Controller → Harmonia (vieroitettu)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Widget Controller Mode": {
+  "t": "Widget- ohjaintila",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Widget functions": {
+  "t": "Widget- toiminnot",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -40459,6 +41299,24 @@
  },
  "Widget logo": {
   "t": "Widget- logo",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "widget name:": {
+  "t": "sovelman nimi:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Widget properties": {
+  "t": "Widget- ominaisuudet",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "widget properties:": {
+  "t": "Sovelman ominaisuudet:",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -40793,6 +41651,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "You are writing the Arcade expression yourself. It runs as the popup content for every feature-layer source and is stored in this widget's settings (and the XML export). Use the button to reset it from the auto-generated version at any time.": {
+  "t": "Kirjoitat itse Arcaden ilmaisua. Se toimii ponnahdusikkunan sisällön jokaisen ominaisuus-kerros lähde ja tallennetaan tämän widget asetukset (ja XML vienti). Käytä painiketta nollataksesi sen automaattisesta versiosta milloin tahansa.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "You both need to be using the same map for the file to make sense.": {
   "t": "Teidän molempien on käytettävä samaa karttaa, jotta tiedostossa olisi järkeä.",
   "src": "libretranslate",
@@ -41053,6 +41917,12 @@
  },
  "Zoom Out: zooms the map out, centered on the spot you clicked.": {
   "t": "Zoom Out: zoomaa karttaa ulos, keskittyy klikkaamallasi paikalla.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zoom scale": {
+  "t": "Suurennusasteikko",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
