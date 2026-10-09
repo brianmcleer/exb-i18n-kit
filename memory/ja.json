@@ -155,6 +155,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "'Default' uses the searched address as title. 'Custom' lets you specify a fixed report title.": {
+  "t": "'Default' は、検索したアドレスをタイトルとして使用します。 'Custom' では、固定レポートのタイトルを指定できます。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "'Group by Category' aggregates records by a category field (e.g., count zones). 'Compare Fields' shows multiple numeric fields side-by-side.": {
   "t": "'カテゴリの集計レコードによるグループ(例、カウントゾーン)。 'Compare Fields' は複数の数値フィールドをサイドバイサイドで表示します。",
   "src": "libretranslate",
@@ -181,6 +187,12 @@
  },
  "\"Parcel \" + $feature.PARCEL_NUM": {
   "t": "\"Parcel\" + $feature\" の一覧です。 パルセル",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "({originalWidth} × {originalHeight}px)": {
+  "t": "( ){originalWidth} ログイン {originalHeight}ピクセル)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1175,6 +1187,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "── Custom ──": {
+  "t": "── カスタム ──",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "── Google Fonts ──": {
+  "t": "──Googleフォントは、",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "─── All Widgets ───": {
   "t": "───全てのウィジェット ───",
   "src": "libretranslate",
@@ -1195,6 +1219,12 @@
  },
  "✓ Apply & Close": {
   "t": "✓ 適用 & 閉じる",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "✓ Bold loaded": {
+  "t": "✓ 金持ち",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1282,6 +1312,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "6pt (Small)": {
+  "t": "6pt(小)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "72 points = 1 inch": {
   "t": "72ポイント= 1インチ",
@@ -2585,6 +2621,30 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Align logo to bottom": {
+  "t": "底にロゴを合わせて下さい",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Align logo to left": {
+  "t": "左にロゴを合わせる",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Align logo to right": {
+  "t": "右にロゴを合わせる",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Align logo to top": {
+  "t": "トップにロゴを合わせる",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Align right": {
   "t": "右アライナー",
   "src": "libretranslate",
@@ -2932,6 +2992,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Alt Text (Accessibility)": {
+  "t": "Altテキスト(アクセシビリティ)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Alternate Row": {
+  "t": "任意列",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Alternate row background colors (zebra striping) to improve readability of multi-row tables.": {
   "t": "複数列テーブルの読みやすさを改善するために、行の背景色(ゼブラストリング)を代替します。",
@@ -3365,6 +3437,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Auto (fit within max size, keep aspect ratio)": {
+  "t": "オート(最大サイズでフィットし、アスペクト比を維持)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Auto-include new sub-layers": {
   "t": "オートインクルード新しいサブレイヤー",
   "src": "libretranslate",
@@ -3403,6 +3481,12 @@
  },
  "Auto-scroll to results": {
   "t": "結果への自動スクロール",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Auto: maintains aspect ratio within max dimensions. Fit: scales to fit container. Stretch: fills exact dimensions. Custom: specify exact size.": {
+  "t": "自動: 最高の次元内のアスペクトの比率を維持します。 適合:容器に合うスケール。 ストレッチ:正確な寸法を記入します。 カスタム: 正確なサイズを指定します。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3551,6 +3635,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Background color behind the logo. Useful for logos with transparent backgrounds. Leave empty for transparent.": {
+  "t": "ロゴの背景色。 透明な背景を持つロゴに便利です。 透明度に空を置いてください。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Background color behind the text. Current setting is": {
   "t": "テキストの背後にある背景色。 現在の設定は",
   "src": "libretranslate",
@@ -3559,6 +3649,36 @@
  },
  "Background color changed": {
   "t": "背景色変更",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Background color for alternate table rows (zebra striping). Use a subtle color like light gray for best results.": {
+  "t": "代替テーブル行(ゼブラスト)の背景色。 ライトグレーのような微妙な色を使用して、最良の結果が得られます。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Background color for layer title headers that appear when a section contains multiple data layers. Use a different color from Table Header to distinguish between layer titles and column headers.": {
+  "t": "セクションに複数のデータレイヤーが含まれているときに表示されるレイヤーのタイトルヘッダーの背景色。 レイヤーのタイトルと列のヘッダーを区別するために、テーブルヘッダから異なる色を使用します。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Background color for section header bars in the PDF. Should contrast with white text for readability.": {
+  "t": "PDFのセクションヘッダバーの背景色。 読みやすさのための白いテキストと対照的である必要があります。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Background color for table column headers. Use your organization's brand color or a dark color for good contrast with white text.": {
+  "t": "テーブルのコラムのヘッダーのための背景色。 組織のブランドカラーやダークカラーで、ホワイトテキストとのコントラストが良くなります。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Background color for the PDF header area. Use white for a clean look or match your organization's branding.": {
+  "t": "PDFヘッダー領域の背景色。 組織のブランディングに合わせて、ホワイトを使ってください。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3901,6 +4021,12 @@
  },
  "Bold enabled": {
   "t": "Bold 対応",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Bold Font (Optional)": {
+  "t": "ボールドフォント(オプション)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4439,6 +4565,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Center": {
+  "t": "センター",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Center · {srLabel}": {
   "t": "センター・ {srLabel}",
   "src": "libretranslate",
@@ -4453,6 +4585,24 @@
  },
  "Center divider puts the divider back in the middle. Swap sides exchanges the two layer selections.": {
   "t": "センターディバイダーはディバイダーを中間に置きます。 スワップの側面は2つの層の選択を交換します。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Center logo horizontally": {
+  "t": "水平に中心のロゴ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Center logo vertically": {
+  "t": "中心のロゴ 縦に",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Change": {
+  "t": "アクセス",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5741,6 +5891,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Click to upload logo": {
+  "t": "ロゴのアップロード",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Click to Zoom to Result": {
   "t": "ズームにクリックして結果を表示します",
   "src": "libretranslate",
@@ -5953,6 +6109,12 @@
  },
  "Color {c}": {
   "t": "カラー {c}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Color for hyperlinks in the PDF. Standard web blue (#0066CC) is recommended for familiarity.": {
+  "t": "PDFのハイパーリンクの色。 一般的なWebブルー(#0066CC)は、親しみやすくするために推奨されます。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6509,6 +6671,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Contact Info": {
+  "t": "お問い合わせ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Contact Position": {
+  "t": "コンタクトポジション",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Contact support": {
   "t": "コンタクトサポート",
   "src": "libretranslate",
@@ -6929,6 +7103,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Corner Radius (mm)": {
+  "t": "角の半径(mm)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Could not access the clipboard - select the text and copy manually.": {
   "t": "クリップボードにアクセスできません - テキストを選択し、手動でコピーします。",
   "src": "libretranslate",
@@ -7265,6 +7445,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Custom (exact size, keep aspect ratio)": {
+  "t": "カスタム(正確なサイズ、アスペクト比)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Custom (from an older configuration)": {
   "t": "カスタム(古い設定から)",
   "src": "libretranslate",
@@ -7302,6 +7488,12 @@
   "added": "2026-10-09"
  },
  "Custom font name": {
+  "t": "カスタムフォント名",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Custom Font Name": {
   "t": "カスタムフォント名",
   "src": "libretranslate",
   "reviewed": false,
@@ -7355,6 +7547,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Custom Title": {
+  "t": "カスタムタイトル",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Custom title text to display at the top of each PDF report instead of the searched address.": {
+  "t": "検索アドレスの代わりに各PDFレポートの上部に表示するカスタムタイトルテキスト。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Custom WKID": {
   "t": "カスタムWKID",
   "src": "libretranslate",
@@ -7393,6 +7597,12 @@
  },
  "Data Layers ({layersCount})": {
   "t": "データ層({layersCount})",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Data Layout": {
+  "t": "データレイアウト",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7549,6 +7759,18 @@
  },
  "Default ({drawingLabelOption})": {
   "t": "デフォルト (デフォルト){drawingLabelOption})",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default (Address/Parcel)": {
+  "t": "デフォルト (Address/Parcel)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default (rectangular)": {
+  "t": "デフォルト(長方形)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8045,6 +8267,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Department name, phone number, or other contact information for questions about the report.": {
+  "t": "担当部署の氏名、電話番号、または報告書に関する質問の連絡先情報。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Descending": {
   "t": "デザート",
   "src": "libretranslate",
@@ -8249,6 +8477,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Disclaimer Text": {
+  "t": "免責事項",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "DISCLAIMER: This product is for informational purposes...": {
+  "t": "DISCLAIMER:この製品は、情報目的のために...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Disconnected": {
   "t": "接続解除",
   "src": "libretranslate",
@@ -8405,6 +8645,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Display name for the font. Used in the PDF metadata and for reference.": {
+  "t": "フォントの名称を表示します。 PDFメタデータおよび参照のために使用される。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Display name for this layer in the results panel. Use a descriptive name like 'Zoning Districts' instead of the service layer name.": {
   "t": "結果パネルのこのレイヤーの名前を表示します。 サービスレイヤー名ではなく「Zoning Districts」などの記述名を使用します。",
   "src": "libretranslate",
@@ -8441,6 +8687,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Display page numbers in the footer (e.g., 'Page 1 of 5'). Helps readers navigate multi-page reports.": {
+  "t": "フッター内のページ番号(例:「1 of 5」)を表示します。 読者が複数のページレポートを閲覧するのに役立ちます。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Display Pane": {
   "t": "ディスプレイパン",
   "src": "libretranslate",
@@ -8455,6 +8707,12 @@
  },
  "Display the query point coordinates in the results header and PDF report. Useful for identifying exact search locations.": {
   "t": "結果ヘッダーとPDFレポートのクエリポイント座標を表示します。 正確な検索場所を特定するのに便利です。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Display the report generation date in the PDF header.": {
+  "t": "PDFヘッダーのレポート生成日を表示します。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9311,6 +9569,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "e.g., City of Grand Junction logo": {
+  "t": "例:グランドジャンクションロゴ市",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "e.g., ETRS89 / Poland CS92": {
   "t": "例:ETRS89/ポーランド CS92",
   "src": "libretranslate",
@@ -9319,6 +9583,12 @@
  },
  "e.g., No zoning restrictions apply to this location.": {
   "t": "例:この場所へのズーム制限はありません。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g., Planning Department | 970-555-1234": {
+  "t": "例:企画部 | 970-555-1234",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11633,8 +11903,26 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Fit (scale to max size, keep aspect ratio)": {
+  "t": "適合(最大サイズまでのスケール、アスペクト比)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Fit current extent": {
   "t": "適当な流れの程度",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fit Padding": {
+  "t": "フィットパディング",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fit to Geometry": {
+  "t": "幾何学に合います",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11652,6 +11940,12 @@
   "added": "2026-10-09"
  },
  "Fixed scale": {
+  "t": "固定スケール",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fixed Scale": {
   "t": "固定スケール",
   "src": "libretranslate",
   "reviewed": false,
@@ -11825,6 +12119,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Font Name": {
+  "t": "フォント名",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Font opacity percentage, current value {round} percent": {
   "t": "フォントの不透明度パーセント、現在の値 {round} ツイート",
   "src": "libretranslate",
@@ -11851,6 +12151,12 @@
  },
  "Font Size": {
   "t": "文字サイズ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Font size for table column headers in the PDF. Smaller sizes fit more columns but may be harder to read.": {
+  "t": "PDF内のテーブル列ヘッダーのフォントサイズ。 より小さいサイズはより多くのコラムに合いますが、読みにくいかもしれません。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11953,6 +12259,18 @@
  },
  "Fonts": {
   "t": "フォント",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Footer": {
+  "t": "フッター",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Footer Height (mm)": {
+  "t": "足車の高さ(mm)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12575,6 +12893,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Google Fonts are loaded automatically when generating PDF.": {
+  "t": "PDFを生成するときに自動的にGoogleフォントがロードされます。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Google Maps 3D": {
   "t": "Googleマップ3D",
   "src": "libretranslate",
@@ -13133,8 +13457,38 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Header Background": {
+  "t": "ヘッダーの背景",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Header Content": {
+  "t": "ヘッダーコンテンツ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Header Font Size": {
+  "t": "ヘッダーの壷のサイズ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Header Height (mm)": {
+  "t": "ヘッダーの高さ(mm)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Header Text": {
   "t": "ヘッダーテキスト",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Header Text Color": {
+  "t": "ヘッダーのテキスト色",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13163,6 +13517,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Height (mm)": {
+  "t": "高さ(mm)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Height auto-calculated from aspect ratio": {
+  "t": "アスペクト比から自動計算される高さ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Height of each label in points (72 points = 1 inch)": {
   "t": "ポイントの各ラベルの高さ(72ポイント=1インチ)",
   "src": "libretranslate",
@@ -13171,6 +13537,18 @@
  },
  "Height of the chart in pixels. 200px is good for dashboards, 300-400px for detailed analysis. Maximum 500px.": {
   "t": "ピクセル内のチャートの高さ。 200px はダッシュボード、300-400px で詳細な解析に適しています。 最大500px。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Height of the footer area in millimeters. Increase if disclaimer text is getting cut off.": {
+  "t": "ミリメートルのフッター面積の高さ。 免責事項のテキストが切り離されていれば増加して下さい。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Height of the map image in millimeters. Larger maps show more context but use more page space.": {
+  "t": "ミリメートルのマップ画像の高さ。 より大きい地図はより多くの文脈を示しますが、より多くのページ スペースを使用して下さい。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13195,6 +13573,12 @@
  },
  "Help guide": {
   "t": "ヘルプガイド",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Helvetica (Default)": {
+  "t": "Helvetica (デフォルト)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13451,8 +13835,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Horizontal alignment of the report title in the PDF header.": {
+  "t": "PDFヘッダのレポートタイトルの横の整列。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Horizontal alignment set to {newAlign}": {
   "t": "横の直線セットへの {newAlign}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Horizontal Position": {
+  "t": "横の位置",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Horizontal position of the contact information in the PDF footer.": {
+  "t": "PDFフッターの連絡先情報の水平位置。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13511,6 +13913,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "How rounded the corners should be. Higher values create more rounded corners.": {
+  "t": "角を丸める方法は? より丸みのある角を高値化します。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "How single-record data is arranged: Two-Column (label: value pairs), Table (rows/columns), Cards (boxed groups), Auto (chooses based on record count).": {
+  "t": "シングルレコードのデータ配置方法:2列(ラベル:値ペア)、テーブル(列/列)、カード(ボックスグループ)、オート(レコードカウントに基づいて選択)。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "How the logo aligns vertically within the header space.": {
+  "t": "ロゴがヘッダスペース内で縦に整列する方法。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "How the printed scale is determined: keep the current on-screen scale, fit the current view, or use a fixed scale.": {
   "t": "印刷されたスケールが決定する方法:現在の画面上のスケールを保ち、現在のビューに合い、または固定スケールを使用する。",
   "src": "libretranslate",
@@ -13519,6 +13939,12 @@
  },
  "How to calculate chart values: Count = number of records, Sum/Avg/Min/Max = aggregate a numeric value field.": {
   "t": "チャートの値を計算する方法: カウント = レコードの数, Sum/Avg/Min/Max = 数値フィールドを集計します。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "How to determine the map zoom level. 'Fixed Scale' uses a specific scale value you define. 'Fit to Geometry' automatically zooms to show the entire highlighted geometry (e.g., parcel boundary) from the Highlight Layer, useful when features vary in size.": {
+  "t": "地図ズームレベルを決定する方法。 'Fixed Scale' は定義する特定のスケール値を使用します。 'Geometry' に自動的にズームして、ハイライトレイヤーからハイライトされたジオメトリ全体(例えば、小包境界)を表示し、機能がサイズが異なる場合に便利です。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13669,6 +14095,24 @@
  },
  "Image file size must be less than 1MB": {
   "t": "画像ファイルサイズは1MB未満",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Image will be stretched to exact dimensions (may distort)": {
+  "t": "映像は厳密な次元に伸びます(大きい歪み)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Image will scale to exact width, height calculated from aspect ratio": {
+  "t": "画像は正確な幅、アスペクト比で計算された高さにスケールされます",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Image will scale to fit within maximum dimensions": {
+  "t": "映像は最高の次元で合うためにスケールします",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13973,6 +14417,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Include a footer on each PDF page. Contains page numbers, contact info, and disclaimer text.": {
+  "t": "PDFページごとにフッターを含める。 ページ番号、連絡先情報、および免責事項テキストが含まれています。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include a screenshot of the map showing the selected location in the PDF header.": {
+  "t": "PDFヘッダーで選択した場所を示すマップのスクリーンショットを含みます。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Include feature attributes": {
   "t": "機能属性を含める",
   "src": "libretranslate",
@@ -13999,6 +14455,12 @@
  },
  "Include legend: adds the layer symbols. Only the layers actually drawing at the printed scale are listed, so the legend matches the map.": {
   "t": "凡例を含む:レイヤーシンボルを追加します。 印刷されたスケールで実際に描画するレイヤーのみがリストされているため、凡例はマップにマッチします。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include Map": {
+  "t": "サイトマップ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14981,6 +15443,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Lato": {
+  "t": "ラト",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Layer": {
   "t": "レイヤー",
   "src": "libretranslate",
@@ -15077,6 +15545,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Layer Title Background": {
+  "t": "層のタイトルの背景",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layer Title Text": {
+  "t": "レイヤータイトルテキスト",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Layer used for spatial selection": {
   "t": "空間選択に使用される層",
   "src": "libretranslate",
@@ -15139,6 +15619,12 @@
  },
  "Layout DPI": {
   "t": "レイアウト DPI",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layout Style": {
+  "t": "レイアウトスタイル",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15265,6 +15751,12 @@
  },
  "Legal": {
   "t": "法律相談",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Legal disclaimer text shown in small print at the bottom of each page. Common for government reports to note data accuracy limitations.": {
+  "t": "各ページの下部にある小さなプリントで示されている法的免責事項テキスト。 政府報告書は、データの正確性制限を記すためのものです。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15647,6 +16139,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Link Color": {
+  "t": "リンク色",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Link copied": {
   "t": "コピーしたリンク",
   "src": "libretranslate",
@@ -15832,6 +16330,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "loaded": {
+  "t": "ロード",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Loaded {ok} of {attempted} records ({failed} failed).": {
   "t": "ロード {ok} インフォメーション {attempted} レコード(レコード){failed} 失敗)。",
@@ -16060,6 +16564,24 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Logo / Image": {
+  "t": "ロゴ/イメージ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Logo preview": {
+  "t": "ロゴプレビュー",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Logo shape: default (rectangle), circle (circular crop), or rounded (rounded corners).": {
+  "t": "ロゴ形状: デフォルト(長方形)、円(円周作)、または丸め(丸角)。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Long (January 1, 2024)": {
   "t": "ロング(2024)",
@@ -16403,6 +16925,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Map Height (mm)": {
+  "t": "地図の高さ(mm)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map Height (px)": {
   "t": "地図の高さ(px)",
   "src": "libretranslate",
@@ -16517,8 +17045,32 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map Scale": {
+  "t": "地図のスケール",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map scale for the PDF screenshot. Smaller values = more zoomed in, larger values = more zoomed out. Note: Very small scales (under ~500) may result in blurry imagery if the basemap lacks high-resolution tiles. Examples: 564 = building detail, 1500 = parcel level, 2500 = default, 5000 = neighborhood, 10000 = district.": {
+  "t": "PDFスクリーンショットのマップスケール。 より小さい値=より多くのズームイン、より大きい値=より多くのズームアウト。 注意:ベースマップが高解像度のタイルを欠いている場合は、非常に小さなスケール(〜500未満)は、ぼやけた画像が発生することがあります。 例: 564 = ビルド詳細、1500 = パーセルレベル、2500 = デフォルト、5000 = 近距離、10000 = 地区。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map Scale Mode": {
+  "t": "地図のスケール モード",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map scale when zooming to features. 1000 = very close (building level), 5000 = neighborhood, 25000 = city area.": {
   "t": "機能にズームするときのマップスケール。 1000 = 非常に近い(建物レベル)、5000 = 近距離、25000 = 都市面積。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map Screenshot": {
+  "t": "地図スクリーンショット",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16775,6 +17327,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Max Height (mm)": {
+  "t": "最高の高さ(mm)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Max legend items": {
   "t": "最高の伝説項目",
   "src": "libretranslate",
@@ -16801,6 +17359,12 @@
  },
  "Max Suggestions": {
   "t": "最高の提案",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Max Width (mm)": {
+  "t": "最高の幅(mm)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17197,6 +17761,12 @@
  },
  "MGRS": {
   "t": "MGRSの特長",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Middle": {
+  "t": "ミドル",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18671,6 +19241,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Nunito": {
+  "t": "ネクスト",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "ObjectID": {
   "t": "オブジェクトID",
   "src": "libretranslate",
@@ -19127,6 +19703,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Open Sans": {
+  "t": "オープンサンズ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Open service": {
   "t": "オープンサービス",
   "src": "libretranslate",
@@ -19288,6 +19870,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Oswald": {
+  "t": "オズワルド",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Other parts of the app, such as a table, can follow along and show the same record.": {
   "t": "テーブルなどのアプリの他の部分は、同じレコードをフォローして表示することができます。",
@@ -19535,6 +20123,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Padding (mm)": {
+  "t": "パッド(mm)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Padding factor around the geometry when using Fit to Geometry mode. 1.0 = no padding (geometry fills entire map), 1.2 = 20% padding (default), 1.5 = 50% padding. Higher values show more context around the feature.": {
+  "t": "Fit を Geometry モードに使用するとジオメトリの周りのパディング係数。 1.0 = パディングなし (ジオメトリはマップ全体を満たします), 1.2 = 20% パディング (デフォルト), 1.5 = 50% パディング. より高い値は、機能の周りのより多くのコンテキストを表示します。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Page {i} of {n}": {
   "t": "サイトマップ {i} インフォメーション {n}",
   "src": "libretranslate",
@@ -19567,6 +20167,12 @@
  },
  "Page number": {
   "t": "ページ番号",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Page Number Position": {
+  "t": "ページ番号位置",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19781,6 +20387,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "PDF font. Built-in fonts (Helvetica, Times, Courier) support ASCII only. For Polish/Unicode characters, use Noto Sans or other Google Fonts which are downloaded at PDF generation time.": {
+  "t": "PDFフォント。 組み込みフォント(Helvetica、Times、Courier)は、ASCIIのみをサポートしています。 ポーランド文字/Unicode文字の場合は、PDF生成時にダウンロードしたNoto Sansまたは他のGoogle Fontを使用してください。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "PDF generated successfully.": {
   "t": "正常に生成されたPDF。",
   "src": "libretranslate",
@@ -19807,6 +20419,12 @@
  },
  "PDF opens a small window first so you can choose what goes on the page.": {
   "t": "PDF は最初に小さなウィンドウを開くので、ページに行くものを選ぶことができます。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "PDF Table Settings": {
+  "t": "PDFテーブルの設定",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20225,6 +20843,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "PNG, JPG, GIF, SVG (max 1MB)": {
+  "t": "PNG、JPG、GIF、SVG(最大1MB)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "PNG32, PNG8, JPG or GIF: a picture, for a report, a slide or a web page. PNG32 is the sharpest.": {
   "t": "PNG32、PNG8、JPG、GIF: レポート、スライド、またはWebページ用の画像。 PNG32は最もシャープです。",
   "src": "libretranslate",
@@ -20417,6 +21041,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Poppins": {
+  "t": "ポップピン",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Popup Auto Close (seconds)": {
   "t": "ポップアップオートクローズ(秒)",
   "src": "libretranslate",
@@ -20461,6 +21091,12 @@
  },
  "Position": {
   "t": "ポジション",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Position & Layout": {
+  "t": "位置とレイアウト",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21047,6 +21683,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "PT Sans": {
+  "t": "PT サンズ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Publishes a records-selection-changed message when a result is selected, so widgets such as Table or Property Report can respond to the identify click.": {
   "t": "結果が選択されたときにレコード選択変更されたメッセージを公開するので、テーブルやプロパティレポートなどのウィジェットは、識別クリックに応答できます。",
   "src": "libretranslate",
@@ -21205,6 +21847,12 @@
  },
  "Radius measurement enabled. Display the circle radius.": {
   "t": "半径測定を有効にしました。 円の半径を表示します。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Raleway": {
+  "t": "ラレウェイ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21497,6 +22145,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Regular Font (Required)": {
+  "t": "レギュラーフォント(必須)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Related layers from the same service were selected automatically - adjust if needed": {
   "t": "同じサービスからの関連レイヤーが自動的に選択された - 必要に応じて調整",
   "src": "libretranslate",
@@ -21625,6 +22279,12 @@
  },
  "Remove button": {
   "t": "削除ボタン",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Remove Custom Font": {
+  "t": "カスタムフォントを削除します",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21859,6 +22519,12 @@
  },
  "Report summary template": {
   "t": "レポート概要テンプレート",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Report Title": {
+  "t": "レポートタイトル",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22297,6 +22963,12 @@
  },
  "Round($feature.Acres, 2) + \" acres\"": {
   "t": "ラウンド($feature) エーカー、2) + \"エーカー\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Rounded corners": {
+  "t": "丸みのある角",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22843,6 +23515,12 @@
  },
  "Section Details": {
   "t": "セクション詳細",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Section Headers": {
+  "t": "セクションヘッダ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23765,6 +24443,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Shape": {
+  "t": "形状:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Shape drawing tools": {
   "t": "形状図面ツール",
   "src": "libretranslate",
@@ -23981,6 +24665,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show Date": {
+  "t": "ショーの日付",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show diagnostic overlay": {
   "t": "診断オーバーレイを表示",
   "src": "libretranslate",
@@ -24019,6 +24709,12 @@
  },
  "Show Field Validation": {
   "t": "フィールド検証を表示する",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show Footer": {
+  "t": "ショーフッター",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -24205,6 +24901,12 @@
  },
  "Show overview inset": {
   "t": "インセットの概要を表示",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show Page Numbers": {
+  "t": "ページ番号を表示",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -24509,6 +25211,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Size Mode": {
+  "t": "サイズモード",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Size of text on labels (6-20 points)": {
   "t": "ラベルのテキストのサイズ(6-20ポイント)",
   "src": "libretranslate",
@@ -24517,6 +25225,12 @@
  },
  "Size of the gap between the boundary end point and start point; zero means a perfect closure": {
   "t": "境界終点と開始点の間のギャップのサイズ。ゼロは完璧な閉鎖を意味します",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Size Settings": {
+  "t": "サイズ設定",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -24845,8 +25559,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Source Sans Pro": {
+  "t": "ソースサンズプロ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "South azimuth": {
   "t": "南アジマス",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Space around the logo in millimeters. Adds visual breathing room between logo and other elements.": {
+  "t": "ミリメートルのロゴ周りの空間。 ロゴと他の要素の間で視覚的な呼吸部屋を追加します。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -25265,6 +25991,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Stretch (exact size, may distort)": {
+  "t": "伸張(正確なサイズ、歪むかもしれない)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Striped Rows": {
   "t": "ストライプされた列",
   "src": "libretranslate",
@@ -25499,6 +26231,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Table Header Background": {
+  "t": "テーブルヘッダーの背景",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Table Header Text": {
+  "t": "テーブルヘッダーテキスト",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Table Name": {
   "t": "テーブル名",
   "src": "libretranslate",
@@ -25639,6 +26383,24 @@
  },
  "Text background color picker, currently no background": {
   "t": "テキストの背景色のピッカー, 現在背景なし",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Text color for column header labels. Use white or a light color when using a dark header background.": {
+  "t": "列のヘッダーのラベルのためのテキスト色。 暗いヘッダの背景を使うと、白または薄い色を使用してください。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Text color for layer title headers. Should contrast well with the Layer Title Background color for readability.": {
+  "t": "層のタイトルのヘッダーのためのテキスト色。 読みやすさのための層のタイトルの背景色とよく対照的である必要があります。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Text color for title and date in the PDF header. Ensure good contrast with the background color.": {
+  "t": "PDFヘッダーのタイトルと日付のテキスト色。 背景色と良好なコントラストを確保します。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -26699,6 +27461,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "These settings control table appearance in the PDF export, not the on-screen widget display.": {
+  "t": "これらの設定は、画面上のウィジェットの表示ではなく、PDFエクスポートでテーブルの外観を制御します。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "They do not follow you to another computer or browser, and clearing your browser's site data removes them.": {
   "t": "別のコンピューターやブラウザに追従せず、ブラウザのサイトデータを消去します。",
   "src": "libretranslate",
@@ -26951,6 +27719,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Times New Roman": {
+  "t": "タイムズニューローマ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Tip:": {
   "t": "ヒント:",
   "src": "libretranslate",
@@ -27001,6 +27775,18 @@
  },
  "Title Field": {
   "t": "タイトルフィールド",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Title Mode": {
+  "t": "タイトルモード",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Title Position": {
+  "t": "タイトルポジション",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -27359,6 +28145,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Total header area height": {
+  "t": "総ヘッダー区域の高さ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Total height of the PDF header area including logo, title, and date. Increase if content is overlapping.": {
+  "t": "ロゴ、タイトル、日付を含むPDFヘッダー領域の合計高さ。 コンテンツが重複している場合の増加。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Total length measurement disabled. Display the total length of the line.": {
   "t": "全長測定が無効になっています。 線の全長を表示します。",
   "src": "libretranslate",
@@ -27424,6 +28222,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Transparent": {
+  "t": "トランスペアレント",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "transparent (no background)": {
   "t": "透明(背景なし)",
@@ -27617,6 +28421,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Two-Column": {
+  "t": "2列コラム",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Type": {
   "t": "タイプ:",
   "src": "libretranslate",
@@ -27715,6 +28525,12 @@
  },
  "Typeface applied to all text on the page.": {
   "t": "ページ上のすべてのテキストに適用されるTypeface。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Typography": {
+  "t": "タイポグラフィ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -28145,8 +28961,44 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Upload a bold variant of your font. If not provided, the regular font will be used for bold text.": {
+  "t": "フォントの太字の variant をアップロードします。 提供されていない場合、通常のフォントは太字のテキストに使用されます。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Upload a TrueType (.ttf) font file for regular text. This is required for custom fonts to work.": {
+  "t": "通常のテキストの TrueType (.ttf) フォントファイルをアップロードします。 カスタムフォントの作業が必要です。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Upload bold font": {
+  "t": "太字フォントのアップロード",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Upload Custom Font (TTF)": {
+  "t": "カスタムフォントのアップロード(TTF)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Upload File": {
   "t": "アップロードファイル",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Upload logo": {
+  "t": "ロゴのアップロード",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Upload regular font": {
+  "t": "通常のフォントをアップロードする",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -28156,6 +29008,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Upload TTF": {
+  "t": "アップロード TTF",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Upload TTF font files. Regular weight is required; bold is optional (will use regular if not provided).": {
+  "t": "TTFフォントファイルをアップロードします。 通常の重量が必要です。太字はオプションです(提供されていない場合は通常使用してください)。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Uploaded once and stored in the widget - used by any picture element that has no image of its own, across all layouts. Independent of the .pagx file paths.": {
   "t": "一度アップロードしてウィジェットに保存 - すべてのレイアウトで、独自の画像を持たない任意の画像要素で使用されます。 .pagxファイルパスの独立。",
@@ -28595,6 +29459,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Vertical Alignment": {
+  "t": "縦の直線",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Vertical alignment set to {newAlign}": {
   "t": "縦の直線セットへの {newAlign}",
   "src": "libretranslate",
@@ -28798,6 +29668,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "WCAG 1.1.1: Describes the logo for screen readers": {
+  "t": "WCAG 1.1.1: スクリーンの読者のためのロゴを記述します",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "WCAG 1.1.1: Descriptive text for screen readers. Describe the logo content, e.g., 'City of Grand Junction logo'.": {
+  "t": "WCAG 1.1.1: スクリーンリーダーの記述的なテキスト。 「グランドジャンクションロゴの街」など、ロゴの内容を記述します。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Web Mercator": {
   "t": "ウェブマーケター",
@@ -29027,6 +29909,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Where the logo appears horizontally in the PDF header.": {
+  "t": "PDFヘッダーにロゴが水平に表示される場所。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Where things live": {
   "t": "物事が生きる場所",
   "src": "libretranslate",
@@ -29035,6 +29923,12 @@
  },
  "Where to display the description relative to the chart. 'Above' provides context first; 'Below' works as a caption.": {
   "t": "チャートに相対的な説明を表示する場所。 'Above' はコンテキストを最初に提供します。'Below' はキャプションとして機能します。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Where to place page numbers in the footer. Right is most common for formal documents.": {
+  "t": "フッターにページ番号を置く場所。 正式な書類は、最も一般的です。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -29167,6 +30061,12 @@
  },
  "Width (in)": {
   "t": "幅(インチ)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Width (mm)": {
+  "t": "幅(mm)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
