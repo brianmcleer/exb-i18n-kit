@@ -47,6 +47,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "-- No Grouping (Sum All) --": {
+  "t": "Нет групп (сумма всех)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "-- None --": {
+  "t": "- Нет, нет.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "-- Select Category Field --": {
   "t": "- Выберите поле категории -",
   "src": "libretranslate",
@@ -55,6 +67,12 @@
  },
  "-- Select Field --": {
   "t": "- Выберите поле.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "-- Select Numeric Field --": {
+  "t": "- Выберите числовое поле",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -899,6 +917,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{selectedFieldsCount} field": {
+  "t": "{selectedFieldsCount} поле",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{selectedFieldsCount} fields": {
+  "t": "{selectedFieldsCount} поля",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{selectedIdsCount} selected": {
   "t": "{selectedIdsCount} выбранный",
   "src": "libretranslate",
@@ -1091,6 +1121,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "↕ Reset to service order": {
+  "t": "Перезагрузка в сервисный заказ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "─── All Widgets ───": {
   "t": "Все клипы All Widgets",
   "src": "libretranslate",
@@ -1105,6 +1141,12 @@
  },
  "✓ Apply & Close": {
   "t": "Скачать Apply & Close",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "✓ Service order": {
+  "t": "✓ Сервисный заказ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1535,6 +1577,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Above Chart": {
+  "t": "Выше диаграммы",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Accepted types: CSV, TSV, TXT, XLSX, XLS and ODS.": {
   "t": "Принятые типы: CSV, TSV, TXT, XLSX, XLS и ODS.",
   "src": "libretranslate",
@@ -1726,6 +1774,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Add data layers below and configure their data sources to see available fields for charting.": {
+  "t": "Добавьте слои данных ниже и настройте их источники данных, чтобы увидеть доступные поля для построения диаграмм.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add data layers with numeric fields to enable field comparison.": {
+  "t": "Добавьте слои данных с числовыми полями, чтобы обеспечить сравнение полей.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Add drawings": {
   "t": "Добавить чертежи",
@@ -2759,6 +2819,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Alternative: Enter a direct ArcGIS REST endpoint URL (e.g., .../FeatureServer/0). Useful for layers not in the web map or external services.": {
+  "t": "Альтернатива: Введите прямой URL конечной точки ArcGIS REST (например, .../FeatureServer/0). Полезно для слоев не на веб-карте или внешних сервисах.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Always use separate pane": {
   "t": "Всегда используйте отдельные панели",
   "src": "libretranslate",
@@ -2993,6 +3059,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Area Chart": {
+  "t": "Диаграмма района",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Area Count": {
   "t": "Граф округа",
   "src": "libretranslate",
@@ -3082,6 +3154,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Ascending": {
+  "t": "Восхождение",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Ascending (A→Z, 0→9, Oldest→Newest)": {
+  "t": "Восхождение (A→Z, 0→9, Старейший→Новый)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "At least name and address1 fields should be mapped": {
   "t": "По крайней мере, имена и адреса1 поля должны быть отображены",
@@ -3211,6 +3295,12 @@
  },
  "Automatic (read the map legend directly)": {
   "t": "Автоматический (читать легенду карты напрямую)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Automatically display all queried features from this layer on the map when results load. Creates visual markers/highlights for each feature.": {
+  "t": "Автоматически отображать все запрашиваемые функции из этого слоя на карте при загрузке результатов. Создает визуальные маркеры / подсветки для каждой функции.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3383,6 +3473,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Bar Chart": {
+  "t": "Бар-чарт",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Bar/Area/Line best for comparisons, Pie/Donut for proportions. Radial Bar offers unique circular visualization.": {
+  "t": "Bar/Area/Line лучше всего подходит для сравнения, Pie/Donut — для пропорций. Radial Bar предлагает уникальную круговую визуализацию.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Base": {
   "t": "База",
   "src": "libretranslate",
@@ -3496,6 +3598,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Below Chart": {
+  "t": "Ниже диаграммы",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Beside the line": {
   "t": "Рядом линия",
@@ -3845,6 +3953,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Buffer distance": {
+  "t": "Расстояние буфера",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Buffer Distance": {
+  "t": "Буферное расстояние",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Buffer distance - the radius of the buffer zone around graphics": {
   "t": "Буферное расстояние — радиус буферной зоны вокруг графики",
   "src": "libretranslate",
@@ -3919,6 +4039,12 @@
  },
  "Buffer outline color: {bufferOutlineColor}. Click to change.": {
   "t": "Цвет очертания буфера: {bufferOutlineColor}Нажмите, чтобы изменить.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Buffer unit": {
+  "t": "Буферная установка",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4127,6 +4253,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Cards": {
+  "t": "Карты",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Carry basemap to next map": {
   "t": "Перенос базовой карты на следующую карту",
   "src": "libretranslate",
@@ -4229,6 +4361,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Change series color": {
+  "t": "Изменение цвета",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Change symbol": {
   "t": "Изменить символ",
   "src": "libretranslate",
@@ -4277,6 +4415,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Chart Description": {
+  "t": "Описание диаграммы",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Chart Height (px)": {
+  "t": "Высота диаграммы (px)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Chart mode": {
   "t": "Режим диаграммы",
   "src": "libretranslate",
@@ -4285,6 +4435,18 @@
  },
  "Chart Mode": {
   "t": "режим Chart",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Chart type": {
+  "t": "Тип диаграммы",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Chart Type": {
+  "t": "Тип диаграммы",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4480,6 +4642,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Choose ascending (A-Z, 0-9, oldest to newest) or descending (Z-A, 9-0, newest to oldest) order for the default sort.": {
+  "t": "Выберите восходящий (A-Z, 0-9, старейший к новейшему) или нисходящий (Z-A, 9-0, новейший к старейшему) порядок по умолчанию.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Choose between Physical Mailing Address or Owner Address": {
   "t": "Выберите между физическим адресом или адресом владельца",
@@ -4903,6 +5071,12 @@
  },
  "Clearing your browser history and site data removes saved measurements. Export what you want to keep.": {
   "t": "Очистка истории браузера и данных сайта удаляет сохраненные измерения. Экспортируйте то, что вы хотите сохранить.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click \"Fetch Fields\" or enter URL and press Tab": {
+  "t": "Нажмите «Fetch Fields» или введите URL и нажмите Tab",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5597,8 +5771,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Collapsed by default": {
+  "t": "Крах по умолчанию",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Color {c}": {
   "t": "цвет {c}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Color used to display all features on the map when results load. Choose a different color from Highlight Color to distinguish between static display and hover interaction.": {
+  "t": "Цвет используется для отображения всех функций на карте при загрузке результатов. Выберите другой цвет от Highlight Color, чтобы отличить статический дисплей от взаимодействия наведения.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Color used to highlight features on hover or when zooming. This is the interactive highlight color for row interactions.": {
+  "t": "Цвет используется для выделения функций при наведении или при увеличении. Это интерактивный цвет подсветки для взаимодействия строк.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6181,6 +6373,12 @@
  },
  "Controls polygon fill transparency. 0 = outline only (see-through), 0.3 = semi-transparent, 1 = solid opaque fill.": {
   "t": "Контроль полигона заполняет прозрачность. 0 = только контур (прозрачный), 0.3 = полупрозрачный, 1 = твердое непрозрачное наполнение.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Controls whether this data layer is expanded or collapsed when query results are displayed. When collapsed, users can click to expand and view the data.": {
+  "t": "Контролирует, расширяется ли этот уровень данных или разрушается при отображении результатов запроса. При обрушении пользователи могут нажать, чтобы расширить и просмотреть данные.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6923,6 +7121,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Custom Message": {
+  "t": "Пользовательское сообщение",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Custom no results message": {
+  "t": "Пользователь no results message",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Custom settings": {
   "t": "Пользовательские настройки",
   "src": "libretranslate",
@@ -6973,6 +7183,12 @@
  },
  "Data layer selected": {
   "t": "Выбранный уровень данных",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Data Layers ({layersCount})": {
+  "t": "Слои данных{layersCount})",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7223,6 +7439,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default Expanded": {
+  "t": "Default расширяется",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default expanded state": {
+  "t": "Дефолт расширенный штат",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default Expanded State": {
   "t": "Расширенное государство по умолчанию",
   "src": "libretranslate",
@@ -7345,6 +7573,18 @@
  },
  "Default second units (dual)": {
   "t": "Второй блок по умолчанию (двойной)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default sort field": {
+  "t": "поле сортировки по умолчанию",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default Sort Field": {
+  "t": "Дефолтное поле",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7577,6 +7817,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Descending": {
+  "t": "спускаться",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Descending (Z→A, 9→0, Newest→Oldest)": {
+  "t": "Спускаясь (Z→A, 9→0, Newest→Oldest)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Descending shows largest values first; ascending shows smallest first.": {
+  "t": "Спускаясь, сначала показывают наибольшие значения; восходя, сначала показывают наименьшие.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Description": {
   "t": "Описание",
   "src": "libretranslate",
@@ -7585,6 +7843,12 @@
  },
  "Description field": {
   "t": "Поле описания",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Description Position": {
+  "t": "Описание Позиция",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7829,6 +8093,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Display all features on map when results load": {
+  "t": "Отображение всех функций на карте при загрузке результатов",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Display features sorted by distance with badges.": {
+  "t": "Функции отображения, отсортированные по расстоянию с помощью значков.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Display field": {
   "t": "Дисплейное поле",
   "src": "libretranslate",
@@ -7859,6 +8135,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Display mode": {
+  "t": "Режим отображения",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Display Mode": {
   "t": "Режим отображения",
   "src": "libretranslate",
@@ -7867,6 +8149,12 @@
  },
  "Display name": {
   "t": "Имя дисплея",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Display name for this layer in the results panel. Use a descriptive name like 'Zoning Districts' instead of the service layer name.": {
+  "t": "Отобразите имя этого слоя в панели результатов. Используйте описательное имя, такое как «Zoning Districts», вместо названия уровня обслуживания.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7907,6 +8195,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Display Unit": {
+  "t": "Дисплейный блок",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Display validation messages for field mappings": {
   "t": "Отображение сообщений валидации для отображения полей",
   "src": "libretranslate",
@@ -7931,6 +8225,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Distance Display": {
+  "t": "Дистанционный дисплей",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Distance field": {
   "t": "Дистанционное поле",
   "src": "libretranslate",
@@ -7939,6 +8239,12 @@
  },
  "Distance in the plan units. Add m, ft, usft, ch (chains), rd (rods), lk (links), or va (varas) to override. Type * to copy the previous line. Numpad + adds the line, numpad / jumps to radius.": {
   "t": "Расстояние до плановых единиц. Добавить m, ft, usft, ch (цепи), rd (стержни), lk (ссылки) или va (вары) для переопределения. Введите *, чтобы скопировать предыдущую строку. Numpad + добавляет линию, нумпад/скакивает к радиусу.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Distance unit for the search radius.": {
+  "t": "Дистанционный блок для радиуса поиска.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7999,6 +8305,12 @@
  },
  "Done": {
   "t": "Сделано",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Donut Chart": {
+  "t": "Пончик-чарт",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8272,6 +8584,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Draw feature outline on map when user hovers over a table row. Great for visual correlation between data and geography.": {
+  "t": "Нарисуйте контур функции на карте, когда пользователь парит над строкой стола. Отлично подходит для визуальной корреляции между данными и географией.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Draw feature outline/fill on map when selected from search results. Useful for showing parcel boundaries or feature locations.": {
   "t": "Нарисуйте контур / заполнение функции на карте при выборе из результатов поиска. Полезно для отображения границ посылок или функциональных мест.",
@@ -8711,8 +9029,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "e.g., acres": {
+  "t": "например, акры",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "e.g., ETRS89 / Poland CS92": {
   "t": "ETRS89 / Польша CS92",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g., No zoning restrictions apply to this location.": {
+  "t": "Например, никакие ограничения зонирования не применяются к этому месту.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9233,6 +9563,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Enable Nearby Mode": {
+  "t": "Включить ближний режим",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enable nearby mode for this layer": {
+  "t": "Включите близлежащий режим для этого слоя",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enable or disable buffer creation for map graphics. When enabled, buffers will be automatically created around new drawings.": {
   "t": "Включить или отключить создание буфера для графической карты. При включении буферы будут автоматически создаваться вокруг новых чертежей.",
   "src": "libretranslate",
@@ -9311,6 +9653,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Enable row highlight on hover": {
+  "t": "Включите выделение строки на виселице",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enable saved layer views": {
   "t": "Скачать Saved Layer Views",
   "src": "libretranslate",
@@ -9373,6 +9721,12 @@
  },
  "Enable when the widget is inside a Widget Controller so active drawings are cancelled on close.": {
   "t": "Включите, когда виджет находится внутри контроллера виджета, чтобы активные чертежи отменялись при закрытии.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enable zoom on row click": {
+  "t": "Включить zoom on row click",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9568,6 +9922,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Enter the text to display when no intersecting features are found for this layer. Leave blank to show nothing.": {
+  "t": "Введите текст для отображения, когда нет пересекающихся функций для этого слоя. Оставьте пустой, чтобы ничего не показывать.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Enter the text you want to display on the map. Spaces are preserved. Current length is {textCount} characters with {splitCount} spaces.": {
   "t": "Введите текст, который вы хотите отобразить на карте. Пространства сохраняются. Текущая длина {textCount} персонажей с {splitCount} Пространства.",
@@ -9923,6 +10283,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Expand the search area around the point. Use for finding features near (not just intersecting) the search location. 0 = point-only query.": {
+  "t": "Расширьте область поиска вокруг точки. Используйте для поиска функций рядом (а не только пересекающих) местоположение поиска. 0 = только точечный запрос.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Expand toolbar": {
   "t": "Расширить панель инструментов",
   "src": "libretranslate",
@@ -9931,6 +10297,12 @@
  },
  "Expanded": {
   "t": "расширенный",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Expanded by default": {
+  "t": "Расширяется по умолчанию",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10343,6 +10715,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Extra categories grouped as \"Other\"": {
+  "t": "Дополнительные категории, сгруппированные как «Другие»",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Extra features added by this custom Map Layers widget.": {
   "t": "Дополнительные функции, добавленные этим пользовательским виджетом Map Layers.",
   "src": "libretranslate",
@@ -10541,6 +10919,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Fetch Fields": {
+  "t": "Принесите поля",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Field": {
   "t": "поле",
   "src": "libretranslate",
@@ -10627,6 +11011,12 @@
  },
  "Fields that do not exist on the layer are skipped on save": {
   "t": "Поля, которые не существуют на слое, пропускаются на сохранение",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fields to Display": {
+  "t": "Поля для отображения",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11257,6 +11647,12 @@
  },
  "For one page per parcel, park or project, set Pages from to One page per feature and pick the layer. Features chooses which ones: in the current map view, inside the print area rectangle, or the whole layer, even beyond the map. Any filter on the layer (from Map Layers, a Filter widget or the map itself) is applied too. Only layers in the map's layer list that are turned on are listed (whichever layer list widget you use), including ones inside groups, nested groups and map image services, shown with their group path, like Utilities / Water / Mains. Each page centers on its feature, outlines it in orange and prints at the best-fit scale, or the fixed scale you set. Text in the layout that uses {field:NAME} shows that feature's value.": {
   "t": "Для одной страницы на посылку, парк или проект, установите страницы от одной страницы на функцию и выберите слой. Функции выбирают, какие из них: в текущем виде карты, внутри прямоугольника области печати или всего слоя, даже за пределами карты. Также применяется любой фильтр на слое (от Map Layers, виджета фильтра или самой карты). Перечислены только слои в списке слоев карты, которые включены (в зависимости от используемого вами виджета списка слоев), включая те, которые находятся внутри групп, вложенных групп и служб отображения карт, показанных с их групповым путем, таких как коммунальные услуги / вода / сети. Каждая страница сосредотачивается на своей функции, очерчивает ее в оранжевом цвете и печатает в лучшей шкале или фиксированной шкале, которую вы устанавливаете. Текст в макете, который использует {field:NAME} показывает значение этой функции.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "For polygon fills (0-1)": {
+  "t": "Для полигонных заполнений (0-1)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12137,6 +12533,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Group By (Optional)": {
+  "t": "Группа по (опционально)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Group by Category": {
   "t": "Группа по категориям",
   "src": "libretranslate",
@@ -12389,6 +12791,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Height of the chart in pixels. 200px is good for dashboards, 300-400px for detailed analysis. Maximum 500px.": {
+  "t": "Высота диаграммы в пикселях. 200px хорош для приборных панелей, 300-400px для детального анализа. Максимум 500px.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Height of the map preview image in pixels. Larger = more visible but takes more vertical space. 150px is a good default.": {
   "t": "Высота изображения предварительного просмотра карты в пикселях. Больший = более видимый, но занимает больше вертикального пространства. 150px — хороший дефолт.",
   "src": "libretranslate",
@@ -12581,6 +12989,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Highlight geometry when hovering rows": {
+  "t": "Выделить геометрию при парении рядов",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Highlight Layer": {
   "t": "высотный слой",
   "src": "libretranslate",
@@ -12697,6 +13111,18 @@
  },
  "How to calculate chart values: Count = number of records, Sum/Avg/Min/Max = aggregate a numeric value field.": {
   "t": "Как вычислить значения диаграммы: Счет = количество записей, Sum/Avg/Min/Max = агрегировать числовое поле значений.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "How to display records when multiple features are returned. Table shows traditional rows/columns. List shows records stacked with field values separated by pipes. Cards show each record as a grouped block with labeled fields.": {
+  "t": "Как отображать записи при возвращении нескольких функций. В таблице показаны традиционные ряды/колонки. Список показывает записи, уложенные значениями поля, разделенными трубами. Карты показывают каждую запись как сгруппированный блок с помеченными полями.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "How to order chart categories: by Value (numeric), by Label (alphabetical), or None (data order).": {
+  "t": "Как упорядочить категории диаграмм: по значению (число), по ярлыку (алфавитный) или нет (порядок данных).",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13123,6 +13549,12 @@
  },
  "Include feature attributes": {
   "t": "Включить атрибуты",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include in PDF": {
+  "t": "Включить в PDF",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14177,6 +14609,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Layer Title": {
+  "t": "Название уровня",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Layer title and visibility options": {
   "t": "Название уровня и варианты видимости",
   "src": "libretranslate",
@@ -14299,6 +14737,12 @@
  },
  "Leave empty for automatic (uses map's WKID)": {
   "t": "Оставьте пустой для автоматического (использует карту WKID)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Leave empty to hide the message entirely": {
+  "t": "Оставьте пустой, чтобы полностью скрыть сообщение",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14531,6 +14975,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Limit number of chart categories displayed. Additional categories are grouped into 'Other'. Prevents overcrowded charts.": {
+  "t": "Ограниченное количество отображаемых категорий диаграмм. Дополнительные категории сгруппированы в «Другие». Предотвращает переполненные графики.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Limit the number of records to process": {
   "t": "Ограничьте количество записей для обработки",
   "src": "libretranslate",
@@ -14554,6 +15004,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Line Chart": {
+  "t": "Линейный график",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Line color": {
   "t": "Цвет линии",
@@ -14761,6 +15217,18 @@
  },
  "Link the title to the pages: while Map series is open, the buttons under Map title add Page name, Page number or any visible field, and the line under them shows how page 1's title will read. Order sorts the pages A to Z or Z to A by the name field. The Overview inset switch adds a locator overview to every data-driven page.": {
   "t": "Свяжите заголовок со страницами: в то время как серия Карт открыта, кнопки под заголовком Карты добавляют имя страницы, номер страницы или любое видимое поле, а строка под ними показывает, как будет читаться заголовок страницы 1. Заказ сортирует страницы A на Z или Z на A по имени. Переключатель ввода Overview добавляет обзор локатора на каждую страницу, управляемую данными.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Link URL Field": {
+  "t": "Ссылка URL поле",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "List": {
+  "t": "Список",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15215,6 +15683,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Main display field for each nearby feature (e.g., park name, school name).": {
+  "t": "Главное поле отображения для каждой соседней функции (например, название парка, название школы).",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Major line interval": {
   "t": "Большой интервал",
   "src": "libretranslate",
@@ -15557,6 +16031,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map scale when zooming to features. 1000 = very close (building level), 5000 = neighborhood, 25000 = city area.": {
+  "t": "Масштаб карты при масштабировании функций. 1000 = очень близко (уровень застройки), 5000 = район, 25000 = площадь города.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map series": {
   "t": "Серия карт",
   "src": "libretranslate",
@@ -15797,6 +16277,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Max Categories": {
+  "t": "Макс категории",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Max Features": {
+  "t": "Особенности Max",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Max legend items": {
   "t": "Легенды Макса",
   "src": "libretranslate",
@@ -15827,6 +16319,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Maximum distance to search for nearby features from the query point.": {
+  "t": "Максимальное расстояние для поиска близлежащих функций от точки запроса.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Maximum matching features to show in dropdown. Balance between comprehensive results and UI responsiveness.": {
   "t": "Максимальное соответствие функций, чтобы показать в выпадении. Баланс между всеобъемлющими результатами и отзывчивостью пользовательского интерфейса.",
   "src": "libretranslate",
@@ -15835,6 +16333,12 @@
  },
  "Maximum number of address suggestions to show from this geocoder. Lower values reduce clutter; higher values give more options.": {
   "t": "Максимальное количество адресных предложений, чтобы показать от этого геокодера. Более низкие значения уменьшают беспорядок; более высокие значения дают больше вариантов.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Maximum number of nearby features to display in the list.": {
+  "t": "Максимальное количество близлежащих функций для отображения в списке.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15871,6 +16375,12 @@
  },
  "Maximum suggestions": {
   "t": "Максимальные предложения",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Maximum Value": {
+  "t": "Максимальная стоимость",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16234,6 +16744,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Minimum Value": {
+  "t": "Минимальная стоимость",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Minutes between checks (1 to 120)": {
   "t": "Минуты между проверками (1-120)",
@@ -16667,6 +17183,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Nearby Display Mode": {
+  "t": "Ближайший режим отображения",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Nearby lists show the closest features and how far away they are.": {
   "t": "Ближайшие списки показывают самые близкие черты и как далеко они находятся.",
   "src": "libretranslate",
@@ -16889,6 +17411,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No fields available - select a data source": {
+  "t": "Нет доступных полей - выберите источник данных",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No format is offered, so the Coordinates tab is hidden.": {
   "t": "Формат не предлагается, поэтому вкладка Координаты скрыта.",
   "src": "libretranslate",
@@ -16969,6 +17497,12 @@
  },
  "No Layers Available": {
   "t": "Нет доступных слоев",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No layers in this section": {
+  "t": "Никаких слоев в этом разделе",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17093,6 +17627,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No numeric fields available. Add layers with numeric fields.": {
+  "t": "Численные поля отсутствуют. Добавьте слои с числовыми полями.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No owner address fields configured": {
   "t": "Поля адресов владельцев не настроены",
   "src": "libretranslate",
@@ -17185,6 +17725,12 @@
  },
  "No Results Found: the address was not found. Check the spelling, leave out any unit or suite number, and try again.": {
   "t": "Результаты не найдены: адрес не найден. Проверьте орфографию, оставьте любой номер или номер люкса и попробуйте еще раз.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No Results Message": {
+  "t": "Нет результатов сообщения",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17513,6 +18059,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Number of decimal places for distance values (0-4).": {
+  "t": "Число десятичных мест для значений расстояния (0-4).",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Number of decimal places for line measurements, minimum 0, maximum 10": {
   "t": "Число десятичных мест для линейных измерений, минимум 0, максимум 10",
   "src": "libretranslate",
@@ -17563,6 +18115,18 @@
  },
  "Numbered outlines appear on the map showing the pages. They follow you as you pan and zoom, so you can see the split before you commit to it.": {
   "t": "Пронумерованные контуры появляются на карте, показывающей страницы. Они следуют за вами, как вы сковываете и зум, так что вы можете увидеть раскол, прежде чем совершить его.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Numeric field to aggregate (sum, average, etc.). Required when not using Count aggregation.": {
+  "t": "Численность поля в совокупности (сумма, среднее и т.д.). Требуется при неиспользовании графовой агрегации.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Numeric value field to aggregate": {
+  "t": "Численность поля для агрегирования",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18053,6 +18617,30 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Optional explanatory text shown with the chart. Supports HTML and {field} placeholders for dynamic values.": {
+  "t": "Факультативный пояснительный текст, показанный на диаграмме. Поддерживает HTML и {field} Заполнители для динамических значений.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Optional field containing a URL. When set, the title becomes a clickable link to this URL.": {
+  "t": "Опциональное поле, содержащее URL. При установке заголовок становится кликабельной ссылкой на этот URL.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Optional grouping field": {
+  "t": "Факультативное групповое поле",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Optional HTML description to explain the chart. Supports {field} placeholders, links, and basic HTML.": {
+  "t": "Необязательное описание HTML для объяснения графика. Поддержка {field} Заполнители, ссылки и базовый HTML.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Optional label shown in the coordinate display. If empty, will show the WKID number.": {
   "t": "Факультативная метка, показанная на дисплее координат. Если он пустой, покажите номер WKID.",
   "src": "libretranslate",
@@ -18091,6 +18679,18 @@
  },
  "Optionally draw selection areas or click features to filter": {
   "t": "Необязательно рисовать области выбора или щелкать функции для фильтрации",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Optionally group the field comparison by a category": {
+  "t": "Необязательно группировать сравнение полей по категориям",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Optionally split field comparison by a category. Without grouping, values are summed across all records; with grouping, each category gets its own bar group.": {
+  "t": "Опционально разделить сравнение полей по категориям. Без группировки значения суммируются во всех записях; при группировке каждая категория получает свою собственную группу баров.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18473,6 +19073,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Pan and zoom map to feature location when user clicks a table row. Helps users navigate to specific features.": {
+  "t": "Пан и карта масштабирования для определения местоположения, когда пользователь нажимает на строку таблицы. Помогает пользователям ориентироваться в конкретных функциях.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Pan and zoom the map to what you want on the page. What you see is what prints.": {
   "t": "Пан и масштабируйте карту так, как вы хотите на странице. То, что вы видите, это отпечатки.",
   "src": "libretranslate",
@@ -18581,6 +19187,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "PDF Export": {
+  "t": "PDF экспорт",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "PDF export failed to start.": {
   "t": "Экспорт PDF не начался.",
   "src": "libretranslate",
@@ -18613,6 +19225,12 @@
  },
  "PDF generation failed. Please try CSV export instead.": {
   "t": "Генерация PDF не удалась. Попробуйте экспортировать CSV.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "PDF Max Features": {
+  "t": "Функции PDF Max",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18881,6 +19499,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Pie Chart": {
+  "t": "Пай Шарт",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Pin placed at latitude {lat}, longitude {lon}": {
   "t": "Пин помещен на широте {lat}долгота {lon}",
   "src": "libretranslate",
@@ -19133,6 +19757,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Polygon interior transparency. 0 = outline only (see-through), 0.2 = subtle fill, 1 = solid opaque.": {
+  "t": "Внутренняя прозрачность полигона. 0 = только контур (см.), 0.2 = тонкое наполнение, 1 = твердое непрозрачное.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Polygon Label Template": {
   "t": "Шаблон этикетки полигона",
   "src": "libretranslate",
@@ -19273,6 +19903,12 @@
  },
  "Pre-select common field names when available": {
   "t": "Предвыборные имена общих полей, когда они доступны",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Precision": {
+  "t": "точность",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19895,6 +20531,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Query Settings": {
+  "t": "Настройки запросов",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Query-string parameter used by the Copy Link button in results, and honored on app load to auto-run a search. Example link: ...?propertysearch=1015 N 7th St": {
   "t": "Параметр строк запроса, используемый кнопкой Copy Link в результатах, и выполненный на загрузке приложения для автоматического запуска поиска. Пример ссылки: ...?propertysarch=1015 N 7th St",
   "src": "libretranslate",
@@ -19915,6 +20557,12 @@
  },
  "Querying layers...": {
   "t": "Запросить слои...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Radial Bar": {
+  "t": "Радиальный бар",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20279,6 +20927,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Remove {layerTitle}": {
+  "t": "Удалить {layerTitle}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Remove {sectionTitle}": {
   "t": "Удалить {sectionTitle}",
   "src": "libretranslate",
@@ -20369,6 +21023,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Remove layer": {
+  "t": "Удалить слой",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Remove Result": {
   "t": "Удалить результат",
   "src": "libretranslate",
@@ -20449,6 +21109,12 @@
  },
  "Reorder layers": {
   "t": "Упорядочение слоев",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reorder selected fields to match service/data source order": {
+  "t": "Заказать выбранные поля, чтобы соответствовать заказу на обслуживание / источник данных",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20963,6 +21629,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Row Map Interaction": {
+  "t": "Взаимодействие Row Map",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Rows": {
   "t": "ряды",
   "src": "libretranslate",
@@ -21335,6 +22007,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Search Radius": {
+  "t": "Поиск Radius",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Search results": {
   "t": "Результаты поиска",
   "src": "libretranslate",
@@ -21463,6 +22141,12 @@
  },
  "Second units (dual)": {
   "t": "Вторая единица (двойная)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Secondary info shown below title (e.g., acreage, address, phone number).": {
+  "t": "Вторичная информация, показанная ниже заголовка (например, площадь, адрес, номер телефона).",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21629,11 +22313,23 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Select a feature layer from the web map. This layer will be queried when users search for a location.": {
+  "t": "Выберите слой функций с веб-карты. Этот уровень будет запрашиваться, когда пользователи ищут местоположение.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select a feature to copy": {
   "t": "Выберите функцию для копирования",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Select a field to sort results by when they first load. Leave as 'None' to use the natural order from the query.": {
+  "t": "Выберите поле для сортировки результатов при первой загрузке. Оставьте как «Никто» естественный порядок запроса.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Select a Layer": {
   "t": "Выберите слой",
@@ -21827,6 +22523,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Select fields to compare. Each field becomes a series in the chart.": {
+  "t": "Выберите поля для сравнения. Каждое поле становится серией на графике.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select fields to enable": {
   "t": "Выберите поля, позволяющие",
   "src": "libretranslate",
@@ -21913,6 +22615,12 @@
  },
  "Select None": {
   "t": "Не выбрать",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select numeric fields to compare side-by-side. Each field becomes a bar/series in the chart. Great for comparing metrics like area, value, count.": {
+  "t": "Выберите числовые поля для сравнения бок о бок. Каждое поле становится баром/серией на графике. Отлично подходит для сравнения таких показателей, как площадь, значение, количество.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22063,6 +22771,18 @@
  },
  "Selected features: turn this on and anything you have selected is outlined on the print, in cyan with a thin white edge so it reads over dark aerial photography.": {
   "t": "Выбранные функции: включите это, и все, что вы выбрали, обозначено на печати, в циане с тонким белым краем, чтобы оно читалось по темной аэрофотосъемке.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Selected field display order. Drag an item to reorder.": {
+  "t": "Выбранный порядок отображения поля. Перетащите товар на заказ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Selected field order (drag to reorder)": {
+  "t": "Выбранный порядок поля (drag to reorder)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22457,14 +23177,32 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show All Color": {
+  "t": "Показать все цвета",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show all drawings": {
   "t": "Показать все рисунки",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Show all features on map": {
+  "t": "Показать все особенности на карте",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show all layers": {
   "t": "Показать все слои",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show All on Map": {
+  "t": "Показать все на карте",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22535,6 +23273,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show Distance Badge": {
+  "t": "Показать знак расстояния",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show draw layer in map layer list": {
   "t": "Показать слой рисунка в списке слоев карты",
   "src": "libretranslate",
@@ -22597,6 +23341,12 @@
  },
  "Show in results": {
   "t": "Показать в результатах",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show in Widget Only": {
+  "t": "Показать только Виджет",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22937,6 +23687,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Shows distance-sorted list instead of table": {
+  "t": "Дистанционный список вместо таблицы",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Shows features as distance-sorted cards with distance badges instead of a table. Ideal for 'nearest parks' or 'nearby schools' displays.": {
+  "t": "Показаны функции как карты с дистанционными знаками вместо стола. Идеально подходит для показа «ближайших парков» или «ближайших школ».",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Shows the question-mark button that opens the in-widget help guide, and the first-run hint.": {
   "t": "Показывается кнопка вопрос-марка, которая открывает руководство по помощи в виджете, и первый запускается подсказка.",
   "src": "libretranslate",
@@ -23047,6 +23809,12 @@
  },
  "Small": {
   "t": "маленький",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Smaller = more zoomed in": {
+  "t": "Меньше = больше масштабируется",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23255,14 +24023,38 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Sort By": {
+  "t": "Сортировать по",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Sort drawings": {
   "t": "Сортировать рисунки",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Sort fields to service order": {
+  "t": "Сортировать поля для обслуживания заказа",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Sort measurements": {
   "t": "Сортировка измерений",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Sort order": {
+  "t": "Сортировать заказ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Sort Order": {
+  "t": "Сортировать заказ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23434,6 +24226,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Stack bar/area segments on top of each other instead of side by side.": {
+  "t": "Стеклянные сегменты бар/зоны поверх друг друга, а не бок о бок.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Stacked": {
+  "t": "сложенный",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Standard address labels, 3 across × 10 down": {
   "t": "Стандартные адресные ярлыки, 3 в × 10 вниз",
@@ -23743,6 +24547,12 @@
  },
  "Submitting to print service…": {
   "t": "Отправка в печатную службу...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Subtitle Field": {
+  "t": "Поле субтитров",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -25379,6 +26189,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Title Field": {
+  "t": "Полное название",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "to choose a point.": {
   "t": "Выбрать точку.",
   "src": "libretranslate",
@@ -26297,6 +27113,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Unit": {
+  "t": "Подразделение",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Unit for every distance, length, and radius you enter": {
   "t": "Единица для каждого расстояния, длины и радиуса, в который вы входите",
   "src": "libretranslate",
@@ -26406,6 +27228,12 @@
   "added": "2026-10-08"
  },
  "Unnamed layer": {
+  "t": "Безымянный слой",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Untitled Layer": {
   "t": "Безымянный слой",
   "src": "libretranslate",
   "reviewed": false,
@@ -26567,6 +27395,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Use custom message when no features found": {
+  "t": "Используйте пользовательское сообщение, когда нет найденных функций",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use custom no results text": {
+  "t": "Используйте пользовательский текст без результатов",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Use custom portal": {
   "t": "Используйте пользовательский портал",
   "src": "libretranslate",
@@ -26575,6 +27415,12 @@
  },
  "Use custom symbols": {
   "t": "Используйте пользовательские символы",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use Custom Text": {
+  "t": "Используйте пользовательский текст",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -26795,6 +27641,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Value": {
+  "t": "ценность",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Value Field": {
+  "t": "Ценностное поле",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Value map (one per line, from=to)": {
   "t": "Карта значений (один на линию, от = до)",
   "src": "libretranslate",
@@ -26803,6 +27661,12 @@
  },
  "Value to compare": {
   "t": "Ценность для сравнения",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Values": {
+  "t": "ценности",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -27137,6 +28001,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "When enabled, chart displays in widget but is excluded from PDF export": {
+  "t": "При включении график отображается в виджете, но исключается из экспорта PDF.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "When enabled, display custom text instead of the default 'No intersecting features found.' message when no features are returned for this layer.": {
+  "t": "При включении отображайте пользовательский текст вместо сообщения по умолчанию «Нет найденных пересекающихся функций», когда никакие функции не возвращаются для этого слоя.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "When enabled, queries layers already loaded in the map using client-side processing instead of server requests. Can reduce query time from 30+ seconds to under 1 second for layers visible in the map.": {
   "t": "При включении уровни запросов, уже загруженные на карту, используют обработку на стороне клиента вместо запросов сервера. Может уменьшить время запроса с 30+ секунд до менее 1 секунды для слоев, видимых на карте.",
   "src": "libretranslate",
@@ -27265,6 +28141,12 @@
  },
  "Where things live": {
   "t": "Где живут вещи",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Where to display the description relative to the chart. 'Above' provides context first; 'Below' works as a caption.": {
+  "t": "Где отобразить описание относительно диаграммы. «Выше» сначала предоставляет контекст; «Ниже» работает как подпись.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -27815,6 +28697,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Zoom on Click": {
+  "t": "Zoom в клике",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zoom Scale": {
+  "t": "Шкала Зума",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Zoom scale (1: …, 0 = fit)": {
   "t": "Зум шкала (1: ..., 0 = годность)",
   "src": "libretranslate",
@@ -27859,6 +28753,12 @@
  },
  "Zoom to drawing": {
   "t": "Зум для рисования",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zoom to feature when clicking rows": {
+  "t": "Zoom появится при нажатии строк",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"

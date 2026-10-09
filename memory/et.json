@@ -47,6 +47,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "-- No Grouping (Sum All) --": {
+  "t": "-- Ei mingit grupeerimist (kõik kokku) --",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "-- None --": {
+  "t": "- Ei mingit...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "-- Select Category Field --": {
   "t": "-- Vali kategooriaväli --",
   "src": "libretranslate",
@@ -55,6 +67,12 @@
  },
  "-- Select Field --": {
   "t": "-- Vali väli --",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "-- Select Numeric Field --": {
+  "t": "-- Vali numbriline väli --",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -899,6 +917,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{selectedFieldsCount} field": {
+  "t": "{selectedFieldsCount} väli",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{selectedFieldsCount} fields": {
+  "t": "{selectedFieldsCount} põldudel",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{selectedIdsCount} selected": {
   "t": "{selectedIdsCount} valitud",
   "src": "libretranslate",
@@ -1091,6 +1121,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "↕ Reset to service order": {
+  "t": "↕ Teenustellimuse lähtestamine",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "─── All Widgets ───": {
   "t": "─ Kõik vidinad ─ ─",
   "src": "libretranslate",
@@ -1105,6 +1141,12 @@
  },
  "✓ Apply & Close": {
   "t": "✓ Rakenda ja sulge",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "✓ Service order": {
+  "t": "✓ Teenuse tellimine",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1535,6 +1577,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Above Chart": {
+  "t": "Diagrammi kohal",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Accepted types: CSV, TSV, TXT, XLSX, XLS and ODS.": {
   "t": "Lubatud tüübid: CSV, TSV, TXT, XLSX, XLS ja ODS.",
   "src": "libretranslate",
@@ -1726,6 +1774,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Add data layers below and configure their data sources to see available fields for charting.": {
+  "t": "Lisage allpool andmekihid ja konfigureerige nende andmeallikad, et näha diagrammimiseks saadaval olevaid välju.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add data layers with numeric fields to enable field comparison.": {
+  "t": "Andmekihtide lisamine numbriväljadega, et võimaldada väljade võrdlemist.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Add drawings": {
   "t": "Jooniste lisamine",
@@ -2759,6 +2819,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Alternative: Enter a direct ArcGIS REST endpoint URL (e.g., .../FeatureServer/0). Useful for layers not in the web map or external services.": {
+  "t": "Alternatiivne: sisesta otsene ArcGIS REST lõpp-punkti URL (nt .../FeatureServer/0). Kasulik kihtide puhul, mis ei ole veebikaardil ega välistes teenustes.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Always use separate pane": {
   "t": "Kasuta alati eraldi paneeli",
   "src": "libretranslate",
@@ -2993,6 +3059,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Area Chart": {
+  "t": "Piirkonna diagramm",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Area Count": {
   "t": "Piirkonna loend",
   "src": "libretranslate",
@@ -3082,6 +3154,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Ascending": {
+  "t": "Üleminek",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Ascending (A→Z, 0→9, Oldest→Newest)": {
+  "t": "Tõusev (A→Z, 0→9, vanim→Uusim)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "At least name and address1 fields should be mapped": {
   "t": "Kaardistada tuleks vähemalt nimi ja aadress1 väljad",
@@ -3211,6 +3295,12 @@
  },
  "Automatic (read the map legend directly)": {
   "t": "Automaatne (loe kaardi legendi otse)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Automatically display all queried features from this layer on the map when results load. Creates visual markers/highlights for each feature.": {
+  "t": "Tulemuste laadimisel näidatakse kaardil automaatselt kõiki selle kihi päringuid. Loob iga funktsiooni jaoks visuaalsed markerid / esiletoomised.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3383,6 +3473,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Bar Chart": {
+  "t": "Baardiagramm",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Bar/Area/Line best for comparisons, Pie/Donut for proportions. Radial Bar offers unique circular visualization.": {
+  "t": "Baar / piirkond / line on parim võrdlusteks, pirukas / sõõrik proportsioonide jaoks. Radial Bar pakub ainulaadset ringkujulist visualiseerimist.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Base": {
   "t": "Baas",
   "src": "libretranslate",
@@ -3496,6 +3598,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Below Chart": {
+  "t": "Allpool diagrammi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Beside the line": {
   "t": "Liini kõrval",
@@ -3845,6 +3953,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Buffer distance": {
+  "t": "Puhverkaugus",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Buffer Distance": {
+  "t": "Puhverkaugus",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Buffer distance - the radius of the buffer zone around graphics": {
   "t": "Puhverkaugus - puhvertsooni raadius graafika ümber",
   "src": "libretranslate",
@@ -3919,6 +4039,12 @@
  },
  "Buffer outline color: {bufferOutlineColor}. Click to change.": {
   "t": "Puhver kontuuri värv: {bufferOutlineColor}Klõpsa muutusteks.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Buffer unit": {
+  "t": "Puhverseade",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4127,6 +4253,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Cards": {
+  "t": "Kaardid",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Carry basemap to next map": {
   "t": "Aluskaardi kandmine järgmisele kaardile",
   "src": "libretranslate",
@@ -4229,6 +4361,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Change series color": {
+  "t": "Muuda seeria värvi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Change symbol": {
   "t": "Muuda sümbolit",
   "src": "libretranslate",
@@ -4277,6 +4415,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Chart Description": {
+  "t": "Kaardi kirjeldus",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Chart Height (px)": {
+  "t": "Kaardi kõrgus (px)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Chart mode": {
   "t": "Kaardirežiim",
   "src": "libretranslate",
@@ -4285,6 +4435,18 @@
  },
  "Chart Mode": {
   "t": "Kaardirežiim",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Chart type": {
+  "t": "Kaardi tüüp",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Chart Type": {
+  "t": "Kaardi tüüp",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4480,6 +4642,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Choose ascending (A-Z, 0-9, oldest to newest) or descending (Z-A, 9-0, newest to oldest) order for the default sort.": {
+  "t": "Vaikimisi sortimiseks vali tõusev (A-Z, 0-9, vanim kuni uusim) või alanev (Z-A, 9-0, uusim kuni vanim).",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Choose between Physical Mailing Address or Owner Address": {
   "t": "Valige füüsilise postiaadressi või omaniku aadressi vahel",
@@ -4903,6 +5071,12 @@
  },
  "Clearing your browser history and site data removes saved measurements. Export what you want to keep.": {
   "t": "Teie brauseri ajaloo ja saidiandmete puhastamine eemaldab salvestatud mõõtmised. Ekspordi see, mida soovid säilitada.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click \"Fetch Fields\" or enter URL and press Tab": {
+  "t": "Klõpsa \"Kujuta väljad\" või sisesta URL ja vajuta kaarti",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5597,8 +5771,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Collapsed by default": {
+  "t": "Vaikimisi kokkuvarisemine",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Color {c}": {
   "t": "Värv {c}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Color used to display all features on the map when results load. Choose a different color from Highlight Color to distinguish between static display and hover interaction.": {
+  "t": "Värv, mida kasutatakse kõikide omaduste näitamiseks kaardil, kui tulemused laetakse. Valige esiletõstetud värvist erinev värv, et eristada staatilist ekraani ja hõljumis vastasmõju.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Color used to highlight features on hover or when zooming. This is the interactive highlight color for row interactions.": {
+  "t": "Värv, mida kasutatakse omaduste esiletõstmiseks hõljumisel või suumimisel. See on interaktiivne esiletõstmise värv rea interaktsioonide jaoks.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6181,6 +6373,12 @@
  },
  "Controls polygon fill transparency. 0 = outline only (see-through), 0.3 = semi-transparent, 1 = solid opaque fill.": {
   "t": "Juhtelemendid hulknurk täidab läbipaistvuse. 0 = ainult kontuurjoon (vaata läbi), 0,3 = poolläbipaistev, 1 = tahke läbipaistmatu täiteaine.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Controls whether this data layer is expanded or collapsed when query results are displayed. When collapsed, users can click to expand and view the data.": {
+  "t": "Võimaldab määrata, kas see andmekiht laieneb või variseb kokku päringutulemuste kuvamisel. Kui kokkuvarisemine, kasutajad saavad klõpsata laiendada ja vaadata andmeid.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6923,6 +7121,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Custom Message": {
+  "t": "Kohandatud kiri",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Custom no results message": {
+  "t": "Kohandatud teade tulemusteta",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Custom settings": {
   "t": "Kohandatud seadistused",
   "src": "libretranslate",
@@ -6973,6 +7183,12 @@
  },
  "Data layer selected": {
   "t": "Valitud andmekiht",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Data Layers ({layersCount})": {
+  "t": "Andmekihid (){layersCount})",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7223,6 +7439,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default Expanded": {
+  "t": "Vaikimisi laiendatud",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default expanded state": {
+  "t": "Vaikimisi laiendatud olek",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default Expanded State": {
   "t": "Vaikimisi laienenud riik",
   "src": "libretranslate",
@@ -7345,6 +7573,18 @@
  },
  "Default second units (dual)": {
   "t": "Vaikimisi teised ühikud (kahekordne)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default sort field": {
+  "t": "Vaikimisi sortimisväli",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default Sort Field": {
+  "t": "Vaikimisi Sorteerimisväli",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7577,6 +7817,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Descending": {
+  "t": "Kahanev",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Descending (Z→A, 9→0, Newest→Oldest)": {
+  "t": "Kahanev (Z→A, 9→0, uusim→Vanaim)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Descending shows largest values first; ascending shows smallest first.": {
+  "t": "Kahanemine näitab kõige suuremaid väärtusi esimesena; tõusmine näitab kõige väiksemat esimesena.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Description": {
   "t": "Kirjeldus",
   "src": "libretranslate",
@@ -7585,6 +7843,12 @@
  },
  "Description field": {
   "t": "Kirjeldusväli",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Description Position": {
+  "t": "Kirjelduse asukoht",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7829,6 +8093,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Display all features on map when results load": {
+  "t": "Näita kõiki kaardi omadusi, kui tulemused laetakse",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Display features sorted by distance with badges.": {
+  "t": "Ekraanifunktsioonid sorteeritud kauguse järgi märkidega.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Display field": {
   "t": "Näita välja",
   "src": "libretranslate",
@@ -7859,6 +8135,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Display mode": {
+  "t": "Kuvamisrežiim",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Display Mode": {
   "t": "Kuvamisrežiim",
   "src": "libretranslate",
@@ -7867,6 +8149,12 @@
  },
  "Display name": {
   "t": "Näita nime",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Display name for this layer in the results panel. Use a descriptive name like 'Zoning Districts' instead of the service layer name.": {
+  "t": "Selle kihi nime näitamine tulemuste paneelil. Kasutage teenusekihi nime asemel kirjeldavat nime nagu \"Zoning Districts\".",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7907,6 +8195,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Display Unit": {
+  "t": "Näitamisüksus",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Display validation messages for field mappings": {
   "t": "Väljade kaardistamise valideerimisteadete näitamine",
   "src": "libretranslate",
@@ -7931,6 +8225,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Distance Display": {
+  "t": "Kauguskuva",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Distance field": {
   "t": "Kaugusväli",
   "src": "libretranslate",
@@ -7939,6 +8239,12 @@
  },
  "Distance in the plan units. Add m, ft, usft, ch (chains), rd (rods), lk (links), or va (varas) to override. Type * to copy the previous line. Numpad + adds the line, numpad / jumps to radius.": {
   "t": "Kaugus plaani ühikutes. Tühistamiseks lisa m, ft, usft, ch (ahelad), rd (vardad), lk (lingid) või va (varas). Kirjuta * eelmise rea kopeerimiseks. Numpad + lisab joone, numpad / hüppab raadiusesse.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Distance unit for the search radius.": {
+  "t": "Otsinguraadiuse kaugusühik.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7999,6 +8305,12 @@
  },
  "Done": {
   "t": "Tehtud",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Donut Chart": {
+  "t": "Sõõrikukaart",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8272,6 +8584,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Draw feature outline on map when user hovers over a table row. Great for visual correlation between data and geography.": {
+  "t": "Näita kaardil funktsiooni kontuure, kui kasutaja hõljub üle tabelirea. Suurepärane visuaalse korrelatsiooni jaoks andmete ja geograafia vahel.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Draw feature outline/fill on map when selected from search results. Useful for showing parcel boundaries or feature locations.": {
   "t": "Otsingutulemustest valimisel näidatakse kaardil funktsiooni kontuuri/ täitmist. Kasulik pakkide piiride või funktsioonide asukohtade näitamiseks.",
@@ -8711,8 +9029,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "e.g., acres": {
+  "t": "nt aakrid",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "e.g., ETRS89 / Poland CS92": {
   "t": "nt ETRS89 / Poola CS92",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g., No zoning restrictions apply to this location.": {
+  "t": "Näiteks ei kohaldata selle asukoha suhtes tsoneerimispiiranguid.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9233,6 +9563,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Enable Nearby Mode": {
+  "t": "Läheduse režiimi lubamine",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enable nearby mode for this layer": {
+  "t": "Selle kihi lähedalasuva režiimi lubamine",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enable or disable buffer creation for map graphics. When enabled, buffers will be automatically created around new drawings.": {
   "t": "Kaardigraafika puhvri loomise lubamine või keelamine. Sisselülitamisel luuakse puhvrid automaatselt uute jooniste ümber.",
   "src": "libretranslate",
@@ -9311,6 +9653,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Enable row highlight on hover": {
+  "t": "Ridade esiletõstmise lubamine hõljumisel",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enable saved layer views": {
   "t": "Salvestatud kihtvaadete lubamine",
   "src": "libretranslate",
@@ -9373,6 +9721,12 @@
  },
  "Enable when the widget is inside a Widget Controller so active drawings are cancelled on close.": {
   "t": "Sisselülitamisel, kui vidin asub vidina kontrolleris, tühistatakse aktiivsed joonised sulgemisel.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enable zoom on row click": {
+  "t": "Suurendamise lubamine reaklõpsuga",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9568,6 +9922,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Enter the text to display when no intersecting features are found for this layer. Leave blank to show nothing.": {
+  "t": "Sisesta näidatav tekst, kui sellel kihil ei leita lõikuvaid võimalusi. Jäta tühjaks, et mitte midagi näidata.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Enter the text you want to display on the map. Spaces are preserved. Current length is {textCount} characters with {splitCount} spaces.": {
   "t": "Sisesta tekst, mida soovid kaardil näidata. Ruumid on säilinud. Praegune pikkus on {textCount} tegelastega {splitCount} ruumid.",
@@ -9923,6 +10283,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Expand the search area around the point. Use for finding features near (not just intersecting) the search location. 0 = point-only query.": {
+  "t": "Otsinguala laiendamine punkti ümber. Kasuta funktsioonide leidmiseks otsingu asukoha lähedal (mitte ainult lõikumisel). 0 = ainult punktpäring.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Expand toolbar": {
   "t": "Laienda tööriistariba",
   "src": "libretranslate",
@@ -9931,6 +10297,12 @@
  },
  "Expanded": {
   "t": "Laiendatud",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Expanded by default": {
+  "t": "Vaikimisi laiendatud",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10343,6 +10715,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Extra categories grouped as \"Other\"": {
+  "t": "Lisakategooriad, mis on rühmitatud kui \"Muud\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Extra features added by this custom Map Layers widget.": {
   "t": "Lisavõimalused, mida see kohandatud kaardikihtide vidin lisab.",
   "src": "libretranslate",
@@ -10541,6 +10919,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Fetch Fields": {
+  "t": "Tõmba väljad",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Field": {
   "t": "Field",
   "src": "libretranslate",
@@ -10627,6 +11011,12 @@
  },
  "Fields that do not exist on the layer are skipped on save": {
   "t": "Väljad, mida kihil ei ole, jäetakse vahele",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fields to Display": {
+  "t": "Kuvatavad väljad",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11257,6 +11647,12 @@
  },
  "For one page per parcel, park or project, set Pages from to One page per feature and pick the layer. Features chooses which ones: in the current map view, inside the print area rectangle, or the whole layer, even beyond the map. Any filter on the layer (from Map Layers, a Filter widget or the map itself) is applied too. Only layers in the map's layer list that are turned on are listed (whichever layer list widget you use), including ones inside groups, nested groups and map image services, shown with their group path, like Utilities / Water / Mains. Each page centers on its feature, outlines it in orange and prints at the best-fit scale, or the fixed scale you set. Text in the layout that uses {field:NAME} shows that feature's value.": {
   "t": "Ühe lehe jaoks paki, pargi või projekti kohta seage leheküljed ühest lehest ühe funktsiooni kohta ja valige kiht. Omadused valivad need: aktiivses kaardivaates, trükiala ristküliku sees või kogu kihis, isegi kaardi taga. Iga filter kihil (kaardikihid, filtri vidin või kaart ise) rakendatakse ka. Loetletud on ainult kaardi kihtide loendis olevad kihid, mis on sisse lülitatud (olenemata sellest, millist kihtide loendi vidinat te kasutate), sealhulgas need rühmade sees, pesastatud grupid ja kaardi pilditeenused, mida näidatakse nende grupiteega, näiteks Utilities / Water / Mains. Iga leht keskendub oma funktsioonile, kirjeldab seda oranžina ja prindib kõige sobivamal skaalal või teie määratud fikseeritud skaalal. Tekst paigutuses, mis kasutab {väli:NAME}, näitab selle funktsiooni väärtust.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "For polygon fills (0-1)": {
+  "t": "Hulknurga täitematerjalid (0–1)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12137,6 +12533,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Group By (Optional)": {
+  "t": "Grupi järgi (vabatahtlik)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Group by Category": {
   "t": "Rühm kategooria järgi",
   "src": "libretranslate",
@@ -12389,6 +12791,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Height of the chart in pixels. 200px is good for dashboards, 300-400px for detailed analysis. Maximum 500px.": {
+  "t": "Diagrammi kõrgus pikslites. 200px on hea armatuurlaudadele, 300-400px üksikasjalikuks analüüsiks. Maksimaalselt 500px.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Height of the map preview image in pixels. Larger = more visible but takes more vertical space. 150px is a good default.": {
   "t": "Kaardi eelvaatluse pildi kõrgus pikslites. Suurem = rohkem nähtav, kuid võtab rohkem vertikaalset ruumi. 150px on hea vaikimisi.",
   "src": "libretranslate",
@@ -12581,6 +12989,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Highlight geometry when hovering rows": {
+  "t": "Geomeetria esiletõstmine ridade hõljumisel",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Highlight Layer": {
   "t": "Esiletõstmiskiht",
   "src": "libretranslate",
@@ -12697,6 +13111,18 @@
  },
  "How to calculate chart values: Count = number of records, Sum/Avg/Min/Max = aggregate a numeric value field.": {
   "t": "Kuidas arvutada diagrammi väärtused: Count = kirjete arv, Summa / Avg / Mini / Max = agregeerida numbriline väärtusväli.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "How to display records when multiple features are returned. Table shows traditional rows/columns. List shows records stacked with field values separated by pipes. Cards show each record as a grouped block with labeled fields.": {
+  "t": "Kuidas kuvada kirjeid, kui tagastatakse mitu funktsiooni Tabelis on näidatud traditsioonilised read/veerud. Nimekiri näitab plaate, mis on laotud väljaväärtustega, mis on eraldatud torudega. Kaardid näitavad iga kirjet rühmitatud plokina märgistatud väljadega.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "How to order chart categories: by Value (numeric), by Label (alphabetical), or None (data order).": {
+  "t": "Kuidas tellida diagrammi kategooriad: Väärtuse (numbriline), Sildi (tähestikuline) või Puudub (andmete järjekord).",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13123,6 +13549,12 @@
  },
  "Include feature attributes": {
   "t": "Funktsiooni atribuutide kaasamine",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include in PDF": {
+  "t": "Kaasamine PDF- i",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14177,6 +14609,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Layer Title": {
+  "t": "Kihi tiitel",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Layer title and visibility options": {
   "t": "Kihi tiitel ja nähtavusvalikud",
   "src": "libretranslate",
@@ -14299,6 +14737,12 @@
  },
  "Leave empty for automatic (uses map's WKID)": {
   "t": "Jäta tühjaks automaatseks (kasutab kaardi WKID- d)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Leave empty to hide the message entirely": {
+  "t": "Kirja täielikuks peitmiseks jätta tühjaks",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14531,6 +14975,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Limit number of chart categories displayed. Additional categories are grouped into 'Other'. Prevents overcrowded charts.": {
+  "t": "Näitatavate kaardikategooriate piirarv. Täiendavad kategooriad on rühmitatud \"Muudeks\". Takistab ülerahvastatud diagramme.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Limit the number of records to process": {
   "t": "Piirata töödeldavate kirjete arvu",
   "src": "libretranslate",
@@ -14554,6 +15004,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Line Chart": {
+  "t": "Joonekaart",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Line color": {
   "t": "Joonevärv",
@@ -14761,6 +15217,18 @@
  },
  "Link the title to the pages: while Map series is open, the buttons under Map title add Page name, Page number or any visible field, and the line under them shows how page 1's title will read. Order sorts the pages A to Z or Z to A by the name field. The Overview inset switch adds a locator overview to every data-driven page.": {
   "t": "Linkige pealkiri lehekülgedele: kui kaardiseeria on avatud, lisavad kaardi pealkirja all olevad nupud lehekülje nime, lehekülje numbri või mis tahes nähtava välja ning nende all olev rida näitab, kuidas lehekülje 1 pealkiri loeb. Järjekord sorteerib leheküljed A kuni Z või Z kuni A nimevälja järgi. Ülevaate sisestuslüliti lisab lokaatori ülevaate igale andmepõhisele lehele.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Link URL Field": {
+  "t": "Link URL- i väli",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "List": {
+  "t": "Nimekiri",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15215,6 +15683,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Main display field for each nearby feature (e.g., park name, school name).": {
+  "t": "Peamine kuvaväli iga lähedal asuva funktsiooni jaoks (nt pargi nimi, kooli nimi).",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Major line interval": {
   "t": "Põhiliini intervall",
   "src": "libretranslate",
@@ -15557,6 +16031,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map scale when zooming to features. 1000 = very close (building level), 5000 = neighborhood, 25000 = city area.": {
+  "t": "Kaardiskaala funktsioonidele suurendusel. 1000 = väga lähedal (ehitustasand), 5000 = naabruskond, 25000 = linnapiirkond.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map series": {
   "t": "Kaardiseeria",
   "src": "libretranslate",
@@ -15797,6 +16277,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Max Categories": {
+  "t": "Max Kategooriad",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Max Features": {
+  "t": "Maxi funktsioonid",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Max legend items": {
   "t": "Maksimaalsed legendid",
   "src": "libretranslate",
@@ -15827,6 +16319,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Maximum distance to search for nearby features from the query point.": {
+  "t": "Maksimaalne kaugus otsingupunkti lähedal asuvate funktsioonide leidmiseks.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Maximum matching features to show in dropdown. Balance between comprehensive results and UI responsiveness.": {
   "t": "Maksimaalne sobivus, mida näidatakse rippmenüüs. Tasakaal põhjalike tulemuste ja kasutajaliidese reageerimise vahel.",
   "src": "libretranslate",
@@ -15835,6 +16333,12 @@
  },
  "Maximum number of address suggestions to show from this geocoder. Lower values reduce clutter; higher values give more options.": {
   "t": "Maksimaalne aadressisoovituste arv, mida selle geokoodi abil näidata. Madalamad väärtused vähendavad segadust; kõrgemad väärtused annavad rohkem võimalusi.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Maximum number of nearby features to display in the list.": {
+  "t": "Nimekirjas kuvatavate lähedal asuvate funktsioonide maksimaalne arv.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15871,6 +16375,12 @@
  },
  "Maximum suggestions": {
   "t": "Maksimaalsed soovitused",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Maximum Value": {
+  "t": "Maksimaalne väärtus",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16234,6 +16744,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Minimum Value": {
+  "t": "Miinimumväärtus",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Minutes between checks (1 to 120)": {
   "t": "Kontrollimiste vaheline protokoll (1–120)",
@@ -16667,6 +17183,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Nearby Display Mode": {
+  "t": "Läheduses kuvarežiim",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Nearby lists show the closest features and how far away they are.": {
   "t": "Lähedased loendid näitavad lähimaid funktsioone ja kui kaugel nad on.",
   "src": "libretranslate",
@@ -16889,6 +17411,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No fields available - select a data source": {
+  "t": "Väljad puuduvad - vali andmeallikas",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No format is offered, so the Coordinates tab is hidden.": {
   "t": "Vormingut ei pakuta, seega on kaart Koordinaadid peidetud.",
   "src": "libretranslate",
@@ -16969,6 +17497,12 @@
  },
  "No Layers Available": {
   "t": "Kihid puuduvad",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No layers in this section": {
+  "t": "Selles jaotises kihid puuduvad",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17093,6 +17627,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No numeric fields available. Add layers with numeric fields.": {
+  "t": "Numbrilised väljad puuduvad. Lisage kihid numbriväljadega.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No owner address fields configured": {
   "t": "Omaniku aadressivälju pole seadistatud",
   "src": "libretranslate",
@@ -17185,6 +17725,12 @@
  },
  "No Results Found: the address was not found. Check the spelling, leave out any unit or suite number, and try again.": {
   "t": "Tulemusi ei leitud: aadressi ei leitud. Kontrolli õigekirja, jäta välja mis tahes ühiku või komplekti number ja proovi uuesti.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No Results Message": {
+  "t": "Tulemuste teade puudub",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17513,6 +18059,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Number of decimal places for distance values (0-4).": {
+  "t": "Kümnendkohtade arv vahemaa väärtuste puhul (0–4).",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Number of decimal places for line measurements, minimum 0, maximum 10": {
   "t": "Liinimõõtmiste kümnendkohtade arv, vähemalt 0, maksimaalselt 10",
   "src": "libretranslate",
@@ -17563,6 +18115,18 @@
  },
  "Numbered outlines appear on the map showing the pages. They follow you as you pan and zoom, so you can see the split before you commit to it.": {
   "t": "Nummerdatud piirjooned ilmuvad kaardil, mis näitab lehekülgi. Nad järgivad teid, kui panete ja suurendate, nii et näete lõhenemist enne, kui sellele pühendute.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Numeric field to aggregate (sum, average, etc.). Required when not using Count aggregation.": {
+  "t": "Arvväli agregeerimiseks (summa, keskmine jne). Nõutav, kui ei kasutata loendurite liitmist.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Numeric value field to aggregate": {
+  "t": "Arvväärtuse väli agregeerimiseks",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18053,6 +18617,30 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Optional explanatory text shown with the chart. Supports HTML and {field} placeholders for dynamic values.": {
+  "t": "Diagrammiga näidatud mittekohustuslik selgitav tekst. Toetab HTML ja {field} dünaamiliste väärtuste kohatäitjad.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Optional field containing a URL. When set, the title becomes a clickable link to this URL.": {
+  "t": "Vabatahtlik väli, mis sisaldab URL- i. Määramisel muutub pealkiri klõpsatavaks lingiks sellele URL-ile.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Optional grouping field": {
+  "t": "Valikuline rühmitamisväli",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Optional HTML description to explain the chart. Supports {field} placeholders, links, and basic HTML.": {
+  "t": "Valikuline HTML kirjeldus diagrammi selgitamiseks. Toetab {field} kohahoidjad, lingid ja põhiline HTML.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Optional label shown in the coordinate display. If empty, will show the WKID number.": {
   "t": "Koordinaadikuval näidatav vabatahtlik märge. Tühjuse korral näidatakse WKID numbrit.",
   "src": "libretranslate",
@@ -18091,6 +18679,18 @@
  },
  "Optionally draw selection areas or click features to filter": {
   "t": "Valikupiirkondade joonistamine või filtreerimiseks klõpsamine",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Optionally group the field comparison by a category": {
+  "t": "Valikuliselt rühmitada väljade võrdlus kategooria järgi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Optionally split field comparison by a category. Without grouping, values are summed across all records; with grouping, each category gets its own bar group.": {
+  "t": "Valikuliselt jagatakse väljade võrdlus kategooria järgi. Ilma rühmitamiseta summeeritakse väärtused kõigi kirjete lõikes; rühmitamisega saab iga kategooria oma vöötrühma.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18473,6 +19073,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Pan and zoom map to feature location when user clicks a table row. Helps users navigate to specific features.": {
+  "t": "Pan ja suumi kaart asukoha määramiseks, kui kasutaja klõpsab tabelireal. Aitab kasutajatel navigeerida teatud funktsioonidele.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Pan and zoom the map to what you want on the page. What you see is what prints.": {
   "t": "Pan ja suumida kaart, mida soovite lehel. See, mida sa näed, on sõrmejäljed.",
   "src": "libretranslate",
@@ -18581,6 +19187,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "PDF Export": {
+  "t": "PDF eksport",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "PDF export failed to start.": {
   "t": "PDF- i eksport ei käivitunud.",
   "src": "libretranslate",
@@ -18613,6 +19225,12 @@
  },
  "PDF generation failed. Please try CSV export instead.": {
   "t": "PDF genereerimine nurjus. Palun proovige selle asemel CSV eksporti.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "PDF Max Features": {
+  "t": "PDF Max funktsioonid",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18881,6 +19499,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Pie Chart": {
+  "t": "Pie Chart",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Pin placed at latitude {lat}, longitude {lon}": {
   "t": "Pin asetatakse laiuskraadile {lat}pikkuskraadi {lon}",
   "src": "libretranslate",
@@ -19133,6 +19757,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Polygon interior transparency. 0 = outline only (see-through), 0.2 = subtle fill, 1 = solid opaque.": {
+  "t": "Hulknurga sisemine läbipaistvus. 0 = ainult kontuurjoon (vaata läbi), 0,2 = peentäit, 1 = läbipaistmatu tahke aine.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Polygon Label Template": {
   "t": "Hulknurga sildi mall",
   "src": "libretranslate",
@@ -19273,6 +19903,12 @@
  },
  "Pre-select common field names when available": {
   "t": "Tavaliste väljanimede eelvalimine, kui need on olemas",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Precision": {
+  "t": "Täpsus",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19895,6 +20531,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Query Settings": {
+  "t": "Päringu seadistused",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Query-string parameter used by the Copy Link button in results, and honored on app load to auto-run a search. Example link: ...?propertysearch=1015 N 7th St": {
   "t": "Päringu stringi parameeter, mida nupp Kopeeri link tulemustes kasutab ja mida austatakse rakenduse laadimisel otsingu automaatseks käivitamiseks. Näide: ...?propertysearch=1015 N 7th St",
   "src": "libretranslate",
@@ -19915,6 +20557,12 @@
  },
  "Querying layers...": {
   "t": "Kihtide otsimine...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Radial Bar": {
+  "t": "Radiaalbaar",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20279,6 +20927,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Remove {layerTitle}": {
+  "t": "Eemalda {layerTitle}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Remove {sectionTitle}": {
   "t": "Eemalda {sectionTitle}",
   "src": "libretranslate",
@@ -20369,6 +21023,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Remove layer": {
+  "t": "Eemalda kiht",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Remove Result": {
   "t": "Eemalda tulemus",
   "src": "libretranslate",
@@ -20449,6 +21109,12 @@
  },
  "Reorder layers": {
   "t": "Korralda kihid",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reorder selected fields to match service/data source order": {
+  "t": "Valitud väljade järjekord teenuse/ andmeallika järjekorras",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20963,6 +21629,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Row Map Interaction": {
+  "t": "Ridakaardi interaktsioon",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Rows": {
   "t": "Rows",
   "src": "libretranslate",
@@ -21335,6 +22007,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Search Radius": {
+  "t": "Otsinguraadius",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Search results": {
   "t": "Otsingutulemused",
   "src": "libretranslate",
@@ -21463,6 +22141,12 @@
  },
  "Second units (dual)": {
   "t": "Teised ühikud (kahekordne)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Secondary info shown below title (e.g., acreage, address, phone number).": {
+  "t": "Pealkirja all näidatud teisene teave (nt aaž, aadress, telefoninumber).",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21629,11 +22313,23 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Select a feature layer from the web map. This layer will be queried when users search for a location.": {
+  "t": "Vali veebikaardilt funktsioonikiht. Seda kihti küsitakse, kui kasutajad otsivad asukohta.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select a feature to copy": {
   "t": "Kopeeritava funktsiooni valimine",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Select a field to sort results by when they first load. Leave as 'None' to use the natural order from the query.": {
+  "t": "Vali väli tulemuste sorteerimiseks nende esmakordsel laadimisel. Jäta kui \"None\", et kasutada päringu loomulikku järjekorda.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Select a Layer": {
   "t": "Vali kiht",
@@ -21827,6 +22523,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Select fields to compare. Each field becomes a series in the chart.": {
+  "t": "Vali võrdlemiseks väljad. Igast väljast saab diagrammis seeria.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select fields to enable": {
   "t": "Väljade valimine",
   "src": "libretranslate",
@@ -21913,6 +22615,12 @@
  },
  "Select None": {
   "t": "Vali Puudub",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select numeric fields to compare side-by-side. Each field becomes a bar/series in the chart. Great for comparing metrics like area, value, count.": {
+  "t": "Valige numbrilised väljad kõrvuti võrdlemiseks. Igast väljast saab diagrammis baar/seeria. Suurepärane, et võrrelda mõõdikuid nagu pindala, väärtus, arv.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22063,6 +22771,18 @@
  },
  "Selected features: turn this on and anything you have selected is outlined on the print, in cyan with a thin white edge so it reads over dark aerial photography.": {
   "t": "Valitud funktsioonid: lülitage see sisse ja kõik, mille olete valinud, on välja toodud trükis, õhukese valge servaga tsüaanis, nii et see loeb pimedas aerofotograafias.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Selected field display order. Drag an item to reorder.": {
+  "t": "Valitud välja kuvamise järjekord. Lohista element ümberkorraldamiseks.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Selected field order (drag to reorder)": {
+  "t": "Valitud väljajärjekord (lohi ümberkorraldamiseks)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22457,14 +23177,32 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show All Color": {
+  "t": "Näita kõiki värve",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show all drawings": {
   "t": "Näita kõiki jooniseid",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Show all features on map": {
+  "t": "Kõigi omaduste näitamine kaardil",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show all layers": {
   "t": "Kõigi kihtide näitamine",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show All on Map": {
+  "t": "Näita kõiki kaardil",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22535,6 +23273,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show Distance Badge": {
+  "t": "Kaugusmärgi näitamine",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show draw layer in map layer list": {
   "t": "Joonistuskihi näitamine kaardikihtide nimekirjas",
   "src": "libretranslate",
@@ -22597,6 +23341,12 @@
  },
  "Show in results": {
   "t": "Tulemuste näitamine",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show in Widget Only": {
+  "t": "Näita ainult vidinas",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22937,6 +23687,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Shows distance-sorted list instead of table": {
+  "t": "Näitab tabeli asemel kauguse järgi sorteeritud nimekirja",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Shows features as distance-sorted cards with distance badges instead of a table. Ideal for 'nearest parks' or 'nearby schools' displays.": {
+  "t": "Näitab funktsioone kaugsorteeritud kaartidena, millel on laua asemel kaugusmärgid. Ideaalne \"lähedaste parkide\" või \"lähedaste koolide\" kuvamiseks.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Shows the question-mark button that opens the in-widget help guide, and the first-run hint.": {
   "t": "Näitab küsimärgi nuppu, mis avab vidinasisese abi juhendi ja esimese käigu vihje.",
   "src": "libretranslate",
@@ -23047,6 +23809,12 @@
  },
  "Small": {
   "t": "Väike",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Smaller = more zoomed in": {
+  "t": "Väiksem = rohkem suurendatud",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23255,14 +24023,38 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Sort By": {
+  "t": "Sorteeri",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Sort drawings": {
   "t": "Sortjoonised",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Sort fields to service order": {
+  "t": "Väljade sortimine teenuse tellimiseks",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Sort measurements": {
   "t": "Sorteerimismõõtmised",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Sort order": {
+  "t": "Sorteerimiskorraldus",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Sort Order": {
+  "t": "Sorteerimiskorraldus",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23434,6 +24226,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Stack bar/area segments on top of each other instead of side by side.": {
+  "t": "Korstnariba/pindala segmendid üksteise peal, mitte kõrvuti.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Stacked": {
+  "t": "Varustatuna",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Standard address labels, 3 across × 10 down": {
   "t": "Standardsed aadressimärgised, 3 üle × 10 alla",
@@ -23743,6 +24547,12 @@
  },
  "Submitting to print service…": {
   "t": "Trükiteenuse esitamine...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Subtitle Field": {
+  "t": "Subtiitriväli",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -25379,6 +26189,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Title Field": {
+  "t": "Pealkirjaväli",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "to choose a point.": {
   "t": "punkti valimiseks.",
   "src": "libretranslate",
@@ -26297,6 +27113,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Unit": {
+  "t": "üksus",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Unit for every distance, length, and radius you enter": {
   "t": "Ühik iga vahemaa, pikkuse ja raadiuse kohta, kuhu sisenete",
   "src": "libretranslate",
@@ -26407,6 +27229,12 @@
  },
  "Unnamed layer": {
   "t": "Nimetu kiht",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Untitled Layer": {
+  "t": "Pealkirjata kiht",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -26567,6 +27395,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Use custom message when no features found": {
+  "t": "Kohandatud kirja kasutamine, kui funktsioone ei leitud",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use custom no results text": {
+  "t": "Kohandatud tulemusteta teksti kasutamine",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Use custom portal": {
   "t": "Kohandatud portaali kasutamine",
   "src": "libretranslate",
@@ -26575,6 +27415,12 @@
  },
  "Use custom symbols": {
   "t": "Kohandatud sümbolite kasutamine",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use Custom Text": {
+  "t": "Kohandatud teksti kasutamine",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -26795,6 +27641,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Value": {
+  "t": "Väärtus",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Value Field": {
+  "t": "Väärtusväli",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Value map (one per line, from=to)": {
   "t": "Väärtuskaart (üks rea kohta, alates=to)",
   "src": "libretranslate",
@@ -26803,6 +27661,12 @@
  },
  "Value to compare": {
   "t": "Võrreldav väärtus",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Values": {
+  "t": "Väärtused",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -27137,6 +28001,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "When enabled, chart displays in widget but is excluded from PDF export": {
+  "t": "Sisselülitamisel kuvatakse diagramm vidinas, kuid see on PDF- i ekspordist välistatud",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "When enabled, display custom text instead of the default 'No intersecting features found.' message when no features are returned for this layer.": {
+  "t": "Sisselülitamisel näidatakse vaikimisi sõnumi \"Puudutavaid funktsioone ei leitud\" asemel kohandatud teksti, kui selle kihi funktsioone ei tagastata.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "When enabled, queries layers already loaded in the map using client-side processing instead of server requests. Can reduce query time from 30+ seconds to under 1 second for layers visible in the map.": {
   "t": "Sisselülitamisel kasutatakse kaardile juba laaditud päringukihte serveri päringute asemel kliendipoolset töötlust. Kaardil nähtavate kihtide korral võib päringuaega vähendada 30+ sekundilt alla 1 sekundi.",
   "src": "libretranslate",
@@ -27265,6 +28141,12 @@
  },
  "Where things live": {
   "t": "Kus asjad elavad",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Where to display the description relative to the chart. 'Above' provides context first; 'Below' works as a caption.": {
+  "t": "Kus näidata kirjeldust seoses diagrammiga. \"Ülal\" annab kõigepealt konteksti; \"alla\" töötab pealkirjana.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -27815,6 +28697,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Zoom on Click": {
+  "t": "Suurenda klõpsu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zoom Scale": {
+  "t": "Suurendusskaala",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Zoom scale (1: …, 0 = fit)": {
   "t": "Suurendusskaala (1: ..., 0 = sobivus)",
   "src": "libretranslate",
@@ -27859,6 +28753,12 @@
  },
  "Zoom to drawing": {
   "t": "Suurenda joonistust",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zoom to feature when clicking rows": {
+  "t": "Ridadel klõpsamisel suurendatav",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"

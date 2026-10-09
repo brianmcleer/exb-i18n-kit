@@ -47,8 +47,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "-- No Grouping (Sum All) --": {
+  "t": "-- Brez združevanja --",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "-- Select Category Field --": {
+  "t": "-- Izberite polje kategorije --",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "-- Select Field --": {
   "t": "-- Izberite polje --",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "-- Select Numeric Field --": {
+  "t": "-- Izberite Numerično polje --",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -115,6 +133,12 @@
  },
  "· {hidden} remaining": {
   "t": "· {hidden} Preostanek",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "'Group by Category' aggregates records by a category field (e.g., count zones). 'Compare Fields' shows multiple numeric fields side-by-side.": {
+  "t": "Zapisi o agregatih po kategorijah (npr. območja štetja). 'Primerjaj polja' prikazuje več številskih polj drug ob drugem.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -887,6 +911,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{selectedFieldsCount} field": {
+  "t": "{selectedFieldsCount} polje",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{selectedFieldsCount} fields": {
+  "t": "{selectedFieldsCount} polja",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{selectedIdsCount} selected": {
   "t": "{selectedIdsCount} izbrano",
   "src": "libretranslate",
@@ -1511,6 +1547,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Above Chart": {
+  "t": "Nad grafom",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Accepted types: CSV, TSV, TXT, XLSX, XLS and ODS.": {
   "t": "Sprejeti tipi: CSV, TSV, TXT, XLSX, XLS in ODS.",
   "src": "libretranslate",
@@ -1702,6 +1744,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Add data layers below and configure their data sources to see available fields for charting.": {
+  "t": "Spodaj dodajte sloje podatkov in nastavite njihove vire podatkov za prikaz razpoložljivih polj za grafikoniranje.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add data layers with numeric fields to enable field comparison.": {
+  "t": "Dodajte podatkovne plasti s številskimi polji, da se omogoči primerjava polj.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Add drawings": {
   "t": "Dodaj risbe",
@@ -2261,6 +2315,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Aggregation": {
+  "t": "Združevanje",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Aggregation type": {
+  "t": "Vrsta združevanja",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Alegreya": {
   "t": "Alegreja",
   "src": "libretranslate",
@@ -2603,6 +2669,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Allow users to click column headers to sort data. Only active when multiple records are returned.": {
+  "t": "Dovoli uporabnikom, da kliknejo glave stolpcev za razvrščanje podatkov. Aktivno le, če se vrne več zapisov.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Allow users to drag column borders to resize widths. Useful for tables with varying content lengths.": {
+  "t": "Dovoli uporabnikom, da povlečejo robove stolpcev za spreminjanje velikosti širin. Uporabno za tabele z različno dolžino vsebine.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Allow users to duplicate an existing drawing.": {
   "t": "Dovoli uporabnikom, da podvajajo obstoječo risbo.",
   "src": "libretranslate",
@@ -2633,8 +2711,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Allow users to resize columns": {
+  "t": "Dovoli uporabnikom, da spremenijo velikost stolpcev",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Allow users to select features by drawing or clicking on the map": {
   "t": "Dovoli uporabnikom, da izberejo funkcije z risanjem ali klikom na zemljevid",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Allow users to sort by column": {
+  "t": "Dovoli uporabnikom, da razvrstijo po stolpcih",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2681,8 +2771,32 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Alternate row background colors (zebra striping) to improve readability of multi-row tables.": {
+  "t": "Alternativne barve ozadja vrstice (zebra striping) za izboljšanje berljivosti večvrstičnih tabel.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Alternating row colors": {
+  "t": "Izmenjujoče barve vrstic",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Alternative to data source: Enter the direct REST endpoint URL of the feature layer (e.g., .../FeatureServer/0). Useful for layers not in the web map.": {
   "t": "Alternativno viru podatkov: Vnesite neposreden URL končne točke REST za elementno plast (npr. .../FeatureServer/0). Uporabno za plasti, ki niso na spletni karti.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Alternative: Enter a direct ArcGIS REST endpoint URL (e.g., .../FeatureServer/0). Useful for layers not in the web map or external services.": {
+  "t": "Alternativna možnost: Vnesite neposreden URL cilja ArcGIS REST (npr. .../FeatureServer/0). Uporabno za plasti, ki niso na spletnem zemljevidu ali zunanjih storitvah.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Always use separate pane": {
+  "t": "Vedno uporabite ločeno ploščo",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2915,6 +3029,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Area Chart": {
+  "t": "Območje",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Area Count": {
   "t": "Število območij",
   "src": "libretranslate",
@@ -3004,6 +3124,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Ascending": {
+  "t": "Naraščajoče",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Ascending (A→Z, 0→9, Oldest→Newest)": {
+  "t": "Vzpon (A →Z, 0 →9, Najstarejši →Najnovejši)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "At least name and address1 fields should be mapped": {
   "t": "Označiti je treba vsaj polja z imenom in naslovom1",
@@ -3137,6 +3269,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Automatically display all queried features from this layer on the map when results load. Creates visual markers/highlights for each feature.": {
+  "t": "Samodejno prikaži vse vprašljive funkcije iz tega sloja na zemljevidu, ko rezultati obremenitve. Ustvarja vizualne oznake/svetlobe za vsako funkcijo.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Available formats": {
   "t": "Razpoložljivi formati",
   "src": "libretranslate",
@@ -3154,6 +3292,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Average Values": {
+  "t": "Povprečne vrednosti",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Avery 5160 (2⅝\" × 1\", 30 labels)": {
   "t": "Avery 5160 (25/8\" × 1\", 30 nalepk)",
@@ -3299,6 +3443,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Bar Chart": {
+  "t": "Črtni graf",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Bar/Area/Line best for comparisons, Pie/Donut for proportions. Radial Bar offers unique circular visualization.": {
+  "t": "Bar/Area/Line najboljše za primerjave, Pie/Donut za razmerja. Radial Bar ponuja edinstveno krožno vizualizacijo.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Base": {
   "t": "Osnova",
   "src": "libretranslate",
@@ -3412,6 +3568,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Below Chart": {
+  "t": "Pod grafom",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Beside the line": {
   "t": "Poleg črte",
@@ -3761,6 +3923,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Buffer distance": {
+  "t": "Razdalja med pufrom",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Buffer Distance": {
+  "t": "Razdalja odbojnika",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Buffer distance - the radius of the buffer zone around graphics": {
   "t": "Razdalja med odbojnikom in polmerom varovalnega pasu okoli grafike",
   "src": "libretranslate",
@@ -3835,6 +4009,12 @@
  },
  "Buffer outline color: {bufferOutlineColor}. Click to change.": {
   "t": "Barva obrisa bučke: {bufferOutlineColor}Kliknite za spremembo.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Buffer unit": {
+  "t": "Enota puferja",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4043,8 +4223,26 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Cards": {
+  "t": "Kartice",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Carry basemap to next map": {
   "t": "Prenos osnovne karte na naslednjo karto",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Category Field": {
+  "t": "Polje kategorije",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Category field for chart labels": {
+  "t": "Polje kategorije za oznake navigacijskih kart",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4133,6 +4331,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Change series color": {
+  "t": "Spremeni barvo serije",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Change symbol": {
   "t": "Spremeni simbol",
   "src": "libretranslate",
@@ -4171,6 +4375,48 @@
  },
  "Chart": {
   "t": "Grafika",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Chart Configuration": {
+  "t": "Nastavitev grafa",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Chart Description": {
+  "t": "Opis grafa",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Chart Height (px)": {
+  "t": "Višina grafa (px)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Chart mode": {
+  "t": "Grafični način",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Chart Mode": {
+  "t": "Grafični način",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Chart type": {
+  "t": "Vrsta karte",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Chart Type": {
+  "t": "Vrsta grafa",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4366,6 +4612,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Choose ascending (A-Z, 0-9, oldest to newest) or descending (Z-A, 9-0, newest to oldest) order for the default sort.": {
+  "t": "Izberite naraščajoče (A-Z, 0-9, najstarejše do najnovejše) ali padajoče (Z-A, 9-0, najnovejše do najstarejše) naročilo za privzeto vrsto.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Choose between Physical Mailing Address or Owner Address": {
   "t": "Izberite med fizičnim poštnim naslovom ali lastniškim naslovom",
@@ -5483,6 +5735,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Collapsed by default": {
+  "t": "Privzeto zloženo",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Color {c}": {
   "t": "Barvno {c}",
   "src": "libretranslate",
@@ -5521,6 +5779,18 @@
  },
  "Color: {color}": {
   "t": "Barva: {color}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Column Resizing": {
+  "t": "Reševanje stolpca",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Column Sorting": {
+  "t": "Razvrščanje stolpcev",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5569,6 +5839,12 @@
  },
  "Common WKIDs: 2180 (Poland), 25832/25833 (Germany UTM), 27700 (UK), 2154 (France), 28992 (Netherlands), 3006 (Sweden)": {
   "t": "Skupna WKID: 2180 (Poljska), 2583/25833 (Nemčija UTM), 27700 (UK), 2154 (Francija), 28992 (Nizozemska), 3006 (Švedska)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Compact Mode": {
+  "t": "Kompakten način",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5627,6 +5903,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Compare Fields": {
+  "t": "Primerjaj polja",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Compare is on in {compareBlendMode} mode: Enter or Space chooses the basemap to compare.": {
   "t": "Primerjaj je v {compareBlendMode} način: Enter ali Space izbere osnovno karto za primerjavo.",
   "src": "libretranslate",
@@ -5662,6 +5944,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Compare values of multiple numeric fields directly": {
+  "t": "Neposredno primerjajte vrednosti več številskih polj",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Compare with another property": {
   "t": "Primerjajte z drugo lastnostjo",
@@ -6037,6 +6325,12 @@
  },
  "Controls polygon fill transparency. 0 = outline only (see-through), 0.3 = semi-transparent, 1 = solid opaque fill.": {
   "t": "Kontrolni poligon zapolni prosojnost. 0 = samo obris (glej skozi), 0,3 = polprozorno, 1 = trdno neprozorno polnjenje.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Controls whether this data layer is expanded or collapsed when query results are displayed. When collapsed, users can click to expand and view the data.": {
+  "t": "Nadzoruje, ali je ta podatkovna plast razširjena ali se je zrušila, ko so prikazani rezultati poizvedbe. Ko se sesuje, lahko uporabniki kliknejo za razširitev in ogled podatkov.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6437,6 +6731,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Count Records": {
+  "t": "Zapisi o številu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Counting…": {
   "t": "Štetje...",
   "src": "libretranslate",
@@ -6773,6 +7073,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Custom Message": {
+  "t": "Lastno sporočilo",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Custom no results message": {
+  "t": "Po meri brez sporočila rezultatov",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Custom settings": {
   "t": "Nastavitve po meri",
   "src": "libretranslate",
@@ -6823,6 +7135,12 @@
  },
  "Data layer selected": {
   "t": "Izbrana podatkovna plast",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Data Layers ({layersCount})": {
+  "t": "Plasti podatkov ({layersCount})",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7073,6 +7391,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default Expanded": {
+  "t": "Privzeto razširjeno",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default expanded state": {
+  "t": "Privzeto razširjeno stanje",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default Expanded State": {
   "t": "Privzeto razširjeno stanje",
   "src": "libretranslate",
@@ -7195,6 +7525,18 @@
  },
  "Default second units (dual)": {
   "t": "Privzete druge enote (dvojno)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default sort field": {
+  "t": "Privzeto polje razvrščanja",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default Sort Field": {
+  "t": "Privzeto polje razvrščanja",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7427,6 +7769,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Descending": {
+  "t": "Padajoče",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Descending (Z→A, 9→0, Newest→Oldest)": {
+  "t": "Padajoče (Z →A, 9 →0, Najstarejše)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Descending shows largest values first; ascending shows smallest first.": {
+  "t": "Spust najprej pokaže največje vrednosti; vzpon najprej pokaže najmanjše.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Description": {
   "t": "Opis",
   "src": "libretranslate",
@@ -7435,6 +7795,12 @@
  },
  "Description field": {
   "t": "Opisno polje",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Description Position": {
+  "t": "Opis Položaj",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7679,6 +8045,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Display all features on map when results load": {
+  "t": "Prikaži vse funkcije na zemljevidu, ko rezultati obremenitve",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Display field": {
   "t": "Prikazno polje",
   "src": "libretranslate",
@@ -7709,6 +8081,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Display mode": {
+  "t": "Način prikaza",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Display Mode": {
   "t": "Način prikaza",
   "src": "libretranslate",
@@ -7717,6 +8095,12 @@
  },
  "Display name": {
   "t": "Prikaži ime",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Display name for this layer in the results panel. Use a descriptive name like 'Zoning Districts' instead of the service layer name.": {
+  "t": "V pultu rezultatov prikaži ime te plasti. Uporabi opisno ime, kot je 'Zoning Districts' namesto imena sloja storitve.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7849,6 +8233,12 @@
  },
  "Done": {
   "t": "Opravljeno",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Donut Chart": {
+  "t": "Grafični graf Donut",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8122,6 +8512,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Draw feature outline on map when user hovers over a table row. Great for visual correlation between data and geography.": {
+  "t": "Ko uporabnik lebdi nad vrstico tabele, nariši obris funkcije na zemljevidu. Odlično za vizualno korelacijo med podatki in geografijo.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Draw feature outline/fill on map when selected from search results. Useful for showing parcel boundaries or feature locations.": {
   "t": "Po izbiri iz rezultatov iskanja narišite obris/izpolnite na zemljevidu. Uporabno za prikaz mej paketov ali lokacij funkcij.",
@@ -8567,6 +8963,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "e.g., No zoning restrictions apply to this location.": {
+  "t": "npr. za to lokacijo ne veljajo nobene omejitve coniranja.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Each app sets a page limit (50 map pages unless changed in Settings; the index and legend pages do not count). A grid over it switches Export off; use fewer Rows or Columns, or zoom out and use fewer, larger pages.": {
   "t": "Vsaka aplikacija določa omejitev strani (50 strani z zemljevidom, razen če se spremeni v Nastavitve; strani z indeksom in legendami se ne štejejo). Mreža nad njo izklopi Izvozi; uporabi manj vrstic ali stolpcev ali povečaj in uporabi manj večjih strani.",
   "src": "libretranslate",
@@ -8903,6 +9305,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Enable column resizing": {
+  "t": "Omogoči spreminjanje velikosti stolpcev",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enable column sorting": {
+  "t": "Omogoči razvrščanje stolpcev",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enable compact mode": {
+  "t": "Omogoči kompakten način",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enable comparison": {
   "t": "Omogoči primerjavo",
   "src": "libretranslate",
@@ -9011,6 +9431,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Enable highlight on hover": {
+  "t": "Omogoči poudarjanje ob lebdenju",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enable layer batch options": {
   "t": "Omogoči možnosti serije plasti",
   "src": "libretranslate",
@@ -9095,6 +9521,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Enable pagination": {
+  "t": "Omogoči paginacijo",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enable pop-up": {
   "t": "Omogoči pojavno okno",
   "src": "libretranslate",
@@ -9131,6 +9563,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Enable row highlight on hover": {
+  "t": "Omogoči poudarjanje vrstice ob lebdenju",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Enable saved layer views": {
   "t": "Omogoči shranjene poglede plasti",
   "src": "libretranslate",
@@ -9157,6 +9595,12 @@
  },
  "Enable Snapping makes your clicks stick to nearby corners and lines so shapes line up.": {
   "t": "Omogoči Snapping omogoča, da se vaši kliki držijo bližnjih kotov in linij, tako da se oblike poravnajo.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Enable striped rows": {
+  "t": "Omogoči črtaste vrstice",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9382,6 +9826,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Enter the text to display when no intersecting features are found for this layer. Leave blank to show nothing.": {
+  "t": "Vnesite besedilo, ki naj se prikaže, ko za to plast ni najdenih presejalnih funkcij. Pusti prazno, da ne pokaže ničesar.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Enter the text you want to display on the map. Spaces are preserved. Current length is {textCount} characters with {splitCount} spaces.": {
   "t": "Vnesite besedilo, ki ga želite prikazati na zemljevidu. Prostori so ohranjeni. Trenutna dolžina je {textCount} znakov z {splitCount} prostori.",
@@ -9737,6 +10187,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Expand the search area around the point. Use for finding features near (not just intersecting) the search location. 0 = point-only query.": {
+  "t": "Razširi iskalno območje okoli točke. Uporabite za iskanje funkcij v bližini (ne le seciranje) iskalne lokacije. 0 = poizvedba samo za točko.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Expand toolbar": {
   "t": "Razširi orodjarno",
   "src": "libretranslate",
@@ -9745,6 +10201,12 @@
  },
  "Expanded": {
   "t": "Razširjen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Expanded by default": {
+  "t": "Privzeto razširjena",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10157,6 +10619,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Extra categories grouped as \"Other\"": {
+  "t": "Dodatne kategorije, razvrščene kot \"drugo\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Extra features added by this custom Map Layers widget.": {
   "t": "Dodatne funkcije, ki jih je dodal ta gradnik po meri Map Layers.",
   "src": "libretranslate",
@@ -10355,6 +10823,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Fetch Fields": {
+  "t": "Pridobi polja",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Field": {
   "t": "Polje",
   "src": "libretranslate",
@@ -10405,6 +10879,12 @@
  },
  "Field shown in search suggestions. Choose the most recognizable identifier (e.g., full address, owner name, parcel number).": {
   "t": "Polje je prikazano v iskalnih predlogih. Izberite najbolj prepoznaven identifikator (npr. polni naslov, ime lastnika, številka parcele).",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Field used to group data (e.g., ZONE_TYPE, DISTRICT). Each unique value becomes a bar/slice in the chart.": {
+  "t": "Polje, ki se uporablja za združevanje podatkov (npr. ZONE TYPE, DISTRICT). Vsaka edinstvena vrednost postane vrstica/rez v grafikonu.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11945,8 +12425,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Group By (Optional)": {
+  "t": "Skupina po (neobvezno)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Group by Category": {
+  "t": "Skupina po kategorijah",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Group joins several drawings so they move together.": {
   "t": "Skupina se pridruži več risb, tako da se gibljejo skupaj.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Group records by a category field and aggregate values": {
+  "t": "Zapisi skupin glede na polje kategorije in skupne vrednosti",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12185,6 +12683,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Height of the chart in pixels. 200px is good for dashboards, 300-400px for detailed analysis. Maximum 500px.": {
+  "t": "Višina diagrama v pikah. 200px je dober za armaturne plošče, 300-400px za podrobno analizo. Največ 500px.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Height of the map preview image in pixels. Larger = more visible but takes more vertical space. 150px is a good default.": {
   "t": "Višina slike predogleda zemljevida v pikah. Večje = bolj vidno, vendar zavzema več navpičnega prostora. 150px je dober privzeti.",
   "src": "libretranslate",
@@ -12383,8 +12887,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Highlight on Hover": {
+  "t": "Poudarek na Hoverju",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Highlight outline color": {
   "t": "Barva obrisa poudarjanja",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Highlight row on hover": {
+  "t": "Poudari vrstico v lebdenju",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12475,6 +12991,24 @@
  },
  "How the printed scale is determined: keep the current on-screen scale, fit the current view, or use a fixed scale.": {
   "t": "Kako se določi natisnjena lestvica: ohrani trenutno na zaslonu, se prilega trenutnemu prikazu ali pa uporabi fiksno lestvico.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "How to calculate chart values: Count = number of records, Sum/Avg/Min/Max = aggregate a numeric value field.": {
+  "t": "Kako izračunati vrednosti diagrama: Število = število zapisov, Sum/Avg/Min/Max = agregat polje številčne vrednosti.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "How to display records when multiple features are returned. Table shows traditional rows/columns. List shows records stacked with field values separated by pipes. Cards show each record as a grouped block with labeled fields.": {
+  "t": "Kako prikazati zapise, ko se vrne več funkcij. Tabela prikazuje tradicionalne vrstice/stolpce. Seznam prikazuje zapise, zložene z vrednostmi polja, ločenimi s cevmi. Kartice prikazujejo vsak zapis kot združeni blok z označenimi polji.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "How to order chart categories: by Value (numeric), by Label (alphabetical), or None (data order).": {
+  "t": "Kako naročiti kategorije kart: po vrednosti (numerično), po oznaki (alfabetično) ali brez (data reda).",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13955,6 +14489,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Layer Title": {
+  "t": "Naslov plasti",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Layer title and visibility options": {
   "t": "Naslov plasti in možnosti vidnosti",
   "src": "libretranslate",
@@ -14077,6 +14617,12 @@
  },
  "Leave empty for automatic (uses map's WKID)": {
   "t": "Pustite prazno za samodejno (uporablja zemljevid je WKID)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Leave empty to hide the message entirely": {
+  "t": "Pustite prazno, da skrijete sporočilo v celoti",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14309,6 +14855,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Limit number of chart categories displayed. Additional categories are grouped into 'Other'. Prevents overcrowded charts.": {
+  "t": "Omeji število prikazanih kategorij kart. Dodatne kategorije so razvrščene v 'Drugo'. Preprečuje prenapolnjene karte.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Limit the number of records to process": {
   "t": "Omeji število zapisov za obdelavo",
   "src": "libretranslate",
@@ -14332,6 +14884,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Line Chart": {
+  "t": "Črtna karta",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Line color": {
   "t": "Barva črte",
@@ -14539,6 +15097,12 @@
  },
  "Link the title to the pages: while Map series is open, the buttons under Map title add Page name, Page number or any visible field, and the line under them shows how page 1's title will read. Order sorts the pages A to Z or Z to A by the name field. The Overview inset switch adds a locator overview to every data-driven page.": {
   "t": "Povežite naslov na strani: medtem ko je serija zemljevidov odprta, gumbi pod naslovom Zemljevid dodajte ime strani, številko strani ali katero koli vidno polje in vrstica pod njimi prikazuje, kako se bo bral naslov strani 1. Naroči razvrsti strani A do Z ali Z do A po imenu polje. Vklopno stikalo Pregled dodaja pregled lokatorja na vsako podatkovno podprto stran.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "List": {
+  "t": "Seznam",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15575,6 +16139,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Max Categories": {
+  "t": "Največje kategorije",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Max legend items": {
   "t": "Najmanjša legenda",
   "src": "libretranslate",
@@ -15649,6 +16219,12 @@
  },
  "Maximum suggestions": {
   "t": "Najvišji predlogi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Maximum Value": {
+  "t": "Največja vrednost",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16012,6 +16588,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Minimum Value": {
+  "t": "Najmanjša vrednost",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Minutes between checks (1 to 120)": {
   "t": "Zapisnik med pregledi (1 do 120)",
@@ -16751,6 +17333,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No layers in this section": {
+  "t": "Brez plasti v tem oddelku",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No layers match that filter.": {
   "t": "Nobena plast se ne ujema s tem filtrom.",
   "src": "libretranslate",
@@ -16871,6 +17459,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No numeric fields available. Add layers with numeric fields.": {
+  "t": "Numerična polja niso na voljo. Dodaj plasti s številčnimi polji.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No owner address fields configured": {
   "t": "Nastavljena ni nobena naslovna polja za lastnike",
   "src": "libretranslate",
@@ -16963,6 +17557,12 @@
  },
  "No Results Found: the address was not found. Check the spelling, leave out any unit or suite number, and try again.": {
   "t": "Ni najdenih rezultatov: naslova ni bilo. Preveri črkovanje, izpusti katero koli enoto ali sobo in poskusi znova.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No Results Message": {
+  "t": "Ni sporočila o rezultatih",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17333,8 +17933,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Number of rows to display per page. Smaller values load faster; larger values show more data at once.": {
+  "t": "Število vrstic za prikaz na stran. Manjše vrednosti se naložijo hitreje; večje vrednosti kažejo več podatkov naenkrat.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Numbered outlines appear on the map showing the pages. They follow you as you pan and zoom, so you can see the split before you commit to it.": {
   "t": "Oštevilčeni obrisi se pojavijo na zemljevidu, ki prikazuje strani. Sledijo ti kot ponev in povečava, tako da lahko vidiš razcep, preden se zavežeš.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Numeric field to aggregate (sum, average, etc.). Required when not using Count aggregation.": {
+  "t": "Številčno polje za agregat (vsota, povprečje itd.). Zahteva se, če se ne uporablja agregacija štetja.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Numeric value field to aggregate": {
+  "t": "Polje številčne vrednosti za združitev",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17705,6 +18323,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Only open in separate pane when the result count reaches this number. Set to 0 to always use separate pane. Useful for conditionally handling large datasets.": {
+  "t": "Odpri v ločenem polju, ko število rezultatov doseže to število. Nastavi na 0 za vedno uporabo ločene plošče. Uporabno za pogojno ravnanje z velikimi nabori podatkov.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Only the first {max} records will be processed": {
   "t": "Samo prvi {max} evidence bodo obdelane",
   "src": "libretranslate",
@@ -17819,6 +18443,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Optional explanatory text shown with the chart. Supports HTML and {field} placeholders for dynamic values.": {
+  "t": "Neobvezno pojasnjevalno besedilo, prikazano z grafom. Podpira HTML in {field} imetniki za dinamične vrednote.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Optional grouping field": {
+  "t": "Neobvezno polje za združevanje",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Optional HTML description to explain the chart. Supports {field} placeholders, links, and basic HTML.": {
+  "t": "Neobvezen HTML opis za razlago grafikona. Podpora {field} imetniki, povezave in osnovni HTML.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Optional label shown in the coordinate display. If empty, will show the WKID number.": {
   "t": "Neobvezna oznaka, prikazana v koordinatnem prikazu. Če je prazna, bo prikazana številka WKID.",
   "src": "libretranslate",
@@ -17857,6 +18499,18 @@
  },
  "Optionally draw selection areas or click features to filter": {
   "t": "Izbirna področja ali funkcije klika za filtriranje",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Optionally group the field comparison by a category": {
+  "t": "Neobvezno združite primerjavo polj po kategoriji",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Optionally split field comparison by a category. Without grouping, values are summed across all records; with grouping, each category gets its own bar group.": {
+  "t": "Neobvezna primerjava polj po kategorijah. Brez združevanja so vrednosti povzete v vseh zapisih; z združevanjem dobi vsaka kategorija svojo bar skupino.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18217,6 +18871,18 @@
  },
  "Pages from": {
   "t": "Strani",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Paginate large tables": {
+  "t": "Obiščite velike mize",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Pagination": {
+  "t": "Poklic",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18631,6 +19297,12 @@
  },
  "Pictures": {
   "t": "Slike",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Pie Chart": {
+  "t": "Graf pite",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19673,6 +20345,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Radial Bar": {
+  "t": "Radialna palica",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Radius": {
   "t": "Polmer",
   "src": "libretranslate",
@@ -19859,6 +20537,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Record Threshold": {
+  "t": "Prag zapisa",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "records": {
   "t": "evidence",
   "src": "libretranslate",
@@ -19937,6 +20621,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Reduce row padding": {
+  "t": "Zmanjšajte vrstično oblazinjenje",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reduce row padding to fit more data in less vertical space. Useful for dense information displays.": {
+  "t": "Zmanjšajte podlogo za vrstico, da se prilega več podatkov v manj vertikalnem prostoru. Uporabna za goste informacijske prikazovalnike.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Reference (A-1 index)": {
   "t": "Referenčni indeks (A-1 indeks)",
   "src": "libretranslate",
@@ -20011,6 +20707,12 @@
  },
  "Remove": {
   "t": "Odstrani",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Remove {layerTitle}": {
+  "t": "Odstrani {layerTitle}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20104,6 +20806,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Remove layer": {
+  "t": "Odstrani plast",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Remove Result": {
   "t": "Odstrani rezultat",
@@ -20695,6 +21403,12 @@
  },
  "Row label, or blank for full popup content": {
   "t": "Oznaka vrstice ali prazno za celotno pojavno vsebino",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Row Map Interaction": {
+  "t": "Interakcija v vrstici",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21365,11 +22079,23 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Select a feature layer from the web map. This layer will be queried when users search for a location.": {
+  "t": "Izberite plast funkcije s spletne karte. Ta plast bo povprašana, ko bodo uporabniki iskali lokacijo.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select a feature to copy": {
   "t": "Izberite možnost za kopiranje",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Select a field to sort results by when they first load. Leave as 'None' to use the natural order from the query.": {
+  "t": "Izberite polje za razvrščanje rezultatov po tem, ko se prvič naložijo. Pustite kot 'Nikogar' za uporabo naravnega reda iz poizvedbe.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Select a Layer": {
   "t": "Izberite plast",
@@ -21563,6 +22289,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Select fields to compare. Each field becomes a series in the chart.": {
+  "t": "Izberite polja za primerjavo. Vsako polje postane serija v grafikonu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select fields to enable": {
   "t": "Izberite polja, ki omogočajo",
   "src": "libretranslate",
@@ -21649,6 +22381,12 @@
  },
  "Select None": {
   "t": "Izberi brez",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select numeric fields to compare side-by-side. Each field becomes a bar/series in the chart. Great for comparing metrics like area, value, count.": {
+  "t": "Izberite številčna polja za primerjavo ob strani. Vsako polje postane bar/serija v grafikonu. Super za primerjavo metrike kot območje, vrednost, štetje.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22175,6 +22913,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show a visual highlight when the user hovers over a table row. Helps track which row is being viewed.": {
+  "t": "Ko uporabnik lebdi nad vrstico mize, prikaži vidno poudarjanje. Pomaga slediti kateri vrstici se gleda.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show Advanced Options": {
   "t": "Prikaži napredne možnosti",
   "src": "libretranslate",
@@ -22193,8 +22937,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Show all features on map": {
+  "t": "Prikaži vse funkcije na zemljevidu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show all layers": {
   "t": "Prikaži vse plasti",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show All on Map": {
+  "t": "Prikaži vse na zemljevidu",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22327,6 +23083,12 @@
  },
  "Show in results": {
   "t": "Prikaži rezultate",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show in Widget Only": {
+  "t": "Prikaži samo gradnik",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22985,6 +23747,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Sort By": {
+  "t": "Razvrsti po",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Sort drawings": {
   "t": "Razvrsti risbe",
   "src": "libretranslate",
@@ -22997,8 +23765,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Sort order": {
+  "t": "Razvrsti vrstni red",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Sort Order": {
+  "t": "Razvrsti vrstni red",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Sort:": {
   "t": "Razvrsti:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Sorting and resizing only apply when multiple records are displayed.": {
+  "t": "Razvrščanje in spreminjanje velikosti velja le, če je prikazanih več zapisov.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23093,6 +23879,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Split large tables into pages. Improves performance and usability for datasets with many records.": {
+  "t": "Razdelite velike tabele na strani. Izboljša učinkovitost in uporabnost podatkovnih nizov s številnimi zapisi.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Split tool": {
   "t": "Razdeli orodje",
   "src": "libretranslate",
@@ -23152,6 +23944,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Stack bar/area segments on top of each other instead of side by side.": {
+  "t": "Stack bar / območje segmentov na vrhu drug drugega namesto drug ob drugem.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Stacked": {
+  "t": "zložen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Standard address labels, 3 across × 10 down": {
   "t": "Standardne nalepke z naslovi, 3 po × 10 navzdol",
@@ -23435,6 +24239,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Striped Rows": {
+  "t": "Črtaste vrstice",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Style": {
   "t": "Slog",
   "src": "libretranslate",
@@ -23461,6 +24271,12 @@
  },
  "Suffix": {
   "t": "Pripona",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Sum Values": {
+  "t": "Vrednosti vsote",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23623,6 +24439,12 @@
  },
  "Table": {
   "t": "Tabela",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Table Configuration": {
+  "t": "Nastavitve tabele",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -26111,6 +26933,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Untitled Layer": {
+  "t": "Plast brez naslova",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Update": {
   "t": "Posodobi",
   "src": "libretranslate",
@@ -26267,6 +27095,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Use custom message when no features found": {
+  "t": "Uporabi sporočilo po meri, če ni najdenih funkcij",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use custom no results text": {
+  "t": "Uporabi besedilo brez rezultatov po meri",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Use custom portal": {
   "t": "Uporabi prilagojen portal",
   "src": "libretranslate",
@@ -26275,6 +27115,12 @@
  },
  "Use custom symbols": {
   "t": "Uporabi lastne simbole",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use Custom Text": {
+  "t": "Uporabi besedilo po meri",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -26311,6 +27157,12 @@
  },
  "Use predefined symbols": {
   "t": "Uporabi vnaprej določene simbole",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use separate pane when ≥ {separatePaneThreshold} records": {
+  "t": "Uporabi ločeno ploskev, če ≥ {separatePaneThreshold} evidence",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -26489,6 +27341,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Value": {
+  "t": "Vrednost",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Value Field": {
+  "t": "Polje vrednosti",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Value map (one per line, from=to)": {
   "t": "Zemljevid vrednosti (ena na vrstico, od=do)",
   "src": "libretranslate",
@@ -26497,6 +27361,12 @@
  },
  "Value to compare": {
   "t": "Vrednost za primerjavo",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Values": {
+  "t": "Vrednosti",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -26831,6 +27701,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "When enabled, chart displays in widget but is excluded from PDF export": {
+  "t": "Ko je omogočeno, grafikon prikazuje v widget, vendar je izključen iz PDF izvoz",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "When enabled, display custom text instead of the default 'No intersecting features found.' message when no features are returned for this layer.": {
+  "t": "Ko je omogočeno, prikaži besedilo po meri namesto privzetega sporočila » Ni najdenih presejalnih funkcij «.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "When enabled, queries layers already loaded in the map using client-side processing instead of server requests. Can reduce query time from 30+ seconds to under 1 second for layers visible in the map.": {
   "t": "Ko je omogočeno, poizvedbe plasti že naložene na zemljevidu z uporabo procesiranja na strani odjemalca namesto zahtev strežnika. Lahko skrajša čas poizvedbe iz 30+ sekund na manj kot 1 sekundo za plasti, vidne na zemljevidu.",
   "src": "libretranslate",
@@ -26959,6 +27841,12 @@
  },
  "Where things live": {
   "t": "Kjer stvari živijo",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Where to display the description relative to the chart. 'Above' provides context first; 'Below' works as a caption.": {
+  "t": "Kje prikazati opis glede na grafikon. \"Zgoraj\" najprej zagotavlja kontekst; \"Spodnji\" deluje kot napis.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
