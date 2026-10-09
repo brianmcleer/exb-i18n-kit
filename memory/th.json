@@ -269,6 +269,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "(date only)": {
+  "t": "(วันเท่านั้น)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "(Default)": {
   "t": "(ค่าปริยาย)",
   "src": "libretranslate",
@@ -1133,8 +1139,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{n} chapters added from the {unit} counts. Edit the titles and text, then present or export.": {
+  "t": "{n} บทที่เพิ่มจาก {unit} นับ แก้ไขหัวเรื่องและข้อความ จากนั้นให้ปัจจุบันหรือส่งออก",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{n} features": {
   "t": "{n} คุณสมบัติ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{n} features dated in {period}.": {
+  "t": "{n} คุณสมบัติที่ลงวันที่ {period}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{n} features dated this {unit}": {
+  "t": "{n} แสดงวันที่นี้ {unit}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1645,6 +1669,12 @@
  },
  "{undoButtonText} (Ctrl+Z)": {
   "t": "{undoButtonText} (Ctrl+Z)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{unit}": {
+  "t": "{unit}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2399,6 +2429,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "A {s} second WebM of the whole timeline: the map at each step with the date and chapter on a caption strip. The map plays through while it records.": {
+  "t": "A {s} เว็บเอ็มที่สองของไทม์ไลน์ทั้งหมด: แผนที่แต่ละขั้นที่มีวันที่และบทบนแถบคําบรรยายภาพ แผนที่เล่นผ่านในขณะที่มันบันทึก",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A basemap could not be loaded for comparison: choose another basemap, or close compare and open it again.": {
   "t": "ไม่ สามารถ ใส่ เบสแมป เพื่อ เปรียบ เทียบ ได้:",
   "src": "libretranslate",
@@ -2495,8 +2531,20 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A hidden chapter stays in the list but is left out of the show and the exports.": {
+  "t": "บทที่ซ่อนไว้อยู่ในรายการ แต่ถูกทิ้งให้ออกจากรายการและการส่งออก",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A highlight belongs to the map on your screen, not to the map layers, so the widget draws your selected features onto the page for you.": {
   "t": "จุดเน้นอยู่ที่แผนที่บนหน้าจอของคุณ ไม่ใช่ชั้นของแผนที่ ดังนั้นวิดเจ็ตนี้จึงวาดคุณสมบัติที่เลือกมายังหน้าของคุณ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer does not change: it is turned off in the map, has no date field, or is using a different date than you expected. Turn it on, check Layers that cannot follow the slider, then pick the date in the list under the slider.": {
+  "t": "เลเยอร์ไม่ได้เปลี่ยนแปลง: มันถูกปิดอยู่ในแผนที่ ไม่มีสนามวันที่ หรือใช้วันที่ที่แตกต่างไปจากที่คุณคาดไว้ เปิดมัน, ตรวจเลเยอร์ที่ไม่สามารถตามแถบเลื่อนได้ แล้วเลือกวันที่ในรายการใต้แถบเลื่อน",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2557,6 +2605,12 @@
  },
  "A layer switched off by itself when you turned another on: both sit in a group that allows one layer at a time. Turn the one you want back on.": {
   "t": "เลเยอร์ปิดเองเมื่อคุณเปิดอีกชั้นหนึ่ง: ทั้งคู่อยู่ในกลุ่มที่อนุญาตให้ 1 ชั้นได้ทีละชั้น เปิดอันที่คุณต้องการกลับมา",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer with a start and an end date shows while the slider is inside that span.": {
+  "t": "เลเยอร์ที่มีวันเริ่มต้นและวันสิ้นสุดที่แสดงในขณะที่แถบเลื่อนอยู่ภายในช่วงที่",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2689,6 +2743,12 @@
  },
  "A side with no selected layers shows the basemap and any shared map layers. You can use this to compare a layer with the basemap.": {
   "t": "ด้านที่ไม่มีชั้นที่เลือกแสดงฐานและชั้นแผนที่ร่วมกันใด ๆ คุณสามารถใช้นี่เปรียบเทียบชั้นกับเบสแมพได้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A small date stamp sits in a corner of the map, so the date is on screen even with the panel closed. It hides while presenting.": {
+  "t": "แสตมป์ วัน เล็ก ๆ ตั้ง อยู่ ใน มุม หนึ่ง ของ แผนที่ ดัง นั้น วัน นั้น จึง อยู่ บน จอ แม้ จะ ปิด แผง. มันซ่อนขณะที่นําเสนอ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5009,6 +5069,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "As of, Range and Compare": {
+  "t": "เป็นช่วงและเปรียบเทียบ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "As of: one handle, the map as it was on that day. Anything dated after that day is hidden.": {
+  "t": "จาก: ด้ามจับเดียว แผนที่ในวันนั้น อะไรที่ลงวันที่หลังจากวันนั้นถูกซ่อน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "as placeholder for the searched address": {
   "t": "ที่อยู่สําหรับค้นหา",
   "src": "libretranslate",
@@ -5477,6 +5549,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Back one step and Forward one step move one notch when you want to look closely. Jump to the start and Jump to the end go to either end.": {
+  "t": "ถอยหลังไปหนึ่งก้าว และเดินหน้าหนึ่งก้าวหนึ่งก้าว เมื่อคุณต้องการมองใกล้ๆ กระโดดไปยังจุดเริ่มต้น และกระโดดไปยังตอนจบ จะสิ้นสุดทั้งสอง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Back to auto-generate": {
   "t": "กลับไปยังการสร้างอัตโนมัติ",
   "src": "libretranslate",
@@ -5875,6 +5953,12 @@
  },
  "Black screen on. B or a click brings the map back.": {
   "t": "หน้าจอสีดําบน บีหรือคลิ๊กนําแผนที่กลับมา",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Black screen, or B or a full stop, blacks out the map so the room looks at you; a comma gives a white screen. Click the screen or press the key again to bring the map back.": {
+  "t": "หน้าจอสีดํา หรือ B หรือจุดเต็ม ทําให้แผนที่มืด ดังนั้นห้องมองคุณ; เครื่องหมายจุลภาคให้จอสีขาว คลิกหน้าจอ หรือกดคีย์อีกครั้ง เพื่อนําแผนที่กลับมา",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6917,8 +7001,32 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Chapter {i}: {title}": {
+  "t": "บท {i}. {title}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Chapter {n}": {
   "t": "บท {n}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Chapter {n} speaker notes": {
+  "t": "บท {n} บันทึกช่วยจําของลําโพง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Chapter {n} text": {
+  "t": "บท {n} ข้อความ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Chapter {n} title": {
+  "t": "บท {n} ชื่อ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6941,6 +7049,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Chapter grid, or G, opens a tiled view of every chapter with a small picture of the map once it has been visited. Click a tile to jump there.": {
+  "t": "ตาราง บท หรือ จี เปิด ภาพ กระเบื้อง ทุก บท โดย มี ภาพ เล็ก ๆ ของ แผนที่ เมื่อ มี การ เยี่ยม ชม. คลิกกระเบื้องเพื่อกระโดดตรงนี้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Chapter title": {
   "t": "ชื่อบท",
   "src": "libretranslate",
@@ -6949,6 +7063,24 @@
  },
  "Chapters": {
   "t": "บทต่าง ๆ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Chapters are story points pinned to dates. When play reaches one, the map pauses on it, flies or cuts to its place, turns layers on or off, swaps the basemap and opens a feature if the chapter asks, and shows its title, text and picture.": {
+  "t": "บทคือประเด็นที่ถูกผูกติดกับวันที่ เมื่อ เล่น ไป ถึง จุด หนึ่ง แผนที่ จะ หยุด นิ่ง บน แผนที่ แมลงวัน หรือ ตัด ไป ยัง ที่ ของ มัน จะ เปิด หรือ ปิด ชั้น ต่าง ๆ แล้ว เปลี่ยน เบสแมป และ เปิด ส่วน ประกอบ ถ้า บท นั้น ขอ และ แสดง ชื่อ ของ มัน, ข้อ ความ และ ภาพ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Chapters from the data": {
+  "t": "บทจากข้อมูล",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Chapters from the data writes chapters for you. Choose The busiest or One every, set how many, then press Generate chapters. The counts go in the text. Edit the titles and present.": {
+  "t": "บทจากข้อมูลเขียนให้คุณ เลือก ทุก ครั้ง ที่ มี งาน มาก ที่ สุด หรือ มาก ที่ สุด ก็ จัด ให้ มี บท ที่ สร้าง ขึ้น มา. ตัวเลขอยู่ในข้อความ แก้ไขชื่อและปัจจุบัน",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8765,6 +8897,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Closing the widget leaves the date in place. Open it again and press Today to clear it.": {
+  "t": "การปิดวิดเจ็ตจะทําให้วันที่ออกจากตําแหน่ง เปิดอีกครั้งและกดวันนี้เพื่อล้าง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Closing the widget puts every layer back the way it was.": {
+  "t": "การปิดอุปกรณ์ทําให้ทุกชั้นกลับมาเป็นเหมือนเดิม",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Closing the widget, changing the map, or leaving the app also stops comparison.": {
   "t": "การปิดอุปกรณ์, การเปลี่ยนแผนที่, หรือการออกจากแอพยังหยุดการเปรียบเทียบ",
   "src": "libretranslate",
@@ -9161,6 +9305,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Compare could not start: the map divider is not available in this app.": {
+  "t": "ไม่สามารถเริ่มการเปรียบเทียบได้: ตัวแบ่งแผนที่ไม่มีอยู่ในโปรแกรมนี้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Compare direction": {
   "t": "เปรียบเทียบทิศทาง",
   "src": "libretranslate",
@@ -9221,8 +9371,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Compare will not start: the map divider did not load. Reload the page and try again.": {
+  "t": "การเปรียบเทียบจะไม่เริ่มต้น: ตัวแบ่งแผนที่ไม่ได้โหลด เรียกหน้าเว็บใหม่อีกครั้งแล้วลองใหม่อีกครั้ง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Compare with another property": {
   "t": "เทียบกับสมบัติอื่น",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Compare: the left handle sets the left half of the map and the right handle sets the right half. Drag the divider on the map to see more of either side.": {
+  "t": "เปรียบ เทียบ: การ จับ ด้าม ซ้าย วาง แผนที่ ครึ่ง ซ้าย และ ด้าม ขวา วาง ครึ่ง ขวา. ลากตัวแบ่งในแผนที่เพื่อดูด้านอื่น ๆ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9235,6 +9397,12 @@
  },
  "Compared as one tiled layer": {
   "t": "เทียบเป็น 1 เลเยอร์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Comparing {a} on the left with {b} on the right.": {
+  "t": "การเปรียบเทียบ {a} ด้านซ้ายด้วย {b} ทางขวา",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9983,6 +10151,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copies the widget settings with these chapters as XML. In the builder, paste it into Import and export and press Import.": {
+  "t": "ทําสําเนาการตั้งค่าวิดเจ็ตด้วยเอกสารเหล่านี้เป็น XML ในผู้ผลิต วางลงในนําเข้าและส่งออกและนําเข้าสื่อ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copies this layout’s DPI, format, extent, legend, grid and overview to all other layouts. Page size and imported .pagx elements stay per layout.": {
   "t": "สําเนา DPI ของผังนี้ ฟอร์แมต, ระดับ, ตํานาน, ตาราง และภาพรวมทั้งหมด ขนาดหน้ากระดาษและนําเข้าองค์ประกอบ .pagx อยู่ต่อการจัดวาง",
   "src": "libretranslate",
@@ -10169,6 +10343,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copy link or Copy XML says it could not copy: the browser blocked the clipboard. Use Download XML, or copy the address bar after the page updates.": {
+  "t": "คัดลอกลิงก์หรือคัดลอก XML แจ้งว่าไม่สามารถคัดลอกได้: เบราว์เซอร์ได้ปิดกั้นคลิปบอร์ด ใช้การดาวน์โหลด XML หรือคัดลอกแถบที่อยู่ หลังจากการปรับปรุงหน้าเว็บแล้ว",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Copy link puts a link on your clipboard that opens this app on the date, range or comparison you are looking at. Paste it in an email or a report.": {
+  "t": "คัดลอกที่อยู่เชื่อมโยงไว้ในคลิปบอร์ดของคุณ ที่เปิดโปรแกรมนี้ในวันที่, ช่วง หรือการเปรียบเทียบที่คุณกําลังดูอยู่ วางลงในอีเมลหรือรายงาน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copy link to these layers": {
   "t": "คัดลอกที่อยู่เชื่อมโยงไปยังเลเยอร์เหล่านี้",
   "src": "libretranslate",
@@ -10219,6 +10405,12 @@
  },
  "Copy value": {
   "t": "คัดลอกค่า",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Copy XML for the builder": {
+  "t": "คัดลอก XML สําหรับผู้สร้าง",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10297,6 +10489,12 @@
  },
  "Could not copy the report link.": {
   "t": "ไม่สามารถคัดลอกส่วนเชื่อมโยงของรายงานได้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Could not copy. Use Download XML instead.": {
+  "t": "ไม่สามารถคัดลอกได้ ใช้การดาวน์โหลด XML แทน",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12803,6 +13001,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Download XML": {
+  "t": "ดาวน์โหลด XML",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Download: saves that one view to a file on your computer.": {
   "t": "ดาวน์โหลด: บันทึกมุมมองนี้ไปยังแฟ้มบนคอมพิวเตอร์ของคุณ",
   "src": "libretranslate",
@@ -12859,6 +13063,18 @@
  },
  "Drag the line at the right edge of a heading to make a column wider or narrower. Double click the line to put the width back. With the keyboard, Tab to the line and press the left or right arrow.": {
   "t": "ลากสายที่ขอบขวาของหัวข้อ ที่จะทําให้เสากว้างหรือแคบ ดับเบิลคลิกบรรทัดเพื่อใส่ความกว้างกลับ ใช้คีย์บอร์ด แท็บที่บรรทัด และกดลูกศรซ้ายหรือขวา",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Drag the slider to a date and watch every dated layer on the map follow it.": {
+  "t": "ลากแถบเลื่อนไปที่วัน และดูทุกชั้นในแผนที่ ตามมันไป",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Drag the slider, or type a date in the box, to the day you want to see.": {
+  "t": "ลากแถบเลื่อน หรือพิมพ์วันที่ในกล่อง ไปเป็นวันที่คุณอยากเห็น",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13075,6 +13291,12 @@
  },
  "Draw on the map to measure distances, areas and locations, then keep, label and export what you measured.": {
   "t": "จง โยง แผนที่ เพื่อ วัด ระยะ ทาง บริเวณ และ สถาน ที่ ต่าง ๆ แล้ว เก็บ ป้าย และ ส่ง ออก สิ่ง ที่ คุณ วัด.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Draw on the map, or D, lets you draw on the map with the mouse or a pen. Z removes the last stroke, C or Clear the drawing wipes it, and the drawing clears itself when the next chapter starts. Press D again to stop.": {
+  "t": "วาดบนแผนที่ หรือ D วาดบนแผนที่ด้วยเมาส์หรือปากกา Z ลบจังหวะสุดท้าย, C หรือลบการวาดออก, และภาพวาดจะล้างตัวมันเองเมื่อบทต่อไปเริ่มต้น กด D อีกครั้งเพื่อหยุด",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13639,6 +13861,12 @@
  },
  "Each layer has its own title, hidden fields, format rules, and Arcade expressions. Layers are queried in the order listed and are not drawn on the map.": {
   "t": "แต่ ละ ชั้น มี หัว เรื่อง, สนาม ที่ ซ่อน อยู่, รูป แบบ ของ กฎ, และ การ แสดง ออก แบบ อาร์เคด. ชั้น ต่าง ๆ จะ เรียง ตาม ลําดับ ที่ ระบุ ไว้ และ ไม่ ได้ เขียน ใน แผนที่.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Each layer names the date it uses. When a layer has more than one date (applied, issued, closed) a drop down beside it lets you pick which one the slider uses.": {
+  "t": "แต่ละชั้นมีชื่อวันที่ที่ใช้ เมื่อชั้นมีมากกว่าหนึ่งวันที่ (ติดตั้ง, ปิด) หยดลงข้างๆ จะทําให้คุณเลือกว่าแถบเลื่อนใช้อันไหน",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17621,6 +17849,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Generate chapters": {
+  "t": "สร้างบท",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Generate CSV": {
   "t": "สร้าง CSV",
   "src": "libretranslate",
@@ -18059,6 +18293,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Give the map a moment to redraw. The date above the slider is what the map now shows.": {
+  "t": "ให้แผนที่สักครู่ที่จะวาดใหม่ วันที่เหนือแถบเลื่อนคือสิ่งที่แผนที่แสดงตอนนี้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Give this saved view a short, recognizable name.": {
   "t": "ให้มุมมองที่บันทึกไว้นี้ ชื่อสั้นและเป็นที่จดจํา",
   "src": "libretranslate",
@@ -18091,6 +18331,12 @@
  },
  "Go to previous page": {
   "t": "ไปยังหน้าก่อนหน้านี้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Go to this date": {
+  "t": "ไปยังวันนี้",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19037,6 +19283,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Hidden": {
+  "t": "ซ่อน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Hidden fields": {
   "t": "ช่องข้อมูลที่ถูกซ่อนไว้",
   "src": "libretranslate",
@@ -19325,6 +19577,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Hold times set on {n} chapters from the rehearsal.": {
+  "t": "เวลาคงที่ตั้งไว้ {n} บทจากการซ้อม",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Hollow": {
   "t": "ฮอลโลว",
   "src": "libretranslate",
@@ -19457,6 +19715,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "How many": {
+  "t": "เท่าไหร่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "How many days, months or years one notch moves": {
   "t": "กี่วัน เดือน หรือหลายปีที่คันหนึ่งเคลื่อนไหว",
   "src": "libretranslate",
@@ -19537,6 +19801,12 @@
  },
  "How to order chart categories: by Value (numeric), by Label (alphabetical), or None (data order).": {
   "t": "วิธี จัด ประเภท แผนภูมิ: โดย ใช้ ค่า (นพ.ศ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "How to pick": {
+  "t": "เลือกยังไง",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19666,6 +19936,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "If the app has Print Advanced, set a date here first: it prints whatever the map shows, so the printout carries the date.": {
+  "t": "หากโปรแกรมมีขั้นสูงการพิมพ์ ให้กําหนดวันที่ที่นี่ก่อน: มันพิมพ์สิ่งที่แสดงบนแผนที่ ดังนั้น printout จะดําเนินการวันที่ด้วย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "If the boundary misclose distance is at or under this value, points snap closed and the compass rule is applied": {
   "t": "หากขอบเขตผิดปิดระยะทางที่หรือภายใต้ค่านี้ จุดจะหักปิดและกฎเข็มทิศ",
@@ -20021,6 +20297,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "In Range and Compare the Today button reads Whole range and stretches the handles from the start of the slider to today.": {
+  "t": "ในระยะและเปรียบเทียบปุ่มวันนี้อ่านทั้งช่วง และยืดจับตั้งแต่เริ่มต้นของแถบเลื่อนจนถึงปัจจุบัน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "In the {batchOptions} menu, choose {showFavoritesOnly} to list only your starred layers and their groups. Choose {showAllLayers} to go back.": {
   "t": "ใน {batchOptions} เมนู, เลือก {showFavoritesOnly} เพื่อรายการเฉพาะชั้นดาวของคุณและกลุ่มของพวกเขา เลือก {showAllLayers} เพื่อกลับไป",
   "src": "libretranslate",
@@ -20035,6 +20317,12 @@
  },
  "In the current map view": {
   "t": "ในมุมมองแผนที่ปัจจุบัน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "In the date box you can type the whole date with the keyboard, day, month then year, and press Enter.": {
+  "t": "ในกล่องวันที่ คุณสามารถพิมพ์วันที่ทั้งหมดด้วยแป้นพิมพ์, วัน, เดือน, แล้วปี และ Press",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20059,6 +20347,12 @@
  },
  "In the map popup": {
   "t": "ในแผนที่ป๊อปอัป",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "In the show": {
+  "t": "ในโชว์",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21803,6 +22097,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Layers put back the way they were.": {
+  "t": "เลเยอร์กลับมาเป็นเหมือนเดิม",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Layers switched on / total layers": {
   "t": "เลเยอร์",
   "src": "libretranslate",
@@ -21815,8 +22115,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Layers that cannot follow the slider, at the end of the list, names the layers that were left out and why: no date field, fields that could not be read, or a choice made in the app settings.": {
+  "t": "เลเยอร์ที่ไม่สามารถตามแถบเลื่อนได้, เมื่อสิ้นสุดรายการ, ชื่อเลเยอร์ที่อยู่นอกรายการ และเหตุผลคือ: ไม่มีช่องวันที่, สนามที่ไม่สามารถอ่านได้, หรือตัวเลือกที่ตั้งไว้ในการตั้งค่าโปรแกรม",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Layers that change with the date": {
   "t": "เพิ่มเลเยอร์...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layers that come from a map service are copied as a whole for the right side, so a map service with many layers can take a moment to appear.": {
+  "t": "เลเยอร์ที่มาจากบริการในแผนที่ จะถูกคัดลอกเป็นทั้งสําหรับด้านขวา ดังนั้นแผนที่บริการที่มีหลายชั้น",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22141,6 +22453,12 @@
  },
  "less than": {
   "t": "น้อยกว่า",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Let the numbers pick the story: one chapter per busy period, or one every few periods, with the count in the text and the per layer breakdown in the notes.": {
+  "t": "ให้ ตัว เลข เลือก เรื่อง: หนึ่ง บท ต่อ ช่วง ที่ มี งาน ยุ่ง หรือ หนึ่ง ช่วง ทุก ๆ สอง สาม ช่วง โดย มี การ นับ ใน ข้อ ความ และ การ แตก หัก ของ ชั้น ต่อ ข้อ ความ.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23345,6 +23663,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Making your own chapters": {
+  "t": "สร้างบทเป็นของตัวเอง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Malagasy": {
   "t": "มา ปู โต",
   "src": "libretranslate",
@@ -23767,6 +24091,18 @@
  },
  "Map Service": {
   "t": "บริการแผนที่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map set to {date}. {n} layers changed.": {
+  "t": "แผนที่ที่ตั้งไว้ {date}. {n} ชั้นเปลี่ยนไป",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map showing {from} to {to}. {n} layers changed.": {
+  "t": "แสดงแผนที่ {from} ถึง {to}. {n} ชั้นเปลี่ยนไป",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -25007,6 +25343,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Move the slider to this chapter.": {
+  "t": "ย้ายแถบเลื่อนไปยังบทนี้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Move this exact configuration between apps. Export a portable XML file, then import it into another Search (Custom) widget.": {
   "t": "ย้ายการปรับแต่งนี้ที่ถูกต้องระหว่างโปรแกรม ส่งออกเป็นแฟ้ม XML แบบพกพา แล้วนําเข้ามันมายังวิดเจ็ตอื่น (Custom)",
   "src": "libretranslate",
@@ -26039,6 +26381,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No pictures could be taken.": {
+  "t": "ถ่ายรูปไม่ได้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No points appear: no map is connected to this widget. Checking and the table export still work. Ask the GIS Division to connect a map if you need the points drawn.": {
   "t": "ไม่มีจุดปรากฎ: ไม่มีแผนที่ที่เชื่อมต่อกับวิดเจ็ตนี้ การตรวจสอบและการส่งออกตารางยังคงทํางาน ขอให้หน่วยจีไอเอสเชื่อมต่อแผนที่ ถ้าคุณต้องการจุดวาด",
   "src": "libretranslate",
@@ -26467,6 +26815,12 @@
  },
  "Notes for {name}": {
   "t": "บันทึกช่วยจําสําหรับ {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Nothing dated in this range to make chapters from.": {
+  "t": "ไม่มีวันที่ในช่วงนี้ที่จะทําบทจาก",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -26975,6 +27329,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "On each chapter, Go to this date moves the slider to it, Pin to slider date pins it to where the slider is now, Move up and Move down change the order, In the show or Hidden keeps it in the list but out of the show, and Remove chapter drops it. Remove all empties the list. After a run, Use rehearsed timings turns the time you spent on each chapter into its hold time.": {
+  "t": "ในแต่ละบท ให้เลื่อนแถบเลื่อนไปยังมัน, พินไปยังแถบเลื่อนวันที่ปักหมุดไปยังที่ที่แถบเลื่อนอยู่ ให้เลื่อนขึ้น และย้ายลงที่เปลี่ยนลําดับ, ในการแสดงหรือซ่อนมันไว้ในรายการ แต่ออกจากรายการ และลบบททิ้ง ลบรายการทั้งหมดออก หลัง จาก วิ่ง ไป แล้ว จง ใช้ เวลา ที่ คุณ ใช้ ไป กับ แต่ ละ บท ให้ เป็น เวลา ของ มัน.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "On pace": {
   "t": "ในก้าว",
   "src": "libretranslate",
@@ -26983,6 +27343,12 @@
  },
  "On select, each rule runs an intersect query and appends its HTML to the popup. Tokens:": {
   "t": "ในการเลือก กฎแต่ละตัวจะมีการค้นหาจากอินเตอร์เซก และเพิ่ม HTML เข้ากับหน้าต่างผุด หมึก:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On stage": {
+  "t": "บนเวที",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -27095,6 +27461,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "One .html file that plays in any browser: arrows to move, S for notes, P to print to PDF.": {
+  "t": "แฟ้ม .html ที่เล่นอยู่ในเบราว์เซอร์ใด ๆ: ลูกศรที่จะย้าย, S สําหรับโน้ต, P เพื่อพิมพ์ไปยัง PDF",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "One at a Time": {
   "t": "ทีละคน",
   "src": "libretranslate",
@@ -27139,6 +27511,12 @@
  },
  "One click asks {sources}.": {
   "t": "คลิกหนึ่งครั้งถาม {sources}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "One every": {
+  "t": "หนึ่งต่อหนึ่ง",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -27193,6 +27571,12 @@
  },
  "One PDF comes out with every page in it. The legend prints on every sheet, the same way ArcGIS Pro does it.": {
   "t": "หนึ่ง PDF ออกมาพร้อมกับทุกหน้าในนั้น ลายนิ้วมือในตํานานทุกแผ่น เหมือนอาร์กเกสโปร",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "One slide per chapter ({n}): the map at that date, the title, the text, and the notes as speaker notes, in one file that plays in any browser. The map walks through every chapter to take the pictures; leave it alone while it does.": {
+  "t": "สไลด์หนึ่งหน้า ({n}แผนที่วันที่นั้น ชื่อเรื่อง ข้อความ และบันทึก เป็นบันทึกลําโพง ในแฟ้มหนึ่ง ที่เล่นในเว็บเบราว์เซอร์ แผนที่ เดิน ผ่าน ทุก บท เพื่อ ถ่าย รูป; ปล่อย ไว้ ตาม ลําพัง.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -28313,6 +28697,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Paused at {date}.": {
+  "t": "หยุดชั่วคราว {date}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "PDF and SVG files come with layers. In Acrobat or Avenza Maps open the Layers panel to hide the grid, the selection outline, the legend or the text; in Illustrator or Inkscape each part is its own layer.": {
   "t": "PDF และแฟ้ม SVG มีเลเยอร์ ใน Acrobat หรือ Avensa แผนที่เปิดแผงชั้นเพื่อซ่อนตาราง, โครงคัดเลือก ตํานานหรือข้อความ; ในไซมันเตอร์หรืออินกราวด์แต่ละส่วนเป็นชั้นของมันเอง",
   "src": "libretranslate",
@@ -28877,6 +29267,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Pin this chapter to the date the slider is on.": {
+  "t": "ติดบทนี้ไปยังวันที่แถบเลื่อนที่อยู่บน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Pin to slider date": {
+  "t": "ปักหมุดไปยังวันที่ของแถบเลื่อน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Pixel tolerance used when selecting existing parcel lines to edit": {
   "t": "การคงค่าสีที่จะใช้เมื่อเลือกบรรทัดแพกเกจที่มีอยู่เพื่อแก้ไข",
   "src": "libretranslate",
@@ -28967,6 +29369,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Play in this app moves chapter to chapter rather than one notch at a time.": {
+  "t": "เล่นในโปรแกรมนี้ย้ายหน้าหนึ่งไปยังบทแทนการเว้นวรรคทีละตัว",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Play, the arrows and the slider all move by this much. 5 years turns a century of annexations into twenty notches.": {
   "t": "เล่น, ลูกศรและแถบเลื่อนทั้งหมดย้ายโดยมากนี้ 5 ปี เปลี่ยนศตวรรษของการผนวกเป็นรอยขีดข่วนยี่สิบ",
   "src": "libretranslate",
@@ -28990,6 +29398,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Playing from {date}.": {
+  "t": "เล่นจาก {date}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Playing it back": {
+  "t": "เล่นมันกลับไป",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Please call us for this issue": {
   "t": "กรุณาเรียกเราสําหรับประเด็นนี้",
@@ -29567,8 +29987,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Present puts a large date banner on the map with its own play buttons, so the audience watches the map and not the panel.": {
+  "t": "ปัจจุบัน วาง ป้าย วัน ที่ ขนาด ใหญ่ ไว้ บน แผนที่ ด้วย ปุ่ม เล่น ของ มัน เอง ดัง นั้น ผู้ ชม จึง ดู แผนที่ ไม่ ใช่ ติด ป้าย.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Presentation": {
   "t": "การนําเสนอ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Presentation ended.": {
+  "t": "การนําเสนอสิ้นสุดลง",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -29579,14 +30011,32 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Presentation started. Press Escape to exit.": {
+  "t": "เริ่มการนําเสนอ กดหนีเพื่อออก",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Presenter window": {
   "t": "หน้าต่างตัวแสดง",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Presenter window, or W, opens a second window with your speaker notes, what comes next, a running clock and the same buttons. Drag it to the laptop screen and put the map on the projector; the two stay in step.": {
+  "t": "หน้าต่างตัวแสดงหรือ W จะเปิดหน้าต่างบานที่สองด้วยโน้ตลําโพงของคุณ สิ่งที่จะเกิดขึ้นต่อไป คือนาฬิกาที่ทํางาน และปุ่มเดียวกัน ลากมันไปที่หน้าจอแลปทอป และวางแผนที่บนโปรเจคเตอร์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Presenting": {
   "t": "นําเสนอ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Presenting to a room": {
+  "t": "นําเสนอไปยังห้อง",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -29681,6 +30131,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Press Add chapter from this view and the date, view, layers and basemap are captured. Write a title, text and speaker notes, then present.": {
+  "t": "กด เพิ่มบทจากมุมมองนี้ และวันที่, มุมมอง, ชั้นและฐานแมพถูกบันทึก เขียนชื่อเรื่อง ข้อความและลําโพง แล้วนําเสนอ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Press C on a focused basemap to compare it with the current basemap.": {
   "t": "กด C บนฐานที่โฟกัสเพื่อเปรียบเทียบกับเบสแมพปัจจุบัน",
   "src": "libretranslate",
@@ -29692,6 +30148,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Press Copy link while presenting and the link opens the app straight into the presentation. If it was playing, the link plays too. Good for a lobby screen.": {
+  "t": "กดคัดลอกลิงก์ในขณะที่นําเสนอและลิงก์เปิดแอพโดยตรงไปยังการนําเสนอ ถ้ามันกําลังเล่นอยู่ ตัวเชื่อมโยงก็เล่นด้วย ดีกับจอล็อบบี้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Press Enter in the search box instead of clicking Search.": {
   "t": "กด Enter ในกล่องการค้นหาแทนการคลิกที่การค้นหา",
@@ -29789,6 +30251,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Press Play and the slider walks forward one notch at a time until it reaches the end.": {
+  "t": "กดเพลย์และแถบเลื่อนเดินไปข้างหน้าทีละจุดจนกว่าจะถึงตอนจบ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Press Present. The slider switches to As of and moves to the first chapter, or the oldest date, when it was sitting at the end. The banner opens on a title card, then shows the date, a progress bar and the current chapter, and a closing card at the end. Full screen, or F, fills the screen with the map. Press Exit presentation, or Escape, to come back; the mode you were in comes back with you.": {
+  "t": "กด นําเสนอ แถบเลื่อนสลับที่และย้ายไปยังบทแรก หรือวันที่เก่าแก่ที่สุด เมื่อมันนั่งอยู่ในตอนท้าย ป้ายเปิดบนการ์ดชื่อเรื่อง จากนั้นแสดงวันที่, แถบความคืบหน้า และบทปัจจุบัน, และบัตรปิดตอนจบ หน้าจอเต็มจอ หรือ F เติมหน้าจอด้วยแผนที่ กดทางออกนําเสนอหรือหลบหนีเพื่อกลับมา; โหมดที่คุณอยู่ในกลับมากับคุณ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Press Save changes (it reads Change to Resolved, or whichever status you picked, while a status change is pending). A green message confirms it, and Back returns you to the list.": {
   "t": "กดบันทึกการเปลี่ยนแปลง (อ่านแล้วเปลี่ยนค่าเป็น resoleved หรือสถานะใด ๆ ที่คุณเลือก ในขณะที่การเปลี่ยนสถานะยังคงอยู่) จดหมายสีเขียวยืนยันมัน และส่งกลับไปยังรายการ",
   "src": "libretranslate",
@@ -29803,6 +30277,12 @@
  },
  "Press the number shown at the right of a row to run it without the mouse.": {
   "t": "กดหมายเลขที่แสดงอยู่ทางด้านขวาของแถว เพื่อเรียกใช้งานมันโดยไม่มีเมาส์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Press Today to come back to the present.": {
+  "t": "กดวันนี้เพื่อกลับมาปัจจุบัน",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -30467,8 +30947,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Range set from the data: {from} to {to}.": {
+  "t": "ช่วงที่ตั้งจากข้อมูล: {from} ถึง {to}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Range: two handles, only things that happened between them. Drag either handle.": {
+  "t": "ระยะ: ด้ามจับสองด้าม มีเฉพาะสิ่งที่เกิดขึ้นระหว่างพวกเขาเท่านั้น ลากจับทั้งสอง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Raster EPS (Level 2, JPEG-embedded). For vector output use PDF or SVG.": {
   "t": "Raster EPS (Leve 2, JPEG-emed). สําหรับเวกเตอร์ผลลัพธ์การใช้ PDF หรือ SVG",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Read aloud says there is no voice: this browser has no speech voice installed. Try Chrome or Edge.": {
+  "t": "อ่านออกเสียงบอกว่าไม่มีเสียง: เบราว์เซอร์นี้ไม่มีเสียงที่ติดตั้งอยู่ ลอง Chrome หรือ Edge.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -30685,6 +31183,18 @@
  },
  "Record Threshold": {
   "t": "แผ่น เสียง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Recording frame {i} of {n}...": {
+  "t": "กําลังบันทึกเฟรม {i} ของ {n}...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Recording stopped, nothing saved.": {
+  "t": "บันทึกหยุด ไม่มีอะไรบันทึก",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -31001,6 +31511,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Remove all": {
+  "t": "ลบทั้งหมด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Remove all {n} chapters made here? This cannot be undone.": {
+  "t": "ลบทั้งหมด {n} บททําที่นี่? นี่ไม่สามารถยกเลิกได้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Remove all entered lines and start over": {
   "t": "เอาทั้งหมดเข้าบรรทัดแล้วเริ่มต้นใหม่",
   "src": "libretranslate",
@@ -31045,6 +31567,12 @@
  },
  "Remove button": {
   "t": "ปุ่มลบ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Remove chapter": {
+  "t": "ลบบท",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -31558,6 +32086,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Reset, beside Today, puts everything back to how the widget opened: the opening date, the step and mode, every layer ticked, nothing playing.": {
+  "t": "ตั้งค่าใหม่, นอกเหนือไปจากวันนี้, จะใส่ทุกอย่างกลับไปตามที่วิดเจ็ตเปิด: วันเปิด, วันขั้นตอนและโหมด, ทุกชั้นที่ถูกตรวจสอบ, ไม่มีการเล่น",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Resizable": {
   "t": "เรียกคืนได้",
@@ -32929,6 +33463,12 @@
  },
  "Search the guide (try \"PDF\" or \"parcel\")": {
   "t": "ค้นหาคําแนะนํา (พยายาม \"PDF\" หรือ \"parcel\")",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Search the guide (try \"play\" or \"compare\")": {
+  "t": "ค้นหาคําแนะนํา (พยายาม \"เล่น\" หรือ \"รวม\")",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -34307,6 +34847,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Sharing a date": {
+  "t": "แบ่งปันวันที่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Sharing with a colleague": {
   "t": "แบ่งปันกับเพื่อนร่วมงาน",
   "src": "libretranslate",
@@ -35489,6 +36035,30 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Slides": {
+  "t": "ภาพนิ่ง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Slides or Video says the browser blocked the download: allow downloads for this site and try again.": {
+  "t": "สไลด์หรือวิดีโอกล่าวว่า เว็บเบราว์เซอร์ได้ปิดกั้นการดาวน์โหลด: อนุญาตให้ดาวน์โหลดเว็บไซต์นี้ได้ แล้วลองใหม่อีกครั้ง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Slides ready: {n} chapters downloaded.": {
+  "t": "ภาพนิ่งที่พร้อม: {n} ดาวน์โหลดมา",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Slideshow and video": {
+  "t": "การนําเสนอและวิดีโอ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Slovak (Slovenčina)": {
   "t": "สโลวัก (Slovinina)",
   "src": "libretranslate",
@@ -35669,6 +36239,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Snapshots by year (aerials, archived parcels) switch to the latest year on or before the slider date.": {
+  "t": "เปลี่ยน เป็น ปี ล่า สุด หรือ ก่อน วัน ที่ จะ มา ถึง ของ นัก เล่น บาสเกตบอล.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Soft (filled pill)": {
   "t": "เบา (เม็ดเต็ม)",
   "src": "libretranslate",
@@ -35749,6 +36325,12 @@
  },
  "Some sections open in their own pane. Use the Back button at the top of that pane to return to the report.": {
   "t": "บางส่วนเปิดในช่องของตัวเอง ใช้ปุ่มแบ็คที่ด้านบนสุดของช่องนั้นเพื่อกลับไปรายงาน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Someone opening your link sees the same date the moment the map loads.": {
+  "t": "ใครบางคนที่เปิดลิงก์ของคุณ เห็นวันเดียวกัน ขณะที่แผนที่โหลด",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -35945,6 +36527,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Space plays and pauses. The arrow keys step one notch. Home and End go to either end. Plus and minus, or the speed button on the banner, make play faster or slower.": {
+  "t": "สเปซเพลย์และหยุดเล่น กุญแจลูกศรก้าวที่หนึ่ง บ้านและจุดจบจะสิ้นสุดลงทั้งสอง บวกกับลบ หรือปุ่มสปีดบนป้าย ทําให้การเล่นเร็วขึ้นหรือช้าลง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Space plays and pauses. The arrow keys step one notch. Home and End go to either end. Shift with an arrow, or Page Up and Page Down, moves a chapter. Type a chapter number and press Enter to jump straight to it. Plus and minus, or the speed button on the banner, make play faster or slower.": {
+  "t": "สเปซเพลย์และหยุดเล่น กุญแจลูกศรก้าวที่หนึ่ง บ้านและจุดจบจะสิ้นสุดลงทั้งสอง เลื่อนหน้าต่างด้วยลูกศร หรือเลื่อนขึ้นและลง เลื่อนหน้าหนึ่ง บท พิมพ์หมายเลขบทและกด Enter เพื่อกระโดดตรงไปที่มัน บวกกับลบ หรือปุ่มสปีดบนป้าย ทําให้การเล่นเร็วขึ้นหรือช้าลง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Spacing": {
   "t": "ช่องว่าง",
   "src": "libretranslate",
@@ -36017,6 +36611,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Speaker notes (presenter window only)": {
+  "t": "บันทึกช่วยจําตัวพูด (หน้าต่างปัจจุบันเท่านั้น)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Specify which layers will be displayed for each map": {
   "t": "แสดงเลเยอร์ของแต่ละแผนที่",
   "src": "libretranslate",
@@ -36025,6 +36625,12 @@
  },
  "Speed": {
   "t": "ความเร็ว",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Speed, from Slowest to Fastest, changes how long each step stays on screen. Pause stops it where it is.": {
+  "t": "สปีด จากช้าที่สุดถึงเร็วที่สุด เปลี่ยนระยะที่แต่ละขั้นตอนอยู่ในจอ หยุดที่มันอยู่ก่อน",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -36079,6 +36685,12 @@
  },
  "Spotlight on. Move the mouse over the map.": {
   "t": "เปิดไฟ ย้ายเมาส์เหนือแผนที่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Spotlight, or L, darkens the map except a circle around your mouse so the room sees where you point. The arrow keys move the circle too. Press again to turn it off.": {
+  "t": "สปอตไลท์ หรือ L ทําให้แผนที่มืดลง ยกเว้นวงกลมรอบหนู เพื่อให้ห้องเห็นว่าคุณชี้ไปทางไหน กุญแจลูกศรย้ายวงกลมด้วย กดอีกครั้งเพื่อปิดมัน",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -36395,6 +37007,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Step by Day, Month or Year sets how far one notch on the slider moves. Year is quick for decades, Day is exact for one season. The date you are on is kept when you switch. Advanced lets one notch move several at once, every 5 years for example.": {
+  "t": "ที ละ วัน เดือน หรือ ปี กําหนด ว่า คน หนึ่ง จะ ขยับ ตัว ได้ ถึง ขีด ไหน. ปีเป็นระยะเวลาที่สั้นสําหรับทศวรรษ วันเป็นที่แน่นอนสําหรับฤดูกาลหนึ่ง วัน ที่ คุณ อยู่ เป็น วัน ที่ เก็บ ไว้ เมื่อ คุณ เปลี่ยน. ขั้นสูงจะช่วยให้หนึ่งคันย้ายพร้อมกันทุก 5 ปีตัวอย่าง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Stepped filled": {
   "t": "เต็มขั้นแล้ว",
   "src": "libretranslate",
@@ -36509,6 +37127,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Still stuck? Contact the GIS Division and mention the Time Machine name and this app.": {
+  "t": "ยังติดอยู่อีกเหรอ? ติดต่อหน่วย จีไอเอส และพูดถึงชื่อไทม์แมชชีนและแอพนี้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Still stuck? Contact your GIS team and mention the Draw Advanced widget and this app.": {
   "t": "ยังติดอยู่อีกเหรอ? ติดต่อทีม GIS ของคุณ และพูดถึงวิดเจ็ตขั้นสูงและแอพนี้",
   "src": "libretranslate",
@@ -36517,6 +37141,12 @@
  },
  "Still working on it. Thanks for your patience.": {
   "t": "ยังทํางานอยู่ ขอบคุณสําหรับความอดทนของคุณ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Stop": {
+  "t": "หยุด",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -36577,6 +37207,12 @@
  },
  "Story chapters": {
   "t": "เรื่อง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Story chapters, under the slider, lets you build a story without the app builder.": {
+  "t": "บทเรื่องใต้แถบเลื่อน ช่วยให้คุณสร้างเรื่องราว โดยไม่ต้องสร้างแอพ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -37157,6 +37793,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Taking picture {i} of {n}...": {
+  "t": "ถ่ายภาพ {i} ของ {n}...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Tamil (தமிழ்)": {
   "t": "ทมิฬ (தமிழ்)",
   "src": "libretranslate",
@@ -37685,8 +38327,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The banner does not appear: another widget is covering the map, or the app is in the builder. Try it in the published app.": {
+  "t": "ป้ายไม่ปรากฏ: วิดเจ็ตอื่นครอบคลุมแผนที่ หรือแอพอยู่ในผู้สร้าง ลองในแอพที่ตีพิมพ์ดูสิ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The bars above the slider show how much happened in each year or month. Next change and Previous change jump the slider to the next busy spot.": {
+  "t": "แท่งเหนือแถบเลื่อนแสดงจํานวนที่เกิดขึ้นในแต่ละปีหรือเดือน เปลี่ยนครั้งถัดไปและการเปลี่ยนแปลงก่อนหน้านี้ กระโดดแถบเลื่อนไปยังจุดที่ไม่ว่างถัดไป",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The box above the list filters layer names. Filtering the list does not remove your selections.": {
   "t": "กล่องที่อยู่เหนือรายการจะกรองชื่อเลเยอร์ การกรองรายการไม่ได้ลบส่วนที่เลือกของคุณ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The browser blocked the download.": {
+  "t": "ตัวเรียกดูบล็อคการดาวน์โหลด",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -37703,8 +38363,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The browser would not keep the chapter. It stays until the page reloads.": {
+  "t": "เบราว์เซอร์จะไม่เก็บบทไว้ มันจะอยู่จนกระทั่ง หน้าโหลด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The busiest": {
+  "t": "ที่ยุ่งที่สุด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The button reads Exporting… while the file is built; a long list can take a minute. The file is named RAC_Export with the date.": {
   "t": "ปุ่มอ่านค่าส่งออก... ขณะที่แฟ้มถูกสร้าง รายการยาวสามารถใช้เวลาสักครู่ แฟ้มนี้มีชื่อว่า RAC Export พร้อมวันที่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The buttons above the slider change what the slider means.": {
+  "t": "ปุ่มเหนือแถบเลื่อนเปลี่ยนความหมายของแถบเลื่อน",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -37847,6 +38525,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The date you leave on is remembered in this browser and is back the next time you open the widget.": {
+  "t": "วันที่คุณออกจะถูกจดจําไว้ในเบราว์เซอร์นี้ และจะกลับมาเมื่อคุณเปิดวิดเจ็ตครั้งต่อไป",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The Default Area Unit must be reset after changes in this panel.": {
   "t": "หน่วยของพื้นที่โดยปริยายจะต้องตั้งค่าใหม่หลังจากมีการเปลี่ยนแปลงในพาเนลนี้",
   "src": "libretranslate",
@@ -37973,6 +38657,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The filter lives in your browser only. Nobody else sees the map change and nothing is saved.": {
+  "t": "ตัวกรองอยู่ในเบราว์เซอร์ของคุณเท่านั้น ไม่มีใครเห็นแผนที่เปลี่ยน ไม่มีอะไรบันทึกไว้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The filter shows no layers: check the spelling, or clear the box with the x to see everything again.": {
   "t": "ตัวกรองแสดงถึงไม่มีชั้น: ตรวจดูการสะกด, หรือล้างกล่องด้วย x เพื่อดูทุกอย่างอีกครั้ง",
   "src": "libretranslate",
@@ -38087,6 +38777,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The line under the slider says it could not read the dates: a layer did not answer, often a sign in or a service that is down. The range shown is a guess; reload, or ask the app builder to set the years.": {
+  "t": "เส้นใต้แถบเลื่อนบอกว่าอ่านวันที่ไม่ได้: ชั้นไม่ตอบ บ่อยครั้งเครื่องหมายในหรือบริการที่ลดลง ช่วง ต่าง ๆ ที่ แสดง ให้ เห็น นั้น เป็น การ เดา; เรียก ซ้ํา, หรือ ขอ ให้ ผู้ สร้าง แอพ กําหนด ปี.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The list below the slider names the layers that follow it. Only layers that are turned on in the map are listed.": {
+  "t": "รายชื่อที่อยู่ด้านล่างแถบเลื่อน ชื่อชั้นต่าง ๆ ที่ตามมา เฉพาะชั้นที่เปิดอยู่ในแผนที่เท่านั้น",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The list is empty and it was not before: browsing data was cleared, or this is a different browser or computer.": {
   "t": "รายการว่างเปล่า และยังไม่ปรากฏมาก่อน: การเรียกดูข้อมูลถูกล้างแล้ว หรือจะเป็นเบราว์เซอร์หรือคอมพิวเตอร์อื่น",
   "src": "libretranslate",
@@ -38134,6 +38836,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The map is slow while dragging: many large layers are redrawing. Untick the ones you are not looking at.": {
+  "t": "แผนที่ช้าขณะลาก: หลายชั้นขนาดใหญ่กําลังวาดใหม่ ปลดปล่อยสิ่งที่คุณไม่ได้มองหา",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The map layers changed. Comparison stopped; review your selections and start again.": {
   "t": "แผนที่เปลี่ยนไป การเปรียบเทียบหยุดแล้ว ทบทวนการคัดเลือกของคุณ และเริ่มต้นใหม่",
@@ -38183,6 +38891,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The map zoom buttons and compass leave while the banner is up and come back when you exit.": {
+  "t": "แผนที่ซูมปุ่มและเข็มทิศออกไป ในขณะที่ป้ายธงขึ้น และกลับมาเมื่อคุณออก",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The menu always stays fully on the screen. Near an edge it opens toward the middle of the map instead.": {
   "t": "เมนูมักจะอยู่เต็มจอเสมอ ใกล้ขอบมันเปิดไปสู่ใจกลางของแผนที่แทน",
   "src": "libretranslate",
@@ -38209,6 +38923,12 @@
  },
  "The new layer appears at the top of the list. Use its three-dot menu to change its symbol or remove it.": {
   "t": "เลเยอร์ถัดไปปรากฏอยู่ด้านบนสุดของรายการ ใช้เมนู 3 จุด เพื่อเปลี่ยนสัญลักษณ์ หรือลบออกไป",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The number beside a layer is how many features it shows on the date. It updates a moment after the slider stops.": {
+  "t": "จํานวนที่อยู่ด้านข้างชั้น คือจํานวนคุณลักษณะที่แสดงในวันที่ มันอัพเดตเมื่อแถบเลื่อนหยุด",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -38315,11 +39035,29 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The play buttons are not shown in Compare.": {
+  "t": "ปุ่มเล่นไม่ถูกแสดงเมื่อเปรียบเทียบกัน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The points landed in the wrong part of the country: the city or state column is empty, so the geocoder guessed. Fill those columns in and run it again.": {
   "t": "จุดต่าง ๆ ตกในส่วนที่ผิดของประเทศ : เทศบาลหรือเขตรัฐว่างเปล่า จึงเดาเอา เติมคอลัมน์เหล่านั้นเข้าไป แล้วเรียกอีกครั้ง",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The presenter window does not open: the browser blocked a pop up. Allow pop ups for this site and press W again.": {
+  "t": "หน้าต่างตัวแสดงยังไม่เปิด: ตัวเรียกดูบล็อคหน้าต่างผุดขึ้นมา อนุญาตให้เปิดเว็บไซต์นี้ และกด W อีกครั้ง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The presenter window keeps a clock and says whether you are ahead of, behind or on the planned length. Beside each chapter it shows how long you have spent there in this run, and once a chapter has been visited its map picture appears beside the notes and beside Up next.": {
+  "t": "หน้าต่างที่แสดงอยู่เก็บนาฬิกาไว้และบอกว่า คุณอยู่ข้างหน้า, หลัง, หรือในความยาววางแผน นอก จาก บท แต่ ละ บท แล้ว ยัง แสดง ให้ เห็น ว่า คุณ ได้ ใช้ เวลา อยู่ ที่ นั่น นาน เท่า ไร และ เมื่อ มี บท หนึ่ง ไป เยี่ยม ชม ภาพ แผนที่ ของ บท นั้น ปรากฏ อยู่ ข้าง โน้ต และ ข้าง หน้า.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The print service did not return a file.": {
   "t": "บริการการพิมพ์ไม่ได้ส่งแฟ้มกลับมา",
@@ -38368,6 +39106,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The same XML as a file.": {
+  "t": "แบบ XML เดียวกับไฟล์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The Saved column shows the date each one was made.": {
   "t": "คอลัมน์ที่บันทึกไว้แสดงวันที่แต่ละหนึ่งทํา",
@@ -38419,6 +39163,12 @@
  },
  "The slider moves the same divider as the handle on the map. Use the arrow keys on the slider for a precise adjustment.": {
   "t": "แถบแถบเลื่อนย้ายตัวแบ่งเหมือนกับที่จับบนแผนที่ ใช้ปุ่มลูกศรบนแถบเลื่อนเพื่อทําการปรับเปลี่ยนที่แม่นยํา",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The slider range looks wrong: the range comes from the oldest and newest dates in the data, and placeholder dates such as the year 2999 are ignored. If a real date is missing, ask the app builder to widen the years the data may reach.": {
+  "t": "ช่วงแถบเลื่อนดูไม่ถูกต้อง: ช่วงนี้มาจากวันที่เก่าที่สุดและใหม่ที่สุดในข้อมูล และระบุวันที่ เช่น ปี 299 นั้นถูกละเลย หาก ไม่ มี วัน ที่ แท้ จริง จง ขอ ให้ ผู้ สร้าง โปรแกรม โปรแกรม ให้ ขยาย ปี ที่ ข้อมูล นั้น อาจ ถึง.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -38509,6 +39259,12 @@
  },
  "The text shown in the right-click context menu. Leave blank to use \"Property Information\".": {
   "t": "ข้อความที่แสดงในเมนูคลิกขวา ทิ้งช่องว่างไว้ใช้ \"ข้อมูลงาน\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The time you spent on each chapter in the last run becomes its hold time when playing.": {
+  "t": "เวลา ที่ คุณ ใช้ ไป กับ แต่ ละ บท ใน การ วิ่ง ครั้ง สุด ท้าย กลาย เป็น เวลา ที่ ใช้ ใน การ เล่น.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -38639,6 +39395,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The widget reads the dates of each layer once when it opens and works from that copy in your browser, so dragging, playing and counting need nothing from the server. The map itself is filtered in your browser too.": {
+  "t": "วิดเจ็ตการอ่านวันที่ของแต่ละชั้น เมื่อมันเปิดและทํางานจากที่คัดลอกไว้ในเบราว์เซอร์ของคุณ ให้ลาก, เล่น และนับสิ่งที่ไม่ต้องการจากเซิร์ฟเวอร์ แผนที่เองก็ถูกกรองในเบราว์เซอร์ของคุณด้วย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The widget says no map is selected: it has not been joined to a map yet. Ask the person who built the app to pick the map in the widget settings.": {
   "t": "วิดเจ็ตบอกว่ายังไม่มีการเลือกแผนที่: มันยังไม่ได้เชื่อมโยงกับแผนที่ ถามคนที่สร้างโปรแกรมเพื่อเลือกแผนที่ในการตั้งค่าวิดเจ็ต",
   "src": "libretranslate",
@@ -38725,6 +39487,18 @@
  },
  "There is no overwrite. To replace a saved view, delete the old one first, or save under a new name.": {
   "t": "ไม่มีการเขียนทับ เพื่อแทนที่มุมมองที่บันทึกไว้ ให้ลบภาพเก่าก่อน หรือบันทึกภายใต้ชื่อใหม่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "These chapters live in this browser only. Copy the XML into the builder to keep them in the app.": {
+  "t": "บทนี้อยู่ในเบราว์เซอร์เท่านั้น คัดลอก XML ในผู้สร้างเพื่อให้มันอยู่ในแอพ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "These chapters live in this browser only. Copy XML for the builder, or Download XML, hands them to whoever edits the app so they become part of it.": {
+  "t": "บทนี้อยู่ในเบราว์เซอร์เท่านั้น คัดลอก XML สําหรับผู้สร้างหรือดาวน์โหลด XML ส่งมันให้กับใครก็ตามที่แก้ไขแอพ เพื่อให้กลายเป็นส่วนหนึ่งของมัน",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -38839,6 +39613,12 @@
  },
  "This Application Only": {
   "t": "โปรแกรมนี้เท่านั้น",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "This browser cannot record video (no MediaRecorder).": {
+  "t": "เบราว์เซอร์นี้ไม่สามารถบันทึกวิดีโอได้ (ไม่มีสื่อRecorder)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -39065,6 +39845,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Tick Start over when play reaches the end, under Advanced, to make play loop.": {
+  "t": "Chick start over เมื่อการเล่นมาถึงช่วงท้าย, ภายใต้ขั้นสูง, เพื่อให้การเล่นวนรอบ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Tick the box beside the layer to show it on the map. Untick it to hide it.": {
   "t": "กาเลือกที่กล่องข้างชั้นเพื่อแสดงบนแผนที่ แก้มันเพื่อซ่อนมัน",
   "src": "libretranslate",
@@ -39235,6 +40021,12 @@
  },
  "Time Machine presenter": {
   "t": "ตัวแสดงเวลาของเครื่อง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Time Machine turns back the map: drag one slider and every layer with a date shows what was there on the day you pick.": {
+  "t": "Time Machine ย้อนกลับแผนที่ ลากหนึ่งแถบเลื่อนและทุกชั้นที่มีวันที่แสดงสิ่งที่มีในวันที่คุณเลือก",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -39629,6 +40421,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Tools for the person at the front of the room. Each has a button on the banner and a key.": {
+  "t": "เครื่องมือสําหรับคนหน้าห้อง แต่ละคนมีปุ่มบนป้าย และกุญแจ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Tooltips are disabled - Click to enable drawing tooltips": {
   "t": "หัวหน้าต่างถูกปิดการใช้งาน - คลิกเพื่อเปิดใช้ทูลทิปการวาด",
   "src": "libretranslate",
@@ -39979,6 +40777,12 @@
  },
  "Turkmen (Türkmen)": {
   "t": "เติร์กเมน (Turkmen)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Turn a layer on in the map and it appears here, picks up the date at once and the slider range grows to fit its dates. Turn it off and it leaves the list.": {
+  "t": "เปิดชั้นในแผนที่และปรากฏที่นี่ รับวันที่ในครั้งเดียว และช่วงแถบเลื่อนเติบโตพอดีกับวันที่ ปิดมันซะ แล้วก็ทิ้งรายชื่อไว้",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -40673,6 +41477,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Untick a layer to leave it alone while you scrub. All on and All off do the whole list.": {
+  "t": "ปลดปล่อยชั้นเพื่ออย่าไปยุ่งกับมัน ทั้งหมดและออกทํารายการทั้งหมด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Untitled Layer": {
   "t": "ไม่มีชื่อเลเยอร์",
   "src": "libretranslate",
@@ -41117,6 +41927,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Use rehearsed timings": {
+  "t": "ใช้เวลาที่อ่านแล้ว",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Use separate pane when ≥ {separatePaneThreshold} records": {
   "t": "ใช้ช่องแยกเมื่อ ○ {separatePaneThreshold} บันทึก",
   "src": "libretranslate",
@@ -41345,6 +42161,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "V reads the chapter title and text aloud in the browser voice. Press V again to stop. Speaker notes are never read.": {
+  "t": "V อ่านชื่อบทและข้อความออกเสียงในเสียงของเบราว์เซอร์ กด V อีกครั้งเพื่อหยุด โน้ตเสียงไม่เคยอ่าน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Valid": {
   "t": "ใช้ได้",
   "src": "libretranslate",
@@ -41503,6 +42325,24 @@
  },
  "Video {idx}": {
   "t": "วิดีโอ {idx}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Video ready: {n} frames downloaded.": {
+  "t": "วิดีโอพร้อม: {n} เฟรมดาวน์โหลดแล้ว",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Video records the whole timeline as a WebM film with the date on a caption strip, for a web page, a council packet or social media. The map plays through while it records.": {
+  "t": "วิดีโอบันทึกทั้งช่วงเวลาเป็นภาพยนตร์เว็บเอ็ม โดยมีวันที่บนแถบคําบรรยาย สําหรับหน้าเว็บ แพ็คเกจสภา หรือสื่อสังคม แผนที่เล่นผ่านในขณะที่มันบันทึก",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Video says this browser cannot record: Safari and some locked down browsers have no recorder. Use Chrome, Edge or Firefox.": {
+  "t": "วีดิทัศน์บอกว่า เบราว์เซอร์ตัวนี้ไม่สามารถบันทึกได้: ซาฟารีและเบราว์เซอร์ที่ถูกล็อคอยู่บางตัว ไม่มีเครื่องบันทึกเสียง ใช้ Chrome, Edge หรือ Firefox",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -41861,6 +42701,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Web slideshow": {
+  "t": "การนําเสนอหน้าเว็บ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Web slideshow turns the chapters into one file that plays in any browser: the map at each date, the title, the text, and the notes behind the S key. P prints it to PDF. The map walks through every chapter to take the pictures; leave it alone while it does, or press Stop.": {
+  "t": "การนําเสนอหน้าเว็บ เปลี่ยนบทเป็นแฟ้มหนึ่งที่เล่นในเบราว์เซอร์ใด ๆ: แผนที่ในแต่ละวันที่, ชื่อเรื่อง, ข้อความ, และบันทึกหลังคีย์ S P พิมพ์ไปที่ PDF แผนที่ เดิน ผ่าน ทุก บท เพื่อ ถ่าย รูป; ปล่อย ให้ มัน อยู่ ตาม ลําพัง, หรือ กด หยุด.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Webhook notifications (coming soon)": {
   "t": "การแจ้งให้ทราบทางเว็บฮุค (ใกล้ ๆ นี้)",
   "src": "libretranslate",
@@ -42119,8 +42971,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "When the app builder has connected them, selecting a record in a list or table with a date moves the slider to it.": {
+  "t": "เมื่อผู้สร้างแอพเชื่อมต่อมัน ให้เลือกบันทึกในรายการหรือตาราง โดยเลื่อนแถบเลื่อนไปยังมัน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "When the boundary closes back to the start, check the misclose numbers, then click Save.": {
   "t": "เมื่อขอบเขตปิดตัวกลับมาเริ่มอีกครั้ง ให้ตรวจสอบหมายเลขปิดที่ผิดพลาด จากนั้นคลิกที่ บันทึก",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "When the end is reached the presentation starts over.": {
+  "t": "เมื่องานนําเสนอมาถึง",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -42145,6 +43009,12 @@
  },
  "When you come back, a bar at the top offers to bring back what you measured last time. Click Restore to bring it back or the x to discard it.": {
   "t": "เมื่อคุณกลับมา บาร์ที่ข้อเสนอด้านบน เพื่อนําสิ่งที่คุณวัดครั้งสุดท้ายกลับมา คลิกเรียกคืนเพื่อนํามันกลับมา หรือ x เพื่อละทิ้งมัน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "When you step forward in As of, the features that appeared since the previous position glow for a moment so you can see what changed.": {
+  "t": "เมื่อคุณก้าวไปข้างหน้า ลักษณะที่ปรากฏตั้งแต่ ตําแหน่งก่อนหน้านี้เรืองแสงสักครู่",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -42215,6 +43085,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Where things stand": {
+  "t": "ที่ที่ทุกอย่างยืน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Where to display the description relative to the chart. 'Above' provides context first; 'Below' works as a caption.": {
   "t": "เพื่อแสดงคําบรรยายเมื่อเทียบกับชาร์ต 'Aboive' ให้บริบทแรก; 'Blow' ทํางานเป็นคําบรรยาย",
   "src": "libretranslate",
@@ -42271,6 +43147,12 @@
  },
  "which layers are turned on and how see-through they are": {
   "t": "ชั้นนอกและชั้นที่มองเห็น",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Which layers change": {
+  "t": "เลเยอร์% 1",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -42485,6 +43367,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "With many layers a Find a layer box narrows the list.": {
+  "t": "มีหลายชั้นที่ค้นหากล่องชั้นที่แคบลงในรายการ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "With no page token in the title, each page adds (1 of 6) and so on.": {
   "t": "โดย ไม่ มี ป้าย หน้า หนึ่ง ใน ชื่อ เรื่อง แต่ ละ หน้า จะ เพิ่ม (1 หน้า 6) และ ต่อ ไป.",
   "src": "libretranslate",
@@ -42673,6 +43561,18 @@
  },
  "Xhosa (isiXhosa)": {
   "t": "Xhosa (sixhosa)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "XML copied. Paste it into the widget settings, Import and export.": {
+  "t": "คัดลอก XML วางในการตั้งค่าวิดเจ็ต, นําเข้าและส่งออก",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "XML downloaded.": {
+  "t": "ดาวน์โหลด XML",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
