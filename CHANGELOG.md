@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.2.1 (2026-10-09)
+
+- Bosnian, Croatian and Serbian get machine translations. LibreTranslate has no model for them, so
+  they stayed Esri-only (about 12%). The memory workflow now also starts `tools/opus-mt-server.py`, a
+  small LibreTranslate-compatible server around Helsinki-NLP Opus-MT `opus-mt-tc-base-en-sh` (CC-BY-4.0,
+  CPU), and runs a second `memory-build` pass for `bs,hr,sr`. If it fails to start, the run carries on
+  without those three. Placeholders that come back damaged are rejected as before.
+
 ## 1.2.0 (2026-10-09)
 
 - Audit and wiring follow local UI helper parameters, return helpers, indexed labels, aliases and array metadata, including headings passed to arbitrary helper names.

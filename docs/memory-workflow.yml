@@ -1,6 +1,6 @@
 # Copy to .github/workflows/memory.yml in the exb-i18n-kit repo.
 # Keeps the shared translation memory current: translates new English from memory/sources.json
-# (on main) with a LibreTranslate container on the GitHub runner. Existing entries are never changed.
+# (on main) with a LibreTranslate container on the GitHub runner, plus Opus-MT for bs, hr, sr. Existing entries are never changed.
 #
 # The dictionaries live on their own branch, translation-memory (memory/<locale>.json there),
 # because main is protected (changes only through pull requests) and the Action's token cannot
@@ -49,6 +49,35 @@ jobs:
             sleep 10
           done
           docker logs lt | tail -50; exit 1
+      # Bosnian, Croatian and Serbian: LibreTranslate has no model for them. A small
+      # LibreTranslate-compatible server (tools/opus-mt-server.py, Helsinki-NLP Opus-MT,
+      # CC-BY-4.0) fills them on CPU. If it fails to start, those three are skipped this run.
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Cache Opus-MT model and pip
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/huggingface
+            ~/.cache/pip
+          key: opus-mt-sh-v1
+      - name: Start Opus-MT (bs, hr, sr)
+        continue-on-error: true
+        run: |
+          pip install -q --index-url https://download.pytorch.org/whl/cpu torch
+          pip install -q transformers sentencepiece sacremoses
+          nohup python tools/opus-mt-server.py --port 5001 > "$RUNNER_TEMP/opus.log" 2>&1 &
+          for i in $(seq 1 90); do
+            if curl -sf http://localhost:5001/languages > /dev/null; then
+              echo "Opus-MT ready after ${i}0s"
+              curl -s -X POST http://localhost:5001/translate -H 'Content-Type: application/json' \
+                -d '{"q":["Clear all drawings","Zoom to <x id=\"0\"></x>"],"source":"en","target":"bs","format":"html"}'
+              echo; echo "OPUS_OK=1" >> "$GITHUB_ENV"; exit 0
+            fi
+            sleep 10
+          done
+          tail -50 "$RUNNER_TEMP/opus.log"; exit 1
       - name: Check out the translation-memory branch
         run: |
           git config --global user.name "exb-i18n-bot"
@@ -71,6 +100,9 @@ jobs:
             pass=$((pass + 1))
             echo "::group::Pass $pass"
             node bin/exb-i18n.js memory-build --sources memory/sources.json --out "$MEM_DIR/memory" --provider libretranslate --lt-url http://localhost:5000 --max "$BATCH"
+            if [ "${OPUS_OK:-0}" = "1" ]; then
+              node bin/exb-i18n.js memory-build --sources memory/sources.json --out "$MEM_DIR/memory" --provider libretranslate --lt-url http://localhost:5001 --locales bs,hr,sr --max "$BATCH" || echo "Opus-MT pass failed; bs, hr, sr skipped this pass."
+            fi
             echo "::endgroup::"
             cd "$MEM_DIR"
             git add memory/*.json 2> /dev/null || true
