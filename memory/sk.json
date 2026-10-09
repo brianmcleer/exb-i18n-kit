@@ -185,6 +185,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "\"{name}\" does nothing: your browser is blocking location access. Allow location for this page in your browser settings, or type the address instead.": {
+  "t": "\"{name}\"nerobí nič: váš prehliadač blokuje prístup k polohe. Povoliť umiestnenie tejto stránky v nastavení prehliadača, alebo zadajte adresu miesto.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "\"{name}\" is greyed out: the widget has no map to click, or the map is still loading. Type the address instead.": {
+  "t": "\"{name}\" je sivé: widget nemá mapu kliknúť, alebo mapa je stále načítava. Namiesto toho zadajte adresu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "\"All\" placeholder": {
   "t": "\"Všetky\" miestodržiteľ",
   "src": "libretranslate",
@@ -295,6 +307,12 @@
  },
  "[Controller]": {
   "t": "[Ovládač]",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{{#if Municipality}}\n  <p>Incorporated {Municipality}</p>\n{{else}}\n  <p>Unincorporated {Township} Township</p>\n{{/if}}": {
+  "t": "{{# Ak obec}} <p>registrované {Municipality}</p> {{else}} <p>neregistrované {Township} okres</p> {{/ ak}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -457,6 +475,12 @@
  },
  "{circle}: click the center, then click again to set the size.": {
   "t": "{circle}: kliknite na stred, potom kliknite znovu nastaviť veľkosť.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{clear} removes that list from this browser. The list is only on your own computer, and nobody else sees it.": {
+  "t": "{clear} odstráni zoznam z tohto prehliadača. Zoznam je len na vašom počítači a nikto ho nevidí.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1169,6 +1193,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{name} is greyed out because this app does not show a map beside the widget.": {
+  "t": "{name} je sivé, pretože táto aplikácia nezobrazuje mapu vedľa widgetu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{name}: a satellite view tilted so buildings and terrain show in 3D.": {
   "t": "{name}: satelitný výhľad naklonený tak budovy a terén show v 3D.",
   "src": "libretranslate",
@@ -1187,14 +1217,38 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{name}: lets you pick a spot on the map. Click the button, then click the map. Click the button again to stop.": {
+  "t": "{name}: vám umožní vybrať si miesto na mape. Kliknite na tlačidlo a potom kliknite na mapu. Kliknutím na tlačidlo znovu zastavíte.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{name}: Microsoft's street-level photos, similar to Street View.": {
   "t": "{name}: Microsoft ulice-level fotografie, podobne ako Street View.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{name}: opens a small menu with Copy link, Email and Text message.": {
+  "t": "{name}: otvorí malé menu s Kopírovať odkaz, E-mail a Textová správa.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{name}: photos taken from the street, as if you were standing there.": {
   "t": "{name}Fotky z ulice, akoby si tam stál.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{name}: prints the answer card on its own, not the whole page.": {
+  "t": "{name}: vytlačí kartu s odpoveďou sama, nie celú stránku.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{name}: uses the location of the device you are on. Your browser asks for permission the first time. Choose Allow.": {
+  "t": "{name}: používa umiestnenie zariadenia ste na. Váš prehliadač žiada o povolenie prvýkrát. Vyberte Povoliť.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1294,6 +1348,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "{reset} sits below the box. It empties the box and clears the answer.": {
+  "t": "{reset} sedí pod krabicou. Vyprázdni krabicu a vymaže odpoveď.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "{resetVisibility} puts every layer back the way it was when the page opened": {
   "t": "{resetVisibility} dáva každú vrstvu späť, ako to bolo, keď sa stránka otvorila",
@@ -2321,6 +2381,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "A closing {{/if}} needs an opening {{#if FIELD_NAME}}.": {
+  "t": "Uzavretie {{/ ak}} potrebuje otvorenie {{#, ak pole NAME}}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "a Comments sheet": {
   "t": "a Komentár",
   "src": "libretranslate",
@@ -2587,6 +2653,12 @@
  },
  "A report link works for anyone who can open this app, so it is a quick way to hand a property to a colleague.": {
   "t": "Odkaz na správu funguje pre každého, kto môže otvoriť túto aplikáciu, takže je to rýchly spôsob, ako odovzdať majetok kolegovi.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A REST URL to a GeocodeServer. Defaults to the ArcGIS World Geocoder. Use an internal composite locator if available.": {
+  "t": "URL na GeocodeServer. Štandardy pre ArcGIS World Geokodér. Použite interný kompozitný lokátor, ak je k dispozícii.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2941,6 +3013,12 @@
  },
  "Add a \"Show only this layer\" action": {
   "t": "Pridať akciu \"Ukázať iba túto vrstvu\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add a closing {{/if}} for every opening if block.": {
+  "t": "Pridať zatvorenie {{/ ak}} pre každý otvor, ak je blok.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3641,6 +3719,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Address input label": {
+  "t": "Označenie vstupu adresy",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address input placeholder": {
+  "t": "Vstupný identifikátor adresy",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address input tooltip": {
+  "t": "Comment",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Address Inspection Failed": {
   "t": "Inšpekcia adresy zlyhala",
   "src": "libretranslate",
@@ -3679,6 +3775,12 @@
  },
  "Address lookup failed.": {
   "t": "Hľadanie adresy zlyhalo.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address lookup results. Swipe up or down to scroll.": {
+  "t": "Výsledky vyhľadávania adresy. Potiahnite prstom nahor alebo nadol, aby ste sa posunuli.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4565,8 +4667,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "An {{else}} needs an opening {{#if FIELD_NAME}}.": {
+  "t": "{{else}} Potrebuje otvorenie {{#If Pole NAME}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "an address": {
   "t": "adresa",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "An address right on the edge of an area still matches. The widget looks a short distance around the point.": {
+  "t": "Adresa priamo na okraji oblasti sa stále zhoduje. Widget vyzerá na krátku vzdialenosť okolo bodu.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5141,6 +5255,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "At the top of the answer card you get {actions}.": {
+  "t": "V hornej časti karty odpovede dostanete {actions}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Attach a photo": {
   "t": "Pripojiť fotografiu",
   "src": "libretranslate",
@@ -5407,6 +5527,12 @@
  },
  "available": {
   "t": "k dispozícii",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Available fields": {
+  "t": "Dostupné polia",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5719,6 +5845,12 @@
  },
  "Badges on a card or in the Activity column: {badges}.": {
   "t": "Odznaky na karte alebo v stĺpci Aktivita: {badges}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Banner (colored band with optional title)": {
+  "t": "Banner (farebné pásmo s voliteľným názvom)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6341,6 +6473,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Brand colors": {
+  "t": "Farba značky",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Breakpoint (px)": {
   "t": "Bod zlomu (px)",
   "src": "libretranslate",
@@ -6617,6 +6755,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Buttons on the answer card": {
+  "t": "Tlačidlá na odpovednej karte",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "buttons to back up and restore your drawings.": {
   "t": "tlačidlá na zálohovanie a obnovenie výkresov.",
   "src": "libretranslate",
@@ -6649,6 +6793,12 @@
  },
  "Call {join}": {
   "t": "Volanie {join}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Call {part}": {
+  "t": "Volanie {part}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7312,6 +7462,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Check the result template:": {
+  "t": "Skontrolujte šablónu výsledkov:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Checked {rows} rows, {warnings} warnings": {
   "t": "Skontrolované {rows} riadky, {warnings} upozornenia",
@@ -8171,6 +8327,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Clearing your browser data also clears your recent addresses.": {
+  "t": "Vyčistenie dát prehliadača tiež vymaže vaše posledné adresy.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Clearing your browser data removes saved views. Export them first if you want to keep them.": {
   "t": "Vyčistenie dát prehliadača odstraňuje uložené pohľady. Ak si ich chcete nechať, najprv ich exportujte.",
   "src": "libretranslate",
@@ -8521,6 +8683,12 @@
  },
  "Click one of the tool buttons at the top, such as {distance} or {area}.": {
   "t": "Kliknite na jeden z tlačidiel nástroja v hornej časti, ako je {distance} alebo {area}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click one to look it up again.": {
+  "t": "Kliknite na tlačidlo jeden sa pozrieť znova.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9016,6 +9184,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Close results and search another address": {
+  "t": "Zavrieť výsledky a nájsť inú adresu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Close selection mode picker": {
   "t": "Zavrieť výber zberateľa",
@@ -9707,6 +9881,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Conditional template example": {
+  "t": "Podmienený príklad šablóny",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Configuration": {
   "t": "Nastavenie",
   "src": "libretranslate",
@@ -9730,6 +9910,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Configuration imported successfully.": {
+  "t": "Konfigurácia úspešne importovaná.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Configuration imported.": {
   "t": "Konfigurácia importovaná.",
@@ -10042,6 +10228,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Constrain search to": {
+  "t": "Vyhľadávanie komponentov",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Contact": {
   "t": "Kontakt",
@@ -10559,6 +10751,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Copy link does nothing: this browser does not allow copying from a page. Copy the address out of the box by hand instead.": {
+  "t": "Kopírovací odkaz nič nerobí: tento prehliadač nepovoľuje kopírovanie zo stránky. Namiesto toho skopírovať adresu z krabice ručne.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Copy link or Copy XML says it could not copy: the browser blocked the clipboard. Use Download XML, or copy the address bar after the page updates.": {
   "t": "Kopírovať odkaz alebo Kopírovať XML hovorí, že nemohol kopírovať: prehliadač zablokoval schránky. Použite na stiahnutie XML, alebo kopírovať panel adries po aktualizáciách stránky.",
   "src": "libretranslate",
@@ -11053,6 +11251,12 @@
  },
  "Current configuration as XML (read only)": {
   "t": "Aktuálna konfigurácia ako XML (iba prečítajte)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Current map extent": {
+  "t": "Aktuálny rozsah mapy",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13301,6 +13505,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Download these settings as an XML file.": {
+  "t": "Stiahnuť tieto nastavenia ako XML súbor.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Download unmatched": {
   "t": "Stiahnuť bezkonkurenčné",
   "src": "libretranslate",
@@ -13991,6 +14201,42 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "e.g. \"Address is outside the service area\"": {
+  "t": "napr. \"Adresa je mimo oblasti služieb\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Enter an address above to see your results.\"": {
+  "t": "napr. \"Napíšte adresu hore, aby ste videli výsledky.\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Find your area\"": {
+  "t": "napr. \"Nájdite svoju oblasť\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Find your pickup area\"": {
+  "t": "napr. \"Nájdite oblasť vyzdvihnutia\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Lookup results\"": {
+  "t": "napr. \"výsledky vyhľadávania\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Try another address\"": {
+  "t": "napr. \"Skúste inú adresu\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "e.g. /Parcels/FeatureServer/0": {
   "t": "napr. /Parcels/FeatureServer/0",
   "src": "libretranslate",
@@ -14161,6 +14407,12 @@
  },
  "Each format is one line in the result popup and the Results list. X and Y take a WKID; leave it blank for the map's coordinate system.": {
   "t": "Každý formát je jeden riadok vo výsledku popup a zoznam výsledkov. X a Y zoberú WKID; nechajte ho prázdne pre súradnicový systém mapy.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Each if block can have only one {{else}}.": {
+  "t": "Každý, ak blok môže mať len jeden{else}}.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16261,6 +16513,12 @@
  },
  "Export to PDF": {
   "t": "Export do PDF",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export to XML": {
+  "t": "Export do XML",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18377,6 +18635,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Generic error message": {
+  "t": "Všeobecná chybová správa",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Geocode": {
   "t": "Geokód",
   "src": "libretranslate",
@@ -18419,6 +18683,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Geocoding": {
+  "t": "Geokódovanie",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Geocoding failed": {
   "t": "Geokódovanie zlyhalo",
   "src": "libretranslate",
@@ -18442,6 +18712,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Geocoding service URL": {
+  "t": "URL služby Geocoding",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Geocoding Service URL": {
   "t": "URL služby Geocoding",
@@ -19535,6 +19811,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Header style": {
+  "t": "Štýl hlavičky",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Header Text": {
   "t": "Text hlavičky",
   "src": "libretranslate",
@@ -19579,6 +19861,12 @@
  },
  "Heading (title)": {
   "t": "Názov",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Heading / label color": {
+  "t": "Farba nadpisu / popisu",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19693,6 +19981,18 @@
  },
  "Helvetica (Sans-serif)": {
   "t": "Helvetica (Sans-serif)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hero subtitle field": {
+  "t": "Hero titulky",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hero title field": {
+  "t": "Pole s názvom hrdina",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19931,6 +20231,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Highlight fill color": {
+  "t": "Farba zvýraznenia výplne",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Highlight Geometry": {
   "t": "Zvýraznenie geometrie",
   "src": "libretranslate",
@@ -19957,6 +20263,12 @@
  },
  "Highlight outline color": {
   "t": "Farba obrysu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Highlight outline width (pt)": {
+  "t": "Zvýraznenie šírky obrysu (pt)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20095,6 +20407,12 @@
  },
  "Horizontal: {value} pt": {
   "t": "Horizontálne: {value} pt",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "House number first, then the street name, works best: 250 N 5th St.": {
+  "t": "Číslo domu najprv, potom názov ulice, funguje najlepšie: 250 N 5th St.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20435,6 +20753,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "If the address sits outside the areas this app covers, a yellow card says so and offers {tryAnother}.": {
+  "t": "Ak sa adresa nachádza mimo oblastí, ktoré táto aplikácia pokrýva, žltá karta to hovorí a ponúka {tryAnother}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "If the app has Print Advanced, set a date here first: it prints whatever the map shows, so the printout carries the date.": {
   "t": "Ak má aplikácia Vytlačiť Pokročilý, nastavte tu dátum ako prvý: vytlačí ľubovoľnú mapu, takže výtlačok vykoná dátum.",
   "src": "libretranslate",
@@ -20567,6 +20891,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Import / export": {
+  "t": "Import/vývoz",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Import / export configuration": {
   "t": "Konfigurácia importu/ exportu",
   "src": "libretranslate",
@@ -20677,6 +21007,12 @@
  },
  "Import from file": {
   "t": "Import zo súboru",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import from XML": {
+  "t": "Import z XML",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21337,6 +21673,12 @@
  },
  "Interval": {
   "t": "Interval",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Intro HTML (optional)": {
+  "t": "Intro HTML (voliteľné)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22147,6 +22489,12 @@
  },
  "Labels": {
   "t": "Štítky",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Labels & messages": {
+  "t": "Štítky a správy",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23681,6 +24029,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Load settings from a previously exported XML file.": {
+  "t": "Načítať nastavenia z predtým exportovaného XML súboru.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Load settings from an .xml file": {
   "t": "Načítať nastavenia zo súboru .xml",
   "src": "libretranslate",
@@ -23802,6 +24156,12 @@
   "added": "2026-10-09"
  },
  "Loading fields...": {
+  "t": "Načítavam polia...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Loading fields…": {
   "t": "Načítavam polia...",
   "src": "libretranslate",
   "reviewed": false,
@@ -25145,6 +25505,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Max recent searches to keep": {
+  "t": "Max. nedávne vyhľadávanie",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Max Records": {
   "t": "Max. záznamy",
   "src": "libretranslate",
@@ -26477,6 +26843,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "New search": {
+  "t": "Nové hľadanie",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "New traverse": {
   "t": "Nový traverz",
   "src": "libretranslate",
@@ -26647,6 +27019,12 @@
  },
  "No comments yet.": {
   "t": "Zatiaľ žiadne komentáre.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No constraint": {
+  "t": "Bez obmedzenia",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -26971,6 +27349,12 @@
  },
  "No link configured.": {
   "t": "@ info",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No list of addresses appears: you have typed fewer than three letters, or the address service is slow. Type a little more and wait a second.": {
+  "t": "Nezobrazí sa žiadny zoznam adries: zadali ste menej ako tri písmená alebo služba adresy je pomalá. Napíš trochu viac a počkaj chvíľu.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -27397,6 +27781,12 @@
  },
  "No-result message": {
   "t": "Správa bez výsledku",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No-results message": {
+  "t": "Správa bez výsledkov",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -28151,6 +28541,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "On phones and touch screens: larger touch targets (44px), 16px input font to prevent iOS auto-zoom when focusing the search box, full-width action buttons, thumb-reachable share menu, and tighter spacing on narrow screens. Recommended on. Turn off to keep desktop sizing everywhere.": {
+  "t": "Na telefónoch a dotykových obrazovkách: väčšie dotykové ciele (44px), 16px vstupné písmo, aby sa zabránilo automatickému zoomu iOS pri zaostrovaní vyhľadávacieho poľa, tlačidlá s plnou šírkou, palcovo dosiahnuteľné zdieľacie menu a pevnejšiemu rozstupu na úzkych obrazovkách. Odporúča sa. Vypni, aby si veľkosť plochy udržala všade.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "On select, each rule runs an intersect query and appends its HTML to the popup. Tokens:": {
   "t": "Pri výbere, každé pravidlo spustí intersektnú dotaz a pripojí svoj HTML do popupu. Tokeny:",
   "src": "libretranslate",
@@ -28213,6 +28609,12 @@
  },
  "On the map": {
   "t": "Na mape",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On the map, a red dot marks the address and the matching area is shaded.": {
+  "t": "Na mape červená bodka označuje adresu a zodpovedajúca oblasť je zatienená.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -28763,6 +29165,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Optimize for iframe": {
+  "t": "Optimalizácia pre iframe",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Optimize for mobile": {
+  "t": "Optimalizácia pre mobilné telefóny",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "optional": {
   "t": "nepovinné",
   "src": "libretranslate",
@@ -28835,8 +29249,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Optional. Override the theme accent and heading colors used in the top UI (label, icons, \"Use my location\", focus rings). Leave blank to inherit from the page theme.": {
+  "t": "Nepovinné. Preškrtnite prízvuk témy a farby hlavičky používané v hornej UI (značka, ikony, \"Použite moju polohu,\" zaostrené prstene). Nechať prázdne zdediť z témy stránky.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Optional. Overrides the title field. The identified feature is available as $feature.": {
   "t": "Nepovinné. Prepíše titulné pole. Identifikovaná funkcia je k dispozícii ako $feature.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Optional. Pick a field to render as a big colored badge at the top of the result card, plus an optional subtitle underneath. Leave both blank to skip the hero and use only the HTML template.": {
+  "t": "Nepovinné. Vyberte si pole ako veľký farebný odznak v hornej časti karty výsledku, plus voliteľný titulok pod. Nechajte obe prázdne preskočiť hrdinu a používať len HTML šablónu.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -28933,6 +29359,12 @@
  },
  "Other parts of the app, such as a table, can follow along and show the same record.": {
   "t": "Ostatné časti aplikácie, napríklad tabuľka, môžu nasledovať a zobraziť rovnaký záznam.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Other ways to look up a place": {
+  "t": "Iné spôsoby, ako nájsť miesto",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -29111,6 +29543,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Outside service area message": {
+  "t": "Správa mimo oblasti služieb",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Outside the current map scale": {
   "t": "Mimo aktuálnej mierky mapy",
   "src": "libretranslate",
@@ -29131,6 +29569,18 @@
  },
  "outside this coordinate system's area": {
   "t": "mimo oblasti tohto súradnicového systému",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Outside-area heading": {
+  "t": "Vonkajšia oblasť",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Outside-area retry button label": {
+  "t": "Outside-area retry label",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -30089,6 +30539,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Picking an address from the list is more reliable than typing the whole address and pressing Enter.": {
+  "t": "Výber adresy zo zoznamu je spoľahlivejší ako písanie celej adresy a stlačenie Enter.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Pictometry asks you to sign in: the Pictometry viewer needs its own account. Ask whoever built this app if you should have one.": {
   "t": "Piktometria vás žiada, aby ste sa prihlásili: Prehliadač piktometrie potrebuje svoj vlastný účet. Opýtajte sa, kto vyrobil túto aplikáciu, ak by ste ju mali mať.",
   "src": "libretranslate",
@@ -30239,8 +30695,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Placeholder heading (before search)": {
+  "t": "Smer miestodržiteľa (pred vyhľadávaním)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Placeholder message (before search)": {
+  "t": "Správa o mieste držiteľa (pred vyhľadávaním)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Placement": {
   "t": "Umiestnenie",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Plain (intro as ordinary text)": {
+  "t": "Plain (vnútro ako bežný text)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -31349,6 +31823,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Primary brand color": {
+  "t": "Primárna značka",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Primary Key Field": {
   "t": "Primárne kľúčové pole",
   "src": "libretranslate",
@@ -32026,6 +32506,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Reading the answer": {
+  "t": "Čítanie odpovede",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Reading the details": {
   "t": "Čítanie detailov",
@@ -33041,6 +33527,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Reset button label": {
+  "t": "Označiť tlačidlo",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reset button tooltip": {
+  "t": "& Resetovať hrot tlačidla",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Reset Default Area Units": {
   "t": "Resetovať štandardné jednotky plochy",
   "src": "libretranslate",
@@ -33121,6 +33619,12 @@
  },
  "Reset to layout grid": {
   "t": "Obnoviť rozloženie siete",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reset to theme": {
+  "t": "Resetovať na tému",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -33269,6 +33773,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Result hero": {
+  "t": "Hrdina výsledku",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Result HTML template": {
+  "t": "HTML šablóna výsledku",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Result navigation": {
   "t": "Navigácia výsledkov",
   "src": "libretranslate",
@@ -33287,6 +33803,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Result template": {
+  "t": "Vzor výsledku",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Results": {
   "t": "Výsledky",
   "src": "libretranslate",
@@ -33295,6 +33817,12 @@
  },
  "Results found:": {
   "t": "Výsledky nájdené:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Results found.": {
+  "t": "Výsledky nájdené.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -33925,6 +34453,12 @@
  },
  "Save the traverse lines, points, and closed parcel polygon to the configured layers": {
   "t": "Uložiť priečne čiary, body, a uzavreté polygón balíkov na konfigurované vrstvy",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Save these settings as an XML file or load them from a previously exported file. The map widget and zone layer references stay app-specific and need to be re-selected after importing.": {
+  "t": "Uložiť tieto nastavenia ako XML súbor alebo ich načítať z predtým exportovaného súboru. Mapa widget a zónová vrstva referencie zostať app-špecifické a musí byť znovu vybraný po importe.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -34937,6 +35471,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Select a map widget": {
+  "t": "Vyberte grafický prvok mapy",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select a Map widget": {
   "t": "Vyberte widget mapy",
   "src": "libretranslate",
@@ -35005,6 +35545,12 @@
  },
  "Select a widget...": {
   "t": "Vyberte widget...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select a zone layer above to see its fields.": {
+  "t": "Vyberte zónovú vrstvu nad vidieť jeho polia.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -35359,6 +35905,12 @@
  },
  "Select the widget controller containing Mailing Labels": {
   "t": "Vyberte ovládač widgetu obsahujúci poštové značky",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select the zone layer": {
+  "t": "Vyberte zónovú vrstvu",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -35969,6 +36521,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Share email subject line": {
+  "t": "Zdieľať predmet e-mailu riadok",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Share options": {
   "t": "Možnosti zdieľania",
   "src": "libretranslate",
@@ -36035,6 +36593,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show \"Click map\" mode toggle": {
+  "t": "Zobraziť režim \"Kliknite na mapu\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show \"Show print area\" toggle": {
   "t": "Zobraziť prepínač \"Zobraziť oblasť tlače\"",
   "src": "libretranslate",
@@ -36043,6 +36607,12 @@
  },
  "Show \"Use current location\"": {
   "t": "Zobraziť \"Použiť aktuálnu polohu\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show \"Use my location\" button": {
+  "t": "Zobraziť tlačidlo \"Použiť moju polohu\"",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -36695,8 +37265,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show Print button on result": {
+  "t": "Zobraziť tlačítko pri výsledku",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show Related Table Summaries": {
   "t": "Zobraziť súvisiace súhrny tabuľky",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show reset button": {
+  "t": "Zobraziť tlačidlo reset",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -36739,6 +37321,12 @@
  },
  "Show Segment Labels": {
   "t": "Zobraziť značky segmentu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show Share button on result": {
+  "t": "Zobraziť tlačidlo Zdieľať pri výsledku",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -36949,6 +37537,12 @@
  },
  "Showing only": {
   "t": "Zobrazuje sa len",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Shown above the address input. Plain HTML.": {
+  "t": "Zobrazené nad vstupom adresy. Čistý HTML.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -38381,6 +38975,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Still stuck? Contact the GIS Division and mention the Zone Lookup widget and this app.": {
+  "t": "Stále zaseknutý? Kontaktujte Divíziu GIS a uveďte widget Zone Lookup a túto aplikáciu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Still stuck? Contact your GIS team and mention the Draw Advanced widget and this app.": {
   "t": "Stále zaseknutý? Kontaktujte svoj GIS tím a spomenúť Draw Advanced widget a túto aplikáciu.",
   "src": "libretranslate",
@@ -38611,6 +39211,12 @@
  },
  "Submit button label": {
   "t": "Odoslať štítok tlačidla",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Submit button tooltip": {
+  "t": "Odoslať tooltip tlačidla",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -39581,6 +40187,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The answer says the address is outside the area: that address is not in the areas this app covers. Check the address, then use the phone number or contact shown on the card.": {
+  "t": "Odpoveď hovorí, že adresa je mimo oblasti: že adresa nie je v oblastiach, na ktoré sa táto aplikácia vzťahuje. Skontrolujte adresu a potom použite telefónne číslo alebo kontakt zobrazený na karte.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The area as stated on the deed or record document, saved alongside the calculated area": {
   "t": "Plocha, ako je uvedená na listine alebo zázname dokumentu, uložená vedľa vypočítanej plochy",
   "src": "libretranslate",
@@ -39713,8 +40325,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The card stays empty after a long wait: the address service or the area layer did not answer. Reload the page and try again.": {
+  "t": "Karta zostáva prázdna po dlhom čakaní: adresná služba alebo vrstva plochy neodpovedala. Znovu načítať stránku a skúste to znova.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The closure error was distributed proportionally along each boundary line (Bowditch compass rule); your entered values are kept as records": {
   "t": "Chyba pri uzavretí bola rozdelená proporcionálne pozdĺž každej hranice (pravidlo kompasu Bowditch); vaše zadané hodnoty sú vedené ako záznamy",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The colored bar at the top of the card is the short answer, such as the area name and the date.": {
+  "t": "Farebný panel v hornej časti karty je krátka odpoveď, ako názov oblasti a dátum.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -40175,6 +40799,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The map where the address pin and zone highlight are drawn. Optional : the widget still returns results without a map.": {
+  "t": "Mapa, kde je zobrazená adresa a zvýraznenie zóny. Voliteľné: widget stále vracia výsledky bez mapy.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The Map widget this Parcel Drafter works against": {
   "t": "Mapa widget to Parcel Kreslenie funguje proti",
   "src": "libretranslate",
@@ -40343,6 +40973,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "The polygon feature layer that holds the zones.": {
+  "t": "Polygón extra vrstvy, ktorá drží zóny.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The presenter window does not open: the browser blocked a pop up. Allow pop ups for this site and press W again.": {
   "t": "Okno moderátora sa neotvorí: prehliadač zablokoval pop up. Povoliť vyskakovanie pre túto stránku a stlačte znovu W.",
   "src": "libretranslate",
@@ -40373,6 +41009,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The printout shows the whole page: the print window was opened from the browser menu. Use the {name} button on the answer card instead.": {
+  "t": "Výtlačok zobrazuje celú stránku: okno tlače bolo otvorené z menu prehliadača. Použite {name} namiesto toho tlačítko na odkazovej karte.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The projection engine supports this WKID.": {
   "t": "Projekčný motor podporuje tento WKID.",
   "src": "libretranslate",
@@ -40396,6 +41038,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The rest of the card gives the details for the address you looked up.": {
+  "t": "Zvyšok karty obsahuje podrobnosti o adrese, ktorú ste si vyhľadali.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The result layout could not be read. Please contact the app administrator.": {
   "t": "Výsledok sa nepodarilo prečítať. Prosím kontaktujte administrátora aplikácie.",
@@ -40516,6 +41164,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The small x at the right end of the box empties it so you can start over.": {
+  "t": "Malé x na pravom konci krabice ho vyprázdni, aby ste mohli začať odznova.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The Sort list orders by Newest, Oldest, Name or Type.": {
   "t": "Objednávky zoznamu položiek podľa najnovšieho, najstaršieho, mena alebo typu.",
@@ -40735,6 +41389,12 @@
  },
  "The width you drag the side panel to is kept as well.": {
   "t": "Šírka bočného panelu je zachovaná.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The wording in the answer may change to match the area your address is in.": {
+  "t": "Znenie v odpovedi sa môže zmeniť tak, aby zodpovedalo oblasti, v ktorej je vaša adresa.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -40981,6 +41641,12 @@
  },
  "This field is required for generating labels": {
   "t": "Toto pole je potrebné pre generovanie štítkov",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "This guide follows the app: it only describes the buttons this app is showing you.": {
+  "t": "Táto príručka nasleduje po aplikácii: popisuje iba tlačidlá, ktoré vám táto aplikácia zobrazuje.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -43277,6 +43943,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Use {{#if FIELD_NAME}}, {{else}}, and {{/if}}. Field names may contain letters, numbers, and underscores and may not start with a number. Close each directive with two braces.": {
+  "t": "Použiť {#if Pole NAME}, {{else}a {{/ ak} Názvy polí môžu obsahovať písmená, čísla a podčiarknutia a nesmú začať s číslom. Uzavrite každú smernicu dvoma strojčekmi.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use {{#if FIELD_NAME}}...{{else}}...{{/if}} to choose text when a field is populated or empty. Missing, null, empty, and whitespace-only values use the else branch. Zero and false count as populated. This is template syntax, not Arcade.": {
+  "t": "Použiť {{#If Pole NAME}...{{else}}... {{/ ak}} zvoliť text, keď je pole obsadené alebo prázdne. Chýbajúce, nulové, prázdne a biele hodnoty používajú iné vetvy. Nula a falošné hodnoty sú obsadené. Toto je syntax šablóny, nie Arcade.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use {FIELD_NAME} to insert a field value. Field names ignore capitalization, and values are HTML-escaped. Date fields use long English dates in UTC.": {
+  "t": "Použitie {FIELD_NAME} vložiť hodnotu poľa. Názvy polí ignorujú kapitalizáciu a hodnoty sú HTML-escaped. Dátum polia používať dlhé anglické dátumy v UTC.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Use {fieldName} placeholders from the added data.": {
   "t": "Použitie {fieldName} umiestňovatelia z pridaných údajov.",
   "src": "libretranslate",
@@ -43415,6 +44099,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Use no more than 64 nested if blocks.": {
+  "t": "V prípade blokov použite najviac 64 hniezd.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Use Parent Geometry": {
   "t": "Použiť rodičovskú geometriu",
   "src": "libretranslate",
@@ -43507,6 +44197,12 @@
  },
  "Use the Copy Lat/Lon button above or press Control+C to copy the coordinates.": {
   "t": "Na skopírovať súradnice použite tlačidlo Copy Lat/Lon alebo stlačte tlačidlo Control+C.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use the down and up arrow keys to move through the list, then press Enter to choose one.": {
+  "t": "Pomocou klávesov so šípkami dole a hore pre pohyb cez zoznam, potom stlačte Enter vybrať jeden.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -44831,6 +45527,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Widget fills its parent’s height and stretches the result card to remove void space below. Use when embedding as a fixed-size iframe.": {
+  "t": "Widget naplní svoju materskú výšku a naťahuje výslednú kartu odstrániť prázdne miesto nižšie. Použiť pri vkladaní ako iframe s pevnou veľkosťou.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Widget functions": {
   "t": "Funkcie komponentu",
   "src": "libretranslate",
@@ -45335,6 +46037,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "You do not have to type an address. You can also use {ways}.": {
+  "t": "Nemusíte napísať adresu. Môžete tiež použiť {ways}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "You have drawings saved from a previous session.": {
   "t": "Máte uložené kresby z predchádzajúceho sedenia.",
   "src": "libretranslate",
@@ -45343,6 +46051,12 @@
  },
  "You have reached the limit of {max} saved instances. Delete one before saving another.": {
   "t": "Dosiahli ste limit {max} uložené prípady. Vymazať jeden pred uložením druhý.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Your address is not in the list: the house number or the spelling may be slightly off. Try the street name on its own, then pick the right one from the list.": {
+  "t": "Vaša adresa nie je v zozname: číslo domu alebo hláskovanie môže byť mierne vypnuté. Skúste názov ulice sám, potom vybrať ten správny zo zoznamu.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -45377,6 +46091,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Your last few addresses are listed under \"{recent}\" when the box is empty.": {
+  "t": "Vaše posledné adresy sú uvedené nižšie \"{recent}\"keď je krabica prázdna.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Your location could not be determined right now.": {
   "t": "Vaša poloha sa teraz nedá určiť.",
   "src": "libretranslate",
@@ -45391,6 +46111,12 @@
  },
  "Your measurement choices are remembered in this browser. Reset Measurement Defaults puts them back.": {
   "t": "V tomto prehliadači si zapamätáte vaše možnosti merania. Resetovanie merania Štandardne ich vracia späť.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Your recent addresses": {
+  "t": "Vaše posledné adresy",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -45485,6 +46211,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Zone layer": {
+  "t": "Zóna",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zone layer extent": {
+  "t": "Zóna rozsah vrstvy",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Zone Lookup": {
   "t": "Hľadanie zóny",
   "src": "libretranslate",
@@ -45541,6 +46279,12 @@
  },
  "Zoom is the map's zoom level. A bigger number means the map is zoomed in closer.": {
   "t": "Zoom je mapa zoom level. Väčší počet znamená, že mapa je bližšie zväčšená.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zoom level after lookup": {
+  "t": "Zväčšiť úroveň po hľadaní",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
