@@ -257,6 +257,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "\"{name}\" does nothing: your browser is blocking location access. Allow location for this page in your browser settings, or type the address instead.": {
+  "t": "{name} ne čini ništa: vaš preglednik blokira pristup lokaciji. Dozvoli lokaciju za ovu stranicu u postavkama preglednika ili umjesto toga ukucaj adresu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "\"{name}\" is greyed out: the widget has no map to click, or the map is still loading. Type the address instead.": {
+  "t": "{name} je sivo: widget nema kartu za klik, ili karta još uvijek učitava. Upišite adresu umjesto toga.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "\"All\" placeholder": {
   "t": "All mjestodržač",
   "src": "libretranslate",
@@ -409,6 +421,12 @@
  },
  "[Controller]": {
   "t": "[Kontrolor]",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{{#if Municipality}}\n  <p>Incorporated {Municipality}</p>\n{{else}}\n  <p>Unincorporated {Township} Township</p>\n{{/if}}": {
+  "t": "{{#ako Općina}} <p>Uklopljeno {Municipality}</p> {{else}} <p>Neuklopljeno {Township} Gradovništvo</p> {{/if}}}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -583,6 +601,12 @@
  },
  "{circle}: click the center, then click again to set the size.": {
   "t": "{circle}: kliknite na centar, a zatim ponovno kliknite da postavite veličinu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{clear} removes that list from this browser. The list is only on your own computer, and nobody else sees it.": {
+  "t": "{clear} uklanja taj popis iz ovog preglednika. Popis je samo na vašem računalu, i nitko ga drugi ne vidi.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1331,6 +1355,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{name} is greyed out because this app does not show a map beside the widget.": {
+  "t": "{name} je sivo jer ova aplikacija ne prikazuje kartu pored widgeta.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{name}: a satellite view tilted so buildings and terrain show in 3D.": {
   "t": "{name}: satelitski pogled nagnut tako zgrade i teren pokazuju u 3D.",
   "src": "libretranslate",
@@ -1349,14 +1379,38 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{name}: lets you pick a spot on the map. Click the button, then click the map. Click the button again to stop.": {
+  "t": "{name}: omogućuje vam da odaberete mjesto na karti. Kliknite na gumb, a zatim kliknite na kartu. Kliknite gumb ponovno zaustaviti.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{name}: Microsoft's street-level photos, similar to Street View.": {
   "t": "{name}: Microsoftove ulične fotografije, slične Street Viewu.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{name}: opens a small menu with Copy link, Email and Text message.": {
+  "t": "{name}: otvara mali izbornik s Kopiraj linkom, e-mailom i tekstualnom porukom.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{name}: photos taken from the street, as if you were standing there.": {
   "t": "{name}: fotografije snimljene s ulice, kao da stojite tamo.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{name}: prints the answer card on its own, not the whole page.": {
+  "t": "{name}: ispisuje sam odgovornu karticu, a ne cijelu stranicu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{name}: uses the location of the device you are on. Your browser asks for permission the first time. Choose Allow.": {
+  "t": "{name}: koristi lokaciju uređaja na kojem se nalazite. Vaš preglednik prvi put traži dozvolu. Odaberite Dozvoli.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2699,6 +2753,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "A closing {{/if}} needs an opening {{#if FIELD_NAME}}.": {
+  "t": "Zatvaranje {{/ako}} treba otvoriti {{#ako FIELD_NAME}}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "a Comments sheet": {
   "t": "a Komentari list",
   "src": "libretranslate",
@@ -2965,6 +3025,12 @@
  },
  "A report link works for anyone who can open this app, so it is a quick way to hand a property to a colleague.": {
   "t": "Izvješće link radi za svakoga tko može otvoriti ovu aplikaciju, tako da je brz način da predate imovinu kolegi.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A REST URL to a GeocodeServer. Defaults to the ArcGIS World Geocoder. Use an internal composite locator if available.": {
+  "t": "REST URL na GeocodeServer. Uobičajeno za ArcGIS World Geocoder. Koristite unutarnji kompozitni lokator ako je dostupan.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3319,6 +3385,12 @@
  },
  "Add a \"Show only this layer\" action": {
   "t": "Dodaj a Prikaži samo ovaj sloj radnja",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add a closing {{/if}} for every opening if block.": {
+  "t": "Dodaj zatvaranje {{/if}} za svako otvaranje ako je blok.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4055,6 +4127,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Address input label": {
+  "t": "Unosna oznaka adrese",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address input placeholder": {
+  "t": "Nositelj ulaznog mjesta za adresu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address input tooltip": {
+  "t": "Opis ulaznog alata za adresu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Address Inspection Failed": {
   "t": "Inspekcija adrese nije uspjela",
   "src": "libretranslate",
@@ -4093,6 +4183,12 @@
  },
  "Address lookup failed.": {
   "t": "Neuspjelo traženje adrese.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Address lookup results. Swipe up or down to scroll.": {
+  "t": "Rezultati traženja adresa. Obrišite gore ili dolje na svitak.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5003,8 +5099,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "An {{else}} needs an opening {{#if FIELD_NAME}}.": {
+  "t": "Otvaranje {{else}} treba {{#ako FIELD_NAME}}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "an address": {
   "t": "Adresa",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "An address right on the edge of an area still matches. The widget looks a short distance around the point.": {
+  "t": "Adresa točno na rubu područja još uvijek odgovara. Grafički element izgleda kratka udaljenost oko točke.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5621,6 +5729,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "At the top of the answer card you get {actions}.": {
+  "t": "Na vrhu kartice s odgovorom dobivate {actions}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Attach a photo": {
   "t": "Prikači fotografiju",
   "src": "libretranslate",
@@ -5911,6 +6025,12 @@
  },
  "available": {
   "t": "dostupno",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Available fields": {
+  "t": "Dostupna polja",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6271,6 +6391,12 @@
  },
  "Badges on a card or in the Activity column: {badges}.": {
   "t": "Značke na kartici ili u stupcu Aktivnosti: {badges}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Banner (colored band with optional title)": {
+  "t": "Zastavica (obojena traka s opcijskim naslovom)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6899,6 +7025,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Brand colors": {
+  "t": "Boje marke",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Breakpoint (px)": {
   "t": "Mjesto prekida (px)",
   "src": "libretranslate",
@@ -7169,6 +7301,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Buttons on the answer card": {
+  "t": "Dugmad na odgovornoj kartici",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "buttons to back up and restore your drawings.": {
   "t": "gumbi za povratak gore i vratiti svoje crteže.",
   "src": "libretranslate",
@@ -7201,6 +7339,12 @@
  },
  "Call {join}": {
   "t": "Poziv {join}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Call {part}": {
+  "t": "Poziv {part}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7891,6 +8035,12 @@
  },
  "Check the item IDs and portal URL in settings.": {
   "t": "Provjerite identifikacije i URL portala u postavkama.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Check the result template:": {
+  "t": "Provjeri predložak rezultata:",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8801,6 +8951,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Clearing your browser data also clears your recent addresses.": {
+  "t": "Čišćenje podataka preglednika također čisti vaše nedavne adrese.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Clearing your browser data removes saved views. Export them first if you want to keep them.": {
   "t": "Čišćenje podataka preglednika uklanja snimljene preglede. Izvezite ih prvo ako ih želite zadržati.",
   "src": "libretranslate",
@@ -9157,6 +9313,12 @@
  },
  "Click one of the tool buttons at the top, such as {distance} or {area}.": {
   "t": "Kliknite jedan od gumba alata na vrhu, kao što su {distance} ili {area}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Click one to look it up again.": {
+  "t": "Kliknite jedan da ga ponovno pogledati.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9649,6 +9811,12 @@
  },
  "Close notes (saves automatically)": {
   "t": "Zatvori bilješke (sačuvaj automatski)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Close results and search another address": {
+  "t": "Zatvori rezultate i traži drugu adresu",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10379,6 +10547,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Conditional template example": {
+  "t": "Uvjetni primjer predloška",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Configurable dialogs, empty states, and measurement headers": {
   "t": "Podesivi dijalozi, prazna stanja i mjerna zaglavlja",
   "src": "libretranslate",
@@ -10723,6 +10897,12 @@
  },
  "Constant value": {
   "t": "Stalna vrijednost",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Constrain search to": {
+  "t": "Ograniči pretragu na",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11239,6 +11419,12 @@
  },
  "Copy link button and date from the URL": {
   "t": "Kopiraj gumb za link i datum iz URL-a",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Copy link does nothing: this browser does not allow copying from a page. Copy the address out of the box by hand instead.": {
+  "t": "Kopiraj link ne čini ništa: ovaj preglednik ne dopušta kopiranje s stranice. Umjesto toga, kopirajte adresu iz okvira ručno.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11761,6 +11947,12 @@
  },
  "Current configuration as XML (read only)": {
   "t": "Trenutna konfiguracija kao XML (samo za čitanje)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Current map extent": {
+  "t": "Trenutni opseg mape",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14903,6 +15095,42 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "e.g. \"Address is outside the service area\"": {
+  "t": "Npr.Adresa je izvan uslužnog područja",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Enter an address above to see your results.\"": {
+  "t": "npr.Unesite gore adresu da biste vidjeli svoje rezultate",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Find your area\"": {
+  "t": "npr. Pronađite svoje područje",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Find your pickup area\"": {
+  "t": "npr. Pronađite svoje područje za preuzimanje",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Lookup results\"": {
+  "t": "Npr. Rezultati pretraživanja",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "e.g. \"Try another address\"": {
+  "t": "Na primjer, pokušajte s drugom adresom.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "e.g. /Parcels/FeatureServer/0": {
   "t": "Na primjer /Parcels/FeatureServer/0",
   "src": "libretranslate",
@@ -15073,6 +15301,12 @@
  },
  "Each format is one line in the result popup and the Results list. X and Y take a WKID; leave it blank for the map's coordinate system.": {
   "t": "Svaki format je jedna linija u rezultat popup i popis rezultata. X i Y uzeti WKID; ostaviti ga prazan za karti koordinata sustava.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Each if block can have only one {{else}}.": {
+  "t": "Svaki blok može imati samo jedan {{else}}.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17405,6 +17639,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Export to XML": {
+  "t": "Izvezi u XML",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Export views…": {
   "t": "Izvezi poglede...",
   "src": "libretranslate",
@@ -19649,6 +19889,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Generic error message": {
+  "t": "Generička poruka o grešci",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Geocode": {
   "t": "Geocode",
   "src": "libretranslate",
@@ -19691,6 +19937,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Geocoding": {
+  "t": "Geokodiranje",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Geocoding {toLocaleString} of {toLocaleString2}.": {
   "t": "Geokodiranje {toLocaleString} od {toLocaleString2}.",
   "src": "libretranslate",
@@ -19723,6 +19975,12 @@
  },
  "Geocoding service": {
   "t": "Geokodiranje usluga",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Geocoding service URL": {
+  "t": "Geokodiranje usluga URL",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20837,6 +21095,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Header style": {
+  "t": "Stil zaglavlja",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Header Text": {
   "t": "Zaglavlje teksta",
   "src": "libretranslate",
@@ -20881,6 +21145,12 @@
  },
  "Heading (title)": {
   "t": "Zaglavlje (naslov)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Heading / label color": {
+  "t": "Boja naslova / oznaka",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21001,6 +21271,18 @@
  },
  "Helvetica (Sans-serif)": {
   "t": "Helvetica (Sans-serif)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hero subtitle field": {
+  "t": "Polje herojskog titla",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hero title field": {
+  "t": "Polje za naslov junaka",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21245,6 +21527,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Highlight fill color": {
+  "t": "Istakni boju popunjavanja",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Highlight Geometry": {
   "t": "Istakni geometriju",
   "src": "libretranslate",
@@ -21271,6 +21559,12 @@
  },
  "Highlight outline color": {
   "t": "Istakni boju",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Highlight outline width (pt)": {
+  "t": "Istakni ocrtanu širinu (pt)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21755,6 +22049,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "If the address sits outside the areas this app covers, a yellow card says so and offers {tryAnother}.": {
+  "t": "Ako adresa sjedi izvan područja koje ova aplikacija pokriva, žuti karton tako kaže i nudi {tryAnother}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "If the app has Print Advanced, set a date here first: it prints whatever the map shows, so the printout carries the date.": {
   "t": "Ako aplikacija ima Print Advanced, prvo postavite datum ovdje: ona ispisuje sve što karta pokazuje, tako da ispis nosi datum.",
   "src": "libretranslate",
@@ -21895,6 +22195,12 @@
  },
  "Import (Shapefile, GeoJSON, KML)": {
   "t": "Uvoz (Shapefile, GeoJSON, KML)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Import / export": {
+  "t": "Uvoz / izvoz",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22727,6 +23033,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Intro HTML (optional)": {
+  "t": "Uvod HTML (opcionalno)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Invalid bearing.": {
   "t": "Neispravan smjer.",
   "src": "libretranslate",
@@ -23545,6 +23857,12 @@
  },
  "Labels": {
   "t": "Oznake",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Labels & messages": {
+  "t": "Označi & poruke",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -25253,6 +25571,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Loading fields…": {
+  "t": "Učitavam polja...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Loading form, please wait": {
   "t": "Učitavam obrazac, molim pričekajte",
   "src": "libretranslate",
@@ -26645,6 +26969,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Max recent searches to keep": {
+  "t": "Maks. nedavne pretrage koje treba zadržati",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Max Records": {
   "t": "Max Records",
   "src": "libretranslate",
@@ -28031,6 +28361,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "New search": {
+  "t": "Nova pretraga",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "New traverse": {
   "t": "Nova traverza",
   "src": "libretranslate",
@@ -28207,6 +28543,12 @@
  },
  "No comments yet.": {
   "t": "Još nema komentara.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No constraint": {
+  "t": "Bez ograničenja",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -28591,6 +28933,12 @@
  },
  "No link configured.": {
   "t": "Veza nije podešena.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No list of addresses appears: you have typed fewer than three letters, or the address service is slow. Type a little more and wait a second.": {
+  "t": "Ne pojavljuje se popis adresa: ukucali ste manje od tri slova, ili je usluga adrese spora. Upišite malo više i pričekajte sekundu.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -29047,6 +29395,12 @@
  },
  "No-result message": {
   "t": "Nema rezultate poruke",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No-results message": {
+  "t": "Nema rezultacije poruke",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -29831,6 +30185,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "On phones and touch screens: larger touch targets (44px), 16px input font to prevent iOS auto-zoom when focusing the search box, full-width action buttons, thumb-reachable share menu, and tighter spacing on narrow screens. Recommended on. Turn off to keep desktop sizing everywhere.": {
+  "t": "Na telefonima i zaslonima za dodir: veći ciljnici dodira (44px), 16px ulazni font kako bi se spriječilo automatsko zumiranje iOS-a pri fokusiranju okvira za pretraživanje, punom širinom gumba akcije, izbornika za dijeljenje palca i čvršćeg razmaka na uskim ekranima. Preporučeno. Uključite kako biste zadržali veličinu radne površine posvuda.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "On select, each rule runs an intersect query and appends its HTML to the popup. Tokens:": {
   "t": "Pri odabiru, svako pravilo pokreće intersect upit i dodaje svoj HTML na skočni. Tokens:",
   "src": "libretranslate",
@@ -29893,6 +30253,12 @@
  },
  "On the map": {
   "t": "Na karti",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On the map, a red dot marks the address and the matching area is shaded.": {
+  "t": "Na karti, crvena točka označava adresu i odgovarajuće područje je zasjenjeno.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -30467,6 +30833,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Optimize for iframe": {
+  "t": "Optimiziraj za iframe",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Optimize for mobile": {
+  "t": "Optimiziraj za mobilno",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "optional": {
   "t": "neobavezno",
   "src": "libretranslate",
@@ -30539,8 +30917,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Optional. Override the theme accent and heading colors used in the top UI (label, icons, \"Use my location\", focus rings). Leave blank to inherit from the page theme.": {
+  "t": "Opcionalno. Premostite tematski naglasak i boje naslova korištene u gornjem UI (oznaka, ikone,Koristite moju lokaciju fokus prstenovi). Ostavite prazno nasljeđivati iz teme stranice.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Optional. Overrides the title field. The identified feature is available as $feature.": {
   "t": "Opcionalno. Premošćuje polje naslova. Identificirana značajka je dostupna kao $feature.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Optional. Pick a field to render as a big colored badge at the top of the result card, plus an optional subtitle underneath. Leave both blank to skip the hero and use only the HTML template.": {
+  "t": "Izborno. Odaberite polje za iscrtavanje kao velika obojena značka na vrhu rezultat kartice, plus opcionalni podnaslov ispod. Ostavite oba prazno za preskočiti junaka i koristiti samo HTML predložak.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -30827,6 +31217,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Outside service area message": {
+  "t": "Poruke vanjskog servisnog područja",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Outside the current map scale": {
   "t": "Izvan trenutne skale mape",
   "src": "libretranslate",
@@ -30847,6 +31243,18 @@
  },
  "outside this coordinate system's area": {
   "t": "izvan područja ovog koordinatnog sustava",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Outside-area heading": {
+  "t": "Za potrebe ovog Pravilnika primjenjuju se sljedeće definicije:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Outside-area retry button label": {
+  "t": "Outside-područje ponovno pokušati gumb naljepnica",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -31865,6 +32273,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Picking an address from the list is more reliable than typing the whole address and pressing Enter.": {
+  "t": "Odabir adrese s popisa je pouzdaniji od upisivanja cijele adrese i pritiskanja Entera.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Pictometry asks you to sign in: the Pictometry viewer needs its own account. Ask whoever built this app if you should have one.": {
   "t": "Piktometrija traži od vas da se prijavite: Preglednik Piktometrija treba vlastiti račun. Pitajte onoga tko je izgradio ovu aplikaciju ako biste je trebali imati.",
   "src": "libretranslate",
@@ -32021,8 +32435,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Placeholder heading (before search)": {
+  "t": "Naslov mjesta (prije pretrage)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Placeholder message (before search)": {
+  "t": "Poruke poslužitelja (prije pretrage)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Placement": {
   "t": "Mjesto",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Plain (intro as ordinary text)": {
+  "t": "Običan (uvod kao običan tekst)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -33209,6 +33641,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Primary brand color": {
+  "t": "Primarna boja branda",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Primary Key Field": {
   "t": "Polje primarnog ključa",
   "src": "libretranslate",
@@ -33967,6 +34405,12 @@
  },
  "Reading source records…": {
   "t": "Čitam izvorne zapise...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reading the answer": {
+  "t": "Čitam odgovor.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -35021,6 +35465,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Reset button label": {
+  "t": "Vrati oznaku gumba",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reset button tooltip": {
+  "t": "Tipka za resetiranje",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Reset Default Area Units": {
   "t": "_Vrati izvorno",
   "src": "libretranslate",
@@ -35101,6 +35557,12 @@
  },
  "Reset to layout grid": {
   "t": "Vrati na mrežu rasporeda",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reset to theme": {
+  "t": "Vrati na temu",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -35231,6 +35693,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Result hero": {
+  "t": "Rezultat junaka",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Result HTML template": {
+  "t": "Rezultat HTML predloška",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Result navigation": {
   "t": "Navigacija rezultata",
   "src": "libretranslate",
@@ -35249,6 +35723,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Result template": {
+  "t": "CRR-a.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Results": {
   "t": "Rezultati",
   "src": "libretranslate",
@@ -35257,6 +35737,12 @@
  },
  "Results found:": {
   "t": "Rezultati pronađeni:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Results found.": {
+  "t": "Rezultati pronađeni.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -35899,6 +36385,12 @@
  },
  "Save the web map": {
   "t": "Spremi web kartu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Save these settings as an XML file or load them from a previously exported file. The map widget and zone layer references stay app-specific and need to be re-selected after importing.": {
+  "t": "Spremi ove postavke kao XML datoteku ili ih učitaj iz prethodno izvezene datoteke. Mapa widget i zona sloj reference ostati app-specifičan i treba biti ponovno izabran nakon uvoza.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -36929,6 +37421,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Select a map widget": {
+  "t": "Odaberite grafički element mape",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Select a Map widget": {
   "t": "Odaberite widget mape",
   "src": "libretranslate",
@@ -36997,6 +37495,12 @@
  },
  "Select a widget...": {
   "t": "Odaberi widget...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select a zone layer above to see its fields.": {
+  "t": "Odaberite sloj zone iznad da biste vidjeli njegova polja.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -37357,6 +37861,12 @@
  },
  "Select the widget controller containing Mailing Labels": {
   "t": "Odaberite kontroler widgeta koji sadrži poštanske oznake",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Select the zone layer": {
+  "t": "Odaberite sloj zone",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -38027,6 +38537,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Share email subject line": {
+  "t": "Podijeli liniju subjekta e-pošte",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Share options": {
   "t": "Odrednice ispisa",
   "src": "libretranslate",
@@ -38099,6 +38615,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show \"Click map\" mode toggle": {
+  "t": "Prikaži Klikni na kartu način preklopljavanja",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show \"Show print area\" toggle": {
   "t": "Prikaži Prikaži područje ispisa preklopi",
   "src": "libretranslate",
@@ -38107,6 +38629,12 @@
  },
  "Show \"Use current location\"": {
   "t": "Prikaži Koristi trenutnu lokaciju",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show \"Use my location\" button": {
+  "t": "Prikaži Koristite moju lokaciju gumb",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -38819,6 +39347,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show Print button on result": {
+  "t": "Prikaži gumb ispisa pri rezultatu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Show Print-Ready Button": {
   "t": "Prikaži gumb spreman za ispis",
   "src": "libretranslate",
@@ -38827,6 +39361,12 @@
  },
  "Show Related Table Summaries": {
   "t": "Prikaži povezane sažetke tablice",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show reset button": {
+  "t": "Pokaži gumb za resetiranje",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -38881,6 +39421,12 @@
  },
  "Show Segment Labels Toggle": {
   "t": "Prikaži naljepnice segmenta i preklopi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Show Share button on result": {
+  "t": "Prikaži gumb za dijeljenje pri rezultatu",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -39139,6 +39685,12 @@
  },
  "Showing only": {
   "t": "Samo za prikazivanje",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Shown above the address input. Plain HTML.": {
+  "t": "Prikazano iznad unosa adrese. Običan HTML.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -40631,6 +41183,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Still stuck? Contact the GIS Division and mention the Zone Lookup widget and this app.": {
+  "t": "Još uvijek zaglavi? Kontaktirajte GIS Division i spomenuti Zone Lookup widget i ovu aplikaciju.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Still stuck? Contact your GIS team and mention the Draw Advanced widget and this app.": {
   "t": "Još uvijek zaglavi? Kontaktirajte svoj GIS tim i spomenuti Draw Advanced widget i ovu aplikaciju.",
   "src": "libretranslate",
@@ -40879,6 +41437,12 @@
  },
  "Submit button label": {
   "t": "Dodaj oznaku gumba",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Submit button tooltip": {
+  "t": "Obavještenje o prijavljivanju gumba",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -41915,6 +42479,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The answer says the address is outside the area: that address is not in the areas this app covers. Check the address, then use the phone number or contact shown on the card.": {
+  "t": "Odgovor kaže da je adresa izvan područja: da adresa nije u područjima koje ova aplikacija pokriva. Provjerite adresu, zatim koristite broj telefona ili kontakt prikazan na kartici.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The area as stated on the deed or record document, saved alongside the calculated area": {
   "t": "Područje kako je navedeno na djelu ili dokumentu zapisa, sačuvano uz izračunato područje",
   "src": "libretranslate",
@@ -42047,8 +42617,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The card stays empty after a long wait: the address service or the area layer did not answer. Reload the page and try again.": {
+  "t": "Kartica ostaje prazna nakon dugog čekanja: adresa usluga ili sloj područja nije odgovorio. Ponovno učitati stranicu i pokušati ponovno.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The closure error was distributed proportionally along each boundary line (Bowditch compass rule); your entered values are kept as records": {
   "t": "Greška zatvaranja distribuirana je proporcionalno uz svaku graničnu liniju (pravilo Bowditch kompasa); vaše unesene vrijednosti se čuvaju kao zapisi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The colored bar at the top of the card is the short answer, such as the area name and the date.": {
+  "t": "U boji bar na vrhu kartice je kratak odgovor, kao što su naziv područja i datum.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -42515,6 +43097,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The map where the address pin and zone highlight are drawn. Optional : the widget still returns results without a map.": {
+  "t": "Karta na kojoj se iscrtavaju pin adresa i zona. Opcionalno: widget i dalje vraća rezultate bez karte.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The Map widget this Parcel Drafter works against": {
   "t": "Mapa widget ovaj paket Drafter radi protiv",
   "src": "libretranslate",
@@ -42683,6 +43271,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The polygon feature layer that holds the zones.": {
+  "t": "Poligonska značajka sloj koji drži zone.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The presenter window does not open: the browser blocked a pop up. Allow pop ups for this site and press W again.": {
   "t": "Prozor prezentatora se ne otvara: preglednik je blokirao iskakanje. Dopusti pop upove za ovu stranicu i pritisni W ponovno.",
   "src": "libretranslate",
@@ -42713,6 +43307,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The printout shows the whole page: the print window was opened from the browser menu. Use the {name} button on the answer card instead.": {
+  "t": "Ispis prikazuje cijelu stranicu: prozor za ispis je otvoren iz izbornika preglednika. Umjesto toga koristite gumb {name} na kartici za odgovor.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The projection engine supports this WKID.": {
   "t": "Projekcijski motor podržava ovaj WKID.",
   "src": "libretranslate",
@@ -42733,6 +43333,12 @@
  },
  "The rest of the app can use it too: filter it, select from it, put it in a chart or a table.": {
   "t": "Ostatak aplikacije može ga koristiti previše: filtrirati ga, odabrati iz njega, staviti ga u grafikonu ili tablici.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The rest of the card gives the details for the address you looked up.": {
+  "t": "Ostatak kartice daje detalje za adresu koju ste tražili.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -43103,6 +43709,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The wording in the answer may change to match the area your address is in.": {
+  "t": "Rješenje u odgovoru može se promijeniti kako bi odgovaralo području u kojem se nalazi vaša adresa.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The workbook has a Summary sheet, a Tickets sheet, {sheets}, each only when there is something to put in it.": {
   "t": "Radna knjiga ima sažetak list, ulaznica list, {sheets}, svaki samo kada postoji nešto staviti u nju.",
   "src": "libretranslate",
@@ -43345,6 +43957,12 @@
  },
  "This field is required for generating labels": {
   "t": "Ovo polje je potrebno za generiranje oznaka",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "This guide follows the app: it only describes the buttons this app is showing you.": {
+  "t": "Ovaj vodič slijedi aplikaciju: opisuje samo gumbe koje vam ova aplikacija pokazuje.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -45761,6 +46379,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Use {{#if FIELD_NAME}}, {{else}}, and {{/if}}. Field names may contain letters, numbers, and underscores and may not start with a number. Close each directive with two braces.": {
+  "t": "Koristi {{##ako FIELD_NAME}}, {{else}}, i {{/if}}. Imena polja mogu sadržavati slova, brojeve i podvlake i ne mogu početi s brojem. Zatvori svaku direktivu s dvije proteze.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use {{#if FIELD_NAME}}...{{else}}...{{/if}} to choose text when a field is populated or empty. Missing, null, empty, and whitespace-only values use the else branch. Zero and false count as populated. This is template syntax, not Arcade.": {
+  "t": "Koristi {{#if FIELD_NAME}}...{{else}} za odabir teksta kada je polje naseljeno ili prazno. Nedostaju, null, prazne, i vrijednosti samo za prazna polja koriste drugu granu. Nula i lažni broj kao naseljen. Ovo je sintaksa predloška, a ne Arcade.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use {FIELD_NAME} to insert a field value. Field names ignore capitalization, and values are HTML-escaped. Date fields use long English dates in UTC.": {
+  "t": "Koristite {FIELD_NAME} za umetanje vrijednosti polja. Nazivi polja ignoriraju kapitalizaciju, a vrijednosti su HTML- escaped. Date polja koriste duge engleske datume u UTC.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Use {fieldName} placeholders from the added data.": {
   "t": "Koristi {fieldName} mjesta držača iz dodanih podataka.",
   "src": "libretranslate",
@@ -45895,6 +46531,12 @@
  },
  "Use My Location": {
   "t": "Koristi moju lokaciju",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Use no more than 64 nested if blocks.": {
+  "t": "Koristite ne više od 64 ugniježđena ako blokovi.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -47327,6 +47969,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Widget fills its parent’s height and stretches the result card to remove void space below. Use when embedding as a fixed-size iframe.": {
+  "t": "Widget ispunjava visinu svog roditelja i proteže rezultat kartice za uklanjanje praznog prostora ispod. Koristite pri ugradnji kao fiksne veličine iframe.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Widget functions": {
   "t": "Funkcije widgeta",
   "src": "libretranslate",
@@ -47843,6 +48491,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "You do not have to type an address. You can also use {ways}.": {
+  "t": "Ne morate tipkati adresu. Također možete koristiti {ways}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "You have drawings saved from a previous session.": {
   "t": "Sačuvali ste crteže iz prethodne sesije.",
   "src": "libretranslate",
@@ -47851,6 +48505,12 @@
  },
  "You have reached the limit of {max} saved instances. Delete one before saving another.": {
   "t": "Dosegli ste granicu od {max} spremljenih instanci. Izbrišite jedan prije spremanja drugog.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Your address is not in the list: the house number or the spelling may be slightly off. Try the street name on its own, then pick the right one from the list.": {
+  "t": "Vaša adresa nije na popisu: broj kuće ili pravopis može biti neznatno isključen. Pokušajte ime ulice na svoju ruku, a zatim izaberite onaj pravi s popisa.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -47885,6 +48545,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Your last few addresses are listed under \"{recent}\" when the box is empty.": {
+  "t": "Zadnjih nekoliko adresa je upisano pod{recent} kada je kutija prazna.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Your location could not be determined right now.": {
   "t": "Vaša lokacija nije mogla biti utvrđena upravo sada.",
   "src": "libretranslate",
@@ -47899,6 +48565,12 @@
  },
  "Your measurement choices are remembered in this browser. Reset Measurement Defaults puts them back.": {
   "t": "Vaši odabiri mjerenja su zapamćeni u ovom pregledniku. Reset Mjera Uobičajeni ih vraća.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Your recent addresses": {
+  "t": "Vaše nedavne adrese",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -47993,6 +48665,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Zone layer": {
+  "t": "Zonski sloj",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zone layer extent": {
+  "t": "Opseg sloja zone",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Zone Lookup": {
   "t": "Pretraživanje zone",
   "src": "libretranslate",
@@ -48049,6 +48733,12 @@
  },
  "Zoom is the map's zoom level. A bigger number means the map is zoomed in closer.": {
   "t": "Zumiranje je nivo uvećanja mape. Veći broj znači da je mapa uvećana bliže.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Zoom level after lookup": {
+  "t": "Povećaj razinu nakon pretraživanja",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
