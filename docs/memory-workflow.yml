@@ -40,12 +40,24 @@ jobs:
         with:
           path: ~/lt-models
           key: lt-models-v1
+      # Docker Hub limits anonymous pulls per runner IP, so the image comes from Google's
+      # Docker Hub mirror first, then Docker Hub with retries. If LibreTranslate still cannot
+      # start, the run carries on with Opus-MT only instead of failing.
       - name: Start LibreTranslate
+        continue-on-error: true
         run: |
           mkdir -p ~/lt-models && chmod 777 ~/lt-models
-          docker run -d --name lt -p 5000:5000 -v ~/lt-models:/home/libretranslate/.local libretranslate/libretranslate:latest
+          IMG=""
+          for src in mirror.gcr.io/libretranslate/libretranslate:latest libretranslate/libretranslate:latest; do
+            for attempt in 1 2 3; do
+              if docker pull -q "$src"; then IMG="$src"; break 2; fi
+              echo "Pull of $src failed (attempt $attempt); waiting..."; sleep $((attempt * 30))
+            done
+          done
+          if [ -z "$IMG" ]; then echo "::warning::LibreTranslate image could not be pulled; this run does bs, hr, sr only."; exit 1; fi
+          docker run -d --name lt -p 5000:5000 -v ~/lt-models:/home/libretranslate/.local "$IMG"
           for i in $(seq 1 180); do
-            if curl -sf http://localhost:5000/languages > /dev/null; then echo "ready after ${i}0s"; exit 0; fi
+            if curl -sf http://localhost:5000/languages > /dev/null; then echo "ready after ${i}0s"; echo "LT_OK=1" >> "$GITHUB_ENV"; exit 0; fi
             sleep 10
           done
           docker logs lt | tail -50; exit 1
@@ -94,12 +106,15 @@ jobs:
       - name: Translate and commit in batches
         run: |
           MEM_DIR="$RUNNER_TEMP/mem"
+          if [ "${LT_OK:-0}" != "1" ] && [ "${OPUS_OK:-0}" != "1" ]; then echo "::error::Neither LibreTranslate nor Opus-MT started; nothing to translate with."; exit 1; fi
           stop=$(( $(date +%s) + BUDGET_MINUTES * 60 ))
           pass=0
           while [ "$(date +%s)" -lt "$stop" ]; do
             pass=$((pass + 1))
             echo "::group::Pass $pass"
-            node bin/exb-i18n.js memory-build --sources memory/sources.json --out "$MEM_DIR/memory" --provider libretranslate --lt-url http://localhost:5000 --max "$BATCH"
+            if [ "${LT_OK:-0}" = "1" ]; then
+              node bin/exb-i18n.js memory-build --sources memory/sources.json --out "$MEM_DIR/memory" --provider libretranslate --lt-url http://localhost:5000 --max "$BATCH"
+            fi
             if [ "${OPUS_OK:-0}" = "1" ]; then
               node bin/exb-i18n.js memory-build --sources memory/sources.json --out "$MEM_DIR/memory" --provider libretranslate --lt-url http://localhost:5001 --locales bs,hr,sr --max "$BATCH" || echo "Opus-MT pass failed; bs, hr, sr skipped this pass."
             fi
