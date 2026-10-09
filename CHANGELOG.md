@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.4 (2026-10-09)
+
+- An Esri match whose "translation" is the English itself (Esri bundles that ship English in a locale
+  file) no longer counts as translated. It used to win over the shared memory, so strings such as
+  "New here?" and "Dismiss" stayed English in Spanish while the memory had them.
+
 ## 1.0.3 (2026-10-09)
 
 - `sync`, `localize` and `audit` on a widgets folder skipped every widget whose manifest author starts
