@@ -2,13 +2,13 @@
 
 **Make any ArcGIS Experience Builder custom widget speak all 39 Experience Builder languages.**
 
-Esri's own widgets switch language with the user's ArcGIS profile, the browser, the `?locale=` URL parameter or the out-of-the-box [Language Switcher](https://doc.arcgis.com/en/experience-builder/latest/configure-widgets/language-switcher-widget.htm). Custom widgets usually stay in English. This kit fixes that for any widget, with one command, and keeps it fixed as the widget changes.
+Esri's own widgets switch language with the user's ArcGIS profile, the browser, the `?locale=` URL parameter or the out-of-the-box [Language Switcher](https://doc.arcgis.com/en/experience-builder/latest/configure-widgets/language-switcher-widget.htm). Custom widgets usually stay in English. This kit fixes that for any widget, with one command, and helps keep translations current as the widget changes. Static scans and file coverage do not replace testing in the target language.
 
 - Works on **your** widget: nothing here is tied to one widget.
 - Uses the translations **Esri already ships** with Experience Builder first, so shared words match Esri's widgets exactly.
 - Fills the rest from a **free shared translation memory** on GitHub, kept current by a GitHub Action and corrected by the community.
-- **No runtime code** is added to your widget. The output is the same file format Esri uses.
-- **Zero dependencies.** Node 18 or later, which Experience Builder already needs.
+- `sync` writes the same translation file format Esri uses. `localize` and `wire` also add a small runtime helper to connect UI text to the widget locale.
+- Node 18 or later. Source scanning uses the TypeScript compiler from your Experience Builder client (or a local TypeScript installation). Translation providers are optional.
 
 > Example: [Draw Advanced](https://github.com/brianmcleer/draw-advanced-widget) 4.6.0 was localized with this kit.
 
@@ -36,7 +36,7 @@ That one command:
 1. backs up your source files to `my-widget\i18n\backup`
 2. moves hardcoded English (buttons, tooltips, screen-reader labels, messages) into `translations\default.ts`
 3. writes `translations\<language>.js` for all 39 languages and updates `manifest.json`
-4. lists anything it could not change by itself
+4. lists remaining findings in supported static patterns; test runtime and settings in your target languages
 
 **3. Test.** Restart `pnpm start`, open your app with `?locale=es` (or `&locale=es` if the link already has a `?`).
 
@@ -188,3 +188,15 @@ Issues and pull requests welcome: translations in `memory/`, new widgets in `mem
 ## License
 
 Apache-2.0. Not affiliated with or endorsed by Esri.
+
+## UI wiring beyond JSX
+
+The scanner follows local variables, metadata used by array callbacks, and parameters passed through local UI helpers. It detects `showMessage('success', 'Saved')` at argument 1 and preserves the severity. Module-level UI metadata uses getters so it follows locale changes after import. IDs, comparisons, constructors, code samples, and console output remain protected.
+
+For your own notification or UI API, configure zero-based argument positions in `exb-i18n.config.json`:
+
+```json
+{ "sinkArgs": { "renderPanel": [1], "customNotice": [1] } }
+```
+
+Run `audit` after wiring, then type check, build, and test runtime and settings. The scanner cannot prove coverage of external data, reflection, arbitrary imported helper functions, or all message interpolation. A filled locale file may still contain English fallbacks or unreviewed machine translations.
