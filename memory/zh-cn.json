@@ -1019,6 +1019,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "4,327,000 m (with units)": {
+  "t": "4 327 000米(带单位)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "4. Export": {
   "t": "4. 出口",
   "src": "libretranslate",
@@ -1085,6 +1091,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A georeferenced export is always straight north up, even if your map is turned, because a turned picture would not line up with the ground.": {
+  "t": "一个地理参照导出总是向北直走,即使你的地图被翻转,因为翻转的图片不会与地面排成一行.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A grid over the map view": {
   "t": "地图视图上的网格",
   "src": "libretranslate",
@@ -1097,6 +1109,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A highlight belongs to the map on your screen, not to the map layers, so the widget draws your selected features onto the page for you.": {
+  "t": "一个亮点属于屏幕上的地图,而不是地图层,所以部件将您选定的特性绘制到页面上。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A layer inside a group shows only when the group is on too. If a ticked layer is missing from the map, check its group.": {
   "t": "组内部的一层仅在组内也出现时显示. 如果在地图中缺少一个勾选的图层, 请检查它的组 。",
   "src": "libretranslate",
@@ -1105,6 +1123,12 @@
  },
  "A layer is missing: it may be outside the current map scale. Zoom in or out, and check the note beneath its name.": {
   "t": "缺少一个图层:它可能位于当前地图尺度之外。 缩小或缩小,并检查其名下注.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer is on the map but not in the legend: the layer does not draw at the printed scale, or your app leaves out layers with nothing inside the print area, so it is left out on purpose. Check the layer list in the map, or print at a scale and area where it draws.": {
+  "t": "地图上有一个图层,但传说中没有:图层没有在打印尺度上画图,或者您的应用程序在打印区域内留下了没有内容的图层,所以故意将其抛出. 检查地图中的图层列表,或打印比例尺和绘制区域。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1129,6 +1153,12 @@
  },
  "A layer name is grey and nothing shows on the map: the layer only draws between certain zoom levels. Zoom in, or out, until the name turns dark.": {
   "t": "一个图层名称是灰色的,地图上没有任何显示:该图层只在一定的缩放级别之间绘制. 放大或退出,直到名字变暗.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer printed as a picture instead of sharp lines: its symbols, labels or effects are ones the vector output cannot copy exactly, so it kept the picture on purpose. The note under the finished file names each layer and the reason.": {
+  "t": "一层被打印为图片而不是锐线:它的符号,标签或效果是矢量输出不能准确复制的,所以它故意保持图片. 完成文件名下的注释每层和原因.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1168,6 +1198,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "A map series cuts the area you are looking at into a grid of pages, all at one scale, and adds an index page at the front.": {
+  "t": "一个地图系列将您正在查看的区域切成一个网格, 全部在一个比例, 并在前面添加一个索引页。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A map series is very slow: every page is captured one at a time, so twelve pages take roughly twelve times as long as one. Keep the tab open, or use fewer, larger pages.": {
+  "t": "一个地图系列很慢:每页一次被捕获一个,因此12页大约需要12倍于1的长度. 保持标签打开,或者使用更少,更大的页面.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "A map widget is required for this widget to function": {
   "t": "此部件的功能需要一个映射部件",
@@ -1223,6 +1265,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A selected feature is missing from the print: Selected features is switched off, or the selection was cleared before you pressed Export. Turn the switch on, reselect, then export.": {
+  "t": "打印中缺少一个选中的特性: 选中的特性被关闭, 或者在您按“ 导出” 键前已清除 。 打开开关, 重新选择, 然后导出 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A selection highlight belongs to the map on screen, not to the map layers, so the widget draws the selected features onto the page itself, as a cyan outline with a thin white casing so it reads over aerial photography. Selections made in the Select, Table or Query widgets and shapes an app has drawn on the map are all picked up. This switch sets the starting position only; users can still turn it on or off per export.": {
+  "t": "一个选择亮点属于屏幕上的地图,而不是地图层,所以部件将所选择的特性画在页面本身上,作为一个带有薄白色外壳的青色轮廓,这样它就可以读取航空摄影. 在选择、 表格或查询部件中所做的选择, 以及在地图上绘制的应用程序形状, 全部被选中 。 此开关仅设置起始位置; 用户仍然可以打开或关闭每次导出 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A side with no selected layers shows the basemap and any shared map layers. You can use this to compare a layer with the basemap.": {
   "t": "无选定图层的侧面显示底图和任何共享图层。 您可以用它来比较一层和底图.",
   "src": "libretranslate",
@@ -1243,6 +1297,12 @@
  },
  "A to Z": {
   "t": "A对Z",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A turned map stays turned. The coordinate information carries the turn too, so the picture still lines up with the ground in ArcGIS Pro, QGIS and Google Earth.": {
+  "t": "转动的地图会转动 坐标信息也带有转弯,因此画面仍然与ArcGIS Pro,QGIS和Google Earth中的地面相接.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1411,6 +1471,12 @@
  },
  "Add a QR code that opens this map": {
   "t": "添加打开此地图的 QR 代码",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add a QR code that opens this map: prints a small square code. Anyone who scans it with a phone opens the live map in a browser.": {
+  "t": "添加一个打开此地图的QR代码:打印一个小的方形代码. 任何用手机扫描的人都会在浏览器中打开现场地图.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1925,8 +1991,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Advanced options cards open by default": {
+  "t": "默认打开的高级选项卡",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Aerial and satellite imagery from the OpenStreetMap Editor Layer Index that covers the part of the map you are looking at. It is added under your layers, like a second basemap.": {
   "t": "OpenStreetMap 编辑层索引的空中和卫星图像覆盖了您所看到的地图的部分。 它被添加在你的层下, 就像一个二基图。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Aerial photography looks soft: you are zoomed in closer than the photography was flown. It is placed correctly, there is simply no more detail to show. Zoom out a little for a crisper page.": {
+  "t": "空中摄影看起来很柔软:你被放大得比摄影机飞得更近. 它的位置是正确的,根本没有更多的细节可以显示。 放大一点,更清晰的一页。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2392,6 +2470,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "App default": {
+  "t": "App 默认",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "App-specific keeps drawings isolated to this experience; Global shares them across all experiences on this domain.": {
   "t": "App特异性一直将图画与这种经验隔离;Global分享该领域的所有经验.",
@@ -2963,6 +3047,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Blank = outline color": {
+  "t": "空白 = 轮廓颜色",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Blank = signed-in username": {
+  "t": "空白 = 签名用户名",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Blank labels read Longitude and Latitude for a geographic system, X and Y otherwise.": {
   "t": "空白标签读作经度和经度,用于地理系统,X和Y另作说明。",
   "src": "libretranslate",
@@ -3485,6 +3581,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Cell ids (A1, B2) in each cell": {
+  "t": "每个单元格的单元格编号(A1,B2)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Center · {srLabel}": {
   "t": "中心 · {srLabel}",
   "src": "libretranslate",
@@ -3881,6 +3983,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Choose TIFF and turn on Georeference (world file) and you get a single file that ArcGIS Pro and QGIS open in the correct place with nothing else to keep track of. This is the one to use.": {
+  "t": "选择 TIFF 并打开 GeoReference (world file) , 您可以得到一个在正确位置打开的ArcGIS Pro 和 QGIS 的单一文件, 没有其他可以跟踪的文件 。 这是要用的。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Choose vertical alignment for text. Options are baseline, top, middle, or bottom. Currently set to {verticalAlignment}.": {
   "t": "选择文字的垂直对齐 。 选项是基线、上、中或下。 目前设定为 {verticalAlignment}。 。 。 。",
   "src": "libretranslate",
@@ -3931,6 +4039,12 @@
  },
  "Choosing layers": {
   "t": "选择层",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choosing what lands on the page": {
+  "t": "在页面上选择什么",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5507,6 +5621,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Corner coordinates": {
+  "t": "坐标角",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Could not copy the link": {
   "t": "无法复制链接",
   "src": "libretranslate",
@@ -5939,6 +6059,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Decimal degrees (108.51°W)": {
+  "t": "小数度(108.51°W)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Decimal Degrees (DD)": {
   "t": "小数度( DD)",
   "src": "libretranslate",
@@ -5947,6 +6073,12 @@
  },
  "Decimal degrees: decimal places": {
   "t": "十进制度: 小数位数",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Decimal minutes (108°30.5'W)": {
+  "t": "小数分钟(108°30.5'W)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6011,6 +6143,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default author": {
+  "t": "默认作者",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default basemap": {
   "t": "默认底图",
   "src": "libretranslate",
@@ -6053,6 +6191,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default copyright": {
+  "t": "默认版权",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default custom buffer color.": {
   "t": "默认自定义缓冲颜色 。",
   "src": "libretranslate",
@@ -6079,6 +6223,18 @@
  },
  "Default Field Mappings": {
   "t": "默认字段映射",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default file name": {
+  "t": "默认文件名称",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default format": {
+  "t": "默认格式",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6113,14 +6269,56 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default map DPI": {
+  "t": "默认映射DPI",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default map title": {
+  "t": "默认地图标题",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default Name Field": {
   "t": "默认名称字段",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default north arrow": {
+  "t": "默认北箭头",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default Opacity (%)": {
   "t": "默认不透明度(%)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default output WKID (0 = map's own)": {
+  "t": "默认输出 WKID (0 = 地图本身)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default scale bar style": {
+  "t": "默认缩放条样式",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default scale bar units": {
+  "t": "默认缩放栏单位",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default second units (dual)": {
+  "t": "默认第二个单位( 双倍)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6671,8 +6869,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Double styles print a dual scale bar (two measurements sharing the zero point). Layout default picks the natural complement (miles-feet, meters-kilometers); choose a unit to override.": {
+  "t": "双样式打印一个双比例栏(两个测量共享零点). 布局默认选择天然补丁(英里-英尺,米-公里);选择一个单元来覆盖.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Double-click always finishes a line or area, and Esc always cancels one.": {
   "t": "双击总是完成一个行或区域,而ESC总是取消一个.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Double-click the .kmz in Google Earth Pro, or drag it into Google Earth on the web. The map is saved as a PNG inside it whatever Format you chose above.": {
+  "t": "双击Google Earth Pro中的.kmz,或将其拖入Google Earth的网络. 无论您在上面选择什么格式, 地图都被保存为其中的 PNG 。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7319,6 +7529,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Each app sets a page limit (50 map pages unless changed in Settings; the index and legend pages do not count). A grid over it switches Export off; use fewer Rows or Columns, or zoom out and use fewer, larger pages.": {
+  "t": "每个应用程序都设置了一个页数限制(50个地图页,除非在设置中更改;索引和图例页不计数). 上方的网格切换为导出; 使用更少的行或列, 或缩放并使用更少, 更大的页面 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Each button draws one kind of measurement. A blue bar at the top shows which tool is active.": {
   "t": "每个按钮都画一种测量。 顶端的蓝色栏显示哪个工具是活动的 。",
   "src": "libretranslate",
@@ -7333,6 +7549,12 @@
  },
  "Each button opens the pinned spot in another website: {links}.": {
   "t": "每个按钮打开另一个网站上的固定位置 : {links}。 。 。 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Each card can be opened and closed by the user, and their choice is remembered in their browser. These are the starting positions. Map series opens by itself whenever a series is switched on.": {
+  "t": "每张卡片都可以由用户打开和关闭,其选择在浏览器中被记住. 这些是开始的位置。 地图系列每打开一个系列,就自己打开。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8141,6 +8363,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Every PDF is also a GeoPDF. Open it in Avenza Maps on a phone to see your location as a blue dot on the map, read coordinates in Acrobat with the Geospatial Location tool, or add it to ArcGIS Pro or QGIS and it lands in the right place.": {
+  "t": "每个PDF也是GeoPDF. 用Avenza地图在电话中打开,将你的位置看成地图上的蓝点,用地理空间定位工具在Acrobat读取坐标,或者添加到ArcGIS Pro或QGIS中,然后降落在正确的地点.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Every shape you draw is listed on the My Drawings tab.": {
   "t": "您绘制的每个形状都列在我的绘图标签上。",
   "src": "libretranslate",
@@ -8393,6 +8621,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Export as many times as you like. Change one thing, export again, and compare the two files.": {
+  "t": "随心所欲导出多少遍. 改变一件事,再导出,然后比较两个文件.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Export as Shapefile": {
   "t": "导出为形状文件",
   "src": "libretranslate",
@@ -8423,6 +8657,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Export defaults": {
+  "t": "导出默认值",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Export drawings to file": {
   "t": "导出绘图到文件",
   "src": "libretranslate",
@@ -8431,6 +8671,12 @@
  },
  "Export formats for {name}": {
   "t": "导出格式 {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export is greyed out with a red message under Map series: the series is over this app's page limit. Use fewer rows or columns, or for one page per feature choose Inside the print area, zoom in, or filter the layer.": {
+  "t": "导出在Map系列下带有红色消息灰色:该系列超越了这个app的页面限制. 使用更少的行或列,或者每个特性选择一个页面在打印区域内,放大,或者过滤层.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8557,6 +8803,12 @@
  },
  "Exporting": {
   "t": "导出",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Exporting…": {
+  "t": "导出中...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9065,6 +9317,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Finished exports are listed under Recent exports at the bottom of the panel, newest first. Click the file name to save it to your computer.": {
+  "t": "已完成的出口列在最近出口的底部,首先是最新出口。 单击文件名称将其保存到计算机中。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Finishing up…": {
   "t": "即将结束...",
   "src": "libretranslate",
@@ -9079,6 +9337,12 @@
  },
  "Fixed scale": {
   "t": "固定比额表",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fixed scale: prints at the exact scale you type, for example 24000 for 1:24,000. Use this when the page has to match another map.": {
+  "t": "固定比例尺:按你输入的精确比例尺打印,例如1:24000的24000. 当页面需要匹配另一个地图时使用此选项 。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9353,6 +9617,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Font: changes the typeface for all the text on the page. App default uses the layout font.": {
+  "t": "字体:修改页面上所有文本的字体。 App默认使用布局字体.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "for {count} selected buffer": {
   "t": "(单位:千美元) {count} 选中缓冲",
   "src": "libretranslate",
@@ -9395,6 +9665,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "For one page per parcel, park or project, set Pages from to One page per feature and pick the layer. Features chooses which ones: in the current map view, inside the print area rectangle, or the whole layer, even beyond the map. Any filter on the layer (from Map Layers, a Filter widget or the map itself) is applied too. Only layers in the map's layer list that are turned on are listed (whichever layer list widget you use), including ones inside groups, nested groups and map image services, shown with their group path, like Utilities / Water / Mains. Each page centers on its feature, outlines it in orange and prints at the best-fit scale, or the fixed scale you set. Text in the layout that uses {field:NAME} shows that feature's value.": {
+  "t": "对于每个包裹,公园或项目一个页面,设置每个功能从一个页面到一个页面并选择层. 特征选择了哪些:在当前地图视图中,打印区矩形内部,或整个层,甚至地图之外. 该图层上的任何过滤器(来自映射图层、过滤器部件或映射本身)也被应用。 仅列出地图层列表中打开的层(无论您使用哪个层列表部件),包括内组,巢组和地图图像服务,并随组路径显示,如公用事业 / Water / Mains 。 每页都以它的特点为中心, 以橙色和印数来概括它, 或用你设定的固定比例。 在使用 {field:NAME} 的布局中显示该特性值的文字 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "For the best experience, use a modern web browser": {
   "t": "最好的经验是使用现代网页浏览器",
   "src": "libretranslate",
@@ -9421,6 +9697,12 @@
  },
  "Format a field as a number, currency, percent, or date, or turn it into a link built from a URL template with {FIELD_NAME} tokens.": {
   "t": "将字段格式化为数字、货币、百分比或日期,或将其变成由 URL 模板构建的链接 {FIELD_NAME} 标志。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Format decides the kind of file you get. If you are not sure, use PDF.": {
+  "t": "格式决定您得到的文件类型 。 如果您不确定, 请使用 PDF 。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9487,6 +9769,12 @@
  },
  "Freeze the print area over the current ground location so it stays put while you pan or zoom.": {
   "t": "将打印区域冻结在地面位置上 这样它就留在原地上",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "From .pagx": {
+  "t": "从.pagx",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9749,14 +10037,32 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "GeoPDF coordinates in PDF exports": {
+  "t": "GeoPDF 在 PDF 导出中的坐标",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Georeference (world file)": {
   "t": "地理参考( 世界文件)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Get the map looking the way you want, pick a Layout, type a Map title, then press Export. Your file appears at the bottom of the panel.": {
+  "t": "获取地图的外观,选择一个布局,键入一个地图标题,然后按“导出”键。 您的文件出现在面板底部 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Getting the address of a spot": {
   "t": "获取位置地址",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Getting your file": {
+  "t": "获取文件",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9809,6 +10115,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Google Earth (KMZ): gives you one .kmz file with the map draped over the globe in the right place. All four corners are placed separately, so the picture is not stretched.": {
+  "t": "Google Earth(KMZ):给你一张.kmz文件,上面的地图在地球上绘制在正确的地方. 所有四个角都分开放置,所以画面没有拉伸.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Google Maps 3D": {
   "t": "谷歌地图 3D",
   "src": "libretranslate",
@@ -9823,6 +10135,12 @@
  },
  "Graticule (lat/long)": {
   "t": "葡萄( 上/ 长)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "grid": {
+  "t": "网格",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9877,6 +10195,18 @@
  },
  "Grid is enabled. Theme: {gridTheme}. Spacing: {gridSpacingMode}. Rotation: {gridRotation} degrees.": {
   "t": "网格已启用 。 主题: {gridTheme}间距 : {gridSpacingMode}旋转: {gridRotation} 学位。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid labels are missing on a turned map: labels that would overlap another label are left off so none print on top of each other. Use a larger interval, fewer label sides, or smaller labels.": {
+  "t": "网格标签在翻转的地图上缺失:会与另一个标签重叠的标签被留下,所以相互上方没有打印. 使用更大的间隔,更少的标签边,或者较小的标签.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid on by default": {
+  "t": "默认网格",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9949,6 +10279,12 @@
  },
  "Grid size": {
   "t": "网格大小",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid size shrinks the whole grid toward the middle, which is a quick way to trim empty edges without changing rows and columns.": {
+  "t": "网格大小将整个网格缩小到中间,这是在不改变行和列的情况下快速修剪空边的方法.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10031,6 +10367,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Grid style for this export: latitude/longitude graticule, measured grid in map units, or lettered reference grid.": {
+  "t": "此导出时的网格样式: 纬度/经度格, 以地图单位计量的网格, 或字母引用网格 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid style panel": {
+  "t": "网格样式面板",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid style: open it under Grid type to change the grid your way. Pick the line color, width, opacity and pattern, or draw only edge ticks and crosses. Set a custom interval, the label color, size, bold and halo, which sides get labels, labels that run along the side edges, and the coordinate or number format. Reference grids can put letters on rows and print cell ids like A1 in every cell. Reset to layout grid puts everything back.": {
+  "t": "网格样式:在网格类型下打开,以改变网格方式. 选择线的颜色,宽度,不透明以及图案,或者只画边缘勾和交叉. 设置自定义间隔,标签的颜色,大小,粗体和光环,这些边获得标签,沿边边缘运行的标签,以及坐标或数字格式. 引用网格可以在行上放置字母,在每个单元格中打印像A1的单元格ID. 重置以布局网格将所有东西都放回去.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Grid theme changed to {newTheme}": {
   "t": "网格主题更改为 {newTheme}",
   "src": "libretranslate",
@@ -10051,6 +10405,12 @@
  },
  "Grid unit changed to {newUnit}": {
   "t": "网格单位改为 {newUnit}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid: adds the grid or graticule the layout was built with. Grid type switches between a latitude and longitude graticule, a measured grid in map units, and a lettered reference grid like A-1. When the layout turns on corner labels, each map corner also shows its exact coordinate.": {
+  "t": "网格(Grid):添加布局所建的网格或格子. 网格类型开关介于经纬度和经纬度之间,以地图单位计量的网格,以及像A-1这样的字母参考网格. 当布局在角标签上转动时,每个地图角也显示其精确坐标.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10385,6 +10745,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Hide legend layers not drawn at the print scale": {
+  "t": "隐藏未绘制到打印比例的图例层",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hide legend layers with nothing in the print area": {
+  "t": "在打印区域中隐藏无图例层",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Hide measurements": {
   "t": "隐藏测量",
   "src": "libretranslate",
@@ -10483,6 +10855,12 @@
  },
  "Hover a view in the list and use the trash icon to delete it.": {
   "t": "在列表中粘贴视图并使用垃圾图标将其删除 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hover over any label in this panel for a one-line explanation without opening this guide.": {
+  "t": "在此面板上覆盖任何标签以进行单行解释,而不打开此向导.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10588,6 +10966,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "If the legend is too big to fit beside the map, a note appears offering to move it to additional pages. You can keep it beside the map instead.": {
+  "t": "如果这个传说太大, 不适合在地图旁边, 似乎有一个注释 提议将其移动到额外的页面。 你可以把它放在地图旁边",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "If the misclose ratio (1:n) meets or exceeds this n, points snap closed and the compass rule is applied": {
   "t": "如果误差比(1:n)达到或超过这个n,则点数会关闭并适用指南针规则",
@@ -10781,6 +11165,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "In PDF and SVG, feature layers drawn with simple symbols (parcels, lines, points, hatched fills, custom and picture markers) print as true lines and shapes instead of a picture, so they stay sharp at any zoom and the file stays small. Their labels come along as real text, including label classes that only label some features. Layers with Arcade labels or effects still print as a picture; the export note lists which ones and why.": {
+  "t": "在PDF和SVG中,用简单的符号(parcels, lines, points, 孵化后的填充,自定义和图片标记)绘制的特征层作为真实的线条和形状而不是图片,所以在任何缩放时都保持锐利,文件保持小. 他们的标签作为真实文本出现,包括只给一些特征贴标签的标签类. 带有 Arcade 标签或效果的图层仍作为图片打印;导出注释列出了其中哪些以及原因.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "In the {batchOptions} menu, choose {showFavoritesOnly} to list only your starred layers and their groups. Choose {showAllLayers} to go back.": {
   "t": "在那个 {batchOptions} 菜单,选择 {showFavoritesOnly} 仅列出您的星层及其组。 选择 {showAllLayers} 回到过去。",
   "src": "libretranslate",
@@ -10873,6 +11263,18 @@
  },
  "Include legend": {
   "t": "包含图例",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include legend: adds the layer symbols. Only the layers actually drawing at the printed scale are listed, so the legend matches the map.": {
+  "t": "包含图例:添加图层符号. 仅列出印刷比例尺上实际绘制的图层,因此图例与地图相符.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include map attribution": {
+  "t": "包含地图属性",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11153,6 +11555,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "It picks up a parcel you clicked, features chosen in a Select, Table or Query widget, and shapes an app has drawn on the map.": {
+  "t": "它会拾取您点击的包裹, 在选择、 表格或查询部件中选择的特性, 并塑造一个在地图上绘制的应用程序 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "It says Loading measurement tools for a long time: the map is still starting. Give it a moment, then reload the page.": {
   "t": "它说装填测量工具很长一段时间:地图还在开始. 给它一分钟,然后重新装入页面。",
   "src": "libretranslate",
@@ -11296,6 +11704,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Keep map rotation in georeferenced images": {
+  "t": "在地理参考图像中保持地图旋转",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Keep New Only": {
   "t": "仅保留新",
@@ -11855,6 +12269,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Layers in PDF and SVG exports": {
+  "t": "PDF 和 SVG 导出中的层",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "layers on": {
   "t": "层上",
   "src": "libretranslate",
@@ -11881,6 +12301,12 @@
  },
  "Layout default": {
   "t": "默认布局",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layout DPI": {
+  "t": "布局DPI",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11981,6 +12407,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "legend": {
+  "t": "传奇",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Legend": {
   "t": "图例",
   "src": "libretranslate",
@@ -12005,6 +12437,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Legend on by default": {
+  "t": "默认图例",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Legend page {i} of {n}": {
   "t": "图例页面 {i} 页:1 {n}",
   "src": "libretranslate",
@@ -12013,6 +12451,12 @@
  },
  "Legend placement": {
   "t": "图例放置",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Legend placement: beside the map, over a corner of it, or on Additional pages (PDF only). Beside the map, the map shrinks to make room. On additional pages, every item stays full size.": {
+  "t": "图例放置:在地图旁边,在地图的一个角落上,或者在附加页上(仅限PDF). 在地图之外,地图缩小了空间. 在额外的页面上,每个项目都保持完整的尺寸.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12125,6 +12569,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Line color (any)": {
+  "t": "行颜色( 任意)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Line layer (traverse lines)": {
   "t": "线层( 横线)",
   "src": "libretranslate",
@@ -12175,6 +12625,12 @@
  },
  "Line opacity": {
   "t": "线条不透明",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Line pattern": {
+  "t": "行图",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12295,6 +12751,12 @@
  },
  "Link text (optional)": {
   "t": "链接文本( 可选)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Link the title to the pages: while Map series is open, the buttons under Map title add Page name, Page number or any visible field, and the line under them shows how page 1's title will read. Order sorts the pages A to Z or Z to A by the name field. The Overview inset switch adds a locator overview to every data-driven page.": {
+  "t": "将标题链接到页面:在地图系列打开的同时,地图标题下的按钮会添加页名,页号或任何可见的字段,其下行会显示第1页标题的读法. 按名称字段排序A至Z或Z至A页。 Overview inset switch在每个数据驱动的页面中添加一个定位器概览.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12593,6 +13055,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Lock print area pins that rectangle over the ground. You can then pan and zoom to look around, and the printed area stays where you put it. Turn it off to release.": {
+  "t": "锁印区 固定在地面上 然后,你可以平整和放大看看周围, 印刷区留在你放的地方。 关闭它释放。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Locked": {
   "t": "已锁定",
   "src": "libretranslate",
@@ -12839,6 +13307,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map DPI sets how fine the map picture is. Layout default is fine for most work. 300 is sharper but takes noticeably longer and makes a much bigger file.": {
+  "t": "映射DPI设定映射图片的精细度. 对大多数工作来说,布局默认是好的。 300更锋利,但需要更长的时间 做一个更大的文件。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map fields": {
   "t": "映射字段",
   "src": "libretranslate",
@@ -12929,6 +13403,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map only (no layout): gives you just the map picture, with no title, legend or border. Use it when you want to drop the map into something else.": {
+  "t": "只有地图(没有布局):只给你地图图,没有标题,传说或边框. 想要将地图投入其它东西时使用.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map only necessary fields": {
   "t": "仅绘制必要的字段",
   "src": "libretranslate",
@@ -12967,6 +13447,12 @@
  },
  "Map series cancelled. Nothing was downloaded.": {
   "t": "地图系列已取消 。 没有被下载。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map series limits": {
+  "t": "地图系列限制",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13060,6 +13546,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Maps that open in the right place": {
+  "t": "在正确位置打开的地图",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Margins": {
   "t": "边距",
@@ -13156,6 +13648,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Max map capture (px, long edge; blank = auto)": {
+  "t": "最大映射捕获( px, 长边; 空白 = 自动)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Max scale": {
   "t": "最大比例",
@@ -14525,6 +15023,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "None (single bar)": {
+  "t": "无(单身酒吧)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "None (transparent)": {
   "t": "无( 透明)",
   "src": "libretranslate",
@@ -14533,6 +15037,12 @@
  },
  "none selected": {
   "t": "未选择",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "North arrow": {
+  "t": "北箭头",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14615,6 +15125,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Nothing downloaded: your browser may have blocked it. Look for a blocked download notice in the address bar, or click the file name under Recent exports again.": {
+  "t": "没有下载到: 您的浏览器可能已经屏蔽了它 。 在地址栏中查找一个被屏蔽的下载通知, 或者再次点击最近导出的文件名 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Nothing extra": {
   "t": "没有额外",
   "src": "libretranslate",
@@ -14653,6 +15169,12 @@
  },
  "Nothing is found where you know a feature is: the click landed just off the edge. Zoom in and click again, nearer the middle of the feature.": {
   "t": "在您知道一个特性的地方找不到任何东西: 点击刚刚从边缘掉下来。 放大并再次点击,更接近特性中间.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Nothing you change here affects the map itself or anyone else. It only changes the page you are about to make.": {
+  "t": "你在这里改变不了什么 影响地图本身或其他任何人 它只会改变你将要做的页面。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14705,6 +15227,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Number format": {
+  "t": "数字格式",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Number of decimal places for area and perimeter measurements, minimum 0, maximum 10": {
   "t": "面积和周边测量小数位数,最小0,最大10",
   "src": "libretranslate",
@@ -14747,6 +15275,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Numbered outlines appear on the map showing the pages. They follow you as you pan and zoom, so you can see the split before you commit to it.": {
+  "t": "编号大纲出现在显示页面的地图上。 他们跟随你,当你平面和放大, 所以你可以看到分裂之前,你承诺。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Numpad shortcuts: + moves from bearing to length and adds the line from length or radius. / jumps from length to radius.": {
   "t": "Numpad快捷键:+从轴向长度移动,并从长度或半径添加线条. /从长度跳到半径.",
   "src": "libretranslate",
@@ -14777,14 +15311,50 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Off by default, so georeferenced map-only images and KMZ files are captured north-up. On, a rotated map keeps its rotation: the world file carries the rotation terms, a GeoTIFF uses a ModelTransformationTag, and the KMZ drapes as a rotated quad.": {
+  "t": "默认关闭, 因此仅地理参考的地图图像和KMZ文件会被捕获到北上. 上,旋转的映射图保持其旋转:世界文件带有旋转术语,GeoTIFF使用模型变形塔,KMZ窗帘作为旋转的四角.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Off by default. Each export asks every visible feature layer how many features fall inside the printed area, and leaves layers with none off the legend. A layer that cannot be asked (tiles, imagery) or does not answer in time is always kept. Map series judge against the whole series area.": {
+  "t": "默认关闭。 每个导出都询问每个可见的特征层有多少个特征落在打印区域内,并留下无图例的层. 不能被询问的层(瓷片,图像)或不能及时回答的层总是被保存. 地图系列裁判与整个系列区域对战.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Off by default. Feature layers drawn with simple symbols (solid fills, lines and dashes, circle, square, diamond, triangle, cross and x markers; single symbol, unique values or class breaks) print as true vector shapes, crisp at any zoom and each in its own PDF layer. Hatched fills, custom path markers and picture markers come along too, and so do labels (field labels with halos, placed and deconflicted like the map does, including label classes with a where clause). Layers with clustering, effects, visual variables, Arcade renderers or Arcade labels, rotated picture markers or other symbols stay as pixels, and each export lists them with the reason. Works on rotated maps and on every map series and feature page sheet. Up to 20,000 features per layer.": {
+  "t": "默认关闭。 用简单的符号绘制的地物层(固体填充、线条和破折号、圆形、方形、菱形、三角形、十字和x标记;单一符号、独特值或类断)作为真正的矢量形状打印,在任何缩放时均清晰清晰,并在自己的PDF图层中逐一打印。 自定义的填充,自定义路径标记和图片标记也随之而来,标签也随之而来(有光环的字段标签,像地图一样放置并消除冲突,包括带有条款的标签类). 具有集群,效果,视觉变量,Arcade渲染器或Arcade标签的图层,旋转的图片标记或其他符号作为像素保留,每个导出时都会按原因列出. 致力于旋转地图以及每个地图系列和特征页的工作. 每层多达2万个特征.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Off by default. On, each export logs to the browser console (F12) how many selected features were found and how many reached the page. Use it when a highlight does not print: the selection lives in the map view rather than in this widget, so the log is the only way to see what was found.": {
+  "t": "默认关闭。 上面,每个向浏览器控制台(F12)导出日志 找到多少选定功能,有多少到达页面. 当一个突触不打印时使用它:选择位置存在于地图视图中而不是此部件中,所以日志是查看所找到内容的唯一方法.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Off: every run adds another layer, numbered (2), (3) and so on.": {
   "t": "关闭:每次运行都会增加另一层,编号为(2),(3)等.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Offer \"Map only\" export": {
+  "t": "仅提供“ 映射” 导出",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Offer {name} on the Coordinates tab": {
   "t": "提议 {name} 坐标标签",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer output coordinate system (WKID)": {
+  "t": "提供输出坐标系统( WKID)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14842,6 +15412,24 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "On by default. A layer whose visible scale range excludes the printed scale is left off the legend, so the legend never lists a symbol the map does not show.": {
+  "t": "在默认情况下。 一个其可见尺度范围排除印刷尺度的层被从传说中留下,因此传说中从未列出地图没有显示的符号.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On by default. Every PDF map frame carries its coordinate system and corner coordinates, so Avenza Maps shows your location on the page, Acrobat reads coordinates with its Geospatial Location tool, and ArcGIS Pro and QGIS open the PDF in place. Map series georeference every sheet and the index page.": {
+  "t": "在默认情况下。 每个PDF地图框架都带有它的坐标系统和角坐标,因此Avenza地图在页面上显示你的位置,Acrobat用它的地理空间定位工具读取坐标,ArcGIS Pro和QGIS打开PDF到位. 地图系列 地理参考 每张工作表和索引页。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On by default. The map, grid, selection, overview, legend, north arrow and scale bar, text, graphics and QR code each go in their own layer, so they can be switched on and off in Acrobat, Avenza Maps, Illustrator or Inkscape. Map series add a Map series layer for the page outlines and numbers.": {
+  "t": "在默认情况下。 地图,网格,选择,概览,传奇,北箭头和尺度栏,文字,图形和QR代码各在自己的层中进行,这样可以在Acrobat,Avenza Maps,Illustrator或Inkscape中打开和关闭. 地图系列为页面大纲和数字增加了一个地图系列层.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "On the {address} tab.": {
   "t": "打开 {address} 选项卡。",
@@ -14983,6 +15571,12 @@
  },
  "One page per feature": {
   "t": "每个功能一页",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "One PDF comes out with every page in it. The legend prints on every sheet, the same way ArcGIS Pro does it.": {
+  "t": "一个PDF随里面的每一页都出来. 每张纸上都有传奇的指纹 和ArcGIS Pro一样",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15245,6 +15839,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Output coordinate system (WKID): prints in a different coordinate system than the map uses. Leave it at 0 unless someone has asked you for a particular one.": {
+  "t": "输出坐标系统(WKID):与地图使用的不同坐标系统中的打印. 在0点离开,除非有人 问你一个特定的。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Output size (px)": {
   "t": "输出大小 (px)",
   "src": "libretranslate",
@@ -15293,8 +15893,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "overview inset": {
+  "t": "概览集",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Overview inset": {
   "t": "概览集",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Overview inset: adds the small locator map in the corner, with a red box showing where the main map sits.": {
+  "t": "概览 inset:在转角处添加小定位图,并用红框显示主地图坐落的位置.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Overview map on by default": {
+  "t": "默认地图概览",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15347,6 +15965,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "page font": {
+  "t": "页面字体",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Page name": {
   "t": "页面名称",
   "src": "libretranslate",
@@ -15377,6 +16001,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Page preview shows gray areas: part of the print area is off the screen, so the preview has nothing to show there. Pan or zoom out to see it; the exported file is not affected.": {
+  "t": "页面预览显示灰色区域:部分打印区域已关闭屏幕,因此预览没有显示在那里. Pan 或缩放以查看; 导出的文件不受影响 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Page Size": {
   "t": "页面大小",
   "src": "libretranslate",
@@ -15403,6 +16033,12 @@
  },
  "Pagination complete. Total features collected: {count}": {
   "t": "帕吉纳完成。 收集的特征总数: {count}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Pan and zoom the map to what you want on the page. What you see is what prints.": {
+  "t": "将地图放大到页面上想要的。 你看到的是指纹",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15473,6 +16109,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "PDF and SVG files come with layers. In Acrobat or Avenza Maps open the Layers panel to hide the grid, the selection outline, the legend or the text; in Illustrator or Inkscape each part is its own layer.": {
+  "t": "PDF和SVG文件带有层. 在Acrobat或Avenza Maps中,打开图层面板来隐藏网格,选择大纲,传说或文字;在Illustrator或Inkscape中,每个部分都是自己的图层.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "PDF export options": {
   "t": "PDF 导出选项",
   "src": "libretranslate",
@@ -15493,6 +16135,12 @@
  },
  "PDF opens a small window first so you can choose what goes on the page.": {
   "t": "PDF首先打开一个小窗口,以便您可以选择页面上的内容.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "PDF: best for printing on paper and for sending to someone. Text and lines stay sharp at any zoom.": {
+  "t": "PDF:最好在纸上打印,并发送给某人. 文字和线条在任何缩放时都保持锋利.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15601,6 +16249,12 @@
  },
  "Pick a draw tool (Point, Line, Polygon, Rectangle, or Circle), then draw on the map. Everything inside is selected.": {
   "t": "选择绘图工具(Point、Line、Polygon、矩形或圆形),然后在地图上绘制。 里面的一切都选好了",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Pick a Layout, then type a Map title. The title is what prints at the top of the page.": {
+  "t": "选择布局,然后键入地图标题。 标题是页面顶部的指纹。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15853,6 +16507,18 @@
  },
  "Please wait, do not close this window...": {
   "t": "请等一下,不要关闭这个窗口...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "PNG, JPG and GIF instead get two small companion files beside the image. Keep all of them together in the same folder or the placement is lost.": {
+  "t": "PNG,JPG和GIF转而在图像旁获得两个小的配套文件. 把它们都放在同一个文件夹里 否则位置会丢失",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "PNG32, PNG8, JPG or GIF: a picture, for a report, a slide or a web page. PNG32 is the sharpest.": {
+  "t": "PNG32,PNG8,JPG或GIF:用于报告,幻灯片或网页的图片. PNG32最锋利.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16115,6 +16781,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Preserve map extent (fit view): prints everything you can see now, and picks whatever scale that needs. Use this when you must not lose anything off the edges.": {
+  "t": "保存地图范围( fit view):打印您现在可以看到的一切, 并选择需要的大小 。 使用这个,当你不能 失去任何边缘。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Preserve map scale": {
   "t": "保存地图比例",
   "src": "libretranslate",
@@ -16123,6 +16795,12 @@
  },
  "Preserve map scale (current)": {
   "t": "保存地图比例( 当前)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preserve map scale (current): prints at the same scale you are looking at. The page may show a little more or less ground than the screen, because the page is a different shape than your browser window.": {
+  "t": "保存地图比例尺(当前):以你所看到的相同比例打印。 该页面可能比屏幕显示多少一点地面,因为该页面的形状与您的浏览器窗口不同.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16247,6 +16925,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Press Export. The panel dims and a message tells you what it is working on. When it finishes, the file appears under Recent exports at the bottom. Click its name to save it.": {
+  "t": "按“导出”键。 面板和一条信息告诉你它的工作原理。 当它完成时,文件出现在最近的导出下方的底部. 点击它的名字保存它。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Press F on a focused basemap to add or remove it from favorites.": {
   "t": "按 F 在焦点基图上添加或删除它从最爱的.",
   "src": "libretranslate",
@@ -16301,6 +16985,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Preview fill color (hex)": {
+  "t": "预览填充颜色 (hex)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Preview first record": {
   "t": "预览第一个记录",
   "src": "libretranslate",
@@ -16327,6 +17017,18 @@
  },
  "Preview of the printed page": {
   "t": "打印页面的预览",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preview outline color (hex)": {
+  "t": "预览大纲颜色 (hex)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preview outline width (px)": {
+  "t": "预览大纲宽度 (px)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16361,6 +17063,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Print Advanced turns the map on your screen into a finished page: the same layout your ArcGIS Pro template uses, with a title, legend and scale bar, ready to print or send.": {
+  "t": "Print Advance将屏幕上的地图转换成一个完成的页面:您ArcGIS Pro模板使用的相同的布局,带有标题,传说和缩放栏,准备打印或发送.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Print area": {
   "t": "打印区域",
   "src": "libretranslate",
@@ -16373,8 +17081,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Print area, the first card under Advanced options, decides how much ground fits in the map frame. Three choices, under Scale.": {
+  "t": "打印区,Advanced options下的第一张卡片,决定地图框中地面的匹配度. 三个选择,在规模下。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Print as a map series (PDF)": {
   "t": "打印为地图系列 (PDF)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Print selected features by default": {
+  "t": "默认打印选中的特性",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16405,6 +17125,18 @@
  },
  "Print-Ready Labels: spread out the labels so they do not overlap when exported to PDF.": {
   "t": "Print-Ready Labels:将标签分散开来,以便在导出到PDF时不会重叠.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Printing a large area over several pages": {
+  "t": "打印多页的大面积",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Printing what you have selected": {
+  "t": "打印您所选择的",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16555,6 +17287,12 @@
  },
  "Radius measurement enabled. Display the circle radius.": {
   "t": "半径测量启用 。 显示圆形半径 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Raster EPS (Level 2, JPEG-embedded). For vector output use PDF or SVG.": {
+  "t": "Raster EPS (二级, JPEG- 嵌入式). 对于矢量输出使用PDF或SVG.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16873,6 +17611,12 @@
  },
  "Remove from list": {
   "t": "从列表中删除",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Remove from list clears one item and Clear empties the whole list. Neither deletes a file you have already saved.": {
+  "t": "从列表中删除一个项目并清除整个列表的空置 。 既不删除您已经保存的文件 。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17603,6 +18347,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Scale bar style": {
+  "t": "缩放条样式",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Scale bar units": {
+  "t": "缩放栏单位",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Scale field": {
   "t": "缩放字段",
   "src": "libretranslate",
@@ -17741,6 +18497,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Search the guide (try \"legend\" or \"blank\")": {
+  "t": "搜索指南( 尝试“ legend ” 或“ 空白 ” )",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Search the guide (try \"load\" or \"fields\")": {
   "t": "搜索指南( 尝试“ 负荷 ” 或“ 字段 ” )",
   "src": "libretranslate",
@@ -17770,6 +18532,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Second units (dual)": {
+  "t": "第二单元(双)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "See how your label format will appear": {
   "t": "查看您的标签格式将如何显示",
@@ -18253,6 +19021,12 @@
  },
  "Selected features are outlined in cyan on the print. Turn this off to print the map without them.": {
   "t": "印刷版的青色部分概述了某些特征。 关掉它, 打印地图。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Selected features: turn this on and anything you have selected is outlined on the print, in cyan with a thin white edge so it reads over dark aerial photography.": {
+  "t": "选择的特性: 打开它,你所选择的任何东西, 都写在印刷品上, 以白色边缘的青色显示, 从而读取黑暗的空中摄影。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19619,6 +20393,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Still stuck? Contact the GIS Division and mention the Print Advanced widget and this app.": {
+  "t": "还卡住了? 联系GIS分部,并提及打印高级部件和这个应用程序。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Still stuck? Contact your GIS team and mention the Draw Advanced widget and this app.": {
   "t": "还卡住了? 联系您的 GIS 团队并提及 Draw 高级部件和此应用程序 。",
   "src": "libretranslate",
@@ -19753,6 +20533,12 @@
  },
  "Supported label formats": {
   "t": "支持的标签格式",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "SVG or SVGZ: for editing the page afterwards in Illustrator or Inkscape. SVGZ is the same file, just smaller.": {
+  "t": "SVG或SVGZ:之后在Illustrator或Inkscape中编辑页面. SVGZ是同一个文件,只是较小.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20369,6 +21155,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The export is taking a long time: a high Map DPI or a large page takes longer. Keep the tab open and give it a few minutes. The message in the panel tells you what it is working on.": {
+  "t": "导出需要很长时间:高映射DPI或大页面需要更长的时间. 保持标签打开,给它几分钟。 面板上的信息 告诉你它的工作。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The expression choice lets you write a short formula, such as helpers.upper($.NAME). Write $.FIELD to read a value from your data.": {
   "t": "表达式选择允许您写一个简短的公式, 如 helders.upper($.NAME) 。 写入 $.FIELD 以读取您的数据中的值 。",
   "src": "libretranslate",
@@ -20389,6 +21181,12 @@
  },
  "The feature you are reading is outlined on the map, so you can see which one it is.": {
   "t": "您正在阅读的功能在地图上被勾画出来,所以您可以看到它是什么.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The file is a PDF unless you change it: open Advanced options and pick a Format under Output. PDF is the safe choice for anything you plan to print on paper.": {
+  "t": "文件是PDF,除非您更改它:打开高级选项并在输出下选择一个格式。 PDF是任何你计划打印在纸上的东西的安全选择.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20501,11 +21299,23 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The list is only for this visit. It empties when you close or reload the app, so save anything you want to keep.": {
+  "t": "名单仅供这次访问使用。 关闭或重新装入应用程序时会空置,所以可以保存任何你想保存的东西.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The Load step checks the work, then writes the records into the layer.": {
   "t": "装入步骤检查工作,然后将记录写入层中.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The map area is blank or grey: the map had not finished drawing. Wait until the map is still and every layer has appeared, then export again.": {
+  "t": "地图区域为空白或灰色:地图没有完成绘图. 等待到地图静态和每层都出现,然后再次导出.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The map does not move or change scale by itself. Use the zoom action in the details when you want the map to go there.": {
   "t": "地图本身不会移动或改变比例。 在细节中使用缩放动作, 当您想要地图到那里时 。",
@@ -20591,6 +21401,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The outline is drawn rather than shaded, so labels and dimensions inside the parcel stay readable on paper.": {
+  "t": "提纲是绘制而非遮蔽的,因此包裹内部的标签和维度可以留在纸上读取.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The parcel polygon is built from the Boundary Lines only, then saved with the name, description, and stated area. If no line is marked Boundary Line, no polygon is created.": {
   "t": "包裹多边形仅从边界线构造,然后用名称、描述和说明区域保存。 如果没有标定边界线,则不创建多边形.",
   "src": "libretranslate",
@@ -20647,6 +21463,12 @@
  },
  "The print service did not return a file.": {
   "t": "打印服务没有返回文件 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The print service failed: the server refused the job or timed out. Try again, and if it keeps failing switch the Format to PDF and export a smaller page.": {
+  "t": "打印服务失败: 服务器拒绝任务或超时 。 再试一次,如果它一直无法将格式切换到 PDF 并导出一个较小的页面 。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20897,6 +21719,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "These options are for a Map only export, so the picture is the map edge to edge with nothing else on it.": {
+  "t": "这些选项仅用于映射导出, 因此图片是映射边缘的边缘, 上面没有其它的 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "These settings are for advanced users only": {
   "t": "这些设置仅供高级用户使用",
   "src": "libretranslate",
@@ -21011,6 +21839,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "This runs in your browser, not ArcGIS Pro, so big series are limited: a yellow note warns about a large job with a rough time and file size, and a red note stops a series over the page limit set for this app.": {
+  "t": "这在您的浏览器中运行,而不是ArcGIS Pro,所以大系列是有限的:一个黄色的注释警告一个时间和文件大小粗糙的大型工作,一个红色的注释在为这个应用程序设定的页数限制上停止了一个序列.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "This scale and the map position set the print area that Inside the print area uses to pick features. Each page still sets its own scale.": {
   "t": "这个比例尺和地图位置设置了打印区域内部用来选择特征的打印区域. 每一页仍然设定自己的比例尺.",
   "src": "libretranslate",
@@ -21121,6 +21955,12 @@
  },
  "Ticks and crosses": {
   "t": "滴答和交叉",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "TIFF: a large picture, and the right choice when you want the map to open in the correct place in ArcGIS Pro.": {
+  "t": "TIFF:一个大图片,当您希望地图在ArcGIS Pro中正确位置打开时,正确的选择.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21671,6 +22511,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Turn on Page preview, right under Map title, to see the whole printed page while you pan and zoom. It is a quick sketch drawn from the screen: gray areas are outside the screen, and the overview map shows as a box. The export is always full quality.": {
+  "t": "打开 Page 预览, 在 Map 标题下右侧, 在打印和缩放时查看整个打印页面 。 它是一个从屏幕中绘制的快速的草图:灰色区域在屏幕外,概览地图显示为一个框. 出口始终是完全质量的.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Turn on parent groups when a layer is checked on": {
   "t": "检查层时打开父组",
   "src": "libretranslate",
@@ -21679,6 +22525,12 @@
  },
  "Turn on Print-Ready Labels in {displayOptions} before a PDF export to spread the labels out so they do not overlap.": {
   "t": "打开打印准备标签 {displayOptions} 在PDF导出之前将标签向外扩展,这样它们就不会重叠。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Turn on Show print area and a rectangle appears on the map showing exactly what will print. Watch it while you zoom.": {
+  "t": "打开 Show 打印区域, 并在地图上显示一个矩形, 显示将打印的确切内容 。 注意看,同时放大。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21862,6 +22714,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Under Advanced options, each card opens and closes from its heading and remembers your choice; a closed card still shows a short summary of what is set inside it. The On the map card holds the switches for the {parts}; Page text holds Author, Copyright and the QR code; Style holds the font, north arrow and scale bar; Output holds the format, DPI, coordinate system, map-only export and file name. Turning a switch off leaves it off this page only; it does not change the map, and it does not change anything for anyone else.": {
+  "t": "在Advanced 选项下,每张卡片从标题打开并关闭,并记住你的选择;闭卡片仍然显示其内部设置的简短摘要. 地图卡上有开关 {parts}; 页面文本持有作者,版权和QR代码; 样式持有字体,北箭头和缩放栏; 输出持有格式,DPI,坐标系统,仅地图导出和文件名称. 关闭一个关机只让它离开这个页面;它不会改变地图,也不会为其他人改变任何东西。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Under Advanced options, turn on Print as a map series (PDF), then set Rows and Columns. The estimate underneath tells you how many pages you will get.": {
+  "t": "在高级选项下,打开打印作为地图系列 (PDF),然后设置行和列. 下面的估算显示你会得到多少页.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Under the title is a list. Each line has a label on the left and the value for that feature on the right.": {
   "t": "题下为列表. 每行左侧有标签,右侧有该特征的值.",
@@ -22475,6 +23339,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Vector feature layers in PDF and SVG (experimental)": {
+  "t": "PDF和SVG中的矢量特征层(实验)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Vector page furniture; opens in Illustrator/Inkscape. Covers the AIX use case.": {
+  "t": "矢量页面家具;在Illustrator/Inkscape中打开. 覆盖AIX使用案例.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Verify your settings work with sample data": {
   "t": "用样本数据验证您的设置工作",
   "src": "libretranslate",
@@ -22703,6 +23579,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "What goes on the page": {
+  "t": "页面上的内容",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "What shows on the map": {
   "t": "地图上显示的内容",
   "src": "libretranslate",
@@ -22859,6 +23741,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Which file type to pick": {
+  "t": "要选择的文件类型",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Which polygon attributes users can enter at runtime: the fixed name/description/stated-area inputs, the fields from the layer popup, or a custom list": {
   "t": "哪些多边形属性用户可以在运行时输入:固定名称/描述/状态区域输入,从层弹出字段,或自定义列表",
   "src": "libretranslate",
@@ -22867,6 +23755,12 @@
  },
  "Which tab is active when the widget first opens.": {
   "t": "当部件第一次打开时, 哪个标签是活动的 。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "While a series exports, the bar below Export shows Page 3 of 12 (with the feature name for one page per feature), one segment per page plus the index page and saving, how many steps are done and about how long is left. Keep this tab open until the file appears, or press Cancel to stop after the current page.": {
+  "t": "虽然是系列导出,但Export下面的栏目显示的是第3页的12(每个功能有1页的特征名称),每页有一段加上索引页和保存,做了多少步骤,还剩下多长时间. 在文件出现之前继续打开此标签, 或按 Cancel 在当前页面后停止 。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23026,6 +23920,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Write export diagnostics to the console": {
+  "t": "将导出诊断写到控制台",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Write null": {
   "t": "写入无效",

@@ -1019,6 +1019,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "4,327,000 m (with units)": {
+  "t": "4.327.000 m (με μονάδες)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "4. Export": {
   "t": "4. Εξαγωγή",
   "src": "libretranslate",
@@ -1085,6 +1091,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A georeferenced export is always straight north up, even if your map is turned, because a turned picture would not line up with the ground.": {
+  "t": "Μια γεωαναφερόμενη εξαγωγή είναι πάντα ευθεία βόρεια επάνω, ακόμα και αν ο χάρτης σας είναι γυρισμένος, επειδή μια γυρισμένη εικόνα δεν θα ευθυγραμμιστεί με το έδαφος.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A grid over the map view": {
   "t": "Ένα πλέγμα πάνω από την προβολή χάρτη",
   "src": "libretranslate",
@@ -1097,6 +1109,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A highlight belongs to the map on your screen, not to the map layers, so the widget draws your selected features onto the page for you.": {
+  "t": "Ένα highlight ανήκει στο χάρτη στην οθόνη σας, όχι στα στρώματα χάρτη, έτσι ώστε το widget σχεδιάζει τις επιλεγμένες λειτουργίες σας στη σελίδα για σας.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A layer inside a group shows only when the group is on too. If a ticked layer is missing from the map, check its group.": {
   "t": "Ένα στρώμα μέσα σε μια ομάδα δείχνει μόνο όταν η ομάδα είναι σε πάρα πολύ. Αν λείπει ένα επιλεγμένο στρώμα από το χάρτη, ελέγξτε την ομάδα του.",
   "src": "libretranslate",
@@ -1105,6 +1123,12 @@
  },
  "A layer is missing: it may be outside the current map scale. Zoom in or out, and check the note beneath its name.": {
   "t": "Λείπει ένα στρώμα: μπορεί να είναι έξω από την τρέχουσα κλίμακα χάρτη. Μεγέθυνε ή βγες, και έλεγξε το σημείωμα κάτω από το όνομά του.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer is on the map but not in the legend: the layer does not draw at the printed scale, or your app leaves out layers with nothing inside the print area, so it is left out on purpose. Check the layer list in the map, or print at a scale and area where it draws.": {
+  "t": "Ένα στρώμα βρίσκεται στο χάρτη αλλά όχι στο μύθο: το στρώμα δεν σχεδιάζει στην τυπωμένη κλίμακα, ή η εφαρμογή σας αφήνει έξω στρώματα με τίποτα μέσα στην περιοχή εκτύπωσης, έτσι ώστε να μείνει έξω επίτηδες. Ελέγξτε τη λίστα στρώματος στο χάρτη, ή εκτυπώστε σε μια κλίμακα και περιοχή όπου σχεδιάζει.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1129,6 +1153,12 @@
  },
  "A layer name is grey and nothing shows on the map: the layer only draws between certain zoom levels. Zoom in, or out, until the name turns dark.": {
   "t": "Ένα όνομα στρώμα είναι γκρι και τίποτα δεν δείχνει στο χάρτη: το στρώμα αντλεί μόνο μεταξύ ορισμένων επιπέδων ζουμ. Ζουμ, ή έξω, μέχρι το όνομα να σκοτεινιάσει.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer printed as a picture instead of sharp lines: its symbols, labels or effects are ones the vector output cannot copy exactly, so it kept the picture on purpose. The note under the finished file names each layer and the reason.": {
+  "t": "Ένα στρώμα που τυπώνεται ως εικόνα αντί για αιχμηρές γραμμές: τα σύμβολα, οι ετικέτες ή τα εφέ του είναι αυτά που η έξοδος του διανύσματος δεν μπορεί να αντιγράψει ακριβώς, οπότε κράτησε την εικόνα επίτηδες. Η σημείωση κάτω από το τελικό αρχείο ονόματα κάθε στρώμα και το λόγο.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1168,6 +1198,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "A map series cuts the area you are looking at into a grid of pages, all at one scale, and adds an index page at the front.": {
+  "t": "Μια σειρά χαρτών κόβει την περιοχή που ψάχνετε σε ένα πλέγμα σελίδων, όλα σε μια κλίμακα, και προσθέτει μια σελίδα ευρετηρίου στο μπροστινό μέρος.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A map series is very slow: every page is captured one at a time, so twelve pages take roughly twelve times as long as one. Keep the tab open, or use fewer, larger pages.": {
+  "t": "Μια σειρά χαρτών είναι πολύ αργή: κάθε σελίδα συλλαμβάνεται ένα κάθε φορά, έτσι δώδεκα σελίδες παίρνουν περίπου δώδεκα φορές όσο μία. Κρατήστε την καρτέλα ανοιχτή ή χρησιμοποιήστε λιγότερες, μεγαλύτερες σελίδες.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "A map widget is required for this widget to function": {
   "t": "Ένα γραφικό συστατικό χάρτη απαιτείται για αυτό το γραφικό συστατικό για να λειτουργήσει",
@@ -1223,6 +1265,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A selected feature is missing from the print: Selected features is switched off, or the selection was cleared before you pressed Export. Turn the switch on, reselect, then export.": {
+  "t": "Λείπει ένα επιλεγμένο χαρακτηριστικό από την εκτύπωση: Τα επιλεγμένα χαρακτηριστικά απενεργοποιούνται ή η επιλογή εκκαθαριστεί πριν πατήσετε την εξαγωγή. Ενεργοποιήστε το διακόπτη, επανεκλέξτε, στη συνέχεια, εξαγωγή.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A selection highlight belongs to the map on screen, not to the map layers, so the widget draws the selected features onto the page itself, as a cyan outline with a thin white casing so it reads over aerial photography. Selections made in the Select, Table or Query widgets and shapes an app has drawn on the map are all picked up. This switch sets the starting position only; users can still turn it on or off per export.": {
+  "t": "Μια επισήμανση επιλογής ανήκει στο χάρτη στην οθόνη, όχι στα στρώματα χάρτη, έτσι ώστε το γραφικό συστατικό σχεδιάζει τα επιλεγμένα χαρακτηριστικά πάνω στην ίδια τη σελίδα, ως ένα κυανό περίγραμμα με ένα λεπτό λευκό περίβλημα, έτσι ώστε να διαβάζει πάνω από εναέρια φωτογραφία. Οι επιλογές που γίνονται στα widgets Select, Table or Query και τα σχήματα μιας εφαρμογής που έχει σχεδιαστεί στο χάρτη είναι όλες συλλεγμένες. Αυτός ο διακόπτης θέτει μόνο τη θέση εκκίνησης· οι χρήστες μπορούν ακόμα να την ενεργοποιήσουν ή να την απενεργοποιήσουν ανά εξαγωγή.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A side with no selected layers shows the basemap and any shared map layers. You can use this to compare a layer with the basemap.": {
   "t": "Μια πλευρά χωρίς επιλεγμένα στρώματα δείχνει το χάρτη βάσης και οποιαδήποτε κοινά στρώματα χάρτη. Μπορείτε να το χρησιμοποιήσετε για να συγκρίνετε ένα στρώμα με το χάρτη βάσης.",
   "src": "libretranslate",
@@ -1243,6 +1297,12 @@
  },
  "A to Z": {
   "t": "Α έως Ζ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A turned map stays turned. The coordinate information carries the turn too, so the picture still lines up with the ground in ArcGIS Pro, QGIS and Google Earth.": {
+  "t": "Ένας γυρισμένος χάρτης μένει γυρισμένος. Οι πληροφορίες συντεταγμένων μεταφέρουν τη στροφή πάρα πολύ, έτσι ώστε η εικόνα εξακολουθεί να ευθυγραμμίζεται με το έδαφος στο ArcGIS Pro, QGIS και Google Earth.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1411,6 +1471,12 @@
  },
  "Add a QR code that opens this map": {
   "t": "Προσθήκη ενός κώδικα QR που ανοίγει αυτόν τον χάρτη",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add a QR code that opens this map: prints a small square code. Anyone who scans it with a phone opens the live map in a browser.": {
+  "t": "Προσθήκη ενός κώδικα QR που ανοίγει αυτόν τον χάρτη: εκτυπώνει ένα μικρό τετραγωνικό κώδικα. Όποιος το σκανάρει με ένα τηλέφωνο ανοίγει τον ζωντανό χάρτη σε ένα πρόγραμμα περιήγησης.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1925,8 +1991,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Advanced options cards open by default": {
+  "t": "Προκαθορισμένες κάρτες προκαθορισμένων επιλογών",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Aerial and satellite imagery from the OpenStreetMap Editor Layer Index that covers the part of the map you are looking at. It is added under your layers, like a second basemap.": {
   "t": "Αεροφωτογραφίες και δορυφορικές εικόνες από το OpenStreetMap Editor Layer Index που καλύπτει το μέρος του χάρτη που βλέπετε. Προστίθεται κάτω από τα στρώματα σας, σαν ένα δεύτερο χάρτη βάσης.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Aerial photography looks soft: you are zoomed in closer than the photography was flown. It is placed correctly, there is simply no more detail to show. Zoom out a little for a crisper page.": {
+  "t": "Αεροφωτογραφία φαίνεται μαλακό: είστε ζουμ σε πιο κοντά από ό, τι η φωτογραφία πέταξε. Τοποθετείται σωστά, απλά δεν υπάρχουν περισσότερες λεπτομέρειες για να δείξει. Κάνε ζουμ για μια πιο τραγανή σελίδα.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2392,6 +2470,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "App default": {
+  "t": "Προκαθορισμένη εφαρμογή",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "App-specific keeps drawings isolated to this experience; Global shares them across all experiences on this domain.": {
   "t": "Η εφαρμογή-συγκεκριμένη κρατά τα σχέδια απομονωμένα σε αυτή την εμπειρία.",
@@ -2963,6 +3047,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Blank = outline color": {
+  "t": "Κενό = χρώμα περιγράμματος",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Blank = signed-in username": {
+  "t": "Κενό = υπογεγραμμένο όνομα χρήστη",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Blank labels read Longitude and Latitude for a geographic system, X and Y otherwise.": {
   "t": "Κενές ετικέτες διαβάζουν Γεωγραφικό μήκος και Γεωγραφικό πλάτος για ένα γεωγραφικό σύστημα, X και Y διαφορετικά.",
   "src": "libretranslate",
@@ -3485,6 +3581,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Cell ids (A1, B2) in each cell": {
+  "t": "Στοιχεία κυττάρων (A1, B2) σε κάθε κύτταρο",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Center · {srLabel}": {
   "t": "Κέντρο · {srLabel}",
   "src": "libretranslate",
@@ -3881,6 +3983,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Choose TIFF and turn on Georeference (world file) and you get a single file that ArcGIS Pro and QGIS open in the correct place with nothing else to keep track of. This is the one to use.": {
+  "t": "Επιλέξτε το TIFF και ενεργοποιήστε το Georeference (παγκόσμιο αρχείο) και παίρνετε ένα ενιαίο αρχείο που το ArcGIS Pro και το QGIS ανοίγουν στο σωστό μέρος χωρίς τίποτα άλλο για να παρακολουθείτε. Αυτό είναι που πρέπει να χρησιμοποιήσεις.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Choose vertical alignment for text. Options are baseline, top, middle, or bottom. Currently set to {verticalAlignment}.": {
   "t": "Επιλέξτε κατακόρυφη ευθυγράμμιση για το κείμενο. Οι επιλογές είναι η αρχή, η κορυφή, η μέση ή η βάση. Αυτή τη στιγμή έχει οριστεί να {verticalAlignment}.",
   "src": "libretranslate",
@@ -3931,6 +4039,12 @@
  },
  "Choosing layers": {
   "t": "Επιλογή στρωμάτων",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choosing what lands on the page": {
+  "t": "Επιλέγοντας τι προσγειώνεται στη σελίδα",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5507,6 +5621,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Corner coordinates": {
+  "t": "Γωνιακές συντεταγμένες",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Could not copy the link": {
   "t": "Αδυναμία αντιγραφής του δεσμού",
   "src": "libretranslate",
@@ -5939,6 +6059,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Decimal degrees (108.51°W)": {
+  "t": "Δεκαδικές μοίρες (108.51°W)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Decimal Degrees (DD)": {
   "t": "Δεκαδικές μοίρες (DD)",
   "src": "libretranslate",
@@ -5947,6 +6073,12 @@
  },
  "Decimal degrees: decimal places": {
   "t": "Δεκαδικές μοίρες: δεκαδικά ψηφία",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Decimal minutes (108°30.5'W)": {
+  "t": "Δεκαδικά λεπτά (108°30.5'W)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6011,6 +6143,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default author": {
+  "t": "Προκαθορισμένος συγγραφέας",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default basemap": {
   "t": "Προκαθορισμένος χάρτης βάσης",
   "src": "libretranslate",
@@ -6053,6 +6191,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default copyright": {
+  "t": "Προκαθορισμένα πνευματικά δικαιώματα",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default custom buffer color.": {
   "t": "Προκαθορισμένο προσαρμοσμένο χρώμα ενδιάμεσης μνήμης.",
   "src": "libretranslate",
@@ -6079,6 +6223,18 @@
  },
  "Default Field Mappings": {
   "t": "Προκαθορισμένες αντιστοιχίσεις πεδίου",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default file name": {
+  "t": "Προκαθορισμένο όνομα αρχείου",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default format": {
+  "t": "Προκαθορισμένη μορφή",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6113,14 +6269,56 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default map DPI": {
+  "t": "Προκαθορισμένος χάρτης DPI",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default map title": {
+  "t": "Προκαθορισμένος τίτλος χάρτη",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default Name Field": {
   "t": "Προκαθορισμένο πεδίο ονόματος",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default north arrow": {
+  "t": "Προκαθορισμένο βόρειο βέλος",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default Opacity (%)": {
   "t": "Προκαθορισμένη Αδιαφάνεια (%)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default output WKID (0 = map's own)": {
+  "t": "Προκαθορισμένη έξοδος WKID (0 = ίδιος χάρτης)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default scale bar style": {
+  "t": "Προκαθορισμένο στυλ γραμμής κλίμακας",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default scale bar units": {
+  "t": "Προκαθορισμένες μονάδες γραμμής κλίμακας",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default second units (dual)": {
+  "t": "Προκαθορισμένες δεύτερες μονάδες (διπλή)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6671,8 +6869,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Double styles print a dual scale bar (two measurements sharing the zero point). Layout default picks the natural complement (miles-feet, meters-kilometers); choose a unit to override.": {
+  "t": "Διπλό στυλ εκτυπώνουν μια γραμμή διπλής κλίμακας (δύο μετρήσεις μοιράζονται το μηδενικό σημείο). Προκαθορισμένη διάταξη επιλέγει το φυσικό συμπλήρωμα (miles-feet, μέτρα-χιλιομέτρα)· επιλέξτε μια μονάδα για να παρακάμψετε.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Double-click always finishes a line or area, and Esc always cancels one.": {
   "t": "Διπλό κλικ πάντα τελειώνει μια γραμμή ή περιοχή, και Esc πάντα ακυρώνει ένα.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Double-click the .kmz in Google Earth Pro, or drag it into Google Earth on the web. The map is saved as a PNG inside it whatever Format you chose above.": {
+  "t": "Κάντε διπλό κλικ στο .kmz στο Google Earth Pro, ή σύρετε το στο Google Earth στο διαδίκτυο. Ο χάρτης αποθηκεύεται ως PNG μέσα σε αυτό ό, τι Μορφή επιλέξατε παραπάνω.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7319,6 +7529,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Each app sets a page limit (50 map pages unless changed in Settings; the index and legend pages do not count). A grid over it switches Export off; use fewer Rows or Columns, or zoom out and use fewer, larger pages.": {
+  "t": "Κάθε εφαρμογή θέτει ένα όριο σελίδας (50 σελίδες χάρτη εκτός αν αλλάξει στις Settings; το ευρετήριο και οι σελίδες θρύλου δεν μετρούν). Ένα πλέγμα πάνω από αυτό διακόπτει την εξαγωγή; χρησιμοποιήστε λιγότερες γραμμές ή στήλες, ή ζουμ έξω και να χρησιμοποιήσετε λιγότερες, μεγαλύτερες σελίδες.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Each button draws one kind of measurement. A blue bar at the top shows which tool is active.": {
   "t": "Κάθε κουμπί χρησιμοποιεί ένα είδος μέτρησης. Μια μπλε γραμμή στην κορυφή δείχνει ποιο εργαλείο είναι ενεργό.",
   "src": "libretranslate",
@@ -7333,6 +7549,12 @@
  },
  "Each button opens the pinned spot in another website: {links}.": {
   "t": "Κάθε κουμπί ανοίγει το καρφωμένο σημείο σε άλλη ιστοσελίδα: {links}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Each card can be opened and closed by the user, and their choice is remembered in their browser. These are the starting positions. Map series opens by itself whenever a series is switched on.": {
+  "t": "Κάθε κάρτα μπορεί να ανοιχτεί και να κλείσει από το χρήστη, και η επιλογή τους είναι θυμόμαστε στο πρόγραμμα περιήγησης τους. Αυτές είναι οι θέσεις εκκίνησης. Η σειρά χαρτών ανοίγει από μόνη της όποτε μια σειρά είναι ενεργοποιημένη.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8141,6 +8363,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Every PDF is also a GeoPDF. Open it in Avenza Maps on a phone to see your location as a blue dot on the map, read coordinates in Acrobat with the Geospatial Location tool, or add it to ArcGIS Pro or QGIS and it lands in the right place.": {
+  "t": "Κάθε PDF είναι επίσης GeoPDF. Ανοίξτε το σε Avenza Χάρτες σε ένα τηλέφωνο για να δείτε τη θέση σας ως μπλε τελεία στο χάρτη, διαβάστε συντεταγμένες σε Acrobat με το εργαλείο Geospatial Τοποθεσία, ή προσθέστε το στο ArcGIS Pro ή QGIS και προσγειώνεται στο σωστό μέρος.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Every shape you draw is listed on the My Drawings tab.": {
   "t": "Κάθε σχήμα που ζωγραφίζετε είναι καταχωρημένο στην καρτέλα \\\"Τα Σχέδια Μου\\\".",
   "src": "libretranslate",
@@ -8393,6 +8621,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Export as many times as you like. Change one thing, export again, and compare the two files.": {
+  "t": "Εξαγωγή όσες φορές θέλεις. Αλλάξτε ένα πράγμα, εξαγάγετε και πάλι, και συγκρίνετε τα δύο αρχεία.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Export as Shapefile": {
   "t": "Εξαγωγή ως αρχείο σχήματος",
   "src": "libretranslate",
@@ -8423,6 +8657,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Export defaults": {
+  "t": "Εξαγωγή προκαθορισμένων τιμών",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Export drawings to file": {
   "t": "Εξαγωγή σχεδίων σε αρχείο",
   "src": "libretranslate",
@@ -8431,6 +8671,12 @@
  },
  "Export formats for {name}": {
   "t": "Μορφότυποι εξαγωγής {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export is greyed out with a red message under Map series: the series is over this app's page limit. Use fewer rows or columns, or for one page per feature choose Inside the print area, zoom in, or filter the layer.": {
+  "t": "Η εξαγωγή γίνεται με ένα κόκκινο μήνυμα στο πλαίσιο της σειράς Map: η σειρά είναι πάνω από το όριο σελίδας αυτής της εφαρμογής. Χρησιμοποιήστε λιγότερες σειρές ή στήλες, ή για μια σελίδα ανά χαρακτηριστικό επιλέξτε Μέσα στην περιοχή εκτύπωσης, ζουμ ή φιλτράρετε το στρώμα.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8557,6 +8803,12 @@
  },
  "Exporting": {
   "t": "Εξαγωγή",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Exporting…": {
+  "t": "Εξαγωγή...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9065,6 +9317,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Finished exports are listed under Recent exports at the bottom of the panel, newest first. Click the file name to save it to your computer.": {
+  "t": "Τελειωμένες εξαγωγές παρατίθενται στο πλαίσιο Πρόσφατες εξαγωγές στο κάτω μέρος του πίνακα, νεότερος πρώτα. Κάντε κλικ στο όνομα αρχείου για να το αποθηκεύσετε στον υπολογιστή σας.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Finishing up…": {
   "t": "Τελειώνοντας...",
   "src": "libretranslate",
@@ -9079,6 +9337,12 @@
  },
  "Fixed scale": {
   "t": "Σταθερή κλίμακα",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fixed scale: prints at the exact scale you type, for example 24000 for 1:24,000. Use this when the page has to match another map.": {
+  "t": "Σταθερή κλίμακα: εκτυπώσεις στην ακριβή κλίμακα που πληκτρολογείτε, για παράδειγμα 24000 για 1:24.000. Χρησιμοποιήστε αυτό όταν η σελίδα πρέπει να ταιριάζει με έναν άλλο χάρτη.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9353,6 +9617,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Font: changes the typeface for all the text on the page. App default uses the layout font.": {
+  "t": "Γραμματοσειρά: αλλάζει το πρόσωπο τύπου για όλο το κείμενο της σελίδας. Η προεπιλεγμένη εφαρμογή χρησιμοποιεί τη γραμματοσειρά διάταξης.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "for {count} selected buffer": {
   "t": "για {count} επιλεγμένο ρυθμιστικό διάλυμα",
   "src": "libretranslate",
@@ -9395,6 +9665,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "For one page per parcel, park or project, set Pages from to One page per feature and pick the layer. Features chooses which ones: in the current map view, inside the print area rectangle, or the whole layer, even beyond the map. Any filter on the layer (from Map Layers, a Filter widget or the map itself) is applied too. Only layers in the map's layer list that are turned on are listed (whichever layer list widget you use), including ones inside groups, nested groups and map image services, shown with their group path, like Utilities / Water / Mains. Each page centers on its feature, outlines it in orange and prints at the best-fit scale, or the fixed scale you set. Text in the layout that uses {field:NAME} shows that feature's value.": {
+  "t": "Για μία σελίδα ανά δέμα, πάρκο ή έργο, σετ Σελίδες από μια σελίδα ανά χαρακτηριστικό και επιλέξτε το στρώμα. Χαρακτηριστικά επιλέγει ποια: στην τρέχουσα προβολή χάρτη, μέσα στο ορθογώνιο περιοχή εκτύπωσης, ή ολόκληρο το στρώμα, ακόμα και πέρα από το χάρτη. Κάθε φίλτρο στο στρώμα (από το Map Layers, ένα γραφικό συστατικό Φίλτρο ή το ίδιο το χάρτη) εφαρμόζεται επίσης. Μόνο τα στρώματα στη λίστα στρωμάτων του χάρτη που είναι ενεργοποιημένα είναι καταχωρημένα (όποια layer list widget χρησιμοποιείτε), συμπεριλαμβανομένων αυτών που βρίσκονται μέσα σε ομάδες, φωλισμένες ομάδες και υπηρεσίες εικόνας χάρτη, που εμφανίζονται με την ομαδική διαδρομή τους, όπως Utilities / Water / Mains. Κάθε σελίδα επικεντρώνεται στο χαρακτηριστικό της, το περιγράφει σε πορτοκαλί και εκτυπώνει στην καλύτερη κλίμακα, ή τη σταθερή κλίμακα που έχετε θέσει. Το κείμενο στη διάταξη που χρησιμοποιεί το {field:NAME} δείχνει την τιμή της λειτουργίας.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "For the best experience, use a modern web browser": {
   "t": "Για την καλύτερη εμπειρία, χρησιμοποιήστε ένα σύγχρονο πρόγραμμα περιήγησης ιστού",
   "src": "libretranslate",
@@ -9421,6 +9697,12 @@
  },
  "Format a field as a number, currency, percent, or date, or turn it into a link built from a URL template with {FIELD_NAME} tokens.": {
   "t": "Σχηματίστε ένα πεδίο ως αριθμό, νόμισμα, ποσοστό, ή ημερομηνία, ή να το μετατρέψει σε ένα σύνδεσμο χτισμένο από ένα πρότυπο URL με {FIELD_NAME} Σημάδια.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Format decides the kind of file you get. If you are not sure, use PDF.": {
+  "t": "Η μορφή αποφασίζει το είδος του αρχείου που παίρνετε. Εάν δεν είστε σίγουροι, χρησιμοποιήστε το PDF.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9487,6 +9769,12 @@
  },
  "Freeze the print area over the current ground location so it stays put while you pan or zoom.": {
   "t": "Πάγωσε την περιοχή εκτύπωσης πάνω από την τρέχουσα τοποθεσία του εδάφους ώστε να μείνει τοποθετημένη ενώ εσείς pan ή ζουμ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "From .pagx": {
+  "t": "Από .pagx",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9749,14 +10037,32 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "GeoPDF coordinates in PDF exports": {
+  "t": "Συντεταγμένες GeoPDF σε εξαγωγές PDF",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Georeference (world file)": {
   "t": "Γεωαναφορά (παγκόσμιο αρχείο)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Get the map looking the way you want, pick a Layout, type a Map title, then press Export. Your file appears at the bottom of the panel.": {
+  "t": "Πάρτε το χάρτη κοιτάζοντας τον τρόπο που θέλετε, επιλέξτε μια διάταξη, πληκτρολογήστε έναν τίτλο χάρτη, στη συνέχεια, πατήστε Εξαγωγή. Το αρχείο σας εμφανίζεται στο κάτω μέρος του πίνακα.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Getting the address of a spot": {
   "t": "Λήψη της διεύθυνσης ενός σημείου",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Getting your file": {
+  "t": "Λήψη του αρχείου σας",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9809,6 +10115,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Google Earth (KMZ): gives you one .kmz file with the map draped over the globe in the right place. All four corners are placed separately, so the picture is not stretched.": {
+  "t": "Google Earth (KMZ): σας δίνει ένα αρχείο .kmz με το χάρτη drapped σε όλο τον κόσμο στο σωστό μέρος. Και οι τέσσερις γωνίες τοποθετούνται ξεχωριστά, οπότε η εικόνα δεν είναι τεντωμένη.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Google Maps 3D": {
   "t": "Χάρτες Google 3D",
   "src": "libretranslate",
@@ -9823,6 +10135,12 @@
  },
  "Graticule (lat/long)": {
   "t": "Γρανάζι (μελάς/μήκος)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "grid": {
+  "t": "πλέγμα",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9877,6 +10195,18 @@
  },
  "Grid is enabled. Theme: {gridTheme}. Spacing: {gridSpacingMode}. Rotation: {gridRotation} degrees.": {
   "t": "Το πλέγμα είναι ενεργοποιημένο. Θέμα: {gridTheme}- Απόσταση: {gridSpacingMode}- Περιστροφή: {gridRotation} βαθμούς.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid labels are missing on a turned map: labels that would overlap another label are left off so none print on top of each other. Use a larger interval, fewer label sides, or smaller labels.": {
+  "t": "Λείπουν ετικέτες καννάβου σε έναν γυρισμένο χάρτη: ετικέτες που θα επικαλύπτονταν σε μια άλλη ετικέτα αφήνονται μακριά έτσι ώστε να μην τυπώνονται μεταξύ τους. Χρησιμοποιήστε ένα μεγαλύτερο διάστημα, λιγότερες πλευρές ετικέτας, ή μικρότερες ετικέτες.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid on by default": {
+  "t": "Κάνναβος προεπιλογής",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9949,6 +10279,12 @@
  },
  "Grid size": {
   "t": "Μέγεθος καννάβου",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid size shrinks the whole grid toward the middle, which is a quick way to trim empty edges without changing rows and columns.": {
+  "t": "Το μέγεθος του πλέγματος συρρικνώνει ολόκληρο το πλέγμα προς τη μέση, ο οποίος είναι ένας γρήγορος τρόπος για να κόψετε τις κενές άκρες χωρίς να αλλάξετε σειρές και στήλες.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10031,6 +10367,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Grid style for this export: latitude/longitude graticule, measured grid in map units, or lettered reference grid.": {
+  "t": "Τύπος καννάβου για την εξαγωγή αυτή: graticle γεωγραφικού πλάτους/μακρύτητας, μετρούμενο πλέγμα σε μονάδες χαρτών, ή γραμμένο πλέγμα αναφοράς.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid style panel": {
+  "t": "Πίνακας στυλ καννάβου",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid style: open it under Grid type to change the grid your way. Pick the line color, width, opacity and pattern, or draw only edge ticks and crosses. Set a custom interval, the label color, size, bold and halo, which sides get labels, labels that run along the side edges, and the coordinate or number format. Reference grids can put letters on rows and print cell ids like A1 in every cell. Reset to layout grid puts everything back.": {
+  "t": "Στυλ καννάβου: ανοίξτε το κάτω από τον τύπο καννάβου για να αλλάξετε τον τρόπο σας. Διαλέξτε το χρώμα γραμμής, το πλάτος, τη θολερότητα και το μοτίβο, ή να επιστήσω μόνο άκρη τσιμπούρια και σταυρούς. Ορίστε ένα προσαρμοσμένο διάστημα, το χρώμα της ετικέτας, το μέγεθος, τολμηρό και φωτοστέφανο, οι οποίες πλευρές παίρνουν ετικέτες, ετικέτες που τρέχουν κατά μήκος των πλευρικών άκρων, και τη συντεταγμένη ή τη μορφή αριθμού. Τα πλέγματα αναφοράς μπορούν να τοποθετήσουν γράμματα σε σειρές και να εκτυπώσουν στοιχεία κυττάρων όπως το A1 σε κάθε κελί. Επαναφορά στο πλέγμα διάταξης τοποθετεί τα πάντα πίσω.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Grid theme changed to {newTheme}": {
   "t": "Το θέμα του καννάβου άλλαξε σε {newTheme}",
   "src": "libretranslate",
@@ -10051,6 +10405,12 @@
  },
  "Grid unit changed to {newUnit}": {
   "t": "Μονάδα καννάβου άλλαξε σε {newUnit}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid: adds the grid or graticule the layout was built with. Grid type switches between a latitude and longitude graticule, a measured grid in map units, and a lettered reference grid like A-1. When the layout turns on corner labels, each map corner also shows its exact coordinate.": {
+  "t": "Grid: προσθέτει το πλέγμα ή graticule η διάταξη χτίστηκε με. Ο τύπος καννάβου αλλάζει μεταξύ ενός graticule γεωγραφικού πλάτους και γεωγραφικού μήκους, ενός μετρούμενου πλέγματος σε μονάδες χαρτών και ενός γράμματος πλέγματος αναφοράς όπως το A-1. Όταν η διάταξη ανοίγει τις ετικέτες γωνία, κάθε γωνία χάρτη εμφανίζει επίσης την ακριβή συντεταγμένη του.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10385,6 +10745,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Hide legend layers not drawn at the print scale": {
+  "t": "Απόκρυψη μη σχεδιασμένων στρωμάτων θρύλου στην κλίμακα εκτύπωσης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hide legend layers with nothing in the print area": {
+  "t": "Απόκρυψη στρωμάτων θρύλου με τίποτα στην περιοχή εκτύπωσης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Hide measurements": {
   "t": "Απόκρυψη μετρήσεων",
   "src": "libretranslate",
@@ -10483,6 +10855,12 @@
  },
  "Hover a view in the list and use the trash icon to delete it.": {
   "t": "Κάντε μια προβολή στη λίστα και χρησιμοποιήστε το εικονίδιο απορριμμάτων για να τη διαγράψετε.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hover over any label in this panel for a one-line explanation without opening this guide.": {
+  "t": "Hover πάνω από οποιαδήποτε ετικέτα σε αυτό το πάνελ για μια εξήγηση μιας γραμμής χωρίς να ανοίξει αυτόν τον οδηγό.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10588,6 +10966,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "If the legend is too big to fit beside the map, a note appears offering to move it to additional pages. You can keep it beside the map instead.": {
+  "t": "Αν ο θρύλος είναι πολύ μεγάλος για να χωρέσει δίπλα στο χάρτη, εμφανίζεται ένα σημείωμα που προσφέρεται να το μεταφέρει σε επιπλέον σελίδες. Μπορείς να το κρατήσεις δίπλα στο χάρτη.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "If the misclose ratio (1:n) meets or exceeds this n, points snap closed and the compass rule is applied": {
   "t": "Εάν ο ανακριβής λόγος (1:n) πληροί ή υπερβαίνει αυτό το ν, τα σημεία κλείνουν και εφαρμόζεται ο κανόνας πυξίδας",
@@ -10781,6 +11165,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "In PDF and SVG, feature layers drawn with simple symbols (parcels, lines, points, hatched fills, custom and picture markers) print as true lines and shapes instead of a picture, so they stay sharp at any zoom and the file stays small. Their labels come along as real text, including label classes that only label some features. Layers with Arcade labels or effects still print as a picture; the export note lists which ones and why.": {
+  "t": "Σε PDF και SVG, χαρακτηριστικά στρώματα που έχουν σχεδιαστεί με απλά σύμβολα (διαγράμματα, γραμμές, σημεία, εκκολαπτόμενα πληρώματα, προσαρμοσμένες και δείκτες εικόνας) εκτυπώνουν ως αληθινές γραμμές και σχήματα αντί για μια εικόνα, έτσι ώστε να παραμένουν αιχμηρά σε οποιοδήποτε ζουμ και το αρχείο παραμένει μικρό. Οι ετικέτες τους έρχονται μαζί ως πραγματικό κείμενο, συμπεριλαμβανομένων των τάξεων ετικέτα που επισημαίνουν μόνο μερικά χαρακτηριστικά. Στρώματα με ετικέτες Arcade ή εφέ που εξακολουθούν να εκτυπώνουν ως εικόνα; το δελτίο εξαγωγής κατάλογο ποιές και γιατί.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "In the {batchOptions} menu, choose {showFavoritesOnly} to list only your starred layers and their groups. Choose {showAllLayers} to go back.": {
   "t": "Στο {batchOptions} μενού, επιλέξτε {showFavoritesOnly} για να απαριθμήσετε μόνο τα στρώματα των πρωταγωνιστών σας και τις ομάδες τους. Επιλογή {showAllLayers} να γυρίσω πίσω.",
   "src": "libretranslate",
@@ -10873,6 +11263,18 @@
  },
  "Include legend": {
   "t": "Συμπερίληψη θρύλου",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include legend: adds the layer symbols. Only the layers actually drawing at the printed scale are listed, so the legend matches the map.": {
+  "t": "Συμπεριλάβετε θρύλο: προσθέτει τα σύμβολα στρώμα. Μόνο τα στρώματα που πραγματικά σχεδιάζουν στην τυπωμένη κλίμακα αναφέρονται, οπότε ο θρύλος ταιριάζει με τον χάρτη.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include map attribution": {
+  "t": "Συμπερίληψη της κατανομής χάρτη",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11153,6 +11555,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "It picks up a parcel you clicked, features chosen in a Select, Table or Query widget, and shapes an app has drawn on the map.": {
+  "t": "Πιάνει ένα δέμα που κάνατε κλικ, χαρακτηριστικά επιλεγμένα σε ένα γραφικό συστατικό Select, Table or Query, και διαμορφώνει μια εφαρμογή έχει σχεδιαστεί στο χάρτη.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "It says Loading measurement tools for a long time: the map is still starting. Give it a moment, then reload the page.": {
   "t": "Λέει Φόρτωση εργαλείων μέτρησης για μεγάλο χρονικό διάστημα: ο χάρτης εξακολουθεί να ξεκινά. Δώστε του ένα λεπτό, και ξαναγεμίστε τη σελίδα.",
   "src": "libretranslate",
@@ -11296,6 +11704,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Keep map rotation in georeferenced images": {
+  "t": "Διατήρηση περιστροφής χάρτη σε γεωαναφερόμενες εικόνες",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Keep New Only": {
   "t": "Διατήρηση νέου μόνο",
@@ -11855,6 +12269,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Layers in PDF and SVG exports": {
+  "t": "Στρώματα σε PDF και SVG εξαγωγές",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "layers on": {
   "t": "στρώματα",
   "src": "libretranslate",
@@ -11881,6 +12301,12 @@
  },
  "Layout default": {
   "t": "Προκαθορισμένη διάταξη",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layout DPI": {
+  "t": "DPI διάταξης",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11981,6 +12407,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "legend": {
+  "t": "μύθος",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Legend": {
   "t": "Υπόμνημα",
   "src": "libretranslate",
@@ -12005,6 +12437,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Legend on by default": {
+  "t": "Υπόμνημα για προεπιλογή",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Legend page {i} of {n}": {
   "t": "Υπόμνημα σελίδας {i} του {n}",
   "src": "libretranslate",
@@ -12013,6 +12451,12 @@
  },
  "Legend placement": {
   "t": "Τοποθέτηση υπομνημάτων",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Legend placement: beside the map, over a corner of it, or on Additional pages (PDF only). Beside the map, the map shrinks to make room. On additional pages, every item stays full size.": {
+  "t": "Θέση υπομνημάτων: δίπλα από το χάρτη, πάνω από μια γωνία του, ή σε πρόσθετες σελίδες (PDF μόνο). Δίπλα στο χάρτη, ο χάρτης συρρικνώνεται για να κάνει χώρο. Σε επιπλέον σελίδες, κάθε αντικείμενο παραμένει πλήρες μέγεθος.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12125,6 +12569,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Line color (any)": {
+  "t": "Χρώμα γραμμής (οποιοδήποτε)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Line layer (traverse lines)": {
   "t": "Στρώμα γραμμής (εγκάρσιες γραμμές)",
   "src": "libretranslate",
@@ -12175,6 +12625,12 @@
  },
  "Line opacity": {
   "t": "Αδιαφάνεια γραμμής",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Line pattern": {
+  "t": "Σχέδιο γραμμής",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12295,6 +12751,12 @@
  },
  "Link text (optional)": {
   "t": "Κείμενο δεσμού (προαιρετικό)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Link the title to the pages: while Map series is open, the buttons under Map title add Page name, Page number or any visible field, and the line under them shows how page 1's title will read. Order sorts the pages A to Z or Z to A by the name field. The Overview inset switch adds a locator overview to every data-driven page.": {
+  "t": "Συνδέστε τον τίτλο με τις σελίδες: ενώ η σειρά Map είναι ανοιχτή, τα κουμπιά κάτω από τον τίτλο Map προσθέτουν όνομα σελίδας, αριθμό σελίδας ή οποιοδήποτε ορατό πεδίο, και η γραμμή κάτω από αυτές δείχνει πώς θα διαβαστεί ο τίτλος της σελίδας 1. Η παραγγελία ταξινομεί τις σελίδες Α έως Ζ ή Ζ προς Α με το πεδίο ονόματος. Ο ενσωματωμένος διακόπτης επισκόπησης προσθέτει μια επισκόπηση εντοπισμού σε κάθε σελίδα με βάση τα δεδομένα.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12593,6 +13055,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Lock print area pins that rectangle over the ground. You can then pan and zoom to look around, and the printed area stays where you put it. Turn it off to release.": {
+  "t": "Κλειδώστε τις καρφίτσες της περιοχής εκτύπωσης που είναι ορθογώνιες πάνω από το έδαφος. Στη συνέχεια, μπορείτε να pan και ζουμ για να κοιτάξουμε γύρω, και η εκτυπωμένη περιοχή μένει εκεί που το βάζετε. Κλείστο για να απελευθερωθεί.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Locked": {
   "t": "Κλειδωμένο",
   "src": "libretranslate",
@@ -12839,6 +13307,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map DPI sets how fine the map picture is. Layout default is fine for most work. 300 is sharper but takes noticeably longer and makes a much bigger file.": {
+  "t": "Χάρτης DPI καθορίζει πόσο ωραία είναι η εικόνα χάρτη. Η προκαθορισμένη διάταξη είναι μια χαρά για την περισσότερη δουλειά. Το 300 είναι πιο κοφτερό αλλά παίρνει σημαντικά περισσότερο χρόνο και κάνει ένα πολύ μεγαλύτερο αρχείο.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map fields": {
   "t": "Πεδία χαρτών",
   "src": "libretranslate",
@@ -12929,6 +13403,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map only (no layout): gives you just the map picture, with no title, legend or border. Use it when you want to drop the map into something else.": {
+  "t": "Χάρτης μόνο (χωρίς διάταξη): σας δίνει μόνο την εικόνα χάρτη, χωρίς τίτλο, θρύλο ή σύνορα. Χρησιμοποιήστε το όταν θέλετε να dropτε το χάρτη σε κάτι άλλο.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map only necessary fields": {
   "t": "Χάρτης μόνο απαραίτητα πεδία",
   "src": "libretranslate",
@@ -12967,6 +13447,12 @@
  },
  "Map series cancelled. Nothing was downloaded.": {
   "t": "Η σειρά χαρτών ακυρώθηκε. Τίποτα δεν μεταφορτώθηκε.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map series limits": {
+  "t": "Όρια σειράς χαρτών",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13060,6 +13546,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Maps that open in the right place": {
+  "t": "Χάρτες που ανοίγουν στο σωστό μέρος",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Margins": {
   "t": "Περιθώρια",
@@ -13156,6 +13648,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Max map capture (px, long edge; blank = auto)": {
+  "t": "Μέγιστη σύλληψη χάρτη (px, μακρύ άκρο; κενό = αυτόματο)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Max scale": {
   "t": "Μέγιστη κλίμακα",
@@ -14525,6 +15023,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "None (single bar)": {
+  "t": "Καμία (εφάπαξ ράβδος)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "None (transparent)": {
   "t": "Καμία (διάφανη)",
   "src": "libretranslate",
@@ -14533,6 +15037,12 @@
  },
  "none selected": {
   "t": "κανένα επιλεγμένο",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "North arrow": {
+  "t": "Βόρειο βέλος",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14615,6 +15125,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Nothing downloaded: your browser may have blocked it. Look for a blocked download notice in the address bar, or click the file name under Recent exports again.": {
+  "t": "Τίποτα κατεβασμένο: ο περιηγητής σας μπορεί να το έχει μπλοκάρει. Αναζητήστε μια ειδοποίηση μπλοκαρισμένης λήψης στη γραμμή διευθύνσεων, ή κάντε κλικ στο όνομα αρχείου κάτω από Πρόσφατες εξαγωγές και πάλι.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Nothing extra": {
   "t": "Τίποτα παραπάνω.",
   "src": "libretranslate",
@@ -14653,6 +15169,12 @@
  },
  "Nothing is found where you know a feature is: the click landed just off the edge. Zoom in and click again, nearer the middle of the feature.": {
   "t": "Τίποτα δεν βρίσκεται εκεί που ξέρετε ένα χαρακτηριστικό είναι: το κλικ προσγειώθηκε ακριβώς από την άκρη. Εστίασε και κάνε κλικ ξανά, πιο κοντά στη μέση της λειτουργίας.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Nothing you change here affects the map itself or anyone else. It only changes the page you are about to make.": {
+  "t": "Τίποτα δεν αλλάζει εδώ δεν επηρεάζει τον ίδιο το χάρτη ή οποιονδήποτε άλλο. Αλλάζει μόνο τη σελίδα που πρόκειται να φτιάξετε.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14705,6 +15227,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Number format": {
+  "t": "Μορφή αριθμού",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Number of decimal places for area and perimeter measurements, minimum 0, maximum 10": {
   "t": "Αριθμός δεκαδικών ψηφίων για μετρήσεις εμβαδού και περιμέτρου, τουλάχιστον 0, μέγιστο 10",
   "src": "libretranslate",
@@ -14747,6 +15275,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Numbered outlines appear on the map showing the pages. They follow you as you pan and zoom, so you can see the split before you commit to it.": {
+  "t": "Αριθμημένα περιγράμματα εμφανίζονται στο χάρτη που δείχνει τις σελίδες. Σε ακολουθούν καθώς κάνεις ζουμ, για να δεις το χωρισμό πριν δεσμευτείς.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Numpad shortcuts: + moves from bearing to length and adds the line from length or radius. / jumps from length to radius.": {
   "t": "Συντομεύσεις Numpad: + κινείται από το bearingλεμάν στο μήκος και προσθέτει τη γραμμή από το μήκος ή την ακτίνα. / άλματα από μήκος σε ακτίνα.",
   "src": "libretranslate",
@@ -14777,14 +15311,50 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Off by default, so georeferenced map-only images and KMZ files are captured north-up. On, a rotated map keeps its rotation: the world file carries the rotation terms, a GeoTIFF uses a ModelTransformationTag, and the KMZ drapes as a rotated quad.": {
+  "t": "Off από προεπιλογή, έτσι γεωαναφερόμενες εικόνες χάρτη και αρχεία KMZ συλλαμβάνονται βόρεια-up. Πάνω, ένας περιστρεφόμενος χάρτης διατηρεί την περιστροφή του: το παγκόσμιο αρχείο φέρει τους όρους περιστροφής, ένα GeoTIFF χρησιμοποιεί ένα ModelTransformationTag, και οι κουρτίνες KMZ ως περιστρεφόμενη τετράδα.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Off by default. Each export asks every visible feature layer how many features fall inside the printed area, and leaves layers with none off the legend. A layer that cannot be asked (tiles, imagery) or does not answer in time is always kept. Map series judge against the whole series area.": {
+  "t": "Από προεπιλογή. Κάθε εξαγωγή asksωτά κάθε ορατό στρώμα χαρακτηριστικό πόσα χαρακτηριστικά εμπίπτουν μέσα στην τυπωμένη περιοχή, και αφήνει στρώματα χωρίς κανένα από το μύθο. Ένα στρώμα που δεν μπορεί να ζητηθεί (ελιές, εικόνες) ή δεν απαντά με το χρόνο διατηρείται πάντα. Ο δικαστής της σειράς χαρτών εναντίον όλης της περιοχής της σειράς.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Off by default. Feature layers drawn with simple symbols (solid fills, lines and dashes, circle, square, diamond, triangle, cross and x markers; single symbol, unique values or class breaks) print as true vector shapes, crisp at any zoom and each in its own PDF layer. Hatched fills, custom path markers and picture markers come along too, and so do labels (field labels with halos, placed and deconflicted like the map does, including label classes with a where clause). Layers with clustering, effects, visual variables, Arcade renderers or Arcade labels, rotated picture markers or other symbols stay as pixels, and each export lists them with the reason. Works on rotated maps and on every map series and feature page sheet. Up to 20,000 features per layer.": {
+  "t": "Από προεπιλογή. Χαρακτηριστικά στρώματα που έχουν σχεδιαστεί με απλά σύμβολα (στερεές γέμισμα, γραμμές και παύλες, κύκλος, τετράγωνο, διαμάντι, τρίγωνο, σταυρό και x δείκτες; ενιαίο σύμβολο, μοναδικές τιμές ή διαλείμματα κατηγορίας) εκτυπώνουν ως αληθινά διανυσματικά σχήματα, τραγανό σε οποιοδήποτε ζουμ και το καθένα στο δικό του στρώμα PDF. Έρχονται επίσης και οι διακεκομμένες γέμισμα, οι προσαρμοσμένοι δείκτες διαδρομής και οι δείκτες εικόνας, το ίδιο και οι ετικέτες (ετικέτες πεδίου με φωτοστέφανα, τοποθετημένες και αποσυγκρουόμενες όπως κάνει ο χάρτης, συμπεριλαμβανομένων των κατηγοριών ετικετών με μια ρήτρα). Στρώματα με συσπειρωτήρες, εφέ, οπτικές μεταβλητές, θήκες Arcade ή ετικέτες Arcade, περιστρεφόμενοι δείκτες εικόνας ή άλλα σύμβολα παραμένουν ως εικονοστοιχεία, και κάθε εξαγωγή τους απαριθμεί με τον λόγο. Εργασίες σε περιστρεφόμενους χάρτες και σε κάθε σειρά χαρτών και χαρακτηριστικό φύλλο σελίδας. Μέχρι 20.000 χαρακτηριστικά ανά στρώμα.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Off by default. On, each export logs to the browser console (F12) how many selected features were found and how many reached the page. Use it when a highlight does not print: the selection lives in the map view rather than in this widget, so the log is the only way to see what was found.": {
+  "t": "Από προεπιλογή. Πάνω, κάθε αρχείο καταγραφής εξαγωγής στην κονσόλα του προγράμματος περιήγησης (F12) πόσα επιλεγμένα χαρακτηριστικά βρέθηκαν και πόσα έφτασαν στη σελίδα. Χρησιμοποιήστε το όταν ένα highlight δεν εκτυπώνει: η επιλογή ζει στην προβολή χάρτη και όχι σε αυτό το widget, οπότε η καταγραφή είναι ο μόνος τρόπος για να δείτε τι βρέθηκε.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Off: every run adds another layer, numbered (2), (3) and so on.": {
   "t": "Εκτός: κάθε διαδρομή προσθέτει ένα άλλο στρώμα, αριθμημένο (2), (3) και ούτω καθεξής.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Offer \"Map only\" export": {
+  "t": "Προσφορά \"Χάρτης μόνο\" εξαγωγή",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Offer {name} on the Coordinates tab": {
   "t": "Προσφορά {name} στην καρτέλα Συντεταγμένες",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer output coordinate system (WKID)": {
+  "t": "Σύστημα συντεταγμένων εξόδου προσφοράς (WKID)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14842,6 +15412,24 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "On by default. A layer whose visible scale range excludes the printed scale is left off the legend, so the legend never lists a symbol the map does not show.": {
+  "t": "Από προεπιλογή. Ένα στρώμα του οποίου το ορατό εύρος κλίμακας αποκλείει την τυπωμένη κλίμακα αφήνεται εκτός του θρύλου, οπότε ο θρύλος δεν αναφέρει ποτέ ένα σύμβολο που ο χάρτης δεν εμφανίζει.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On by default. Every PDF map frame carries its coordinate system and corner coordinates, so Avenza Maps shows your location on the page, Acrobat reads coordinates with its Geospatial Location tool, and ArcGIS Pro and QGIS open the PDF in place. Map series georeference every sheet and the index page.": {
+  "t": "Από προεπιλογή. Κάθε πλαίσιο χάρτη PDF μεταφέρει το σύστημα συντεταγμένων και τις γωνιακές συντεταγμένες, έτσι Avenza Χάρτες δείχνει τη θέση σας στη σελίδα, Acrobat διαβάζει συντεταγμένες με το εργαλείο Γεωχωρική Τοποθεσία, και ArcGIS Pro και QGIS ανοίξει το PDF στη θέση του. Γεωαναφορά σειράς χαρτών κάθε φύλλο και η σελίδα ευρετηρίου.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On by default. The map, grid, selection, overview, legend, north arrow and scale bar, text, graphics and QR code each go in their own layer, so they can be switched on and off in Acrobat, Avenza Maps, Illustrator or Inkscape. Map series add a Map series layer for the page outlines and numbers.": {
+  "t": "Από προεπιλογή. Ο χάρτης, το πλέγμα, η επιλογή, η επισκόπηση, ο θρύλος, το βόρειο βέλος και η γραμμή κλίμακας, κείμενο, γραφικά και QR κώδικα κάθε πάνε στο δικό τους στρώμα, έτσι ώστε να μπορούν να ενεργοποιηθούν και να απενεργοποιηθούν σε Acrobat, Avenza Χάρτες, Illustrator ή Inkscape. Η σειρά χαρτών προσθέτει ένα στρώμα σειράς χαρτών για τα περιγράμματα και τους αριθμούς της σελίδας.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "On the {address} tab.": {
   "t": "Στο {address} καρτέλα.",
@@ -14983,6 +15571,12 @@
  },
  "One page per feature": {
   "t": "Μία σελίδα ανά χαρακτηριστικό",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "One PDF comes out with every page in it. The legend prints on every sheet, the same way ArcGIS Pro does it.": {
+  "t": "Ένα PDF βγαίνει με κάθε σελίδα σε αυτό. Ο θρύλος τυπώνει σε κάθε φύλλο, με τον ίδιο τρόπο που το κάνει το ArcGIS Pro.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15245,6 +15839,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Output coordinate system (WKID): prints in a different coordinate system than the map uses. Leave it at 0 unless someone has asked you for a particular one.": {
+  "t": "Σύστημα συντεταγμένων εξόδου (WKID): εκτυπώνει σε διαφορετικό σύστημα συντεταγμένων από αυτό που χρησιμοποιεί ο χάρτης. Αφήστε το στο 0 εκτός αν κάποιος σας ζήτησε ένα συγκεκριμένο.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Output size (px)": {
   "t": "Μέγεθος εξόδου (px)",
   "src": "libretranslate",
@@ -15293,8 +15893,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "overview inset": {
+  "t": "εισαγωγή επισκόπησης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Overview inset": {
   "t": "Ένθετο επισκόπησης",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Overview inset: adds the small locator map in the corner, with a red box showing where the main map sits.": {
+  "t": "Ένθετο επισκόπησης: προσθέτει το μικρό χάρτη εντοπισμού στη γωνία, με ένα κόκκινο κουτί που δείχνει πού βρίσκεται ο κύριος χάρτης.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Overview map on by default": {
+  "t": "Χάρτης επισκόπησης από προεπιλογή",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15347,6 +15965,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "page font": {
+  "t": "γραμματοσειρά σελίδας",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Page name": {
   "t": "Όνομα σελίδας",
   "src": "libretranslate",
@@ -15377,6 +16001,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Page preview shows gray areas: part of the print area is off the screen, so the preview has nothing to show there. Pan or zoom out to see it; the exported file is not affected.": {
+  "t": "Προεπισκόπηση σελίδας εμφανίζει γκρι περιοχές: μέρος της περιοχής εκτύπωσης είναι εκτός οθόνης, έτσι η προεπισκόπηση δεν έχει τίποτα να δείξει εκεί. Pan ή ζουμ έξω για να το δείτε; το εξαγόμενο αρχείο δεν επηρεάζεται.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Page Size": {
   "t": "Μέγεθος σελίδας",
   "src": "libretranslate",
@@ -15403,6 +16033,12 @@
  },
  "Pagination complete. Total features collected: {count}": {
   "t": "Η παγίωση ολοκληρώθηκε. Σύνολο συλλεγόμενων χαρακτηριστικών: {count}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Pan and zoom the map to what you want on the page. What you see is what prints.": {
+  "t": "Πάν και ζουμάρετε το χάρτη σε αυτό που θέλετε στη σελίδα. Αυτό που βλέπεις είναι τα αποτυπώματα.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15473,6 +16109,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "PDF and SVG files come with layers. In Acrobat or Avenza Maps open the Layers panel to hide the grid, the selection outline, the legend or the text; in Illustrator or Inkscape each part is its own layer.": {
+  "t": "PDF και SVG αρχεία έρχονται με στρώματα. Σε Acrobat ή Avenza Χάρτες ανοίξει το πλαίσιο Layers για να κρύψει το πλέγμα, το περίγραμμα επιλογής, ο θρύλος ή το κείμενο? στο Illustrator ή Inkscape κάθε μέρος είναι το δικό του στρώμα.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "PDF export options": {
   "t": "Επιλογές εξαγωγής PDF",
   "src": "libretranslate",
@@ -15493,6 +16135,12 @@
  },
  "PDF opens a small window first so you can choose what goes on the page.": {
   "t": "PDF ανοίγει ένα μικρό παράθυρο πρώτα, ώστε να μπορείτε να επιλέξετε τι συμβαίνει στη σελίδα.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "PDF: best for printing on paper and for sending to someone. Text and lines stay sharp at any zoom.": {
+  "t": "PDF: καλύτερο για εκτύπωση σε χαρτί και για αποστολή σε κάποιον. Το κείμενο και οι γραμμές παραμένουν κοφτερά σε κάθε ζουμ.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15601,6 +16249,12 @@
  },
  "Pick a draw tool (Point, Line, Polygon, Rectangle, or Circle), then draw on the map. Everything inside is selected.": {
   "t": "Επιλέξτε ένα εργαλείο κλήρωσης (Point, Line, Polygon, Orctangle, ή Circle), στη συνέχεια, σχεδιάστε στο χάρτη. Όλα μέσα είναι επιλεγμένα.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Pick a Layout, then type a Map title. The title is what prints at the top of the page.": {
+  "t": "Επιλέξτε μια διάταξη, στη συνέχεια, πληκτρολογήστε έναν τίτλο χάρτη. Ο τίτλος είναι αυτό που τυπώνει στην κορυφή της σελίδας.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15853,6 +16507,18 @@
  },
  "Please wait, do not close this window...": {
   "t": "Παρακαλώ περιμένετε, μην κλείσετε αυτό το παράθυρο...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "PNG, JPG and GIF instead get two small companion files beside the image. Keep all of them together in the same folder or the placement is lost.": {
+  "t": "PNG, JPG και GIF αντ 'αυτού πάρτε δύο μικρά συνοδευτικά αρχεία δίπλα στην εικόνα. Κρατήστε όλα αυτά μαζί στον ίδιο φάκελο ή η τοποθέτηση χάνεται.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "PNG32, PNG8, JPG or GIF: a picture, for a report, a slide or a web page. PNG32 is the sharpest.": {
+  "t": "PNG32, PNG8, JPG ή GIF: μια εικόνα, για μια αναφορά, μια διαφάνεια ή μια ιστοσελίδα. Το PNG32 είναι το πιο έξυπνο.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16115,6 +16781,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Preserve map extent (fit view): prints everything you can see now, and picks whatever scale that needs. Use this when you must not lose anything off the edges.": {
+  "t": "Διατήρηση έκτασης χάρτη (fit view): εκτυπώνει ό, τι μπορείτε να δείτε τώρα, και διαλέγει όποια κλίμακα χρειάζεται. Χρησιμοποιήστε αυτό όταν δεν πρέπει να χάσετε τίποτα από τις άκρες.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Preserve map scale": {
   "t": "Διατήρηση κλίμακας χάρτη",
   "src": "libretranslate",
@@ -16123,6 +16795,12 @@
  },
  "Preserve map scale (current)": {
   "t": "Διατήρηση κλίμακας χάρτη (τρέχων)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preserve map scale (current): prints at the same scale you are looking at. The page may show a little more or less ground than the screen, because the page is a different shape than your browser window.": {
+  "t": "Διατήρηση κλίμακας χάρτη (τρέχον): εκτυπώσεις στην ίδια κλίμακα που βλέπετε. Η σελίδα μπορεί να εμφανίζει λίγο περισσότερο ή λιγότερο έδαφος από την οθόνη, επειδή η σελίδα είναι ένα διαφορετικό σχήμα από το παράθυρο του browser σας.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16247,6 +16925,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Press Export. The panel dims and a message tells you what it is working on. When it finishes, the file appears under Recent exports at the bottom. Click its name to save it.": {
+  "t": "Πατήστε Εξαγωγή. Ο πίνακας αμβλύνει και ένα μήνυμα σας λέει πάνω σε τι δουλεύει. Όταν τελειώνει, το αρχείο εμφανίζεται κάτω από πρόσφατες εξαγωγές. Κάντε κλικ στο όνομά του για να το αποθηκεύσετε.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Press F on a focused basemap to add or remove it from favorites.": {
   "t": "Πατήστε F σε ένα εστιασμένο χάρτη βάσης για να προσθέσετε ή να το αφαιρέσετε από τα αγαπημένα.",
   "src": "libretranslate",
@@ -16301,6 +16985,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Preview fill color (hex)": {
+  "t": "Χρώμα γεμίσματος προεπισκόπησης (hex)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Preview first record": {
   "t": "Πρώτη εγγραφή προεπισκόπησης",
   "src": "libretranslate",
@@ -16327,6 +17017,18 @@
  },
  "Preview of the printed page": {
   "t": "Προεπισκόπηση της εκτυπωμένης σελίδας",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preview outline color (hex)": {
+  "t": "Χρώμα περιγράμματος προεπισκόπησης (hex)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preview outline width (px)": {
+  "t": "Πλάτος προεπισκόπησης περιγράμματος (px)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16361,6 +17063,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Print Advanced turns the map on your screen into a finished page: the same layout your ArcGIS Pro template uses, with a title, legend and scale bar, ready to print or send.": {
+  "t": "Εκτύπωση Advanced μετατρέπει το χάρτη στην οθόνη σας σε μια ολοκληρωμένη σελίδα: την ίδια διάταξη που χρησιμοποιεί το ArcGIS Pro πρότυπο, με έναν τίτλο, θρύλο και γραμμή κλίμακας, έτοιμο για εκτύπωση ή αποστολή.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Print area": {
   "t": "Περιοχή εκτύπωσης",
   "src": "libretranslate",
@@ -16373,8 +17081,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Print area, the first card under Advanced options, decides how much ground fits in the map frame. Three choices, under Scale.": {
+  "t": "Η περιοχή εκτύπωσης, η πρώτη κάρτα κάτω από Advanced επιλογές, αποφασίζει πόσο έδαφος χωράει στο πλαίσιο χάρτη. Τρεις επιλογές, κάτω από την Κλίμακα.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Print as a map series (PDF)": {
   "t": "Εκτύπωση ως σειρά χαρτών (PDF)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Print selected features by default": {
+  "t": "Εκτύπωση επιλεγμένων χαρακτηριστικών εξ ορισμού",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16405,6 +17125,18 @@
  },
  "Print-Ready Labels: spread out the labels so they do not overlap when exported to PDF.": {
   "t": "Print-ready Labels: απλώστε τις ετικέτες ώστε να μην αλληλεπικαλύπτονται όταν εξάγονται σε PDF.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Printing a large area over several pages": {
+  "t": "Εκτύπωση μιας μεγάλης περιοχής σε αρκετές σελίδες",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Printing what you have selected": {
+  "t": "Εκτύπωση όσων έχετε επιλέξει",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16555,6 +17287,12 @@
  },
  "Radius measurement enabled. Display the circle radius.": {
   "t": "Η μέτρηση της ακτίνας ενεργοποιήθηκε. Εμφάνιση της ακτίνας του κύκλου.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Raster EPS (Level 2, JPEG-embedded). For vector output use PDF or SVG.": {
+  "t": "Ράστερ ΕΠΣ (Επίπεδο 2, JPEG-εμβαδισμένο). Για την έξοδο διανύσματος χρησιμοποιήστε PDF ή SVG.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16873,6 +17611,12 @@
  },
  "Remove from list": {
   "t": "Αφαίρεση από τη λίστα",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Remove from list clears one item and Clear empties the whole list. Neither deletes a file you have already saved.": {
+  "t": "Αφαίρεση από τη λίστα καθαρίζει ένα αντικείμενο και ο Καθαρισμός αδειάζει ολόκληρη τη λίστα. Ούτε διαγράφει ένα αρχείο που έχετε ήδη αποθηκεύσει.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17603,6 +18347,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Scale bar style": {
+  "t": "Στυλ γραμμής κλίμακας",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Scale bar units": {
+  "t": "Μονάδες ράβδου κλίμακας",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Scale field": {
   "t": "Πεδίο κλίμακας",
   "src": "libretranslate",
@@ -17741,6 +18497,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Search the guide (try \"legend\" or \"blank\")": {
+  "t": "Αναζήτηση του οδηγού (προσπάθεια \"legend\" ή \"blank\")",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Search the guide (try \"load\" or \"fields\")": {
   "t": "Αναζήτηση του οδηγού (προσπάθεια φόρτωσης\" ή \"πεδίων\")",
   "src": "libretranslate",
@@ -17770,6 +18532,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Second units (dual)": {
+  "t": "Δεύτερη μονάδα (διπλή)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "See how your label format will appear": {
   "t": "Δείτε πώς θα εμφανιστεί η μορφή της ετικέτας σας",
@@ -18253,6 +19021,12 @@
  },
  "Selected features are outlined in cyan on the print. Turn this off to print the map without them.": {
   "t": "Επιλεγμένα χαρακτηριστικά περιγράφονται στο κυανό στο αποτύπωμα. Κλείστε αυτό για να εκτυπώσετε το χάρτη χωρίς αυτά.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Selected features: turn this on and anything you have selected is outlined on the print, in cyan with a thin white edge so it reads over dark aerial photography.": {
+  "t": "Επιλεγμένα χαρακτηριστικά: ενεργοποιήστε αυτό και οτιδήποτε έχετε επιλέξει περιγράφεται στο αποτύπωμα, σε κυανό με λεπτό λευκό άκρο έτσι ώστε να διαβάζει πάνω από τη σκοτεινή εναέρια φωτογραφία.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19619,6 +20393,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Still stuck? Contact the GIS Division and mention the Print Advanced widget and this app.": {
+  "t": "Ακόμα κολλημένος; Επικοινωνήστε με την GIS Division και αναφέρετε το Print Advanced widget και αυτή την εφαρμογή.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Still stuck? Contact your GIS team and mention the Draw Advanced widget and this app.": {
   "t": "Ακόμα κολλημένος; Επικοινωνήστε με την ομάδα GIS σας και αναφέρετε το Draw Advanced widget και αυτή την εφαρμογή.",
   "src": "libretranslate",
@@ -19753,6 +20533,12 @@
  },
  "Supported label formats": {
   "t": "Υποστηριζόμενες μορφές ετικέτας",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "SVG or SVGZ: for editing the page afterwards in Illustrator or Inkscape. SVGZ is the same file, just smaller.": {
+  "t": "SVG ή SVGZ: για επεξεργασία της σελίδας στη συνέχεια στο Illustrator ή στο Inkscape. Το SVGZ είναι το ίδιο αρχείο, απλά μικρότερο.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20369,6 +21155,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The export is taking a long time: a high Map DPI or a large page takes longer. Keep the tab open and give it a few minutes. The message in the panel tells you what it is working on.": {
+  "t": "Η εξαγωγή διαρκεί πολύ: ένας υψηλός χάρτης DPI ή μια μεγάλη σελίδα διαρκεί περισσότερο. Κράτα την καρτέλα ανοιχτή και δώσε λίγα λεπτά. Το μήνυμα στο πάνελ σας λέει πάνω σε τι δουλεύει.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The expression choice lets you write a short formula, such as helpers.upper($.NAME). Write $.FIELD to read a value from your data.": {
   "t": "Η επιλογή έκφρασης σας επιτρέπει να γράψετε μια σύντομη φόρμουλα, όπως βοηθοί.upper($.NAME). Γράψτε $.FIELD για να διαβάσετε μια τιμή από τα δεδομένα σας.",
   "src": "libretranslate",
@@ -20389,6 +21181,12 @@
  },
  "The feature you are reading is outlined on the map, so you can see which one it is.": {
   "t": "Το χαρακτηριστικό που διαβάζετε περιγράφεται στο χάρτη, ώστε να μπορείτε να δείτε ποιο είναι.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The file is a PDF unless you change it: open Advanced options and pick a Format under Output. PDF is the safe choice for anything you plan to print on paper.": {
+  "t": "Το αρχείο είναι ένα PDF εκτός αν το αλλάξετε: ανοίξτε Προχωρημένες επιλογές και επιλέξτε μια Μορφή κάτω από το Output. PDF είναι η ασφαλής επιλογή για οτιδήποτε σκοπεύετε να εκτυπώσετε σε χαρτί.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20501,11 +21299,23 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The list is only for this visit. It empties when you close or reload the app, so save anything you want to keep.": {
+  "t": "Η λίστα είναι μόνο για αυτή την επίσκεψη. Αδειάζει όταν κλείνετε ή ξαναγεμίζετε την εφαρμογή, οπότε αποθηκεύστε οτιδήποτε θέλετε να κρατήσετε.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The Load step checks the work, then writes the records into the layer.": {
   "t": "Το βήμα φόρτωσης ελέγχει την εργασία και στη συνέχεια γράφει τα αρχεία στο στρώμα.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The map area is blank or grey: the map had not finished drawing. Wait until the map is still and every layer has appeared, then export again.": {
+  "t": "Η περιοχή του χάρτη είναι κενή ή γκρι: ο χάρτης δεν είχε τελειώσει το σχέδιο. Περιμένετε μέχρι ο χάρτης είναι ακόμα και κάθε στρώμα έχει εμφανιστεί, στη συνέχεια, να εξάγουν και πάλι.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The map does not move or change scale by itself. Use the zoom action in the details when you want the map to go there.": {
   "t": "Ο χάρτης δεν κινείται ούτε αλλάζει από μόνος του κλίμακα. Χρησιμοποιήστε την ενέργεια ζουμ στις λεπτομέρειες όταν θέλετε να πάει εκεί ο χάρτης.",
@@ -20591,6 +21401,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The outline is drawn rather than shaded, so labels and dimensions inside the parcel stay readable on paper.": {
+  "t": "Το περίγραμμα σχεδιάζεται μάλλον παρά σκιάζεται, οπότε οι ετικέτες και οι διαστάσεις μέσα στο δέμα παραμένουν αναγνώσιμες στο χαρτί.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The parcel polygon is built from the Boundary Lines only, then saved with the name, description, and stated area. If no line is marked Boundary Line, no polygon is created.": {
   "t": "Το αγροτεμάχιο πολύγωνο κατασκευάζεται μόνο από τις Γραμμές Όρια, στη συνέχεια αποθηκεύεται με το όνομα, την περιγραφή και την δηλωμένη περιοχή. Εάν καμία γραμμή δεν είναι σημειωμένη Όρια Γραμμή, δεν δημιουργείται πολύγωνο.",
   "src": "libretranslate",
@@ -20647,6 +21463,12 @@
  },
  "The print service did not return a file.": {
   "t": "Η υπηρεσία εκτύπωσης δεν επέστρεψε ένα αρχείο.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The print service failed: the server refused the job or timed out. Try again, and if it keeps failing switch the Format to PDF and export a smaller page.": {
+  "t": "Η υπηρεσία εκτύπωσης απέτυχε: ο διακομιστής αρνήθηκε τη δουλειά ή χρονομέτρησε. Δοκιμάστε ξανά, και αν συνεχίζει να αποτυγχάνει να αλλάξει τη Μορφή σε PDF και να εξάγει μια μικρότερη σελίδα.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20897,6 +21719,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "These options are for a Map only export, so the picture is the map edge to edge with nothing else on it.": {
+  "t": "Αυτές οι επιλογές είναι μόνο για μια εξαγωγή χάρτη, έτσι η εικόνα είναι η άκρη χάρτη να άκρη με τίποτα άλλο σε αυτό.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "These settings are for advanced users only": {
   "t": "Αυτές οι ρυθμίσεις είναι μόνο για προχωρημένους χρήστες",
   "src": "libretranslate",
@@ -21011,6 +21839,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "This runs in your browser, not ArcGIS Pro, so big series are limited: a yellow note warns about a large job with a rough time and file size, and a red note stops a series over the page limit set for this app.": {
+  "t": "Αυτό τρέχει στο πρόγραμμα περιήγησης σας, όχι ArcGIS Pro, έτσι ώστε οι μεγάλες σειρές είναι περιορισμένες: ένα κίτρινο σημείωμα προειδοποιεί για μια μεγάλη δουλειά με πρόχειρο χρόνο και μέγεθος αρχείου, και ένα κόκκινο σημείωμα σταματά μια σειρά πάνω από το όριο σελίδας για αυτή την εφαρμογή.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "This scale and the map position set the print area that Inside the print area uses to pick features. Each page still sets its own scale.": {
   "t": "Αυτή η κλίμακα και η θέση χάρτη καθορίζουν την περιοχή εκτύπωσης που στο εσωτερικό της περιοχής εκτύπωσης χρησιμοποιεί για την επιλογή χαρακτηριστικών. Κάθε σελίδα εξακολουθεί να θέτει τη δική της κλίμακα.",
   "src": "libretranslate",
@@ -21121,6 +21955,12 @@
  },
  "Ticks and crosses": {
   "t": "Τικ και σταυροί",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "TIFF: a large picture, and the right choice when you want the map to open in the correct place in ArcGIS Pro.": {
+  "t": "TIFF: μια μεγάλη εικόνα, και η σωστή επιλογή όταν θέλετε ο χάρτης να ανοίξει στο σωστό μέρος στο ArcGIS Pro.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21671,6 +22511,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Turn on Page preview, right under Map title, to see the whole printed page while you pan and zoom. It is a quick sketch drawn from the screen: gray areas are outside the screen, and the overview map shows as a box. The export is always full quality.": {
+  "t": "Ενεργοποιήστε την προεπισκόπηση σελίδας, ακριβώς κάτω από τον τίτλο Map, για να δείτε ολόκληρη την εκτυπωμένη σελίδα ενώ θα pan και ζουμ. Είναι ένα γρήγορο σκίτσο που σχεδιάζεται από την οθόνη: οι γκρι περιοχές είναι έξω από την οθόνη, και ο χάρτης επισκόπησης εμφανίζει ως πλαίσιο. Η εξαγωγή είναι πάντα πλήρης ποιότητα.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Turn on parent groups when a layer is checked on": {
   "t": "Ενεργοποιήστε τις ομάδες γονέων όταν ένα στρώμα είναι ενεργοποιημένο",
   "src": "libretranslate",
@@ -21679,6 +22525,12 @@
  },
  "Turn on Print-Ready Labels in {displayOptions} before a PDF export to spread the labels out so they do not overlap.": {
   "t": "Ενεργοποιήστε τις ετικέτες εκτύπωσης σε {displayOptions} πριν από μια εξαγωγή PDF για να διαδώσει τις ετικέτες έξω έτσι ώστε να μην αλληλεπικαλύπτονται.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Turn on Show print area and a rectangle appears on the map showing exactly what will print. Watch it while you zoom.": {
+  "t": "Ενεργοποιήστε το Εμφάνιση περιοχής εκτύπωσης και ένα ορθογώνιο εμφανίζεται στο χάρτη που δείχνει ακριβώς τι θα εκτυπώσει. Πρόσεχε όσο ζουμάρεις.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21862,6 +22714,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Under Advanced options, each card opens and closes from its heading and remembers your choice; a closed card still shows a short summary of what is set inside it. The On the map card holds the switches for the {parts}; Page text holds Author, Copyright and the QR code; Style holds the font, north arrow and scale bar; Output holds the format, DPI, coordinate system, map-only export and file name. Turning a switch off leaves it off this page only; it does not change the map, and it does not change anything for anyone else.": {
+  "t": "Στο πλαίσιο των Advanced options, κάθε κάρτα ανοίγει και κλείνει από τον τίτλο της και θυμάται την επιλογή σας. Η κάρτα στο χάρτη κρατά τους διακόπτες για το {parts}; Το κείμενο σελίδας κατέχει Συγγραφέας, Πνευματικά δικαιώματα και τον κώδικα QR; Στυλ κατέχει τη γραμματοσειρά, το βόρειο βέλος και τη γραμμή κλίμακας; Έξοδος κατέχει τη μορφή, DPI, σύστημα συντεταγμένων, μόνο τον χάρτη εξαγωγής και το όνομα αρχείου. Το κλείσιμο ενός διακόπτη το αφήνει μόνο από αυτή τη σελίδα· δεν αλλάζει τον χάρτη, και δεν αλλάζει τίποτα για κανέναν άλλο.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Under Advanced options, turn on Print as a map series (PDF), then set Rows and Columns. The estimate underneath tells you how many pages you will get.": {
+  "t": "Στο πλαίσιο Advanced επιλογές, ενεργοποιήστε το Print ως μια σειρά χαρτών (PDF), στη συνέχεια, ρυθμίστε τις σειρές και στήλες. Η εκτίμηση από κάτω σας λέει πόσες σελίδες θα πάρετε.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Under the title is a list. Each line has a label on the left and the value for that feature on the right.": {
   "t": "Υπό τον τίτλο είναι μια λίστα. Κάθε γραμμή έχει μια ετικέτα στα αριστερά και την τιμή για αυτό το χαρακτηριστικό στα δεξιά.",
@@ -22475,6 +23339,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Vector feature layers in PDF and SVG (experimental)": {
+  "t": "Διανυσματικά στρώματα σε PDF και SVG (πειραματικό)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Vector page furniture; opens in Illustrator/Inkscape. Covers the AIX use case.": {
+  "t": "Vector σελίδα έπιπλα? Ανοίγει στο Illustrator / Inkscape. Καλύπτει την περίπτωση χρήσης AIX.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Verify your settings work with sample data": {
   "t": "Επαλήθευση των ρυθμίσεων σας εργασία με τα δεδομένα δείγμα",
   "src": "libretranslate",
@@ -22703,6 +23579,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "What goes on the page": {
+  "t": "Τι συμβαίνει στη σελίδα",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "What shows on the map": {
   "t": "Τι δείχνει στο χάρτη",
   "src": "libretranslate",
@@ -22859,6 +23741,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Which file type to pick": {
+  "t": "Ποιος τύπος αρχείου για επιλογή",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Which polygon attributes users can enter at runtime: the fixed name/description/stated-area inputs, the fields from the layer popup, or a custom list": {
   "t": "Ποια χαρακτηριστικά πολύγωνο οι χρήστες μπορούν να εισέλθουν κατά το χρόνο εκτέλεσης: το σταθερό όνομα / περιγραφή / δηλωμένη περιοχή εισόδου, τα πεδία από το αναδυόμενο στρώμα, ή μια προσαρμοσμένη λίστα",
   "src": "libretranslate",
@@ -22867,6 +23755,12 @@
  },
  "Which tab is active when the widget first opens.": {
   "t": "Ποια καρτέλα είναι ενεργή όταν το γραφικό συστατικό ανοίγει για πρώτη φορά.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "While a series exports, the bar below Export shows Page 3 of 12 (with the feature name for one page per feature), one segment per page plus the index page and saving, how many steps are done and about how long is left. Keep this tab open until the file appears, or press Cancel to stop after the current page.": {
+  "t": "Ενώ μια σειρά εξάγει, η μπάρα παρακάτω Εξαγωγή δείχνει σελίδα 3 του 12 (με το χαρακτηριστικό όνομα για μια σελίδα ανά χαρακτηριστικό), ένα τμήμα ανά σελίδα συν τη σελίδα ευρετηρίου και την αποθήκευση, πόσα βήματα γίνονται και για το πόσο καιρό έχει απομείνει. Κρατήστε αυτή την καρτέλα ανοιχτή μέχρι να εμφανιστεί το αρχείο, ή πατήστε Ακύρωση για να σταματήσετε μετά την τρέχουσα σελίδα.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23026,6 +23920,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Write export diagnostics to the console": {
+  "t": "Εγγραφή διαγνωστικών εξαγωγής στην κονσόλα",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Write null": {
   "t": "Εγγραφή μηδενικού",

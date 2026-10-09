@@ -1019,6 +1019,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "4,327,000 m (with units)": {
+  "t": "4.327.000 m (met eenheden)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "4. Export": {
   "t": "4. Exporteren",
   "src": "libretranslate",
@@ -1085,6 +1091,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A georeferenced export is always straight north up, even if your map is turned, because a turned picture would not line up with the ground.": {
+  "t": "Een georefereerde export is altijd recht naar het noorden, zelfs als uw kaart wordt gedraaid, omdat een gedraaid beeld niet zou overeenkomen met de grond.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A grid over the map view": {
   "t": "Een raster over de kaartweergave",
   "src": "libretranslate",
@@ -1097,6 +1109,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A highlight belongs to the map on your screen, not to the map layers, so the widget draws your selected features onto the page for you.": {
+  "t": "Een hoogtepunt behoort tot de kaart op uw scherm, niet tot de kaartlagen, dus het widget trekt uw geselecteerde functies op de pagina voor u.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A layer inside a group shows only when the group is on too. If a ticked layer is missing from the map, check its group.": {
   "t": "Een laag binnen een groep toont alleen wanneer de groep ook aan staat. Als er een aangevinkte laag ontbreekt op de kaart, controleer dan de groep.",
   "src": "libretranslate",
@@ -1105,6 +1123,12 @@
  },
  "A layer is missing: it may be outside the current map scale. Zoom in or out, and check the note beneath its name.": {
   "t": "Er ontbreekt een laag: het kan buiten de huidige kaartschaal liggen. Zoom in of uit, en controleer het briefje onder zijn naam.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer is on the map but not in the legend: the layer does not draw at the printed scale, or your app leaves out layers with nothing inside the print area, so it is left out on purpose. Check the layer list in the map, or print at a scale and area where it draws.": {
+  "t": "Er staat een laag op de kaart, maar niet in de legende: de laag tekent niet op de gedrukte schaal, of je app laat lagen buiten beschouwing met niets binnen het afdrukgebied, dus het wordt bewust weggelaten. Controleer de laaglijst in de kaart, of afdrukken op een schaal en gebied waar het tekent.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1129,6 +1153,12 @@
  },
  "A layer name is grey and nothing shows on the map: the layer only draws between certain zoom levels. Zoom in, or out, until the name turns dark.": {
   "t": "Een laagnaam is grijs en niets toont op de kaart: de laag tekent alleen tussen bepaalde zoomniveaus. Zoom in, of uit, totdat de naam donker wordt.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer printed as a picture instead of sharp lines: its symbols, labels or effects are ones the vector output cannot copy exactly, so it kept the picture on purpose. The note under the finished file names each layer and the reason.": {
+  "t": "Een laag afgedrukt als een afbeelding in plaats van scherpe lijnen: de symbolen, labels of effecten ervan zijn degenen die de vectoruitvoer niet precies kan kopiëren, dus hield het de afbeelding doelbewust. De notitie onder het voltooide bestand noemt elke laag en de reden.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1168,6 +1198,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "A map series cuts the area you are looking at into a grid of pages, all at one scale, and adds an index page at the front.": {
+  "t": "Een kaart serie snijdt het gebied waar je naar kijkt in een raster van pagina's, allemaal op één schaal, en voegt een index pagina aan de voorkant.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A map series is very slow: every page is captured one at a time, so twelve pages take roughly twelve times as long as one. Keep the tab open, or use fewer, larger pages.": {
+  "t": "Een kaartreeks is erg traag: elke pagina wordt één voor één vastgelegd, dus twaalf pagina's duren ongeveer twaalf keer zo lang als één. Houd het tabblad open of gebruik minder grotere pagina's.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "A map widget is required for this widget to function": {
   "t": "Een mapwidget is vereist om dit widget te laten functioneren",
@@ -1223,6 +1265,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A selected feature is missing from the print: Selected features is switched off, or the selection was cleared before you pressed Export. Turn the switch on, reselect, then export.": {
+  "t": "Een geselecteerde functie ontbreekt in de afdruk: geselecteerde functies zijn uitgeschakeld, of de selectie is gewist voordat u Export ingedrukt had. Zet de schakelaar aan, selecteer opnieuw en exporteer daarna.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A selection highlight belongs to the map on screen, not to the map layers, so the widget draws the selected features onto the page itself, as a cyan outline with a thin white casing so it reads over aerial photography. Selections made in the Select, Table or Query widgets and shapes an app has drawn on the map are all picked up. This switch sets the starting position only; users can still turn it on or off per export.": {
+  "t": "Een selectie highlight behoort tot de kaart op het scherm, niet tot de kaart lagen, zodat het widget trekt de geselecteerde functies op de pagina zelf, als een cyaan overzicht met een dunne witte behuizing dus het leest over luchtfotografie. Selecties gemaakt in de widgets Select, Table of Query en vormen die een app op de kaart heeft getekend, worden allemaal opgehaald. Deze schakelaar stelt de startpositie alleen in; gebruikers kunnen deze nog steeds in- of uitschakelen per export.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A side with no selected layers shows the basemap and any shared map layers. You can use this to compare a layer with the basemap.": {
   "t": "Een zijde zonder geselecteerde lagen toont de basismap en alle gedeelde kaartlagen. Hiermee kun je een laag vergelijken met de basismap.",
   "src": "libretranslate",
@@ -1243,6 +1297,12 @@
  },
  "A to Z": {
   "t": "A tot Z",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A turned map stays turned. The coordinate information carries the turn too, so the picture still lines up with the ground in ArcGIS Pro, QGIS and Google Earth.": {
+  "t": "Een draaide kaart blijft draaien. De coördinerende informatie draagt ook de beurt, zodat het beeld nog steeds lijnt met de grond in ArcGIS Pro, QGIS en Google Earth.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1411,6 +1471,12 @@
  },
  "Add a QR code that opens this map": {
   "t": "Een QR-code toevoegen die deze kaart opent",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add a QR code that opens this map: prints a small square code. Anyone who scans it with a phone opens the live map in a browser.": {
+  "t": "Voeg een QR-code toe die deze kaart opent: drukt een kleine vierkante code af. Iedereen die het scant met een telefoon opent de live-kaart in een browser.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1925,8 +1991,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Advanced options cards open by default": {
+  "t": "Geavanceerde opties kaarten openen standaard",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Aerial and satellite imagery from the OpenStreetMap Editor Layer Index that covers the part of the map you are looking at. It is added under your layers, like a second basemap.": {
   "t": "Lucht- en satellietbeelden van de OpenStreetMap Editor Layer Index die het deel van de kaart waarop u kijkt bestrijkt. Het wordt toegevoegd onder je lagen, als een tweede basemap.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Aerial photography looks soft: you are zoomed in closer than the photography was flown. It is placed correctly, there is simply no more detail to show. Zoom out a little for a crisper page.": {
+  "t": "Luchtfotografie ziet er zacht uit: je wordt dichterbij ingezoomd dan de fotografie. Het is correct geplaatst, er is gewoon geen detail meer te tonen. Een beetje uitzoomen voor een fris pagina.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2392,6 +2470,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "App default": {
+  "t": "Standaard App",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "App-specific keeps drawings isolated to this experience; Global shares them across all experiences on this domain.": {
   "t": "App-specifiek houdt tekeningen geïsoleerd van deze ervaring; Global deelt ze over alle ervaringen op dit domein.",
@@ -2963,6 +3047,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Blank = outline color": {
+  "t": "Blanco = omtrekkleur",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Blank = signed-in username": {
+  "t": "Blanco = ingelogde gebruikersnaam",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Blank labels read Longitude and Latitude for a geographic system, X and Y otherwise.": {
   "t": "Blanco labels lezen Lengtegraad en Breedtegraad voor een geografisch systeem, X en Y anders.",
   "src": "libretranslate",
@@ -3485,6 +3581,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Cell ids (A1, B2) in each cell": {
+  "t": "Cel-ID's (A1, B2) in elke cel",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Center · {srLabel}": {
   "t": "Midden · {srLabel}",
   "src": "libretranslate",
@@ -3881,6 +3983,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Choose TIFF and turn on Georeference (world file) and you get a single file that ArcGIS Pro and QGIS open in the correct place with nothing else to keep track of. This is the one to use.": {
+  "t": "Kies TIFF en zet Georeference (world file) in en je krijgt een enkel bestand dat ArcGIS Pro en QGIS openen op de juiste plaats met niets anders om bij te houden. Dit is degene om te gebruiken.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Choose vertical alignment for text. Options are baseline, top, middle, or bottom. Currently set to {verticalAlignment}.": {
   "t": "Kies verticale uitlijning voor tekst. Opties zijn baseline, top, middle of bottom. Momenteel ingesteld op {verticalAlignment}.",
   "src": "libretranslate",
@@ -3931,6 +4039,12 @@
  },
  "Choosing layers": {
   "t": "Lagen kiezen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choosing what lands on the page": {
+  "t": "Kiezen wat er op de pagina terecht komt",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5507,6 +5621,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Corner coordinates": {
+  "t": "Hoekcoördinaten",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Could not copy the link": {
   "t": "Kon de verwijzing niet kopiëren",
   "src": "libretranslate",
@@ -5939,6 +6059,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Decimal degrees (108.51°W)": {
+  "t": "Decimale graden (108,51°W)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Decimal Degrees (DD)": {
   "t": "Decimale graden (DD)",
   "src": "libretranslate",
@@ -5947,6 +6073,12 @@
  },
  "Decimal degrees: decimal places": {
   "t": "Decimale graden: decimalen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Decimal minutes (108°30.5'W)": {
+  "t": "Decimale minuten (108°30,5'WL)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6011,6 +6143,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default author": {
+  "t": "Standaard auteur",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default basemap": {
   "t": "Standaard basemap",
   "src": "libretranslate",
@@ -6053,6 +6191,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default copyright": {
+  "t": "Standaard copyright",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default custom buffer color.": {
   "t": "Standaard aangepaste bufferkleur.",
   "src": "libretranslate",
@@ -6079,6 +6223,18 @@
  },
  "Default Field Mappings": {
   "t": "Standaard veldkaarten",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default file name": {
+  "t": "Standaard bestandsnaam",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default format": {
+  "t": "Standaardformaat",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6113,14 +6269,56 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default map DPI": {
+  "t": "Standaard kaart dpi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default map title": {
+  "t": "Standaard kaarttitel",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default Name Field": {
   "t": "Standaardnaamveld",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default north arrow": {
+  "t": "Standaard noord pijl",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default Opacity (%)": {
   "t": "Standaard dekking (%)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default output WKID (0 = map's own)": {
+  "t": "Standaard uitvoer WKID (0 = eigen kaart)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default scale bar style": {
+  "t": "Standaard schaalbalkstijl",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default scale bar units": {
+  "t": "Standaard schaalbalkeenheden",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default second units (dual)": {
+  "t": "Standaard tweede eenheden (duaal)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6671,8 +6869,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Double styles print a dual scale bar (two measurements sharing the zero point). Layout default picks the natural complement (miles-feet, meters-kilometers); choose a unit to override.": {
+  "t": "Dubbele stijlen drukken een dual scale bar (twee metingen delen het nulpunt). Layout standaard kiest de natuurlijke aanvulling (mijlen-voet, meters-kilometers); kies een eenheid om te overschrijven.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Double-click always finishes a line or area, and Esc always cancels one.": {
   "t": "Dubbelklikken eindigt altijd een lijn of gebied, en Esc annuleert er altijd één.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Double-click the .kmz in Google Earth Pro, or drag it into Google Earth on the web. The map is saved as a PNG inside it whatever Format you chose above.": {
+  "t": "Dubbelklik op de .kmz in Google Earth Pro, of sleep het naar Google Earth op het web. De kaart wordt opgeslagen als een PNG erin welk formaat je hierboven ook kiest.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7319,6 +7529,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Each app sets a page limit (50 map pages unless changed in Settings; the index and legend pages do not count). A grid over it switches Export off; use fewer Rows or Columns, or zoom out and use fewer, larger pages.": {
+  "t": "Elke app stelt een paginalimiet in (50 kaartpagina's tenzij gewijzigd in Instellingen; de index- en legendepagina's tellen niet mee). Een raster over het schakelt Export uit; gebruik minder rijen of kolommen, of zoom uit en gebruik minder, grotere pagina's.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Each button draws one kind of measurement. A blue bar at the top shows which tool is active.": {
   "t": "Elke knop tekent één soort meting. Een blauwe balk bovenaan toont welk gereedschap actief is.",
   "src": "libretranslate",
@@ -7333,6 +7549,12 @@
  },
  "Each button opens the pinned spot in another website: {links}.": {
   "t": "Elke knop opent de pinned spot in een andere website: {links}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Each card can be opened and closed by the user, and their choice is remembered in their browser. These are the starting positions. Map series opens by itself whenever a series is switched on.": {
+  "t": "Elke kaart kan worden geopend en gesloten door de gebruiker, en hun keuze wordt onthouden in hun browser. Dit zijn de startposities. Kaartenreeks opent vanzelf wanneer een serie wordt ingeschakeld.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8141,6 +8363,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Every PDF is also a GeoPDF. Open it in Avenza Maps on a phone to see your location as a blue dot on the map, read coordinates in Acrobat with the Geospatial Location tool, or add it to ArcGIS Pro or QGIS and it lands in the right place.": {
+  "t": "Elke PDF is ook een GeopDF. Open het in Avenza Maps op een telefoon om uw locatie te zien als een blauwe stip op de kaart, lees coördinaten in Acrobat met de Geospatial Locatie tool, of voeg het toe aan ArcGIS Pro of QGIS en het landt op de juiste plaats.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Every shape you draw is listed on the My Drawings tab.": {
   "t": "Elke vorm die je tekent staat vermeld op het tabblad Mijn tekeningen.",
   "src": "libretranslate",
@@ -8393,6 +8621,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Export as many times as you like. Change one thing, export again, and compare the two files.": {
+  "t": "Exporteer zo vaak als je wilt. Wijzig één ding, exporteer opnieuw en vergelijk de twee bestanden.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Export as Shapefile": {
   "t": "Exporteren als vormbestand",
   "src": "libretranslate",
@@ -8423,6 +8657,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Export defaults": {
+  "t": "Standaardinstellingen exporteren",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Export drawings to file": {
   "t": "Tekeningen exporteren naar bestand",
   "src": "libretranslate",
@@ -8431,6 +8671,12 @@
  },
  "Export formats for {name}": {
   "t": "Uitvoerformaten voor {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export is greyed out with a red message under Map series: the series is over this app's page limit. Use fewer rows or columns, or for one page per feature choose Inside the print area, zoom in, or filter the layer.": {
+  "t": "Exporteren wordt grijs gemaakt met een rood bericht onder Kaart serie: de serie is over de pagina limiet van deze app. Gebruik minder rijen of kolommen, of kies voor één pagina per functie In het afdrukgebied, inzoomen of filteren van de laag.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8557,6 +8803,12 @@
  },
  "Exporting": {
   "t": "Exporteren",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Exporting…": {
+  "t": "Exporteren...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9065,6 +9317,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Finished exports are listed under Recent exports at the bottom of the panel, newest first. Click the file name to save it to your computer.": {
+  "t": "Afgewerkte uitvoer is opgenomen onder Recente uitvoer onderaan het panel, de nieuwste eerst. Klik op de bestandsnaam om het op te slaan op uw computer.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Finishing up…": {
   "t": "Afmaken...",
   "src": "libretranslate",
@@ -9079,6 +9337,12 @@
  },
  "Fixed scale": {
   "t": "Vaste schaal",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fixed scale: prints at the exact scale you type, for example 24000 for 1:24,000. Use this when the page has to match another map.": {
+  "t": "Vaste schaal: afdrukken op de exacte schaal die u typt, bijvoorbeeld 24000 voor 1:24.000. Gebruik dit wanneer de pagina moet overeenkomen met een andere kaart.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9353,6 +9617,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Font: changes the typeface for all the text on the page. App default uses the layout font.": {
+  "t": "Lettertype: wijzigt het lettertype voor alle tekst op de pagina. App standaard gebruikt het layout lettertype.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "for {count} selected buffer": {
   "t": "voor {count} geselecteerde buffer",
   "src": "libretranslate",
@@ -9395,6 +9665,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "For one page per parcel, park or project, set Pages from to One page per feature and pick the layer. Features chooses which ones: in the current map view, inside the print area rectangle, or the whole layer, even beyond the map. Any filter on the layer (from Map Layers, a Filter widget or the map itself) is applied too. Only layers in the map's layer list that are turned on are listed (whichever layer list widget you use), including ones inside groups, nested groups and map image services, shown with their group path, like Utilities / Water / Mains. Each page centers on its feature, outlines it in orange and prints at the best-fit scale, or the fixed scale you set. Text in the layout that uses {field:NAME} shows that feature's value.": {
+  "t": "Voor één pagina per pakket, parkeren of project, stel Pagina's in van één pagina per functie en kies de laag. Eigenschappen kiest welke: in de huidige kaartweergave, binnen het afdrukgebied rechthoek, of de hele laag, zelfs buiten de kaart. Elk filter op de laag (van Kaartlagen, een Filter-widget of de kaart zelf) wordt ook toegepast. Alleen lagen in de lagenlijst van de kaart die zijn ingeschakeld, staan vermeld (welke laaglijst widget u ook gebruikt), inclusief die in groepen, geneste groepen en afbeeldingsdiensten, weergegeven met hun groepspad, zoals Hulpmiddelen / Water / Mains. Elke pagina richt zich op zijn functie, schetst het in oranje en drukt op de best passende schaal, of de vaste schaal die u stelt. Tekst in de layout die {field:NAME} gebruikt toont de waarde van die functie.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "For the best experience, use a modern web browser": {
   "t": "Voor de beste ervaring, gebruik een moderne webbrowser",
   "src": "libretranslate",
@@ -9421,6 +9697,12 @@
  },
  "Format a field as a number, currency, percent, or date, or turn it into a link built from a URL template with {FIELD_NAME} tokens.": {
   "t": "Formatteer een veld als een getal, valuta, procent, of datum, of zet het om in een link gebouwd van een URL-sjabloon met {FIELD_NAME} penningen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Format decides the kind of file you get. If you are not sure, use PDF.": {
+  "t": "Format bepaalt welk soort bestand je krijgt. Als u het niet zeker weet, gebruik PDF.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9487,6 +9769,12 @@
  },
  "Freeze the print area over the current ground location so it stays put while you pan or zoom.": {
   "t": "Bevries het afdrukgebied over de huidige grondlocatie zodat het blijft zitten terwijl u pan of zoomt.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "From .pagx": {
+  "t": "Van .pagx",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9749,14 +10037,32 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "GeoPDF coordinates in PDF exports": {
+  "t": "GeopDF-coördinaten in PDF-export",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Georeference (world file)": {
   "t": "Georeferentie (wereldbestand)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Get the map looking the way you want, pick a Layout, type a Map title, then press Export. Your file appears at the bottom of the panel.": {
+  "t": "Kies de kaart zoals je wilt, kies een lay-out, typ een kaarttitel en druk vervolgens op Exporteren. Uw bestand verschijnt onderaan het paneel.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Getting the address of a spot": {
   "t": "Het adres van een plek ophalen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Getting your file": {
+  "t": "Uw bestand ophalen",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9809,6 +10115,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Google Earth (KMZ): gives you one .kmz file with the map draped over the globe in the right place. All four corners are placed separately, so the picture is not stretched.": {
+  "t": "Google Earth (KMZ): geeft u een .kmz bestand met de kaart gedrapeerd over de wereld op de juiste plaats. Alle vier de hoeken zijn apart geplaatst, zodat de foto niet is uitgerekt.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Google Maps 3D": {
   "t": "Google Maps 3D",
   "src": "libretranslate",
@@ -9823,6 +10135,12 @@
  },
  "Graticule (lat/long)": {
   "t": "Graticule (lat/lang)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "grid": {
+  "t": "raster",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9877,6 +10195,18 @@
  },
  "Grid is enabled. Theme: {gridTheme}. Spacing: {gridSpacingMode}. Rotation: {gridRotation} degrees.": {
   "t": "Raster is ingeschakeld. Thema: {gridTheme}Ruimte: {gridSpacingMode}Rotatie: {gridRotation} graden.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid labels are missing on a turned map: labels that would overlap another label are left off so none print on top of each other. Use a larger interval, fewer label sides, or smaller labels.": {
+  "t": "Rasterlabels ontbreken op een gedraaide kaart: labels die een ander label zouden overlappen worden weggelaten zodat er geen print op elkaar staat. Gebruik een groter interval, minder etiketten, of kleinere labels.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid on by default": {
+  "t": "Raster standaard aan",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9949,6 +10279,12 @@
  },
  "Grid size": {
   "t": "Rastergrootte",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid size shrinks the whole grid toward the middle, which is a quick way to trim empty edges without changing rows and columns.": {
+  "t": "De rastergrootte krimpt het hele raster naar het midden, wat een snelle manier is om lege randen te trimmen zonder van rijen en kolommen te veranderen.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10031,6 +10367,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Grid style for this export: latitude/longitude graticule, measured grid in map units, or lettered reference grid.": {
+  "t": "Rasterstijl voor deze export: breedtegraad/lengtegraad-graticule, gemeten raster in kaarteenheden, of geletterd referentieraster.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid style panel": {
+  "t": "Rasterstijlpaneel",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid style: open it under Grid type to change the grid your way. Pick the line color, width, opacity and pattern, or draw only edge ticks and crosses. Set a custom interval, the label color, size, bold and halo, which sides get labels, labels that run along the side edges, and the coordinate or number format. Reference grids can put letters on rows and print cell ids like A1 in every cell. Reset to layout grid puts everything back.": {
+  "t": "Rasterstijl: open het onder Rastertype om het raster op uw manier te veranderen. Kies de lijnkleur, breedte, dekking en patroon, of teken alleen kant teken en kruisen. Stel een aangepaste interval, de label kleur, grootte, vet en halo, welke zijden krijgen labels, labels die lopen langs de zijkanten, en de coördinaat of nummer formaat. Referentierasters kunnen letters op rijen zetten en cel-id's zoals A1 afdrukken in elke cel. Reset naar layout raster zet alles terug.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Grid theme changed to {newTheme}": {
   "t": "Rasterthema gewijzigd in {newTheme}",
   "src": "libretranslate",
@@ -10051,6 +10405,12 @@
  },
  "Grid unit changed to {newUnit}": {
   "t": "Rastereenheid veranderd in {newUnit}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid: adds the grid or graticule the layout was built with. Grid type switches between a latitude and longitude graticule, a measured grid in map units, and a lettered reference grid like A-1. When the layout turns on corner labels, each map corner also shows its exact coordinate.": {
+  "t": "Raster: voegt het raster of graticule de lay-out is gebouwd met. Het rastertype schakelt tussen een breedtegraad en lengtegraad, een gemeten raster in kaarteenheden en een geletterd referentieraster zoals A-1. Wanneer de lay-out draait op hoeklabels, elke kaarthoek toont ook zijn exacte coördinaat.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10385,6 +10745,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Hide legend layers not drawn at the print scale": {
+  "t": "Legendelagen verbergen die niet getekend zijn op de afdrukschaal",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hide legend layers with nothing in the print area": {
+  "t": "Legendelagen verbergen met niets in het afdrukgebied",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Hide measurements": {
   "t": "Metingen verbergen",
   "src": "libretranslate",
@@ -10483,6 +10855,12 @@
  },
  "Hover a view in the list and use the trash icon to delete it.": {
   "t": "Beweeg een weergave in de lijst en gebruik het prullenbakpictogram om het te verwijderen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hover over any label in this panel for a one-line explanation without opening this guide.": {
+  "t": "Zweef over elk label in dit paneel voor een one-line uitleg zonder deze gids te openen.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10588,6 +10966,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "If the legend is too big to fit beside the map, a note appears offering to move it to additional pages. You can keep it beside the map instead.": {
+  "t": "Als de legende te groot is om naast de kaart te passen, verschijnt er een noot om het naar extra pagina's te verplaatsen. Je kunt het naast de kaart houden.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "If the misclose ratio (1:n) meets or exceeds this n, points snap closed and the compass rule is applied": {
   "t": "Indien de foutieve verhouding (1:n) deze n meet of overschrijdt, worden de punten gesloten en wordt de kompasregel toegepast",
@@ -10781,6 +11165,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "In PDF and SVG, feature layers drawn with simple symbols (parcels, lines, points, hatched fills, custom and picture markers) print as true lines and shapes instead of a picture, so they stay sharp at any zoom and the file stays small. Their labels come along as real text, including label classes that only label some features. Layers with Arcade labels or effects still print as a picture; the export note lists which ones and why.": {
+  "t": "In PDF en SVG, feature lagen getekend met eenvoudige symbolen (parcels, lijnen, punten, uitgebroede fills, aangepaste en afbeelding markers) afdrukken als ware lijnen en vormen in plaats van een afbeelding, zodat ze scherp blijven bij elke zoom en het bestand blijft klein. Hun labels komen langs als echte tekst, inclusief label classes die alleen een aantal functies labelen. Lagen met Arcade labels of effecten printen nog steeds als een afbeelding; de exportnota vermeldt welke en waarom.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "In the {batchOptions} menu, choose {showFavoritesOnly} to list only your starred layers and their groups. Choose {showAllLayers} to go back.": {
   "t": "In de {batchOptions} menu, kies {showFavoritesOnly} om alleen je sterrenlagen en hun groepen op te noemen. Kies {showAllLayers} om terug te gaan.",
   "src": "libretranslate",
@@ -10873,6 +11263,18 @@
  },
  "Include legend": {
   "t": "Legende opnemen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include legend: adds the layer symbols. Only the layers actually drawing at the printed scale are listed, so the legend matches the map.": {
+  "t": "Inclusief legende: voegt de laag symbolen. Alleen de lagen die eigenlijk op de gedrukte schaal getekend worden, worden vermeld, dus de legende komt overeen met de kaart.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include map attribution": {
+  "t": "Kaarttoeschrijving toevoegen",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11153,6 +11555,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "It picks up a parcel you clicked, features chosen in a Select, Table or Query widget, and shapes an app has drawn on the map.": {
+  "t": "Het pakt een pakket dat u klikte, functies gekozen in een Select, Table of Query widget, en vormt een app heeft getekend op de kaart.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "It says Loading measurement tools for a long time: the map is still starting. Give it a moment, then reload the page.": {
   "t": "Er staat Load meetinstrumenten voor een lange tijd: de kaart begint nog steeds. Geef het een moment en herlaad de pagina.",
   "src": "libretranslate",
@@ -11296,6 +11704,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Keep map rotation in georeferenced images": {
+  "t": "Kaartrotatie in georeferentiebeelden behouden",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Keep New Only": {
   "t": "Alleen nieuw houden",
@@ -11855,6 +12269,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Layers in PDF and SVG exports": {
+  "t": "Lagen in PDF en SVG-export",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "layers on": {
   "t": "lagen op",
   "src": "libretranslate",
@@ -11881,6 +12301,12 @@
  },
  "Layout default": {
   "t": "Standaardindeling",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layout DPI": {
+  "t": "Opmaak dpi",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11981,6 +12407,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "legend": {
+  "t": "legende",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Legend": {
   "t": "Legende",
   "src": "libretranslate",
@@ -12005,6 +12437,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Legend on by default": {
+  "t": "Standaard ingelogd",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Legend page {i} of {n}": {
   "t": "Legende pagina {i} van {n}",
   "src": "libretranslate",
@@ -12013,6 +12451,12 @@
  },
  "Legend placement": {
   "t": "Legende plaatsing",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Legend placement: beside the map, over a corner of it, or on Additional pages (PDF only). Beside the map, the map shrinks to make room. On additional pages, every item stays full size.": {
+  "t": "Legende plaatsing: naast de kaart, over een hoek ervan, of op Extra pagina's (alleen PDF). Naast de kaart krimpt de kaart om ruimte te maken. Op extra pagina's, elk item blijft full size.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12125,6 +12569,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Line color (any)": {
+  "t": "Regelkleur (alle)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Line layer (traverse lines)": {
   "t": "Lijnlaag (doorlopende lijnen)",
   "src": "libretranslate",
@@ -12175,6 +12625,12 @@
  },
  "Line opacity": {
   "t": "Lijnopaciteit",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Line pattern": {
+  "t": "Regelpatroon",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12295,6 +12751,12 @@
  },
  "Link text (optional)": {
   "t": "Linktekst (facultatief)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Link the title to the pages: while Map series is open, the buttons under Map title add Page name, Page number or any visible field, and the line under them shows how page 1's title will read. Order sorts the pages A to Z or Z to A by the name field. The Overview inset switch adds a locator overview to every data-driven page.": {
+  "t": "Koppel de titel aan de pagina's: terwijl Map serie is geopend, de knoppen onder Kaart titel toevoegen Pagina naam, Pagina nummer of een zichtbaar veld, en de regel onder hen toont hoe pagina 1 titel zal lezen. Bestel de pagina's A tot Z of Z tot A bij het naamveld. De Inset Switch Overview voegt een overzicht toe aan elke data-gestuurde pagina.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12593,6 +13055,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Lock print area pins that rectangle over the ground. You can then pan and zoom to look around, and the printed area stays where you put it. Turn it off to release.": {
+  "t": "Vergrendel afdruk gebied pinnen die rechthoek over de grond. Je kunt dan pannen en inzoomen om rond te kijken, en het bedrukte gebied blijft waar je het neerzet. Zet het uit om los te laten.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Locked": {
   "t": "Vergrendeld",
   "src": "libretranslate",
@@ -12839,6 +13307,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map DPI sets how fine the map picture is. Layout default is fine for most work. 300 is sharper but takes noticeably longer and makes a much bigger file.": {
+  "t": "Kaart DPI geeft aan hoe fijn de kaart is. Layout standaard is prima voor de meeste werkzaamheden. 300 is scherper maar duurt merkbaar langer en maakt een veel groter bestand.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map fields": {
   "t": "Kaartvelden",
   "src": "libretranslate",
@@ -12929,6 +13403,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map only (no layout): gives you just the map picture, with no title, legend or border. Use it when you want to drop the map into something else.": {
+  "t": "Kaart alleen (geen layout): geeft alleen de kaartfoto, zonder titel, legende of rand. Gebruik het als je de kaart ergens anders in wilt laten vallen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map only necessary fields": {
   "t": "Alleen benodigde velden in kaart brengen",
   "src": "libretranslate",
@@ -12967,6 +13447,12 @@
  },
  "Map series cancelled. Nothing was downloaded.": {
   "t": "Kaartreeks geannuleerd. Er is niets gedownload.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map series limits": {
+  "t": "Limieten van de kaartreeks",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13060,6 +13546,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Maps that open in the right place": {
+  "t": "Kaarten die op de juiste plaats openen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Margins": {
   "t": "Marges",
@@ -13156,6 +13648,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Max map capture (px, long edge; blank = auto)": {
+  "t": "Max. kaartopname (px, lange rand; blanco = auto)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Max scale": {
   "t": "Max. schaalverdeling",
@@ -14525,6 +15023,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "None (single bar)": {
+  "t": "Geen (enkele balk)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "None (transparent)": {
   "t": "Geen (transparant)",
   "src": "libretranslate",
@@ -14533,6 +15037,12 @@
  },
  "none selected": {
   "t": "geen geselecteerd",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "North arrow": {
+  "t": "Noord pijl",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14615,6 +15125,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Nothing downloaded: your browser may have blocked it. Look for a blocked download notice in the address bar, or click the file name under Recent exports again.": {
+  "t": "Niets gedownload: uw browser kan het geblokkeerd hebben. Zoek naar een geblokkeerde download notificatie in de adresbalk, of klik weer op de bestandsnaam onder Recente export.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Nothing extra": {
   "t": "Niets extra's.",
   "src": "libretranslate",
@@ -14653,6 +15169,12 @@
  },
  "Nothing is found where you know a feature is: the click landed just off the edge. Zoom in and click again, nearer the middle of the feature.": {
   "t": "Niets wordt gevonden waar je weet dat een functie is: de klik landde net van de rand. Zoom in en klik opnieuw, dichter bij het midden van de functie.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Nothing you change here affects the map itself or anyone else. It only changes the page you are about to make.": {
+  "t": "Niets wat je hier verandert beïnvloedt de kaart zelf of iemand anders. Het verandert alleen de pagina die je gaat maken.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14705,6 +15227,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Number format": {
+  "t": "Nummerformaat",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Number of decimal places for area and perimeter measurements, minimum 0, maximum 10": {
   "t": "Aantal decimalen voor oppervlakte- en perimetermetingen, minimum 0, maximum 10",
   "src": "libretranslate",
@@ -14747,6 +15275,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Numbered outlines appear on the map showing the pages. They follow you as you pan and zoom, so you can see the split before you commit to it.": {
+  "t": "Genummerde contouren verschijnen op de kaart met de pagina's. Ze volgen je terwijl je pan en zoomt, zodat je de splitsing kunt zien voordat je je eraan commit.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Numpad shortcuts: + moves from bearing to length and adds the line from length or radius. / jumps from length to radius.": {
   "t": "Numpad sneltoetsen: + beweegt van lager naar lengte en voegt de lijn van lengte of radius. / springen van lengte naar radius.",
   "src": "libretranslate",
@@ -14777,14 +15311,50 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Off by default, so georeferenced map-only images and KMZ files are captured north-up. On, a rotated map keeps its rotation: the world file carries the rotation terms, a GeoTIFF uses a ModelTransformationTag, and the KMZ drapes as a rotated quad.": {
+  "t": "Standaard uit, dus georeferenced map-only images en KMZ-bestanden worden noord-up vastgelegd. Aan, een gedraaide kaart houdt zijn rotatie: het wereld bestand draagt de rotatie termen, een GeoTIFF gebruikt een ModelTransformationTag, en de KMZ gordijnen als een gedraaide quad.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Off by default. Each export asks every visible feature layer how many features fall inside the printed area, and leaves layers with none off the legend. A layer that cannot be asked (tiles, imagery) or does not answer in time is always kept. Map series judge against the whole series area.": {
+  "t": "Standaard uit. Elke export vraagt elke zichtbare featurelaag hoeveel features binnen het afgedrukte gebied vallen, en laat lagen achter zonder de legende. Een laag die niet gevraagd kan worden (tegels, afbeeldingen) of niet op tijd antwoordt wordt altijd bewaard. Kaart serie rechter tegen het hele serie gebied.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Off by default. Feature layers drawn with simple symbols (solid fills, lines and dashes, circle, square, diamond, triangle, cross and x markers; single symbol, unique values or class breaks) print as true vector shapes, crisp at any zoom and each in its own PDF layer. Hatched fills, custom path markers and picture markers come along too, and so do labels (field labels with halos, placed and deconflicted like the map does, including label classes with a where clause). Layers with clustering, effects, visual variables, Arcade renderers or Arcade labels, rotated picture markers or other symbols stay as pixels, and each export lists them with the reason. Works on rotated maps and on every map series and feature page sheet. Up to 20,000 features per layer.": {
+  "t": "Standaard uit. Eigenschappen lagen getekend met eenvoudige symbolen (vaste vullingen, lijnen en streepjes, cirkel, vierkant, diamant, driehoek, kruis en x markers; enkel symbool, unieke waarden of klasse breaks) printen als ware vectorvormen, knapperen op elke zoom en elk in zijn eigen PDF-laag. Ook vullingen, aangepaste padmarkeringen en afbeeldingsmarkeringen komen langs, en dat doen labels (veldetiketten met halo's, geplaatst en verwijderd zoals de kaart doet, inclusief labelklassen met een waar clausule). Lagen met clustering, effecten, visuele variabelen, Arcade renders of Arcade labels, gedraaide afbeelding markers of andere symbolen blijven als pixels, en elke export geeft ze met de reden. Werkt op gedraaide kaarten en op elke kaart serie en functie paginablad. Tot 20.000 functies per laag.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Off by default. On, each export logs to the browser console (F12) how many selected features were found and how many reached the page. Use it when a highlight does not print: the selection lives in the map view rather than in this widget, so the log is the only way to see what was found.": {
+  "t": "Standaard uit. Aan, elke export logs naar de browser console (F12) hoeveel geselecteerde functies werden gevonden en hoeveel bereikt de pagina. Gebruik het wanneer een hoogtepunt niet afdrukt: de selectie leeft in de kaartweergave in plaats van in dit widget, dus het logboek is de enige manier om te zien wat gevonden is.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Off: every run adds another layer, numbered (2), (3) and so on.": {
   "t": "Uit: elke run voegt een andere laag toe, genummerd (2), (3) enzovoort.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Offer \"Map only\" export": {
+  "t": "Aanbod \"Alleen kaart\" exporteren",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Offer {name} on the Coordinates tab": {
   "t": "Aanbod {name} op het tabblad Coördinaten",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer output coordinate system (WKID)": {
+  "t": "Biedt uitvoercoördinaatsysteem (WKID)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14842,6 +15412,24 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "On by default. A layer whose visible scale range excludes the printed scale is left off the legend, so the legend never lists a symbol the map does not show.": {
+  "t": "Standaard. Een laag waarvan het zichtbare schaalbereik de afgedrukte schaal niet weergeeft, zodat de legende nooit een symbool op de kaart weergeeft.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On by default. Every PDF map frame carries its coordinate system and corner coordinates, so Avenza Maps shows your location on the page, Acrobat reads coordinates with its Geospatial Location tool, and ArcGIS Pro and QGIS open the PDF in place. Map series georeference every sheet and the index page.": {
+  "t": "Standaard. Elk PDF kaart frame draagt zijn coördinatensysteem en hoekcoördinaten, dus Avenza Maps toont uw locatie op de pagina, Acrobat leest coördinaten met zijn Geospatial Locatie tool, en ArcGIS Pro en QGIS openen de PDF op zijn plaats. Kaartreeks georeferenceer elk blad en de indexpagina.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On by default. The map, grid, selection, overview, legend, north arrow and scale bar, text, graphics and QR code each go in their own layer, so they can be switched on and off in Acrobat, Avenza Maps, Illustrator or Inkscape. Map series add a Map series layer for the page outlines and numbers.": {
+  "t": "Standaard. De kaart, raster, selectie, overzicht, legende, noord pijl en schaalbalk, tekst, graphics en QR code gaan elk in hun eigen laag, zodat ze kunnen worden ingeschakeld en uitgeschakeld in Acrobat, Avenza Maps, Illustrator of Inkscape. Map serie voegt een Map serie laag voor de pagina contouren en nummers.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "On the {address} tab.": {
   "t": "Op de {address} tab.",
@@ -14983,6 +15571,12 @@
  },
  "One page per feature": {
   "t": "Eén pagina per functie",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "One PDF comes out with every page in it. The legend prints on every sheet, the same way ArcGIS Pro does it.": {
+  "t": "Eén PDF verschijnt met elke pagina erin. De legende drukt op elk blad, net zoals ArcGIS Pro het doet.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15245,6 +15839,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Output coordinate system (WKID): prints in a different coordinate system than the map uses. Leave it at 0 unless someone has asked you for a particular one.": {
+  "t": "Uitvoercoördinatensysteem (WKID): afdrukken in een ander coördinatensysteem dan de kaart gebruikt. Laat het op 0, tenzij iemand om een bepaalde vraag heeft gevraagd.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Output size (px)": {
   "t": "Uitvoergrootte (px)",
   "src": "libretranslate",
@@ -15293,8 +15893,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "overview inset": {
+  "t": "overzichtsinset",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Overview inset": {
   "t": "Overzichtsinstelling",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Overview inset: adds the small locator map in the corner, with a red box showing where the main map sits.": {
+  "t": "Overzichtsingang: voegt de kleine locatorkaart toe in de hoek, met een rode doos die aangeeft waar de hoofdkaart zit.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Overview map on by default": {
+  "t": "Overzichtskaart op standaard",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15347,6 +15965,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "page font": {
+  "t": "paginalettertype",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Page name": {
   "t": "Paginanaam",
   "src": "libretranslate",
@@ -15377,6 +16001,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Page preview shows gray areas: part of the print area is off the screen, so the preview has nothing to show there. Pan or zoom out to see it; the exported file is not affected.": {
+  "t": "Paginavoorbeeld toont grijze gebieden: een deel van het afdrukgebied is van het scherm, dus de preview heeft daar niets te zien. Pan of zoom uit om het te zien; het geëxporteerde bestand wordt niet beïnvloed.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Page Size": {
   "t": "Paginagrootte",
   "src": "libretranslate",
@@ -15403,6 +16033,12 @@
  },
  "Pagination complete. Total features collected: {count}": {
   "t": "Paginatie voltooid. Totaal verzamelde kenmerken: {count}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Pan and zoom the map to what you want on the page. What you see is what prints.": {
+  "t": "Pan en zoom de kaart naar wat je wilt op de pagina. Wat je ziet is wat afdrukken zijn.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15473,6 +16109,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "PDF and SVG files come with layers. In Acrobat or Avenza Maps open the Layers panel to hide the grid, the selection outline, the legend or the text; in Illustrator or Inkscape each part is its own layer.": {
+  "t": "PDF- en SVG-bestanden worden geleverd met lagen. In Acrobat of Avenza Maps opent u het Lagenpaneel om het raster, de selectieomtrek, de legende of de tekst te verbergen; in Illustrator of Inkscape is elk deel zijn eigen laag.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "PDF export options": {
   "t": "PDF-exportopties",
   "src": "libretranslate",
@@ -15493,6 +16135,12 @@
  },
  "PDF opens a small window first so you can choose what goes on the page.": {
   "t": "PDF opent eerst een klein venster zodat u kunt kiezen wat er op de pagina staat.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "PDF: best for printing on paper and for sending to someone. Text and lines stay sharp at any zoom.": {
+  "t": "PDF: het beste voor het afdrukken op papier en voor het verzenden naar iemand. Tekst en regels blijven scherp bij elke zoom.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15601,6 +16249,12 @@
  },
  "Pick a draw tool (Point, Line, Polygon, Rectangle, or Circle), then draw on the map. Everything inside is selected.": {
   "t": "Kies een tekengereedschap (Point, Line, Polygon, Rechthoek, of Cirkel), dan tekenen op de kaart. Alles binnenin is geselecteerd.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Pick a Layout, then type a Map title. The title is what prints at the top of the page.": {
+  "t": "Kies een lay-out, typ dan een kaarttitel. De titel staat bovenaan de pagina.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15853,6 +16507,18 @@
  },
  "Please wait, do not close this window...": {
   "t": "Wacht, dit venster niet sluiten...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "PNG, JPG and GIF instead get two small companion files beside the image. Keep all of them together in the same folder or the placement is lost.": {
+  "t": "PNG, JPG en GIF krijgen in plaats daarvan twee kleine metgezel bestanden naast de afbeelding. Houd ze allemaal samen in dezelfde map of de plaatsing is verloren.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "PNG32, PNG8, JPG or GIF: a picture, for a report, a slide or a web page. PNG32 is the sharpest.": {
+  "t": "PNG32, PNG8, JPG of GIF: een foto, voor een rapport, een dia of een webpagina. PNG32 is de scherpste.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16115,6 +16781,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Preserve map extent (fit view): prints everything you can see now, and picks whatever scale that needs. Use this when you must not lose anything off the edges.": {
+  "t": "Bewaar map extent (fit view): drukt alles af wat je nu kunt zien, en kiest elke schaal die nodig is. Gebruik dit wanneer u niets aan de randen mag verliezen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Preserve map scale": {
   "t": "Kaartschaal behouden",
   "src": "libretranslate",
@@ -16123,6 +16795,12 @@
  },
  "Preserve map scale (current)": {
   "t": "Kaartschaal behouden (huidige)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preserve map scale (current): prints at the same scale you are looking at. The page may show a little more or less ground than the screen, because the page is a different shape than your browser window.": {
+  "t": "Bewaar kaartschaal (stroom): afdrukken op dezelfde schaal als waar u naar kijkt. De pagina kan een beetje meer of minder grond dan het scherm, omdat de pagina is een andere vorm dan uw browservenster.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16247,6 +16925,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Press Export. The panel dims and a message tells you what it is working on. When it finishes, the file appears under Recent exports at the bottom. Click its name to save it.": {
+  "t": "Pers Exporteren. Het paneel dimt en een bericht vertelt u waar het aan werkt. Als het klaar is, verschijnt het bestand onder Recente export onderaan. Klik op de naam om het op te slaan.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Press F on a focused basemap to add or remove it from favorites.": {
   "t": "Druk op F op een gerichte basemap om het toe te voegen of te verwijderen uit favorieten.",
   "src": "libretranslate",
@@ -16301,6 +16985,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Preview fill color (hex)": {
+  "t": "Voorbeeld vulkleur (hex)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Preview first record": {
   "t": "Voorbeeld eerste record",
   "src": "libretranslate",
@@ -16327,6 +17017,18 @@
  },
  "Preview of the printed page": {
   "t": "Voorbeeld van de afgedrukte pagina",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preview outline color (hex)": {
+  "t": "Voorbeeld omtrekkleur (hex)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preview outline width (px)": {
+  "t": "Omtrekbreedte voorbeeld (px)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16361,6 +17063,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Print Advanced turns the map on your screen into a finished page: the same layout your ArcGIS Pro template uses, with a title, legend and scale bar, ready to print or send.": {
+  "t": "Print Advanced maakt van de kaart op uw scherm een voltooide pagina: dezelfde lay-out die uw ArcGIS Pro-sjabloon gebruikt, met een titel, legende en weegbalk, klaar om af te drukken of te verzenden.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Print area": {
   "t": "Printgebied",
   "src": "libretranslate",
@@ -16373,8 +17081,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Print area, the first card under Advanced options, decides how much ground fits in the map frame. Three choices, under Scale.": {
+  "t": "Print gebied, de eerste kaart onder Geavanceerde opties, bepaalt hoeveel grond past in het kaartframe. Drie keuzes, onder Scale.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Print as a map series (PDF)": {
   "t": "Afdrukken als kaartreeks (PDF)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Print selected features by default": {
+  "t": "Standaard geselecteerde functies afdrukken",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16405,6 +17125,18 @@
  },
  "Print-Ready Labels: spread out the labels so they do not overlap when exported to PDF.": {
   "t": "Print-Ready Labels: verspreid de labels zodat ze niet overlappen wanneer geëxporteerd naar PDF.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Printing a large area over several pages": {
+  "t": "Een groot gebied over meerdere pagina's afdrukken",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Printing what you have selected": {
+  "t": "Afdrukken wat u hebt geselecteerd",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16555,6 +17287,12 @@
  },
  "Radius measurement enabled. Display the circle radius.": {
   "t": "Radiusmeting ingeschakeld. Toon de cirkelradius.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Raster EPS (Level 2, JPEG-embedded). For vector output use PDF or SVG.": {
+  "t": "Raster EPS (niveau 2, JPEG-embedded). Voor vectoruitvoer gebruik PDF of SVG.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16873,6 +17611,12 @@
  },
  "Remove from list": {
   "t": "Verwijderen uit lijst",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Remove from list clears one item and Clear empties the whole list. Neither deletes a file you have already saved.": {
+  "t": "Verwijderen uit lijst verwijdert een item en Wissen leegt de hele lijst. Geen van beide verwijdert een bestand dat u al hebt opgeslagen.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17603,6 +18347,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Scale bar style": {
+  "t": "Balkstijl schalen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Scale bar units": {
+  "t": "Balkeenheden schalen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Scale field": {
   "t": "Veld schalen",
   "src": "libretranslate",
@@ -17741,6 +18497,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Search the guide (try \"legend\" or \"blank\")": {
+  "t": "De gids doorzoeken (probeer \"legend\" of \"blanco\")",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Search the guide (try \"load\" or \"fields\")": {
   "t": "De gids doorzoeken (probeer \"load\" of \"fields\")",
   "src": "libretranslate",
@@ -17770,6 +18532,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Second units (dual)": {
+  "t": "Tweede eenheden (dubbel)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "See how your label format will appear": {
   "t": "Zie hoe uw labelformaat zal verschijnen",
@@ -18253,6 +19021,12 @@
  },
  "Selected features are outlined in cyan on the print. Turn this off to print the map without them.": {
   "t": "Geselecteerde functies worden weergegeven in cyaan op de afdruk. Zet dit uit om de kaart zonder hen af te drukken.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Selected features: turn this on and anything you have selected is outlined on the print, in cyan with a thin white edge so it reads over dark aerial photography.": {
+  "t": "Geselecteerde functies: zet dit aan en alles wat je hebt geselecteerd wordt weergegeven op de print, in cyaan met een dunne witte rand, zodat het leest over donkere luchtfotografie.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19619,6 +20393,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Still stuck? Contact the GIS Division and mention the Print Advanced widget and this app.": {
+  "t": "Nog steeds vast? Neem contact op met de GIS Division en vermeld de Print Advanced widget en deze app.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Still stuck? Contact your GIS team and mention the Draw Advanced widget and this app.": {
   "t": "Nog steeds vast? Neem contact op met uw GIS-team en vermeld de Draw Advanced widget en deze app.",
   "src": "libretranslate",
@@ -19753,6 +20533,12 @@
  },
  "Supported label formats": {
   "t": "Ondersteunde labelformaten",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "SVG or SVGZ: for editing the page afterwards in Illustrator or Inkscape. SVGZ is the same file, just smaller.": {
+  "t": "SVG of SVGZ: voor het bewerken van de pagina achteraf in Illustrator of Inkscape. SVGZ is hetzelfde bestand, gewoon kleiner.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20369,6 +21155,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The export is taking a long time: a high Map DPI or a large page takes longer. Keep the tab open and give it a few minutes. The message in the panel tells you what it is working on.": {
+  "t": "De export duurt lang: een hoge Map DPI of een grote pagina duurt langer. Hou de rekening open en geef het een paar minuten. Het bericht in het paneel vertelt u waar het aan werkt.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The expression choice lets you write a short formula, such as helpers.upper($.NAME). Write $.FIELD to read a value from your data.": {
   "t": "De expressiekeuze laat je een korte formule schrijven, zoals helpers.upper($.NAME). Schrijf $.FIELD om een waarde uit uw gegevens te lezen.",
   "src": "libretranslate",
@@ -20389,6 +21181,12 @@
  },
  "The feature you are reading is outlined on the map, so you can see which one it is.": {
   "t": "De functie die u leest wordt beschreven op de kaart, zodat u kunt zien welke het is.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The file is a PDF unless you change it: open Advanced options and pick a Format under Output. PDF is the safe choice for anything you plan to print on paper.": {
+  "t": "Het bestand is een PDF tenzij u het wijzigt: open Geavanceerde opties en kies een formaat onder Output. PDF is de veilige keuze voor alles wat u van plan bent op papier af te drukken.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20501,11 +21299,23 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The list is only for this visit. It empties when you close or reload the app, so save anything you want to keep.": {
+  "t": "De lijst is alleen voor dit bezoek. Het leegt wanneer u sluit of herlaadt de app, dus sla alles wat u wilt houden.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The Load step checks the work, then writes the records into the layer.": {
   "t": "De Load stap controleert het werk en schrijft de records in de laag.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The map area is blank or grey: the map had not finished drawing. Wait until the map is still and every layer has appeared, then export again.": {
+  "t": "Het kaartgebied is leeg of grijs: de kaart was nog niet klaar met tekenen. Wacht tot de kaart stil is en elke laag is verschenen, en exporteer dan opnieuw.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The map does not move or change scale by itself. Use the zoom action in the details when you want the map to go there.": {
   "t": "De kaart beweegt of verandert de schaal niet zelf. Gebruik de zoomactie in de details wanneer u wilt dat de kaart erheen gaat.",
@@ -20591,6 +21401,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The outline is drawn rather than shaded, so labels and dimensions inside the parcel stay readable on paper.": {
+  "t": "De omtrek is eerder getekend dan beschaduwd, dus labels en afmetingen binnen het pakket blijven leesbaar op papier.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The parcel polygon is built from the Boundary Lines only, then saved with the name, description, and stated area. If no line is marked Boundary Line, no polygon is created.": {
   "t": "De veelhoek van het pakket is alleen gebouwd uit de Grenzen Lijnen, dan opgeslagen met de naam, beschrijving en opgegeven gebied. Als er geen lijn is gemarkeerd met de grenslijn, wordt er geen veelhoek aangemaakt.",
   "src": "libretranslate",
@@ -20647,6 +21463,12 @@
  },
  "The print service did not return a file.": {
   "t": "De afdrukdienst gaf geen bestand terug.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The print service failed: the server refused the job or timed out. Try again, and if it keeps failing switch the Format to PDF and export a smaller page.": {
+  "t": "De afdrukservice is mislukt: de server weigerde de opdracht of timed out. Probeer het opnieuw, en als het blijft falen schakelt het Format naar PDF en exporteert een kleinere pagina.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20897,6 +21719,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "These options are for a Map only export, so the picture is the map edge to edge with nothing else on it.": {
+  "t": "Deze opties zijn voor een Kaart alleen exporteren, dus de afbeelding is de kaart rand aan rand met niets anders op.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "These settings are for advanced users only": {
   "t": "Deze instellingen zijn alleen voor geavanceerde gebruikers",
   "src": "libretranslate",
@@ -21011,6 +21839,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "This runs in your browser, not ArcGIS Pro, so big series are limited: a yellow note warns about a large job with a rough time and file size, and a red note stops a series over the page limit set for this app.": {
+  "t": "Dit draait in uw browser, niet ArcGIS Pro, dus grote series zijn beperkt: een gele noot waarschuwt voor een grote baan met een moeilijke tijd en bestandsgrootte, en een rode noot stopt een serie over de pagina limiet ingesteld voor deze app.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "This scale and the map position set the print area that Inside the print area uses to pick features. Each page still sets its own scale.": {
   "t": "Deze schaal en de kaartpositie stellen het afdrukgebied in dat binnen het afdrukgebied gebruikt om functies te kiezen. Elke pagina stelt nog steeds zijn eigen schaal.",
   "src": "libretranslate",
@@ -21121,6 +21955,12 @@
  },
  "Ticks and crosses": {
   "t": "Teken en kruisen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "TIFF: a large picture, and the right choice when you want the map to open in the correct place in ArcGIS Pro.": {
+  "t": "TIFF: een groot plaatje en de juiste keuze wanneer u wilt dat de kaart op de juiste plaats in ArcGIS Pro opent.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21671,6 +22511,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Turn on Page preview, right under Map title, to see the whole printed page while you pan and zoom. It is a quick sketch drawn from the screen: gray areas are outside the screen, and the overview map shows as a box. The export is always full quality.": {
+  "t": "Schakel Paginavoorbeeld, rechts onder Kaarttitel, om de hele afgedrukte pagina te zien terwijl u pan en zoom. Het is een korte schets van het scherm: grijze gebieden zijn buiten het scherm, en de overzichtskaart toont als een doos. De export is altijd van volledige kwaliteit.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Turn on parent groups when a layer is checked on": {
   "t": "Oudergroepen inschakelen wanneer een laag aangevinkt is",
   "src": "libretranslate",
@@ -21679,6 +22525,12 @@
  },
  "Turn on Print-Ready Labels in {displayOptions} before a PDF export to spread the labels out so they do not overlap.": {
   "t": "Zet Print-Ready labels in {displayOptions} vóór een PDF-export om de labels te verspreiden zodat ze elkaar niet overlappen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Turn on Show print area and a rectangle appears on the map showing exactly what will print. Watch it while you zoom.": {
+  "t": "Schakel het afdrukgebied en een rechthoek tonen op de kaart die precies laat zien wat zal afdrukken. Kijk uit terwijl je zoomt.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21862,6 +22714,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Under Advanced options, each card opens and closes from its heading and remembers your choice; a closed card still shows a short summary of what is set inside it. The On the map card holds the switches for the {parts}; Page text holds Author, Copyright and the QR code; Style holds the font, north arrow and scale bar; Output holds the format, DPI, coordinate system, map-only export and file name. Turning a switch off leaves it off this page only; it does not change the map, and it does not change anything for anyone else.": {
+  "t": "Onder Geavanceerde opties, elke kaart opent en sluit van de kop en onthoudt uw keuze; een gesloten kaart toont nog steeds een korte samenvatting van wat erin is ingesteld. De Op de kaart kaart bevat de schakelaars voor de {parts}; Pagina tekst bevat Auteur, Copyright en de QR-code; Style bevat het lettertype, de noordelijke pijl en de schaalbalk; Output bevat het formaat, DPI, coördinatensysteem, alleen kaart exporteren en bestandsnaam. Het uitschakelen van een schakelaar laat het van deze pagina alleen; het verandert de kaart niet, en het verandert niets voor iemand anders.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Under Advanced options, turn on Print as a map series (PDF), then set Rows and Columns. The estimate underneath tells you how many pages you will get.": {
+  "t": "Onder Geavanceerde opties, zet Print als een kaartreeks (PDF) aan en stel vervolgens rijen en kolommen in. De schatting hieronder vertelt je hoeveel pagina's je krijgt.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Under the title is a list. Each line has a label on the left and the value for that feature on the right.": {
   "t": "Onder de titel staat een lijst. Elke regel heeft een label aan de linkerkant en de waarde voor die functie aan de rechterkant.",
@@ -22475,6 +23339,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Vector feature layers in PDF and SVG (experimental)": {
+  "t": "Vector functie lagen in PDF en SVG (experimenteel)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Vector page furniture; opens in Illustrator/Inkscape. Covers the AIX use case.": {
+  "t": "Vector pagina meubilair; opent in Illustrator / Inkscape. Omvat de AIX use case.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Verify your settings work with sample data": {
   "t": "Controleer uw instellingen werken met steekproefgegevens",
   "src": "libretranslate",
@@ -22703,6 +23579,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "What goes on the page": {
+  "t": "Wat er op de pagina staat",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "What shows on the map": {
   "t": "Wat toont op de kaart",
   "src": "libretranslate",
@@ -22859,6 +23741,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Which file type to pick": {
+  "t": "Welk bestandstype te kiezen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Which polygon attributes users can enter at runtime: the fixed name/description/stated-area inputs, the fields from the layer popup, or a custom list": {
   "t": "Welke veelhoekattributen gebruikers kunnen invoeren op runtime: de vaste naam/beschrijving/vermelde-gebiedinvoer, de velden van de laagpopup, of een aangepaste lijst",
   "src": "libretranslate",
@@ -22867,6 +23755,12 @@
  },
  "Which tab is active when the widget first opens.": {
   "t": "Welk tabblad actief is wanneer het widget voor het eerst wordt geopend.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "While a series exports, the bar below Export shows Page 3 of 12 (with the feature name for one page per feature), one segment per page plus the index page and saving, how many steps are done and about how long is left. Keep this tab open until the file appears, or press Cancel to stop after the current page.": {
+  "t": "Terwijl een serie export, de balk hieronder Exporteert toont Pagina 3 van 12 (met de functienaam voor een pagina per functie), een segment per pagina plus de index pagina en opslaan, hoeveel stappen worden gedaan en over hoe lang is nog over. Houd dit tabblad open totdat het bestand verschijnt, of druk op Annuleren om te stoppen na de huidige pagina.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23026,6 +23920,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Write export diagnostics to the console": {
+  "t": "Exportdiagnostiek naar de console schrijven",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Write null": {
   "t": "Nul schrijven",

@@ -1019,6 +1019,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "4,327,000 m (with units)": {
+  "t": "4,327000 m (yksiköillä)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "4. Export": {
   "t": "4. Vie",
   "src": "libretranslate",
@@ -1085,6 +1091,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A georeferenced export is always straight north up, even if your map is turned, because a turned picture would not line up with the ground.": {
+  "t": "Georefered vienti on aina suoraan pohjoiseen, vaikka kartta on käännetty, koska käännetty kuva ei sovi yhteen maan kanssa.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A grid over the map view": {
   "t": "Karttanäkymän ruudukko",
   "src": "libretranslate",
@@ -1097,6 +1109,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A highlight belongs to the map on your screen, not to the map layers, so the widget draws your selected features onto the page for you.": {
+  "t": "Kohokohta kuuluu kartta näytöllä, ei kartta kerrokset, joten widget piirtää valitut ominaisuudet sivulle sinua.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A layer inside a group shows only when the group is on too. If a ticked layer is missing from the map, check its group.": {
   "t": "Ryhmän sisällä oleva kerros näkyy vain silloin, kun ryhmä on myös päällä. Jos kartalta puuttuu rastitettu kerros, tarkista sen ryhmä.",
   "src": "libretranslate",
@@ -1105,6 +1123,12 @@
  },
  "A layer is missing: it may be outside the current map scale. Zoom in or out, and check the note beneath its name.": {
   "t": "Yksi kerros puuttuu: se voi olla nykyisen kartta-asteikon ulkopuolella. Zoomaa sisään tai ulos ja tarkista viesti sen alla.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer is on the map but not in the legend: the layer does not draw at the printed scale, or your app leaves out layers with nothing inside the print area, so it is left out on purpose. Check the layer list in the map, or print at a scale and area where it draws.": {
+  "t": "Kartalla on kerros, mutta ei legendassa: kerros ei piirrä painetussa mittakaavassa, tai sovelluksesi jättää pois kerroksia, joissa ei ole mitään tulostusalueella, joten se jätetään tarkoituksella pois. Tarkista kerroksen lista kartalta tai tulosta asteikolla ja alueella, johon se piirtää.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1129,6 +1153,12 @@
  },
  "A layer name is grey and nothing shows on the map: the layer only draws between certain zoom levels. Zoom in, or out, until the name turns dark.": {
   "t": "Kerroksen nimi on harmaa eikä kartalla näy mitään: kerros vetää vain tiettyjen zoom-tasojen väliin. Zoomaa sisään tai ulos, kunnes nimi muuttuu pimeäksi.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer printed as a picture instead of sharp lines: its symbols, labels or effects are ones the vector output cannot copy exactly, so it kept the picture on purpose. The note under the finished file names each layer and the reason.": {
+  "t": "Kuvaksi painettu kerros terävien viivojen sijaan: sen symbolit, etiketit tai vaikutukset ovat sellaisia, joita vektorin ulostulo ei voi kopioida tarkasti, joten se piti kuvan tarkoituksella. Muistiinpano valmiin tiedoston alla nimet kukin kerros ja syy.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1168,6 +1198,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "A map series cuts the area you are looking at into a grid of pages, all at one scale, and adds an index page at the front.": {
+  "t": "Karttasarja leikkaa sivuruudukon ja lisää etusivulle indeksisivun.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A map series is very slow: every page is captured one at a time, so twelve pages take roughly twelve times as long as one. Keep the tab open, or use fewer, larger pages.": {
+  "t": "Karttasarja on hyvin hidas: jokainen sivu on kaapattu yksi kerrallaan, joten 12 sivua kestää noin kaksitoista kertaa niin kauan kuin yksi. Pidä välilehti auki tai käytä vähemmän isompia sivuja.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "A map widget is required for this widget to function": {
   "t": "Kartan elementti tarvitaan tämän widget toimimaan",
@@ -1223,6 +1265,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A selected feature is missing from the print: Selected features is switched off, or the selection was cleared before you pressed Export. Turn the switch on, reselect, then export.": {
+  "t": "Valittu ominaisuus puuttuu tulosteesta: Valitut ominaisuudet on kytketty pois päältä tai valinta tyhjennettiin ennen kuin painoit Vie. Käynnistä, valitse uudelleen ja vie.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A selection highlight belongs to the map on screen, not to the map layers, so the widget draws the selected features onto the page itself, as a cyan outline with a thin white casing so it reads over aerial photography. Selections made in the Select, Table or Query widgets and shapes an app has drawn on the map are all picked up. This switch sets the starting position only; users can still turn it on or off per export.": {
+  "t": "Valikoima kohokohta kuuluu kartalle näytöllä, ei kartta kerrokset, joten widget vetää valitut ominaisuudet sivulle itselleen, syaani ääriviiva ohut valkoinen kuori niin se lukee yli ilmakuvauksen. Valikoimassa, taulukossa tai kyselyssä tehdyt valinnat ja sovelluksen piirtämät muodot poimitaan. Tämä kytkin asettaa vain lähtöpisteen; käyttäjät voivat edelleen kytkeä sen päälle tai pois päältä vientiä kohden.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A side with no selected layers shows the basemap and any shared map layers. You can use this to compare a layer with the basemap.": {
   "t": "Sivu, jossa ei ole valittuja kerroksia, näyttää pohjakartat ja jaetut karttatasot. Voit käyttää tätä verrata kerros pohjakartta.",
   "src": "libretranslate",
@@ -1243,6 +1297,12 @@
  },
  "A to Z": {
   "t": "A-Z",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A turned map stays turned. The coordinate information carries the turn too, so the picture still lines up with the ground in ArcGIS Pro, QGIS and Google Earth.": {
+  "t": "Käännetty kartta pysyy käännettynä. Koordinaatiotiedot kantavat myös kaarretta, joten kuva on edelleen ArcGIS Pron, QGIS:n ja Google Earthin maaperässä.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1411,6 +1471,12 @@
  },
  "Add a QR code that opens this map": {
   "t": "Lisää QR-koodi, joka avaa tämän kartan",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add a QR code that opens this map: prints a small square code. Anyone who scans it with a phone opens the live map in a browser.": {
+  "t": "Lisää tämän kartan avaava QR-koodi: tulostaa pienen neliökoodin. Jokainen, joka skannaa sen puhelimella, avaa suoran kartan selaimella.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1925,8 +1991,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Advanced options cards open by default": {
+  "t": "Oletuksena avattavat lisävaihtoehdot",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Aerial and satellite imagery from the OpenStreetMap Editor Layer Index that covers the part of the map you are looking at. It is added under your layers, like a second basemap.": {
   "t": "Ilma- ja satelliittikuvia OpenStreetMap Editor Layer Index, joka kattaa osan karttaa olet katsomassa. Se on lisätty kerrosten alle kuin toinen pohjakartta.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Aerial photography looks soft: you are zoomed in closer than the photography was flown. It is placed correctly, there is simply no more detail to show. Zoom out a little for a crisper page.": {
+  "t": "Ilmakuvaus näyttää pehmeä: olet zoomattu lähempänä kuin valokuva lensi. Se on sijoitettu oikein, ei yksinkertaisesti ole enää yksityiskohtia näyttää. Zoomaa vähän sipsisivulle.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2392,6 +2470,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "App default": {
+  "t": "Sovelluksen oletus",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "App-specific keeps drawings isolated to this experience; Global shares them across all experiences on this domain.": {
   "t": "App-specific pitää piirustukset eristyksissä tähän kokemukseen; Global jakaa ne kaikkiin tämän alan kokemuksiin.",
@@ -2963,6 +3047,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Blank = outline color": {
+  "t": "Tyhjä = ääriviivaväri",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Blank = signed-in username": {
+  "t": "Tyhjä = kirjautunut käyttäjätunnus",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Blank labels read Longitude and Latitude for a geographic system, X and Y otherwise.": {
   "t": "Tyhjä etiketit lukevat pituus- ja leveyspiirin maantieteellisen järjestelmän, X ja Y muuten.",
   "src": "libretranslate",
@@ -3485,6 +3581,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Cell ids (A1, B2) in each cell": {
+  "t": "Solutunnisteet (A1, B2) kussakin solussa",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Center · {srLabel}": {
   "t": "Keskitä · {srLabel}",
   "src": "libretranslate",
@@ -3881,6 +3983,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Choose TIFF and turn on Georeference (world file) and you get a single file that ArcGIS Pro and QGIS open in the correct place with nothing else to keep track of. This is the one to use.": {
+  "t": "Valitse TIFF ja käynnistä Georeference-tiedosto (world-tiedosto) ja saat yhden tiedoston, jonka ArcGIS Pro ja QGIS avaavat oikeassa paikassa ilman mitään muuta seurattavaa. Tätä pitää käyttää.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Choose vertical alignment for text. Options are baseline, top, middle, or bottom. Currently set to {verticalAlignment}.": {
   "t": "Valitse tekstin pystysuora linjaus. Vaihtoehdot ovat perustaso, ylä-, keski- tai pohja. Tällä hetkellä asetettu {verticalAlignment}.",
   "src": "libretranslate",
@@ -3931,6 +4039,12 @@
  },
  "Choosing layers": {
   "t": "Valitaan kerrokset",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choosing what lands on the page": {
+  "t": "Valitsemaan mitä paikkoja sivulla",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5507,6 +5621,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Corner coordinates": {
+  "t": "Kulmakoordinaatit",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Could not copy the link": {
   "t": "Linkkiä ei voitu kopioida",
   "src": "libretranslate",
@@ -5939,6 +6059,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Decimal degrees (108.51°W)": {
+  "t": "Desimaaliasteet (108.51°W)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Decimal Degrees (DD)": {
   "t": "Desimaaliasteet (DD)",
   "src": "libretranslate",
@@ -5947,6 +6073,12 @@
  },
  "Decimal degrees: decimal places": {
   "t": "Desimaaliasteet: desimaalit",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Decimal minutes (108°30.5'W)": {
+  "t": "Desimaaliminuutteja (108°30.5' W)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6011,6 +6143,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default author": {
+  "t": "Oletustekijä",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default basemap": {
   "t": "Oletuspohjakartta",
   "src": "libretranslate",
@@ -6053,6 +6191,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default copyright": {
+  "t": "Oletusoikeudet",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default custom buffer color.": {
   "t": "Oletus puskurin väri.",
   "src": "libretranslate",
@@ -6079,6 +6223,18 @@
  },
  "Default Field Mappings": {
   "t": "Oletuskenttäkartoitukset",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default file name": {
+  "t": "Tiedoston oletusnimi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default format": {
+  "t": "Oletusmuoto",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6113,14 +6269,56 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default map DPI": {
+  "t": "Oletuskartan DPI",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default map title": {
+  "t": "Oletuskartan otsikko",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default Name Field": {
   "t": "Oletusnimikenttä",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default north arrow": {
+  "t": "Oletusnuoli",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default Opacity (%)": {
   "t": "Oletus Opacity (%)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default output WKID (0 = map's own)": {
+  "t": "Oletuslähtö WKID (0 = kartan oma)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default scale bar style": {
+  "t": "Oletusasteikkopalkin tyyli",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default scale bar units": {
+  "t": "Oletusasteikkopalkkiyksiköt",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default second units (dual)": {
+  "t": "Toinen oletusyksikkö (kaksi)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6671,8 +6869,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Double styles print a dual scale bar (two measurements sharing the zero point). Layout default picks the natural complement (miles-feet, meters-kilometers); choose a unit to override.": {
+  "t": "Kaksoistyylit tulostavat kaksoisasteikon palkin (kaksi mittausta nollapisteellä). Layout-oletusvalitsee luonnollisen täydennyksen (kilometrit-jalka, metrit-kilometrit); valitse yksikkö, jonka ohitus tapahtuu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Double-click always finishes a line or area, and Esc always cancels one.": {
   "t": "Double-klikkaa aina loppuun linja tai alue, ja Esc aina peruuttaa yhden.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Double-click the .kmz in Google Earth Pro, or drag it into Google Earth on the web. The map is saved as a PNG inside it whatever Format you chose above.": {
+  "t": "Tupla-klikkaa .kmz Google Earth Pro, tai vedä se Google Earth verkossa. Kartta tallentuu PNG:nä sen sisällä riippumatta siitä, minkä muodon valitsit yllä.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7319,6 +7529,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Each app sets a page limit (50 map pages unless changed in Settings; the index and legend pages do not count). A grid over it switches Export off; use fewer Rows or Columns, or zoom out and use fewer, larger pages.": {
+  "t": "Jokainen sovellus asettaa sivun rajan (50 karttasivua, ellei asetuksia muuteta; indeksiä ja legendasivuja ei lasketa). Sen päällä oleva ruudukko kytkee Vie pois; käytä vähemmän riviä tai saraketta tai zoomaa pois ja käytä vähemmän, suurempia sivuja.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Each button draws one kind of measurement. A blue bar at the top shows which tool is active.": {
   "t": "Jokainen nappi piirtää yhdenlaista mittausta. Ylhäällä oleva sininen palkki näyttää, mikä työkalu on aktiivinen.",
   "src": "libretranslate",
@@ -7333,6 +7549,12 @@
  },
  "Each button opens the pinned spot in another website: {links}.": {
   "t": "Jokainen painike avaa naulatun paikan toisella sivustolla: {links}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Each card can be opened and closed by the user, and their choice is remembered in their browser. These are the starting positions. Map series opens by itself whenever a series is switched on.": {
+  "t": "Käyttäjä voi avata ja sulkea jokaisen kortin, ja heidän valintansa muistetaan selaimessa. Nämä ovat lähtöasemia. Karttasarja aukeaa itsestään aina kun sarja käynnistetään.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8141,6 +8363,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Every PDF is also a GeoPDF. Open it in Avenza Maps on a phone to see your location as a blue dot on the map, read coordinates in Acrobat with the Geospatial Location tool, or add it to ArcGIS Pro or QGIS and it lands in the right place.": {
+  "t": "Jokainen PDF on myös GeoPDF. Avaa se Avenza Mapsissa puhelimessa nähdäksesi sijaintisi sinisenä pisteenä kartalla, lue koordinaatteja Acrobatissa Geospatial Location -työkalulla tai lisää se ArcGIS Pro- tai QGIS-ohjelmaan ja se laskeutuu oikeaan paikkaan.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Every shape you draw is listed on the My Drawings tab.": {
   "t": "Jokainen piirtämäsi muoto on listattu Piirustusten välilehteen.",
   "src": "libretranslate",
@@ -8393,6 +8621,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Export as many times as you like. Change one thing, export again, and compare the two files.": {
+  "t": "Vie niin monta kertaa kuin haluat. Muuta yksi asia, vie uudelleen ja vertaa kahta tiedostoa.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Export as Shapefile": {
   "t": "Vie muototiedostona",
   "src": "libretranslate",
@@ -8423,6 +8657,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Export defaults": {
+  "t": "Vie oletukset",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Export drawings to file": {
   "t": "Vie piirustukset tiedostoon",
   "src": "libretranslate",
@@ -8431,6 +8671,12 @@
  },
  "Export formats for {name}": {
   "t": "Vie formaatit {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export is greyed out with a red message under Map series: the series is over this app's page limit. Use fewer rows or columns, or for one page per feature choose Inside the print area, zoom in, or filter the layer.": {
+  "t": "Viennin harmaana punaisella viestillä Kartta-sarjan alla: sarja on tämän sovelluksen sivurajan yläpuolella. Käytä vähemmän rivejä tai sarakkeita, tai yhden sivun per ominaisuus valita sisällä tulostusalue, zoomata, tai suodattaa kerros.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8557,6 +8803,12 @@
  },
  "Exporting": {
   "t": "Vienti",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Exporting…": {
+  "t": "Vied...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9065,6 +9317,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Finished exports are listed under Recent exports at the bottom of the panel, newest first. Click the file name to save it to your computer.": {
+  "t": "Valmiit vientituotteet on lueteltu paneelin alareunassa tuoreimpana. Napsauta tiedoston nimeä tallentaaksesi sen tietokoneellesi.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Finishing up…": {
   "t": "Viimeistelen...",
   "src": "libretranslate",
@@ -9079,6 +9337,12 @@
  },
  "Fixed scale": {
   "t": "Kiinteä asteikko",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fixed scale: prints at the exact scale you type, for example 24000 for 1:24,000. Use this when the page has to match another map.": {
+  "t": "Kiinteä asteikko: kirjoitetut jäljet, esimerkiksi 24000 kappaletta 1:24 000. Käytä tätä, kun sivun täytyy vastata toista karttaa.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9353,6 +9617,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Font: changes the typeface for all the text on the page. App default uses the layout font.": {
+  "t": "Kirjasin: muuttaa koko sivun tekstin kirjoitusasua. App default käyttää asettelun kirjasinta.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "for {count} selected buffer": {
   "t": "B. {count} valittu puskuri",
   "src": "libretranslate",
@@ -9395,6 +9665,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "For one page per parcel, park or project, set Pages from to One page per feature and pick the layer. Features chooses which ones: in the current map view, inside the print area rectangle, or the whole layer, even beyond the map. Any filter on the layer (from Map Layers, a Filter widget or the map itself) is applied too. Only layers in the map's layer list that are turned on are listed (whichever layer list widget you use), including ones inside groups, nested groups and map image services, shown with their group path, like Utilities / Water / Mains. Each page centers on its feature, outlines it in orange and prints at the best-fit scale, or the fixed scale you set. Text in the layout that uses {field:NAME} shows that feature's value.": {
+  "t": "Yhdelle sivulle per paketti, puisto tai projekti, aseta sivut yhdestä sivusta per ominaisuus ja valitse kerros. Ominaisuudet valitsevat mitkä: nykyisen karttanäkymän sisällä tulostusalue suorakulmio, tai koko kerros, jopa kartalla. Mitä tahansa suodatinta kerroksen (Map Layers, suodatin widget tai kartta itse) käytetään myös. Vain kerrokset kartalla kerrosluettelossa, jotka ovat päällä, on lueteltu (missä kerrosluettelossa widget käytät), mukaan lukien ne sisällä ryhmät, pesityt ryhmät ja kartta kuvapalvelut, jotka on esitetty niiden ryhmäpolku, kuten Utilities / Water / Mains. Jokainen sivu keskittyy sen ominaisuus, hahmotella sitä oranssi ja tulostaa parhaaseen mittakaavaan, tai kiinteä asteikko asetat. Teksti ulkoasussa, joka käyttää {kenttä:NAME} osoittaa kyseisen ominaisuuden arvon.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "For the best experience, use a modern web browser": {
   "t": "Paras kokemus, käytä moderni selain",
   "src": "libretranslate",
@@ -9421,6 +9697,12 @@
  },
  "Format a field as a number, currency, percent, or date, or turn it into a link built from a URL template with {FIELD_NAME} tokens.": {
   "t": "Muokkaa kenttää numerona, valuuttana, prosentteina tai päivämääränä tai muunna se linkiksi, joka on rakennettu URL-mallista {FIELD_NAME} Poletit.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Format decides the kind of file you get. If you are not sure, use PDF.": {
+  "t": "Muoto päättää, millaisen tiedoston saat. Jos et ole varma, käytä PDF.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9487,6 +9769,12 @@
  },
  "Freeze the print area over the current ground location so it stays put while you pan or zoom.": {
   "t": "Pysäytä tulostusalue nykyisen maan päällä olevan sijainnin yli, jotta se pysyy paikallaan panon tai zoomauksen ajaksi.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "From .pagx": {
+  "t": "Pagxista",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9749,14 +10037,32 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "GeoPDF coordinates in PDF exports": {
+  "t": "GeoPDF-koordinaatit PDF-viennissä",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Georeference (world file)": {
   "t": "Georeference (maailman tiedosto)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Get the map looking the way you want, pick a Layout, type a Map title, then press Export. Your file appears at the bottom of the panel.": {
+  "t": "Saada kartta katsoa haluamallasi tavalla, valitse asettelu, kirjoita Kartta otsikko, sitten paina Vie. Tiedostosi on paneelin pohjalla.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Getting the address of a spot": {
   "t": "Saada osoite",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Getting your file": {
+  "t": "Haen tiedostosi",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9809,6 +10115,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Google Earth (KMZ): gives you one .kmz file with the map draped over the globe in the right place. All four corners are placed separately, so the picture is not stretched.": {
+  "t": "Google Earth (KMZ): antaa sinulle yhden .kmz-tiedoston, jossa kartta on verhottu ympäri maailmaa oikeassa paikassa. Kaikki neljä kulmaa on sijoitettu erikseen, joten kuvaa ei venytetty.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Google Maps 3D": {
   "t": "Google Maps 3D",
   "src": "libretranslate",
@@ -9823,6 +10135,12 @@
  },
  "Graticule (lat/long)": {
   "t": "Graticul (lat/long)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "grid": {
+  "t": "ruudukko",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9877,6 +10195,18 @@
  },
  "Grid is enabled. Theme: {gridTheme}. Spacing: {gridSpacingMode}. Rotation: {gridRotation} degrees.": {
   "t": "Verkko on aktivoitu. Aihe: {gridTheme}. {gridSpacingMode}. Pyöriminen: {gridRotation} astetta.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid labels are missing on a turned map: labels that would overlap another label are left off so none print on top of each other. Use a larger interval, fewer label sides, or smaller labels.": {
+  "t": "Ruudustoetiketit puuttuvat käännetystä kartasta: tarrat, jotka olisivat päällekkäisiä toisen merkinnän kanssa, jätetään pois, joten mitään tulostaa päällekkäin. Käytä suurempaa väliä, vähemmän etikettisivuja tai pienempiä etikettejä.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid on by default": {
+  "t": "Oletettu ruudukko",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9949,6 +10279,12 @@
  },
  "Grid size": {
   "t": "Verkkokoko",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid size shrinks the whole grid toward the middle, which is a quick way to trim empty edges without changing rows and columns.": {
+  "t": "Ruudun koko kutistaa koko ruudukon keskelle, mikä on nopea tapa leikata tyhjiä reunoja vaihtamatta rivejä ja sarakkeita.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10031,6 +10367,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Grid style for this export: latitude/longitude graticule, measured grid in map units, or lettered reference grid.": {
+  "t": "Tämän viennin ruudukkotyyli: leveys- ja pituusaste, mitattu ruudukko kartalla yksiköissä tai kirjainrivistö.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid style panel": {
+  "t": "Ruudukkotyylipaneeli",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid style: open it under Grid type to change the grid your way. Pick the line color, width, opacity and pattern, or draw only edge ticks and crosses. Set a custom interval, the label color, size, bold and halo, which sides get labels, labels that run along the side edges, and the coordinate or number format. Reference grids can put letters on rows and print cell ids like A1 in every cell. Reset to layout grid puts everything back.": {
+  "t": "Ruudukko tyyli: Avaa se ruudukkotyypin alla muuttaaksesi verkkoa omalla tavallasi. Valitse viivan väri, leveys, opasiteetti ja kuvio, tai piirtää vain reunan punkit ja ristit. Aseta mukautettu aikaväli, etiketin väri, koko, lihavoitu ja halo, mitkä puolet saavat tarroja, tarroja, jotka kulkevat pitkin sivureunoja, ja koordinaatti tai numeromuoto. Referenssiruudustot voivat laittaa kirjaimia riveille ja tulostaa solutunnisteita kuten A1 joka solussa. Layout-ruudukko palauttaa kaiken.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Grid theme changed to {newTheme}": {
   "t": "Ruudukkoteemaan muutettiin {newTheme}",
   "src": "libretranslate",
@@ -10051,6 +10405,12 @@
  },
  "Grid unit changed to {newUnit}": {
   "t": "Runkoyksikkö vaihtui {newUnit}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid: adds the grid or graticule the layout was built with. Grid type switches between a latitude and longitude graticule, a measured grid in map units, and a lettered reference grid like A-1. When the layout turns on corner labels, each map corner also shows its exact coordinate.": {
+  "t": "Grid: lisää ruudukko tai graticul layout rakennettiin. Ruudun tyyppikytkimet leveys- ja pituuspiirin graticulen välillä, mitattu ruudukko kartalla yksiköissä ja kirjainrivistön kuten A-1. Kun ulkoasu kääntyy kulmaetikettien päälle, jokainen karttakulma osoittaa myös tarkan koordinaattinsa.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10385,6 +10745,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Hide legend layers not drawn at the print scale": {
+  "t": "Piilota legenda kerrokset, joita ei ole piirretty tulostusasteikkoon",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hide legend layers with nothing in the print area": {
+  "t": "Piilota legenda kerrokset ilman mitään tulostusalueella",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Hide measurements": {
   "t": "Piilota mittaukset",
   "src": "libretranslate",
@@ -10483,6 +10855,12 @@
  },
  "Hover a view in the list and use the trash icon to delete it.": {
   "t": "Piilota näkymä luetteloon ja käytä roskakorin kuvaketta sen poistamiseen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hover over any label in this panel for a one-line explanation without opening this guide.": {
+  "t": "Liikuta minkä tahansa tämän paneelin etiketin päällä yhden rivin selitykseksi avaamatta tätä opasta.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10588,6 +10966,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "If the legend is too big to fit beside the map, a note appears offering to move it to additional pages. You can keep it beside the map instead.": {
+  "t": "Jos legenda on liian suuri mahtumaan kartan viereen, viesti näyttää tarjoutuvan siirtämään sen muille sivuille. Sen sijaan voit pitää sen kartalla.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "If the misclose ratio (1:n) meets or exceeds this n, points snap closed and the compass rule is applied": {
   "t": "Jos väärinsuljettu suhde (1:n) täyttää tai ylittää tämän n, pisteet napsahtaa kiinni ja kompassisääntöä sovelletaan",
@@ -10781,6 +11165,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "In PDF and SVG, feature layers drawn with simple symbols (parcels, lines, points, hatched fills, custom and picture markers) print as true lines and shapes instead of a picture, so they stay sharp at any zoom and the file stays small. Their labels come along as real text, including label classes that only label some features. Layers with Arcade labels or effects still print as a picture; the export note lists which ones and why.": {
+  "t": "PDF:ssä ja SVG:ssä on yksinkertaisilla symboleilla (parceleilla, linjoilla, pisteillä, kuoriutuneilla täytteillä, mukautetuilla ja kuvamerkeillä) piirrettyjä kerroksia, jotka painavat kuvan sijaan todellisina viivoina ja muotoina, joten ne pysyvät terävinä missä tahansa zoomissa ja tiedosto pysyy pienenä. Merkit ovat aitoja tekstejä, mukaan lukien merkintäluokat, joissa on vain joitakin ominaisuuksia. Tasot, joissa on Arcade-etikettejä tai tehosteita, painavat edelleen kuvana; vientimuistilappu listaa mitkä ja miksi.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "In the {batchOptions} menu, choose {showFavoritesOnly} to list only your starred layers and their groups. Choose {showAllLayers} to go back.": {
   "t": "Kun {batchOptions} valikko, valitse {showFavoritesOnly} listaamaan vain tähtikerroksia ja niiden ryhmiä. Valitse {showAllLayers} Mennä takaisin.",
   "src": "libretranslate",
@@ -10873,6 +11263,18 @@
  },
  "Include legend": {
   "t": "Sisällytä legenda",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include legend: adds the layer symbols. Only the layers actually drawing at the printed scale are listed, so the legend matches the map.": {
+  "t": "Sisällytä legenda: lisää kerros symbolit. Vain painetussa mittakaavassa olevat kerrokset on listattu, joten legenda vastaa karttaa.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include map attribution": {
+  "t": "Sisällytä kartta",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11153,6 +11555,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "It picks up a parcel you clicked, features chosen in a Select, Table or Query widget, and shapes an app has drawn on the map.": {
+  "t": "Se poimii paketti napsautit, ominaisuudet valittu Valitse, taulukko tai kysely widget, ja muotoja sovellus on piirtänyt kartalle.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "It says Loading measurement tools for a long time: the map is still starting. Give it a moment, then reload the page.": {
   "t": "Siinä lukee mittaustyökalujen lataaminen pitkään: kartta on vielä käynnistymässä. Odota hetki ja lataa sivu uudelleen.",
   "src": "libretranslate",
@@ -11296,6 +11704,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Keep map rotation in georeferenced images": {
+  "t": "Pidä kartan pyöriminen georeferensseissä kuvissa",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Keep New Only": {
   "t": "Pidä vain uudet",
@@ -11855,6 +12269,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Layers in PDF and SVG exports": {
+  "t": "PDF- ja SVG-vientitasot",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "layers on": {
   "t": "kerrokset",
   "src": "libretranslate",
@@ -11881,6 +12301,12 @@
  },
  "Layout default": {
   "t": "Layout- oletus",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layout DPI": {
+  "t": "Asettelu DPI",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11981,6 +12407,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "legend": {
+  "t": "legenda",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Legend": {
   "t": "Selitys",
   "src": "libretranslate",
@@ -12005,6 +12437,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Legend on by default": {
+  "t": "Oletusmerkit",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Legend page {i} of {n}": {
   "t": "Selityssivu {i} / {n}",
   "src": "libretranslate",
@@ -12013,6 +12451,12 @@
  },
  "Legend placement": {
   "t": "Selitä sijainti",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Legend placement: beside the map, over a corner of it, or on Additional pages (PDF only). Beside the map, the map shrinks to make room. On additional pages, every item stays full size.": {
+  "t": "Selitä sijainti: kartan vieressä, sen nurkan takana tai Lisäsivuilla (vain PDF). Kartan vieressä kartta kutistuu tehdäkseen tilaa. Muilla sivuilla jokainen esine pysyy täysikokoisena.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12125,6 +12569,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Line color (any)": {
+  "t": "Rivin väri",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Line layer (traverse lines)": {
   "t": "Viivakerros (ristiviivat)",
   "src": "libretranslate",
@@ -12175,6 +12625,12 @@
  },
  "Line opacity": {
   "t": "Viivan opasiteetti",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Line pattern": {
+  "t": "Viivakuvio",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12295,6 +12751,12 @@
  },
  "Link text (optional)": {
   "t": "Linkkiteksti (valinnainen)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Link the title to the pages: while Map series is open, the buttons under Map title add Page name, Page number or any visible field, and the line under them shows how page 1's title will read. Order sorts the pages A to Z or Z to A by the name field. The Overview inset switch adds a locator overview to every data-driven page.": {
+  "t": "Linkitä otsikko sivuille: Karttasarja on avoinna, ja Kartta- otsikon alla olevat painikkeet lisäävät sivun nimen, sivunumeron tai minkä tahansa näkyvän kentän, ja niiden alla oleva rivi näyttää, kuinka sivun 1 otsikko lukee. Tilaa lajittelee sivut A-Z tai Z-A nimikenttä. Katsauskytkin lisää paikantimen katsauksen jokaiseen datavetoiseen sivuun.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12593,6 +13055,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Lock print area pins that rectangle over the ground. You can then pan and zoom to look around, and the printed area stays where you put it. Turn it off to release.": {
+  "t": "Lukitse tulostusalue. Voit sitten panna ja zoomata katsella ympärilleen, ja painettu alue pysyy minne laitat sen. Sammuta se.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Locked": {
   "t": "Lukittu",
   "src": "libretranslate",
@@ -12839,6 +13307,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map DPI sets how fine the map picture is. Layout default is fine for most work. 300 is sharper but takes noticeably longer and makes a much bigger file.": {
+  "t": "Kartta DPI määrittää, miten hieno karttakuva on. Layout-oletus on hyvä useimmille työille. 300 on terävämpi, mutta kestää huomattavasti kauemmin ja tekee paljon isompi tiedosto.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map fields": {
   "t": "Karttakentät",
   "src": "libretranslate",
@@ -12929,6 +13403,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map only (no layout): gives you just the map picture, with no title, legend or border. Use it when you want to drop the map into something else.": {
+  "t": "Kartta (ei ulkoasua): antaa vain karttakuvan ilman nimeä, legendaa tai rajaa. Käytä sitä, kun haluat pudottaa kartan johonkin muuhun.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map only necessary fields": {
   "t": "Kartta vain tarvittavat kentät",
   "src": "libretranslate",
@@ -12967,6 +13447,12 @@
  },
  "Map series cancelled. Nothing was downloaded.": {
   "t": "Karttasarja peruttu. Mitään ei ladattu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map series limits": {
+  "t": "Karttasarjan raja-arvot",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13060,6 +13546,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Maps that open in the right place": {
+  "t": "Kartat, jotka avautuvat oikeaan paikkaan",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Margins": {
   "t": "Marginaali",
@@ -13156,6 +13648,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Max map capture (px, long edge; blank = auto)": {
+  "t": "Massakartta (px, pitkä reuna; tyhjä = auto)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Max scale": {
   "t": "Enimmäisasteikko",
@@ -14525,6 +15023,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "None (single bar)": {
+  "t": "Ei mitään (yksitanko)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "None (transparent)": {
   "t": "Ei mitään (avoin)",
   "src": "libretranslate",
@@ -14533,6 +15037,12 @@
  },
  "none selected": {
   "t": "ei valittuja",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "North arrow": {
+  "t": "Pohjoisnuoli",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14615,6 +15125,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Nothing downloaded: your browser may have blocked it. Look for a blocked download notice in the address bar, or click the file name under Recent exports again.": {
+  "t": "Mitään ei ladattu: selaimesi on saattanut estää sen. Etsi estetty latausilmoitus osoitepalkista tai klikkaa tiedostonimeä Viimeisimmän viennin alla uudelleen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Nothing extra": {
   "t": "Ei mitään ylimääräistä",
   "src": "libretranslate",
@@ -14653,6 +15169,12 @@
  },
  "Nothing is found where you know a feature is: the click landed just off the edge. Zoom in and click again, nearer the middle of the feature.": {
   "t": "Mitään ei löydy, jos tiedät ominaisuus on: napsahdus laskeutui juuri reunalta. Lähennä ja klikkaa uudelleen, lähempänä keskellä ominaisuus.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Nothing you change here affects the map itself or anyone else. It only changes the page you are about to make.": {
+  "t": "Mikään muu ei vaikuta karttaan. Se muuttaa vain tekemäsi sivun.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14705,6 +15227,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Number format": {
+  "t": "Numeromuoto",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Number of decimal places for area and perimeter measurements, minimum 0, maximum 10": {
   "t": "Desimaalien lukumäärä alueen ja alueen mittauksissa, vähintään 0, enintään 10",
   "src": "libretranslate",
@@ -14747,6 +15275,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Numbered outlines appear on the map showing the pages. They follow you as you pan and zoom, so you can see the split before you commit to it.": {
+  "t": "Numeroidut ääriviivat näkyvät kartalla, josta sivut näkyvät. Ne seuraavat sinua kuin pan ja zoomaa, jotta voit nähdä split ennen kuin sitoudut siihen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Numpad shortcuts: + moves from bearing to length and adds the line from length or radius. / jumps from length to radius.": {
   "t": "Numpad pikanäppäimet: + siirtyy laakerista pituuteen ja lisää viivan pituudelta tai säteeltä. - Hyppää pituudesta säteelle.",
   "src": "libretranslate",
@@ -14777,14 +15311,50 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Off by default, so georeferenced map-only images and KMZ files are captured north-up. On, a rotated map keeps its rotation: the world file carries the rotation terms, a GeoTIFF uses a ModelTransformationTag, and the KMZ drapes as a rotated quad.": {
+  "t": "Oletuksena pois, niin georefered kartta-vain kuvia ja KMZ tiedostot kaapataan pohjoiseen-up. Kierretty kartta pitää kiertonsa: maailman tiedostossa on kiertotermit, GeoTIFF käyttää ModelTransformationTagia ja KMZ:n verhoja käännettynä quadina.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Off by default. Each export asks every visible feature layer how many features fall inside the printed area, and leaves layers with none off the legend. A layer that cannot be asked (tiles, imagery) or does not answer in time is always kept. Map series judge against the whole series area.": {
+  "t": "Poissa oletusarvoisesti. Jokainen vienti kysyy joka näkyvä ominaisuus kerros kuinka monta ominaisuuksia putoaa sisällä painettu alue, ja jättää kerroksia ilman pois legenda. Aina säilytetään kerros, jota ei voida pyytää (tiilit, kuvastot) tai joka ei vastaa ajoissa. Karttasarjan tuomari suhteessa koko sarja-alueeseen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Off by default. Feature layers drawn with simple symbols (solid fills, lines and dashes, circle, square, diamond, triangle, cross and x markers; single symbol, unique values or class breaks) print as true vector shapes, crisp at any zoom and each in its own PDF layer. Hatched fills, custom path markers and picture markers come along too, and so do labels (field labels with halos, placed and deconflicted like the map does, including label classes with a where clause). Layers with clustering, effects, visual variables, Arcade renderers or Arcade labels, rotated picture markers or other symbols stay as pixels, and each export lists them with the reason. Works on rotated maps and on every map series and feature page sheet. Up to 20,000 features per layer.": {
+  "t": "Poissa oletusarvoisesti. Ominaisuus kerrokset piirretään yksinkertaisia symboleja (kiinteät täytteet, linjat ja viivat, ympyrä, neliö, timantti, kolmio, risti ja x markkereita; yksi symboli, ainutlaatuiset arvot tai luokan taukoja) tulostaa todellisena vektori muotoja, rapea tahansa zoom ja kukin omassa PDF-kerros. Luukkujen täytteet, mukautetun polun merkit ja kuvamerkit tulevat myös mukana, ja niin ovat myös tarrat (kenttätarrat, joissa on haloja, sijoitettu ja ristiriitainen kuten kartta, mukaan lukien merkintäluokat, joissa on lauseke). Tasot, joissa on ryhmittely, tehosteet, visuaaliset muuttujat, Arcade renderöijät tai Arcade tarrat, pyöristetyt kuvamerkit tai muut symbolit pysyvät pikseleinä, ja jokainen vienti listaa ne syystä. Toimii pyöritettävissä kartoissa ja jokaisessa karttasarjassa ja ominaisuussivulla. Jopa 20 000 ominaisuutta per kerros.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Off by default. On, each export logs to the browser console (F12) how many selected features were found and how many reached the page. Use it when a highlight does not print: the selection lives in the map view rather than in this widget, so the log is the only way to see what was found.": {
+  "t": "Poissa oletusarvoisesti. On, jokainen vienti lokit selaimen konsoli (F12) kuinka monta valittuja ominaisuuksia löytyi ja kuinka monta pääsi sivulle. Käytä sitä, kun kohokohta ei tulosta: valinta elää karttanäkymässä eikä tässä vekotin, joten loki on ainoa tapa nähdä mitä löytyi.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Off: every run adds another layer, numbered (2), (3) and so on.": {
   "t": "Pois: jokainen juoksu lisää toisen kerroksen, numeroitu (2), (3) ja niin edelleen.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Offer \"Map only\" export": {
+  "t": "Tarjoa vain karttavientiä",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Offer {name} on the Coordinates tab": {
   "t": "Tarjous {name} Koordinaattivälilehdessä",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer output coordinate system (WKID)": {
+  "t": "Tarjoa tulostuskoordinaattijärjestelmä (WKID)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14842,6 +15412,24 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "On by default. A layer whose visible scale range excludes the printed scale is left off the legend, so the legend never lists a symbol the map does not show.": {
+  "t": "Oletuksena. Kerros, jonka näkyvä asteikkoalue sulkee pois painetun asteikon, jätetään pois legendasta, joten legenda ei koskaan lue symbolia, jota kartta ei näytä.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On by default. Every PDF map frame carries its coordinate system and corner coordinates, so Avenza Maps shows your location on the page, Acrobat reads coordinates with its Geospatial Location tool, and ArcGIS Pro and QGIS open the PDF in place. Map series georeference every sheet and the index page.": {
+  "t": "Oletuksena. Jokainen PDF-karttakehys kantaa koordinaattijärjestelmänsä ja kulmakoordinaatit, joten Avenza Maps näyttää sijaintisi sivulla, Acrobat lukee koordinaatteja sen Geospatial Sijainti työkalu, ja ArcGIS Pro ja QGIS avata PDF. Karttasarja georeferenssi jokaisen arkin ja indeksisivun.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On by default. The map, grid, selection, overview, legend, north arrow and scale bar, text, graphics and QR code each go in their own layer, so they can be switched on and off in Acrobat, Avenza Maps, Illustrator or Inkscape. Map series add a Map series layer for the page outlines and numbers.": {
+  "t": "Oletuksena. Kartta, ruudukko, valinta, yleiskatsaus, legenda, pohjoinen nuoli ja mittakaavapalkki, teksti, grafiikka ja QR-koodi jokainen menee omassa kerroksessaan, joten ne voidaan kytkeä päälle ja pois Acrobat, Avenza Maps, Illustrator tai Inkscape. Karttasarja lisää Kartta-sarjan kerroksen sivun ääriviivoihin ja numeroihin.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "On the {address} tab.": {
   "t": "Euroopan {address} Katso.",
@@ -14983,6 +15571,12 @@
  },
  "One page per feature": {
   "t": "Yksi sivu per ominaisuus",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "One PDF comes out with every page in it. The legend prints on every sheet, the same way ArcGIS Pro does it.": {
+  "t": "Yksi PDF tulee ulos jokaisen sivun. Legendan sormenjäljet ovat joka arkissa, kuten ArcGIS Pro tekee.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15245,6 +15839,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Output coordinate system (WKID): prints in a different coordinate system than the map uses. Leave it at 0 unless someone has asked you for a particular one.": {
+  "t": "Output koordinaattijärjestelmä (WKID): tulosteet eri koordinaattijärjestelmässä kuin kartta käyttää. Jätä se nollaan, ellei joku ole pyytänyt jotain tiettyä.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Output size (px)": {
   "t": "Tuotoskoko (px)",
   "src": "libretranslate",
@@ -15293,8 +15893,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "overview inset": {
+  "t": "yleiskatsaus",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Overview inset": {
   "t": "Yleiskatsaus",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Overview inset: adds the small locator map in the corner, with a red box showing where the main map sits.": {
+  "t": "Katsaus: Lisää pieni paikanninkartta nurkkaan, jossa punainen laatikko näyttää missä pääkartta sijaitsee.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Overview map on by default": {
+  "t": "Katsaus kartta oletusarvoisesti",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15347,6 +15965,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "page font": {
+  "t": "sivun kirjasin",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Page name": {
   "t": "Sivun nimi",
   "src": "libretranslate",
@@ -15377,6 +16001,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Page preview shows gray areas: part of the print area is off the screen, so the preview has nothing to show there. Pan or zoom out to see it; the exported file is not affected.": {
+  "t": "Sivun esikatselu näyttää harmaat alueet: osa tulostusalueesta on pois ruudulta, joten esikatselussa ei ole mitään näytettävää. Pane tai zoomaa nähdäksesi sen; viety tiedosto ei vaikuta.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Page Size": {
   "t": "Sivun koko",
   "src": "libretranslate",
@@ -15403,6 +16033,12 @@
  },
  "Pagination complete. Total features collected: {count}": {
   "t": "Peginaatio suoritettu. Kerätyt ominaisuudet yhteensä: {count}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Pan and zoom the map to what you want on the page. What you see is what prints.": {
+  "t": "Laita ja zoomaa karttaa siihen, mitä haluat sivulta. Näet, mitä sormenjälkiä.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15473,6 +16109,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "PDF and SVG files come with layers. In Acrobat or Avenza Maps open the Layers panel to hide the grid, the selection outline, the legend or the text; in Illustrator or Inkscape each part is its own layer.": {
+  "t": "PDF- ja SVG-tiedostoissa on kerroksia. Vuonna Acrobat tai Avenza Maps avaa Layers paneeli piilottaa ruudukko, valinta ääriviiva, legenda tai teksti; Illustrator tai Inkscape jokainen osa on sen oma kerros.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "PDF export options": {
   "t": "PDF-vientivalinnat",
   "src": "libretranslate",
@@ -15493,6 +16135,12 @@
  },
  "PDF opens a small window first so you can choose what goes on the page.": {
   "t": "PDF avaa pienen ikkunan ensin, jotta voit valita, mitä sivulla tapahtuu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "PDF: best for printing on paper and for sending to someone. Text and lines stay sharp at any zoom.": {
+  "t": "PDF: parhaiten tulostaa paperille ja lähettää jollekin. Teksti ja viivat pysyvät terävinä missä tahansa zoomissa.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15601,6 +16249,12 @@
  },
  "Pick a draw tool (Point, Line, Polygon, Rectangle, or Circle), then draw on the map. Everything inside is selected.": {
   "t": "Valitse vetotyökalu (Point, Line, Polygon, Suorakulmio tai Circle), sitten piirtää kartalle. Kaikki sisällä on valittu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Pick a Layout, then type a Map title. The title is what prints at the top of the page.": {
+  "t": "Valitse asettelu ja kirjoita sitten nimi. Otsikko on mitä tulostaa sivun yläreunassa.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15853,6 +16507,18 @@
  },
  "Please wait, do not close this window...": {
   "t": "Älkää sulkeko tätä ikkunaa.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "PNG, JPG and GIF instead get two small companion files beside the image. Keep all of them together in the same folder or the placement is lost.": {
+  "t": "PNG, JPG ja GIF sen sijaan saada kaksi pientä kumppani tiedostoja kuvan vieressä. Pidä kaikki yhdessä samassa kansiossa tai paikka katoaa.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "PNG32, PNG8, JPG or GIF: a picture, for a report, a slide or a web page. PNG32 is the sharpest.": {
+  "t": "PNG32, PNG8, JPG tai GIF: kuva, raportti, dia tai web-sivu. PNG32 on terävin.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16115,6 +16781,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Preserve map extent (fit view): prints everything you can see now, and picks whatever scale that needs. Use this when you must not lose anything off the edges.": {
+  "t": "Säilytä kartan laajuus (sopiva näkymä): tulostaa kaiken mitä näet nyt, ja poimii minkä mittakaavan tarvitset. Käytä tätä, kun et saa menettää mitään reunoista.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Preserve map scale": {
   "t": "Säilytä kartta-asteikko",
   "src": "libretranslate",
@@ -16123,6 +16795,12 @@
  },
  "Preserve map scale (current)": {
   "t": "Säilytä kartta-asteikko (nykyinen)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preserve map scale (current): prints at the same scale you are looking at. The page may show a little more or less ground than the screen, because the page is a different shape than your browser window.": {
+  "t": "Säilytä kartta-asteikko (nykyinen): tulostaa samassa mittakaavassa kuin olet katsomassa. Sivu voi näyttää hieman enemmän tai vähemmän maata kuin näyttö, koska sivu on eri muoto kuin selainikkuna.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16247,6 +16925,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Press Export. The panel dims and a message tells you what it is working on. When it finishes, the file appears under Recent exports at the bottom. Click its name to save it.": {
+  "t": "Paina vienti. Paneeli hämärtyy ja viesti kertoo, mitä se työstää. Kun se on valmis, tiedosto ilmestyy alareunassa Viimeaikainen vienti. Klikkaa sen nimeä tallentaaksesi sen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Press F on a focused basemap to add or remove it from favorites.": {
   "t": "Paina F keskittyneellä basemapilla lisätäksesi tai poistaaksesi sen suosikeista.",
   "src": "libretranslate",
@@ -16301,6 +16985,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Preview fill color (hex)": {
+  "t": "Esikatselu täyttöväri (hex)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Preview first record": {
   "t": "Esikatselu ensimmäinen tietue",
   "src": "libretranslate",
@@ -16327,6 +17017,18 @@
  },
  "Preview of the printed page": {
   "t": "Painetun sivun esikatselu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preview outline color (hex)": {
+  "t": "Esikatselu ääriviivan väri (hex)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preview outline width (px)": {
+  "t": "Esikatselun ääriviivan leveys (px)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16361,6 +17063,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Print Advanced turns the map on your screen into a finished page: the same layout your ArcGIS Pro template uses, with a title, legend and scale bar, ready to print or send.": {
+  "t": "Print Advanced muuntaa näytön kartan valmiiksi sivuksi: ArcGIS Pro -mallissa käytetään samaa ulkoasua, jonka otsikko, legenda ja vaakapalkki on valmis tulostamaan tai lähettämään.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Print area": {
   "t": "Tulostusalue",
   "src": "libretranslate",
@@ -16373,8 +17081,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Print area, the first card under Advanced options, decides how much ground fits in the map frame. Three choices, under Scale.": {
+  "t": "Tulosta alue, ensimmäinen kortti Advanced valinnat, päättää, kuinka paljon maa sopii karttakehys. Kolme vaihtoehtoa.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Print as a map series (PDF)": {
   "t": "Tulosta karttasarjana (PDF)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Print selected features by default": {
+  "t": "Tulosta valitut ominaisuudet oletuksena",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16405,6 +17125,18 @@
  },
  "Print-Ready Labels: spread out the labels so they do not overlap when exported to PDF.": {
   "t": "Print-Ready Labels: Levitä etiketit niin, että ne eivät ole päällekkäisiä, kun viedään PDF.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Printing a large area over several pages": {
+  "t": "Suuren alueen painaminen usealle sivulle",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Printing what you have selected": {
+  "t": "Tulostus mitä olet valinnut",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16555,6 +17287,12 @@
  },
  "Radius measurement enabled. Display the circle radius.": {
   "t": "Sädemittaus aktivoitu. Näytä ympyrän säde.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Raster EPS (Level 2, JPEG-embedded). For vector output use PDF or SVG.": {
+  "t": "Raster EPS (taso 2, JPEG-yhdistetty). Vektorilähtöön käytetään PDF:ää tai SVG:tä.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16873,6 +17611,12 @@
  },
  "Remove from list": {
   "t": "Poista luettelosta",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Remove from list clears one item and Clear empties the whole list. Neither deletes a file you have already saved.": {
+  "t": "Poista luettelosta poistaa yhden kohteen ja tyhjentää koko listan. Kumpikaan ei poista tallentamaasi tiedostoa.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17603,6 +18347,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Scale bar style": {
+  "t": "Skaalaa palkkityyli",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Scale bar units": {
+  "t": "Mittariviyksiköt",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Scale field": {
   "t": "Skaalakenttä",
   "src": "libretranslate",
@@ -17741,6 +18497,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Search the guide (try \"legend\" or \"blank\")": {
+  "t": "Etsi opas (try \"legenda\" tai \"aita\")",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Search the guide (try \"load\" or \"fields\")": {
   "t": "Etsi opasta (yritä \"ladata\" tai \"kentät\")",
   "src": "libretranslate",
@@ -17770,6 +18532,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Second units (dual)": {
+  "t": "Toinen yksikkö (kaksi yksikköä)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "See how your label format will appear": {
   "t": "Katso, miten etikettimuoto näkyy",
@@ -18253,6 +19021,12 @@
  },
  "Selected features are outlined in cyan on the print. Turn this off to print the map without them.": {
   "t": "Valitut ominaisuudet on esitetty syaanissa. Sammuta tämä tulostaa kartta ilman niitä.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Selected features: turn this on and anything you have selected is outlined on the print, in cyan with a thin white edge so it reads over dark aerial photography.": {
+  "t": "Valitut ominaisuudet: Käynnistä tämä ja kaikki valitsemasi on kuvattu tulosteessa, syaanin ohut valkoinen reuna, joten se lukee tumman ilmakuvauksen.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19619,6 +20393,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Still stuck? Contact the GIS Division and mention the Print Advanced widget and this app.": {
+  "t": "Oletko yhä jumissa? Ota yhteyttä GIS-jaostoon ja mainitse Print Advanced widget ja tämä sovellus.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Still stuck? Contact your GIS team and mention the Draw Advanced widget and this app.": {
   "t": "Oletko yhä jumissa? Ota yhteyttä GIS-tiimiisi ja mainitse Draw Advanced-widget ja tämä sovellus.",
   "src": "libretranslate",
@@ -19753,6 +20533,12 @@
  },
  "Supported label formats": {
   "t": "Tuetut etikettimuodot",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "SVG or SVGZ: for editing the page afterwards in Illustrator or Inkscape. SVGZ is the same file, just smaller.": {
+  "t": "SVG tai SVGZ: sivun muokkaamiseen jälkikäteen Illustrator tai Inkscape. SVGZ on sama tiedosto, vain pienempi.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20369,6 +21155,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The export is taking a long time: a high Map DPI or a large page takes longer. Keep the tab open and give it a few minutes. The message in the panel tells you what it is working on.": {
+  "t": "Vienti kestää pitkään: korkea Map DPI tai suuri sivu kestää kauemmin. Pidä välilehti auki ja anna muutama minuutti. Paneelin viesti kertoo, mitä se työstää.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The expression choice lets you write a short formula, such as helpers.upper($.NAME). Write $.FIELD to read a value from your data.": {
   "t": "Ilmauksen valinta voit kirjoittaa lyhyen kaavan, kuten auttajat.upper($.NAME). Kirjoita $.FIELD lukea arvo tiedoistasi.",
   "src": "libretranslate",
@@ -20389,6 +21181,12 @@
  },
  "The feature you are reading is outlined on the map, so you can see which one it is.": {
   "t": "Luemasi ominaisuus on esitetty kartalla, joten voit nähdä mikä se on.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The file is a PDF unless you change it: open Advanced options and pick a Format under Output. PDF is the safe choice for anything you plan to print on paper.": {
+  "t": "Tiedosto on PDF ellet muuta sitä: avaa Advanced-valinnat ja valitse Format-muodossa. PDF on turvallinen valinta kaikkeen, mitä aiot tulostaa paperille.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20501,11 +21299,23 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The list is only for this visit. It empties when you close or reload the app, so save anything you want to keep.": {
+  "t": "Lista on vain tätä vierailua varten. Se tyhjenee, kun suljet tai lataat sovelluksen uudelleen, joten säästä kaikki mitä haluat säilyttää.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The Load step checks the work, then writes the records into the layer.": {
   "t": "Kuorma-askel tarkistaa työn ja kirjoittaa tietueet kerrokseen.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The map area is blank or grey: the map had not finished drawing. Wait until the map is still and every layer has appeared, then export again.": {
+  "t": "Kartta-alue on tyhjä tai harmaa: kartta ei ollut valmis. Odota kunnes kartta on paikallaan ja jokainen kerros on ilmestynyt, sitten viedä uudelleen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The map does not move or change scale by itself. Use the zoom action in the details when you want the map to go there.": {
   "t": "Kartta ei liiku eikä muuta mittakaavaa itsestään. Käytä zoomaustoimintoa yksityiskohdissa, kun haluat kartan menevän sinne.",
@@ -20591,6 +21401,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The outline is drawn rather than shaded, so labels and dimensions inside the parcel stay readable on paper.": {
+  "t": "Suuntaviiva on piirretään eikä varjosteta, joten paketin etiketit ja mitat ovat luettavissa paperilla.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The parcel polygon is built from the Boundary Lines only, then saved with the name, description, and stated area. If no line is marked Boundary Line, no polygon is created.": {
   "t": "Paketti polygon on rakennettu Boundary Lines vain, sitten tallennettu nimi, kuvaus, ja ilmoitettu alue. Jos riviä ei ole merkitty Rajaviivalle, monikulmiota ei luoda.",
   "src": "libretranslate",
@@ -20647,6 +21463,12 @@
  },
  "The print service did not return a file.": {
   "t": "Tulostuspalvelu ei palauttanut tiedostoa.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The print service failed: the server refused the job or timed out. Try again, and if it keeps failing switch the Format to PDF and export a smaller page.": {
+  "t": "Tulostuspalvelu epäonnistui: palvelin kieltäytyi työstä tai aikakatkaisi. Yritä uudelleen, ja jos se pitää epäonnistua vaihtaa Format PDF ja viedä pienempi sivu.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20897,6 +21719,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "These options are for a Map only export, so the picture is the map edge to edge with nothing else on it.": {
+  "t": "Nämä vaihtoehdot ovat vain Kartta vientiä varten, joten kuva on kartta reunasta reunaan ilman muuta.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "These settings are for advanced users only": {
   "t": "Nämä asetukset ovat vain edistyneille käyttäjille",
   "src": "libretranslate",
@@ -21011,6 +21839,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "This runs in your browser, not ArcGIS Pro, so big series are limited: a yellow note warns about a large job with a rough time and file size, and a red note stops a series over the page limit set for this app.": {
+  "t": "Tämä toimii selaimessasi, ei ArcGIS Prossa, joten isot sarjat ovat rajoitettuja: keltainen note varoittaa suuresta työstä, jossa on kova aika ja tiedoston koko, ja punainen note pysäyttää sarjan yli sivun rajan tälle sovellukselle.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "This scale and the map position set the print area that Inside the print area uses to pick features. Each page still sets its own scale.": {
   "t": "Tämä asteikko ja kartta-asento asettavat tulostusalueen, jota tulostusalueen sisällä käytetään valittaessa ominaisuuksia. Jokainen sivu asettaa edelleen oman mittakaavansa.",
   "src": "libretranslate",
@@ -21121,6 +21955,12 @@
  },
  "Ticks and crosses": {
   "t": "tikut ja ristit",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "TIFF: a large picture, and the right choice when you want the map to open in the correct place in ArcGIS Pro.": {
+  "t": "TIFF: suuri kuva, ja oikea valinta, kun haluat kartan aukeavan oikeassa paikassa ArcGIS Pro.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21671,6 +22511,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Turn on Page preview, right under Map title, to see the whole printed page while you pan and zoom. It is a quick sketch drawn from the screen: gray areas are outside the screen, and the overview map shows as a box. The export is always full quality.": {
+  "t": "Laita sivun esikatselu päälle, aivan Kartta otsikon alla, nähdäksesi koko tulostetun sivun, kun laitat ja zoomaat. Se on nopea luonnos ruudulta: harmaat alueet ovat näytön ulkopuolella, ja yleiskatsaus kartta näyttää kuin laatikko. Vienti on aina täysin laadukasta.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Turn on parent groups when a layer is checked on": {
   "t": "Laita emoryhmät päälle, kun kerros tarkastetaan",
   "src": "libretranslate",
@@ -21679,6 +22525,12 @@
  },
  "Turn on Print-Ready Labels in {displayOptions} before a PDF export to spread the labels out so they do not overlap.": {
   "t": "Laita tulostusvalmiit nimilaput päälle {displayOptions} ennen PDF-vientiä etikettien levittämiseksi, jotta ne eivät ole päällekkäisiä.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Turn on Show print area and a rectangle appears on the map showing exactly what will print. Watch it while you zoom.": {
+  "t": "Avaa Näytä tulostusalue ja karttaan ilmestyy suorakulmio, joka näyttää tarkalleen, mitä tulostetaan. Varo, kun zoomaat.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21862,6 +22714,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Under Advanced options, each card opens and closes from its heading and remembers your choice; a closed card still shows a short summary of what is set inside it. The On the map card holds the switches for the {parts}; Page text holds Author, Copyright and the QR code; Style holds the font, north arrow and scale bar; Output holds the format, DPI, coordinate system, map-only export and file name. Turning a switch off leaves it off this page only; it does not change the map, and it does not change anything for anyone else.": {
+  "t": "Advanced vaihtoehtoja, jokainen kortti avaa ja sulkeutuu sen otsikko ja muistaa valintasi; suljettu kortti näyttää edelleen lyhyen yhteenvedon siitä, mitä on asetettu sen sisällä. Karttakortilla on kytkimet {parts}; Sivuteksti sisältää Tekijän, Copyrightin ja QR-koodin; Tyylillä on kirjasin, pohjoinen nuoli ja vaakapalkki; Tuotteella on muoto, DPI, koordinaattijärjestelmä, kartta-vain vienti ja tiedostonimi. Sammutuksen kääntäminen jättää sen pois tältä sivulta vain; se ei muuta karttaa eikä se muuta mitään kenellekään muulle.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Under Advanced options, turn on Print as a map series (PDF), then set Rows and Columns. The estimate underneath tells you how many pages you will get.": {
+  "t": "Valitse Advanced-valinnoilla Tulosta karttasarjana (PDF), jonka jälkeen aseta rivit ja sarakkeet. Arvio alla kertoo kuinka monta sivua saat.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Under the title is a list. Each line has a label on the left and the value for that feature on the right.": {
   "t": "Otsikko on lista. Jokaisessa rivissä on merkintä vasemmalla ja sen arvo oikealla.",
@@ -22475,6 +23339,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Vector feature layers in PDF and SVG (experimental)": {
+  "t": "Vektori-ominaisuustasot PDF- ja SVG-muodossa (kokeilu)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Vector page furniture; opens in Illustrator/Inkscape. Covers the AIX use case.": {
+  "t": "Vektorisivukalusteet; avautuu Illustrator/Inkscape. Kattaa AIX:n käyttötapauksen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Verify your settings work with sample data": {
   "t": "Varmista asetukset toimivat näytetiedoilla",
   "src": "libretranslate",
@@ -22703,6 +23579,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "What goes on the page": {
+  "t": "Mitä sivulla tapahtuu?",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "What shows on the map": {
   "t": "Mitä kartalla näkyy?",
   "src": "libretranslate",
@@ -22859,6 +23741,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Which file type to pick": {
+  "t": "Valittava tiedostotyyppi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Which polygon attributes users can enter at runtime: the fixed name/description/stated-area inputs, the fields from the layer popup, or a custom list": {
   "t": "Mitkä monikulmio attribuutit käyttäjät voivat syöttää ajoaikaan: kiinteä nimi/kuvaus/arvioitu alue syötteet, kentät kerros ponnahdusikkunasta tai mukautettu luettelo",
   "src": "libretranslate",
@@ -22867,6 +23755,12 @@
  },
  "Which tab is active when the widget first opens.": {
   "t": "Mikä välilehti on aktiivinen, kun widget ensimmäinen avautuu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "While a series exports, the bar below Export shows Page 3 of 12 (with the feature name for one page per feature), one segment per page plus the index page and saving, how many steps are done and about how long is left. Keep this tab open until the file appears, or press Cancel to stop after the current page.": {
+  "t": "Vaikka sarjavienti, alla oleva palkki Vie näyttää Sivu 3 / 12 (jossa ominaisuus nimi yksi sivu per ominaisuus), yksi segmentti per sivu plus indeksi sivu ja säästää, kuinka monta vaihetta on tehty ja kuinka kauan on jäljellä. Pidä välilehti auki, kunnes tiedosto ilmestyy, tai paina Peruuta lopettaaksesi nykyisen sivun.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23026,6 +23920,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Write export diagnostics to the console": {
+  "t": "Kirjoita diagnostiikka konsoliin",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Write null": {
   "t": "Kirjoita nolla",

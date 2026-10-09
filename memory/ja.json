@@ -1019,6 +1019,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "4,327,000 m (with units)": {
+  "t": "4,327,000m(単位)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "4. Export": {
   "t": "4. 輸出",
   "src": "libretranslate",
@@ -1085,6 +1091,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A georeferenced export is always straight north up, even if your map is turned, because a turned picture would not line up with the ground.": {
+  "t": "地図がオンになっている場合でも、ジオリファレンスのエクスポートは、常にまっすぐ北上です。 ターンされた画像は地面と並ぶことはありません。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A grid over the map view": {
   "t": "地図ビューのグリッド",
   "src": "libretranslate",
@@ -1097,6 +1109,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A highlight belongs to the map on your screen, not to the map layers, so the widget draws your selected features onto the page for you.": {
+  "t": "ハイライトは、マップレイヤーではなく、画面上のマップに属しているので、ウィジェットは選択した機能をページ上に描画します。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A layer inside a group shows only when the group is on too. If a ticked layer is missing from the map, check its group.": {
   "t": "グループ内のレイヤーは、グループ内でも表示されます。 地図からティックレイヤーが見つからない場合、そのグループを確認してください。",
   "src": "libretranslate",
@@ -1105,6 +1123,12 @@
  },
  "A layer is missing: it may be outside the current map scale. Zoom in or out, and check the note beneath its name.": {
   "t": "レイヤーが欠落している:現在のマップのスケールを外す可能性があります。 ズームインまたはアウトし、その名前の下のメモを確認してください。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer is on the map but not in the legend: the layer does not draw at the printed scale, or your app leaves out layers with nothing inside the print area, so it is left out on purpose. Check the layer list in the map, or print at a scale and area where it draws.": {
+  "t": "レイヤーはマップ上にあるが、凡例ではない場合:レイヤーは印刷されたスケールで描画しない、またはアプリはプリント領域内の何もレイヤーを離れるので、目的に残っている。 地図のレイヤーリストをチェックするか、描画するスケールと領域で印刷します。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1129,6 +1153,12 @@
  },
  "A layer name is grey and nothing shows on the map: the layer only draws between certain zoom levels. Zoom in, or out, until the name turns dark.": {
   "t": "レイヤー名は灰色で、マップに何も表示しません。レイヤーは特定のズームレベルの間にのみ描画されます。 名前が暗くなるまで、ズームイン、またはアウトします。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer printed as a picture instead of sharp lines: its symbols, labels or effects are ones the vector output cannot copy exactly, so it kept the picture on purpose. The note under the finished file names each layer and the reason.": {
+  "t": "鋭い線の代わりに画像として印刷されたレイヤー:そのシンボル、ラベル、エフェクトはベクトル出力が正確にコピーできないため、目的に画像を保存します。 各レイヤーと理由の最終ファイル名の下のメモ。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1168,6 +1198,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "A map series cuts the area you are looking at into a grid of pages, all at one scale, and adds an index page at the front.": {
+  "t": "地図シリーズは、ページをグリッドに見ている領域を1つのスケールでカットし、フロントにインデックスページを追加します。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A map series is very slow: every page is captured one at a time, so twelve pages take roughly twelve times as long as one. Keep the tab open, or use fewer, larger pages.": {
+  "t": "地図シリーズは非常に遅くなっています。各ページは一度に1つをキャプチャするので、約12ページは1回限りで約12回かかります。 タブを開いたままにしたり、より少なく、より大きなページを使用する。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "A map widget is required for this widget to function": {
   "t": "このウィジェットが機能するために必要なマップウィジェット",
@@ -1223,6 +1265,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A selected feature is missing from the print: Selected features is switched off, or the selection was cleared before you pressed Export. Turn the switch on, reselect, then export.": {
+  "t": "選択された機能は、印刷から欠落しています: 選択された機能はオフに切り替えられます。または、エクスポートを押す前に選択が消去されました。 スイッチをオンにし、再選択してからエクスポートします。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A selection highlight belongs to the map on screen, not to the map layers, so the widget draws the selected features onto the page itself, as a cyan outline with a thin white casing so it reads over aerial photography. Selections made in the Select, Table or Query widgets and shapes an app has drawn on the map are all picked up. This switch sets the starting position only; users can still turn it on or off per export.": {
+  "t": "選択のハイライトは、マップレイヤーではなく、画面上のマップに属しています。そのため、ウィジェットは選択した機能をページ自体に描画し、薄い白いケーシングでシアンの輪郭として、空中写真を読みます。 選択、テーブル、またはクエリウィジェットで作られた選択と、マップ上に描画されたアプリの形状はすべてピックアップされます。 このスイッチは、開始位置だけを設定します。ユーザーは、エクスポートごとにそれをオンまたはオフにすることができます。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A side with no selected layers shows the basemap and any shared map layers. You can use this to compare a layer with the basemap.": {
   "t": "選択したレイヤーがない場合は、ベースマップと共有マップレイヤーが表示されます。 これをベースマップでレイヤーを比較することができます。",
   "src": "libretranslate",
@@ -1243,6 +1297,12 @@
  },
  "A to Z": {
   "t": "A から Z",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A turned map stays turned. The coordinate information carries the turn too, so the picture still lines up with the ground in ArcGIS Pro, QGIS and Google Earth.": {
+  "t": "地図がオンになっている。 座標情報は、あまりにも回転するので、写真はまだアークGIS Pro、QGIS、Google Earthの地面と並んでいます。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1411,6 +1471,12 @@
  },
  "Add a QR code that opens this map": {
   "t": "このマップを開くQRコードを追加",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add a QR code that opens this map: prints a small square code. Anyone who scans it with a phone opens the live map in a browser.": {
+  "t": "このマップを開くQRコードを追加:小さな正方形のコードを印刷します。 電話でスキャンする人は、ブラウザのライブマップを開きます。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1925,8 +1991,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Advanced options cards open by default": {
+  "t": "デフォルトで開く高度なオプションカード",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Aerial and satellite imagery from the OpenStreetMap Editor Layer Index that covers the part of the map you are looking at. It is added under your layers, like a second basemap.": {
   "t": "あなたが探しているマップの一部をカバーするOpenStreetMapエディタ層インデックスから空中と衛星画像. 2番目のベースマップのようなレイヤーの下に追加されます。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Aerial photography looks soft: you are zoomed in closer than the photography was flown. It is placed correctly, there is simply no more detail to show. Zoom out a little for a crisper page.": {
+  "t": "空中写真はやわらかく見えます。写真よりも近くでズームされています。 正しく配置され、表示する詳細が単にありません。 さわやかなページを少しズームアウトします。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2392,6 +2470,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "App default": {
+  "t": "アプリのデフォルト",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "App-specific keeps drawings isolated to this experience; Global shares them across all experiences on this domain.": {
   "t": "App-specific は、この経験に孤立した図面を保持します。このドメインのすべての経験をグローバルに共有します。",
@@ -2963,6 +3047,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Blank = outline color": {
+  "t": "空白 = 輪郭色",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Blank = signed-in username": {
+  "t": "Blank = 署名付きユーザー名",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Blank labels read Longitude and Latitude for a geographic system, X and Y otherwise.": {
   "t": "空白のラベルは、地理的システム、X、Yなどの経度と緯度を読みます。",
   "src": "libretranslate",
@@ -3485,6 +3581,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Cell ids (A1, B2) in each cell": {
+  "t": "各セルのセル ID (A1、B2)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Center · {srLabel}": {
   "t": "センター・ {srLabel}",
   "src": "libretranslate",
@@ -3881,6 +3983,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Choose TIFF and turn on Georeference (world file) and you get a single file that ArcGIS Pro and QGIS open in the correct place with nothing else to keep track of. This is the one to use.": {
+  "t": "TIFFを選択し、Georeference(世界ファイル)をオンにして、ArcGIS ProとQGISが正しい場所にオープンする単一のファイルを入手してください。 これは、使用するものです。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Choose vertical alignment for text. Options are baseline, top, middle, or bottom. Currently set to {verticalAlignment}.": {
   "t": "テキストの縦のアライメントを選択します。 オプションはベースライン、トップ、ミドル、ボトムです。 現在設定中です {verticalAlignment}お問い合わせ",
   "src": "libretranslate",
@@ -3931,6 +4039,12 @@
  },
  "Choosing layers": {
   "t": "レイヤーの選択",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choosing what lands on the page": {
+  "t": "ページ上の土地を選ぶ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5507,6 +5621,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Corner coordinates": {
+  "t": "コーナー座標",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Could not copy the link": {
   "t": "リンクをコピーできません",
   "src": "libretranslate",
@@ -5939,6 +6059,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Decimal degrees (108.51°W)": {
+  "t": "決定度 (108.51°W)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Decimal Degrees (DD)": {
   "t": "決定度(DD)",
   "src": "libretranslate",
@@ -5947,6 +6073,12 @@
  },
  "Decimal degrees: decimal places": {
   "t": "決定度:小数点",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Decimal minutes (108°30.5'W)": {
+  "t": "締切分 (108°30.5'W)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6011,6 +6143,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default author": {
+  "t": "デフォルトの作者",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default basemap": {
   "t": "デフォルトベースマップ",
   "src": "libretranslate",
@@ -6053,6 +6191,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default copyright": {
+  "t": "デフォルトの著作権",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default custom buffer color.": {
   "t": "デフォルトカスタムバッファ色。",
   "src": "libretranslate",
@@ -6079,6 +6223,18 @@
  },
  "Default Field Mappings": {
   "t": "デフォルトのフィールドマッピング",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default file name": {
+  "t": "デフォルトファイル名",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default format": {
+  "t": "デフォルト形式",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6113,14 +6269,56 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default map DPI": {
+  "t": "デフォルトマップ DPI",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default map title": {
+  "t": "デフォルトマップタイトル",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default Name Field": {
   "t": "デフォルトの名前 フィールド",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default north arrow": {
+  "t": "デフォルトの北矢印",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default Opacity (%)": {
   "t": "デフォルトの不透明度(%)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default output WKID (0 = map's own)": {
+  "t": "デフォルト出力 WKID (0 = 独自のマップ)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default scale bar style": {
+  "t": "デフォルトスケールバースタイル",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default scale bar units": {
+  "t": "デフォルトスケールバーユニット",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default second units (dual)": {
+  "t": "デフォルト2台(デュアル)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6671,8 +6869,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Double styles print a dual scale bar (two measurements sharing the zero point). Layout default picks the natural complement (miles-feet, meters-kilometers); choose a unit to override.": {
+  "t": "二重スタイルは、二重スケールバー(ゼロポイントを共有する2つの測定)を印刷します。 レイアウトのデフォルトでは、自然補完(マイルフィートフィートフィート、メートルキロ)を選択します。オーバーライドするユニットを選択します。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Double-click always finishes a line or area, and Esc always cancels one.": {
   "t": "ダブルクリックすると、常にラインまたはエリアを終了し、Escは常に1つをキャンセルします。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Double-click the .kmz in Google Earth Pro, or drag it into Google Earth on the web. The map is saved as a PNG inside it whatever Format you chose above.": {
+  "t": "Google Earth Proで.kmzをダブルクリックするか、Web上でGoogle Earthにドラッグします。 上記の形式はどのフォーマットでも、マップがPNGとして保存されます。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7319,6 +7529,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Each app sets a page limit (50 map pages unless changed in Settings; the index and legend pages do not count). A grid over it switches Export off; use fewer Rows or Columns, or zoom out and use fewer, larger pages.": {
+  "t": "各アプリは、設定を変更しない限り、ページ制限(50のマップページ)を設定します。インデックスとレジェンドページはカウントされません。 グリッドオーバーすると、エクスポートオフが切り替わります。行数や列数が少ないか、ズームアウトして、ページ数が大きくなります。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Each button draws one kind of measurement. A blue bar at the top shows which tool is active.": {
   "t": "各ボタンは1種類の測定を引きます。 ツールがアクティブであるトップショーの青いバー。",
   "src": "libretranslate",
@@ -7333,6 +7549,12 @@
  },
  "Each button opens the pinned spot in another website: {links}.": {
   "t": "各ボタンは別のウェブサイトのピンポイントを開きます。 {links}お問い合わせ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Each card can be opened and closed by the user, and their choice is remembered in their browser. These are the starting positions. Map series opens by itself whenever a series is switched on.": {
+  "t": "各カードは、ユーザーが開封して閉じることができます。その選択は、ブラウザで記憶されます。 これらは開始位置です。 地図シリーズは、シリーズが切り替わるたびにそれ自体で開きます。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8141,6 +8363,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Every PDF is also a GeoPDF. Open it in Avenza Maps on a phone to see your location as a blue dot on the map, read coordinates in Acrobat with the Geospatial Location tool, or add it to ArcGIS Pro or QGIS and it lands in the right place.": {
+  "t": "各PDFはGeoPDFでも利用可能です。 地図上の青い点としてあなたの場所を見るために電話のAvenzaの地図でそれを開けて下さい、Geospatial位置用具とアクロバットの座標を読みましたり、またはArcGISのプロかQGISにそれを加え、それは正しい場所に造られます。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Every shape you draw is listed on the My Drawings tab.": {
   "t": "描画する全ての形状は、マイドのタブに表示されます。",
   "src": "libretranslate",
@@ -8393,6 +8621,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Export as many times as you like. Change one thing, export again, and compare the two files.": {
+  "t": "好きなだけ何度もエクスポートできます。 1つのことを変更し、再びエクスポートし、2つのファイルを比較します。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Export as Shapefile": {
   "t": "Shapefile としてエクスポート",
   "src": "libretranslate",
@@ -8423,6 +8657,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Export defaults": {
+  "t": "エクスポートのデフォルト",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Export drawings to file": {
   "t": "図面をファイルにエクスポートする",
   "src": "libretranslate",
@@ -8431,6 +8671,12 @@
  },
  "Export formats for {name}": {
   "t": "エクスポート形式 {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export is greyed out with a red message under Map series: the series is over this app's page limit. Use fewer rows or columns, or for one page per feature choose Inside the print area, zoom in, or filter the layer.": {
+  "t": "エクスポートは、マップシリーズの赤いメッセージでグレーアウトされます。このシリーズは、このアプリのページの制限を超えています。 行数や列数、または機能ごとの1ページでは、プリント領域内、ズームイン、またはレイヤーをフィルタリングします。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8557,6 +8803,12 @@
  },
  "Exporting": {
   "t": "輸出入",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Exporting…": {
+  "t": "輸出...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9065,6 +9317,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Finished exports are listed under Recent exports at the bottom of the panel, newest first. Click the file name to save it to your computer.": {
+  "t": "完成した輸出はパネルの底の最近の輸出の下に最初にリストされています。 ファイル名をクリックしてコンピュータに保存します。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Finishing up…": {
   "t": "フィニッシングアップ...",
   "src": "libretranslate",
@@ -9079,6 +9337,12 @@
  },
  "Fixed scale": {
   "t": "固定スケール",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fixed scale: prints at the exact scale you type, for example 24000 for 1:24,000. Use this when the page has to match another map.": {
+  "t": "固定スケール: 1:24,000 の 24000 のためのタイプする厳密なスケールの印刷物。 このページが別のマップと一致しなければならないときにこれを使用してください。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9353,6 +9617,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Font: changes the typeface for all the text on the page. App default uses the layout font.": {
+  "t": "フォント:ページ上のすべてのテキストの型面を変更します。 アプリのデフォルトでは、レイアウトフォントを使用します。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "for {count} selected buffer": {
   "t": "お問い合わせ {count} 選択したバッファ",
   "src": "libretranslate",
@@ -9395,6 +9665,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "For one page per parcel, park or project, set Pages from to One page per feature and pick the layer. Features chooses which ones: in the current map view, inside the print area rectangle, or the whole layer, even beyond the map. Any filter on the layer (from Map Layers, a Filter widget or the map itself) is applied too. Only layers in the map's layer list that are turned on are listed (whichever layer list widget you use), including ones inside groups, nested groups and map image services, shown with their group path, like Utilities / Water / Mains. Each page centers on its feature, outlines it in orange and prints at the best-fit scale, or the fixed scale you set. Text in the layout that uses {field:NAME} shows that feature's value.": {
+  "t": "パーセル、公園、プロジェクトごとに1ページずつページを設定し、レイヤーを選択します。 特徴は地図を越える現在の地図の眺め、印刷物区域の長方形、か全層で、選ぶ。 レイヤー上の任意のフィルタ(マップレイヤー、フィルタウィジェット、マップ自体から)も適用されます。 オンになっているマップのレイヤーリストのレイヤーのみがリストされています(どのレイヤーリストウィジェットを使うか)、グループ内のもの、ネストされたグループやマップのイメージサービス、グループパス、ユーティリティ/ウォーター/メインなどが含まれます。 各ページは、その機能に集中し、オレンジ色で輪郭を描き、最適なスケールでプリントするか、またはあなたが設定した固定スケールで印刷します。 {field:NAME} を使用したレイアウトのテキストは、その機能の値を示しています。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "For the best experience, use a modern web browser": {
   "t": "最高の経験のために、現代のWebブラウザを使用してください",
   "src": "libretranslate",
@@ -9421,6 +9697,12 @@
  },
  "Format a field as a number, currency, percent, or date, or turn it into a link built from a URL template with {FIELD_NAME} tokens.": {
   "t": "フィールドを番号、通貨、パーセント、または日付としてフォーマットするか、URLテンプレートから構築されたリンクに変換します。 {FIELD_NAME} トークン。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Format decides the kind of file you get. If you are not sure, use PDF.": {
+  "t": "フォーマットは、取得するファイルの種類を決定します。 不明な場合は、PDFを使用してください。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9487,6 +9769,12 @@
  },
  "Freeze the print area over the current ground location so it stays put while you pan or zoom.": {
   "t": "プリントエリアを現在の地上位置で凍結することで、パンやズームしながらも入る。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "From .pagx": {
+  "t": ".pagxから",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9749,14 +10037,32 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "GeoPDF coordinates in PDF exports": {
+  "t": "PDFエクスポートでGeoPDF座標",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Georeference (world file)": {
   "t": "ジオリファレンス(ワールドファイル)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Get the map looking the way you want, pick a Layout, type a Map title, then press Export. Your file appears at the bottom of the panel.": {
+  "t": "地図を探し、レイアウトを選択し、マップのタイトルを入力し、エクスポートを押します。 ファイルがパネルの下部に表示されます。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Getting the address of a spot": {
   "t": "スポットのアドレスを取得する",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Getting your file": {
+  "t": "ファイルの取得",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9809,6 +10115,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Google Earth (KMZ): gives you one .kmz file with the map draped over the globe in the right place. All four corners are placed separately, so the picture is not stretched.": {
+  "t": "Google Earth(KMZ): 右側の世界で描かれた地図で1 .kmzファイルを提供します。 全4角を別々に置くので、画像は伸びません。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Google Maps 3D": {
   "t": "Googleマップ3D",
   "src": "libretranslate",
@@ -9823,6 +10135,12 @@
  },
  "Graticule (lat/long)": {
   "t": "グラティクル(lat/long)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "grid": {
+  "t": "グリッド",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9877,6 +10195,18 @@
  },
  "Grid is enabled. Theme: {gridTheme}. Spacing: {gridSpacingMode}. Rotation: {gridRotation} degrees.": {
   "t": "グリッドを有効にします。 テーマ: {gridTheme}. 間隔: {gridSpacingMode}. 回転: {gridRotation} キーワード",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid labels are missing on a turned map: labels that would overlap another label are left off so none print on top of each other. Use a larger interval, fewer label sides, or smaller labels.": {
+  "t": "グリッドラベルは、クリックされたマップで欠落しています。別のラベルを重ねるラベルは消えるので、それぞれ上にプリントされていない。 より大きい間隔、より少ないラベルの側面、またはより小さいラベルを使用して下さい。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid on by default": {
+  "t": "デフォルトでグリッド",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9949,6 +10279,12 @@
  },
  "Grid size": {
   "t": "グリッドサイズ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid size shrinks the whole grid toward the middle, which is a quick way to trim empty edges without changing rows and columns.": {
+  "t": "グリッドサイズは、行や列を変更することなく空のエッジをトリミングする簡単な方法です。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10031,6 +10367,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Grid style for this export: latitude/longitude graticule, measured grid in map units, or lettered reference grid.": {
+  "t": "この輸出のための格子様式:緯度/経度計、地図の単位の測定された格子、またはレターされた参照の格子。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid style panel": {
+  "t": "格子様式のパネル",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid style: open it under Grid type to change the grid your way. Pick the line color, width, opacity and pattern, or draw only edge ticks and crosses. Set a custom interval, the label color, size, bold and halo, which sides get labels, labels that run along the side edges, and the coordinate or number format. Reference grids can put letters on rows and print cell ids like A1 in every cell. Reset to layout grid puts everything back.": {
+  "t": "格子様式:あなたの方法を変えるために格子タイプの下でそれを開けて下さい。 線の色、幅、不透明度、パターン、またはエッジティックと交差だけを描画します。 カスタム間隔、ラベル色、サイズ、太字、ヘロを設定し、側面がラベル、サイドエッジに沿って実行するラベル、座標または数形式を取得します。 参照グリッドは、すべてのセルでA1のような行やプリントセルのIDに文字を置くことができます。 グリッドをレイアウトするためにリセットすると、すべてが戻ってきます。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Grid theme changed to {newTheme}": {
   "t": "グリッドテーマが変更されました {newTheme}",
   "src": "libretranslate",
@@ -10051,6 +10405,12 @@
  },
  "Grid unit changed to {newUnit}": {
   "t": "グリッドユニットが変更 {newUnit}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid: adds the grid or graticule the layout was built with. Grid type switches between a latitude and longitude graticule, a measured grid in map units, and a lettered reference grid like A-1. When the layout turns on corner labels, each map corner also shows its exact coordinate.": {
+  "t": "Grid: レイアウトが組み込まれたグリッドまたは顆粒を追加します。 緯度と経度計、地図単位で測定された格子と、A-1のようなレタリングされた参照格子の間の格子タイプ スイッチ。 レイアウトが角のラベルをオンにすると、各マップコーナーは、その正確な座標を示しています。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10385,6 +10745,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Hide legend layers not drawn at the print scale": {
+  "t": "プリントスケールで描画されないレジェンドレイヤーを隠す",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hide legend layers with nothing in the print area": {
+  "t": "プリント領域に何もない伝説のレイヤーを隠す",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Hide measurements": {
   "t": "測定を隠す",
   "src": "libretranslate",
@@ -10483,6 +10855,12 @@
  },
  "Hover a view in the list and use the trash icon to delete it.": {
   "t": "リスト内のビューを非表示にし、ゴミ箱アイコンを使用して削除します。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hover over any label in this panel for a one-line explanation without opening this guide.": {
+  "t": "このパネルのラベルに、このガイドを開かずに一行の説明を行ないます。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10588,6 +10966,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "If the legend is too big to fit beside the map, a note appears offering to move it to additional pages. You can keep it beside the map instead.": {
+  "t": "凡例がマップの横に収まるのが大きすぎると、メモは追加ページに移動するオファーが表示されます。 代わりにマップの横にしておくことができます。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "If the misclose ratio (1:n) meets or exceeds this n, points snap closed and the compass rule is applied": {
   "t": "誤った比率(1:n)がこのnを満たすか、または超過した場合、ポイントスナップクローズドとコンパスルールが適用されます。",
@@ -10781,6 +11165,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "In PDF and SVG, feature layers drawn with simple symbols (parcels, lines, points, hatched fills, custom and picture markers) print as true lines and shapes instead of a picture, so they stay sharp at any zoom and the file stays small. Their labels come along as real text, including label classes that only label some features. Layers with Arcade labels or effects still print as a picture; the export note lists which ones and why.": {
+  "t": "PDFとSVGでは、シンプルなシンボル(小包、線、ポイント、ハッチ付き塗りつぶし、カスタムと絵のマーカー)で描かれたレイヤーが、画像の代わりに、真のラインと形状として印刷されるため、任意のズームでシャープに滞在し、ファイルは小さくとどまります。 ラベルは、いくつかの機能をラベル付けするラベルクラスを含む、実際のテキストとして来ます。 アーケードラベルまたは効果を持つレイヤーは、まだ写真として印刷します。 輸出ノートは、その理由をリストします。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "In the {batchOptions} menu, choose {showFavoritesOnly} to list only your starred layers and their groups. Choose {showAllLayers} to go back.": {
   "t": "お問い合わせ {batchOptions} メニュー、選択して下さい {showFavoritesOnly} 星のレイヤーとグループだけをリストします。 お問い合わせ {showAllLayers} 戻る",
   "src": "libretranslate",
@@ -10873,6 +11263,18 @@
  },
  "Include legend": {
   "t": "伝説を含める",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include legend: adds the layer symbols. Only the layers actually drawing at the printed scale are listed, so the legend matches the map.": {
+  "t": "凡例を含む:レイヤーシンボルを追加します。 印刷されたスケールで実際に描画するレイヤーのみがリストされているため、凡例はマップにマッチします。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include map attribution": {
+  "t": "地図属性を含める",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11153,6 +11555,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "It picks up a parcel you clicked, features chosen in a Select, Table or Query widget, and shapes an app has drawn on the map.": {
+  "t": "クリックした小包をピックアップします。, 選択で選択した機能, 表またはクエリウィジェット, アプリがマップ上に描画されている形状.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "It says Loading measurement tools for a long time: the map is still starting. Give it a moment, then reload the page.": {
   "t": "長時間のロード測定ツールは言う:マップはまだ始まります。 しばらくすると、ページを再読み込みします。",
   "src": "libretranslate",
@@ -11296,6 +11704,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Keep map rotation in georeferenced images": {
+  "t": "ジオリファレンス画像のマップの回転をキープ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Keep New Only": {
   "t": "新着情報",
@@ -11855,6 +12269,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Layers in PDF and SVG exports": {
+  "t": "PDFとSVGエクスポートのレイヤー",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "layers on": {
   "t": "レイヤー",
   "src": "libretranslate",
@@ -11881,6 +12301,12 @@
  },
  "Layout default": {
   "t": "レイアウトのデフォルト",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layout DPI": {
+  "t": "レイアウト DPI",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11981,6 +12407,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "legend": {
+  "t": "伝説の伝説",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Legend": {
   "t": "レジェンド",
   "src": "libretranslate",
@@ -12005,6 +12437,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Legend on by default": {
+  "t": "デフォルトでレジェンド",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Legend page {i} of {n}": {
   "t": "レジェンドページ {i} インフォメーション {n}",
   "src": "libretranslate",
@@ -12013,6 +12451,12 @@
  },
  "Legend placement": {
   "t": "伝説の配置",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Legend placement: beside the map, over a corner of it, or on Additional pages (PDF only). Beside the map, the map shrinks to make room. On additional pages, every item stays full size.": {
+  "t": "伝説の配置:マップの横、その角、または追加のページ(PDFのみ)。 地図の横に、地図は部屋を作るために縮小します。 追加のページでは、すべてのアイテムはフルサイズを維持します。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12125,6 +12569,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Line color (any)": {
+  "t": "ライン色(任意)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Line layer (traverse lines)": {
   "t": "ライン層(横断線)",
   "src": "libretranslate",
@@ -12175,6 +12625,12 @@
  },
  "Line opacity": {
   "t": "ラインオパシティ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Line pattern": {
+  "t": "ラインパターン",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12295,6 +12751,12 @@
  },
  "Link text (optional)": {
   "t": "リンクテキスト(オプション)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Link the title to the pages: while Map series is open, the buttons under Map title add Page name, Page number or any visible field, and the line under them shows how page 1's title will read. Order sorts the pages A to Z or Z to A by the name field. The Overview inset switch adds a locator overview to every data-driven page.": {
+  "t": "タイトルをページにリンクします。マップシリーズが開いている間、マップのタイトルの下のボタンはページ名、ページ番号、または任意の目に見えるフィールドを追加し、それらの下の行は、ページ1のタイトルが読み込まれる方法を示しています。 注文は、名前のフィールドで A から Z または Z に A をソートします。 概要のインセットスイッチは、すべてのデータ駆動ページにロケータの概要を追加します。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12593,6 +13055,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Lock print area pins that rectangle over the ground. You can then pan and zoom to look around, and the printed area stays where you put it. Turn it off to release.": {
+  "t": "プリント領域ピンをロックし、地面を覆います。 その後、パンとズームして周りを見渡すことができ、印刷された領域は、あなたがそれを置いた場所にとどまります。 リリースにオフにします。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Locked": {
   "t": "ロック",
   "src": "libretranslate",
@@ -12839,6 +13307,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map DPI sets how fine the map picture is. Layout default is fine for most work. 300 is sharper but takes noticeably longer and makes a much bigger file.": {
+  "t": "地図 DPI は、マップの画像がいかに細かいかを設定します。 レイアウトのデフォルトはほとんどの仕事のために良いです。 300は鋭くなり、著しく長くなり、より大きなファイルとなります。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map fields": {
   "t": "地図フィールド",
   "src": "libretranslate",
@@ -12929,6 +13403,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map only (no layout): gives you just the map picture, with no title, legend or border. Use it when you want to drop the map into something else.": {
+  "t": "地図のみ(レイアウトなし):タイトル、凡例、または境界なしのマップ画像だけを提供します。 地図を他のものにドロップしたい場合に使用します。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map only necessary fields": {
   "t": "必要なフィールドのみマップ",
   "src": "libretranslate",
@@ -12967,6 +13447,12 @@
  },
  "Map series cancelled. Nothing was downloaded.": {
   "t": "サイトマップ 何もダウンロードされていません。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map series limits": {
+  "t": "地図シリーズの限界",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13060,6 +13546,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Maps that open in the right place": {
+  "t": "正しい場所に開いた地図",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Margins": {
   "t": "マージン",
@@ -13156,6 +13648,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Max map capture (px, long edge; blank = auto)": {
+  "t": "最高の地図の捕獲(px、長い端;空白=自動)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Max scale": {
   "t": "最高のスケール",
@@ -14525,6 +15023,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "None (single bar)": {
+  "t": "なし(シングルバー)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "None (transparent)": {
   "t": "なし(透明)",
   "src": "libretranslate",
@@ -14533,6 +15037,12 @@
  },
  "none selected": {
   "t": "選択なし",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "North arrow": {
+  "t": "ノース矢印",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14615,6 +15125,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Nothing downloaded: your browser may have blocked it. Look for a blocked download notice in the address bar, or click the file name under Recent exports again.": {
+  "t": "ダウンロードされていないもの:ブラウザがブロックされていることがあります。 アドレスバーのブロックされたダウンロード通知を探します。, またはをクリックします 最近のエクスポートの下のファイル名 再び.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Nothing extra": {
   "t": "何も追加しません",
   "src": "libretranslate",
@@ -14653,6 +15169,12 @@
  },
  "Nothing is found where you know a feature is: the click landed just off the edge. Zoom in and click again, nearer the middle of the feature.": {
   "t": "機能がわかっている場所は何も見つかりません:クリックはちょうど端を離れて上陸させました。 ズームインして、もう一度クリックして、機能の中央を閉じます。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Nothing you change here affects the map itself or anyone else. It only changes the page you are about to make.": {
+  "t": "地図自体や誰にでも影響しません。 作成するページのみを変更します。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14705,6 +15227,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Number format": {
+  "t": "ナンバー形式",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Number of decimal places for area and perimeter measurements, minimum 0, maximum 10": {
   "t": "面積および周囲の測定のための小数の場所の数、最低0、最高10",
   "src": "libretranslate",
@@ -14747,6 +15275,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Numbered outlines appear on the map showing the pages. They follow you as you pan and zoom, so you can see the split before you commit to it.": {
+  "t": "数字の輪郭は、ページを示すマップに表示されます。 彼らはあなたがパンとズームするようにあなたをフォローしているので、あなたはそれにコミットする前に分割を見ることができます。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Numpad shortcuts: + moves from bearing to length and adds the line from length or radius. / jumps from length to radius.": {
   "t": "Numpadのショートカット:+は軸受けから長さに動き、長さか半径からのラインを加えます。 / 長さから半径までジャンプします。",
   "src": "libretranslate",
@@ -14777,14 +15311,50 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Off by default, so georeferenced map-only images and KMZ files are captured north-up. On, a rotated map keeps its rotation: the world file carries the rotation terms, a GeoTIFF uses a ModelTransformationTag, and the KMZ drapes as a rotated quad.": {
+  "t": "デフォルトではオフなので、ジオリファレンスのマップのみの画像とKMZファイルが北上をキャプチャされます。 回転した地図は回転し続ける:世界ファイルが回転条件を運び、GeoTIFFはモデルトランスフォーメーションタグを使用し、KMZは回転されたクォードとしてドレープします。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Off by default. Each export asks every visible feature layer how many features fall inside the printed area, and leaves layers with none off the legend. A layer that cannot be asked (tiles, imagery) or does not answer in time is always kept. Map series judge against the whole series area.": {
+  "t": "デフォルトでオフ。 各エクスポートは、印刷された領域内の多くの機能が低下し、凡例を遮断しないレイヤーを離れるすべての可視機能レイヤーを要求します。 要求できないレイヤー(タイル、イメージ)、時間内に応答しないレイヤーは常に保持されます。 地図シリーズは全シリーズ区域に対して判断します。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Off by default. Feature layers drawn with simple symbols (solid fills, lines and dashes, circle, square, diamond, triangle, cross and x markers; single symbol, unique values or class breaks) print as true vector shapes, crisp at any zoom and each in its own PDF layer. Hatched fills, custom path markers and picture markers come along too, and so do labels (field labels with halos, placed and deconflicted like the map does, including label classes with a where clause). Layers with clustering, effects, visual variables, Arcade renderers or Arcade labels, rotated picture markers or other symbols stay as pixels, and each export lists them with the reason. Works on rotated maps and on every map series and feature page sheet. Up to 20,000 features per layer.": {
+  "t": "デフォルトでオフ。 シンプルなシンボル(固体充填、ライン、ダッシュ、円、正方形、ダイヤモンド、三角形、十字、Xマーカーで描画された特徴的なレイヤー。単一のシンボル、ユニークな値、またはクラスブレイク)は、真のベクトル形状、任意のズームで鮮明で、それぞれ独自のPDFレイヤーで印刷します。 刻印された塗りつぶし、カスタムパスマーカーや絵のマーカーも一緒に来るので、ラベル(halosとフィールドラベルを置き、地図のように解読します。ラベルクラスには、どこで句をつけます)。 クラスタリング、エフェクト、ビジュアル変数、アーケードレンダラー、アーケードラベル、回転した画像マーカーなどのシンボルがピクセルとして保持され、各エクスポートは理由でそれらをリストします。 回転マップやマップシリーズ、機能ページの各シートで動作します。 層ごとの20,000までの特徴。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Off by default. On, each export logs to the browser console (F12) how many selected features were found and how many reached the page. Use it when a highlight does not print: the selection lives in the map view rather than in this widget, so the log is the only way to see what was found.": {
+  "t": "デフォルトでオフ。 それぞれのエクスポートはブラウザコンソール(F12)にログを出力し、選択した機能の数とページ数がどれだけ表示されます。 ハイライトが印刷されていないときに使用します。このウィジェットではなく、選択したマップビューに住んでいるので、ログは見つけたものを見る唯一の方法です。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Off: every run adds another layer, numbered (2), (3) and so on.": {
   "t": "オフ:すべての実行は、別のレイヤー、番号付き(2)、(3)などを追加します。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Offer \"Map only\" export": {
+  "t": "「マップのみ」エクスポートを提供",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Offer {name} on the Coordinates tab": {
   "t": "オファー {name} 座標タブの",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer output coordinate system (WKID)": {
+  "t": "出力座標系(WKID)の提供",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14842,6 +15412,24 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "On by default. A layer whose visible scale range excludes the printed scale is left off the legend, so the legend never lists a symbol the map does not show.": {
+  "t": "デフォルトで。 目に見えるスケール範囲が印刷されたスケールを除外するレイヤーは凡例を離れるので、凡例はマップが表示されないシンボルをリストしません。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On by default. Every PDF map frame carries its coordinate system and corner coordinates, so Avenza Maps shows your location on the page, Acrobat reads coordinates with its Geospatial Location tool, and ArcGIS Pro and QGIS open the PDF in place. Map series georeference every sheet and the index page.": {
+  "t": "デフォルトで。 すべてのPDFマップフレームは、その座標系と角の座標を運ぶので、Avenzaマップは、ページ上のあなたの場所を表示し、アクロバットは、その地理空間位置ツールと調整し、ArcGIS ProとQGISは、所定の場所でPDFを開きます。 地図シリーズのジオリファレンスシートとインデックスページ。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On by default. The map, grid, selection, overview, legend, north arrow and scale bar, text, graphics and QR code each go in their own layer, so they can be switched on and off in Acrobat, Avenza Maps, Illustrator or Inkscape. Map series add a Map series layer for the page outlines and numbers.": {
+  "t": "デフォルトで。 地図、グリッド、選択、概要、凡例、北矢印、スケールバー、テキスト、グラフィック、QRコードはそれぞれ独自のレイヤーで行くので、アクロバット、アビエンツァマップ、Illustrator、インキケープで切り替えることができます。 地図シリーズは、画面の輪郭と数字のマップシリーズレイヤーを追加します。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "On the {address} tab.": {
   "t": "お問い合わせ {address} タブ。",
@@ -14983,6 +15571,12 @@
  },
  "One page per feature": {
   "t": "特集1ページ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "One PDF comes out with every page in it. The legend prints on every sheet, the same way ArcGIS Pro does it.": {
+  "t": "1つのPDFは、すべてのページで表示されます。 ArcGIS Proの凡例は、すべてのシートにプリントされます。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15245,6 +15839,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Output coordinate system (WKID): prints in a different coordinate system than the map uses. Leave it at 0 unless someone has asked you for a particular one.": {
+  "t": "出力座標系(WKID):マップ使用よりも異なる座標系で印刷します。 誰かが特定の人に尋ねた場合を除き、0でそれを残す。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Output size (px)": {
   "t": "出力サイズ(px)",
   "src": "libretranslate",
@@ -15293,8 +15893,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "overview inset": {
+  "t": "インセットの概要",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Overview inset": {
   "t": "概要 インセット",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Overview inset: adds the small locator map in the corner, with a red box showing where the main map sits.": {
+  "t": "概要の inset: コーナーに小さなロケータマップを追加し、メインマップが置かれている赤いボックスが表示されます。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Overview map on by default": {
+  "t": "デフォルトで概要のマップ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15347,6 +15965,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "page font": {
+  "t": "ページフォント",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Page name": {
   "t": "ページ名",
   "src": "libretranslate",
@@ -15377,6 +16001,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Page preview shows gray areas: part of the print area is off the screen, so the preview has nothing to show there. Pan or zoom out to see it; the exported file is not affected.": {
+  "t": "ページのプレビューは灰色の領域を示しています: プリント領域の一部が画面を遮断するので、プレビューにはそこを示す必要はありません。 パンまたはズームアウトすると、エクスポートされたファイルが影響されません。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Page Size": {
   "t": "ページサイズ",
   "src": "libretranslate",
@@ -15403,6 +16033,12 @@
  },
  "Pagination complete. Total features collected: {count}": {
   "t": "パジネーション完了 収集された総機能: {count}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Pan and zoom the map to what you want on the page. What you see is what prints.": {
+  "t": "パンとズームマップをページ上で望むものにします。 プリントとは何か。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15473,6 +16109,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "PDF and SVG files come with layers. In Acrobat or Avenza Maps open the Layers panel to hide the grid, the selection outline, the legend or the text; in Illustrator or Inkscape each part is its own layer.": {
+  "t": "PDF と SVG ファイルにはレイヤーが付属しています。 アクロバットまたはアビエンツァマップでは、レイヤーパネルを開き、グリッド、選択アウトライン、凡例、またはテキストを非表示にします。 Illustratorまたはインキケープの各部分は、独自のレイヤーです。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "PDF export options": {
   "t": "PDFエクスポートオプション",
   "src": "libretranslate",
@@ -15493,6 +16135,12 @@
  },
  "PDF opens a small window first so you can choose what goes on the page.": {
   "t": "PDF は最初に小さなウィンドウを開くので、ページに行くものを選ぶことができます。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "PDF: best for printing on paper and for sending to someone. Text and lines stay sharp at any zoom.": {
+  "t": "PDF: 紙に印刷し、誰かに送るために最善を尽くします。 テキストと行は、任意のズームで鋭くとどまります。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15601,6 +16249,12 @@
  },
  "Pick a draw tool (Point, Line, Polygon, Rectangle, or Circle), then draw on the map. Everything inside is selected.": {
   "t": "描画ツール(ポイント、ライン、ポリゴン、長方形、またはサークル)を選択し、マップ上で描画します。 中はすべて選択されます。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Pick a Layout, then type a Map title. The title is what prints at the top of the page.": {
+  "t": "レイアウトを選択し、マップのタイトルを入力します。 タイトルは、ページの上部にある印刷です。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15853,6 +16507,18 @@
  },
  "Please wait, do not close this window...": {
   "t": "しばらくお待ちください。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "PNG, JPG and GIF instead get two small companion files beside the image. Keep all of them together in the same folder or the placement is lost.": {
+  "t": "PNG、JPG、GIFは、画像の横にある2つの小さなコンパニオンファイルを取得します。 同じフォルダや配置が失われた状態で、それらをすべて一緒に保持してください。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "PNG32, PNG8, JPG or GIF: a picture, for a report, a slide or a web page. PNG32 is the sharpest.": {
+  "t": "PNG32、PNG8、JPG、GIF: レポート、スライド、またはWebページ用の画像。 PNG32は最もシャープです。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16115,6 +16781,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Preserve map extent (fit view): prints everything you can see now, and picks whatever scale that needs. Use this when you must not lose anything off the edges.": {
+  "t": "地図範囲(フィットビュー)を保存します。今見ることができるすべてをプリントし、必要なスケールを選ぶことができます。 エッジから何かを失わなければならないようにしてください。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Preserve map scale": {
   "t": "サイトマップ",
   "src": "libretranslate",
@@ -16123,6 +16795,12 @@
  },
  "Preserve map scale (current)": {
   "t": "保存マップスケール(current)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preserve map scale (current): prints at the same scale you are looking at. The page may show a little more or less ground than the screen, because the page is a different shape than your browser window.": {
+  "t": "地図のスケール(現在の):あなたが見ている同じスケールの印刷物を予約して下さい。 このページは、お使いのブラウザウィンドウよりも異なる形状であるため、画面よりも少し上り下がりな地面を表示することができます。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16247,6 +16925,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Press Export. The panel dims and a message tells you what it is working on. When it finishes, the file appears under Recent exports at the bottom. Click its name to save it.": {
+  "t": "プレス輸出。 パネルのダイムとメッセージは、それが動作しているものを教えてくれます。 終了すると、ファイルが下部の最近のエクスポート下に表示されます。 名前をクリックして保存します。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Press F on a focused basemap to add or remove it from favorites.": {
   "t": "フォーカスしたベースマップでFを押してお気に入りから追加または削除します。",
   "src": "libretranslate",
@@ -16301,6 +16985,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Preview fill color (hex)": {
+  "t": "プレビュー充填色(六角)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Preview first record": {
   "t": "プレビュー初記録",
   "src": "libretranslate",
@@ -16327,6 +17017,18 @@
  },
  "Preview of the printed page": {
   "t": "印刷されたページのプレビュー",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preview outline color (hex)": {
+  "t": "プレビュー輪郭色(六角)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preview outline width (px)": {
+  "t": "プレビューアウトライン幅(px)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16361,6 +17063,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Print Advanced turns the map on your screen into a finished page: the same layout your ArcGIS Pro template uses, with a title, legend and scale bar, ready to print or send.": {
+  "t": "プリントアドバンストは、画面上のマップを完成したページに変換します。 ArcGIS Proテンプレートは、タイトル、凡例、スケールバーを使用して、印刷または送信する準備ができています。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Print area": {
   "t": "プリントエリア",
   "src": "libretranslate",
@@ -16373,8 +17081,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Print area, the first card under Advanced options, decides how much ground fits in the map frame. Three choices, under Scale.": {
+  "t": "プリント領域、高度なオプションの下の最初のカード、マップフレームにどのくらいの地面が収まるかを決定します。 スケールの下の3つの選択。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Print as a map series (PDF)": {
   "t": "地図シリーズとしてのプリント(PDF)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Print selected features by default": {
+  "t": "デフォルトで選択した機能を印刷する",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16405,6 +17125,18 @@
  },
  "Print-Ready Labels: spread out the labels so they do not overlap when exported to PDF.": {
   "t": "Print-Ready Labels: ラベルをスプレッドアウトして、PDFにエクスポートしたときに重複しません。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Printing a large area over several pages": {
+  "t": "複数のページの大きな領域を印刷する",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Printing what you have selected": {
+  "t": "選択したものの印刷",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16555,6 +17287,12 @@
  },
  "Radius measurement enabled. Display the circle radius.": {
   "t": "半径測定を有効にしました。 円の半径を表示します。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Raster EPS (Level 2, JPEG-embedded). For vector output use PDF or SVG.": {
+  "t": "ラスターEPS(レベル2、JPEG埋め込み) ベクトル出力は PDF または SVG を使用します。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16873,6 +17611,12 @@
  },
  "Remove from list": {
   "t": "リストから削除",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Remove from list clears one item and Clear empties the whole list. Neither deletes a file you have already saved.": {
+  "t": "リストから削除すると、1つの項目をクリアし、リスト全体が空にします。 既に保存したファイルを削除します。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17603,6 +18347,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Scale bar style": {
+  "t": "スケールバースタイル",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Scale bar units": {
+  "t": "スケールバーユニット",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Scale field": {
   "t": "スケールフィールド",
   "src": "libretranslate",
@@ -17741,6 +18497,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Search the guide (try \"legend\" or \"blank\")": {
+  "t": "ガイド(「legend」または「blank」)を検索",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Search the guide (try \"load\" or \"fields\")": {
   "t": "ガイド(「ロード」または「フィールド」)を検索",
   "src": "libretranslate",
@@ -17770,6 +18532,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Second units (dual)": {
+  "t": "2台(デュアル)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "See how your label format will appear": {
   "t": "ラベルのフォーマットが表示される方法を見る",
@@ -18253,6 +19021,12 @@
  },
  "Selected features are outlined in cyan on the print. Turn this off to print the map without them.": {
   "t": "選択された機能は、印刷上のシアンで概略されます。 地図をプリントアウトしないようにします。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Selected features: turn this on and anything you have selected is outlined on the print, in cyan with a thin white edge so it reads over dark aerial photography.": {
+  "t": "選択された機能:このオンを回し、あなたが選択したものは、薄い白いエッジを持つシアンで、それは暗い空中写真に読みます。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19619,6 +20393,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Still stuck? Contact the GIS Division and mention the Print Advanced widget and this app.": {
+  "t": "まだ立ち往生? GIS部門に連絡し、Print Advancedウィジェットとこのアプリについて言及してください。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Still stuck? Contact your GIS team and mention the Draw Advanced widget and this app.": {
   "t": "まだ立ち往生? GISチームに連絡し、Draw Advancedウィジェットとこのアプリについて言及してください。",
   "src": "libretranslate",
@@ -19753,6 +20533,12 @@
  },
  "Supported label formats": {
   "t": "サポートされているラベルフォーマット",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "SVG or SVGZ: for editing the page afterwards in Illustrator or Inkscape. SVGZ is the same file, just smaller.": {
+  "t": "SVG または SVGZ:Illustrator または Inkscape でページを編集します。 SVGZは同じファイルです。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20369,6 +21155,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The export is taking a long time: a high Map DPI or a large page takes longer. Keep the tab open and give it a few minutes. The message in the panel tells you what it is working on.": {
+  "t": "高地図DPIや大画面が長時間かかっています。 タブを開いたままにし、数分で渡します。 パネルのメッセージは、それが動作しているものを教えてくれます。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The expression choice lets you write a short formula, such as helpers.upper($.NAME). Write $.FIELD to read a value from your data.": {
   "t": "式を選択すると、ヘルパー.upper($.NAME)などの短い式を書くことができます。 $.FIELD を記述して、データを読み込みます。",
   "src": "libretranslate",
@@ -20389,6 +21181,12 @@
  },
  "The feature you are reading is outlined on the map, so you can see which one it is.": {
   "t": "地図上で読み込まれている機能が概説されているので、その1つがわかります。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The file is a PDF unless you change it: open Advanced options and pick a Format under Output. PDF is the safe choice for anything you plan to print on paper.": {
+  "t": "変更がない限り、ファイルはPDFです: 高度なオプションを開き、出力中のフォーマットを選択します。 PDFは、紙に印刷する予定のもののための安全な選択です。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20501,11 +21299,23 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The list is only for this visit. It empties when you close or reload the app, so save anything you want to keep.": {
+  "t": "このページの先頭へ アプリを閉じたり、リロードしたりすると空になります。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The Load step checks the work, then writes the records into the layer.": {
   "t": "Load のステップは仕事を確認し、それから記録を層に書きます。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The map area is blank or grey: the map had not finished drawing. Wait until the map is still and every layer has appeared, then export again.": {
+  "t": "地図エリアはブランクまたはグレーです:マップは図面を終わらなかった。 地図が残っているまで待って、すべてのレイヤーが現れて、再びエクスポートします。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The map does not move or change scale by itself. Use the zoom action in the details when you want the map to go there.": {
   "t": "地図自体でスケールを移動したり変更したりしません。 地図を行きたいときに、ズームアクションを詳細に使用します。",
@@ -20591,6 +21401,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The outline is drawn rather than shaded, so labels and dimensions inside the parcel stay readable on paper.": {
+  "t": "輪郭はシェードではなく描画されるので、パレット内のラベルと寸法は紙に読みやすくなります。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The parcel polygon is built from the Boundary Lines only, then saved with the name, description, and stated area. If no line is marked Boundary Line, no polygon is created.": {
   "t": "小包の多角形は境界線だけから造られ、そして名前、記述および記述された区域と貯えられます。 境界線がマークされていない場合、ポリゴンは作成されません。",
   "src": "libretranslate",
@@ -20647,6 +21463,12 @@
  },
  "The print service did not return a file.": {
   "t": "プリントサービスはファイルを返すことはありませんでした。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The print service failed: the server refused the job or timed out. Try again, and if it keeps failing switch the Format to PDF and export a smaller page.": {
+  "t": "プリントサービスが失敗しました。サーバーがジョブを拒否したりタイムアウトしたりしました。 もう一度試してみると、フォーマットをPDFに切り替えて、より小さいページをエクスポートしなければいけません。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20897,6 +21719,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "These options are for a Map only export, so the picture is the map edge to edge with nothing else on it.": {
+  "t": "これらのオプションは、マップのみエクスポートのためです。そのため、画像はそれ以外に何も端にマップエッジです。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "These settings are for advanced users only": {
   "t": "これらの設定は上級ユーザーのみ",
   "src": "libretranslate",
@@ -21011,6 +21839,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "This runs in your browser, not ArcGIS Pro, so big series are limited: a yellow note warns about a large job with a rough time and file size, and a red note stops a series over the page limit set for this app.": {
+  "t": "これは、ArcGIS Proではなく、ブラウザで実行されるので、大きなシリーズは制限されています。 黄色のノートは、荒い時間とファイルサイズで大きなジョブについて警告し、赤いノートは、このアプリに設定されたページ制限上のシリーズを停止します。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "This scale and the map position set the print area that Inside the print area uses to pick features. Each page still sets its own scale.": {
   "t": "このスケールと地図の位置は、印刷エリア内の印刷エリアが機能を選ぶのに使われます。 各ページはそれぞれ独自のスケールを設定しています。",
   "src": "libretranslate",
@@ -21121,6 +21955,12 @@
  },
  "Ticks and crosses": {
   "t": "ティックスとクロス",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "TIFF: a large picture, and the right choice when you want the map to open in the correct place in ArcGIS Pro.": {
+  "t": "TIFF: ArcGIS Proの正しい場所にマップを開くときに大きな写真と正しい選択。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21671,6 +22511,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Turn on Page preview, right under Map title, to see the whole printed page while you pan and zoom. It is a quick sketch drawn from the screen: gray areas are outside the screen, and the overview map shows as a box. The export is always full quality.": {
+  "t": "ページのプレビューをオンにします, 右のマップのタイトルの下, あなたがパンとズームしながら、印刷されたページ全体を見るために. 画面から描画される簡単なスケッチです:灰色の領域は画面外にあり、概要のマップはボックスとして表示されます。 輸出は常に完全な質です。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Turn on parent groups when a layer is checked on": {
   "t": "レイヤーがチェックされたときに親グループをオンにします",
   "src": "libretranslate",
@@ -21679,6 +22525,12 @@
  },
  "Turn on Print-Ready Labels in {displayOptions} before a PDF export to spread the labels out so they do not overlap.": {
   "t": "Print-Ready ラベルをオンにする {displayOptions} PDFエクスポートの前にラベルを外すように、重複しない。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Turn on Show print area and a rectangle appears on the map showing exactly what will print. Watch it while you zoom.": {
+  "t": "印刷領域を表示し、印刷するものを正確に示す地図に矩形が表示されます。 ズームしながら見ます。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21862,6 +22714,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Under Advanced options, each card opens and closes from its heading and remembers your choice; a closed card still shows a short summary of what is set inside it. The On the map card holds the switches for the {parts}; Page text holds Author, Copyright and the QR code; Style holds the font, north arrow and scale bar; Output holds the format, DPI, coordinate system, map-only export and file name. Turning a switch off leaves it off this page only; it does not change the map, and it does not change anything for anyone else.": {
+  "t": "高度なオプションでは、各カードが開いて、その見出しから閉じ、あなたの選択を記憶します。 クローズドカードは、その中に設定されているものの短い要約を表示します。 地図カードの上のスイッチは、 {parts}; ページテキストは、著者、著作権、QRコードを保持します。 スタイルは、フォント、北矢印、スケールバーを保持します。 出力は、フォーマットを保持します。 DPI、座標系、マップのみのエクスポートとファイル名。 スイッチをオフにすると、このページをオフにします。それはマップを変更せず、他の人のために何も変更しません。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Under Advanced options, turn on Print as a map series (PDF), then set Rows and Columns. The estimate underneath tells you how many pages you will get.": {
+  "t": "高度なオプションで、[印刷] をマップシリーズ(PDF)としてオンにし、行と列を設定します。 下の見積もりは、取得するページ数をお伝えします。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Under the title is a list. Each line has a label on the left and the value for that feature on the right.": {
   "t": "タイトルの下にはリストがあります。 各行には、左にラベルと右側にその機能の値があります。",
@@ -22475,6 +23339,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Vector feature layers in PDF and SVG (experimental)": {
+  "t": "PDFとSVG(実験)のベクトル機能レイヤー",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Vector page furniture; opens in Illustrator/Inkscape. Covers the AIX use case.": {
+  "t": "ベクトルページ家具;Illustrator/Inkscape で開きます。 AIXユースケースをカバー。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Verify your settings work with sample data": {
   "t": "設定をサンプルデータで確認",
   "src": "libretranslate",
@@ -22703,6 +23579,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "What goes on the page": {
+  "t": "ページの先頭へ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "What shows on the map": {
   "t": "サイトマップ",
   "src": "libretranslate",
@@ -22859,6 +23741,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Which file type to pick": {
+  "t": "どのファイルタイプを選ぶか",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Which polygon attributes users can enter at runtime: the fixed name/description/stated-area inputs, the fields from the layer popup, or a custom list": {
   "t": "ユーザーが実行時に入力できるポリゴン属性:固定名/記述/ステータス入力、レイヤーポップアップのフィールド、またはカスタムリスト",
   "src": "libretranslate",
@@ -22867,6 +23755,12 @@
  },
  "Which tab is active when the widget first opens.": {
   "t": "ウィジェットが最初に開くと、どのタブがアクティブになります。",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "While a series exports, the bar below Export shows Page 3 of 12 (with the feature name for one page per feature), one segment per page plus the index page and saving, how many steps are done and about how long is left. Keep this tab open until the file appears, or press Cancel to stop after the current page.": {
+  "t": "シリーズのエクスポートでは、エクスポートの下のバーは12ページ(機能1ページあたりの機能名で)、ページごとの1つのセグメントとインデックスページと保存、手順の実行とどのくらいの期間が残っているかを示しています。 ファイルが表示されるまでタブを開いたままにするか、現在のページからキャンセルを押します。",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23026,6 +23920,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Write export diagnostics to the console": {
+  "t": "コンソールにエクスポート診断を書く",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Write null": {
   "t": "null を書く",

@@ -1019,6 +1019,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "4,327,000 m (with units)": {
+  "t": "4,327,000 m (มีหน่วย)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "4. Export": {
   "t": "ส่งออก 4",
   "src": "libretranslate",
@@ -1085,6 +1091,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A georeferenced export is always straight north up, even if your map is turned, because a turned picture would not line up with the ground.": {
+  "t": "การส่งออกทางภูมิศาสตร์ มักจะตรงขึ้นไปทางเหนือเสมอ แม้ว่าแผนที่ของคุณจะถูกพลิกกลับ เพราะภาพเปลี่ยนจะไม่เรียงกับพื้นดิน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A grid over the map view": {
   "t": "กริดในมุมมองแผนที่",
   "src": "libretranslate",
@@ -1097,6 +1109,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A highlight belongs to the map on your screen, not to the map layers, so the widget draws your selected features onto the page for you.": {
+  "t": "จุดเน้นอยู่ที่แผนที่บนหน้าจอของคุณ ไม่ใช่ชั้นของแผนที่ ดังนั้นวิดเจ็ตนี้จึงวาดคุณสมบัติที่เลือกมายังหน้าของคุณ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A layer inside a group shows only when the group is on too. If a ticked layer is missing from the map, check its group.": {
   "t": "เลเยอร์ภายในกลุ่ม แสดงเฉพาะเมื่อกลุ่มเปิดแสดง หาก ไม่ มี การ ตรวจ สอบ จาก แผนที่ ให้ ตรวจ สอบ กลุ่ม ของ มัน.",
   "src": "libretranslate",
@@ -1105,6 +1123,12 @@
  },
  "A layer is missing: it may be outside the current map scale. Zoom in or out, and check the note beneath its name.": {
   "t": "ไม่มีเลเยอร์: อาจจะอยู่นอกสัดส่วนของแผนที่ปัจจุบัน ซูมเข้าหรือออก และตรวจสอบจดหมายใต้ชื่อ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer is on the map but not in the legend: the layer does not draw at the printed scale, or your app leaves out layers with nothing inside the print area, so it is left out on purpose. Check the layer list in the map, or print at a scale and area where it draws.": {
+  "t": "ชั้นอยู่บนแผนที่ แต่ไม่ได้อยู่ในตํานาน: ชั้นไม่ได้วาดที่มาตราการพิมพ์ หรือแอพของคุณใบออกชั้น โดยไม่มีอะไรภายในพื้นที่การพิมพ์จึงเหลือออกโดยมีวัตถุประสงค์ ตรวจสอบรายการเลเยอร์ในแผนที่ หรือการพิมพ์ที่ขนาดและพื้นที่ที่มันวาด",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1129,6 +1153,12 @@
  },
  "A layer name is grey and nothing shows on the map: the layer only draws between certain zoom levels. Zoom in, or out, until the name turns dark.": {
   "t": "ชื่อชั้นคือสีเทา และไม่มีอะไรในแผนที่: เลเยอร์จะวาดเฉพาะระดับการย่อ/ ขยายเท่านั้น ซูมเข้าหรือออกจนกว่าชื่อจะมืด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer printed as a picture instead of sharp lines: its symbols, labels or effects are ones the vector output cannot copy exactly, so it kept the picture on purpose. The note under the finished file names each layer and the reason.": {
+  "t": "เลเยอร์ที่พิมพ์เป็นรูปภาพแทนที่จะเป็นเส้นคมชัด: สัญลักษณ์, ป้ายหรือลูกเล่นของมัน คืออันที่เวกเตอร์ปล่อยออกมา ไม่สามารถคัดลอกได้อย่างถูกต้อง ดังนั้นมันจึงเก็บภาพไว้โดยมีวัตถุประสงค์ บันทึกช่วยจําใต้ชื่อแฟ้มที่เสร็จแล้ว แต่ละเลเยอร์และเหตุผล",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1168,6 +1198,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "A map series cuts the area you are looking at into a grid of pages, all at one scale, and adds an index page at the front.": {
+  "t": "แผนที่ซีรีส์ตัดพื้นที่ คุณกําลังมองหาตารางของหน้ากระดาษ ทั้งหมดในหนึ่งมาตรา และเพิ่มหน้าดัชนีที่ด้านหน้า",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A map series is very slow: every page is captured one at a time, so twelve pages take roughly twelve times as long as one. Keep the tab open, or use fewer, larger pages.": {
+  "t": "แผนที่ซีรีส์จะช้ามาก หน้าทุกหน้าจะถูกจับทีละหน้า ดังนั้น 12 หน้า จะใช้เวลาประมาณ 12 ครั้ง ให้แท็บเปิดหรือใช้หน้าใหญ่กว่าน้อยลง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "A map widget is required for this widget to function": {
   "t": "วิดเจ็ตของแผนที่นั้นจําเป็นสําหรับวิดเจ็ตนี้ในการทํางาน",
@@ -1223,6 +1265,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A selected feature is missing from the print: Selected features is switched off, or the selection was cleared before you pressed Export. Turn the switch on, reselect, then export.": {
+  "t": "คุณสมบัติที่เลือกไว้ ขาดมาจากการพิมพ์: คุณสมบัติที่เลือกจะถูกปิด หรือส่วนที่เลือกจะถูกล้างก่อนทําการส่งออก เปิดสวิตซ์ แล้วเลือกใหม่ แล้วก็ส่งออก",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A selection highlight belongs to the map on screen, not to the map layers, so the widget draws the selected features onto the page itself, as a cyan outline with a thin white casing so it reads over aerial photography. Selections made in the Select, Table or Query widgets and shapes an app has drawn on the map are all picked up. This switch sets the starting position only; users can still turn it on or off per export.": {
+  "t": "จุด เด่น ของ การ คัด เลือก คือ แผนที่ ที่ อยู่ บน จอ ไม่ ใช่ ชั้น แผนที่ ดัง นั้น วิดเจ็ต จึง ได้ วาด คุณสมบัติ ที่ เลือก ไว้ บน หน้า ของ ตัว มัน เอง เป็น เส้น รอบ วง สี ฟ้า มี ปลอก ขาว บาง ๆ เพื่อ ให้ อ่าน ผ่าน ทาง ภาพ ถ่าย ทาง อากาศ. การเลือกที่ทําในการเลือก, ตาราง หรือ สืบค้นวิดเจ็ต และรูปร่างโปรแกรม ได้วาดบนแผนที่แล้ว จะถูกเลือกขึ้นมาทั้งหมด สวิตช์นี้ตั้งค่าตําแหน่งเริ่มต้นเท่านั้น ผู้ใช้ยังคงสามารถเปิดหรือปิดได้ต่อการส่งออก",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A side with no selected layers shows the basemap and any shared map layers. You can use this to compare a layer with the basemap.": {
   "t": "ด้านที่ไม่มีชั้นที่เลือกแสดงฐานและชั้นแผนที่ร่วมกันใด ๆ คุณสามารถใช้นี่เปรียบเทียบชั้นกับเบสแมพได้",
   "src": "libretranslate",
@@ -1243,6 +1297,12 @@
  },
  "A to Z": {
   "t": "A ต่อ Z",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A turned map stays turned. The coordinate information carries the turn too, so the picture still lines up with the ground in ArcGIS Pro, QGIS and Google Earth.": {
+  "t": "แผนที่เปลี่ยนยังหมุนอยู่ ข้อมูลพิกัดดําเนินการเปิดด้วย ดังนั้นภาพยังคงบรรทัดขึ้น กับพื้นดินในอาร์กกิสโปร, QGIS และ Google Earth",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1411,6 +1471,12 @@
  },
  "Add a QR code that opens this map": {
   "t": "เพิ่มรหัส QR ที่เปิดแผนที่นี้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add a QR code that opens this map: prints a small square code. Anyone who scans it with a phone opens the live map in a browser.": {
+  "t": "เพิ่มรหัส QR ที่เปิดแผนที่นี้ ใครก็ตามที่สแกนด้วยโทรศัพท์ เปิดแผนที่สดในเว็บ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1925,8 +1991,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Advanced options cards open by default": {
+  "t": "ตัวเลือกเพิ่มเติมที่จะเปิดโดยค่าปริยาย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Aerial and satellite imagery from the OpenStreetMap Editor Layer Index that covers the part of the map you are looking at. It is added under your layers, like a second basemap.": {
   "t": "จากดัชนีของเครื่องมือแก้ไขแบบ OpenStatMap ที่ครอบคลุมส่วนของแผนที่ มัน ถูก เพิ่ม เข้า ไป ใต้ ชั้น ต่าง ๆ ของ คุณ เหมือน เบสแมพ ที่ สอง.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Aerial photography looks soft: you are zoomed in closer than the photography was flown. It is placed correctly, there is simply no more detail to show. Zoom out a little for a crisper page.": {
+  "t": "การ ถ่าย ภาพ ทาง อากาศ ดู อ่อน โยน: คุณ ถูก ขยาย ให้ ใกล้ กว่า การ ถ่าย ภาพ. มี การ ใส่ คํา นี้ ไว้ อย่าง ถูก ต้อง ไม่ มี ราย ละเอียด ใด ๆ อีก ต่อ ไป. ซูมออกมาหน่อยสําหรับหน้ากรอบ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2392,6 +2470,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "App default": {
+  "t": "ค่าปริยาย App",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "App-specific keeps drawings isolated to this experience; Global shares them across all experiences on this domain.": {
   "t": "App-trancial เก็บภาพเขียนที่แยกออกจากประสบการณ์นี้; Global แบ่งปันผ่านประสบการณ์ทั้งหมดในโดเมนนี้",
@@ -2963,6 +3047,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Blank = outline color": {
+  "t": "พื้นหน้า:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Blank = signed-in username": {
+  "t": "ล้างข้อมูล",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Blank labels read Longitude and Latitude for a geographic system, X and Y otherwise.": {
   "t": "ลบป้าย",
   "src": "libretranslate",
@@ -3485,6 +3581,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Cell ids (A1, B2) in each cell": {
+  "t": "หมายเลขเซลล์ (A1, B2) ในแต่ละเซลล์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Center · {srLabel}": {
   "t": "ศูนย์ {srLabel}",
   "src": "libretranslate",
@@ -3881,6 +3983,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Choose TIFF and turn on Georeference (world file) and you get a single file that ArcGIS Pro and QGIS open in the correct place with nothing else to keep track of. This is the one to use.": {
+  "t": "เลือกแฟ้มภาพประเภท TIFF และเปิด Goice ที่ควรใช้ (แฟ้มในโลก) และคุณได้แฟ้มเดี่ยวที่ AkGIS Pro และ QGIS เปิดในตําแหน่งที่ถูกต้อง โดยไม่มีอะไรอื่นที่จะติดตาม อันนี้ใช้ได้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Choose vertical alignment for text. Options are baseline, top, middle, or bottom. Currently set to {verticalAlignment}.": {
   "t": "เลือกการจัดวางแนวตั้งสําหรับข้อความ ตัวเลือกคือเส้นฐาน, ด้านบน, ตรงกลาง, หรือล่าง ปัจจุบันตั้งค่าเป็น {verticalAlignment}.",
   "src": "libretranslate",
@@ -3931,6 +4039,12 @@
  },
  "Choosing layers": {
   "t": "เลือกเลเยอร์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choosing what lands on the page": {
+  "t": "การ เลือก ดิน แดน ใด ใน หน้า นี้",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5507,6 +5621,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Corner coordinates": {
+  "t": "พิกัดมุม",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Could not copy the link": {
   "t": "ไม่สามารถคัดลอกลิงก์ได้",
   "src": "libretranslate",
@@ -5939,6 +6059,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Decimal degrees (108.51°W)": {
+  "t": "Decmimal องศา (108.1551)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Decimal Degrees (DD)": {
   "t": "องศาฟาเรนไฮต์ (DD)",
   "src": "libretranslate",
@@ -5947,6 +6073,12 @@
  },
  "Decimal degrees: decimal places": {
   "t": "ทศนิยม:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Decimal minutes (108°30.5'W)": {
+  "t": "ถอดรหัสนาที (10830.5'W)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6011,6 +6143,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default author": {
+  "t": "ผู้เขียนปริยาย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default basemap": {
   "t": "แปรงทาสี",
   "src": "libretranslate",
@@ -6053,6 +6191,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default copyright": {
+  "t": "ลิขสิทธิ์ปริยาย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default custom buffer color.": {
   "t": "สีบัฟเฟอร์ที่กําหนดเอง",
   "src": "libretranslate",
@@ -6079,6 +6223,18 @@
  },
  "Default Field Mappings": {
   "t": "การติดตามช่องข้อมูลปริยาย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default file name": {
+  "t": "ชื่อแฟ้มปริยาย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default format": {
+  "t": "รูปแบบปริยาย",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6113,14 +6269,56 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default map DPI": {
+  "t": "พิมพ์แผนที่ปริยาย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default map title": {
+  "t": "หัวเรื่องแผนที่ปริยาย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default Name Field": {
   "t": "ช่องข้อมูลชื่อปริยาย",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default north arrow": {
+  "t": "ลูกศรเหนือปริยาย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default Opacity (%)": {
   "t": "ระดับความโปร่งแสงปริยาย (%)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default output WKID (0 = map's own)": {
+  "t": "ลบทั้งเธรด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default scale bar style": {
+  "t": "รูปแบบแถบขนาดปริยาย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default scale bar units": {
+  "t": "แสดงแถบขนาดปริยาย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default second units (dual)": {
+  "t": "ลบทั้งเธรด",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6671,8 +6869,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Double styles print a dual scale bar (two measurements sharing the zero point). Layout default picks the natural complement (miles-feet, meters-kilometers); choose a unit to override.": {
+  "t": "แบบคู่พิมพ์แถบคู่ (วัดสองจุดใช้จุดศูนย์ร่วมกัน) การจัดวาง เลือกคอมพลิเมนต์ธรรมชาติ (หน่วยเป็นไมล์, เมตร- กิโลเมตร); เลือกหน่วยที่จะแทนที่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Double-click always finishes a line or area, and Esc always cancels one.": {
   "t": "การดับเบิลคลิกมักจะจบบรรทัดหรือพื้นที่ และเอสอีเอสยกเลิกเสมอ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Double-click the .kmz in Google Earth Pro, or drag it into Google Earth on the web. The map is saved as a PNG inside it whatever Format you chose above.": {
+  "t": "คลิก .kmz ใน Google Earth pro หรือลากมันเข้าไปใน Google Earth บนเว็บ แผนที่นี้ได้ถูกบันทึกเป็น PNG ภายในมัน ไม่ว่าคุณจะเลือกรูปแบบอะไรก็ตาม",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7319,6 +7529,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Each app sets a page limit (50 map pages unless changed in Settings; the index and legend pages do not count). A grid over it switches Export off; use fewer Rows or Columns, or zoom out and use fewer, larger pages.": {
+  "t": "แต่ละโปรแกรมตั้งค่าจํากัดหน้า (50 หน้าของแผนที่ จนกว่าจะมีการเปลี่ยนแปลงในการตั้งค่า; ดัชนีและหน้าตํานานไม่นับ) ตารางที่อยู่เหนือมัน จะสลับการส่งออก; ใช้แถวหรือคอลัมน์น้อยกว่า หรือย่อขยายออกไป และใช้หน้าใหญ่กว่าน้อยกว่า",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Each button draws one kind of measurement. A blue bar at the top shows which tool is active.": {
   "t": "แต่ละปุ่มวาดชนิดของการวัด แถบสีน้ําเงินที่แสดงด้านบนว่าเครื่องมือใดแอคทีฟ",
   "src": "libretranslate",
@@ -7333,6 +7549,12 @@
  },
  "Each button opens the pinned spot in another website: {links}.": {
   "t": "แต่ละปุ่มจะเปิดจุดปักหมุดในเว็บไซต์อื่น: {links}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Each card can be opened and closed by the user, and their choice is remembered in their browser. These are the starting positions. Map series opens by itself whenever a series is switched on.": {
+  "t": "ไพ่แต่ละใบสามารถเปิดและปิดได้โดยผู้ใช้ และตัวเลือกของพวกเขาจะถูกจดจําไว้ในเบราว์เซอร์ของพวกเขา นี่คือจุดเริ่มต้น แผนที่ซีรีส์จะเปิดเอง เมื่อใดก็ตามที่มีการเปลี่ยนอนุกรม",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8141,6 +8363,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Every PDF is also a GeoPDF. Open it in Avenza Maps on a phone to see your location as a blue dot on the map, read coordinates in Acrobat with the Geospatial Location tool, or add it to ArcGIS Pro or QGIS and it lands in the right place.": {
+  "t": "PDF ทุกรายยังเป็น GOPDF เปิดมันใน Avensa แผนที่บนโทรศัพท์เพื่อดูตําแหน่งของคุณเป็นจุดสีฟ้าบนแผนที่ อ่านพิกัดใน Acrobat กับเครื่องมือ Geogaspatial หรือเพิ่มไปยัง AcGIS pro หรือ QGIS",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Every shape you draw is listed on the My Drawings tab.": {
   "t": "ทุกรูปที่คุณวาด จะอยู่ในแท็บของ My Shaws",
   "src": "libretranslate",
@@ -8393,6 +8621,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Export as many times as you like. Change one thing, export again, and compare the two files.": {
+  "t": "ส่งออกกี่ครั้งก็ได้ เปลี่ยนสิ่งหนึ่ง, ส่งออกอีกครั้ง, และเปรียบเทียบแฟ้มทั้งสอง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Export as Shapefile": {
   "t": "ส่งออกเป็นแฟ้มรูปร่าง",
   "src": "libretranslate",
@@ -8423,6 +8657,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Export defaults": {
+  "t": "ส่งออกค่าปริยาย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Export drawings to file": {
   "t": "ส่งออกรูปภาพเป็นแฟ้ม",
   "src": "libretranslate",
@@ -8431,6 +8671,12 @@
  },
  "Export formats for {name}": {
   "t": "รูปแบบการส่งออกสําหรับ {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export is greyed out with a red message under Map series: the series is over this app's page limit. Use fewer rows or columns, or for one page per feature choose Inside the print area, zoom in, or filter the layer.": {
+  "t": "ส่งออกเป็นข้อความสีแดงภายใต้ชุดแผนที่: อนุกรมอยู่เหนือค่าจํากัดของหน้านี้ ใช้แถวหรือคอลัมน์ที่น้อยลง หรือสําหรับหนึ่งหน้าต่อคุณสมบัติ เลือกภายในพื้นที่การพิมพ์, ขยาย หรือกรองเลเยอร์",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8557,6 +8803,12 @@
  },
  "Exporting": {
   "t": "กําลังส่งออก",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Exporting…": {
+  "t": "กําลังส่งออก...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9065,6 +9317,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Finished exports are listed under Recent exports at the bottom of the panel, newest first. Click the file name to save it to your computer.": {
+  "t": "การส่งออกเสร็จสิ้น จะถูกแสดงภายใต้รายการส่งออกเมื่อเร็ว ๆ นี้ ที่ด้านล่างของพาเนล ใหม่ล่าสุด คลิกชื่อแฟ้มเพื่อบันทึกไปยังเครื่องของคุณ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Finishing up…": {
   "t": "เสร็จสิ้น...",
   "src": "libretranslate",
@@ -9079,6 +9337,12 @@
  },
  "Fixed scale": {
   "t": "ขนาดความกว้างคงที่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fixed scale: prints at the exact scale you type, for example 24000 for 1:24,000. Use this when the page has to match another map.": {
+  "t": "มาตราความกว้าง: พิมพ์ลายนิ้วมือตามมาตราที่คุณพิมพ์ ตัวอย่างเช่น 24,000 ต่อ 1: 24,000. ใช้นี่เมื่อหน้านี้ตรงกับแผนที่อื่น",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9353,6 +9617,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Font: changes the typeface for all the text on the page. App default uses the layout font.": {
+  "t": "แบบอักษร: ค่าปริยายของ App ใช้แบบอักษรของผังแป้นพิมพ์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "for {count} selected buffer": {
   "t": "สําหรับ {count} บัฟเฟอร์ที่เลือกไว้",
   "src": "libretranslate",
@@ -9395,6 +9665,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "For one page per parcel, park or project, set Pages from to One page per feature and pick the layer. Features chooses which ones: in the current map view, inside the print area rectangle, or the whole layer, even beyond the map. Any filter on the layer (from Map Layers, a Filter widget or the map itself) is applied too. Only layers in the map's layer list that are turned on are listed (whichever layer list widget you use), including ones inside groups, nested groups and map image services, shown with their group path, like Utilities / Water / Mains. Each page centers on its feature, outlines it in orange and prints at the best-fit scale, or the fixed scale you set. Text in the layout that uses {field:NAME} shows that feature's value.": {
+  "t": "สําหรับ หนึ่ง หน้า ต่อ พัสดุ, สวน หรือ โครงการ ต่าง ๆ จง กําหนด หน้า หนึ่ง หน้า ต่อ หน้า แล้ว เลือก ชั้น. คุณสมบัติการเลือกตัวใด: ในมุมมองแผนที่ปัจจุบัน, ภายในสี่เหลี่ยมพื้นที่การพิมพ์, หรือทั้งชั้น, แม้แต่นอกแผนที่ ตัวกรองใด ๆ บนชั้น (จากแผนที่ชั้นต่าง ๆ) จะถูกปรับใช้กับวิดเจ็ตหรือแผนที่ด้วย รายการเฉพาะชั้นในชั้นของแผนที่เท่านั้น ที่ถูกเปิดใช้จะถูกแสดงอยู่ในรายการ (ใช้วิดเจ็ตรายการใด ๆ ในชั้นต่าง ๆ) รวมไปถึงตัวที่อยู่ในกลุ่ม, กลุ่มย่อย, รังและแผนที่บริการต่าง ๆ ที่แสดงร่วมกับกลุ่มของพวกเขา เช่น วัฒนา / น้ํา / เมืองหลัก แต่ละหน้าเป็นศูนย์กลางบนคุณสมบัติของมัน โดยจัดวางเป็นสีส้มและพิมพ์ ในสัดส่วนที่พอดีที่สุด ข้อความในผังแป้นพิมพ์ที่ใช้ (ช่องข้อมูล: NAME) แสดงค่าของคุณสมบัตินี้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "For the best experience, use a modern web browser": {
   "t": "สําหรับประสบการณ์ที่ดีที่สุด ใช้เว็บเบราว์เซอร์สมัยใหม่",
   "src": "libretranslate",
@@ -9421,6 +9697,12 @@
  },
  "Format a field as a number, currency, percent, or date, or turn it into a link built from a URL template with {FIELD_NAME} tokens.": {
   "t": "ฟอร์แมตช่องข้อมูลเป็นตัวเลข, เงินตรา, เปอร์เซ็นต์, หรือวันที่ หรือเปลี่ยนเป็นการเชื่อมโยงที่สร้างขึ้นจากต้นแบบที่อยู่ URL ด้วย {FIELD_NAME} เหรียญ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Format decides the kind of file you get. If you are not sure, use PDF.": {
+  "t": "รูปแบบจะตัดสินชนิดของแฟ้มที่คุณได้รับ หากคุณไม่แน่ใจ ให้ใช้ PDF",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9487,6 +9769,12 @@
  },
  "Freeze the print area over the current ground location so it stays put while you pan or zoom.": {
   "t": "หยุดการพิมพ์พื้นที่มากกว่าที่ตั้งพื้นที่พื้นดินปัจจุบัน เพื่อให้อยู่วางในขณะที่คุณกระทะหรือซูม",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "From .pagx": {
+  "t": "จาก .pagx",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9749,14 +10037,32 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "GeoPDF coordinates in PDF exports": {
+  "t": "พิกัด GoPDF ในรายการส่งออก PDF",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Georeference (world file)": {
   "t": "ตําแหน่งที่อยู่ URL (แฟ้มโลก)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Get the map looking the way you want, pick a Layout, type a Map title, then press Export. Your file appears at the bottom of the panel.": {
+  "t": "ได้รับแผนที่ที่มีลักษณะตามที่คุณต้องการ เลือกรูปแบบ, พิมพ์ชื่อแผนที่ จากนั้นกด ส่งออก แฟ้มของคุณปรากฏอยู่ทางด้านล่างของพาเนล",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Getting the address of a spot": {
   "t": "หาที่อยู่ของตําแหน่ง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Getting your file": {
+  "t": "กําลังรับแฟ้มของคุณ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9809,6 +10115,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Google Earth (KMZ): gives you one .kmz file with the map draped over the globe in the right place. All four corners are placed separately, so the picture is not stretched.": {
+  "t": "Google Earth (KMZ): ให้ข้อมูล .kmz แก่คุณหนึ่งแฟ้ม โดยมีแผนที่ปูพื้นรอบโลก ในสถานที่ที่เหมาะสม ทั้ง สี่ มุม ถูก แยก ไว้ ต่าง หาก ดัง นั้น ภาพ จึง ไม่ ยืด.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Google Maps 3D": {
   "t": "กูเกิ้ลแมพ 3 มิติ",
   "src": "libretranslate",
@@ -9823,6 +10135,12 @@
  },
  "Graticule (lat/long)": {
   "t": "เส้นต่อเนื่อง (ยาว/ ยาว)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "grid": {
+  "t": "ตาราง",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9877,6 +10195,18 @@
  },
  "Grid is enabled. Theme: {gridTheme}. Spacing: {gridSpacingMode}. Rotation: {gridRotation} degrees.": {
   "t": "กริดถูกเปิดใช้ ชุดตกแต่ง: {gridTheme}ช่องว่าง: {gridSpacingMode}หมุน: {gridRotation} องศา",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid labels are missing on a turned map: labels that would overlap another label are left off so none print on top of each other. Use a larger interval, fewer label sides, or smaller labels.": {
+  "t": "ป้ายกริดหายไปบนแผนที่ที่เปิด: ป้ายที่ทับกัน จะเหลือป้ายอื่น ๆ จึงไม่มีการพิมพ์บนของกันและกัน ใช้ช่วงที่ใหญ่กว่า, ใช้ด้านป้ายน้อยกว่า, หรือน้อยกว่า.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid on by default": {
+  "t": "ใช้ตารางภาพโดยปริยาย",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9949,6 +10279,12 @@
  },
  "Grid size": {
   "t": "ขนาดกริด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid size shrinks the whole grid toward the middle, which is a quick way to trim empty edges without changing rows and columns.": {
+  "t": "ขนาดกริดจะหดเส้นกริดทั้งเส้นไปตรงกลาง ซึ่งเป็นวิธีที่รวดเร็วในการตัดขอบว่าง โดยไม่ต้องเปลี่ยนแถวและคอลัมน์",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10031,6 +10367,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Grid style for this export: latitude/longitude graticule, measured grid in map units, or lettered reference grid.": {
+  "t": "รูปแบบตารางสําหรับส่งออกนี้: เส้นรุ้ง/ เส้นแวง, เส้นกริดที่วัดในหน่วยแผนที่, หรือกริดอ้างอิงแบบตัวอักษร",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid style panel": {
+  "t": "ถาดรูปแบบกริด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid style: open it under Grid type to change the grid your way. Pick the line color, width, opacity and pattern, or draw only edge ticks and crosses. Set a custom interval, the label color, size, bold and halo, which sides get labels, labels that run along the side edges, and the coordinate or number format. Reference grids can put letters on rows and print cell ids like A1 in every cell. Reset to layout grid puts everything back.": {
+  "t": "รูปแบบตาราง: เปิดมันภายใต้รูปแบบกริด เพื่อเปลี่ยนแนวตารางของคุณ เลือกสีเส้น, ความกว้าง, ความทึบแสง และรูปแบบ หรือวาดเฉพาะจุดขอบและแนวขวางเท่านั้น ตั้งค่าช่วงต่าง ๆ ที่กําหนดเอง, สี, ขนาด, ตัวหนา และรัศมี โดยด้านใด ๆ จะใช้ป้ายสี, แถบกํากับค่าสี, และรูปแบบตัวเลข ตารางอ้างอิงสามารถใส่ตัวอักษรบนแถว และพิมพ์หมายเลขเซลล์เช่น A1 ในทุกเซลล์ ปรับเป็นตารางผัง ให้ทุกอย่างกลับมา",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Grid theme changed to {newTheme}": {
   "t": "ชุดตกแต่งกริดถูกเปลี่ยนเป็น {newTheme}",
   "src": "libretranslate",
@@ -10051,6 +10405,12 @@
  },
  "Grid unit changed to {newUnit}": {
   "t": "หน่วยกริดถูกเปลี่ยนเป็น {newUnit}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid: adds the grid or graticule the layout was built with. Grid type switches between a latitude and longitude graticule, a measured grid in map units, and a lettered reference grid like A-1. When the layout turns on corner labels, each map corner also shows its exact coordinate.": {
+  "t": "ตาราง: เพิ่ม ตาราง หรือ สี่เหลี่ยม ผัง อาคาร. เส้นกริดเปลี่ยนระหว่างละติจูดกับเส้นลองติจูด กริดวัดในหน่วยแผนที่ เมื่อ ผัง หมุน ตรง มุม มุม มุม แต่ ละ มุม จะ แสดง ให้ เห็น ตําแหน่ง ที่ แน่นอน ด้วย.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10385,6 +10745,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Hide legend layers not drawn at the print scale": {
+  "t": "ซ่อนเลเยอร์ในตํานานที่ไม่ได้วาดในระดับการพิมพ์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hide legend layers with nothing in the print area": {
+  "t": "ซ่อนชั้นตํานานที่ไม่มีอะไรในพื้นที่การพิมพ์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Hide measurements": {
   "t": "ซ่อนขนาด",
   "src": "libretranslate",
@@ -10483,6 +10855,12 @@
  },
  "Hover a view in the list and use the trash icon to delete it.": {
   "t": "ลบมุมมองในรายการแล้วใช้ไอคอนถังขยะลบ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hover over any label in this panel for a one-line explanation without opening this guide.": {
+  "t": "ครอบคลุมป้ายใด ๆ ในแผงนี้ สําหรับคําอธิบายบรรทัดโดยไม่ต้องเปิดคู่มือนี้",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10588,6 +10966,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "If the legend is too big to fit beside the map, a note appears offering to move it to additional pages. You can keep it beside the map instead.": {
+  "t": "หาก ตํานาน มี ขนาด ใหญ่ เกิน กว่า ที่ จะ เข้า กัน ได้ ก็ ดู เหมือน ว่า มี ข้อ ความ หนึ่ง เสนอ จะ ย้าย มัน ไป ยัง หน้า อื่น. คุณเก็บมันไว้ข้างแผนที่แทนก็ได้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "If the misclose ratio (1:n) meets or exceeds this n, points snap closed and the compass rule is applied": {
   "t": "ถ้าอัตราส่วนปิดผิดพลาด (1: n) ตรงกับหรือเกิน n นี่, จุดปิดจุด และใช้กฎเข็มทิศ",
@@ -10781,6 +11165,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "In PDF and SVG, feature layers drawn with simple symbols (parcels, lines, points, hatched fills, custom and picture markers) print as true lines and shapes instead of a picture, so they stay sharp at any zoom and the file stays small. Their labels come along as real text, including label classes that only label some features. Layers with Arcade labels or effects still print as a picture; the export note lists which ones and why.": {
+  "t": "ใน PDF และ SVG ชั้นคุณลักษณะวาดด้วยสัญลักษณ์ง่ายๆ (parceles, บรรทัด, จุด, การฟักตัวเติม, การปรับแต่งและเครื่องหมายภาพ) พิมพ์เป็นเส้นตรงและรูปร่างจริงแทนภาพ ดังนั้นมันจะคงความคมชัดที่การซูมใด ๆ และแฟ้มยังคงเล็กอยู่ แผ่น ป้าย ของ พวก เขา มี ลักษณะ เป็น ข้อ ความ จริง รวม ทั้ง แผ่น ป้าย ที่ มี ลักษณะ เฉพาะ บาง อย่าง. เลเยอร์ที่มีป้ายหรือลูกเล่นของอาร์เคดยังคงพิมพ์เป็นรูปภาพ; รายการบันทึกการส่งออกว่าภาพใดและทําไม",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "In the {batchOptions} menu, choose {showFavoritesOnly} to list only your starred layers and their groups. Choose {showAllLayers} to go back.": {
   "t": "ใน {batchOptions} เมนู, เลือก {showFavoritesOnly} เพื่อรายการเฉพาะชั้นดาวของคุณและกลุ่มของพวกเขา เลือก {showAllLayers} เพื่อกลับไป",
   "src": "libretranslate",
@@ -10873,6 +11263,18 @@
  },
  "Include legend": {
   "t": "รวมตํานานด้วย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include legend: adds the layer symbols. Only the layers actually drawing at the printed scale are listed, so the legend matches the map.": {
+  "t": "รวม ตํานาน ด้วย: เพิ่ม สัญลักษณ์ ชั้น ใน. มี เพียง ชั้น ต่าง ๆ เท่า นั้น ที่ ถูก วาด ตาม ขนาด ที่ พิมพ์ ไว้ ดัง นั้น ตํานาน จึง เข้า กัน กับ แผนที่.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include map attribution": {
+  "t": "รวมการตกแต่งแผนที่ด้วย",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11153,6 +11555,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "It picks up a parcel you clicked, features chosen in a Select, Table or Query widget, and shapes an app has drawn on the map.": {
+  "t": "มันจะหยิบแพ็กเกจที่คุณคลิก, คุณสมบัติที่เลือกในตาราง, ตาราง หรือการค้นหา และรูปร่างโปรแกรมได้วาดบนแผนที่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "It says Loading measurement tools for a long time: the map is still starting. Give it a moment, then reload the page.": {
   "t": "มันบอกว่าการโหลดเครื่องมือวัดเป็นเวลานาน: แผนที่ยังคงเริ่มต้น ให้มันสักครู่แล้วโหลดหน้า",
   "src": "libretranslate",
@@ -11296,6 +11704,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Keep map rotation in georeferenced images": {
+  "t": "คงการหมุนแผนที่ไว้ในแนวภูมิศาสตร์ของภาพที่ควรใช้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Keep New Only": {
   "t": "คงใหม่เท่านั้น",
@@ -11855,6 +12269,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Layers in PDF and SVG exports": {
+  "t": "เพิ่มเลเยอร์...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "layers on": {
   "t": "เลเยอร์",
   "src": "libretranslate",
@@ -11881,6 +12301,12 @@
  },
  "Layout default": {
   "t": "ค่าปริยายของการจัดวาง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layout DPI": {
+  "t": "พิมพ์แบบผังแป้นพิมพ์",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11981,6 +12407,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "legend": {
+  "t": "ตํานาน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Legend": {
   "t": "ตํานาน",
   "src": "libretranslate",
@@ -12005,6 +12437,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Legend on by default": {
+  "t": "ชื่อแฟ้มบนค่าปริยาย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Legend page {i} of {n}": {
   "t": "หน้ากํากับตํานาน {i} ของ {n}",
   "src": "libretranslate",
@@ -12013,6 +12451,12 @@
  },
  "Legend placement": {
   "t": "จํานวนครั้งที่เล่น",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Legend placement: beside the map, over a corner of it, or on Additional pages (PDF only). Beside the map, the map shrinks to make room. On additional pages, every item stays full size.": {
+  "t": "การ วาง ที่ อยู่ ใน ตํานาน: ข้าง ๆ แผนที่ ที่ ตรง มุม หนึ่ง ของ แผนที่ หรือ บน หน้า อื่น (PDF เท่า นั้น). นอกจากแผนที่แล้ว แผนที่เพื่อสร้างห้อง ใน หน้า ต่อ ๆ ไป ทุก รายการ ยัง คง มี ขนาด เต็ม.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12125,6 +12569,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Line color (any)": {
+  "t": "สีเส้น (บาง)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Line layer (traverse lines)": {
   "t": "เลเยอร์",
   "src": "libretranslate",
@@ -12175,6 +12625,12 @@
  },
  "Line opacity": {
   "t": "ความทึบแสงของเส้น",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Line pattern": {
+  "t": "รูปแบบเส้น",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12295,6 +12751,12 @@
  },
  "Link text (optional)": {
   "t": "ตัวเลือกข้อความที่อยู่เชื่อมโยง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Link the title to the pages: while Map series is open, the buttons under Map title add Page name, Page number or any visible field, and the line under them shows how page 1's title will read. Order sorts the pages A to Z or Z to A by the name field. The Overview inset switch adds a locator overview to every data-driven page.": {
+  "t": "เชื่อมโยงชื่อหัวเรื่องไปยังหน้าจดหมาย: ในขณะที่มีการเปิดชุดแผนที่อยู่ ปุ่มใต้หัวเรื่องแผนที่ เพิ่มชื่อหน้า, หมายเลขหน้า หรือช่องที่มองเห็น และเส้นใต้มัน แสดงถึงวิธีอ่านชื่อหน้า 1 ของหน้า เรียงลําดับหน้า A ถึง Z หรือ Z ถึง A ตามช่องชื่อ The Overview inset จะเพิ่มรายละเอียด ดูทุกหน้าของข้อมูล",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12593,6 +13055,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Lock print area pins that rectangle over the ground. You can then pan and zoom to look around, and the printed area stays where you put it. Turn it off to release.": {
+  "t": "ล็อคพื้นที่การพิมพ์ปักสี่เหลี่ยมบนพื้น คุณ สามารถ กระทะ และ ซูม ไป รอบ ๆ และ บริเวณ พิมพ์ ก็ คง อยู่ ตรง ที่ คุณ วาง มัน ไว้. ปิดมันซะ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Locked": {
   "t": "ล็อค",
   "src": "libretranslate",
@@ -12839,6 +13307,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map DPI sets how fine the map picture is. Layout default is fine for most work. 300 is sharper but takes noticeably longer and makes a much bigger file.": {
+  "t": "แผนที่ DPI ตั้งค่าว่าภาพในแผนที่ดีแค่ไหน ผังแป้นพิมพ์ปริยายใช้ได้กับงานส่วนใหญ่ 300 คม แต่ใช้เวลาอย่างโดดเด่นมากขึ้น และทําให้เอกสารขนาดใหญ่มากขึ้น",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map fields": {
   "t": "ช่องข้อมูลของแผนที่",
   "src": "libretranslate",
@@ -12929,6 +13403,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map only (no layout): gives you just the map picture, with no title, legend or border. Use it when you want to drop the map into something else.": {
+  "t": "แผนที่เท่านั้น (ไม่มีผัง): ให้ภาพบนแผนที่ที่ไม่มีชื่อ ตํานาน หรือ ชายแดน ใช้มันเมื่อคุณต้องการที่จะวางแผนที่ไปสิ่งอื่น",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map only necessary fields": {
   "t": "แผนที่เฉพาะช่องข้อมูลที่จําเป็น",
   "src": "libretranslate",
@@ -12967,6 +13447,12 @@
  },
  "Map series cancelled. Nothing was downloaded.": {
   "t": "แผนที่ซีรีส์ถูกยกเลิก ไม่มีอะไรถูกดาวน์โหลด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map series limits": {
+  "t": "ข้อจํากัดของอนุกรม",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13060,6 +13546,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Maps that open in the right place": {
+  "t": "แผนที่ที่เปิดถูกที่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Margins": {
   "t": "มุม:",
@@ -13156,6 +13648,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Max map capture (px, long edge; blank = auto)": {
+  "t": "การจับแผนที่สูงสุด (px, ขอบยาว; ว่าง = อัตโนมัติ)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Max scale": {
   "t": "ค่า",
@@ -14525,6 +15023,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "None (single bar)": {
+  "t": "ไม่มี (แถบเสียง)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "None (transparent)": {
   "t": "ไม่มี (พ่อ-แม่)",
   "src": "libretranslate",
@@ -14533,6 +15037,12 @@
  },
  "none selected": {
   "t": "ยังไม่มีการเลือก",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "North arrow": {
+  "t": "ลูกศรเหนือ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14615,6 +15125,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Nothing downloaded: your browser may have blocked it. Look for a blocked download notice in the address bar, or click the file name under Recent exports again.": {
+  "t": "ไม่มีอะไรดาวน์โหลด: เบราว์เซอร์ของคุณอาจจะปิดกั้นมัน ค้นหาข้อความแสดงตัวที่ถูกบล็อคไว้ในแถบที่อยู่ หรือคลิกที่ชื่อแฟ้มภายใต้การส่งออกอีกครั้ง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Nothing extra": {
   "t": "ไม่มีอะไรเพิ่มเติม",
   "src": "libretranslate",
@@ -14653,6 +15169,12 @@
  },
  "Nothing is found where you know a feature is: the click landed just off the edge. Zoom in and click again, nearer the middle of the feature.": {
   "t": "ไม่พบที่ที่คุณทราบคุณสมบัติคือ การคลิกลงเพียงปิดขอบ ซูมเข้าไปและคลิกอีกครั้ง ใกล้ตรงกลางของคุณสมบัติ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Nothing you change here affects the map itself or anyone else. It only changes the page you are about to make.": {
+  "t": "ไม่มีอะไรเปลี่ยนแปลงที่นี่ มีผลกระทบต่อแผนที่เองหรือใครก็ตาม มันเปลี่ยนเฉพาะหน้าที่คุณกําลังจะทํา",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14705,6 +15227,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Number format": {
+  "t": "รูปแบบตัวเลข",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Number of decimal places for area and perimeter measurements, minimum 0, maximum 10": {
   "t": "จํานวนทศนิยมสําหรับพื้นที่และความยาวรอบรูป, อย่างน้อย 0 ตําแหน่งสูงสุด 10",
   "src": "libretranslate",
@@ -14747,6 +15275,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Numbered outlines appear on the map showing the pages. They follow you as you pan and zoom, so you can see the split before you commit to it.": {
+  "t": "แผนภูมิ ที่ มี จํานวน ปรากฏ บน แผนที่ แสดง ให้ เห็น หน้า เหล่า นั้น. พวกมันตามคุณในขณะที่คุณขยายและขยาย ดังนั้นคุณจะเห็นการแยกก่อนที่คุณอุทิศตัว",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Numpad shortcuts: + moves from bearing to length and adds the line from length or radius. / jumps from length to radius.": {
   "t": "ปุ่มพิมพ์ลัด Numpad: + ย้ายจากระยะเยื้องไปยาว และเพิ่มเส้นจากความยาวหรือรัศมี กระโดดจากความยาวถึงรัศมี",
   "src": "libretranslate",
@@ -14777,14 +15311,50 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Off by default, so georeferenced map-only images and KMZ files are captured north-up. On, a rotated map keeps its rotation: the world file carries the rotation terms, a GeoTIFF uses a ModelTransformationTag, and the KMZ drapes as a rotated quad.": {
+  "t": "ปิดโดยปริยายแล้ว ดังนั้นภาพต่าง ๆ ที่ถูกอ้างอิงไปยังแผนที่เท่านั้น และแฟ้ม KMZ จะถูกจับภาพได้ทางทิศเหนือ บนแผนที่หมุนให้การหมุนของมัน แฟ้มโลกดําเนินการ เทอมการหมุน GOTIF ใช้แบบจําลอง Transiforationtrag และม่าน KMZ เป็นควอดหมุน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Off by default. Each export asks every visible feature layer how many features fall inside the printed area, and leaves layers with none off the legend. A layer that cannot be asked (tiles, imagery) or does not answer in time is always kept. Map series judge against the whole series area.": {
+  "t": "ปิดโดยปริยาย การ ส่ง ออก แต่ ละ ครั้ง ทํา ให้ ทุก ส่วน ของ ชั้น ที่ มอง เห็น ได้ มี ลักษณะ หลาย อย่าง ตก อยู่ ใน บริเวณ ที่ พิมพ์ ออก มา และ มี ชั้น ต่าง ๆ ที่ ไม่ มี ตํานาน เล่า สืบ ต่อ กัน มา. ชั้น ที่ ไม่ สามารถ ถาม ได้ (รูป, ภาพ, ภาพ, หรือ ไม่ ตอบ ใน เวลา นั้น จะ คง ไว้ เสมอ. แผนที่ซีรีส์ตัดสินกับพื้นที่ทั้งหมด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Off by default. Feature layers drawn with simple symbols (solid fills, lines and dashes, circle, square, diamond, triangle, cross and x markers; single symbol, unique values or class breaks) print as true vector shapes, crisp at any zoom and each in its own PDF layer. Hatched fills, custom path markers and picture markers come along too, and so do labels (field labels with halos, placed and deconflicted like the map does, including label classes with a where clause). Layers with clustering, effects, visual variables, Arcade renderers or Arcade labels, rotated picture markers or other symbols stay as pixels, and each export lists them with the reason. Works on rotated maps and on every map series and feature page sheet. Up to 20,000 features per layer.": {
+  "t": "ปิดโดยปริยาย ชั้น ของ สิ่ง มี ชีวิต ที่ วาด ด้วย สัญลักษณ์ ง่าย ๆ (เติม ด้วย คอนกรีต, แท่ง, วงกลม, สี่เหลี่ยม, เพชร, สาม เหลี่ยม, ไม้ กางเขน และ x; สัญลักษณ์ เดียว, ค่า หรือ ข้อ แตก ต่าง ทาง คลาส) พิมพ์ เป็น รูปเวกเตอร์ จริง ๆ, ซูม และ แต่ ละ ชิ้น ใน ชั้น พิมพ์ ของ มัน เอง. การ ใส่ ป้าย และ ป้าย ภาพ ที่ กําหนด ไว้ มา พร้อม ๆ กับ การ ใส่ แผ่น ป้าย (การ ใส่ รัศมี ใน สนาม ทํา ให้ ติด ตั้ง และ ตัด ส่วน ต่าง ๆ ของ แผนที่ ออก ไป เช่น เดียว กับ ที่ แผนที่ ทํา รวม ทั้ง การ กํากับ การ เรียน ด้วย ไวยากรณ์). เลเยอร์ที่มีการจัดหมู่, ผลกระทบ, ตัวแปรภาพ, ตัวแปลอาร์เคดหรือป้ายอาร์เคด, การหมุนเครื่องหมายภาพหรือสัญลักษณ์อื่น ๆ คงไว้เป็นพิกเซล และแต่ละส่งออกรายการด้วยเหตุผล ทํางานกับแผนที่หมุน และบนแผนที่ทุกชุด และโครงหน้า มีคุณสมบัติถึง 20,000 อย่างต่อชั้น",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Off by default. On, each export logs to the browser console (F12) how many selected features were found and how many reached the page. Use it when a highlight does not print: the selection lives in the map view rather than in this widget, so the log is the only way to see what was found.": {
+  "t": "ปิดโดยปริยาย บนปูมบันทึกการส่งออกแต่ละรายการไปยังคอนโซลของเบราว์เซอร์ (F12) มีทั้งหมดกี่คุณสมบัติ และพบทั้งหมดกี่รายการที่มาถึงหน้านี้ ใช้มันเมื่อไฮไลท์ไม่ได้พิมพ์: การคัดเลือกอยู่ในมุมมองแผนที่ แทนที่จะเป็นในวิดเจ็ตนี้ ดังนั้นปูมบันทึกจึงเป็นเพียงวิธีเดียวที่จะดูว่าพบอะไร",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Off: every run adds another layer, numbered (2), (3) and so on.": {
   "t": "ปิด: ทุก การ วิ่ง เพิ่ม อีก ชั้น หนึ่ง, หมาย เลข (2), (3) และ อื่น ๆ.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Offer \"Map only\" export": {
+  "t": "เสนอส่งออก \"Map เท่านั้น\"",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Offer {name} on the Coordinates tab": {
   "t": "เสนอ {name} บนแท็บพิกัด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer output coordinate system (WKID)": {
+  "t": "ระบบพิกัดผลลัพธ์ (WKID)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14842,6 +15412,24 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "On by default. A layer whose visible scale range excludes the printed scale is left off the legend, so the legend never lists a symbol the map does not show.": {
+  "t": "เป็นค่าปริยาย ชั้น ที่ มี ขนาด เท่า ที่ เห็น ได้ นอก จาก ขนาด ที่ พิมพ์ ไว้ นอก ตํานาน ดัง นั้น ตํานาน ไม่ เคย กล่าว ถึง สัญลักษณ์ ที่ แผนที่ ไม่ ได้ แสดง ให้ เห็น.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On by default. Every PDF map frame carries its coordinate system and corner coordinates, so Avenza Maps shows your location on the page, Acrobat reads coordinates with its Geospatial Location tool, and ArcGIS Pro and QGIS open the PDF in place. Map series georeference every sheet and the index page.": {
+  "t": "เป็นค่าปริยาย ทุกเฟรมแผนที่ PDF มีระบบพิกัด และพิกัดมุม ดังนั้นแผนที่ Avensa แสดงที่ตั้งของคุณในหน้า, Acrobat อ่านพิกัดด้วยเครื่องมือ Geogaspatial และอาร์จีไอเอสโปร และ QGIS เปิด PDF ในสถานที่ อนุกรมแผนที่จะอ้างอิงทุกแผ่นและหน้าดัชนี",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On by default. The map, grid, selection, overview, legend, north arrow and scale bar, text, graphics and QR code each go in their own layer, so they can be switched on and off in Acrobat, Avenza Maps, Illustrator or Inkscape. Map series add a Map series layer for the page outlines and numbers.": {
+  "t": "เป็นค่าปริยาย แผนที่, ตาราง, การคัดเลือก, ภาพรวม, ตํานาน, ลูกศรทิศเหนือ และมาตราส่วน, ข้อความ, กราฟฟิก และรหัส QR เพิ่มเลเยอร์ของแผนที่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "On the {address} tab.": {
   "t": "บน {address} แท็บ",
@@ -14983,6 +15571,12 @@
  },
  "One page per feature": {
   "t": "หนึ่งหน้าต่อคุณสมบัติ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "One PDF comes out with every page in it. The legend prints on every sheet, the same way ArcGIS Pro does it.": {
+  "t": "หนึ่ง PDF ออกมาพร้อมกับทุกหน้าในนั้น ลายนิ้วมือในตํานานทุกแผ่น เหมือนอาร์กเกสโปร",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15245,6 +15839,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Output coordinate system (WKID): prints in a different coordinate system than the map uses. Leave it at 0 unless someone has asked you for a particular one.": {
+  "t": "ระบบพิกัดส่งออกเสียง (WKID): การพิมพ์ในระบบพิกัดที่แตกต่างกันกว่าการใช้แผนที่ ทิ้งไว้ที่ 0 เว้นแต่จะมีคนขอคุณ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Output size (px)": {
   "t": "ขนาดพิมพ์ออก (px)",
   "src": "libretranslate",
@@ -15293,8 +15893,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "overview inset": {
+  "t": "องค์ประกอบภาพ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Overview inset": {
   "t": "ภาพรวม",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Overview inset: adds the small locator map in the corner, with a red box showing where the main map sits.": {
+  "t": "โอเวอร์วิว อินเซต: เพิ่มแผนที่ระบุตําแหน่งเล็กๆ ที่มุม ด้วยกล่องสีแดงที่แสดงแผนที่หลักวางอยู่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Overview map on by default": {
+  "t": "ลบทั้งเธรด",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15347,6 +15965,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "page font": {
+  "t": "แบบอักษรของหน้า",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Page name": {
   "t": "ชื่อหน้ากระดาษ",
   "src": "libretranslate",
@@ -15377,6 +16001,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Page preview shows gray areas: part of the print area is off the screen, so the preview has nothing to show there. Pan or zoom out to see it; the exported file is not affected.": {
+  "t": "การแสดงตัวอย่างหน้ากระดาษ จะแสดงพื้นที่สีเทา: พื้นที่การพิมพ์บางส่วนอยู่นอกหน้าจอ ดังนั้น ภาพตัวอย่างจึงไม่มีอะไรให้แสดง แพนหรือซูมออกไปเพื่อดูแฟ้ม; แฟ้มส่งออกไม่ได้รับผลกระทบ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Page Size": {
   "t": "ขนาดหน้ากระดาษ",
   "src": "libretranslate",
@@ -15403,6 +16033,12 @@
  },
  "Pagination complete. Total features collected: {count}": {
   "t": "ภาพเขียนเสร็จสมบูรณ์แล้ว คุณสมบัติทั้งหมดที่สะสม: {count}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Pan and zoom the map to what you want on the page. What you see is what prints.": {
+  "t": "แพน และขยายแผนที่ไปยังสิ่งที่คุณต้องการบนหน้ากระดาษ สิ่งที่คุณเห็นคือรอยนิ้วมือ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15473,6 +16109,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "PDF and SVG files come with layers. In Acrobat or Avenza Maps open the Layers panel to hide the grid, the selection outline, the legend or the text; in Illustrator or Inkscape each part is its own layer.": {
+  "t": "PDF และแฟ้ม SVG มีเลเยอร์ ใน Acrobat หรือ Avensa แผนที่เปิดแผงชั้นเพื่อซ่อนตาราง, โครงคัดเลือก ตํานานหรือข้อความ; ในไซมันเตอร์หรืออินกราวด์แต่ละส่วนเป็นชั้นของมันเอง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "PDF export options": {
   "t": "ตัวเลือกการส่งออกไปยัง PDF",
   "src": "libretranslate",
@@ -15493,6 +16135,12 @@
  },
  "PDF opens a small window first so you can choose what goes on the page.": {
   "t": "PDF เปิดหน้าต่างขนาดเล็กก่อน เพื่อที่คุณจะได้เลือกสิ่งที่เกิดขึ้นบนหน้ากระดาษ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "PDF: best for printing on paper and for sending to someone. Text and lines stay sharp at any zoom.": {
+  "t": "PDF: เหมาะที่สุดสําหรับการพิมพ์บนกระดาษและสําหรับการส่งให้ใครบางคน ข้อความและเส้นยังคงคมชัดที่ซูมใด ๆ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15601,6 +16249,12 @@
  },
  "Pick a draw tool (Point, Line, Polygon, Rectangle, or Circle), then draw on the map. Everything inside is selected.": {
   "t": "เลือก เครื่อง มือ วาด (Point,line, Pixle, สี่เหลี่ยม, หรือ วงกลม) แล้ว วาด บน แผนที่. ทุกอย่างภายในถูกเลือก",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Pick a Layout, then type a Map title. The title is what prints at the top of the page.": {
+  "t": "เลือกผังแป้นพิมพ์ แล้วพิมพ์ชื่อแผนที่ หัวเรื่องคือลายพิมพ์บนหน้ากระดาษ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15853,6 +16507,18 @@
  },
  "Please wait, do not close this window...": {
   "t": "โปรดรอสักครู่ อย่าปิดหน้าต่างนี้...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "PNG, JPG and GIF instead get two small companion files beside the image. Keep all of them together in the same folder or the placement is lost.": {
+  "t": "PNG, JPG และ GIF แทนการเอาแฟ้มคู่สนทนาเล็กๆ สองแฟ้มนอกจากภาพ เก็บทั้งหมดไว้ในโฟลเดอร์เดียวกัน หรือการวางตําแหน่งจะหายไป",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "PNG32, PNG8, JPG or GIF: a picture, for a report, a slide or a web page. PNG32 is the sharpest.": {
+  "t": "PNG32, PNG8, JPG หรือ GIF: ภาพถ่าย, สําหรับรายงาน, สไลด์หรือหน้าเว็บ PNG32 เป็นที่คมชัดที่สุด",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16115,6 +16781,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Preserve map extent (fit view): prints everything you can see now, and picks whatever scale that needs. Use this when you must not lose anything off the edges.": {
+  "t": "รักษา ขอบ เขต ของ แผนที่ (ภาพ ใน ภาพ): ใช้นี่เมื่อคุณจะต้องไม่สูญเสียอะไรจากขอบ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Preserve map scale": {
   "t": "รักษาสัดส่วนแผนที่",
   "src": "libretranslate",
@@ -16123,6 +16795,12 @@
  },
  "Preserve map scale (current)": {
   "t": "รักษาสัดส่วนแผนที่ (ปัจจุบัน)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preserve map scale (current): prints at the same scale you are looking at. The page may show a little more or less ground than the screen, because the page is a different shape than your browser window.": {
+  "t": "รักษาสัดส่วนแผนที่ (ปัจจุบัน): ลายนิ้วมือที่ขนาดเท่ากันกับที่คุณกําลังดูอยู่ หน้านี้อาจจะแสดงพื้นดินน้อยกว่าหน้าจอเล็กน้อย เพราะว่าหน้านี้แตกต่างจากหน้าต่างเบราว์เซอร์ของคุณ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16247,6 +16925,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Press Export. The panel dims and a message tells you what it is working on. When it finishes, the file appears under Recent exports at the bottom. Click its name to save it.": {
+  "t": "กดส่งออก แผงปิดและข้อความบอกคุณ ว่ามันทํางานอย่างไร เมื่อมันเสร็จสิ้น แฟ้มจะปรากฏภายใต้การส่งออกล่าสุดที่ด้านล่าง คลิกที่ชื่อมันเพื่อบันทึก",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Press F on a focused basemap to add or remove it from favorites.": {
   "t": "กด F บนฐานที่โฟกัสเพื่อเพิ่มหรือลบออกจากของโปรด",
   "src": "libretranslate",
@@ -16301,6 +16985,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Preview fill color (hex)": {
+  "t": "สีเติมภาพตัวอย่าง (hex)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Preview first record": {
   "t": "แสดงตัวอย่างบันทึกครั้งแรก",
   "src": "libretranslate",
@@ -16327,6 +17017,18 @@
  },
  "Preview of the printed page": {
   "t": "แสดงตัวอย่างหน้าพิมพ์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preview outline color (hex)": {
+  "t": "สีเส้นการลาก",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preview outline width (px)": {
+  "t": "ความกว้างเส้นการแสดงตัวอย่าง (px)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16361,6 +17063,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Print Advanced turns the map on your screen into a finished page: the same layout your ArcGIS Pro template uses, with a title, legend and scale bar, ready to print or send.": {
+  "t": "พิมพ์ขั้นสูง เปลี่ยนแผนที่หน้าจอของคุณ ให้เป็นหน้าที่เสร็จ: การจัดวางเดียวกันนี้สําหรับแม่แบบ AkGIS ของคุณ โดยใช้ชื่อเรื่อง, ตํานาน และขนาดแถบ พร้อมที่จะพิมพ์หรือส่ง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Print area": {
   "t": "พื้นที่การพิมพ์",
   "src": "libretranslate",
@@ -16373,8 +17081,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Print area, the first card under Advanced options, decides how much ground fits in the map frame. Three choices, under Scale.": {
+  "t": "พื้นที่การพิมพ์, บัตรใบแรกภายใต้ตัวเลือกขั้นสูง, ตัดสินใจว่าพื้นดินพอดีกับแผนที่เท่าไหร่ สามตัวเลือกภายใต้สเกล",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Print as a map series (PDF)": {
   "t": "พิมพ์เป็นชุดแผนที่ (PDF)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Print selected features by default": {
+  "t": "พิมพ์คุณสมบัติที่เลือกไว้โดยปริยาย",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16405,6 +17125,18 @@
  },
  "Print-Ready Labels: spread out the labels so they do not overlap when exported to PDF.": {
   "t": "ป้ายสําหรับพิมพ์ที่อ่านแล้ว:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Printing a large area over several pages": {
+  "t": "พิมพ์พื้นที่ขนาดใหญ่กว่าหลายหน้า",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Printing what you have selected": {
+  "t": "พิมพ์สิ่งที่คุณได้เลือก",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16555,6 +17287,12 @@
  },
  "Radius measurement enabled. Display the circle radius.": {
   "t": "เปิดการใช้งานการวัดรัศมี แสดงรัศมีวงกลม",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Raster EPS (Level 2, JPEG-embedded). For vector output use PDF or SVG.": {
+  "t": "Raster EPS (Leve 2, JPEG-emed). สําหรับเวกเตอร์ผลลัพธ์การใช้ PDF หรือ SVG",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16873,6 +17611,12 @@
  },
  "Remove from list": {
   "t": "ลบออกจากรายการ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Remove from list clears one item and Clear empties the whole list. Neither deletes a file you have already saved.": {
+  "t": "ลบออกจากรายการ ล้างรายการหนึ่งรายการและล้างล้างรายการทั้งหมด ลบแฟ้มที่คุณบันทึกไปแล้ว",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17603,6 +18347,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Scale bar style": {
+  "t": "ปรับขนาดแบบแท่ง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Scale bar units": {
+  "t": "ปรับขนาดหน่วยแท่ง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Scale field": {
   "t": "ปรับขนาดช่องข้อมูล",
   "src": "libretranslate",
@@ -17741,6 +18497,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Search the guide (try \"legend\" or \"blank\")": {
+  "t": "สืบค้นดู (พยายาม \"legend\" หรือ \"black\")",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Search the guide (try \"load\" or \"fields\")": {
   "t": "ค้นหาคําแนะนํา (พยายาม \"โหลด\" หรือ \"ฟิลด์\")",
   "src": "libretranslate",
@@ -17770,6 +18532,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Second units (dual)": {
+  "t": "หน่วยที่สอง (ป้อนเอง)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "See how your label format will appear": {
   "t": "ดูว่ารูปแบบป้ายของคุณจะปรากฏ",
@@ -18253,6 +19021,12 @@
  },
  "Selected features are outlined in cyan on the print. Turn this off to print the map without them.": {
   "t": "ลักษณะ เด่น ต่าง ๆ ที่ เลือก ไว้ มี การ ระบุ ไว้ ใน สีฟ้า บน กระดาษ. ปิดนี่เพื่อพิมพ์แผนที่โดยไม่มีมัน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Selected features: turn this on and anything you have selected is outlined on the print, in cyan with a thin white edge so it reads over dark aerial photography.": {
+  "t": "คุณสมบัติที่เลือก: เปิดใช้งานนี้ และสิ่งที่คุณได้เลือกไว้ จะถูกขีดไว้บนการพิมพ์ ด้วยเส้นขาวบางๆ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19619,6 +20393,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Still stuck? Contact the GIS Division and mention the Print Advanced widget and this app.": {
+  "t": "ยังติดอยู่อีกเหรอ? ติดต่อ GPS ดิวิชั่น และพูดถึงวิดเจ็ตขั้นสูงการพิมพ์ และแอพนี้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Still stuck? Contact your GIS team and mention the Draw Advanced widget and this app.": {
   "t": "ยังติดอยู่อีกเหรอ? ติดต่อทีม GIS ของคุณ และพูดถึงวิดเจ็ตขั้นสูงและแอพนี้",
   "src": "libretranslate",
@@ -19753,6 +20533,12 @@
  },
  "Supported label formats": {
   "t": "รูปแบบป้ายที่รองรับ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "SVG or SVGZ: for editing the page afterwards in Illustrator or Inkscape. SVGZ is the same file, just smaller.": {
+  "t": "SVG หรือ SVGZ: สําหรับการแก้ไขหน้าหลังจากนั้นใน Scientor หรือ Inknown SVGZ เป็นแฟ้มเดียวกัน แค่เล็กกว่า",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20369,6 +21155,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The export is taking a long time: a high Map DPI or a large page takes longer. Keep the tab open and give it a few minutes. The message in the panel tells you what it is working on.": {
+  "t": "การส่งออกใช้เวลานานมาก: การทําแผนที่สูง DPI หรือหน้าใหญ่ใช้เวลานานขึ้น เปิดแท็บและให้มันไม่กี่นาที ข้อความในแผงบอกคุณ ว่ามันทํางานอย่างไร",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The expression choice lets you write a short formula, such as helpers.upper($.NAME). Write $.FIELD to read a value from your data.": {
   "t": "ตัวเลือกนิพจน์ ช่วยให้คุณเขียนสูตรสั้น เช่น ผู้ช่วยเหลือ. upper ($). เขียน $.",
   "src": "libretranslate",
@@ -20389,6 +21181,12 @@
  },
  "The feature you are reading is outlined on the map, so you can see which one it is.": {
   "t": "บทความ ที่ คุณ กําลัง อ่าน อยู่ มี บอก ไว้ ใน แผนที่ ดัง นั้น คุณ จึง เห็น ได้ ว่า เป็น เรื่อง ไหน.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The file is a PDF unless you change it: open Advanced options and pick a Format under Output. PDF is the safe choice for anything you plan to print on paper.": {
+  "t": "แฟ้มนี้เป็นเอกสาร PDF จนกว่าคุณจะเปลี่ยนมัน: เปิดตัวเลือกขั้นสูงและเลือกรูปแบบใด ๆ ภายใต้การแสดงผล PDF เป็นตัวเลือกที่ปลอดภัย สําหรับสิ่งที่คุณวางแผนที่จะพิมพ์บนกระดาษ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20501,11 +21299,23 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The list is only for this visit. It empties when you close or reload the app, so save anything you want to keep.": {
+  "t": "รายชื่อสําหรับเยี่ยมครั้งนี้เท่านั้น มันว่างเปล่าเมื่อคุณปิดหรือโหลดแอพ ดัง นั้นเก็บไว้ทุกอย่างที่คุณต้องการ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The Load step checks the work, then writes the records into the layer.": {
   "t": "ขั้น ตอน ต่าง ๆ ที่ ทํา ไป จะ ตรวจ สอบ งาน นั้น แล้ว เขียน บันทึก ลง ใน ชั้น ต่าง ๆ.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The map area is blank or grey: the map had not finished drawing. Wait until the map is still and every layer has appeared, then export again.": {
+  "t": "พื้นที่แผนที่ว่างเปล่าหรือสีเทา: แผนที่ยังไม่เสร็จสิ้นการวาดภาพ รอจนกว่าแผนที่ยังคง และทุกชั้นได้ปรากฏขึ้น แล้วส่งออกอีกครั้ง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The map does not move or change scale by itself. Use the zoom action in the details when you want the map to go there.": {
   "t": "แผนที่ไม่ได้ย้ายหรือเปลี่ยนมาตราโดยตัวมันเอง ใช้การย่อขยายในรายละเอียด เมื่อคุณต้องการแผนที่ไปที่นั่น",
@@ -20591,6 +21401,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The outline is drawn rather than shaded, so labels and dimensions inside the parcel stay readable on paper.": {
+  "t": "โครง สร้าง เหล่า นี้ ไม่ ได้ ทํา ด้วย ไม้ เงา ดัง นั้น แผ่น ป้าย และ ขนาด ที่ อยู่ ใน พัสดุ จึง สามารถ อ่าน ได้.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The parcel polygon is built from the Boundary Lines only, then saved with the name, description, and stated area. If no line is marked Boundary Line, no polygon is created.": {
   "t": "มี การ สร้าง แผ่น หิน รูป ลิ่ม จาก เส้น ขอบ เท่า นั้น แล้ว เก็บ ไว้ ด้วย ชื่อ, คํา พรรณนา, และ บริเวณ ที่ กล่าว ถึง. หาก ไม่ มี การ กําหนด เส้น แบ่ง ก็ ไม่ มี การ สร้าง รูปหลายเหลี่ยม.",
   "src": "libretranslate",
@@ -20647,6 +21463,12 @@
  },
  "The print service did not return a file.": {
   "t": "บริการการพิมพ์ไม่ได้ส่งแฟ้มกลับมา",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The print service failed: the server refused the job or timed out. Try again, and if it keeps failing switch the Format to PDF and export a smaller page.": {
+  "t": "บริการการพิมพ์ล้มเหลว: เซิร์ฟเวอร์ปฏิเสธงานหรือหมดเวลา ลองอีกครั้ง และหากล้มเหลวในการเปลี่ยนรูปแบบไปเป็น PDF และส่งออกเป็นหน้าเล็ก ๆ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20897,6 +21719,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "These options are for a Map only export, so the picture is the map edge to edge with nothing else on it.": {
+  "t": "ตัวเลือกเหล่านี้สําหรับแผนที่เฉพาะการส่งออก ดังนั้นภาพจึงเป็นแผนที่ขอบที่ขอบกับขอบ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "These settings are for advanced users only": {
   "t": "การตั้งค่าเหล่านี้สําหรับผู้ใช้ขั้นสูงเท่านั้น",
   "src": "libretranslate",
@@ -21011,6 +21839,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "This runs in your browser, not ArcGIS Pro, so big series are limited: a yellow note warns about a large job with a rough time and file size, and a red note stops a series over the page limit set for this app.": {
+  "t": "ซึ่งทํางานในเบราว์เซอร์ของคุณ ไม่ใช่ AkGIS Pro ดังนั้น อนุกรมขนาดใหญ่จึงมีข้อจํากัด: โน้ตสีเหลืองเตือนเกี่ยวกับงานขนาดใหญ่ที่มีระยะเวลาและขนาดแฟ้มหยาบๆ และโน้ตสีแดงจะหยุดอนุกรมมากกว่าค่าจํากัดหน้าเว็บสําหรับโปรแกรมนี้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "This scale and the map position set the print area that Inside the print area uses to pick features. Each page still sets its own scale.": {
   "t": "มาตรานี้และตําแหน่งแผนที่ กําหนดพื้นที่การพิมพ์ภายในพื้นที่การพิมพ์ที่ใช้ในการเลือกคุณสมบัติ แต่ละหน้ายังคงตั้งค่าขนาดของตัวเอง",
   "src": "libretranslate",
@@ -21121,6 +21955,12 @@
  },
  "Ticks and crosses": {
   "t": "ติ๊กและข้าม",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "TIFF: a large picture, and the right choice when you want the map to open in the correct place in ArcGIS Pro.": {
+  "t": "TIFF: ภาพขนาดใหญ่ และตัวเลือกที่เหมาะสม เมื่อคุณต้องการแผนที่เปิดในตําแหน่งที่ถูกต้องในอาร์กเกสโปร",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21671,6 +22511,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Turn on Page preview, right under Map title, to see the whole printed page while you pan and zoom. It is a quick sketch drawn from the screen: gray areas are outside the screen, and the overview map shows as a box. The export is always full quality.": {
+  "t": "เปิดการแสดงตัวอย่างหน้ากระดาษ ภายใต้ชื่อแผนที่ เพื่อดูทั้งหน้าที่ถูกพิมพ์ขณะที่คุณสุ่มและขยาย นี่เป็นภาพร่างที่วาดจากหน้าจออย่างรวดเร็ว: พื้นที่สีเทาอยู่นอกจอ และแผนที่แสดงเป็นกล่อง คุณภาพของการส่งออกเสมอ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Turn on parent groups when a layer is checked on": {
   "t": "เปิดใช้กลุ่มแม่เมื่อมีการตรวจสอบเลเยอร์",
   "src": "libretranslate",
@@ -21679,6 +22525,12 @@
  },
  "Turn on Print-Ready Labels in {displayOptions} before a PDF export to spread the labels out so they do not overlap.": {
   "t": "เปิดรายการที่อ่านแล้วจากการพิมพ์ {displayOptions} ก่อนที่การส่งออก PDF จะทําการกระจายป้ายออกไป เพื่อไม่ให้มันทับกัน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Turn on Show print area and a rectangle appears on the map showing exactly what will print. Watch it while you zoom.": {
+  "t": "เปิดการแสดงพื้นที่การพิมพ์ และสี่เหลี่ยมผืนผ้าที่ปรากฏบนแผนที่ แสดงให้เห็นว่าจะพิมพ์อะไร ดูตอนซูมนะ",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21862,6 +22714,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Under Advanced options, each card opens and closes from its heading and remembers your choice; a closed card still shows a short summary of what is set inside it. The On the map card holds the switches for the {parts}; Page text holds Author, Copyright and the QR code; Style holds the font, north arrow and scale bar; Output holds the format, DPI, coordinate system, map-only export and file name. Turning a switch off leaves it off this page only; it does not change the map, and it does not change anything for anyone else.": {
+  "t": "ภาย ใต้ ทาง เลือก ที่ ก้าว หน้า บัตร แต่ ละ ใบ จะ เปิด และ ปิด จาก หัว เรื่อง และ จํา ทาง เลือก ของ คุณ ได้; บัตร ปิด ยัง คง แสดง การ สรุป อย่าง สั้น ๆ ถึง สิ่ง ที่ วาง ไว้ ใน บัตร นั้น. การ์ดบนแผนที่ถือสวิทช์สําหรับ {parts}2; ข้อความเพจครอบครองผู้เขียน, ลิขสิทธิ์, และรหัส QR; รูปแบบเก็บแบบอักษร, ลูกศรเหนือ และแถบปรับขนาด; ผลส่งออกเก็บรูปแบบ, DPI, ระบบพิกัด, การส่งออกและชื่อแฟ้มเท่านั้น การ ปิด สวิตช์ ทํา ให้ ไม่ มี การ เปิด เฉพาะ หน้า นี้; มัน ไม่ ได้ เปลี่ยน แผนที่ และ ไม่ ได้ เปลี่ยน อะไร เลย สําหรับ คน อื่น.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Under Advanced options, turn on Print as a map series (PDF), then set Rows and Columns. The estimate underneath tells you how many pages you will get.": {
+  "t": "ภายใต้ตัวเลือกขั้นสูง ให้เปิดการพิมพ์เป็นชุดแผนที่ (PDF) จากนั้นตั้งค่าแถวและคอลัมน์ การประมาณข้างล่างบอกว่า คุณจะได้กี่หน้า.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Under the title is a list. Each line has a label on the left and the value for that feature on the right.": {
   "t": "ภายใต้ชื่อเรื่องคือรายชื่อ แต่ละเส้นมีฉลากอยู่ทางซ้าย และมีค่าสําหรับฟังก์ชันทางขวา",
@@ -22475,6 +23339,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Vector feature layers in PDF and SVG (experimental)": {
+  "t": "Unknown files in PDF และ SVG (เครื่องทดลอง)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Vector page furniture; opens in Illustrator/Inkscape. Covers the AIX use case.": {
+  "t": "Unknown Page เฟอร์นิเจอร์; เปิดใน Scientor/Inkspace. ครอบคลุมกรณี AIX",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Verify your settings work with sample data": {
   "t": "ตรวจสอบการตั้งค่าของคุณทํางานด้วยข้อมูลตัวอย่าง",
   "src": "libretranslate",
@@ -22703,6 +23579,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "What goes on the page": {
+  "t": "อะไรอยู่ในหน้ากระดาษ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "What shows on the map": {
   "t": "สิ่ง ที่ แสดง ใน แผนที่",
   "src": "libretranslate",
@@ -22859,6 +23741,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Which file type to pick": {
+  "t": "เลือกประเภทแฟ้มชนิดใด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Which polygon attributes users can enter at runtime: the fixed name/description/stated-area inputs, the fields from the layer popup, or a custom list": {
   "t": "ผู้ใช้แอททริบิวต์ตัวใดที่สามารถป้อนได้ในเวลาทํางาน: ชื่อที่คงที่/ discord- isa input, ช่องข้อมูลจากชั้นผุด, หรือรายการกําหนดเอง",
   "src": "libretranslate",
@@ -22867,6 +23755,12 @@
  },
  "Which tab is active when the widget first opens.": {
   "t": "ใช้แท็บไหนทํางานเมื่อวิดเจ็ตเปิดก่อน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "While a series exports, the bar below Export shows Page 3 of 12 (with the feature name for one page per feature), one segment per page plus the index page and saving, how many steps are done and about how long is left. Keep this tab open until the file appears, or press Cancel to stop after the current page.": {
+  "t": "ขณะ ที่ มี การ ส่ง ออก บทความ ชุด แถบ ที่ อยู่ ข้าง ล่าง นี้ จะ แสดง ให้ เห็น หน้า 3 ของ 12 (โดย มี ชื่อ เฉพาะ ต่อ หน้า หนึ่ง หน้า) หนึ่ง ส่วน ต่อ หน้า หนึ่ง หน้า บวก กับ หน้า ดัชนี และ บันทึก ว่า มี การ ทํา กี่ ขั้น และ นาน เท่า ไร. เก็บแท็บนี้ไว้จนกว่าแฟ้มจะปรากฏ หรือกด ยกเลิก เพื่อหยุดหลังจากหน้าปัจจุบัน",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23026,6 +23920,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Write export diagnostics to the console": {
+  "t": "เขียนตรวจสอบการส่งออกไปยังคอนโซล",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Write null": {
   "t": "เขียนว่าง",

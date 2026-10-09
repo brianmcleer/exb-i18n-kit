@@ -1007,6 +1007,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "4,327,000 m (with units)": {
+  "t": "4.327.000 m (z enotami)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "4. Export": {
   "t": "4. Izvoz",
   "src": "libretranslate",
@@ -1073,6 +1079,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A georeferenced export is always straight north up, even if your map is turned, because a turned picture would not line up with the ground.": {
+  "t": "Georeferenčni izvoz je vedno naravnost proti severu navzgor, tudi če je zemljevid obrnjen, ker obrnjena slika ne bi bila poravnana s tlemi.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A grid over the map view": {
   "t": "Mreža nad prikazom zemljevida",
   "src": "libretranslate",
@@ -1085,6 +1097,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A highlight belongs to the map on your screen, not to the map layers, so the widget draws your selected features onto the page for you.": {
+  "t": "Vrhunec pripada zemljevidu na vašem zaslonu, ne slojem zemljevida, tako da widget črpa vaše izbrane funkcije na strani za vas.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A layer inside a group shows only when the group is on too. If a ticked layer is missing from the map, check its group.": {
   "t": "Plast znotraj skupine kaže le takrat, ko je tudi skupina vključena. Če na zemljevidu manjka označena plast, preverite njeno skupino.",
   "src": "libretranslate",
@@ -1093,6 +1111,12 @@
  },
  "A layer is missing: it may be outside the current map scale. Zoom in or out, and check the note beneath its name.": {
   "t": "Manjka plast: lahko je zunaj trenutne karte lestvice. Približaj ali izdihni in poglej pod njegovo ime.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer is on the map but not in the legend: the layer does not draw at the printed scale, or your app leaves out layers with nothing inside the print area, so it is left out on purpose. Check the layer list in the map, or print at a scale and area where it draws.": {
+  "t": "Plast je na zemljevidu, vendar ne v legendi: plast ne riše po natisnjeni lestvici, ali pa aplikacija opušča plasti, ki nimajo ničesar znotraj področja tiskanja, zato je namerno izpuščena. Preverite seznam slojev na zemljevidu ali pa natisnite v merilu in območju, kjer riše.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1117,6 +1141,12 @@
  },
  "A layer name is grey and nothing shows on the map: the layer only draws between certain zoom levels. Zoom in, or out, until the name turns dark.": {
   "t": "Ime sloja je sivo in nič ne kaže na zemljevidu: plast črpa le med določenimi stopnjami povečave. Približaj, dokler se ime ne zmrači.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer printed as a picture instead of sharp lines: its symbols, labels or effects are ones the vector output cannot copy exactly, so it kept the picture on purpose. The note under the finished file names each layer and the reason.": {
+  "t": "Plast, natisnjena kot slika namesto ostrih črt: njeni simboli, oznake ali učinki so tisti, ki jih vektorski izhod ne more natančno kopirati, zato je sliko obdržal namenoma. Opomba pod končno datoteko imenuje vsako plast in razlog.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1156,6 +1186,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "A map series cuts the area you are looking at into a grid of pages, all at one scale, and adds an index page at the front.": {
+  "t": "Serija zemljevidov reže območje, ki ga gledate, v mrežo strani, vse na eni lestvici, in dodaja indeks stran na sprednji strani.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A map series is very slow: every page is captured one at a time, so twelve pages take roughly twelve times as long as one. Keep the tab open, or use fewer, larger pages.": {
+  "t": "Serija zemljevidov je zelo počasna: vsaka stran je ujeta po eno, zato dvanajst strani traja približno dvanajstkrat dlje kot ena. Obdrži zavihek odprt ali pa uporabi manj večjih strani.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "A map widget is required for this widget to function": {
   "t": "Za delovanje tega gradnika je potreben gradnik z zemljevidom",
@@ -1211,6 +1253,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A selected feature is missing from the print: Selected features is switched off, or the selection was cleared before you pressed Export. Turn the switch on, reselect, then export.": {
+  "t": "Izbrana funkcija manjka pri tiskanju: Izbrane funkcije so izklopljene ali pa je bila izbira odstranjena, preden ste pritisnili Izvoz. Vklopite stikalo, ponovno izberite in izvozite.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A side with no selected layers shows the basemap and any shared map layers. You can use this to compare a layer with the basemap.": {
   "t": "Stran brez izbranih plasti prikazuje osnovno karto in vse skupne plasti zemljevida. To lahko uporabite za primerjavo plasti z osnovno karto.",
   "src": "libretranslate",
@@ -1231,6 +1279,12 @@
  },
  "A to Z": {
   "t": "A do Z",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A turned map stays turned. The coordinate information carries the turn too, so the picture still lines up with the ground in ArcGIS Pro, QGIS and Google Earth.": {
+  "t": "Obrnjen zemljevid ostane obrnjen. Koordinatne informacije nosijo tudi zavoj, tako da se slika še vedno ujema s tlemi v ArcGIS Pro, QGIS in Google Earth.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1399,6 +1453,12 @@
  },
  "Add a QR code that opens this map": {
   "t": "Dodaj kodo QR, ki odpre ta zemljevid",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add a QR code that opens this map: prints a small square code. Anyone who scans it with a phone opens the live map in a browser.": {
+  "t": "Dodaj kodo QR, ki odpre ta zemljevid: natisne majhno kvadratno kodo. Kdor ga skenira s telefonom, odpre zemljevid v živo v brskalniku.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1919,6 +1979,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Aerial photography looks soft: you are zoomed in closer than the photography was flown. It is placed correctly, there is simply no more detail to show. Zoom out a little for a crisper page.": {
+  "t": "Zračna fotografija je videti mehka: bližje ste, kot je bila fotografija poletela. To je pravilno postavljeno, preprosto ni več podrobnosti za prikaz. Zmanjšaj malo za hrustljavo stran.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Alegreya": {
   "t": "Alegreja",
   "src": "libretranslate",
@@ -2107,6 +2173,12 @@
  },
  "All Applications (Global)": {
   "t": "Vse aplikacije (globalno)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "All four sides": {
+  "t": "Vse štiri strani",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2375,6 +2447,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "App default": {
+  "t": "Privzeta aplikacija",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "App-specific keeps drawings isolated to this experience; Global shares them across all experiences on this domain.": {
   "t": "Posebna aplikacija ohranja risbe izolirane od te izkušnje; Global jih deli z vsemi izkušnjami na tem področju.",
   "src": "libretranslate",
@@ -2626,6 +2704,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Automatic": {
+  "t": "Samodejno",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Automatic (best for the map area)": {
   "t": "Samodejno (najboljše za območje zemljevida)",
@@ -3035,6 +3119,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Bold labels": {
+  "t": "Polkrepke nalepke",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Bold text": {
   "t": "Polkrepko besedilo",
   "src": "libretranslate",
@@ -3103,6 +3193,12 @@
  },
  "Bottom Alignment. Position text at the bottom.": {
   "t": "Spodnja poravnava. Besedilo položaja na dnu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Bottom and right": {
+  "t": "Spodaj in desno",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3443,6 +3539,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Cell ids (A1, B2) in cells": {
+  "t": "Identifikatorji celic (A1, B2) v celicah",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Center · {srLabel}": {
   "t": "Center · {srLabel}",
   "src": "libretranslate",
@@ -3535,6 +3637,12 @@
  },
  "Change Text Options:": {
   "t": "Spremeni možnosti besedila:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Changed from the layout": {
+  "t": "Spremenjeno iz razporeda",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3833,6 +3941,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Choose TIFF and turn on Georeference (world file) and you get a single file that ArcGIS Pro and QGIS open in the correct place with nothing else to keep track of. This is the one to use.": {
+  "t": "Izberite TIFF in vklopite Georeference (svetovno datoteko) in dobite eno datoteko, ki jo ArcGIS Pro in QGIS odpreta na pravem mestu z nič drugega, kar bi lahko spremljali. Ta je za uporabo.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Choose vertical alignment for text. Options are baseline, top, middle, or bottom. Currently set to {verticalAlignment}.": {
   "t": "Izberite navpično poravnavo za besedilo. Možnosti so osnovna, zgornja, srednja ali spodnja. Trenutno nastavljeno na {verticalAlignment}.",
   "src": "libretranslate",
@@ -3883,6 +3997,12 @@
  },
  "Choosing layers": {
   "t": "Izbira plasti",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choosing what lands on the page": {
+  "t": "Izbira tega, kar je na strani",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4763,6 +4883,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Columns (A, B, C)": {
+  "t": "Stolpci (A, B, C)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Combined legend panel (header)": {
   "t": "Kombinirana legendna plošča (glava)",
   "src": "libretranslate",
@@ -5183,6 +5309,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Coordinate format": {
+  "t": "Oblika koordinat",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Coordinate Format": {
   "t": "Oblika koordinat",
   "src": "libretranslate",
@@ -5443,6 +5575,12 @@
  },
  "Copyright / credits text for the {copyright} element.": {
   "t": "Avtorske pravice / krediti besedilo za {copyright} element.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Corner coordinates": {
+  "t": "Koordinate kota",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5813,6 +5951,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Dashed": {
+  "t": "Raztresena",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Data layer selected": {
   "t": "Izbrana podatkovna plast",
   "src": "libretranslate",
@@ -5873,6 +6017,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Decimal degrees (108.51°W)": {
+  "t": "Decimalne stopinje (108,51° Z)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Decimal Degrees (DD)": {
   "t": "Decimalne stopnje (DD)",
   "src": "libretranslate",
@@ -5881,6 +6031,12 @@
  },
  "Decimal degrees: decimal places": {
   "t": "Decimalne stopinje: decimalna mesta",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Decimal minutes (108°30.5'W)": {
+  "t": "Decimalne minute (108°30.5' Z)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6017,6 +6173,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default format": {
+  "t": "Privzeta oblika",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default Layer Name:": {
   "t": "Privzeto ime plasti:",
   "src": "libretranslate",
@@ -6115,6 +6277,12 @@
  },
  "Degrees minutes seconds": {
   "t": "Stopnje minute sekund",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Degrees minutes seconds (108°30'W)": {
+  "t": "Stopnje minut sekund (108°30'Z)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6593,8 +6761,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Dotted": {
+  "t": "Dotted",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Double styles print a dual scale bar (two measurements sharing the zero point). Layout default picks the natural complement (miles-feet, meters-kilometers); choose a unit to override.": {
+  "t": "Dvojna sloga natisneta dvojno merilno vrstico (dve meritvi si delita ničelno točko). Postavitev privzeto izbere naravni komplement (miles-feet, meter-kilometrov); izberite enoto za preglasitev.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Double-click always finishes a line or area, and Esc always cancels one.": {
   "t": "Dvojni klik vedno konča črto ali območje, Esc pa vedno prekliče eno.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Double-click the .kmz in Google Earth Pro, or drag it into Google Earth on the web. The map is saved as a PNG inside it whatever Format you chose above.": {
+  "t": "Dvakrat kliknite .kmz v Google Earth Pro, ali ga povlecite v Google Earth na spletu. Zemljevid je shranjen kot PNG v njem karkoli Format ste izbrali zgoraj.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6796,6 +6982,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Draw as": {
+  "t": "Potegni kot",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Draw circle": {
   "t": "Nariši krog",
@@ -7235,6 +7427,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Each app sets a page limit (50 map pages unless changed in Settings; the index and legend pages do not count). A grid over it switches Export off; use fewer Rows or Columns, or zoom out and use fewer, larger pages.": {
+  "t": "Vsaka aplikacija določa omejitev strani (50 strani z zemljevidom, razen če se spremeni v Nastavitve; strani z indeksom in legendami se ne štejejo). Mreža nad njo izklopi Izvozi; uporabi manj vrstic ali stolpcev ali povečaj in uporabi manj večjih strani.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Each button draws one kind of measurement. A blue bar at the top shows which tool is active.": {
   "t": "Vsak gumb nariše eno vrsto meritev. Modra vrstica na vrhu prikazuje, katero orodje je aktivno.",
   "src": "libretranslate",
@@ -7297,6 +7495,12 @@
  },
  "Easting (X):": {
   "t": "Vzhodna (X):",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Edge ticks only": {
+  "t": "Samo robovi",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7997,6 +8201,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Every (degrees)": {
+  "t": "Vsaka (stopinje)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Every (map units)": {
+  "t": "Vsak (karta enot)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Every {gridMajorLineInterval} lines": {
   "t": "Vsak {gridMajorLineInterval} črte",
   "src": "libretranslate",
@@ -8038,6 +8254,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Every PDF is also a GeoPDF. Open it in Avenza Maps on a phone to see your location as a blue dot on the map, read coordinates in Acrobat with the Geospatial Location tool, or add it to ArcGIS Pro or QGIS and it lands in the right place.": {
+  "t": "Vsak PDF je tudi GeoPDF. Odprite ga v Avenza Maps na telefonu, da vidite svojo lokacijo kot modro piko na zemljevidu, preberite koordinate v Acrobatu z orodjem Geospatial Location ali ga dodate ArcGIS Pro ali QGIS in pristane na pravem mestu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Every shape you draw is listed on the My Drawings tab.": {
   "t": "Vsaka oblika, ki jo narišeš, je navedena na zavihku Moje risbe.",
@@ -8291,6 +8513,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Export as many times as you like. Change one thing, export again, and compare the two files.": {
+  "t": "Izvozi, kolikor hočeš. Spremeni eno stvar, izvozi še enkrat in primerjaj obe datoteki.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Export as Shapefile": {
   "t": "Izvozi kot datoteko z obliko",
   "src": "libretranslate",
@@ -8321,6 +8549,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Export defaults": {
+  "t": "Izvozi privzeto",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Export drawings to file": {
   "t": "Izvozi risbe v datoteko",
   "src": "libretranslate",
@@ -8329,6 +8563,12 @@
  },
  "Export formats for {name}": {
   "t": "Izvozi oblike za {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export is greyed out with a red message under Map series: the series is over this app's page limit. Use fewer rows or columns, or for one page per feature choose Inside the print area, zoom in, or filter the layer.": {
+  "t": "Izvoz je siviran z rdečim sporočilom pod serijo Zemljevid: serija je preko meje strani te aplikacije. Uporabite manj vrstic ali stolpcev ali pa za eno stran na funkcijo izberite Znotraj tiskalnega območja, povečajte ali filtrirajte plast.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8455,6 +8695,12 @@
  },
  "Exporting": {
   "t": "Izvoz",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Exporting…": {
+  "t": "Izvoz...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8963,6 +9209,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Finished exports are listed under Recent exports at the bottom of the panel, newest first. Click the file name to save it to your computer.": {
+  "t": "Končni izvoz je naveden pod nedavnim izvozom na dnu plošče, najnovejši prvi. Kliknite ime datoteke, da ga shranite na računalnik.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Finishing up…": {
   "t": "Končujem...",
   "src": "libretranslate",
@@ -8977,6 +9229,12 @@
  },
  "Fixed scale": {
   "t": "Fiksna lestvica",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fixed scale: prints at the exact scale you type, for example 24000 for 1:24,000. Use this when the page has to match another map.": {
+  "t": "Fiksna lestvica: odtisi na natančno lestvico, ki jo vtipkate, na primer 24000 za 1:24.000. Uporabite to, ko se mora stran ujemati z drugo karto.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9251,6 +9509,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Font: changes the typeface for all the text on the page. App default uses the layout font.": {
+  "t": "Pisava: spremeni naslov za vse besedilo na strani. Privzeta aplikacija uporablja pisavo razporeda.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "for {count} selected buffer": {
   "t": "besedilo {count} izbrani medpomnilnik",
   "src": "libretranslate",
@@ -9293,6 +9557,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "For one page per parcel, park or project, set Pages from to One page per feature and pick the layer. Features chooses which ones: in the current map view, inside the print area rectangle, or the whole layer, even beyond the map. Any filter on the layer (from Map Layers, a Filter widget or the map itself) is applied too. Only layers in the map's layer list that are turned on are listed (whichever layer list widget you use), including ones inside groups, nested groups and map image services, shown with their group path, like Utilities / Water / Mains. Each page centers on its feature, outlines it in orange and prints at the best-fit scale, or the fixed scale you set. Text in the layout that uses {field:NAME} shows that feature's value.": {
+  "t": "Za eno stran na parcelo, park ali projekt, nastavite Strani od ene strani na funkcijo in izberite plast. Lastnosti izbirajo, katere: v trenutnem prikazu zemljevida, znotraj tiskalnega območja pravokotnik, ali celotno plast, tudi izven zemljevida. Uporabi se tudi filter na plasteh (od Map Layers, filtrskega gradnika ali samega zemljevida). Samo plasti na seznamu slojev zemljevida, ki so vklopljene, so navedene (ki jih uporabljate v vsakem seznamu slojev), vključno s tistimi znotraj skupin, vgnezdene skupine in storitve zemljevidov, prikazane s svojo skupinsko potjo, kot so Utilities / Water / Mains. Vsaka stran se osredotoča na svojo funkcijo, jo očrta v oranžni barvi in odtisih v najboljši meri ali fiksni lestvici, ki ste jo nastavili. Besedilo v razporedu, ki uporablja {polje: NAME} prikazuje vrednost te funkcije.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "For the best experience, use a modern web browser": {
   "t": "Za najboljšo izkušnjo uporabite sodoben spletni brskalnik",
   "src": "libretranslate",
@@ -9319,6 +9589,12 @@
  },
  "Format a field as a number, currency, percent, or date, or turn it into a link built from a URL template with {FIELD_NAME} tokens.": {
   "t": "Oblikujte polje kot število, valuto, odstotek ali datum ali ga spremenite v povezavo, zgrajeno iz predloge URL s {FIELD_NAME} Žetoni.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Format decides the kind of file you get. If you are not sure, use PDF.": {
+  "t": "Format določa vrsto datoteke, ki jo dobiš. Če niste prepričani, uporabite PDF.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9403,6 +9679,12 @@
  },
  "Full keyboard navigation support": {
   "t": "Polna navigacijska podpora tipkovnici",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Full lines": {
+  "t": "Polne črte",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9647,8 +9929,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Get the map looking the way you want, pick a Layout, type a Map title, then press Export. Your file appears at the bottom of the panel.": {
+  "t": "Oglejte si zemljevid, kot želite, izberite razpored, vnesite naslov zemljevida, nato pa pritisnite Izvoz. Vaša datoteka se pojavi na dnu pulta.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Getting the address of a spot": {
   "t": "Pridobivanje naslova mesta",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Getting your file": {
+  "t": "Pridobivanje datoteke",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9701,6 +9995,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Google Earth (KMZ): gives you one .kmz file with the map draped over the globe in the right place. All four corners are placed separately, so the picture is not stretched.": {
+  "t": "Google Earth (KMZ): vam da eno datoteko .kmz z zemljevidom, ki je na pravem mestu. Vsi štirje vogali so postavljeni posebej, zato slika ni raztegnjena.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Google Maps 3D": {
   "t": "Google Zemljevidi 3D",
   "src": "libretranslate",
@@ -9715,6 +10015,12 @@
  },
  "Graticule (lat/long)": {
   "t": "Graticule (lat./dolga)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "grid": {
+  "t": "mreža",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9769,6 +10075,18 @@
  },
  "Grid is enabled. Theme: {gridTheme}. Spacing: {gridSpacingMode}. Rotation: {gridRotation} degrees.": {
   "t": "Mreža je omogočena. Tema: {gridTheme}Razdalja: {gridSpacingMode}Vrtenje: {gridRotation} Diplome.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid labels are missing on a turned map: labels that would overlap another label are left off so none print on top of each other. Use a larger interval, fewer label sides, or smaller labels.": {
+  "t": "Na zaviti karti manjkajo oznake mreže: nalepke, ki bi prekrivale drugo nalepko, so izklopljene, tako da se ne tiskajo med seboj. Uporabite večji interval, manj strani z nalepkami ali manjše oznake.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid on by default": {
+  "t": "Mreža privzeto",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9841,6 +10159,12 @@
  },
  "Grid size": {
   "t": "Velikost mreže",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid size shrinks the whole grid toward the middle, which is a quick way to trim empty edges without changing rows and columns.": {
+  "t": "Velikost mreže se skrči na celotno mrežo proti sredini, kar je hiter način za obrezovanje praznih robov brez spreminjanja vrstic in stolpcev.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9923,6 +10247,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Grid style for this export: latitude/longitude graticule, measured grid in map units, or lettered reference grid.": {
+  "t": "Slog mreže za ta izvoz: zemljepisna širina/zemljepisna širina gratikula, izmerjena mreža v enotah zemljevida ali črkovna referenčna mreža.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid style: open it under Grid type to change the grid your way. Pick the line color, width, opacity and pattern, or draw only edge ticks and crosses. Set a custom interval, the label color, size, bold and halo, which sides get labels, labels that run along the side edges, and the coordinate or number format. Reference grids can put letters on rows and print cell ids like A1 in every cell. Reset to layout grid puts everything back.": {
+  "t": "Slog mreže: odprite ga pod vrsto mreže, da spremenite svojo pot. Izberite barvo črte, širino, prosojnost in vzorec, ali pa rišete samo klopi in križe. Nastavite interval po meri, barvo nalepke, velikost, krepko in halo, ki strani dobi nalepke, nalepke, ki tečejo vzdolž stranskih robov, in obliko koordinat ali števila. Referenčne mreže lahko dajo črke na vrstice in tiskajo podatke celic, kot je A1 v vsaki celici. Ponastavi na postavitev mreže vse postavi nazaj.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Grid theme changed to {newTheme}": {
   "t": "Tema mreže se je spremenila v {newTheme}",
   "src": "libretranslate",
@@ -9943,6 +10279,12 @@
  },
  "Grid unit changed to {newUnit}": {
   "t": "Enota omrežja spremenjena v {newUnit}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid: adds the grid or graticule the layout was built with. Grid type switches between a latitude and longitude graticule, a measured grid in map units, and a lettered reference grid like A-1. When the layout turns on corner labels, each map corner also shows its exact coordinate.": {
+  "t": "Mreža: doda mrežo ali gratikulo, ki je bila zgrajena z. Tip mreže preklopi med gratikulom zemljepisne širine in dolžine, izmerjeno mrežo v enotah zemljevida in črkovno referenčno mrežo, kot je A-1. Ko se postavitev vklopi na vogalnih oznakah, vsak vogal zemljevida prikaže tudi svojo natančno koordinato.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9976,6 +10318,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Halo color": {
+  "t": "Halo barva",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Halo color picker": {
   "t": "Izbirnik barv Halo",
@@ -10271,6 +10619,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Hide legend layers not drawn at the print scale": {
+  "t": "Skrij plasti legende, ki niso narisane na lestvici tiskanja",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hide legend layers with nothing in the print area": {
+  "t": "Skrij plasti legende brez ničesar v področju tiskanja",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Hide measurements": {
   "t": "Skrij meritve",
   "src": "libretranslate",
@@ -10369,6 +10729,12 @@
  },
  "Hover a view in the list and use the trash icon to delete it.": {
   "t": "Postavite pogled na seznamu in uporabite ikono smeti, da jo izbrišete.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hover over any label in this panel for a one-line explanation without opening this guide.": {
+  "t": "Postavite nad vsako nalepko v tej plošči za enovrstično razlago, ne da bi odprli ta priročnik.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10474,6 +10840,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "If the legend is too big to fit beside the map, a note appears offering to move it to additional pages. You can keep it beside the map instead.": {
+  "t": "Če je legenda prevelika, da bi se prilegala zemljevidu, se zdi, da jo opomba lahko premakne na dodatne strani. Lahko jo obdržiš poleg zemljevida.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "If the misclose ratio (1:n) meets or exceeds this n, points snap closed and the compass rule is applied": {
   "t": "Če razmerje med napačno bližino (1:n) ustreza ali presega to vrednost n, se točke zaprejo in uporabi pravilo kompasa",
@@ -10667,6 +11039,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "In PDF and SVG, feature layers drawn with simple symbols (parcels, lines, points, hatched fills, custom and picture markers) print as true lines and shapes instead of a picture, so they stay sharp at any zoom and the file stays small. Their labels come along as real text, including label classes that only label some features. Layers with Arcade labels or effects still print as a picture; the export note lists which ones and why.": {
+  "t": "V PDF in SVG se kot prave črte in oblike namesto slike tiskajo plasti, narisane s preprostimi simboli (parceli, črte, točke, izvalitve polnil, po meri in slikovni označevalci), zato ostanejo ostri pri vsakem povečavi in datoteka ostane majhna. Njihove oznake so pravo besedilo, vključno z razredi oznak, ki označujejo le nekatere značilnosti. Plasti z arkadnimi etiketami ali učinki še vedno tiskajo kot sliko; izvozna nota navaja, katere in zakaj.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "In the {batchOptions} menu, choose {showFavoritesOnly} to list only your starred layers and their groups. Choose {showAllLayers} to go back.": {
   "t": "V {batchOptions} meni, izberite {showFavoritesOnly} da naštejem samo tvoje zvezdne plasti in njihove skupine. Izberi {showAllLayers} da se vrnem.",
   "src": "libretranslate",
@@ -10759,6 +11137,12 @@
  },
  "Include legend": {
   "t": "Vključi legendo",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include legend: adds the layer symbols. Only the layers actually drawing at the printed scale are listed, so the legend matches the map.": {
+  "t": "Vključi legendo: doda simbole plasti. Navedeni so samo sloji, ki dejansko rišejo na tiskani lestvici, zato legenda ustreza zemljevidu.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10889,6 +11273,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Inside the map": {
+  "t": "Znotraj zemljevida",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Inside the print area": {
   "t": "Znotraj področja tiskanja",
   "src": "libretranslate",
@@ -10961,6 +11351,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Interval": {
+  "t": "Interval",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Invalid bearing.": {
   "t": "Neveljaven smer.",
   "src": "libretranslate",
@@ -11026,6 +11422,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "It picks up a parcel you clicked, features chosen in a Select, Table or Query widget, and shapes an app has drawn on the map.": {
+  "t": "Pobere paket, ki ste ga kliknili, funkcije izbrane v gradniku Izberite, Table ali Query in oblikuje aplikacijo, ki je narisana na zemljevidu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "It says Loading measurement tools for a long time: the map is still starting. Give it a moment, then reload the page.": {
   "t": "Piše, da se nalaganje merilnih orodij še dolgo časa: zemljevid se še vedno začenja. Samo trenutek, nato pa znova naloži stran.",
@@ -11315,6 +11717,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Label color": {
+  "t": "Barva nalepke",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Label display options": {
   "t": "Možnosti označevanja",
   "src": "libretranslate",
@@ -11357,6 +11765,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Label halo": {
+  "t": "Oznaka halo",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Label Height": {
   "t": "Višina nalepke",
   "src": "libretranslate",
@@ -11389,6 +11803,18 @@
  },
  "Label sheet and options": {
   "t": "List etikete in možnosti",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Label sides": {
+  "t": "Strani nalepke",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Label size": {
+  "t": "Velikost oznake",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11783,6 +12209,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Left and right": {
+  "t": "Leva in desna",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Left Margin": {
   "t": "Levi rob",
   "src": "libretranslate",
@@ -11825,6 +12257,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "legend": {
+  "t": "Legenda",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Legend": {
   "t": "Legenda",
   "src": "libretranslate",
@@ -11849,6 +12287,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Legend on by default": {
+  "t": "Legenda na privzeto",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Legend page {i} of {n}": {
   "t": "Legenda {i} o {n}",
   "src": "libretranslate",
@@ -11857,6 +12301,12 @@
  },
  "Legend placement": {
   "t": "Namestitev legende",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Legend placement: beside the map, over a corner of it, or on Additional pages (PDF only). Beside the map, the map shrinks to make room. On additional pages, every item stays full size.": {
+  "t": "Legenda umestitev: poleg zemljevida, nad njim, ali na Dodatne strani (samo PDF). Poleg zemljevida se zemljevid skrči, da naredi prostor. Na dodatnih straneh vsak predmet ostane v polni velikosti.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11909,6 +12359,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Letters on": {
+  "t": "Pisma o",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Light": {
   "t": "Svetloba",
   "src": "libretranslate",
@@ -11957,6 +12413,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Line color": {
+  "t": "Barva črte",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Line layer (traverse lines)": {
   "t": "Črtna plast (traverzne črte)",
   "src": "libretranslate",
@@ -12004,6 +12466,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Line opacity": {
+  "t": "Motnost črte",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Line Segments": {
   "t": "Črtni odseki",
@@ -12055,6 +12523,12 @@
  },
  "Line type preselected for new traverse legs (the doc default is Connection Line; many workflows prefer Boundary Line)": {
   "t": "Vrsta linije predizbrana za nove prečne noge (doc privzeta je povezava Line; veliko delovnih tokov raje Meja Line)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Line width": {
+  "t": "Širina črte",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12115,6 +12589,12 @@
  },
  "Link text (optional)": {
   "t": "Besedilo povezave (neobvezno)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Link the title to the pages: while Map series is open, the buttons under Map title add Page name, Page number or any visible field, and the line under them shows how page 1's title will read. Order sorts the pages A to Z or Z to A by the name field. The Overview inset switch adds a locator overview to every data-driven page.": {
+  "t": "Povežite naslov na strani: medtem ko je serija zemljevidov odprta, gumbi pod naslovom Zemljevid dodajte ime strani, številko strani ali katero koli vidno polje in vrstica pod njimi prikazuje, kako se bo bral naslov strani 1. Naroči razvrsti strani A do Z ali Z do A po imenu polje. Vklopno stikalo Pregled dodaja pregled lokatorja na vsako podatkovno podprto stran.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12413,6 +12893,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Lock print area pins that rectangle over the ground. You can then pan and zoom to look around, and the printed area stays where you put it. Turn it off to release.": {
+  "t": "Zaklenjeno območje tiskanja zapiči pravokotnik nad zemljo. Nato se lahko razgledate in zoomirate, natisnjeno območje pa ostane tam, kamor ga postavite. Izklopi ga, da se sprosti.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Locked": {
   "t": "Zaklenjeno",
   "src": "libretranslate",
@@ -12659,6 +13145,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map DPI sets how fine the map picture is. Layout default is fine for most work. 300 is sharper but takes noticeably longer and makes a much bigger file.": {
+  "t": "Zemljevid DPI določa, kako fina je slika zemljevida. Postavitev privzeto je v redu za večino dela. 300 je ostrejše, vendar traja opazno dlje in naredi veliko večjo datoteko.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map fields": {
   "t": "Polji zemljevida",
   "src": "libretranslate",
@@ -12745,6 +13237,12 @@
  },
  "Map only (no layout)": {
   "t": "Samo zemljevid (brez razporeda)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map only (no layout): gives you just the map picture, with no title, legend or border. Use it when you want to drop the map into something else.": {
+  "t": "Samo zemljevid (brez razporeda): poda vam samo sliko zemljevida, brez naslova, legende ali meje. Uporabite ga, ko želite, da zemljevid v nekaj drugega.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12880,6 +13378,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Maps that open in the right place": {
+  "t": "Zemljevidi, ki se odpirajo na pravem mestu",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Margins": {
   "t": "Robovi",
@@ -14345,6 +14849,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "None (single bar)": {
+  "t": "Brez (ena vrstica)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "None (transparent)": {
   "t": "Brez (pregledno)",
   "src": "libretranslate",
@@ -14353,6 +14863,12 @@
  },
  "none selected": {
   "t": "brez izbranih",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "North arrow": {
+  "t": "Severna puščica",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14435,6 +14951,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Nothing downloaded: your browser may have blocked it. Look for a blocked download notice in the address bar, or click the file name under Recent exports again.": {
+  "t": "Nič prenesenega: brskalnik ga je morda blokiral. Poiščite blokirano obvestilo o prenosu v naslovni vrstici ali kliknite ime datoteke pod nedavnim izvozom še enkrat.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Nothing extra": {
   "t": "Nič posebnega.",
   "src": "libretranslate",
@@ -14473,6 +14995,12 @@
  },
  "Nothing is found where you know a feature is: the click landed just off the edge. Zoom in and click again, nearer the middle of the feature.": {
   "t": "Nič se ne najde tam, kjer veš, da je funkcija: klik pristal tik ob robu. Povečaj in klikni še enkrat, bližje sredini bonusne igre.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Nothing you change here affects the map itself or anyone else. It only changes the page you are about to make.": {
+  "t": "Nič ne vpliva na zemljevid ali kogarkoli drugega. Spremeni samo stran, ki jo boste naredili.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14525,6 +15053,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Number format": {
+  "t": "Oblika številke",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Number of decimal places for area and perimeter measurements, minimum 0, maximum 10": {
   "t": "Število decimalnih mest za meritve površine in območja, najmanj 0, največ 10",
   "src": "libretranslate",
@@ -14563,6 +15097,12 @@
  },
  "Number of lines to wrap text across. 1 = no wrap.": {
   "t": "Število vrstic za previjanje besedila. 1 = brez zavijanja.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Numbered outlines appear on the map showing the pages. They follow you as you pan and zoom, so you can see the split before you commit to it.": {
+  "t": "Oštevilčeni obrisi se pojavijo na zemljevidu, ki prikazuje strani. Sledijo ti kot ponev in povečava, tako da lahko vidiš razcep, preden se zavežeš.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14662,6 +15202,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "On by default. A layer whose visible scale range excludes the printed scale is left off the legend, so the legend never lists a symbol the map does not show.": {
+  "t": "Privzeto. Plast, katere vidno območje lestvice izključuje natisnjeno lestvico, je izpuščena iz legende, tako da legenda nikoli ne navaja simbola, ki ga zemljevid ne prikazuje.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "On the {address} tab.": {
   "t": "Na {address} Zavihek.",
@@ -14803,6 +15349,12 @@
  },
  "One page per feature": {
   "t": "Ena stran na funkcijo",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "One PDF comes out with every page in it. The legend prints on every sheet, the same way ArcGIS Pro does it.": {
+  "t": "En PDF izide z vsako stranjo v njem. Legenda natisne na vsakem listu, enako kot ArcGIS Pro.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15065,6 +15617,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Output coordinate system (WKID): prints in a different coordinate system than the map uses. Leave it at 0 unless someone has asked you for a particular one.": {
+  "t": "Izhodni koordinatni sistem (WKID): odtisi v drugem koordinatnem sistemu, kot ga uporablja zemljevid. Pusti jo ob 0, razen če te je kdo prosil za določeno.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Output size (px)": {
   "t": "Velikost proizvodnje (px)",
   "src": "libretranslate",
@@ -15073,6 +15631,12 @@
  },
  "Outside the current map scale": {
   "t": "Zunaj trenutne lestvice zemljevida",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Outside the map": {
+  "t": "Zunaj zemljevida",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15107,8 +15671,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "overview inset": {
+  "t": "Vstavljen pregled",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Overview inset": {
   "t": "Vstavljen pregled",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Overview inset: adds the small locator map in the corner, with a red box showing where the main map sits.": {
+  "t": "Pregled vstavljen: doda majhno lokacijsko karto v kotu, z rdečo polje, ki prikazuje, kje se nahaja glavni zemljevid.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Overview map on by default": {
+  "t": "Privzeti pregled zemljevida",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15161,6 +15743,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "page font": {
+  "t": "Pisava strani",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Page name": {
   "t": "Ime strani",
   "src": "libretranslate",
@@ -15191,6 +15779,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Page preview shows gray areas: part of the print area is off the screen, so the preview has nothing to show there. Pan or zoom out to see it; the exported file is not affected.": {
+  "t": "Predogled strani prikazuje siva področja: del tiskalniškega področja je off zaslona, tako da predogled tam nima kaj pokazati. Odpnite ali povečajte, da ga vidite; izvožena datoteka ni prizadeta.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Page Size": {
   "t": "Velikost strani",
   "src": "libretranslate",
@@ -15217,6 +15811,12 @@
  },
  "Pagination complete. Total features collected: {count}": {
   "t": "Poklic končan. Skupaj zbrane značilnosti: {count}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Pan and zoom the map to what you want on the page. What you see is what prints.": {
+  "t": "Napnite in povečajte zemljevid na tisto, kar želite na strani. Kar vidiš, so odtisi.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15281,6 +15881,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Pattern": {
+  "t": "Vzorec",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "PDF and SVG files come with layers. In Acrobat or Avenza Maps open the Layers panel to hide the grid, the selection outline, the legend or the text; in Illustrator or Inkscape each part is its own layer.": {
+  "t": "PDF in SVG datoteke prihajajo s plastmi. V Acrobat ali Avenza Maps odpre plošča Layers, da skrije mrežo, selekcijski obris, legendo ali besedilo; v Illustrator ali Inkscape je vsak del svoj sloj.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "PDF export options": {
   "t": "Možnosti za izvoz PDF",
   "src": "libretranslate",
@@ -15301,6 +15913,12 @@
  },
  "PDF opens a small window first so you can choose what goes on the page.": {
   "t": "PDF odpre majhno okno najprej tako, da lahko izberete, kaj gre na strani.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "PDF: best for printing on paper and for sending to someone. Text and lines stay sharp at any zoom.": {
+  "t": "PDF: Najboljši za tiskanje na papir in za pošiljanje nekomu. Besedilo in vrstice ostanejo ostre pri vsakem povečavi.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15409,6 +16027,12 @@
  },
  "Pick a draw tool (Point, Line, Polygon, Rectangle, or Circle), then draw on the map. Everything inside is selected.": {
   "t": "Izberite vlečno orodje (Point, Line, Polygon, Pravokotnik, ali Krog), nato potegnite na zemljevid. Vse znotraj je izbrano.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Pick a Layout, then type a Map title. The title is what prints at the top of the page.": {
+  "t": "Izberite razpored, nato vnesite naslov zemljevida. Naslov je tisti, ki tiska na vrhu strani.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15661,6 +16285,18 @@
  },
  "Please wait, do not close this window...": {
   "t": "Prosim počakajte, ne zapirajte tega okna...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "PNG, JPG and GIF instead get two small companion files beside the image. Keep all of them together in the same folder or the placement is lost.": {
+  "t": "PNG, JPG in GIF namesto tega dobijo dve majhni datoteki spremljevalca poleg slike. Obdržite vse skupaj v isti mapi ali pa je postavitev izgubljena.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "PNG32, PNG8, JPG or GIF: a picture, for a report, a slide or a web page. PNG32 is the sharpest.": {
+  "t": "PNG32, PNG8, JPG ali GIF: slika za poročilo, diapozitiv ali spletno stran. PNG32 je najostrejši.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15923,6 +16559,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Preserve map extent (fit view): prints everything you can see now, and picks whatever scale that needs. Use this when you must not lose anything off the edges.": {
+  "t": "Ohrani obseg zemljevida (primeren prikaz): natisne vse, kar lahko vidite zdaj, in izbere poljubno lestvico, ki jo potrebuje. Uporabite to, ko ne smete izgubiti ničesar z robov.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Preserve map scale": {
   "t": "Ohrani lestvico zemljevida",
   "src": "libretranslate",
@@ -15931,6 +16573,12 @@
  },
  "Preserve map scale (current)": {
   "t": "Ohrani lestvico zemljevida (trenutno)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preserve map scale (current): prints at the same scale you are looking at. The page may show a little more or less ground than the screen, because the page is a different shape than your browser window.": {
+  "t": "Ohranite lestvico zemljevida (trenutno): natisnete na isti lestvici, kot jih gledate. Stran lahko prikaže nekaj več ali manj tal kot zaslon, saj je stran drugačne oblike kot okno brskalnika.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16055,6 +16703,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Press Export. The panel dims and a message tells you what it is working on. When it finishes, the file appears under Recent exports at the bottom. Click its name to save it.": {
+  "t": "Pritisni izvoz. Sporočilo vam pove, na čem dela. Ko konča, se datoteka pojavi pod nedavnim izvozom na dnu. Kliknite njegovo ime, da ga shranite.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Press F on a focused basemap to add or remove it from favorites.": {
   "t": "Pritisnite F na osredotočeno osnovno mapo dodati ali odstraniti iz priljubljenih.",
   "src": "libretranslate",
@@ -16169,6 +16823,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Print Advanced turns the map on your screen into a finished page: the same layout your ArcGIS Pro template uses, with a title, legend and scale bar, ready to print or send.": {
+  "t": "Print Advanced spremeni zemljevid na zaslonu v končano stran: ista postavitev vaše predloge ArcGIS Pro uporablja, z naslovom, legendo in lestvico, pripravljen za tiskanje ali pošiljanje.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Print area": {
   "t": "Področje tiskanja",
   "src": "libretranslate",
@@ -16177,6 +16837,12 @@
  },
  "Print area is locked to the current location; panning or zooming will not move it.": {
   "t": "Območje tiskanja je zaklenjeno na trenutno lokacijo; paning ali povečava ga ne premakneta.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Print area, the first card under Advanced options, decides how much ground fits in the map frame. Three choices, under Scale.": {
+  "t": "Tiskanje področje, prva kartica v možnosti Advanced, odloči, koliko tal ustreza okvirju zemljevida. Tri možnosti, pod Scalom.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16213,6 +16879,18 @@
  },
  "Print-Ready Labels: spread out the labels so they do not overlap when exported to PDF.": {
   "t": "Natisnjeno-pripravljene oznake: razširite oznake, da se ne prekrivajo pri izvozu v PDF.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Printing a large area over several pages": {
+  "t": "Tiskanje velike površine preko več strani",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Printing what you have selected": {
+  "t": "Tiskanje, kar ste izbrali",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16363,6 +17041,12 @@
  },
  "Radius measurement enabled. Display the circle radius.": {
   "t": "Meritev polmera omogočena. Prikaži polmer kroga.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Raster EPS (Level 2, JPEG-embedded). For vector output use PDF or SVG.": {
+  "t": "Raster EPS (raven 2, JPEG-vgrajen). Za vektorski izhod uporabite PDF ali SVG.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16685,6 +17369,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Remove from list clears one item and Clear empties the whole list. Neither deletes a file you have already saved.": {
+  "t": "Odstrani s seznama počisti eno postavko in počisti celoten seznam. Niti ne izbriše datoteke, ki ste jo že shranili.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Remove from map": {
   "t": "Odstrani z zemljevida",
   "src": "libretranslate",
@@ -16897,6 +17587,12 @@
  },
  "Reset to Defaults": {
   "t": "Ponastavi na privzete vrednosti",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reset to layout grid": {
+  "t": "Ponastavi na postavitveno mrežo",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17201,6 +17897,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Rows (A, B, C)": {
+  "t": "Vrstice (A, B, C)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Rows to include": {
   "t": "Vrstice za vključitev",
   "src": "libretranslate",
@@ -17399,6 +18101,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Scale bar style": {
+  "t": "Slog merilne vrstice",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Scale bar units": {
+  "t": "Enote merilnih črt",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Scale field": {
   "t": "Merilo",
   "src": "libretranslate",
@@ -17537,6 +18251,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Search the guide (try \"legend\" or \"blank\")": {
+  "t": "Iskanje vodnika (poskusite \"legend\" ali \"blank\")",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Search the guide (try \"load\" or \"fields\")": {
   "t": "Iskanje vodnik (poskusite \"naloži\" ali \"polja\")",
   "src": "libretranslate",
@@ -17566,6 +18286,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Second units (dual)": {
+  "t": "Druga enota (dvojna)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "See how your label format will appear": {
   "t": "Oglejte si, kako se bo prikazal format nalepke",
@@ -18049,6 +18775,12 @@
  },
  "Selected features are outlined in cyan on the print. Turn this off to print the map without them.": {
   "t": "Izbrane značilnosti so natisnjene v cianu. Ugasni to, da natisneš zemljevid brez njih.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Selected features: turn this on and anything you have selected is outlined on the print, in cyan with a thin white edge so it reads over dark aerial photography.": {
+  "t": "Izbrane funkcije: vključite to in vse, kar ste izbrali, je opisano na odtisu, v cianu s tankim belim robom, tako da se bere nad temno zračno fotografijo.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -18785,6 +19517,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Side labels run along the edge": {
+  "t": "Stranske oznake tečejo vzdolž roba",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Side Length": {
   "t": "Dolžina strani",
   "src": "libretranslate",
@@ -19009,6 +19747,12 @@
  },
  "Snapping tolerance (pixels)": {
   "t": "Toleranca pripenjanja (pikslov)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Solid": {
+  "t": "Trdna",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19403,6 +20147,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Still stuck? Contact the GIS Division and mention the Print Advanced widget and this app.": {
+  "t": "Še vedno obtičal? Kontaktirajte oddelek GIS in omenite gradnik Natisni Napredno in to aplikacijo.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Still stuck? Contact your GIS team and mention the Draw Advanced widget and this app.": {
   "t": "Še vedno obtičal? Kontaktirajte svojo ekipo GIS in omenite gradnik Draw Advanced in to aplikacijo.",
   "src": "libretranslate",
@@ -19537,6 +20287,12 @@
  },
  "Supported label formats": {
   "t": "Podprte oblike oznak",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "SVG or SVGZ: for editing the page afterwards in Illustrator or Inkscape. SVGZ is the same file, just smaller.": {
+  "t": "SVG ali SVGZ: za urejanje strani kasneje v Illustrator ali Inkscape. SVGZ je ista datoteka, le manjša.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20153,6 +20909,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The export is taking a long time: a high Map DPI or a large page takes longer. Keep the tab open and give it a few minutes. The message in the panel tells you what it is working on.": {
+  "t": "Izvoz traja dolgo: visoka karta DPI ali velika stran traja dlje. Imej zavihek odprt in mu daj nekaj minut. Sporočilo v plošči vam pove, na čem dela.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The expression choice lets you write a short formula, such as helpers.upper($.NAME). Write $.FIELD to read a value from your data.": {
   "t": "Izbira izraza vam omogoča pisanje kratke formule, kot so pomočniki.upper( $.NAME). Pišite $.FIELD za branje vrednosti iz vaših podatkov.",
   "src": "libretranslate",
@@ -20173,6 +20935,12 @@
  },
  "The feature you are reading is outlined on the map, so you can see which one it is.": {
   "t": "Funkcija, ki jo berete, je opisana na zemljevidu, tako da lahko vidite, katera je.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The file is a PDF unless you change it: open Advanced options and pick a Format under Output. PDF is the safe choice for anything you plan to print on paper.": {
+  "t": "Datoteka je PDF, razen če jo spremenite: odprite napredne možnosti in izberite Format pod izhodom. PDF je varna izbira za vse, kar nameravate natisniti na papirju.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20285,11 +21053,23 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The list is only for this visit. It empties when you close or reload the app, so save anything you want to keep.": {
+  "t": "Seznam je samo za ta obisk. To izprazni, ko zaprete ali ponovno naložite aplikacijo, tako da shranite vse, kar želite obdržati.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The Load step checks the work, then writes the records into the layer.": {
   "t": "Stopnica Naloži preveri delo, nato zapise zapiše v plast.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The map area is blank or grey: the map had not finished drawing. Wait until the map is still and every layer has appeared, then export again.": {
+  "t": "Območje zemljevida je prazno ali sivo: zemljevid še ni končal risbe. Počakajte, da zemljevid miruje in se pojavi vsaka plast, nato pa ponovno izvozite.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The map does not move or change scale by itself. Use the zoom action in the details when you want the map to go there.": {
   "t": "Zemljevid se ne premika ali spreminja lestvice sam od sebe. Ko želite, da gre zemljevid tja, uporabite dejanje povečave.",
@@ -20375,6 +21155,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The outline is drawn rather than shaded, so labels and dimensions inside the parcel stay readable on paper.": {
+  "t": "Obris je bolj narisan kot osenčen, zato etikete in dimenzije znotraj parcele ostanejo berljive na papirju.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The parcel polygon is built from the Boundary Lines only, then saved with the name, description, and stated area. If no line is marked Boundary Line, no polygon is created.": {
   "t": "Poligon parcele je zgrajen samo iz mejnih črt, nato pa shranjen z imenom, opisom in navedenim območjem. Če ni označena črta, ni ustvarjena nobena črta.",
   "src": "libretranslate",
@@ -20431,6 +21217,12 @@
  },
  "The print service did not return a file.": {
   "t": "Storitev tiskanja ni vrnila datoteke.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The print service failed: the server refused the job or timed out. Try again, and if it keeps failing switch the Format to PDF and export a smaller page.": {
+  "t": "Storitev tiskanja je spodletela: strežnik je zavrnil delo ali pa se je čas iztekel. Poskusite še enkrat, in če še vedno ni stikalo Format za PDF in izvoz manjše strani.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20681,6 +21473,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "These options are for a Map only export, so the picture is the map edge to edge with nothing else on it.": {
+  "t": "Te možnosti so samo za izvoz zemljevida, zato je slika rob zemljevida rob z nič drugega na njem.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "These settings are for advanced users only": {
   "t": "Te nastavitve so samo za napredne uporabnike",
   "src": "libretranslate",
@@ -20795,6 +21593,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "This runs in your browser, not ArcGIS Pro, so big series are limited: a yellow note warns about a large job with a rough time and file size, and a red note stops a series over the page limit set for this app.": {
+  "t": "To teče v vašem brskalniku, ne ArcGIS Pro, zato so velike serije omejene: rumena nota opozarja na veliko delo z grobim časom in velikostjo datotek, rdeča nota pa ustavi serijo nad omejitvijo strani, nastavljeno za to aplikacijo.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "This scale and the map position set the print area that Inside the print area uses to pick features. Each page still sets its own scale.": {
   "t": "Ta lestvica in položaj zemljevida sta nastavila področje tiskanja, ki se znotraj področja tiskanja uporablja za izbiranje funkcij. Vsaka stran še vedno določa svojo lestvico.",
   "src": "libretranslate",
@@ -20891,8 +21695,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Tick and cross size": {
+  "t": "Velikost klopi in križa",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Tick the box beside the layer to show it on the map. Untick it to hide it.": {
   "t": "Označite polje poleg plasti in ga pokažite na zemljevidu. Odkljukaj ga, da ga skriješ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Ticks and crosses": {
+  "t": "Tiki in križi",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "TIFF: a large picture, and the right choice when you want the map to open in the correct place in ArcGIS Pro.": {
+  "t": "TIFF: velika slika in prava izbira, ko želite, da se zemljevid odpre na pravem mestu v ArcGIS Pro.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21203,6 +22025,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Top and bottom": {
+  "t": "Zgoraj in spodaj",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Top and left": {
+  "t": "Zgoraj in levo",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Top left (over map)": {
   "t": "Zgoraj levo (over map)",
   "src": "libretranslate",
@@ -21431,6 +22265,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Turn on Page preview, right under Map title, to see the whole printed page while you pan and zoom. It is a quick sketch drawn from the screen: gray areas are outside the screen, and the overview map shows as a box. The export is always full quality.": {
+  "t": "Vklopi predogled strani, desno pod naslovom Zemljevid, da si ogledate celotno tiskano stran, medtem ko ponev in povečavo. Gre za hitro skico iz zaslona: siva področja so zunaj zaslona, pregledna karta pa prikazuje kot polje. Izvoz je vedno poln kakovosti.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Turn on parent groups when a layer is checked on": {
   "t": "Vklopi matične skupine, ko se preverja plast",
   "src": "libretranslate",
@@ -21439,6 +22279,12 @@
  },
  "Turn on Print-Ready Labels in {displayOptions} before a PDF export to spread the labels out so they do not overlap.": {
   "t": "Vklopi oznake za tiskanje {displayOptions} pred izvozom PDF za razširjanje oznak, da se ne prekrivajo.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Turn on Show print area and a rectangle appears on the map showing exactly what will print. Watch it while you zoom.": {
+  "t": "Vklopi Prikaz tiskanja in na zemljevidu se pojavi pravokotnik, ki natančno prikazuje, kaj bo natisnjeno. Pazi, dokler ne približaš.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21622,6 +22468,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Under Advanced options, each card opens and closes from its heading and remembers your choice; a closed card still shows a short summary of what is set inside it. The On the map card holds the switches for the {parts}; Page text holds Author, Copyright and the QR code; Style holds the font, north arrow and scale bar; Output holds the format, DPI, coordinate system, map-only export and file name. Turning a switch off leaves it off this page only; it does not change the map, and it does not change anything for anyone else.": {
+  "t": "V okviru možnosti Advanced se vsaka kartica odpre in zapre iz svojega naslova in se spomni vaše izbire; zaprta kartica še vedno prikazuje kratek povzetek tega, kar je nastavljeno v njej. Na kartici ima stikala za {parts}; Besedilo strani drži Avtor, Avtorske pravice in koda QR; Slog drži pisavo, severno puščico in merilno vrstico; Izhod drži format, DPI, koordinatni sistem, samo zemljevid izvoz in ime datoteke. Izklop izklop ga pusti samo tej strani; ne spremeni zemljevida in ne spremeni ničesar za nikogar drugega.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Under Advanced options, turn on Print as a map series (PDF), then set Rows and Columns. The estimate underneath tells you how many pages you will get.": {
+  "t": "V okviru možnosti Napredno, vklopite Print kot serijo zemljevidov (PDF), nato pa nastavite vrstice in stolpce. Ocena spodaj vam pove, koliko strani boste dobili.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Under the title is a list. Each line has a label on the left and the value for that feature on the right.": {
   "t": "Pod naslovom je seznam. Vsaka vrstica ima oznako na levi in vrednost za to funkcijo na desni.",
@@ -22235,6 +23093,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Vector page furniture; opens in Illustrator/Inkscape. Covers the AIX use case.": {
+  "t": "Vektor stran pohištvo; odpira v Illustrator / Inkscape. Zajema primer uporabe AIX.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Verify your settings work with sample data": {
   "t": "Preverite svoje nastavitve delo z vzorčnimi podatki",
   "src": "libretranslate",
@@ -22463,6 +23327,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "What goes on the page": {
+  "t": "Kaj se dogaja na strani",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "What shows on the map": {
   "t": "Kaj kaže na zemljevidu",
   "src": "libretranslate",
@@ -22619,6 +23489,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Which file type to pick": {
+  "t": "Katero vrsto datoteke izbrati",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Which polygon attributes users can enter at runtime: the fixed name/description/stated-area inputs, the fields from the layer popup, or a custom list": {
   "t": "Kateri poligon atributi lahko uporabniki vnesejo ob času delovanja: fiksni vnosi imena/opisa/območja, polja iz pojavne plasti ali seznam po meri",
   "src": "libretranslate",
@@ -22627,6 +23503,12 @@
  },
  "Which tab is active when the widget first opens.": {
   "t": "Kateri zavihek je aktiven, ko se prvi gradnik odpre.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "While a series exports, the bar below Export shows Page 3 of 12 (with the feature name for one page per feature), one segment per page plus the index page and saving, how many steps are done and about how long is left. Keep this tab open until the file appears, or press Cancel to stop after the current page.": {
+  "t": "Medtem ko je serija izvoz, vrstica spodaj Izvoz prikazuje Stran 3 od 12 (z imenom funkcije za eno stran na funkcijo), en segment na stran plus indeks stran in varčevanje, koliko korakov se opravi in kako dolgo je ostalo. Obdrži ta zavihek odprt, dokler se ne pojavi datoteka, ali pa pritisnite Prekliči, da se ustavi za trenutno stranjo.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -22945,6 +23827,12 @@
  },
  "Your drawings are saved in your web browser using local storage. This means they're only available on this device and in this browser.": {
   "t": "Vaše risbe so shranjene v vašem spletnem brskalniku z uporabo krajevnega shranjevanja. To pomeni, da so na voljo samo na tej napravi in v tem brskalniku.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Your grid choices are remembered in this browser and apply to single pages and every map series sheet.": {
+  "t": "V tem brskalniku si zapomnite vaše izbire omrežja in se prijavite na posamezne strani in vsak list serije zemljevidov.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"

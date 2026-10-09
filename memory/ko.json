@@ -1019,6 +1019,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "4,327,000 m (with units)": {
+  "t": "4,327,000 m (단위 포함)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "4. Export": {
   "t": "4. 수출",
   "src": "libretranslate",
@@ -1085,6 +1091,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A georeferenced export is always straight north up, even if your map is turned, because a turned picture would not line up with the ground.": {
+  "t": "georeferenced 수출은 항상 북쪽으로 올라갑니다. 지도가 켜지면 표시되지 않을 것입니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A grid over the map view": {
   "t": "지도보기에 격자",
   "src": "libretranslate",
@@ -1097,6 +1109,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A highlight belongs to the map on your screen, not to the map layers, so the widget draws your selected features onto the page for you.": {
+  "t": "하이라이트는 화면에지도에 속하는,지도 레이어에하지, 그래서 위젯은 당신을 위해 페이지에 선택한 기능을 그립니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A layer inside a group shows only when the group is on too. If a ticked layer is missing from the map, check its group.": {
   "t": "그룹 내부 층은 그룹이 너무있을 때만 보여줍니다. 표시된 레이어가 맵에서 누락되면 그룹을 확인합니다.",
   "src": "libretranslate",
@@ -1105,6 +1123,12 @@
  },
  "A layer is missing: it may be outside the current map scale. Zoom in or out, and check the note beneath its name.": {
   "t": "레이어가 누락되었습니다. 현재 맵 스케일 밖에 있을 수 있습니다. 줌이나 밖으로, 그 이름 아래 메모를 확인.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer is on the map but not in the legend: the layer does not draw at the printed scale, or your app leaves out layers with nothing inside the print area, so it is left out on purpose. Check the layer list in the map, or print at a scale and area where it draws.": {
+  "t": "레이어는지도에 있지만 전설에 있지 않습니다 : 레이어는 인쇄 된 스케일에서 그리지 않습니다, 또는 응용 프로그램은 인쇄 영역 내에서 아무것도 레이어를 나타낸다, 그래서 목적에 남아있다. 지도에서 층 목록을 확인하고, 또는 그립니다 가늠자 및 지역에 인쇄하십시오.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1129,6 +1153,12 @@
  },
  "A layer name is grey and nothing shows on the map: the layer only draws between certain zoom levels. Zoom in, or out, until the name turns dark.": {
   "t": "레이어 이름은 회색이며 아무것도지도에 보여줍니다 : 레이어는 특정 줌 레벨 사이에서만 그립니다. Zoom in, 또는 밖으로, 이름이 어두운을 회전 때까지.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer printed as a picture instead of sharp lines: its symbols, labels or effects are ones the vector output cannot copy exactly, so it kept the picture on purpose. The note under the finished file names each layer and the reason.": {
+  "t": "날카로운 선 대신 그림으로 인쇄되는 층: 그것의 상징, 상표 또는 효력은 벡터 산출을 정확하게 복사할 수 없습니다, 그래서 목적에 그림을 지켰습니다. 완성된 파일 이름의 밑에 주의 각 층 및 이유.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1168,6 +1198,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "A map series cuts the area you are looking at into a grid of pages, all at one scale, and adds an index page at the front.": {
+  "t": "맵 시리즈는 페이지의 그리드로 찾고있는 영역을 잘라, 모든 하나의 스케일에서, 그리고 앞에 인덱스 페이지를 추가합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A map series is very slow: every page is captured one at a time, so twelve pages take roughly twelve times as long as one. Keep the tab open, or use fewer, larger pages.": {
+  "t": "맵 시리즈는 매우 느립니다. 모든 페이지는 한 번에 캡처되므로 12 페이지는 약 12 번 정도 걸립니다. 탭을 열고, 또는 더 큰 페이지를 사용합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "A map widget is required for this widget to function": {
   "t": "이 위젯에 대한지도 위젯이 필요합니다",
@@ -1223,6 +1265,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A selected feature is missing from the print: Selected features is switched off, or the selection was cleared before you pressed Export. Turn the switch on, reselect, then export.": {
+  "t": "선택된 기능은 인쇄에서 누락됩니다: 선택된 특징은 떨어져 전환되고, 또는 선택은 당신이 눌러진 수출의 앞에 명확했습니다. 스위치를 켜고, reselect, 그 후에 수출하십시오.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A selection highlight belongs to the map on screen, not to the map layers, so the widget draws the selected features onto the page itself, as a cyan outline with a thin white casing so it reads over aerial photography. Selections made in the Select, Table or Query widgets and shapes an app has drawn on the map are all picked up. This switch sets the starting position only; users can still turn it on or off per export.": {
+  "t": "선택 하이라이트는 화면에지도에 속하는,지도 층에 아닙니다, 그래서 위젯은 페이지 자체에 선택한 기능을 그립니다, 얇은 흰색 케이싱과 함께 cyan 윤곽 그래서 공중 사진에 읽습니다. 선택, 테이블 또는 Query 위젯에서 만든 선택은지도에 그려져있는 응용 프로그램을 형성합니다. 이 스위치는 시작 위치를 단지 놓습니다; 사용자는 아직도 수출 당 또는 떨어져 켜질 수 있습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A side with no selected layers shows the basemap and any shared map layers. You can use this to compare a layer with the basemap.": {
   "t": "선택된 레이어의 측면은 basemap과 공유된 map layer를 보여줍니다. basemap으로 레이어를 비교할 수 있습니다.",
   "src": "libretranslate",
@@ -1243,6 +1297,12 @@
  },
  "A to Z": {
   "t": "A에서 Z",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A turned map stays turned. The coordinate information carries the turn too, so the picture still lines up with the ground in ArcGIS Pro, QGIS and Google Earth.": {
+  "t": "지도가 켜져 있습니다. 좌표 정보는 턴을 너무 운반하므로 ArcGIS Pro, QGIS 및 Google Earth의 배경으로 사진이 여전히 줄입니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1411,6 +1471,12 @@
  },
  "Add a QR code that opens this map": {
   "t": "이 맵을 열 QR 코드를 추가",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add a QR code that opens this map: prints a small square code. Anyone who scans it with a phone opens the live map in a browser.": {
+  "t": "이 맵을 열 QR 코드를 추가: 작은 광장 코드를 인쇄. 전화로 스캔 한 사람은 브라우저에서 라이브 맵을 엽니 다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1925,8 +1991,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Advanced options cards open by default": {
+  "t": "고급 옵션 카드는 기본적으로 열려",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Aerial and satellite imagery from the OpenStreetMap Editor Layer Index that covers the part of the map you are looking at. It is added under your layers, like a second basemap.": {
   "t": "OpenStreetMap Editor Layer Index에서 공중 및 위성 이미지가 있습니다. 그것은 당신의 층의 밑에, 두번째 basemap 같이 추가됩니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Aerial photography looks soft: you are zoomed in closer than the photography was flown. It is placed correctly, there is simply no more detail to show. Zoom out a little for a crisper page.": {
+  "t": "공중 사진은 연약합니다: 당신은 사진이 흐르는 것보다 더 가까이 확대됩니다. 제대로 배치되고, 더 이상 쇼에 대한 세부 사항이 없습니다. crisper 페이지에 약간을 줌.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2392,6 +2470,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "App default": {
+  "t": "앱 기본",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "App-specific keeps drawings isolated to this experience; Global shares them across all experiences on this domain.": {
   "t": "App-specific는 이 경험에 고립된 그림을 지킵니다; 이 도메인에 모든 경험의 맞은편에 세계 주식.",
@@ -2963,6 +3047,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Blank = outline color": {
+  "t": "공백 = 개략 색깔",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Blank = signed-in username": {
+  "t": "공백 = 로그인 사용자 이름",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Blank labels read Longitude and Latitude for a geographic system, X and Y otherwise.": {
   "t": "빈 라벨은 지리적 시스템, X 및 Y에 대한 경도와 위도를 읽습니다.",
   "src": "libretranslate",
@@ -3485,6 +3581,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Cell ids (A1, B2) in each cell": {
+  "t": "세포 에이즈 (A1, B2) 각 셀",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Center · {srLabel}": {
   "t": "· {srLabel}",
   "src": "libretranslate",
@@ -3881,6 +3983,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Choose TIFF and turn on Georeference (world file) and you get a single file that ArcGIS Pro and QGIS open in the correct place with nothing else to keep track of. This is the one to use.": {
+  "t": "TIFF를 선택하고 Georeference (세계 파일)을 켜고 ArcGIS Pro 및 QGIS가 다른 곳에서 트랙을 유지하도록 올바른 장소에 열 수있는 단일 파일을 얻습니다. 이것은 사용 중 하나입니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Choose vertical alignment for text. Options are baseline, top, middle, or bottom. Currently set to {verticalAlignment}.": {
   "t": "텍스트의 수직 정렬을 선택하십시오. 옵션은 기본, 상단, 중간 또는 하단입니다. 현재 설정 {verticalAlignment}·",
   "src": "libretranslate",
@@ -3931,6 +4039,12 @@
  },
  "Choosing layers": {
   "t": "콘택트 렌즈",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choosing what lands on the page": {
+  "t": "페이지에 어떤 땅을 선택",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5507,6 +5621,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Corner coordinates": {
+  "t": "코너 좌표",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Could not copy the link": {
   "t": "링크를 복사 할 수 없습니다",
   "src": "libretranslate",
@@ -5939,6 +6059,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Decimal degrees (108.51°W)": {
+  "t": "소수도 (108.51°W)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Decimal Degrees (DD)": {
   "t": "소수 학위 (DD)",
   "src": "libretranslate",
@@ -5947,6 +6073,12 @@
  },
  "Decimal degrees: decimal places": {
   "t": "소수도: 소수점",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Decimal minutes (108°30.5'W)": {
+  "t": "소수 분 (108°30.5'W)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6011,6 +6143,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default author": {
+  "t": "기본 저자",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default basemap": {
   "t": "기본 basemap",
   "src": "libretranslate",
@@ -6053,6 +6191,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default copyright": {
+  "t": "비밀번호",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default custom buffer color.": {
   "t": "기본 사용자 정의 버퍼 색상.",
   "src": "libretranslate",
@@ -6079,6 +6223,18 @@
  },
  "Default Field Mappings": {
   "t": "기본 필드 매핑",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default file name": {
+  "t": "기본 파일 이름",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default format": {
+  "t": "기본 형식",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6113,14 +6269,56 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default map DPI": {
+  "t": "기본 맵 DPI",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default map title": {
+  "t": "기본 맵 제목",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default Name Field": {
   "t": "기본 이름 필드",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default north arrow": {
+  "t": "기본 북쪽 화살표",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default Opacity (%)": {
   "t": "과태 불투명 (%)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default output WKID (0 = map's own)": {
+  "t": "기본 출력 WKID (0 = 맵 자체)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default scale bar style": {
+  "t": "기본 스케일 바 스타일",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default scale bar units": {
+  "t": "과태 가늠자 막대기 단위",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default second units (dual)": {
+  "t": "기본 두 번째 단위 (dual)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6671,8 +6869,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Double styles print a dual scale bar (two measurements sharing the zero point). Layout default picks the natural complement (miles-feet, meters-kilometers); choose a unit to override.": {
+  "t": "두 배 작풍은 이중 가늠자 막대기를 인쇄합니다 (제로 점을 공유하는 2개의 측정). 레이아웃 기본은 자연 보충 (마일 - 피트, 미터 - 킬로미터); override에 단위를 선택합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Double-click always finishes a line or area, and Esc always cancels one.": {
   "t": "항상 라인 또는 영역을 완료하고 Esc는 항상 하나를 취소합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Double-click the .kmz in Google Earth Pro, or drag it into Google Earth on the web. The map is saved as a PNG inside it whatever Format you chose above.": {
+  "t": "Google Earth Pro의 .kmz를 더블 클릭하거나 웹에서 Google Earth로 드래그하십시오. 이 지도는 위에서 선택한 형식의 PNG로 저장됩니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7319,6 +7529,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Each app sets a page limit (50 map pages unless changed in Settings; the index and legend pages do not count). A grid over it switches Export off; use fewer Rows or Columns, or zoom out and use fewer, larger pages.": {
+  "t": "각 앱은 설정에서 변경하지 않는 한 페이지 제한 (50지도 페이지를 설정합니다. 색인 및 전설 페이지는 카운트하지 않습니다). 스위치에 격자는 떨어져 수출을 전환합니다; 몇몇 줄 또는 란을 이용하고, 또는 확대하고 몇몇 더 큰 페이지를 사용합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Each button draws one kind of measurement. A blue bar at the top shows which tool is active.": {
   "t": "각 단추는 측정의 1개의 종류를 그립니다. 도구가 활성화 된 상단의 파란색 바.",
   "src": "libretranslate",
@@ -7333,6 +7549,12 @@
  },
  "Each button opens the pinned spot in another website: {links}.": {
   "t": "각 단추는 다른 웹사이트에 있는 pinned 반점을 엽니다: {links}·",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Each card can be opened and closed by the user, and their choice is remembered in their browser. These are the starting positions. Map series opens by itself whenever a series is switched on.": {
+  "t": "각 카드는 사용자가 열리고 닫을 수 있으며, 그들의 선택은 브라우저에서 기억됩니다. 이것은 시작 위치입니다. 지도 시리즈는 시리즈가 켜질 때마다 자체에 의해 열립니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8141,6 +8363,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Every PDF is also a GeoPDF. Open it in Avenza Maps on a phone to see your location as a blue dot on the map, read coordinates in Acrobat with the Geospatial Location tool, or add it to ArcGIS Pro or QGIS and it lands in the right place.": {
+  "t": "모든 PDF는 GeoPDF입니다. Avenza Maps에서 지도에 파란색 도트로 위치를 볼 수 있습니다. Geospatial Location tool과 Acrobat에서 좌표를 읽거나 ArcGIS Pro 또는 QGIS에 추가하여 오른쪽에 착륙합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Every shape you draw is listed on the My Drawings tab.": {
   "t": "모든 모양은 내 그림 탭에 표시됩니다.",
   "src": "libretranslate",
@@ -8393,6 +8621,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Export as many times as you like. Change one thing, export again, and compare the two files.": {
+  "t": "당신과 같이 많은 시간 수출. 한 가지 변경, 다시 수출, 두 파일을 비교.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Export as Shapefile": {
   "t": "Shapefile로 내보내기",
   "src": "libretranslate",
@@ -8423,6 +8657,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Export defaults": {
+  "t": "수출 기본",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Export drawings to file": {
   "t": "파일 내보내기",
   "src": "libretranslate",
@@ -8431,6 +8671,12 @@
  },
  "Export formats for {name}": {
   "t": "수출 형식 {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export is greyed out with a red message under Map series: the series is over this app's page limit. Use fewer rows or columns, or for one page per feature choose Inside the print area, zoom in, or filter the layer.": {
+  "t": "수출은 지도 시리즈의 밑에 빨간 메시지로 밖으로 회색으로: 시리즈는 이 앱의 페이지 한계에 있습니다. 몇몇 줄 또는 란을 사용하십시오, 또는 특징 당 1개의 페이지를 위해 인쇄 지역, 급상승, 또는 층을 거르십시오.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8557,6 +8803,12 @@
  },
  "Exporting": {
   "t": "수출입",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Exporting…": {
+  "t": "수출 ...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9065,6 +9317,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Finished exports are listed under Recent exports at the bottom of the panel, newest first. Click the file name to save it to your computer.": {
+  "t": "완성된 수출은 위원회의 바닥에 최근 수출의 밑에, 가장 새로운 첫번째 목록으로 만들어집니다. 파일 이름을 클릭하여 컴퓨터에 저장하십시오.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Finishing up…": {
   "t": "마무리 ...",
   "src": "libretranslate",
@@ -9079,6 +9337,12 @@
  },
  "Fixed scale": {
   "t": "고정 스케일",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fixed scale: prints at the exact scale you type, for example 24000 for 1:24,000. Use this when the page has to match another map.": {
+  "t": "조정 가늠자: 당신이 유형, 예를 들면 24000를 위해 1:24,000 인쇄하는 정확한 가늠자에 인쇄. 이 페이지를 다른 맵과 일치해야합니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9353,6 +9617,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Font: changes the typeface for all the text on the page. App default uses the layout font.": {
+  "t": "본문내용 바로가기 주메뉴 바로가기 App default는 레이아웃 글꼴을 사용합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "for {count} selected buffer": {
   "t": "제품정보 {count} 선택 버퍼",
   "src": "libretranslate",
@@ -9395,6 +9665,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "For one page per parcel, park or project, set Pages from to One page per feature and pick the layer. Features chooses which ones: in the current map view, inside the print area rectangle, or the whole layer, even beyond the map. Any filter on the layer (from Map Layers, a Filter widget or the map itself) is applied too. Only layers in the map's layer list that are turned on are listed (whichever layer list widget you use), including ones inside groups, nested groups and map image services, shown with their group path, like Utilities / Water / Mains. Each page centers on its feature, outlines it in orange and prints at the best-fit scale, or the fixed scale you set. Text in the layout that uses {field:NAME} shows that feature's value.": {
+  "t": "소포, 공원 또는 프로젝트 당 1 페이지의 경우, 기능 당 1 페이지의 페이지를 설정하고 레이어를 선택합니다. 특징은 어느 것을 선택합니다: 현재 지도 전망에서, 인쇄 지역 장방형 안쪽에, 또는 지도를 넘어 조차 전체적인 층. 레이어의 모든 필터 (지도 레이어에서, 필터 위젯 또는지도 자체)도 적용됩니다. 맵의 레이어 목록의 레이어는 나열되어 있습니다 (이중 레이어 목록 위젯 사용), 그룹 내부 그룹, 배열 그룹 및 맵 이미지 서비스를 포함하여, 그룹 경로와 표시, 유틸리티 / 물 / 메인. 각 페이지 센터는 기능에 따라 오렌지색과 프린트를 최상의 스케일 또는 고정 스케일로 설정합니다. {field:NAME}를 사용하는 레이아웃의 텍스트는 기능의 값을 보여줍니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "For the best experience, use a modern web browser": {
   "t": "최고의 경험을 위해, 현대 웹 브라우저를 사용",
   "src": "libretranslate",
@@ -9421,6 +9697,12 @@
  },
  "Format a field as a number, currency, percent, or date, or turn it into a link built from a URL template with {FIELD_NAME} tokens.": {
   "t": "필드를 숫자, 통화, % 또는 날짜로 포맷하거나 URL 템플릿에서 내장 된 링크로 변환 {FIELD_NAME} 토큰.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Format decides the kind of file you get. If you are not sure, use PDF.": {
+  "t": "Format 당신이 얻을 파일의 종류를 결정합니다. 확실하지 않은 경우 PDF를 사용하십시오.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9487,6 +9769,12 @@
  },
  "Freeze the print area over the current ground location so it stays put while you pan or zoom.": {
   "t": "현재 지상 위치에 인쇄 영역을 동결하므로 팬 또는 급상승 동안 넣을 수 있습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "From .pagx": {
+  "t": ".pagx에서",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9749,14 +10037,32 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "GeoPDF coordinates in PDF exports": {
+  "t": "GeoPDF는 PDF 수출의 협조",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Georeference (world file)": {
   "t": "Georeference (세계 파일)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Get the map looking the way you want, pick a Layout, type a Map title, then press Export. Your file appears at the bottom of the panel.": {
+  "t": "원하는 방법을 찾고, 레이아웃을 선택, 지도 제목을 입력, 다음 수출을 누릅니다. 파일이 패널의 바닥에 나타납니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Getting the address of a spot": {
   "t": "자주 묻는 질문",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Getting your file": {
+  "t": "파일 받기",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9809,6 +10115,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Google Earth (KMZ): gives you one .kmz file with the map draped over the globe in the right place. All four corners are placed separately, so the picture is not stretched.": {
+  "t": "Google Earth (KMZ) : 오른쪽에있는 전 세계지도로 .kmz 파일을 제공합니다. 4개의 구석은 따로따로 둡니다, 그래서 그림은 기지개하지 않습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Google Maps 3D": {
   "t": "Google지도 3D",
   "src": "libretranslate",
@@ -9823,6 +10135,12 @@
  },
  "Graticule (lat/long)": {
   "t": "Graticule (위 / 긴)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "grid": {
+  "t": "제품정보",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9877,6 +10195,18 @@
  },
  "Grid is enabled. Theme: {gridTheme}. Spacing: {gridSpacingMode}. Rotation: {gridRotation} degrees.": {
   "t": "그리드가 활성화됩니다. 이름: {gridTheme}. 간격: {gridSpacingMode}. 교체: {gridRotation} 도.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid labels are missing on a turned map: labels that would overlap another label are left off so none print on top of each other. Use a larger interval, fewer label sides, or smaller labels.": {
+  "t": "Grid labels are missing on the turn map: labels that would overlap another label are left off so none print on top of each other. 더 큰 간격, 더 적은 상표 측, 또는 더 작은 상표를 사용하십시오.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid on by default": {
+  "t": "기본적으로 Grid",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9949,6 +10279,12 @@
  },
  "Grid size": {
   "t": "격자 크기",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid size shrinks the whole grid toward the middle, which is a quick way to trim empty edges without changing rows and columns.": {
+  "t": "그리드 크기는 중간에 전체 그리드를 수축, 이는 줄과 열을 변경하지 않고 빈 가장자리를 트리밍하는 빠른 방법입니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10031,6 +10367,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Grid style for this export: latitude/longitude graticule, measured grid in map units, or lettered reference grid.": {
+  "t": "이 수출을 위한 격자 작풍: 지도 단위에 있는 위도/경도 graticule, 측정한 격자, 또는 편지를 묶는 참고 격자.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid style panel": {
+  "t": "격자 작풍 위원회",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid style: open it under Grid type to change the grid your way. Pick the line color, width, opacity and pattern, or draw only edge ticks and crosses. Set a custom interval, the label color, size, bold and halo, which sides get labels, labels that run along the side edges, and the coordinate or number format. Reference grids can put letters on rows and print cell ids like A1 in every cell. Reset to layout grid puts everything back.": {
+  "t": "격자 작풍: 격자 유형의 밑에 당신의 방법을 바꾸기 위하여 그것을 엽니다. 선 색상, 폭, 불투명 및 패턴을 선택하거나 가장자리 진드기와 십자가 만 그리십시오. 주문 간격, 상표 색깔, 크기, 대담한 및 운반을 놓으십시오, 측은 상표, 옆 가장자리를 따라 달리는 상표 및 협조 또는 수 체재를 얻습니다. 참고 격자는 각 세포에 A1 같이 줄과 인쇄 세포 ids에 편지를 둘 수 있습니다. 레이아웃 그리드에 재설정은 다시 모든 것을 넣어.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Grid theme changed to {newTheme}": {
   "t": "Grid 테마로 변경 {newTheme}",
   "src": "libretranslate",
@@ -10051,6 +10405,12 @@
  },
  "Grid unit changed to {newUnit}": {
   "t": "Grid Unit 변경 {newUnit}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid: adds the grid or graticule the layout was built with. Grid type switches between a latitude and longitude graticule, a measured grid in map units, and a lettered reference grid like A-1. When the layout turns on corner labels, each map corner also shows its exact coordinate.": {
+  "t": "그리드 : 그리드를 추가하거나 레이아웃이 내장되었습니다. 격자 유형은 위도와 경도 graticule 사이 스위치, 지도 단위에 있는 측정한 격자, 및 A-1 같이 편지를 답니다. 레이아웃이 코너 라벨에 회전되면 각 맵 코너도 정확한 좌표를 보여줍니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10385,6 +10745,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Hide legend layers not drawn at the print scale": {
+  "t": "print Scale에서 그려지지 않은 전설 레이어 숨기기",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hide legend layers with nothing in the print area": {
+  "t": "인쇄 영역에서 아무것도와 전설 레이어 숨기기",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Hide measurements": {
   "t": "측정 숨기기",
   "src": "libretranslate",
@@ -10483,6 +10855,12 @@
  },
  "Hover a view in the list and use the trash icon to delete it.": {
   "t": "목록에서 보기를 넘어 트래쉬 아이콘을 사용하여 삭제합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hover over any label in this panel for a one-line explanation without opening this guide.": {
+  "t": "이 가이드를 열지 않고 한 줄의 설명에 대한이 패널의 라벨을 통해 호버.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10588,6 +10966,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "If the legend is too big to fit beside the map, a note appears offering to move it to additional pages. You can keep it beside the map instead.": {
+  "t": "전설이 너무 커다란지도에 맞을 경우, 메모는 추가 페이지로 이동합니다. 대신지도 옆에 보관할 수 있습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "If the misclose ratio (1:n) meets or exceeds this n, points snap closed and the compass rule is applied": {
   "t": "잘못된 비율 (1:n)이 충족하거나이 n을 초과하면, 점 스냅 폐쇄 및 나침반 규칙이 적용됩니다.",
@@ -10781,6 +11165,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "In PDF and SVG, feature layers drawn with simple symbols (parcels, lines, points, hatched fills, custom and picture markers) print as true lines and shapes instead of a picture, so they stay sharp at any zoom and the file stays small. Their labels come along as real text, including label classes that only label some features. Layers with Arcade labels or effects still print as a picture; the export note lists which ones and why.": {
+  "t": "PDF 및 SVG에서 간단한 기호 (펄스, 라인, 포인트, 모자를 씌운 채우기, 사용자 정의 및 그림 마커)로 그려진 기능 층은 그림 대신에 진실한 선 및 모양으로 인쇄하므로 모든 급상승 및 파일이 작아집니다. 이 라벨은 라벨 클래스를 포함한 실제 텍스트와 함께 제공됩니다. 아케이드 상표를 가진 층 또는 효력은 아직도 그림으로 인쇄합니다; 1s와 왜 수출 주 명부.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "In the {batchOptions} menu, choose {showFavoritesOnly} to list only your starred layers and their groups. Choose {showAllLayers} to go back.": {
   "t": "내 계정 {batchOptions} 메뉴, 선택 {showFavoritesOnly} 당신의 별 층과 그들의 그룹만 목록으로 만들기. 제품 정보 {showAllLayers} 돌아가기",
   "src": "libretranslate",
@@ -10873,6 +11263,18 @@
  },
  "Include legend": {
   "t": "전설을 포함",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include legend: adds the layer symbols. Only the layers actually drawing at the printed scale are listed, so the legend matches the map.": {
+  "t": "전설 포함 : 층 기호를 추가합니다. 인쇄 된 스케일에 실제로 그림 만 나열되어 있으므로 전설이지도를 일치합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include map attribution": {
+  "t": "지도 attribution 포함",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11153,6 +11555,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "It picks up a parcel you clicked, features chosen in a Select, Table or Query widget, and shapes an app has drawn on the map.": {
+  "t": "클릭 한 소포를 선택, 선택된 기능, 테이블 또는 Query 위젯, 그리고 응용 프로그램을 형성 지도에 그려.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "It says Loading measurement tools for a long time: the map is still starting. Give it a moment, then reload the page.": {
   "t": "그것은 긴 시간 동안 로딩 측정 도구 말한다: 지도는 여전히 시작. 그 순간, 그 다음 페이지를 다시로드.",
   "src": "libretranslate",
@@ -11296,6 +11704,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Keep map rotation in georeferenced images": {
+  "t": "georeferenced 이미지에서 지도 회전을 유지",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Keep New Only": {
   "t": "새 소식",
@@ -11855,6 +12269,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Layers in PDF and SVG exports": {
+  "t": "PDF 및 SVG 수출 레이어",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "layers on": {
   "t": "레이어에",
   "src": "libretranslate",
@@ -11881,6 +12301,12 @@
  },
  "Layout default": {
   "t": "기본 설정",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layout DPI": {
+  "t": "배치 DPI",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11981,6 +12407,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "legend": {
+  "t": "이름 *",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Legend": {
   "t": "인기 있는",
   "src": "libretranslate",
@@ -12005,6 +12437,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Legend on by default": {
+  "t": "기본적으로 전설",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Legend page {i} of {n}": {
   "t": "전설 페이지 {i} 이름 * {n}",
   "src": "libretranslate",
@@ -12013,6 +12451,12 @@
  },
  "Legend placement": {
   "t": "관련 상품",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Legend placement: beside the map, over a corner of it, or on Additional pages (PDF only). Beside the map, the map shrinks to make room. On additional pages, every item stays full size.": {
+  "t": "전설적인 장소: 지도 옆에, 그 구석 위에, 또는 추가 페이지 (PDF 전용). 지도 옆에, 지도는 방을 만드는 수축합니다. 추가 페이지에서 모든 항목은 전체 크기를 유지합니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12125,6 +12569,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Line color (any)": {
+  "t": "선 색깔 (모든)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Line layer (traverse lines)": {
   "t": "라인 층 (지하 선)",
   "src": "libretranslate",
@@ -12175,6 +12625,12 @@
  },
  "Line opacity": {
   "t": "라인 opacity",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Line pattern": {
+  "t": "라인 패턴",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12295,6 +12751,12 @@
  },
  "Link text (optional)": {
   "t": "링크 텍스트 (옵션)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Link the title to the pages: while Map series is open, the buttons under Map title add Page name, Page number or any visible field, and the line under them shows how page 1's title will read. Order sorts the pages A to Z or Z to A by the name field. The Overview inset switch adds a locator overview to every data-driven page.": {
+  "t": "페이지에 제목을 연결: 지도 시리즈가 열려있을 때, 지도 제목의 밑에 단추는 페이지 이름, 페이지 번호 또는 어떤 눈에 보이는 분야를 추가하고, 그(것)들의 밑에 선은 페이지 1의 제목이 읽을 것이라는 점을 보여줍니다. 순서는 페이지 A를 Z 또는 Z로 이름을 입력합니다. Overview inset Switch는 모든 데이터 중심 페이지에 위치정보를 추가합니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12593,6 +13055,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Lock print area pins that rectangle over the ground. You can then pan and zoom to look around, and the printed area stays where you put it. Turn it off to release.": {
+  "t": "지상에 장방형을 잠그는 자물쇠 인쇄 지역 핀. 다음 팬과 줌을 볼 수 있습니다, 그리고 인쇄 된 지역은 당신이 그것을 넣어. 해제를 해제합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Locked": {
   "t": "기타 제품",
   "src": "libretranslate",
@@ -12839,6 +13307,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map DPI sets how fine the map picture is. Layout default is fine for most work. 300 is sharper but takes noticeably longer and makes a much bigger file.": {
+  "t": "Map DPI는 맵 그림이 얼마나 미세하게 설정한다. layout default는 대부분의 작업에 적합합니다. 300은 날카롭게하지만 눈에 띄지 않고 훨씬 더 큰 파일을 만듭니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map fields": {
   "t": "본문 바로가기",
   "src": "libretranslate",
@@ -12929,6 +13403,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map only (no layout): gives you just the map picture, with no title, legend or border. Use it when you want to drop the map into something else.": {
+  "t": "Map only ( 레이아웃 없음) : 제목, 전설 또는 국경없는지도 사진을 제공합니다. 다른 무언가로 지도를 드롭 할 때 그것을 사용하십시오.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map only necessary fields": {
   "t": "지도 필수 필드",
   "src": "libretranslate",
@@ -12967,6 +13447,12 @@
  },
  "Map series cancelled. Nothing was downloaded.": {
   "t": "지도 시리즈 취소. 다운로드되지 않았습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map series limits": {
+  "t": "지도 시리즈 한계",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13060,6 +13546,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Maps that open in the right place": {
+  "t": "오른쪽에있는 지도",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Margins": {
   "t": "이름 *",
@@ -13156,6 +13648,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Max map capture (px, long edge; blank = auto)": {
+  "t": "최대 지도 캡처 (px, 긴 가장자리; 공백 = 자동차)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Max scale": {
   "t": "최대 가늠자",
@@ -14525,6 +15023,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "None (single bar)": {
+  "t": "없음 (단 하나 막대기)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "None (transparent)": {
   "t": "없음 (투명)",
   "src": "libretranslate",
@@ -14533,6 +15037,12 @@
  },
  "none selected": {
   "t": "선택 없음",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "North arrow": {
+  "t": "북쪽 화살표",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14615,6 +15125,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Nothing downloaded: your browser may have blocked it. Look for a blocked download notice in the address bar, or click the file name under Recent exports again.": {
+  "t": "다운로드할 수 없음: 브라우저가 차단되었습니다. 주소 표시 줄에 차단된 다운로드 통지를 찾고, 또는 최근 수출의 밑에 파일 이름을 다시 클릭합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Nothing extra": {
   "t": "더 알아보기",
   "src": "libretranslate",
@@ -14653,6 +15169,12 @@
  },
  "Nothing is found where you know a feature is: the click landed just off the edge. Zoom in and click again, nearer the middle of the feature.": {
   "t": "기능이 무엇인지 알 수 없습니다 : 클릭은 가장자리에서 착륙. Zoom 에서 다시 클릭, 기능의 중간 근처.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Nothing you change here affects the map itself or anyone else. It only changes the page you are about to make.": {
+  "t": "여기에서 변경할 수없는지도 자체 또는 다른 사람에 영향을줍니다. 페이지만 변경하면 됩니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14705,6 +15227,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Number format": {
+  "t": "번호 형식",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Number of decimal places for area and perimeter measurements, minimum 0, maximum 10": {
   "t": "지역 및 둘레 측정, 최소 0, 최대 10의 소수점",
   "src": "libretranslate",
@@ -14747,6 +15275,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Numbered outlines appear on the map showing the pages. They follow you as you pan and zoom, so you can see the split before you commit to it.": {
+  "t": "Numbered outlines는 페이지를 보여주는지도에 나타납니다. 그들은 당신이 팬과 급상승으로 당신을 따르고, 그래서 당신은 그것에 투입하기 전에 분할을 볼 수 있습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Numpad shortcuts: + moves from bearing to length and adds the line from length or radius. / jumps from length to radius.": {
   "t": "Numpad shortcuts: +는 길이에 방위에서 움직이고 길이 또는 반경에서 선을 추가합니다. / 반경 길이에서 점프.",
   "src": "libretranslate",
@@ -14777,14 +15311,50 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Off by default, so georeferenced map-only images and KMZ files are captured north-up. On, a rotated map keeps its rotation: the world file carries the rotation terms, a GeoTIFF uses a ModelTransformationTag, and the KMZ drapes as a rotated quad.": {
+  "t": "기본적으로 Georeferenced map-only image와 KMZ 파일은 북업 캡처됩니다. On, 회전 된지도는 회전을 유지: 세계 파일은 회전을 수행, GeoTIFF는 ModelTransformationTag를 사용, KMZ drapes 회전 쿼드로.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Off by default. Each export asks every visible feature layer how many features fall inside the printed area, and leaves layers with none off the legend. A layer that cannot be asked (tiles, imagery) or does not answer in time is always kept. Map series judge against the whole series area.": {
+  "t": "기본값으로. 각 수출은 각 눈에 보이는 특징 층에게 얼마나 많은 특징이 인쇄한 지역 안쪽에 떨어지고, 전설에 아무도를 가진 층을 나눕니다. 요청할 수 없는 층(가성, 이미지) 또는 시간에 응답하지 않는 것은 항상 유지됩니다. 전체 시리즈 영역에 대한 맵 시리즈 판단.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Off by default. Feature layers drawn with simple symbols (solid fills, lines and dashes, circle, square, diamond, triangle, cross and x markers; single symbol, unique values or class breaks) print as true vector shapes, crisp at any zoom and each in its own PDF layer. Hatched fills, custom path markers and picture markers come along too, and so do labels (field labels with halos, placed and deconflicted like the map does, including label classes with a where clause). Layers with clustering, effects, visual variables, Arcade renderers or Arcade labels, rotated picture markers or other symbols stay as pixels, and each export lists them with the reason. Works on rotated maps and on every map series and feature page sheet. Up to 20,000 features per layer.": {
+  "t": "기본값으로. 심플한 상징 (고체 채우기, 선 및 dashes, 원형, 사각, 다이아몬드, 삼각형, 십자가 및 x 마커로 그려지는 특징 층; 단 하나 상징, 유일한 가치 또는 종류 틈)는 진실한 벡터 모양으로 인쇄하고, 어떤 급상승든지에 crisp 그것의 자신의 PDF 층에서 각. 모자를 씌운 채우기, 사용자 정의 경로 마커 및 그림 마커는 너무 따라 와서, 그래서 레이블 (해를 가진 필드 라벨, 위치와 같은 deconflicted, 어디에 항목과 라벨 클래스 포함). 클러스터링, 효과, 시각적 변수, 아케이드 렌더링기 또는 아케이드 라벨, 회전 그림 마커 또는 다른 기호는 픽셀로 유지, 각 수출은 그 이유를 나열합니다. 모든지도 시리즈 및 기능 페이지 시트에 회전 맵 및 작업. 층 당 20,000까지 특징.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Off by default. On, each export logs to the browser console (F12) how many selected features were found and how many reached the page. Use it when a highlight does not print: the selection lives in the map view rather than in this widget, so the log is the only way to see what was found.": {
+  "t": "기본값으로. 에, 각 수출은 브라우저 콘솔에 로그 (F12) 얼마나 많은 선택된 기능 발견 및 얼마나 많은 페이지에 도달. 강조 표시가 인쇄되지 않을 때 사용 :이 위젯보다지도보기에서 선택 생활, 그래서 로그는 발견 된 것을 볼 수있는 유일한 방법입니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Off: every run adds another layer, numbered (2), (3) and so on.": {
   "t": "떨어져: 각 달리는 다른 층, 수를 놓은 (2), (3) 등 추가합니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Offer \"Map only\" export": {
+  "t": "제안 \"Map only\" 수출",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Offer {name} on the Coordinates tab": {
   "t": "제품 정보 {name} 좌표 탭에",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer output coordinate system (WKID)": {
+  "t": "출력 좌표계 (WKID) 제공",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14842,6 +15412,24 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "On by default. A layer whose visible scale range excludes the printed scale is left off the legend, so the legend never lists a symbol the map does not show.": {
+  "t": "기본적으로. 표시된 스케일을 제외한 레이어는 전설을 멈춘다. 그래서 전설은 지도가 표시되지 않는 기호를 나열하지 않는다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On by default. Every PDF map frame carries its coordinate system and corner coordinates, so Avenza Maps shows your location on the page, Acrobat reads coordinates with its Geospatial Location tool, and ArcGIS Pro and QGIS open the PDF in place. Map series georeference every sheet and the index page.": {
+  "t": "기본적으로. 모든 PDF지도 프레임은 좌표계와 코너 좌표를 운반하므로 Avenza Maps는 페이지의 위치를 보여줍니다. Acrobat은 Geospatial Location tool과 좌표를 읽고 ArcGIS Pro와 QGIS는 PDF를 엽니다. 지도 시리즈 georeference 각 장 및 색인 페이지.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On by default. The map, grid, selection, overview, legend, north arrow and scale bar, text, graphics and QR code each go in their own layer, so they can be switched on and off in Acrobat, Avenza Maps, Illustrator or Inkscape. Map series add a Map series layer for the page outlines and numbers.": {
+  "t": "기본적으로. 지도, 격자, 선택, 개요, 전설, 북쪽 화살표 및 스케일 바, 텍스트, 그래픽 및 QR 코드는 각각 자신의 층에서 이동, 그래서 그들은 아크로겐 지도, 일러스터레이터 또는 Inkscape에서 전환 할 수 있습니다. 지도 시리즈는 페이지 윤곽과 수를 위한 지도 시리즈 층을 추가합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "On the {address} tab.": {
   "t": "에 의해 {address} 탭.",
@@ -14983,6 +15571,12 @@
  },
  "One page per feature": {
   "t": "1 페이지 당 기능",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "One PDF comes out with every page in it. The legend prints on every sheet, the same way ArcGIS Pro does it.": {
+  "t": "한 PDF는 모든 페이지에 나와 있습니다. 모든 시트에 대한 전설 인쇄, 같은 방법 ArcGIS Pro는 그것을합니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15245,6 +15839,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Output coordinate system (WKID): prints in a different coordinate system than the map uses. Leave it at 0 unless someone has asked you for a particular one.": {
+  "t": "출력 좌표계 (WKID): 지도 사용 보다는 다른 협조 체계에 있는 인쇄. 누군가가 특정 것을 요청한 경우 0에 그것을 남겨두십시오.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Output size (px)": {
   "t": "출력 크기 (px)",
   "src": "libretranslate",
@@ -15293,8 +15893,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "overview inset": {
+  "t": "개요 inset",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Overview inset": {
   "t": "공지사항",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Overview inset: adds the small locator map in the corner, with a red box showing where the main map sits.": {
+  "t": "개요 설정 : 모서리에있는 작은 위치지도를 추가, 주요지도가 앉아있는 빨간색 상자와.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Overview map on by default": {
+  "t": "기본값으로 지도",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15347,6 +15965,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "page font": {
+  "t": "페이지 글꼴",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Page name": {
   "t": "페이지 이름",
   "src": "libretranslate",
@@ -15377,6 +16001,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Page preview shows gray areas: part of the print area is off the screen, so the preview has nothing to show there. Pan or zoom out to see it; the exported file is not affected.": {
+  "t": "페이지 미리보기는 회색 영역을 보여줍니다 : 인쇄 영역의 일부가 화면 떨어져 있으므로 미리보기는 거기에 아무것도 없습니다. 팬 또는 그것을 볼 수 줌; 수출 된 파일은 영향을받지 않습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Page Size": {
   "t": "페이지 크기",
   "src": "libretranslate",
@@ -15403,6 +16033,12 @@
  },
  "Pagination complete. Total features collected: {count}": {
   "t": "질 완료. 수집된 총 특징: {count}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Pan and zoom the map to what you want on the page. What you see is what prints.": {
+  "t": "팬과 줌 당신이 페이지에 원하는지도. 어떤 인쇄물입니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15473,6 +16109,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "PDF and SVG files come with layers. In Acrobat or Avenza Maps open the Layers panel to hide the grid, the selection outline, the legend or the text; in Illustrator or Inkscape each part is its own layer.": {
+  "t": "PDF 및 SVG 파일이 레이어로 제공됩니다. Acrobat 또는 Avenza Maps는 그리드, 선택 개요, 전설 또는 텍스트를 숨기는 레이어 패널을 엽니다. Illustrator 또는 Inkscape의 각 부분은 자체 레이어입니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "PDF export options": {
   "t": "PDF 수출 옵션",
   "src": "libretranslate",
@@ -15493,6 +16135,12 @@
  },
  "PDF opens a small window first so you can choose what goes on the page.": {
   "t": "PDF는 첫 번째 작은 창을 열고 페이지를 선택 할 수 있습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "PDF: best for printing on paper and for sending to someone. Text and lines stay sharp at any zoom.": {
+  "t": "PDF: 종이에 인쇄를 위해 베스트 및 누군가에게 보내는. 텍스트 및 라인은 모든 줌에 날카로운 유지.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15601,6 +16249,12 @@
  },
  "Pick a draw tool (Point, Line, Polygon, Rectangle, or Circle), then draw on the map. Everything inside is selected.": {
   "t": "draw 도구 (포인트, 라인, Polygon, Rectangle, 또는 Circle)를 선택하면 맵에 그려집니다. 안쪽으로 모든 것은 선택됩니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Pick a Layout, then type a Map title. The title is what prints at the top of the page.": {
+  "t": "레이아웃을 선택하면 맵 제목을 입력합니다. 제목은 페이지 상단의 인쇄물입니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15853,6 +16507,18 @@
  },
  "Please wait, do not close this window...": {
   "t": "이 창을 닫지 마십시오 ...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "PNG, JPG and GIF instead get two small companion files beside the image. Keep all of them together in the same folder or the placement is lost.": {
+  "t": "PNG, JPG 및 GIF 대신 이미지 옆에 두 개의 작은 동반자 파일을 가져옵니다. 같은 폴더 또는 배치에 모두 함께 유지됩니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "PNG32, PNG8, JPG or GIF: a picture, for a report, a slide or a web page. PNG32 is the sharpest.": {
+  "t": "PNG32, PNG8, JPG 또는 GIF : 그림, 보고서, 슬라이드 또는 웹 페이지. PNG32는 가장 예리합니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16115,6 +16781,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Preserve map extent (fit view): prints everything you can see now, and picks whatever scale that needs. Use this when you must not lose anything off the edges.": {
+  "t": "지도 범위(fit view): 당신이 지금 볼 수 있는 모든 것을 인쇄하고, 필요한 어떤 가늠자든지 선택합니다. 가장자리에서 아무것도 잃지 않아 이것을 사용하십시오.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Preserve map scale": {
   "t": "지도 가늠자",
   "src": "libretranslate",
@@ -16123,6 +16795,12 @@
  },
  "Preserve map scale (current)": {
   "t": "보존 맵 스케일 (current)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preserve map scale (current): prints at the same scale you are looking at. The page may show a little more or less ground than the screen, because the page is a different shape than your browser window.": {
+  "t": "보존 지도 가늠자 (현재): 당신이 찾고 있는 동일한 가늠자에 인쇄. 페이지는 브라우저 창보다 다른 모양이기 때문에 화면보다 조금 더 적은 배경을 표시 할 수 있습니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16247,6 +16925,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Press Export. The panel dims and a message tells you what it is working on. When it finishes, the file appears under Recent exports at the bottom. Click its name to save it.": {
+  "t": "보도자료 패널 dims 및 메시지는 작업하는 것을 알려줍니다. 끝낼 때, 파일은 바닥에 최근 수출의 밑에 나타납니다. 그 이름을 클릭하여 저장합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Press F on a focused basemap to add or remove it from favorites.": {
   "t": "F를 눌러 집중된 Basemap을 추가하거나 즐겨찾기에서 제거하십시오.",
   "src": "libretranslate",
@@ -16301,6 +16985,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Preview fill color (hex)": {
+  "t": "미리보기 필 색상 (hex)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Preview first record": {
   "t": "첫 번째 기록",
   "src": "libretranslate",
@@ -16327,6 +17017,18 @@
  },
  "Preview of the printed page": {
   "t": "인쇄된 페이지 미리보기",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preview outline color (hex)": {
+  "t": "미리보기 개요 색상 (hex)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preview outline width (px)": {
+  "t": "미리보기 개요 너비 (px)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16361,6 +17063,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Print Advanced turns the map on your screen into a finished page: the same layout your ArcGIS Pro template uses, with a title, legend and scale bar, ready to print or send.": {
+  "t": "Print Advanced는 화면에서 완성 된 페이지로 맵을 전환합니다. ArcGIS Pro 템플릿 사용과 동일한 레이아웃은 제목, 전설 및 스케일 바와 함께 인쇄하거나 보내야합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Print area": {
   "t": "인쇄 영역",
   "src": "libretranslate",
@@ -16373,8 +17081,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Print area, the first card under Advanced options, decides how much ground fits in the map frame. Three choices, under Scale.": {
+  "t": "인쇄 영역, 고급 옵션의 첫 번째 카드,지도 프레임에 얼마나 많은 지상 적합을 결정. 3개의 선택, 가늠자의 밑에.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Print as a map series (PDF)": {
   "t": "지도 시리즈로 인쇄 (PDF)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Print selected features by default": {
+  "t": "기본적으로 선택된 기능",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16405,6 +17125,18 @@
  },
  "Print-Ready Labels: spread out the labels so they do not overlap when exported to PDF.": {
   "t": "Print-Ready Labels : 라벨을 확산하여 PDF에 수출 할 때 오버랩하지 않습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Printing a large area over several pages": {
+  "t": "여러 페이지에 큰 영역을 인쇄",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Printing what you have selected": {
+  "t": "당신이 선택한 것을 인쇄",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16555,6 +17287,12 @@
  },
  "Radius measurement enabled. Display the circle radius.": {
   "t": "Radius 측정 가능. 원형 반경을 표시합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Raster EPS (Level 2, JPEG-embedded). For vector output use PDF or SVG.": {
+  "t": "래스터 EPS (레벨 2, JPEG 조립). 벡터 출력 사용 PDF 또는 SVG를 위해.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16873,6 +17611,12 @@
  },
  "Remove from list": {
   "t": "목록에서 제거",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Remove from list clears one item and Clear empties the whole list. Neither deletes a file you have already saved.": {
+  "t": "목록에서 제거 한 항목과 취소 전체 목록. 이미 저장 된 파일을 삭제합니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17603,6 +18347,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Scale bar style": {
+  "t": "가늠자 막대기 작풍",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Scale bar units": {
+  "t": "가늠자 막대기 단위",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Scale field": {
   "t": "사업영역",
   "src": "libretranslate",
@@ -17741,6 +18497,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Search the guide (try \"legend\" or \"blank\")": {
+  "t": "가이드 검색 (try \"legend\"또는 \"blank\")",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Search the guide (try \"load\" or \"fields\")": {
   "t": "가이드 검색 (try \"load\" 또는 \"fields\")",
   "src": "libretranslate",
@@ -17770,6 +18532,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Second units (dual)": {
+  "t": "두 번째 단위 (dual)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "See how your label format will appear": {
   "t": "라벨 형식이 어떻게 보일까요?",
@@ -18253,6 +19021,12 @@
  },
  "Selected features are outlined in cyan on the print. Turn this off to print the map without them.": {
   "t": "선택된 특징은 인쇄에 cyan에서 일렬로 세웁니다. 해당 지도를 인쇄할 수 있습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Selected features: turn this on and anything you have selected is outlined on the print, in cyan with a thin white edge so it reads over dark aerial photography.": {
+  "t": "선택된 기능: 이 켜고 당신이 선정한 무엇이든은 인쇄에, 얇은 백색 가장자리를 가진 cyan에서 일렬로 세워집니다 그래서 어두운 공중 사진에 읽습니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19619,6 +20393,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Still stuck? Contact the GIS Division and mention the Print Advanced widget and this app.": {
+  "t": "아직도 붙어? GIS 사업부에 연락하고 Print Advanced 위젯과 이 앱을 언급하십시오.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Still stuck? Contact your GIS team and mention the Draw Advanced widget and this app.": {
   "t": "아직도 붙어? GIS 팀에 연락하고 Draw Advanced 위젯과이 응용 프로그램을 언급합니다.",
   "src": "libretranslate",
@@ -19753,6 +20533,12 @@
  },
  "Supported label formats": {
   "t": "지원된 상표 체재",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "SVG or SVGZ: for editing the page afterwards in Illustrator or Inkscape. SVGZ is the same file, just smaller.": {
+  "t": "SVG 또는 SVGZ : Illustrator 또는 Inkscape에서 나중에 페이지를 편집합니다. SVGZ는 같은 파일입니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20369,6 +21155,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The export is taking a long time: a high Map DPI or a large page takes longer. Keep the tab open and give it a few minutes. The message in the panel tells you what it is working on.": {
+  "t": "수출은 장시간 가지고 있습니다: 높은 지도 DPI 또는 큰 페이지는 오래 걸립니다. 탭을 열고 몇 분 정도 걸립니다. 패널의 메시지는 작업하는 것을 말해줍니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The expression choice lets you write a short formula, such as helpers.upper($.NAME). Write $.FIELD to read a value from your data.": {
   "t": "표현식 선택은 helpers.upper($.NAME)과 같은 짧은 공식을 쓸 수 있습니다. 데이터를 읽으려면 $.FIELD를 작성하십시오.",
   "src": "libretranslate",
@@ -20389,6 +21181,12 @@
  },
  "The feature you are reading is outlined on the map, so you can see which one it is.": {
   "t": "읽는 기능은지도에 나타날 수 있으므로 어느 것을 볼 수 있습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The file is a PDF unless you change it: open Advanced options and pick a Format under Output. PDF is the safe choice for anything you plan to print on paper.": {
+  "t": "이 파일은 변경하지 않는 PDF입니다 : 고급 옵션을 열고 출력의 밑에 형식을 선택합니다. PDF는 종이에 인쇄 할 계획이 무엇이든을위한 안전한 선택입니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20501,11 +21299,23 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The list is only for this visit. It empties when you close or reload the app, so save anything you want to keep.": {
+  "t": "목록은이 방문에만 있습니다. 앱을 닫거나 재부팅할 때, 유지하고 싶은 모든 것을 저장합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The Load step checks the work, then writes the records into the layer.": {
   "t": "로드 단계는 작업을 확인, 다음 레이어에 레코드를 작성.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The map area is blank or grey: the map had not finished drawing. Wait until the map is still and every layer has appeared, then export again.": {
+  "t": "지도 지역은 공백 또는 회색입니다: 지도는 그림을 완료하지 않았습니다. 지도가 여전히되고 각 층이 나타날 때까지 기다리면 다시 내보내십시오.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The map does not move or change scale by itself. Use the zoom action in the details when you want the map to go there.": {
   "t": "지도 자체로 이동하거나 변경하지 않습니다. 지도를 원할 때 세부 사항의 줌 작업을 사용합니다.",
@@ -20591,6 +21401,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The outline is drawn rather than shaded, so labels and dimensions inside the parcel stay readable on paper.": {
+  "t": "outline은 그늘보다 오히려 그려져 있으므로 소포 내부의 라벨과 치수는 종이에 읽을 수 있습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The parcel polygon is built from the Boundary Lines only, then saved with the name, description, and stated area. If no line is marked Boundary Line, no polygon is created.": {
   "t": "소포 다각형은 경계선에서, 그 후에 이름, 묘사 및 진술한 지역으로 저장됩니다. 라인이 표시되지 않는 경우 경계선이 없습니다. 폴라곤은 없습니다.",
   "src": "libretranslate",
@@ -20647,6 +21463,12 @@
  },
  "The print service did not return a file.": {
   "t": "인쇄 서비스는 파일을 반환하지 않았습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The print service failed: the server refused the job or timed out. Try again, and if it keeps failing switch the Format to PDF and export a smaller page.": {
+  "t": "인쇄 서비스는 실패했습니다: 서버는 일 또는 밖으로 중단했습니다. 다시 시도하고, 실패가 PDF로 포맷을 전환하고 더 작은 페이지를 수출하는 경우.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20897,6 +21719,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "These options are for a Map only export, so the picture is the map edge to edge with nothing else on it.": {
+  "t": "이 옵션은지도 만 내보내기이므로 그림은 다른 점과 가장자리에 맵 가장자리입니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "These settings are for advanced users only": {
   "t": "이 설정은 고급 사용자 만 사용됩니다.",
   "src": "libretranslate",
@@ -21011,6 +21839,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "This runs in your browser, not ArcGIS Pro, so big series are limited: a yellow note warns about a large job with a rough time and file size, and a red note stops a series over the page limit set for this app.": {
+  "t": "이 브라우저에서 실행, 아니 ArcGIS 프로, 그래서 큰 시리즈는 제한: 황급한 시간과 파일 크기와 큰 일에 대한 노란색 메모, 빨간색 노트는이 응용 프로그램에 설정 페이지 제한에 시리즈를 중지.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "This scale and the map position set the print area that Inside the print area uses to pick features. Each page still sets its own scale.": {
   "t": "이 스케일과 맵 위치는 인쇄 영역 내부의 인쇄 영역을 설정하여 기능을 선택합니다. 각 페이지는 여전히 자신의 가늠자를 놓습니다.",
   "src": "libretranslate",
@@ -21121,6 +21955,12 @@
  },
  "Ticks and crosses": {
   "t": "딕스와 크로스",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "TIFF: a large picture, and the right choice when you want the map to open in the correct place in ArcGIS Pro.": {
+  "t": "TIFF : 큰 그림과 ArcGIS Pro의 올바른 장소에 지도를 열려면 올바른 선택.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21671,6 +22511,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Turn on Page preview, right under Map title, to see the whole printed page while you pan and zoom. It is a quick sketch drawn from the screen: gray areas are outside the screen, and the overview map shows as a box. The export is always full quality.": {
+  "t": "페이지 미리보기를 켜고, Map 제목의 밑에 오른쪽, 전체 인쇄 페이지를 볼 때 팬과 줌. 스크린에서 그려진 빠른 스케치입니다: 회색 지역은 스크린 밖에 있고, 개관 지도는 상자로 보여줍니다. 수출은 항상 가득 차있는 질입니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Turn on parent groups when a layer is checked on": {
   "t": "레이어가 체크될 때 부모 그룹을 켜십시오",
   "src": "libretranslate",
@@ -21679,6 +22525,12 @@
  },
  "Turn on Print-Ready Labels in {displayOptions} before a PDF export to spread the labels out so they do not overlap.": {
   "t": "Print-Ready 라벨을 켜십시오. {displayOptions} PDF 내보내기 전에 라벨을 삽입하기 때문에 그들은 오버랩하지 않습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Turn on Show print area and a rectangle appears on the map showing exactly what will print. Watch it while you zoom.": {
+  "t": "표시 인쇄 영역에서 턴하고 직사각형은 인쇄하는 것을 정확히 보여주는지도에 나타납니다. 당신이 급상승 동안 그것을 감시하십시오.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21862,6 +22714,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Under Advanced options, each card opens and closes from its heading and remembers your choice; a closed card still shows a short summary of what is set inside it. The On the map card holds the switches for the {parts}; Page text holds Author, Copyright and the QR code; Style holds the font, north arrow and scale bar; Output holds the format, DPI, coordinate system, map-only export and file name. Turning a switch off leaves it off this page only; it does not change the map, and it does not change anything for anyone else.": {
+  "t": "고급 옵션에서 각 카드가 열리고 닫힙니다. 머리에서 당신의 선택을 기억하십시오. 닫힌 카드는 여전히 내부에 설정된 짧은 요약을 보여줍니다. 지도 카드에는 스위치가 있습니다. {parts}; 페이지 텍스트는 저자, 저작권 및 QR 코드를 보유합니다. 스타일은 글꼴, 북 화살표 및 스케일 바를 보유하고 있습니다. 출력은 형식, DPI, 좌표계, 맵 전용 수출 및 파일 이름을 보유하고 있습니다. 전환을 해제하면이 페이지 만 떨어져 있습니다.지도를 변경하지 않으며 다른 사람에게 아무것도 변경하지 않습니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Under Advanced options, turn on Print as a map series (PDF), then set Rows and Columns. The estimate underneath tells you how many pages you will get.": {
+  "t": "고급 옵션에서, 지도 시리즈 (PDF)로 인쇄를 켜고, 행과 열을 설정합니다. 견적 underneath 당신에게 얼마나 많은 페이지를 알려줍니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Under the title is a list. Each line has a label on the left and the value for that feature on the right.": {
   "t": "제목은 목록입니다. 각 선은 왼쪽의 라벨과 오른쪽의 특징에 대한 값이 있습니다.",
@@ -22475,6 +23339,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Vector feature layers in PDF and SVG (experimental)": {
+  "t": "PDF 및 SVG의 벡터 기능 레이어 (experimental)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Vector page furniture; opens in Illustrator/Inkscape. Covers the AIX use case.": {
+  "t": "벡터 페이지 가구; Illustrator/Inkscape에서 열립니다. AIX 사용 사례를 커버합니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Verify your settings work with sample data": {
   "t": "샘플 데이터로 설정 작업을 검증",
   "src": "libretranslate",
@@ -22703,6 +23579,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "What goes on the page": {
+  "t": "자주 묻는 질문",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "What shows on the map": {
   "t": "지도에서 어떤 쇼",
   "src": "libretranslate",
@@ -22859,6 +23741,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Which file type to pick": {
+  "t": "어떤 파일 형식을 선택",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Which polygon attributes users can enter at runtime: the fixed name/description/stated-area inputs, the fields from the layer popup, or a custom list": {
   "t": "어떤 polygon 속성 사용자는 runtime에 입력 할 수 있습니다 : 고정 이름 / description /stated-area 입력, 레이어 팝업의 필드, 또는 사용자 정의 목록",
   "src": "libretranslate",
@@ -22867,6 +23755,12 @@
  },
  "Which tab is active when the widget first opens.": {
   "t": "위젯이 처음 열릴 때 어떤 탭이 활성화됩니다.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "While a series exports, the bar below Export shows Page 3 of 12 (with the feature name for one page per feature), one segment per page plus the index page and saving, how many steps are done and about how long is left. Keep this tab open until the file appears, or press Cancel to stop after the current page.": {
+  "t": "시리즈 수출의 동안, 수출의 밑에 막대기는 12의 페이지 3를 보여줍니다 (기능 당 1 페이지의 특징 이름에), 페이지 당 1개의 세그먼트 플러스 색인 페이지 및 저축, 얼마나 많은 단계는 하고 얼마나 오래 남아 있는지. 파일이 나타나기 전까지 이 탭을 열거나, 현재 페이지가 종료된 후 취소할 수 있습니다.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23026,6 +23920,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Write export diagnostics to the console": {
+  "t": "콘솔에 수출 진단 쓰기",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Write null": {
   "t": "다운로드",

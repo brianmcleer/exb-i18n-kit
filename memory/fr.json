@@ -1019,6 +1019,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "4,327,000 m (with units)": {
+  "t": "4 327 000 m (avec unités)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "4. Export": {
   "t": "4. Exportations",
   "src": "libretranslate",
@@ -1085,6 +1091,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A georeferenced export is always straight north up, even if your map is turned, because a turned picture would not line up with the ground.": {
+  "t": "Une exportation géoréférencée est toujours droite vers le nord, même si votre carte est tournée, parce qu'une image tournée ne correspondrait pas au sol.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A grid over the map view": {
   "t": "Une grille sur la carte",
   "src": "libretranslate",
@@ -1097,6 +1109,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A highlight belongs to the map on your screen, not to the map layers, so the widget draws your selected features onto the page for you.": {
+  "t": "Un point fort appartient à la carte sur votre écran, pas aux calques de la carte, de sorte que le widget dessine vos fonctionnalités sélectionnées sur la page pour vous.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A layer inside a group shows only when the group is on too. If a ticked layer is missing from the map, check its group.": {
   "t": "Une couche à l'intérieur d'un groupe ne s'affiche que lorsque le groupe est allumé. Si une couche cochée ne figure pas sur la carte, vérifiez son groupe.",
   "src": "libretranslate",
@@ -1105,6 +1123,12 @@
  },
  "A layer is missing: it may be outside the current map scale. Zoom in or out, and check the note beneath its name.": {
   "t": "Il manque une couche : elle peut être en dehors de l'échelle de la carte actuelle. Zoomez ou sortez, et vérifiez la note sous son nom.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer is on the map but not in the legend: the layer does not draw at the printed scale, or your app leaves out layers with nothing inside the print area, so it is left out on purpose. Check the layer list in the map, or print at a scale and area where it draws.": {
+  "t": "Un calque est sur la carte mais pas dans la légende : le calque ne dessine pas à l'échelle imprimée, ou votre application sort les calques avec rien à l'intérieur de la zone d'impression, donc il est laissé exprès. Vérifiez la liste des calques dans la carte, ou imprimez à une échelle et une zone où il dessine.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1129,6 +1153,12 @@
  },
  "A layer name is grey and nothing shows on the map: the layer only draws between certain zoom levels. Zoom in, or out, until the name turns dark.": {
   "t": "Un nom de calque est gris et rien n'apparaît sur la carte : le calque ne dessine qu'entre certains niveaux de zoom. Zoomer ou sortir jusqu'à ce que le nom devienne sombre.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A layer printed as a picture instead of sharp lines: its symbols, labels or effects are ones the vector output cannot copy exactly, so it kept the picture on purpose. The note under the finished file names each layer and the reason.": {
+  "t": "Un calque imprimé comme une image au lieu de lignes pointues : ses symboles, étiquettes ou effets sont ceux que la sortie vectorielle ne peut pas copier exactement, donc il a gardé l'image dans le but. La note sous le fichier fini nomme chaque calque et la raison.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1168,6 +1198,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "A map series cuts the area you are looking at into a grid of pages, all at one scale, and adds an index page at the front.": {
+  "t": "Une série de cartes coupe la zone que vous regardez dans une grille de pages, toutes à une échelle, et ajoute une page d'index à l'avant.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A map series is very slow: every page is captured one at a time, so twelve pages take roughly twelve times as long as one. Keep the tab open, or use fewer, larger pages.": {
+  "t": "Une série de cartes est très lente : chaque page est capturée une à la fois, donc douze pages prennent environ douze fois plus longtemps qu'une. Gardez l'onglet ouvert, ou utilisez moins de pages plus grandes.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "A map widget is required for this widget to function": {
   "t": "Un widget map est nécessaire pour que ce widget fonctionne",
@@ -1223,6 +1265,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "A selected feature is missing from the print: Selected features is switched off, or the selection was cleared before you pressed Export. Turn the switch on, reselect, then export.": {
+  "t": "Une fonction sélectionnée est absente de l'impression : Les fonctions sélectionnées sont désactivées ou la sélection a été effacée avant d'appuyer sur Exporter. Allumez l'interrupteur, réélectionnez, puis exportez.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A selection highlight belongs to the map on screen, not to the map layers, so the widget draws the selected features onto the page itself, as a cyan outline with a thin white casing so it reads over aerial photography. Selections made in the Select, Table or Query widgets and shapes an app has drawn on the map are all picked up. This switch sets the starting position only; users can still turn it on or off per export.": {
+  "t": "Un point fort de sélection appartient à la carte à l'écran, pas aux couches de la carte, de sorte que le widget dessine les caractéristiques sélectionnées sur la page elle-même, comme un contour cyan avec une mince enveloppe blanche donc il lit sur la photographie aérienne. Les sélections faites dans les widgets Select, Table ou Query et les formes qu'une application a tracées sur la carte sont toutes récupérées. Ce commutateur ne définit la position de départ que ; les utilisateurs peuvent toujours l'activer ou l'éteindre par exportation.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "A side with no selected layers shows the basemap and any shared map layers. You can use this to compare a layer with the basemap.": {
   "t": "Un côté sans calques sélectionnés montre la carte de base et les calques partagés. Vous pouvez l'utiliser pour comparer un calque avec la carte de base.",
   "src": "libretranslate",
@@ -1243,6 +1297,12 @@
  },
  "A to Z": {
   "t": "A à Z",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "A turned map stays turned. The coordinate information carries the turn too, so the picture still lines up with the ground in ArcGIS Pro, QGIS and Google Earth.": {
+  "t": "Une carte tournée reste tournée. L'information de coordonnées porte aussi le virage, de sorte que l'image est toujours alignée avec le sol dans ArcGIS Pro, QGIS et Google Earth.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1411,6 +1471,12 @@
  },
  "Add a QR code that opens this map": {
   "t": "Ajouter un code QR qui ouvre cette carte",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add a QR code that opens this map: prints a small square code. Anyone who scans it with a phone opens the live map in a browser.": {
+  "t": "Ajoutez un code QR qui ouvre cette carte : imprimez un petit code carré. Quiconque le scanne avec un téléphone ouvre la carte en direct dans un navigateur.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1925,8 +1991,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Advanced options cards open by default": {
+  "t": "Cartes d'options avancées ouvertes par défaut",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Aerial and satellite imagery from the OpenStreetMap Editor Layer Index that covers the part of the map you are looking at. It is added under your layers, like a second basemap.": {
   "t": "Imagerie aérienne et satellite à partir de l'index des calques OpenStreetMap Editor qui couvre la partie de la carte que vous regardez. Il est ajouté sous vos calques, comme une deuxième carte de base.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Aerial photography looks soft: you are zoomed in closer than the photography was flown. It is placed correctly, there is simply no more detail to show. Zoom out a little for a crisper page.": {
+  "t": "La photographie aérienne a l'air douce: vous êtes zoomé plus près que la photographie a été volé. Il est placé correctement, il n'y a tout simplement plus de détails à montrer. Zoomez un peu pour une page plus nette.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -2392,6 +2470,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "App default": {
+  "t": "Par défaut de l'application",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "App-specific keeps drawings isolated to this experience; Global shares them across all experiences on this domain.": {
   "t": "App-specific garde les dessins isolés à cette expérience; Global les partage à travers toutes les expériences sur ce domaine.",
@@ -2963,6 +3047,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Blank = outline color": {
+  "t": "Blanc = couleur de contour",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Blank = signed-in username": {
+  "t": "Blank = nom d'utilisateur connecté",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Blank labels read Longitude and Latitude for a geographic system, X and Y otherwise.": {
   "t": "Les étiquettes vierges lisent Longitude et Latitude pour un système géographique, X et Y autrement.",
   "src": "libretranslate",
@@ -3485,6 +3581,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Cell ids (A1, B2) in each cell": {
+  "t": "Identifications cellulaires (A1, B2) dans chaque cellule",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Center · {srLabel}": {
   "t": "Centre · {srLabel}",
   "src": "libretranslate",
@@ -3881,6 +3983,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Choose TIFF and turn on Georeference (world file) and you get a single file that ArcGIS Pro and QGIS open in the correct place with nothing else to keep track of. This is the one to use.": {
+  "t": "Choisissez TIFF et activez GeoReference (fichier mondial) et vous obtenez un seul fichier qui ArcGIS Pro et QGIS s'ouvrent au bon endroit sans rien d'autre à suivre. C'est celui à utiliser.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Choose vertical alignment for text. Options are baseline, top, middle, or bottom. Currently set to {verticalAlignment}.": {
   "t": "Choisissez l'alignement vertical pour le texte. Les options sont la base, le haut, le milieu ou le bas. Actuellement réglé sur {verticalAlignment}.",
   "src": "libretranslate",
@@ -3931,6 +4039,12 @@
  },
  "Choosing layers": {
   "t": "Choix des couches",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choosing what lands on the page": {
+  "t": "Choisir ce qui atterrit sur la page",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5507,6 +5621,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Corner coordinates": {
+  "t": "Coordonnées du coin",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Could not copy the link": {
   "t": "Impossible de copier le lien",
   "src": "libretranslate",
@@ -5939,6 +6059,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Decimal degrees (108.51°W)": {
+  "t": "Degrés décimaux (108,51°W)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Decimal Degrees (DD)": {
   "t": "Degrés décimaux (DD)",
   "src": "libretranslate",
@@ -5947,6 +6073,12 @@
  },
  "Decimal degrees: decimal places": {
   "t": "Degrés décimaux: décimales",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Decimal minutes (108°30.5'W)": {
+  "t": "Minutes décimales (108°30.5'O)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6011,6 +6143,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default author": {
+  "t": "Auteur par défaut",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default basemap": {
   "t": "Carte de base par défaut",
   "src": "libretranslate",
@@ -6053,6 +6191,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default copyright": {
+  "t": "Droit d'auteur par défaut",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default custom buffer color.": {
   "t": "Couleur de tampon personnalisée par défaut.",
   "src": "libretranslate",
@@ -6079,6 +6223,18 @@
  },
  "Default Field Mappings": {
   "t": "Cartographie par défaut des champs",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default file name": {
+  "t": "Nom du fichier par défaut",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default format": {
+  "t": "Format par défaut",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6113,14 +6269,56 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default map DPI": {
+  "t": "Carte par défaut DPI",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default map title": {
+  "t": "Titre de la carte par défaut",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default Name Field": {
   "t": "Champ Nom par défaut",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default north arrow": {
+  "t": "Flèche nord par défaut",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default Opacity (%)": {
   "t": "Opacité par défaut (%)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default output WKID (0 = map's own)": {
+  "t": "Sortie par défaut WKID (0 = propre carte)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default scale bar style": {
+  "t": "Style de barre d'échelle par défaut",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default scale bar units": {
+  "t": "Unités de barre d'échelle par défaut",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Default second units (dual)": {
+  "t": "Deuxième unité par défaut (dual)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -6671,8 +6869,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Double styles print a dual scale bar (two measurements sharing the zero point). Layout default picks the natural complement (miles-feet, meters-kilometers); choose a unit to override.": {
+  "t": "Doubles styles impriment une barre double échelle (deux mesures partageant le point zéro). La disposition par défaut choisit le complément naturel (milles-pieds, mètres-kilomètres); choisissez une unité à surcharger.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Double-click always finishes a line or area, and Esc always cancels one.": {
   "t": "Double-cliquez toujours termine une ligne ou une zone, et Esc annule toujours une.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Double-click the .kmz in Google Earth Pro, or drag it into Google Earth on the web. The map is saved as a PNG inside it whatever Format you chose above.": {
+  "t": "Double-cliquez sur le .kmz dans Google Earth Pro, ou faites-le glisser dans Google Earth sur le web. La carte est enregistrée en tant que PNG à l'intérieur quel que soit le format que vous avez choisi ci-dessus.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -7319,6 +7529,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Each app sets a page limit (50 map pages unless changed in Settings; the index and legend pages do not count). A grid over it switches Export off; use fewer Rows or Columns, or zoom out and use fewer, larger pages.": {
+  "t": "Chaque application définit une limite de page (50 pages de carte à moins de modification dans Paramètres; les pages index et légende ne comptent pas). Une grille sur elle coupe Exporter; utilisez moins de lignes ou de colonnes, ou zoomez et utilisez moins de pages plus grandes.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Each button draws one kind of measurement. A blue bar at the top shows which tool is active.": {
   "t": "Chaque bouton dessine une sorte de mesure. Une barre bleue en haut montre quel outil est actif.",
   "src": "libretranslate",
@@ -7333,6 +7549,12 @@
  },
  "Each button opens the pinned spot in another website: {links}.": {
   "t": "Chaque bouton ouvre l'endroit épinglé dans un autre site Web : {links}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Each card can be opened and closed by the user, and their choice is remembered in their browser. These are the starting positions. Map series opens by itself whenever a series is switched on.": {
+  "t": "Chaque carte peut être ouverte et fermée par l'utilisateur, et leur choix est rappelé dans leur navigateur. Ce sont les positions de départ. La série de cartes s'ouvre par elle-même chaque fois qu'une série est activée.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8141,6 +8363,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Every PDF is also a GeoPDF. Open it in Avenza Maps on a phone to see your location as a blue dot on the map, read coordinates in Acrobat with the Geospatial Location tool, or add it to ArcGIS Pro or QGIS and it lands in the right place.": {
+  "t": "Chaque PDF est également un GeoPDF. Ouvrez-le sur Avenza Maps sur un téléphone pour voir votre emplacement comme un point bleu sur la carte, lire les coordonnées en Acrobat avec l'outil Emplacement géospatial, ou l'ajouter à ArcGIS Pro ou QGIS et il atterrit au bon endroit.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Every shape you draw is listed on the My Drawings tab.": {
   "t": "Chaque forme que vous dessinez est répertoriée sur l'onglet Mes dessins.",
   "src": "libretranslate",
@@ -8393,6 +8621,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Export as many times as you like. Change one thing, export again, and compare the two files.": {
+  "t": "Exportez autant de fois que vous voulez. Changez une chose, exportez encore, et comparez les deux fichiers.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Export as Shapefile": {
   "t": "Exporter comme Shapefile",
   "src": "libretranslate",
@@ -8423,6 +8657,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Export defaults": {
+  "t": "Exportation par défaut",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Export drawings to file": {
   "t": "Exporter les dessins au dossier",
   "src": "libretranslate",
@@ -8431,6 +8671,12 @@
  },
  "Export formats for {name}": {
   "t": "Formats d'exportation pour {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Export is greyed out with a red message under Map series: the series is over this app's page limit. Use fewer rows or columns, or for one page per feature choose Inside the print area, zoom in, or filter the layer.": {
+  "t": "Exporter est grisé avec un message rouge sous la série Map: la série est au-delà de la limite de page de cette application. Utilisez moins de lignes ou de colonnes, ou pour une page par fonction choisissez Dans la zone d'impression, zoomez ou filtrez le calque.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8557,6 +8803,12 @@
  },
  "Exporting": {
   "t": "Exportations",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Exporting…": {
+  "t": "Exporter...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9065,6 +9317,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Finished exports are listed under Recent exports at the bottom of the panel, newest first. Click the file name to save it to your computer.": {
+  "t": "Les exportations finies sont énumérées sous la rubrique Exportations récentes au bas du panneau, les plus récentes en premier. Cliquez sur le nom du fichier pour l'enregistrer sur votre ordinateur.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Finishing up…": {
   "t": "Terminer...",
   "src": "libretranslate",
@@ -9079,6 +9337,12 @@
  },
  "Fixed scale": {
   "t": "Échelle fixe",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fixed scale: prints at the exact scale you type, for example 24000 for 1:24,000. Use this when the page has to match another map.": {
+  "t": "Échelle fixe : imprime à l'échelle exacte que vous tapez, par exemple 24000 pour 1:24 000. Utilisez ceci quand la page doit correspondre à une autre carte.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9353,6 +9617,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Font: changes the typeface for all the text on the page. App default uses the layout font.": {
+  "t": "Police: modifie la police de caractères de tout le texte de la page. Par défaut, l'application utilise la police de mise en page.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "for {count} selected buffer": {
   "t": "pour {count} tampon sélectionné",
   "src": "libretranslate",
@@ -9395,6 +9665,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "For one page per parcel, park or project, set Pages from to One page per feature and pick the layer. Features chooses which ones: in the current map view, inside the print area rectangle, or the whole layer, even beyond the map. Any filter on the layer (from Map Layers, a Filter widget or the map itself) is applied too. Only layers in the map's layer list that are turned on are listed (whichever layer list widget you use), including ones inside groups, nested groups and map image services, shown with their group path, like Utilities / Water / Mains. Each page centers on its feature, outlines it in orange and prints at the best-fit scale, or the fixed scale you set. Text in the layout that uses {field:NAME} shows that feature's value.": {
+  "t": "Pour une page par parcelle, parc ou projet, définissez Pages de à Une page par fonctionnalité et choisissez le calque. Les caractéristiques choisissent celles : dans la vue de la carte actuelle, dans la zone d'impression rectangle, ou dans la couche entière, même au-delà de la carte. Tout filtre sur le calque (à partir de Map Layers, d'un widget Filter ou de la carte elle-même) est également appliqué. Seuls les calques de la liste des calques qui sont activés sont listés (quel que soit le widget de la liste des calques que vous utilisez), y compris ceux à l'intérieur des groupes, les groupes imbriqués et les services d'image de la carte, montrés avec leur chemin de groupe, comme Utilitaires / Eau / Mains. Chaque page se concentre sur sa fonction, le dessine en orange et l'imprime à l'échelle la mieux adaptée, ou l'échelle fixe que vous définissez. Le texte de la mise en page qui utilise {field:NAME} montre la valeur de cette fonctionnalité.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "For the best experience, use a modern web browser": {
   "t": "Pour la meilleure expérience, utilisez un navigateur Web moderne",
   "src": "libretranslate",
@@ -9421,6 +9697,12 @@
  },
  "Format a field as a number, currency, percent, or date, or turn it into a link built from a URL template with {FIELD_NAME} tokens.": {
   "t": "Formater un champ en nombre, monnaie, pourcentage ou date, ou le transformer en un lien construit à partir d'un modèle d'URL avec {FIELD_NAME} Des jetons.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Format decides the kind of file you get. If you are not sure, use PDF.": {
+  "t": "Le format décide du type de fichier que vous obtenez. Si vous n'êtes pas sûr, utilisez PDF.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9487,6 +9769,12 @@
  },
  "Freeze the print area over the current ground location so it stays put while you pan or zoom.": {
   "t": "Congelez la zone d'impression au-dessus de l'emplacement actuel du sol afin qu'elle reste placée pendant que vous balayez ou zoomez.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "From .pagx": {
+  "t": "De .pagx",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9749,14 +10037,32 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "GeoPDF coordinates in PDF exports": {
+  "t": "Coordonnées GeoPDF dans les exportations PDF",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Georeference (world file)": {
   "t": "Géoréférence (fichier mondial)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Get the map looking the way you want, pick a Layout, type a Map title, then press Export. Your file appears at the bottom of the panel.": {
+  "t": "Obtenez la carte en regardant comme vous voulez, choisissez une mise en page, tapez un titre de carte, puis appuyez sur Exporter. Votre fichier apparaît en bas du panneau.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Getting the address of a spot": {
   "t": "Obtenir l'adresse d'un endroit",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Getting your file": {
+  "t": "Obtenir votre dossier",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9809,6 +10115,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Google Earth (KMZ): gives you one .kmz file with the map draped over the globe in the right place. All four corners are placed separately, so the picture is not stretched.": {
+  "t": "Google Earth (KMZ): vous donne un fichier .kmz avec la carte drapé sur le globe au bon endroit. Les quatre coins sont placés séparément, de sorte que l'image n'est pas tendue.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Google Maps 3D": {
   "t": "Google Maps 3D",
   "src": "libretranslate",
@@ -9823,6 +10135,12 @@
  },
  "Graticule (lat/long)": {
   "t": "Graticule (lat/long)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "grid": {
+  "t": "grille",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9877,6 +10195,18 @@
  },
  "Grid is enabled. Theme: {gridTheme}. Spacing: {gridSpacingMode}. Rotation: {gridRotation} degrees.": {
   "t": "La grille est activée. Thème: {gridTheme}Espacement : {gridSpacingMode}- Rotation: {gridRotation} degrés.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid labels are missing on a turned map: labels that would overlap another label are left off so none print on top of each other. Use a larger interval, fewer label sides, or smaller labels.": {
+  "t": "Les étiquettes de grille sont manquantes sur une carte tournée : les étiquettes qui chevaucheraient une autre étiquette sont laissées de côté, donc aucune impression sur l'autre. Utilisez un intervalle plus grand, moins de côtés d'étiquette, ou des étiquettes plus petites.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid on by default": {
+  "t": "Grille par défaut",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -9949,6 +10279,12 @@
  },
  "Grid size": {
   "t": "Taille de la grille",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid size shrinks the whole grid toward the middle, which is a quick way to trim empty edges without changing rows and columns.": {
+  "t": "La taille de la grille rétrécit l'ensemble de la grille vers le milieu, ce qui est un moyen rapide de couper les bords vides sans changer les lignes et les colonnes.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10031,6 +10367,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Grid style for this export: latitude/longitude graticule, measured grid in map units, or lettered reference grid.": {
+  "t": "Style de grille pour cette exportation : latitude/longitude graticule, grille mesurée en unités cartographiques ou grille de référence à lettres.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid style panel": {
+  "t": "Panneau de style Grid",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid style: open it under Grid type to change the grid your way. Pick the line color, width, opacity and pattern, or draw only edge ticks and crosses. Set a custom interval, the label color, size, bold and halo, which sides get labels, labels that run along the side edges, and the coordinate or number format. Reference grids can put letters on rows and print cell ids like A1 in every cell. Reset to layout grid puts everything back.": {
+  "t": "Style de grille : ouvrez-le sous Type de grille pour changer la grille à votre façon. Choisissez la couleur de la ligne, la largeur, l'opacité et le motif, ou dessinez seulement les tiques de bord et les croix. Définissez un intervalle personnalisé, la couleur de l'étiquette, la taille, gras et halo, quels côtés obtiennent les étiquettes, les étiquettes qui courent le long des bords latéraux, et le format de coordonnées ou de nombre. Les grilles de référence peuvent placer des lettres sur des lignes et imprimer des ids de cellules comme A1 dans chaque cellule. Reset to layout grid replace tout.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Grid theme changed to {newTheme}": {
   "t": "Thème Grid changé en {newTheme}",
   "src": "libretranslate",
@@ -10051,6 +10405,12 @@
  },
  "Grid unit changed to {newUnit}": {
   "t": "Unité de grille changée en {newUnit}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Grid: adds the grid or graticule the layout was built with. Grid type switches between a latitude and longitude graticule, a measured grid in map units, and a lettered reference grid like A-1. When the layout turns on corner labels, each map corner also shows its exact coordinate.": {
+  "t": "Grille : ajoute la grille ou la grille avec laquelle la disposition a été construite. Le type de grille passe entre une grille de latitude et de longitude, une grille mesurée en unités cartographiques et une grille de référence à lettres comme A-1. Lorsque la mise en page tourne sur les étiquettes de coin, chaque coin de carte montre également sa coordonnée exacte.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10385,6 +10745,18 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Hide legend layers not drawn at the print scale": {
+  "t": "Cacher les calques de légende non dessinés à l'échelle d'impression",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hide legend layers with nothing in the print area": {
+  "t": "Cacher les calques avec rien dans la zone d'impression",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Hide measurements": {
   "t": "Masquer les mesures",
   "src": "libretranslate",
@@ -10483,6 +10855,12 @@
  },
  "Hover a view in the list and use the trash icon to delete it.": {
   "t": "Passez une vue dans la liste et utilisez l'icône de la corbeille pour la supprimer.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Hover over any label in this panel for a one-line explanation without opening this guide.": {
+  "t": "Passez sur n'importe quelle étiquette de ce panneau pour une explication en une seule ligne sans ouvrir ce guide.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10588,6 +10966,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "If the legend is too big to fit beside the map, a note appears offering to move it to additional pages. You can keep it beside the map instead.": {
+  "t": "Si la légende est trop grande pour s'adapter à côté de la carte, une note semble offrir de la déplacer vers des pages supplémentaires. Vous pouvez le garder à côté de la carte à la place.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "If the misclose ratio (1:n) meets or exceeds this n, points snap closed and the compass rule is applied": {
   "t": "Si le rapport d'erreur (1:n) atteint ou dépasse ce n, les points se cassent et la règle du compas est appliquée.",
@@ -10781,6 +11165,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "In PDF and SVG, feature layers drawn with simple symbols (parcels, lines, points, hatched fills, custom and picture markers) print as true lines and shapes instead of a picture, so they stay sharp at any zoom and the file stays small. Their labels come along as real text, including label classes that only label some features. Layers with Arcade labels or effects still print as a picture; the export note lists which ones and why.": {
+  "t": "En PDF et SVG, les calques dessinés avec des symboles simples (parcels, lignes, points, remplissages hachés, marqueurs personnalisés et d'image) impriment comme vraies lignes et formes au lieu d'une image, de sorte qu'ils restent pointus à tout zoom et le fichier reste petit. Leurs étiquettes se présentent sous forme de texte réel, y compris des classes d'étiquettes qui n'étiquetent que certaines caractéristiques. Les calques avec des étiquettes ou des effets Arcade continuent d'imprimer comme une image; la note d'exportation liste ceux et pourquoi.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "In the {batchOptions} menu, choose {showFavoritesOnly} to list only your starred layers and their groups. Choose {showAllLayers} to go back.": {
   "t": "Dans {batchOptions} menu, choisissez {showFavoritesOnly} pour lister seulement vos couches étoilées et leurs groupes. Choisir {showAllLayers} pour y retourner.",
   "src": "libretranslate",
@@ -10873,6 +11263,18 @@
  },
  "Include legend": {
   "t": "Inclure la légende",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include legend: adds the layer symbols. Only the layers actually drawing at the printed scale are listed, so the legend matches the map.": {
+  "t": "Inclure la légende : ajoute les symboles du calque. Seules les couches qui dessinent effectivement à l'échelle imprimée sont listées, donc la légende correspond à la carte.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Include map attribution": {
+  "t": "Inclure l'attribution de la carte",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11153,6 +11555,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "It picks up a parcel you clicked, features chosen in a Select, Table or Query widget, and shapes an app has drawn on the map.": {
+  "t": "Il prend un colis que vous avez cliqué, les fonctionnalités choisies dans un widget Select, Table ou Query, et forme une application a dessiné sur la carte.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "It says Loading measurement tools for a long time: the map is still starting. Give it a moment, then reload the page.": {
   "t": "Il est dit Chargement des outils de mesure pendant longtemps : la carte est toujours en cours. Donnez-lui un moment, puis rechargez la page.",
   "src": "libretranslate",
@@ -11296,6 +11704,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Keep map rotation in georeferenced images": {
+  "t": "Garder la rotation de la carte dans les images géoréférencées",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Keep New Only": {
   "t": "Garder un nouveau seulement",
@@ -11855,6 +12269,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Layers in PDF and SVG exports": {
+  "t": "Calque en PDF et en SVG",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "layers on": {
   "t": "couches sur",
   "src": "libretranslate",
@@ -11881,6 +12301,12 @@
  },
  "Layout default": {
   "t": "Mise en page par défaut",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layout DPI": {
+  "t": "Présentation DPI",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -11981,6 +12407,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "legend": {
+  "t": "légende",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Legend": {
   "t": "Légende",
   "src": "libretranslate",
@@ -12005,6 +12437,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Legend on by default": {
+  "t": "Légende par défaut",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Legend page {i} of {n}": {
   "t": "Page légende {i} des {n}",
   "src": "libretranslate",
@@ -12013,6 +12451,12 @@
  },
  "Legend placement": {
   "t": "Placement des légendes",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Legend placement: beside the map, over a corner of it, or on Additional pages (PDF only). Beside the map, the map shrinks to make room. On additional pages, every item stays full size.": {
+  "t": "Position de légende : à côté de la carte, au-dessus d'un coin, ou sur des pages supplémentaires (PDF seulement). A côté de la carte, la carte rétrécit pour faire de la place. Sur des pages supplémentaires, chaque article reste complet.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12125,6 +12569,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Line color (any)": {
+  "t": "Couleur de la ligne",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Line layer (traverse lines)": {
   "t": "Couche linéaire (lignes transversales)",
   "src": "libretranslate",
@@ -12175,6 +12625,12 @@
  },
  "Line opacity": {
   "t": "Opacité de la ligne",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Line pattern": {
+  "t": "Modèle de ligne",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12295,6 +12751,12 @@
  },
  "Link text (optional)": {
   "t": "Texte du lien (facultatif)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Link the title to the pages: while Map series is open, the buttons under Map title add Page name, Page number or any visible field, and the line under them shows how page 1's title will read. Order sorts the pages A to Z or Z to A by the name field. The Overview inset switch adds a locator overview to every data-driven page.": {
+  "t": "Liener le titre aux pages : alors que la série de cartes est ouverte, les boutons sous le titre de carte ajouter le nom de page, le numéro de page ou tout champ visible, et la ligne sous eux montre comment le titre de la page 1 va lire. Ordre trie les pages A à Z ou Z à A par le champ nom. Le commutateur Overview inset ajoute un aperçu de localisation à chaque page axée sur les données.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12593,6 +13055,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Lock print area pins that rectangle over the ground. You can then pan and zoom to look around, and the printed area stays where you put it. Turn it off to release.": {
+  "t": "Verrouillez les épingles d'impression qui se rectanglent au-dessus du sol. Vous pouvez ensuite balayer et zoomer pour regarder autour, et la zone imprimée reste où vous la mettez. Éteignez-le pour libérer.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Locked": {
   "t": "Verrouillé",
   "src": "libretranslate",
@@ -12839,6 +13307,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map DPI sets how fine the map picture is. Layout default is fine for most work. 300 is sharper but takes noticeably longer and makes a much bigger file.": {
+  "t": "Carte DPI définit à quel point la carte est fine. La mise en page par défaut est bonne pour la plupart des travaux. 300 est plus précis, mais prend nettement plus longtemps et rend un fichier beaucoup plus grand.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map fields": {
   "t": "Champs de carte",
   "src": "libretranslate",
@@ -12929,6 +13403,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map only (no layout): gives you just the map picture, with no title, legend or border. Use it when you want to drop the map into something else.": {
+  "t": "Carte seulement (pas de mise en page): vous donne juste l'image de la carte, sans titre, légende ou bordure. Utilisez-le quand vous voulez déposer la carte dans quelque chose d'autre.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map only necessary fields": {
   "t": "Carte seulement les champs nécessaires",
   "src": "libretranslate",
@@ -12967,6 +13447,12 @@
  },
  "Map series cancelled. Nothing was downloaded.": {
   "t": "Série de cartes annulée. Rien n'a été téléchargé.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map series limits": {
+  "t": "Limites des séries cartographiques",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -13060,6 +13546,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Maps that open in the right place": {
+  "t": "Cartes qui s'ouvrent au bon endroit",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Margins": {
   "t": "Marges",
@@ -13156,6 +13648,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Max map capture (px, long edge; blank = auto)": {
+  "t": "Capture maximale de la carte (px, bord long; blanc = automatique)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Max scale": {
   "t": "Échelle maximale",
@@ -14525,6 +15023,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "None (single bar)": {
+  "t": "Aucune (barre unique)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "None (transparent)": {
   "t": "Aucune (transparente)",
   "src": "libretranslate",
@@ -14533,6 +15037,12 @@
  },
  "none selected": {
   "t": "Aucune sélection",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "North arrow": {
+  "t": "Flèche nord",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14615,6 +15125,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Nothing downloaded: your browser may have blocked it. Look for a blocked download notice in the address bar, or click the file name under Recent exports again.": {
+  "t": "Rien téléchargé : votre navigateur peut l'avoir bloqué. Recherchez un avis de téléchargement bloqué dans la barre d'adresses, ou cliquez à nouveau sur le nom du fichier sous Exportations récentes.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Nothing extra": {
   "t": "Rien de plus",
   "src": "libretranslate",
@@ -14653,6 +15169,12 @@
  },
  "Nothing is found where you know a feature is: the click landed just off the edge. Zoom in and click again, nearer the middle of the feature.": {
   "t": "Rien n'est trouvé où vous savez qu'une fonctionnalité est: le clic a atterri juste hors du bord. Zoomez et cliquez encore, plus près du milieu de la fonction.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Nothing you change here affects the map itself or anyone else. It only changes the page you are about to make.": {
+  "t": "Rien de ce que vous changez ici n'affecte la carte elle-même ou quelqu'un d'autre. Cela ne change que la page que vous allez faire.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14705,6 +15227,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Number format": {
+  "t": "Format du numéro",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Number of decimal places for area and perimeter measurements, minimum 0, maximum 10": {
   "t": "Nombre de décimales pour les mesures de surface et de périmètre, minimum 0, maximum 10",
   "src": "libretranslate",
@@ -14747,6 +15275,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Numbered outlines appear on the map showing the pages. They follow you as you pan and zoom, so you can see the split before you commit to it.": {
+  "t": "Des contours numérotés apparaissent sur la carte montrant les pages. Ils vous suivent au fur et à mesure que vous balayez et zoomez, de sorte que vous pouvez voir la scission avant de vous y engager.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Numpad shortcuts: + moves from bearing to length and adds the line from length or radius. / jumps from length to radius.": {
   "t": "Raccourcis Numpad : + passe du roulement à la longueur et ajoute la ligne de la longueur ou du rayon. / saute de longueur en rayon.",
   "src": "libretranslate",
@@ -14777,14 +15311,50 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Off by default, so georeferenced map-only images and KMZ files are captured north-up. On, a rotated map keeps its rotation: the world file carries the rotation terms, a GeoTIFF uses a ModelTransformationTag, and the KMZ drapes as a rotated quad.": {
+  "t": "Off par défaut, donc les images géoréférencées et les fichiers KMZ sont capturés vers le nord. Sur une carte tournante garde sa rotation : le fichier mondial porte les termes de rotation, un GeoTIFF utilise un ModelTransformationTag et le KMZ drape comme quad rotatif.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Off by default. Each export asks every visible feature layer how many features fall inside the printed area, and leaves layers with none off the legend. A layer that cannot be asked (tiles, imagery) or does not answer in time is always kept. Map series judge against the whole series area.": {
+  "t": "Arrêt par défaut. Chaque exportation demande à chaque couche de caractéristiques visibles combien de caractéristiques tombent à l'intérieur de la zone imprimée, et laisse les couches avec aucune de la légende. On conserve toujours une couche qui ne peut pas être demandée (tils, images) ou qui ne répond pas dans le temps. La série de cartes juge contre toute la série.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Off by default. Feature layers drawn with simple symbols (solid fills, lines and dashes, circle, square, diamond, triangle, cross and x markers; single symbol, unique values or class breaks) print as true vector shapes, crisp at any zoom and each in its own PDF layer. Hatched fills, custom path markers and picture markers come along too, and so do labels (field labels with halos, placed and deconflicted like the map does, including label classes with a where clause). Layers with clustering, effects, visual variables, Arcade renderers or Arcade labels, rotated picture markers or other symbols stay as pixels, and each export lists them with the reason. Works on rotated maps and on every map series and feature page sheet. Up to 20,000 features per layer.": {
+  "t": "Arrêt par défaut. Couches de caractères dessinées avec des symboles simples (charges solides, lignes et tirets, cercle, carré, diamant, triangle, croix et x marqueurs; symbole unique, valeurs uniques ou casses de classe) imprimer comme véritables formes vectorielles, croustillantes à n'importe quel zoom et chacune dans sa propre couche PDF. Il en va de même pour les étiquettes (étiquettes de champ avec halos, placées et décomposées comme la carte le fait, y compris les classes d'étiquettes avec une clause où). Les calques avec regroupement, effets, variables visuelles, rendus d'arcade ou étiquettes d'arcade, marqueurs d'image tournants ou autres symboles restent en pixels, et chaque exportation les liste avec la raison. Fonctionne sur des cartes tournantes et sur chaque série de cartes et feuille de page. Jusqu'à 20 000 caractéristiques par couche.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Off by default. On, each export logs to the browser console (F12) how many selected features were found and how many reached the page. Use it when a highlight does not print: the selection lives in the map view rather than in this widget, so the log is the only way to see what was found.": {
+  "t": "Arrêt par défaut. Sur, chaque journal d'exportation à la console du navigateur (F12) combien de fonctionnalités sélectionnées ont été trouvées et combien ont atteint la page. Utilisez-le lorsqu'un point fort n'est pas imprimé : la sélection vit dans la vue de la carte plutôt que dans ce widget, donc le journal est la seule façon de voir ce qui a été trouvé.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Off: every run adds another layer, numbered (2), (3) and so on.": {
   "t": "Off : chaque run ajoute un autre calque, numéroté (2), (3) et ainsi de suite.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Offer \"Map only\" export": {
+  "t": "Offre \"Carte seulement\" exportation",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Offer {name} on the Coordinates tab": {
   "t": "Offre {name} sur l'onglet Coordonnées",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Offer output coordinate system (WKID)": {
+  "t": "Offrez système de coordonnées de sortie (WKID)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14842,6 +15412,24 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "On by default. A layer whose visible scale range excludes the printed scale is left off the legend, so the legend never lists a symbol the map does not show.": {
+  "t": "Par défaut. Une couche dont l'échelle visible exclut l'échelle imprimée est laissée hors de la légende, de sorte que la légende ne mentionne jamais un symbole que la carte ne montre pas.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On by default. Every PDF map frame carries its coordinate system and corner coordinates, so Avenza Maps shows your location on the page, Acrobat reads coordinates with its Geospatial Location tool, and ArcGIS Pro and QGIS open the PDF in place. Map series georeference every sheet and the index page.": {
+  "t": "Par défaut. Chaque image PDF porte son système de coordonnées et ses coordonnées d'angle, de sorte qu'Avenza Maps montre votre emplacement sur la page, Acrobat lit les coordonnées avec son outil de localisation géospatiale, et ArcGIS Pro et QGIS ouvrent le PDF en place. Série de cartes géoréférence chaque feuille et la page d'index.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "On by default. The map, grid, selection, overview, legend, north arrow and scale bar, text, graphics and QR code each go in their own layer, so they can be switched on and off in Acrobat, Avenza Maps, Illustrator or Inkscape. Map series add a Map series layer for the page outlines and numbers.": {
+  "t": "Par défaut. La carte, la grille, la sélection, l'aperçu, la légende, la flèche nord et la barre d'échelle, le texte, les graphiques et le code QR vont chacun dans leur propre couche, afin qu'ils puissent être activés et éteints dans Acrobat, Avenza Maps, Illustrator ou Inkscape. Série de cartes ajouter un calque de la série de cartes pour les contours et les numéros de page.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "On the {address} tab.": {
   "t": "Sur le {address} onglet.",
@@ -14983,6 +15571,12 @@
  },
  "One page per feature": {
   "t": "Une page par fonction",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "One PDF comes out with every page in it. The legend prints on every sheet, the same way ArcGIS Pro does it.": {
+  "t": "Un PDF sort avec chaque page dedans. La légende imprime sur chaque feuille, comme ArcGIS Pro le fait.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15245,6 +15839,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Output coordinate system (WKID): prints in a different coordinate system than the map uses. Leave it at 0 unless someone has asked you for a particular one.": {
+  "t": "Système de coordonnées de sortie (WKID) : impression dans un système de coordonnées différent de celui utilisé dans la carte. Laissez-le à 0, sauf si quelqu'un vous en a demandé un.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Output size (px)": {
   "t": "Taille de sortie (px)",
   "src": "libretranslate",
@@ -15293,8 +15893,26 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "overview inset": {
+  "t": "aperçu général",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Overview inset": {
   "t": "Aperçu général",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Overview inset: adds the small locator map in the corner, with a red box showing where the main map sits.": {
+  "t": "Aperçu de l'ensemble: ajoute la petite carte de localisation dans le coin, avec une case rouge indiquant où se trouve la carte principale.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Overview map on by default": {
+  "t": "Aperçu de la carte par défaut",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15347,6 +15965,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "page font": {
+  "t": "police de page",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Page name": {
   "t": "Nom de la page",
   "src": "libretranslate",
@@ -15377,6 +16001,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Page preview shows gray areas: part of the print area is off the screen, so the preview has nothing to show there. Pan or zoom out to see it; the exported file is not affected.": {
+  "t": "L'aperçu de page montre des zones grises : une partie de la zone d'impression est hors écran, donc l'aperçu n'a rien à montrer là-bas. Pan ou zoom pour le voir ; le fichier exporté n'est pas affecté.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Page Size": {
   "t": "Taille de la page",
   "src": "libretranslate",
@@ -15403,6 +16033,12 @@
  },
  "Pagination complete. Total features collected: {count}": {
   "t": "Pagination terminée. Caractéristiques totales collectées: {count}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Pan and zoom the map to what you want on the page. What you see is what prints.": {
+  "t": "Pan et zoomez la carte sur ce que vous voulez sur la page. Ce que vous voyez, c'est les empreintes.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15473,6 +16109,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "PDF and SVG files come with layers. In Acrobat or Avenza Maps open the Layers panel to hide the grid, the selection outline, the legend or the text; in Illustrator or Inkscape each part is its own layer.": {
+  "t": "Les fichiers PDF et SVG sont livrés avec des calques. Dans Acrobat ou Avenza Maps, ouvrez le panneau Calques pour cacher la grille, le contour de sélection, la légende ou le texte; dans Illustrator ou Inkscape chaque partie est sa propre couche.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "PDF export options": {
   "t": "Options d'exportation PDF",
   "src": "libretranslate",
@@ -15493,6 +16135,12 @@
  },
  "PDF opens a small window first so you can choose what goes on the page.": {
   "t": "PDF ouvre d'abord une petite fenêtre pour que vous puissiez choisir ce qui se passe sur la page.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "PDF: best for printing on paper and for sending to someone. Text and lines stay sharp at any zoom.": {
+  "t": "PDF : mieux pour imprimer sur papier et envoyer à quelqu'un. Le texte et les lignes restent précis à tout zoom.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15601,6 +16249,12 @@
  },
  "Pick a draw tool (Point, Line, Polygon, Rectangle, or Circle), then draw on the map. Everything inside is selected.": {
   "t": "Choisissez un outil de dessin (point, ligne, polygone, rectangle ou cercle), puis dessinez sur la carte. Tout à l'intérieur est sélectionné.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Pick a Layout, then type a Map title. The title is what prints at the top of the page.": {
+  "t": "Choisissez une mise en page, puis tapez un titre de carte. Le titre est ce qui est imprimé en haut de la page.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -15853,6 +16507,18 @@
  },
  "Please wait, do not close this window...": {
   "t": "Veuillez patienter, ne fermez pas cette fenêtre...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "PNG, JPG and GIF instead get two small companion files beside the image. Keep all of them together in the same folder or the placement is lost.": {
+  "t": "PNG, JPG et GIF obtiennent plutôt deux petits fichiers d'accompagnement à côté de l'image. Conservez tous ensemble dans le même dossier ou le placement est perdu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "PNG32, PNG8, JPG or GIF: a picture, for a report, a slide or a web page. PNG32 is the sharpest.": {
+  "t": "PNG32, PNG8, JPG ou GIF : une image, pour un rapport, une diapositive ou une page Web. La PNG32 est la plus nette.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16115,6 +16781,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Preserve map extent (fit view): prints everything you can see now, and picks whatever scale that needs. Use this when you must not lose anything off the edges.": {
+  "t": "Préservez l'étendue de la carte (vue d'ajustement) : imprimez tout ce que vous pouvez voir maintenant et choisissez l'échelle dont vous avez besoin. Utilisez ceci quand vous ne devez rien perdre des bords.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Preserve map scale": {
   "t": "Préserver l'échelle de la carte",
   "src": "libretranslate",
@@ -16123,6 +16795,12 @@
  },
  "Preserve map scale (current)": {
   "t": "Échelle de la carte de réserve (courante)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preserve map scale (current): prints at the same scale you are looking at. The page may show a little more or less ground than the screen, because the page is a different shape than your browser window.": {
+  "t": "Préservez l'échelle de la carte (courante) : imprimez à la même échelle que vous regardez. La page peut afficher un peu plus ou moins de sol que l'écran, parce que la page est une forme différente de la fenêtre de votre navigateur.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16247,6 +16925,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Press Export. The panel dims and a message tells you what it is working on. When it finishes, the file appears under Recent exports at the bottom. Click its name to save it.": {
+  "t": "Appuyez sur Exporter. Le panneau diminue et un message vous dit sur quoi il travaille. Une fois terminé, le fichier apparaît sous Exportations récentes en bas. Cliquez sur son nom pour le sauvegarder.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Press F on a focused basemap to add or remove it from favorites.": {
   "t": "Appuyez sur F sur une carte de base focalisée pour l'ajouter ou la supprimer des favoris.",
   "src": "libretranslate",
@@ -16301,6 +16985,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Preview fill color (hex)": {
+  "t": "Prévisualiser la couleur de remplissage (hex)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Preview first record": {
   "t": "Aperçu du premier enregistrement",
   "src": "libretranslate",
@@ -16327,6 +17017,18 @@
  },
  "Preview of the printed page": {
   "t": "Aperçu de la page imprimée",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preview outline color (hex)": {
+  "t": "Prévisualiser la couleur du contour (hex)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Preview outline width (px)": {
+  "t": "Aperçu de la largeur du contour (px)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16361,6 +17063,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Print Advanced turns the map on your screen into a finished page: the same layout your ArcGIS Pro template uses, with a title, legend and scale bar, ready to print or send.": {
+  "t": "Imprimer Advanced transforme la carte de votre écran en une page terminée : la même disposition que votre modèle ArcGIS Pro utilise, avec un titre, une légende et une barre d'échelle, prêts à imprimer ou à envoyer.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Print area": {
   "t": "Zone d'impression",
   "src": "libretranslate",
@@ -16373,8 +17081,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Print area, the first card under Advanced options, decides how much ground fits in the map frame. Three choices, under Scale.": {
+  "t": "La zone d'impression, la première carte sous Options avancées, décide de la quantité de terrain dans le cadre de la carte. Trois choix, sous échelle.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Print as a map series (PDF)": {
   "t": "Imprimer comme une série de cartes (PDF)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Print selected features by default": {
+  "t": "Imprimer les fonctionnalités sélectionnées par défaut",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16405,6 +17125,18 @@
  },
  "Print-Ready Labels: spread out the labels so they do not overlap when exported to PDF.": {
   "t": "Étiquettes prêtes à imprimer : étalez les étiquettes afin qu'elles ne se chevauchent pas lorsqu'elles sont exportées au format PDF.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Printing a large area over several pages": {
+  "t": "Impression d'une grande surface sur plusieurs pages",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Printing what you have selected": {
+  "t": "Impression de ce que vous avez sélectionné",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16555,6 +17287,12 @@
  },
  "Radius measurement enabled. Display the circle radius.": {
   "t": "Mesure radiale activée. Affiche le rayon du cercle.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Raster EPS (Level 2, JPEG-embedded). For vector output use PDF or SVG.": {
+  "t": "Raster EPS (niveau 2, JPEG-embedded). Pour la sortie vectorielle, utilisez PDF ou SVG.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16873,6 +17611,12 @@
  },
  "Remove from list": {
   "t": "Supprimer de la liste",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Remove from list clears one item and Clear empties the whole list. Neither deletes a file you have already saved.": {
+  "t": "Supprimer de la liste efface un élément et Effacer vide toute la liste. Ni supprimer un fichier que vous avez déjà enregistré.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17603,6 +18347,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Scale bar style": {
+  "t": "Style de barre d'échelle",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Scale bar units": {
+  "t": "Unités à barres d'échelle",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Scale field": {
   "t": "Champ d'échelle",
   "src": "libretranslate",
@@ -17741,6 +18497,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Search the guide (try \"legend\" or \"blank\")": {
+  "t": "Recherchez le guide (essayez \"légend\" ou \"blanc\")",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Search the guide (try \"load\" or \"fields\")": {
   "t": "Recherchez le guide (essayez \"charger\" ou \"champs\")",
   "src": "libretranslate",
@@ -17770,6 +18532,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Second units (dual)": {
+  "t": "Deuxième unité (double)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "See how your label format will appear": {
   "t": "Voyez comment votre format d'étiquette apparaîtra",
@@ -18253,6 +19021,12 @@
  },
  "Selected features are outlined in cyan on the print. Turn this off to print the map without them.": {
   "t": "Les caractéristiques sélectionnées sont décrites en cyan sur l'impression. Éteignez cela pour imprimer la carte sans eux.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Selected features: turn this on and anything you have selected is outlined on the print, in cyan with a thin white edge so it reads over dark aerial photography.": {
+  "t": "Caractéristiques sélectionnées : allumez ceci et tout ce que vous avez sélectionné est décrit sur l'imprimé, en cyan avec un fin bord blanc, donc il lit sur la photographie aérienne sombre.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19619,6 +20393,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Still stuck? Contact the GIS Division and mention the Print Advanced widget and this app.": {
+  "t": "Toujours coincé ? Contactez la Division SIG et mentionnez le widget Print Advanced et cette application.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Still stuck? Contact your GIS team and mention the Draw Advanced widget and this app.": {
   "t": "Toujours coincé ? Contactez votre équipe SIG et mentionnez le widget Draw Advanced et cette application.",
   "src": "libretranslate",
@@ -19753,6 +20533,12 @@
  },
  "Supported label formats": {
   "t": "Formats d'étiquette pris en charge",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "SVG or SVGZ: for editing the page afterwards in Illustrator or Inkscape. SVGZ is the same file, just smaller.": {
+  "t": "SVG ou SVGZ: pour modifier la page par la suite dans Illustrator ou Inkscape. SVGZ est le même fichier, juste plus petit.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20369,6 +21155,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The export is taking a long time: a high Map DPI or a large page takes longer. Keep the tab open and give it a few minutes. The message in the panel tells you what it is working on.": {
+  "t": "L'exportation prend beaucoup de temps: une carte haute DPI ou une grande page prend plus de temps. Gardez l'onglet ouvert et donnez-lui quelques minutes. Le message dans le panneau vous indique sur quoi il travaille.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The expression choice lets you write a short formula, such as helpers.upper($.NAME). Write $.FIELD to read a value from your data.": {
   "t": "Le choix d'expression vous permet d'écrire une formule courte, comme helpers.upper($.NAME). Écrivez $.FIELD pour lire une valeur à partir de vos données.",
   "src": "libretranslate",
@@ -20389,6 +21181,12 @@
  },
  "The feature you are reading is outlined on the map, so you can see which one it is.": {
   "t": "La fonction que vous lisez est décrite sur la carte, de sorte que vous pouvez voir laquelle elle est.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The file is a PDF unless you change it: open Advanced options and pick a Format under Output. PDF is the safe choice for anything you plan to print on paper.": {
+  "t": "Le fichier est un PDF à moins que vous ne le changez : ouvrez Options avancées et choisissez un format sous Sortie. PDF est le choix sûr pour tout ce que vous prévoyez imprimer sur papier.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20501,11 +21299,23 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The list is only for this visit. It empties when you close or reload the app, so save anything you want to keep.": {
+  "t": "La liste est seulement pour cette visite. Il se vide lorsque vous fermez ou rechargez l'application, alors enregistrez tout ce que vous voulez conserver.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The Load step checks the work, then writes the records into the layer.": {
   "t": "L'étape Charge vérifie le travail, puis inscrit les enregistrements dans la couche.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "The map area is blank or grey: the map had not finished drawing. Wait until the map is still and every layer has appeared, then export again.": {
+  "t": "La zone de la carte est blanche ou grise : la carte n'avait pas fini le dessin. Attendez que la carte soit immobile et que chaque calque soit apparu, puis exportez à nouveau.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "The map does not move or change scale by itself. Use the zoom action in the details when you want the map to go there.": {
   "t": "La carte ne bouge pas ou ne change pas d'échelle en soi. Utilisez l'action de zoom dans les détails lorsque vous voulez que la carte y aille.",
@@ -20591,6 +21401,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The outline is drawn rather than shaded, so labels and dimensions inside the parcel stay readable on paper.": {
+  "t": "Le contour est dessiné plutôt qu'ombré, de sorte que les étiquettes et les dimensions à l'intérieur du colis restent lisibles sur papier.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "The parcel polygon is built from the Boundary Lines only, then saved with the name, description, and stated area. If no line is marked Boundary Line, no polygon is created.": {
   "t": "Le polygone de colis est construit à partir des lignes de démarcation seulement, puis enregistré avec le nom, la description et la zone indiquée. Si aucune ligne n'est marquée Boundary Line, aucun polygone n'est créé.",
   "src": "libretranslate",
@@ -20647,6 +21463,12 @@
  },
  "The print service did not return a file.": {
   "t": "Le service d'impression n'a pas retourné de dossier.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The print service failed: the server refused the job or timed out. Try again, and if it keeps failing switch the Format to PDF and export a smaller page.": {
+  "t": "Le service d'impression a échoué : le serveur a refusé l'emploi ou l'horaire. Essayez encore, et si elle continue à échouer, passez le format au format PDF et exportez une page plus petite.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -20897,6 +21719,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "These options are for a Map only export, so the picture is the map edge to edge with nothing else on it.": {
+  "t": "Ces options sont pour une carte uniquement exporter, de sorte que l'image est le bord de la carte à bord avec rien d'autre sur elle.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "These settings are for advanced users only": {
   "t": "Ces paramètres sont uniquement pour les utilisateurs avancés",
   "src": "libretranslate",
@@ -21011,6 +21839,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "This runs in your browser, not ArcGIS Pro, so big series are limited: a yellow note warns about a large job with a rough time and file size, and a red note stops a series over the page limit set for this app.": {
+  "t": "Ceci fonctionne dans votre navigateur, pas ArcGIS Pro, si grande série sont limitées: une note jaune avertit sur un grand travail avec un temps difficile et la taille du fichier, et une note rouge arrête une série au-delà de la limite de page définie pour cette application.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "This scale and the map position set the print area that Inside the print area uses to pick features. Each page still sets its own scale.": {
   "t": "Cette échelle et la position de la carte définissent la zone d'impression utilisée à l'intérieur de la zone d'impression pour choisir les fonctions. Chaque page fixe toujours sa propre échelle.",
   "src": "libretranslate",
@@ -21121,6 +21955,12 @@
  },
  "Ticks and crosses": {
   "t": "Mèches et croix",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "TIFF: a large picture, and the right choice when you want the map to open in the correct place in ArcGIS Pro.": {
+  "t": "TIFF: une grande image et le bon choix lorsque vous voulez que la carte s'ouvre à l'endroit approprié dans ArcGIS Pro.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21671,6 +22511,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Turn on Page preview, right under Map title, to see the whole printed page while you pan and zoom. It is a quick sketch drawn from the screen: gray areas are outside the screen, and the overview map shows as a box. The export is always full quality.": {
+  "t": "Activez l'aperçu de la page, juste sous le titre de la carte, pour voir toute la page imprimée pendant que vous balayez et zoomez. Il s'agit d'un croquis rapide tiré de l'écran : les zones grises sont à l'extérieur de l'écran, et la carte d'aperçu apparaît comme une boîte. L'exportation est toujours de pleine qualité.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Turn on parent groups when a layer is checked on": {
   "t": "Activer les groupes parent quand un calque est coché",
   "src": "libretranslate",
@@ -21679,6 +22525,12 @@
  },
  "Turn on Print-Ready Labels in {displayOptions} before a PDF export to spread the labels out so they do not overlap.": {
   "t": "Activer les étiquettes prêtes à imprimer {displayOptions} avant une exportation de PDF pour étendre les étiquettes afin qu'elles ne se chevauchent pas.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Turn on Show print area and a rectangle appears on the map showing exactly what will print. Watch it while you zoom.": {
+  "t": "Allumer Afficher la zone d'impression et un rectangle apparaît sur la carte montrant exactement ce qui va imprimer. Regardez pendant que vous zoomez.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -21862,6 +22714,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Under Advanced options, each card opens and closes from its heading and remembers your choice; a closed card still shows a short summary of what is set inside it. The On the map card holds the switches for the {parts}; Page text holds Author, Copyright and the QR code; Style holds the font, north arrow and scale bar; Output holds the format, DPI, coordinate system, map-only export and file name. Turning a switch off leaves it off this page only; it does not change the map, and it does not change anything for anyone else.": {
+  "t": "Sous Options avancées, chaque carte s'ouvre et se ferme de son en-tête et se souvient de votre choix ; une carte fermée affiche toujours un bref résumé de ce qu'elle contient. Le Sur la carte de carte contient les commutateurs pour le {parts}; Page text holds Author, Copyright and the QR code; Style holds the font, north arrow and scale bar; Output holds the format, DPI, coordinator system, map-only export and file name. Éteindre un interrupteur ne le laisse hors de cette page que ; il ne change pas la carte, et il ne change rien pour personne d'autre.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Under Advanced options, turn on Print as a map series (PDF), then set Rows and Columns. The estimate underneath tells you how many pages you will get.": {
+  "t": "Sous Options avancées, activez Imprimer comme une série de cartes (PDF), puis définissez les lignes et les colonnes. L'estimation ci-dessous vous indique combien de pages vous obtiendrez.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Under the title is a list. Each line has a label on the left and the value for that feature on the right.": {
   "t": "Sous le titre est une liste. Chaque ligne a une étiquette à gauche et la valeur de cette fonctionnalité à droite.",
@@ -22475,6 +23339,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Vector feature layers in PDF and SVG (experimental)": {
+  "t": "Couches vectorielles en PDF et SVG (expérimental)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Vector page furniture; opens in Illustrator/Inkscape. Covers the AIX use case.": {
+  "t": "Meubles vectoriels; ouvre dans Illustrator/Inkscape. Couvre le cas d'utilisation AIX.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Verify your settings work with sample data": {
   "t": "Vérifier que vos paramètres fonctionnent avec les données de l'échantillon",
   "src": "libretranslate",
@@ -22703,6 +23579,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "What goes on the page": {
+  "t": "Ce qui se passe sur la page",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "What shows on the map": {
   "t": "Ce qui apparaît sur la carte",
   "src": "libretranslate",
@@ -22859,6 +23741,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Which file type to pick": {
+  "t": "Quel type de fichier choisir",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Which polygon attributes users can enter at runtime: the fixed name/description/stated-area inputs, the fields from the layer popup, or a custom list": {
   "t": "Quels attributs polygonaux les utilisateurs peuvent entrer à l'exécution : les entrées fixes de name/description/stated-area, les champs de la popup de calque ou une liste personnalisée",
   "src": "libretranslate",
@@ -22867,6 +23755,12 @@
  },
  "Which tab is active when the widget first opens.": {
   "t": "Quel onglet est actif quand le widget s'ouvre.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "While a series exports, the bar below Export shows Page 3 of 12 (with the feature name for one page per feature), one segment per page plus the index page and saving, how many steps are done and about how long is left. Keep this tab open until the file appears, or press Cancel to stop after the current page.": {
+  "t": "Alors qu'une série exporte, la barre ci-dessous Export affiche la page 3 de 12 (avec le nom de la fonction pour une page par fonction), un segment par page plus la page d'index et l'enregistrement, combien d'étapes sont faites et combien de temps reste. Gardez cet onglet ouvert jusqu'à ce que le fichier apparaisse, ou appuyez sur Annuler pour s'arrêter après la page actuelle.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23026,6 +23920,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Write export diagnostics to the console": {
+  "t": "Écrire des diagnostics d'exportation vers la console",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Write null": {
   "t": "Écrire null",
