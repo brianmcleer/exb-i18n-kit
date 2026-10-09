@@ -1,4 +1,10 @@
 {
+ " [layer reports: {value1}]": {
+  "t": "[Schichtberichte: {value1}]",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "- {combinedFeatureCount} feature": {
   "t": "- {combinedFeatureCount} Merkmal",
   "src": "libretranslate",
@@ -287,6 +293,30 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "(blank address)": {
+  "t": "(Leeradresse)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "(buffer area will be used for feature identification)": {
+  "t": "(Pufferbereich wird zur Merkmalsidentifikation verwendet)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "(buffer area will be used for wider parcel selection)": {
+  "t": "(Pufferbereich wird für eine breitere Paketauswahl verwendet)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "(continued)": {
+  "t": "(Fortsetzung)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "(date only)": {
   "t": "(nur Datum)",
   "src": "libretranslate",
@@ -346,6 +376,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "(source row unavailable)": {
+  "t": "(Quellenzeile nicht verfügbar)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "(symbology not supported)": {
   "t": "(Symbole werden nicht unterstützt)",
@@ -491,6 +527,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{base} Added to the map as {title}.": {
+  "t": "{base} Zur Karte hinzugefügt als {title}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{basemap}: swaps the background map, for example imagery instead of streets.": {
   "t": "{basemap}: tauscht die Hintergrundkarte aus, zum Beispiel Bilder anstelle von Straßen.",
   "src": "libretranslate",
@@ -499,6 +541,12 @@
  },
  "{batchOptions} (the checklist icon): {batchItems}.": {
   "t": "{batchOptions} (das Checklistensymbol): {batchItems}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{beforeCount} feature(s) selected, but none have mailing data — likely confidential records. Nothing to print.": {
+  "t": "{beforeCount} ausgewählte(s) Feature(s), aber keines hat Mailing-Daten — wahrscheinlich vertrauliche Aufzeichnungen. Nichts zu drucken.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -727,6 +775,12 @@
  },
  "{dataDescription}": {
   "t": "{dataDescription}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{distance} {unitDisplay} Buffer": {
+  "t": "{distance} {unitDisplay} Puffer",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1115,6 +1169,36 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{length} feature(s) selected at {label}.": {
+  "t": "{length} Merkmal(e), ausgewählt bei {label}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{length} feature(s) selected from {length2} point(s).": {
+  "t": "{length} Merkmal(e), ausgewählt aus {length2} Punkt(e).",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{length} feature(s) selected, but none have mailing data — likely confidential records. Nothing to export.": {
+  "t": "{length} ausgewählte(s) Feature(s), aber keines hat Mailing-Daten — wahrscheinlich vertrauliche Aufzeichnungen. Nichts zu exportieren.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{length} features highlighted with enhanced visualization": {
+  "t": "{length} Features hervorgehoben durch verbesserte Visualisierung",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{length} point(s) placed. Double-click or press Finish to complete.": {
+  "t": "{length} Punkt(e) platziert. Doppelklicken oder Drücken Ende zum Abschluss.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{linkText} (opens in new tab)": {
   "t": "{linkText} (wird im neuen Tab geöffnet)",
   "src": "libretranslate",
@@ -1339,6 +1423,18 @@
  },
  "{on} of {total} dated layers follow the slider": {
   "t": "{on} von {total} Datierte Schichten folgen dem Schieber",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{page} of {pages}": {
+  "t": "{page} von {pages}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{pageName}": {
+  "t": "{pageName}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -1769,6 +1865,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "{value} features selected and highlighted.": {
+  "t": "{value} ausgewählte und hervorgehobene Merkmale.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "{value} features selected from drawing geometry.": {
+  "t": "{value} Merkmale ausgewählt aus der Zeichnungsgeometrie.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "{value}: {linkText} (opens in new tab)": {
   "t": "{value}: {linkText} (wird im neuen Tab geöffnet)",
   "src": "libretranslate",
@@ -1792,6 +1900,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "{withMailing} of {length} selected feature(s) have mailing data; {missing} appear confidential and will be skipped on export.": {
+  "t": "{withMailing} von {length} ausgewählte(s) Feature(s) haben Mailing-Daten; {missing} erscheinen vertraulich und werden beim Export übersprungen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "{zoomToScale}: shown only while a layer is greyed out. Moves the map in or out to a zoom where that layer draws.": {
   "t": "{zoomToScale}: nur während eine Schicht ausgegraut ist. Verschiebt die Karte in oder aus einem Zoom, wo diese Schicht zeichnet.",
@@ -2213,6 +2327,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "1¾\" × ½\" — 80 return-address labels": {
+  "t": "13⁄4\" × 1⁄2\" — 80 Rücksendeetiketten",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "14 pt": {
   "t": "14 pt",
   "src": "libretranslate",
@@ -2303,6 +2423,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "2⅝\" × 1\" — 30 labels": {
+  "t": "25⁄8\" × 1\" — 30 Etiketten",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "28px": {
   "t": "28px",
   "src": "libretranslate",
@@ -2338,6 +2464,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "3½\" × 5\" — 4 shipping labels": {
+  "t": "31⁄2\" × 5\" — 4 Versandetiketten",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "3⅓\" × 4\" — 6 labels": {
+  "t": "31⁄3\" × 4\" — 6 Etiketten",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "32-bit Portable Network Graphics (PNG32)": {
   "t": "32-Bit Portable Network Graphics (PNG32)",
@@ -2380,6 +2518,24 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "4\" × 1\" — 20 labels": {
+  "t": "4\" × 1\" — 20 Etiketten",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "4\" × 1⅓\" — 14 labels": {
+  "t": "4\" × 11⁄3\" — 14 Etiketten",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "4\" × 2\" — 10 labels": {
+  "t": "4\" × 2\" — 10 Etiketten",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "40px": {
   "t": "40px",
@@ -2497,6 +2653,12 @@
  },
  "8-bit Portable Network Graphics (PNG8)": {
   "t": "8-Bit Portable Network Graphics (PNG8)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "8\" × 10\" — 1 full-sheet label": {
+  "t": "8\" × 10\" — 1 Vollblattetikett",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -3559,6 +3721,18 @@
  },
  "Add measurements for {name}": {
   "t": "Addieren von Messungen für {name}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add mode active - Click on features to add them to your selection": {
+  "t": "Modus aktiv hinzufügen - Klicken Sie auf Funktionen, um sie Ihrer Auswahl hinzuzufügen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Add mode disabled": {
+  "t": "Add-Modus deaktiviert",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -4943,6 +5117,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "An error occurred.": {
+  "t": "Es ist ein Fehler aufgetreten.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "An export shows an error or nothing happens: the download was blocked. Allow downloads for this site and try again.": {
   "t": "Ein Export zeigt einen Fehler an oder es passiert nichts: Der Download wurde blockiert. Erlauben Sie Downloads für diese Website und versuchen Sie es erneut.",
   "src": "libretranslate",
@@ -5377,6 +5557,12 @@
  },
  "Area:": {
   "t": "Fläche:",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Area: {formatValue} {currentAreaUnit}\nPerimeter: {formatValue2} {currentLinearUnit}": {
+  "t": "Fläche: {formatValue} {currentAreaUnit}Umfang: {formatValue2} {currentLinearUnit}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5873,6 +6059,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Avery 5160": {
+  "t": "Avery 5160",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Avery 5160 - 30 labels (2⅝\" × 1\")": {
   "t": "Avery 5160 - 30 Etiketten (25⁄8\" × 1\")",
   "src": "libretranslate",
@@ -5881,6 +6073,12 @@
  },
  "Avery 5160 (2⅝\" × 1\", 30 labels)": {
   "t": "Avery 5160 (25⁄8\" × 1\", 30 Etiketten)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Avery 5161": {
+  "t": "Avery 5161",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5897,6 +6095,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Avery 5162": {
+  "t": "Avery 5162",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Avery 5162 - 14 labels (4\" × 1⅓\")": {
   "t": "Avery 5162 - 14 Etiketten (4\" × 11⁄3\")",
   "src": "libretranslate",
@@ -5905,6 +6109,12 @@
  },
  "Avery 5162 (4\" × 1⅓\", 14 labels)": {
   "t": "Avery 5162 (4\" × 11⁄3\", 14 Etiketten)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Avery 5163": {
+  "t": "Avery 5163",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -5921,6 +6131,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Avery 5164": {
+  "t": "Avery 5164",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Avery 5164 - 6 labels (3⅓\" × 4\")": {
   "t": "Avery 5164 - 6 Etiketten (31⁄3\" × 4\")",
   "src": "libretranslate",
@@ -5933,14 +6149,32 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Avery 5165": {
+  "t": "Avery 5165",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Avery 5165 - 1 full-sheet label (8\" × 10\")": {
   "t": "Avery 5165 - 1 Vollblattetikett (8\" × 10\")",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Avery 5167": {
+  "t": "Avery 5167",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Avery 5167 - 80 return-address labels (1¾\" × ½\")": {
   "t": "Avery 5167 - 80 Rücksendeetiketten (13⁄4\" × 1⁄2\")",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Avery 5168": {
+  "t": "Avery 5168",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -8197,6 +8431,12 @@
  },
  "Choose which address type to use for labels": {
   "t": "Wählen Sie aus, welchen Adresstyp für Labels verwendet werden soll",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Choose which address types end users can generate labels for.": {
+  "t": "Wählen Sie aus, für welche Adresstypen Endbenutzer Labels generieren können.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -10471,6 +10711,12 @@
  },
  "Configure measurement units and display options.": {
   "t": "Konfigurieren Sie Messeinheiten und Anzeigeoptionen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Configure output": {
+  "t": "Output konfigurieren",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -12809,6 +13055,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Default sort": {
+  "t": "Ausfallart",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Default sort field": {
   "t": "Default sort field",
   "src": "libretranslate",
@@ -13069,6 +13321,18 @@
  },
  "Delete line": {
   "t": "Streichungslinie",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Delete mode active - Click on any drawn area to remove it": {
+  "t": "Modus aktiv löschen - Klicken Sie auf einen gezeichneten Bereich, um ihn zu entfernen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Delete mode disabled": {
+  "t": "Löschmodus deaktiviert",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -14171,11 +14435,23 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "downloading": {
+  "t": "Herunterladen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Downloading a copy": {
   "t": "Herunterladen einer Kopie",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "DPI ·": {
+  "t": "DPI ·",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Drag a file from your computer, or click to browse": {
   "t": "Ziehen Sie eine Datei von Ihrem Computer oder klicken Sie zum Durchsuchen",
@@ -14507,6 +14783,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Draw selection": {
+  "t": "Zeichnungsauswahl",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Draw selection area": {
   "t": "Zeichnungsauswahlbereich",
   "src": "libretranslate",
@@ -14770,6 +15052,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Drop a file here, or press Enter or Space to open the file picker.": {
+  "t": "Lassen Sie eine Datei hier fallen, oder drücken Sie Enter oder Space, um die Dateiauswahl zu öffnen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Drop photo": {
   "t": "Drop-Foto",
@@ -15061,6 +15349,12 @@
  },
  "Each layer names the date it uses. When a layer has more than one date (applied, issued, closed) a drop down beside it lets you pick which one the slider uses.": {
   "t": "Jede Ebene benennt das Datum, das sie verwendet. Wenn ein Layer mehr als ein Datum hat (angewandt, ausgegeben, geschlossen), können Sie mit einem Dropdown auswählen, welches der Slider verwendet.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Each line stays on one line and is trimmed with an ellipsis at the label edge.": {
+  "t": "Jede Linie bleibt auf einer Linie und wird mit einer Ellipse am Etikettenrand beschnitten.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16361,6 +16655,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Error adding feature. Please try again.": {
+  "t": "Funktion zum Hinzufügen von Fehlern. Bitte versuchen Sie es noch einmal.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Error adding text to map: {message}": {
   "t": "Fehler beim Hinzufügen von Text zur Karte: {message}",
   "src": "libretranslate",
@@ -16385,6 +16685,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Error creating buffer geometry.": {
+  "t": "Fehler beim Erstellen von Puffergeometrie.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Error creating PDF: {error}": {
   "t": "Fehler beim Erstellen von PDF: {error}",
   "src": "libretranslate",
@@ -16399,6 +16705,12 @@
  },
  "Error generating mailing labels": {
   "t": "Fehler beim Erstellen von Mailing-Etiketten",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Error generating mailing labels. This may be due to server connectivity issues. Please try again or contact support.": {
+  "t": "Fehlergenerierung von Mailing-Etiketten. Dies kann auf Serververbindungsprobleme zurückzuführen sein. Bitte versuchen Sie es erneut oder kontaktieren Sie den Support.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -16579,6 +16891,12 @@
  },
  "Every PDF is also a GeoPDF. Open it in Avenza Maps on a phone to see your location as a blue dot on the map, read coordinates in Acrobat with the Geospatial Location tool, or add it to ArcGIS Pro or QGIS and it lands in the right place.": {
   "t": "Jedes PDF ist auch ein GeoPDF. Öffnen Sie es in Avenza Maps auf einem Telefon, um Ihren Standort als blauen Punkt auf der Karte zu sehen, lesen Sie die Koordinaten in Acrobat mit dem Geospatial Location Tool oder fügen Sie es ArcGIS Pro oder QGIS hinzu und es landet an der richtigen Stelle.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Every row from your file with its match result added. Excel also gets Unmatched and Matched sheets.": {
+  "t": "Jede Zeile aus Ihrer Datei mit ihrem Übereinstimmungsergebnis hinzugefügt. Excel erhält auch Unmatched und Matched Blätter.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17255,6 +17573,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Export saves the current settings to an XML file; import applies a previously exported file. The map widget binding is not transferred, so imported layer and field settings only resolve when the target app uses a map containing the same layers.": {
+  "t": "Export speichert die aktuellen Einstellungen in einer XML-Datei; Import verwendet eine zuvor exportierte Datei. Die Karten-Widget-Bindung wird nicht übertragen, so dass importierte Layer- und Feldeinstellungen nur dann aufgelöst werden, wenn die Ziel-App eine Karte verwendet, die dieselben Layer enthält.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Export saves your drawings as a GeoJSON or shapefile you can email to someone.": {
   "t": "Export speichert Ihre Zeichnungen als GeoJSON oder Shapefile, die Sie an jemanden senden können.",
   "src": "libretranslate",
@@ -17561,6 +17885,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Failed to load basemaps: {message}": {
+  "t": "Fehler beim Laden von Basemaps: {message}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Failed to load items: {message}": {
   "t": "Nicht geladene Gegenstände: {message}",
   "src": "libretranslate",
@@ -17579,14 +17909,50 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Failed to process multipoint selection.": {
+  "t": "Mehrpunktauswahl konnte nicht verarbeitet werden.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Failed to process your location. Please try again.": {
   "t": "Sie konnten Ihren Standort nicht verarbeiten. Bitte versuchen Sie es noch einmal.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Failed to query features at that address.": {
+  "t": "Fehlgeschlagen, um Funktionen an dieser Adresse abzufragen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Failed to select features": {
   "t": "Nicht ausgewählte Features",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Failed to select features from drawing geometry.": {
+  "t": "Es ist nicht gelungen, Merkmale aus der Zeichnungsgeometrie auszuwählen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Failed to select features.": {
+  "t": "Nicht ausgewählt Features.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fallback query also failed: {message}": {
+  "t": "Fallback-Abfrage ist ebenfalls fehlgeschlagen: {message}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Fallback query returned {value} records": {
+  "t": "Fallback-Abfrage zurückgegeben {value} Aufzeichnungen",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17639,6 +18005,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Feature added! Total: {totalCount} features": {
+  "t": "Feature hinzugefügt! Insgesamt: {totalCount} Merkmale",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Feature Identify": {
   "t": "Merkmalskennung",
   "src": "libretranslate",
@@ -17659,6 +18031,12 @@
  },
  "Feature Identify version {version}": {
   "t": "Feature Identification Version {version}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Feature is already in your selection": {
+  "t": "Feature ist bereits in Ihrer Auswahl",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17695,6 +18073,12 @@
  },
  "Feature navigation (paging)": {
   "t": "Feature Navigation (Paging)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Feature removed from selection": {
+  "t": "Feature aus der Auswahl entfernt",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -17992,6 +18376,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "File loaded. {toLocaleString} rows ready to map.": {
+  "t": "Datei geladen. {toLocaleString} Zeilen bereit zur Karte.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "File name": {
   "t": "Dateiname",
@@ -18313,6 +18703,12 @@
  },
  "Find a place on the map by its address, by its coordinates, or by clicking the map to get the address there.": {
   "t": "Finden Sie einen Platz auf der Karte nach ihrer Adresse, nach ihren Koordinaten oder indem Sie auf die Karte klicken, um die Adresse dort zu erhalten.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Find features": {
+  "t": "Merkmale finden",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19403,6 +19799,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Generated {filename} with {length} mailing labels successfully!": {
+  "t": "Generiert {filename} mit {length} Mailing Labels erfolgreich!",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Generated Arcade expression (read-only preview)": {
   "t": "Generierter Arcade-Ausdruck (read-only preview)",
   "src": "libretranslate",
@@ -19417,6 +19819,12 @@
  },
  "Generated mailing_labels.pdf with {count} mailing labels successfully!": {
   "t": "Generated mailing labels.pdf mit {count} Mailing Labels erfolgreich!",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Generated mailing_labels.pdf with {length} mailing labels successfully!": {
+  "t": "Generated mailing labels.pdf mit {length} Mailing Labels erfolgreich!",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19525,6 +19933,18 @@
  },
  "Geocoding": {
   "t": "Geocodierung",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Geocoding {toLocaleString} of {toLocaleString2}.": {
+  "t": "Geocodierung {toLocaleString} von {toLocaleString2}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Geocoding complete. {toLocaleString} of {toLocaleString2} matched.": {
+  "t": "Geocoding vollständig. {toLocaleString} von {toLocaleString2} abgestimmt.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -19642,6 +20062,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Geometry from the Draw widget is ignored.": {
+  "t": "Geometrie aus dem Draw Widget wird ignoriert.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Geometry guides": {
   "t": "Geometrieleitfäden",
@@ -22421,6 +22847,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Input": {
+  "t": "Input",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Input date format": {
   "t": "Format des Eingabedatums",
   "src": "libretranslate",
@@ -23035,6 +23467,12 @@
  },
  "Keeps layers that were visible before the comparison. The selected layers still follow their side checkboxes.": {
   "t": "Behält Schichten, die vor dem Vergleich sichtbar waren. Die ausgewählten Schichten folgen noch ihren seitlichen Checkboxen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "keeps map zoom level": {
+  "t": "hält Map Zoom Level",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -23747,6 +24185,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Layer containing physical mailing address data (where mail is delivered).": {
+  "t": "Layer mit physischen Mailing-Adressdaten (wo Mail zugestellt wird).",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layer containing property owner address data (who owns the property).": {
+  "t": "Layer mit Adressdaten des Eigentümers (wer besitzt die Immobilie).",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "layer couldn’t be added. Check the URL.": {
+  "t": "Layer konnte nicht hinzugefügt werden. Überprüfen Sie die URL.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Layer details": {
   "t": "Angaben zu den Schichten",
   "src": "libretranslate",
@@ -23875,6 +24331,12 @@
  },
  "Layer visibility: {status}": {
   "t": "Sichtbarkeit der Schicht: {status}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Layer visibility: {value}": {
+  "t": "Sichtbarkeit der Schicht: {value}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -24370,6 +24832,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Let users draw areas on the map to filter which features are included.": {
+  "t": "Lassen Sie Benutzer Bereiche auf der Karte zeichnen, um zu filtern, welche Funktionen enthalten sind.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Let users show measurements in additional units alongside the primary unit, for example acres with square feet.": {
   "t": "Lassen Sie die Benutzer Messungen in zusätzlichen Einheiten neben der Primäreinheit anzeigen, z. B. Hektar mit Quadratfuß.",
@@ -25793,6 +26261,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Map clicks select features instead of opening popups. Popups are restored when the widget closes.": {
+  "t": "Kartenklicks wählen Funktionen aus, anstatt Popups zu öffnen. Popups werden wiederhergestellt, wenn das Widget geschlossen wird.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Map Configuration": {
   "t": "Kartenkonfiguration",
   "src": "libretranslate",
@@ -25837,6 +26311,18 @@
  },
  "Map DPI sets how fine the map picture is. Layout default is fine for most work. 300 is sharper but takes noticeably longer and makes a much bigger file.": {
   "t": "Map DPI legt fest, wie fein das Kartenbild ist. Layout Default ist für die meisten Arbeiten in Ordnung. 300 ist schärfer, dauert aber merklich länger und macht eine viel größere Datei.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map each label line to a field in the owner address layer.": {
+  "t": "Weisen Sie jede Beschriftungszeile einem Feld in der Eigentümer-Adressschicht zu.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map each label line to a field in the physical address layer.": {
+  "t": "Weisen Sie jede Beschriftungszeile einem Feld in der physikalischen Adressschicht zu.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -25921,6 +26407,12 @@
  },
  "Map image services can be expanded so you can compare their individual sublayers. A cached tiled layer is compared as one complete layer.": {
   "t": "Kartenbilddienste können erweitert werden, so dass Sie ihre einzelnen Teilschichten vergleichen können. Eine zwischengespeicherte gekachelte Schicht wird als eine vollständige Schicht verglichen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map is not ready. Please open the map first and try again.": {
+  "t": "Die Karte ist noch nicht fertig. Bitte öffnen Sie zuerst die Karte und versuchen Sie es erneut.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -26011,6 +26503,12 @@
  },
  "Map popup results are always listed first. Configured REST endpoint results are appended last.": {
   "t": "Map Popup Ergebnisse werden immer zuerst aufgeführt. Konfigurierte REST-Endpunktergebnisse werden zuletzt angehängt.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Map popups stay enabled and may open when users click the map.": {
+  "t": "Karten-Popups bleiben aktiviert und können geöffnet werden, wenn Benutzer auf die Karte klicken.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -26176,6 +26674,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Map view is not available.": {
+  "t": "Die Kartenansicht ist nicht verfügbar.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Map widget": {
   "t": "Map Widget",
@@ -27659,6 +28163,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Name (custom text)": {
+  "t": "Name (Zolltext)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Name (Must be unique, letters only):": {
   "t": "Name (Muss eindeutig sein, nur Buchstaben):",
   "src": "libretranslate",
@@ -27787,6 +28297,12 @@
  },
  "nearby record": {
   "t": "nahegelegene Aufzeichnung",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Need at least 3 points for a polygon": {
+  "t": "Benötigen Sie mindestens 3 Punkte für ein Polygon",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -27965,6 +28481,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No {value} fields configured": {
+  "t": "Nein {value} konfigurierte Felder",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No available layers. Check the map and the widget settings.": {
   "t": "Keine verfügbaren Schichten. Überprüfen Sie die Karte und die Widget-Einstellungen.",
   "src": "libretranslate",
@@ -28139,6 +28661,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No feature found at this location. Try clicking directly on a parcel.": {
+  "t": "Kein Feature an diesem Ort gefunden. Klicken Sie direkt auf ein Paket.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No feature layer is turned on in the map. Turn one on in the layer list to make pages from it.": {
   "t": "In der Map ist kein Feature Layer aktiviert. Schalten Sie eine in der Layerliste ein, um Seiten daraus zu erstellen.",
   "src": "libretranslate",
@@ -28163,8 +28691,32 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No features at that address.": {
+  "t": "Keine Features an dieser Adresse.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No features at that address. Try increasing the buffer distance.": {
+  "t": "Keine Features an dieser Adresse. Versuchen Sie, den Pufferabstand zu erhöhen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No features found in selection": {
   "t": "Keine Features in der Auswahl gefunden",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No features found in selection.": {
+  "t": "Keine Features in der Auswahl gefunden.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No features found in selection. The spatial query may have failed. Try selecting a larger area or use \"Generate Labels\" without a selection to get all features.": {
+  "t": "Keine Features in der Auswahl gefunden. Die räumliche Abfrage ist möglicherweise fehlgeschlagen. Versuchen Sie, einen größeren Bereich auszuwählen oder verwenden Sie \"Generate Labels\" ohne Auswahl, um alle Funktionen zu erhalten.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -28277,6 +28829,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "No layer available": {
+  "t": "Keine Schicht verfügbar",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No layer available for current address type": {
+  "t": "Keine Schicht für den aktuellen Adresstyp verfügbar",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No layer available for query.": {
+  "t": "Kein Layer für die Abfrage verfügbar.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No layer in this map has a date field, so there is nothing for the slider to change.": {
   "t": "Keine Ebene in dieser Karte hat ein Datumsfeld, so dass sich der Schieberegler nicht ändern kann.",
   "src": "libretranslate",
@@ -28297,6 +28867,12 @@
  },
  "No layer selected": {
   "t": "Keine Schicht ausgewählt",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No layer selected for current address type": {
+  "t": "Keine Schicht ausgewählt für den aktuellen Adresstyp",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -28327,6 +28903,12 @@
  },
  "No layers in this section": {
   "t": "Keine Schichten in diesem Abschnitt",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No layers loaded yet.": {
+  "t": "Noch keine Schichten geladen.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -28369,6 +28951,18 @@
  },
  "No list of addresses appears: you have typed fewer than three letters, or the address service is slow. Type a little more and wait a second.": {
   "t": "Es wird keine Liste von Adressen angezeigt: Sie haben weniger als drei Buchstaben eingegeben, oder der Adressdienst ist langsam. Tippen Sie ein wenig mehr und warten Sie eine Sekunde.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No location returned for that address.": {
+  "t": "Kein Ort für diese Adresse zurückgegeben.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No mailing fields configured": {
+  "t": "Keine Mailingfelder konfiguriert",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -28535,6 +29129,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No parcel layer configured. Open the Mailing Labels widget settings and select a layer.": {
+  "t": "Keine Paketschicht konfiguriert. Öffnen Sie die Widget-Einstellungen für Mailing Labels und wählen Sie eine Ebene aus.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "No parcel lines with the configured fields were found at that location.": {
   "t": "An dieser Stelle wurden keine Paketlinien mit den konfigurierten Feldern gefunden.",
   "src": "libretranslate",
@@ -28570,6 +29170,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "No points placed.": {
+  "t": "Keine Punkte platziert.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "No polygon after saving: the lines were saved as Connection Line. Set the Line type to Boundary Line on each parcel leg, or pick Boundary Line in the toolbar before digitizing, then save again.": {
   "t": "Kein Polygon nach dem Speichern: Die Leitungen wurden als Connection Line gespeichert. Legen Sie den Linientyp auf Boundary Line für jedes Paketbein fest oder wählen Sie Boundary Line in der Symbolleiste vor der Digitalisierung und speichern Sie dann erneut.",
@@ -28789,6 +29395,12 @@
  },
  "No values available.": {
   "t": "Keine Werte verfügbar.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "No visible snappable layers found.": {
+  "t": "Keine sichtbaren schnappbaren Schichten gefunden.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -29957,6 +30569,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Only the rows that did not match, with the reason for each. Hand this list to whoever is checking the addresses.": {
+  "t": "Nur die Zeilen, die nicht übereinstimmen, mit dem Grund für jeden. Geben Sie diese Liste an denjenigen weiter, der die Adressen überprüft.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Only the rows that matched, with the address the locator matched them to.": {
+  "t": "Nur die Zeilen, die übereinstimmten, mit der Adresse, mit der der Locator sie übereinstimmte.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Only used if the URL above is blank and boundaries are in the same map service.": {
   "t": "Wird nur verwendet, wenn die URL oben leer ist und sich die Grenzen im selben Kartendienst befinden.",
   "src": "libretranslate",
@@ -30929,6 +31553,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Pagination complete. Total features collected: {finalCount}": {
+  "t": "Pagination vollständig. Insgesamt erfasste Merkmale: {finalCount}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Palatino": {
   "t": "Palatino",
   "src": "libretranslate",
@@ -31039,6 +31669,12 @@
  },
  "Parse and apply the XML below": {
   "t": "Analyse und Anwendung des XML unten",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Partial sheet": {
+  "t": "Teilblatt",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -31193,6 +31829,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "PDF generation failed: {message}": {
+  "t": "PDF Generation fehlgeschlagen: {message}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "PDF generation failed.": {
   "t": "PDF Generation ist fehlgeschlagen.",
   "src": "libretranslate",
@@ -31201,6 +31843,12 @@
  },
  "PDF generation failed. Please try CSV export instead.": {
   "t": "PDF Generation ist fehlgeschlagen. Bitte versuchen Sie stattdessen den CSV-Export.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "PDF Generation: Processing {length} features for {verb}": {
+  "t": "PDF Generation: Verarbeitung {length} Merkmale für {verb}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -31775,6 +32423,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Place at least 1 point before finishing.": {
+  "t": "Legen Sie mindestens 1 Punkt vor dem Ende.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Place grid mode activated. Click on the map to set the grid origin.": {
   "t": "Rastermodus aktivieren. Klicken Sie auf die Karte, um den Grid-Ursprung festzulegen.",
   "src": "libretranslate",
@@ -31933,6 +32587,12 @@
  },
  "Please don’t close this window until complete.": {
   "t": "Bitte schließen Sie dieses Fenster nicht bis zum Abschluss.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Please draw a selection area first before adding features": {
+  "t": "Bitte zeichnen Sie zuerst einen Auswahlbereich, bevor Sie Features hinzufügen",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -32891,6 +33551,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Preview & export": {
+  "t": "Preview & Export",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Preview fill color (hex)": {
   "t": "Vorschau Füllfarbe (hex)",
   "src": "libretranslate",
@@ -33125,8 +33791,20 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "PrintAdvancedConfig version=\"1\" ...>": {
+  "t": "PrintAdvancedConfig version=\"1\" ...>",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "printed scale": {
   "t": "Druckwaage",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "printing": {
+  "t": "Druck",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -33157,6 +33835,12 @@
  },
  "Prints the same legend the Legend widget shows: visible layers, group layers, map service sublayers, and all renderer types. Choose a panel beside the map (the map shrinks to make room) or a corner overlay. The legend fits itself: more columns, then smaller text, then an honest \"+ N more\" note.": {
   "t": "Druckt die gleiche Legende, die das Legend-Widget zeigt: sichtbare Schichten, Gruppenschichten, Kartendienst-Subschichten und alle Renderer-Typen. Wählen Sie ein Panel neben der Karte (die Karte schrumpft, um Platz zu schaffen) oder eine Ecküberlagerung. Die Legende passt selbst: mehr Spalten, dann kleinerer Text, dann eine ehrliche \"+ N more\" Note.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "prints what you see": {
+  "t": "Drucken, was Sie sehen",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -33193,6 +33877,12 @@
  },
  "Processing {current} of {total} records...": {
   "t": "Verarbeitung {current} von {total} Aufzeichnungen...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Processing {length} point(s)...": {
+  "t": "Verarbeitung {length} Punkt(e)...",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -33295,6 +33985,12 @@
  },
  "Property Report Settings": {
   "t": "Einstellungen des Immobilienberichts",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Provide an ArcGIS GeocodeServer URL to enable address search inside the widget. Leave blank to hide the search panel.": {
+  "t": "Geben Sie eine ArcGIS GeocodeServer URL an, um die Adresssuche im Widget zu ermöglichen. Lassen Sie leer, um das Suchfeld zu verbergen.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -33407,6 +34103,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Query {queryCount} failed: {message}": {
+  "t": "Abfrage {queryCount} gescheitert: {message}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Query {queryCount}: Received {value} records. ExceededTransferLimit: {exceededTransferLimit}": {
+  "t": "Abfrage {queryCount}: erhalten {value} Aufzeichnungen. ExceededTransferLimit: {exceededTransferLimit}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Query {queryCount}: Requesting {num} records starting at {start}": {
+  "t": "Abfrage {queryCount}: Antragstellung {num} Aufzeichnungen beginnend bei {start}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Query a parcel layer to display additional fields (like parcel number, owner name) in the report header. The query uses the search point to find the intersecting feature.": {
   "t": "Abfrage einer Paketebene, um zusätzliche Felder (wie Paketnummer, Besitzername) im Berichtskopf anzuzeigen. Die Abfrage verwendet den Suchpunkt, um die Schnittfunktion zu finden.",
   "src": "libretranslate",
@@ -33463,6 +34177,12 @@
  },
  "Query related tables using relationship keys to show linked records.": {
   "t": "Abfragebezogene Tabellen mit Beziehungsschlüsseln, um verknüpfte Datensätze anzuzeigen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Query returned no features. Stopping pagination.": {
+  "t": "Query hat keine Features zurückgegeben. Paginierung stoppen.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -33553,6 +34273,12 @@
  },
  "Radius measurement enabled. Display the circle radius.": {
   "t": "Radiusmessung möglich. Den Kreisradius anzeigen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Radius: {formatValue} {currentLinearUnit}\nCircumference: {formatValue2} {currentLinearUnit2}\nArea: {formatValue3} {currentAreaUnit}": {
+  "t": "Radius: {formatValue} {currentLinearUnit}Umfang: {formatValue2} {currentLinearUnit2}Fläche: {formatValue3} {currentAreaUnit}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -33679,6 +34405,12 @@
  },
  "Reading chapters aloud.": {
   "t": "Die Kapitel vorlesen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Reading file.": {
+  "t": "Lesedatei.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -34481,6 +35213,24 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Removed {dupsRemoved} duplicate label(s) from {beforeDedup} records": {
+  "t": "Entfernt {dupsRemoved} Duplikatetikett(en) von {beforeDedup} Aufzeichnungen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Removed {removed} empty record(s) from {beforeCount} total": {
+  "t": "Entfernt {removed} leere Aufzeichnung(en) von {beforeCount} insgesamt",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Removed {removed} empty record(s) from {length} total": {
+  "t": "Entfernt {removed} leere Aufzeichnung(en) von {length} insgesamt",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Rename": {
   "t": "Name",
   "src": "libretranslate",
@@ -34576,6 +35326,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Replace file. Current: {fileName}. Press Enter or Space to choose a different file.": {
+  "t": "Datei ersetzen. Aktuell: {fileName}Drücken Sie Enter oder Space, um eine andere Datei auszuwählen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
  },
  "Replace image": {
   "t": "Bild ersetzen",
@@ -35537,6 +36293,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Safety limit reached. Stopping pagination.": {
+  "t": "Sicherheitsgrenze erreicht. Paginierung stoppen.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Samoan (Gagana Samoa)": {
   "t": "Samoanisch (Gagana Samoa)",
   "src": "libretranslate",
@@ -36085,6 +36847,12 @@
  },
  "Search for a property or location": {
   "t": "Suche nach einer Immobilie oder einem Standort",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Search for an address first.": {
+  "t": "Suchen Sie zuerst nach einer Adresse.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -37199,6 +37967,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Selected {label}, but no mailing data is on file (likely a confidential record).": {
+  "t": "Ausgewählt {label}, aber keine Mailing-Daten sind in der Datei (wahrscheinlich eine vertrauliche Aufzeichnung).",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Selected {length} feature(s) at {label}, but none have mailing data on file (likely confidential records).": {
+  "t": "Ausgewählt {length} Merkmal(e) am {label}, aber keine haben Mailing-Daten in der Datei (wahrscheinlich vertrauliche Aufzeichnungen).",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Selected Basemaps": {
   "t": "Ausgewählte Basemaps",
   "src": "libretranslate",
@@ -37283,6 +38063,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Selection area removed": {
+  "t": "Auswahlbereich entfernt",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Selection cleared": {
   "t": "Auswahl gecleart",
   "src": "libretranslate",
@@ -37333,6 +38119,18 @@
  },
  "Selection Status": {
   "t": "Auswahlstatus",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Send \"{value}\" to Identify By Query": {
+  "t": "Senden Sie{value}Identifizieren nach Query",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Send \"{value}\" to Mailing Labels": {
+  "t": "Senden Sie{value}Auf Mailing Labels",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -37445,6 +38243,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Send the selected drawing to Identify By Query{value1}": {
+  "t": "Senden Sie die ausgewählte Zeichnung an Identifizieren nach Abfrage{value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Send the selected drawing to Mailing Labels{value1}": {
+  "t": "Senden Sie die ausgewählte Zeichnung an Mailing Labels{value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Sending and receiving drawings": {
   "t": "Senden und Empfangen von Zeichnungen",
   "src": "libretranslate",
@@ -37459,6 +38269,12 @@
  },
  "Sends the basemap chosen in either basemap gallery to the next app. The destination app needs a Map Switcher connected to its map to apply it.": {
   "t": "Sendet die in der Basemap-Galerie ausgewählte Basemap an die nächste App. Die Ziel-App benötigt einen Map Switcher, der mit ihrer Karte verbunden ist, um sie anzuwenden.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Sent {length} label(s) to your printer.": {
+  "t": "gesendet {length} Etikett(en) für Ihren Drucker.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -37771,6 +38587,12 @@
  },
  "Shapefile": {
   "t": "Shapefil",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Shapes drawn in the Draw widget can be used to select parcels. The Draw widget must also have its Mailing Labels integration enabled.": {
+  "t": "Formen, die im Draw-Widget gezeichnet werden, können verwendet werden, um Pakete auszuwählen. Das Draw-Widget muss auch seine Mailing Labels-Integration aktiviert haben.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -39029,6 +39851,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Side Length: {formatValue} {currentLinearUnit}\nPerimeter: {formatValue2} {currentLinearUnit2}\nArea: {formatValue3} {currentAreaUnit}": {
+  "t": "Seitenlänge: {formatValue} {currentLinearUnit}Umfang: {formatValue2} {currentLinearUnit2}Fläche: {formatValue3} {currentAreaUnit}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Side panel": {
   "t": "Seitenteil",
   "src": "libretranslate",
@@ -39199,6 +40027,12 @@
  },
  "Size: {markerSize}px": {
   "t": "Größe: {markerSize}px",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "SketchViewModel is not available.": {
+  "t": "SketchViewModel ist nicht verfügbar.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -39421,6 +40255,12 @@
  },
  "Snapping enabled with {snapSourcesCount} layers available for snapping.": {
   "t": "Snapping ermöglicht mit {snapSourcesCount} zum Schnappen zur Verfügung stehende Schichten.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Snapping failed: {message}": {
+  "t": "Snapping fehlgeschlagen: {message}",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -40159,6 +40999,12 @@
  },
  "Starting paginated query. Target: {max} records": {
   "t": "Starten der Paginierten Abfrage. Ziel: {max} Aufzeichnungen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Starting paginated query. Target: {maxFeatures} records": {
+  "t": "Starten der Paginierten Abfrage. Ziel: {maxFeatures} Aufzeichnungen",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -40931,6 +41777,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Switched to {value}. Previous selection cleared.": {
+  "t": "Umgestellt auf {value}Vorherige Auswahl gelöscht.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Switched to blend mode. Use the slider to adjust transparency.": {
   "t": "Wechsel in den Blend-Modus. Verwenden Sie den Slider, um die Transparenz anzupassen.",
   "src": "libretranslate",
@@ -41537,6 +42389,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Text wider than the label (such as a long owner name) continues on the next line. If the label runs out of room, the font shrinks (down to 5pt) so no line is dropped.": {
+  "t": "Text breiter als das Label (z. B. ein langer Besitzername) wird in der nächsten Zeile fortgesetzt. Wenn das Etikett aus dem Raum läuft, schrumpft die Schrift (bis auf 5pt), so dass keine Linie fallen gelassen wird.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "Thai (ไทย)": {
   "t": "Thailändisch (ไทย)",
   "src": "libretranslate",
@@ -41545,6 +42403,24 @@
  },
  "Thank you! Your concern has been submitted.": {
   "t": "Vielen Dank! Ihre Besorgnis wurde geäußert.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "That": {
+  "t": "Das",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "That {value1}": {
+  "t": "Das {value1}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "That {value1} layer couldn’t be added. Check the URL.": {
+  "t": "Das {value1} Layer konnte nicht hinzugefügt werden. Überprüfen Sie die URL.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -42581,6 +43457,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The selected feature has no mailing data — likely a confidential record. Nothing to export.": {
+  "t": "Die ausgewählte Funktion hat keine Mailing-Daten - wahrscheinlich ein vertraulicher Datensatz. Nichts zu exportieren.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The selected feature has no mailing data — likely a confidential record. Nothing to print.": {
+  "t": "Die ausgewählte Funktion hat keine Mailing-Daten - wahrscheinlich ein vertraulicher Datensatz. Nichts zu drucken.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
  "the selected layer": {
   "t": "die ausgewählte Schicht",
   "src": "libretranslate",
@@ -42661,6 +43549,12 @@
  },
  "The Sort list orders by Newest, Oldest, Name or Type.": {
   "t": "Die Sortierliste bestellt nach Neuestem, Ältestem, Name oder Typ.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "The sort selected when the widget opens. Users can still change it in the widget.": {
+  "t": "Die sortierung ausgewählt, wenn das widget öffnet. Benutzer können es weiterhin im Widget ändern.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
@@ -44803,6 +45697,12 @@
  },
  "Unable to access layer data": {
   "t": "Unfähig, auf Schichtdaten zuzugreifen",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-09"
+ },
+ "Unable to get your location.": {
+  "t": "Sie können Ihren Standort nicht finden.",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
