@@ -2,9 +2,10 @@
 
 ## 1.2.0 (2026-10-09)
 
-- Audit and wiring follow local UI helper parameters, aliases and array metadata, including headings passed to arbitrary helper names.
+- Audit and wiring follow local UI helper parameters, return helpers, indexed labels, aliases and array metadata, including headings passed to arbitrary helper names.
 - Message severities remain unchanged while message argument 1 translates; custom `sinkArgs` positions work in audit, extract, wire and localize.
 - Concatenated UI sentences become one translation with placeholders. Module UI metadata translates lazily through getters and follows locale changes.
+- Audit flags fixed English number/date locales; English/browser locale checks and opt-in `--localize-formats` uses the current app locale without changing units, currencies or selected format options.
 - Audit recognizes generated translators and reports translations evaluated before render. Source scanning no longer claims complete runtime coverage from an empty result.
 - Regression tests cover helper wrappers, notification positions, metadata, full sentences, repeated runs and locale changes.
 

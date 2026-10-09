@@ -47,6 +47,7 @@ Options
   --no-cldr              skip Unicode CLDR unit names (downloaded once, cached in ~/.exb-i18n)
   --cldr-tarball <tgz>   use a local cldr-units-full .tgz (offline machines)
   --dry-run              report only, write nothing
+  --localize-formats     wire/localize: replace fixed English date/number locales with the app locale
   --no-wire              localize: skip the wire pass
   --json                 machine-readable output (audit, status)
   --strict               audit/check exit with code 1 when anything is found
@@ -60,7 +61,7 @@ function parseArgs (argv) {
     if (!a.startsWith('--')) { out._.push(a); continue }
     const [k, inline] = a.slice(2).split('=')
     const flag = k.replace(/-([a-z])/g, (m, c) => c.toUpperCase())
-    if (['dryRun', 'json', 'strict', 'noShipMachine', 'noCldr', 'noMemory', 'refreshCldr', 'apply', 'help', 'version', 'noWire'].includes(flag)) { out[flag] = true; continue }
+    if (['dryRun', 'json', 'strict', 'noShipMachine', 'noCldr', 'noMemory', 'refreshCldr', 'apply', 'help', 'version', 'noWire', 'localizeFormats'].includes(flag)) { out[flag] = true; continue }
     const v = inline !== undefined ? inline : argv[++i]
     if (flag === 'tm') out.tm.push(v)
     else out[flag] = v
@@ -257,7 +258,7 @@ async function main () {
       log(`    ${edits} change(s) in ${changed} file(s), ${added} new key(s)${backupDir ? `; originals saved in ${path.relative(w, backupDir)}` : ''}`)
       if (!args.noWire) {
         const { wireWidget } = require('../lib/wire')
-        const wr = wireWidget(w, { client: cfg.client, sinks: cfg.sinks, sinkArgs: cfg.sinkArgs, apply: true })
+        const wr = wireWidget(w, { client: cfg.client, sinks: cfg.sinks, sinkArgs: cfg.sinkArgs, localizeFormats: args.localizeFormats || cfg.localizeFormats, apply: true })
         const files = (wr.results || []).filter(r => r.changed).length
         const keys = Object.values(wr.added || {}).reduce((n, a) => n + Object.keys(a).length, 0)
         if (files) log(`    wire: ${files} more file(s), ${keys} new key(s) (English outside a translator, config defaults, messages reads)`)
@@ -283,7 +284,7 @@ async function main () {
   } else if (cmd === 'wire') {
     const { wireWidget, formatWire } = require('../lib/wire')
     for (const w of targets) {
-      const r = wireWidget(w, { client: cfg.client, sinks: cfg.sinks, sinkArgs: cfg.sinkArgs, apply: !!args.apply })
+      const r = wireWidget(w, { client: cfg.client, sinks: cfg.sinks, sinkArgs: cfg.sinkArgs, localizeFormats: args.localizeFormats || cfg.localizeFormats, apply: !!args.apply })
       log(formatWire(r, !!args.apply))
       if (!args.apply && args.json) console.log(JSON.stringify(r.results.flatMap(x => x.report.map(p => Object.assign({ file: x.rel }, p))), null, 2))
     }

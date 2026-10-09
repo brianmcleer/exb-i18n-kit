@@ -26,6 +26,7 @@
 | `shipMachine` | `false` keeps machine translations out of the language files (review only) |
 | `fillMissingWithEnglish` | write English for untranslated keys. Experience Builder loads a widget's messages from the language file only, so without this react-intl logs a missing-translation error per key |
 | `reviewFiles` | `true` makes every sync also write review sheets |
+| `localizeFormats` | opt in to the app locale for English/browser date and number formatting; preserves formatting options, currencies and units |
 | `sinks` | additional message function names, using argument 0 |
 | `sinkArgs` | map function names to zero-based UI argument indexes, e.g. `{ "customNotice": [1] }`; an empty array disables that sink |
 | `prefix` | key prefix for new keys from `localize` / `extract`, per translations folder |

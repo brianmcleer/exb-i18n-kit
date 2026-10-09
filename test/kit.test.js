@@ -499,3 +499,65 @@ export default function Widget(props: any) {
   assert.match(fs.readFileSync(file,'utf8'),/id: 'Option ID'/)
   assert.equal(auditWidget(dir).findings.length,0)
 })
+
+test('fixed English number/date locales are flagged and can opt into app locale', () => {
+ const {wireWidget}=require('../lib/wire'),{auditWidget}=require('../lib/audit')
+ const dir=freshWidget(),file=path.join(dir,'src/runtime/widget.tsx')
+ fs.writeFileSync(file,`import {jsx} from 'jimu-core'
+export default function Widget(props: any) {
+ const amount=props.amount.toLocaleString('en-US', {style:'currency', currency:'USD'})
+ const date=new Date(props.date).toLocaleDateString('en-US', {month:'long'})
+ return jsx('div', {children:[date,amount]})
+}`)
+ assert.equal(auditWidget(dir).findings.filter(f=>f.kind==='locale').length,2)
+ wireWidget(dir,{apply:true})
+ assert.match(fs.readFileSync(file,'utf8'),/'en-US'/,'fixed format remains unless opted in')
+ wireWidget(dir,{apply:true,localizeFormats:true})
+ const out=fs.readFileSync(file,'utf8')
+ assert.doesNotMatch(out,/'en-US'/)
+ assert.match(out,/currency:'USD'/)
+ assert.match(out,/month:'long'/)
+ assert.match(out,/toLocaleDateString\(__locale\(\)/)
+ assert.match(fs.readFileSync(path.join(dir,'src/runtime/i18n-t.ts'),'utf8'),/export function __locale/)
+ assert.equal(auditWidget(dir).findings.length,0)
+ assert.equal(wireWidget(dir,{apply:true,localizeFormats:true}).results.filter(r=>r.changed).length,0)
+})
+
+test('local UI return helpers and dynamically indexed labels are discovered', () => {
+ const {wireWidget}=require('../lib/wire'),{auditWidget}=require('../lib/audit')
+ const dir=freshWidget(),file=path.join(dir,'src/runtime/widget.tsx')
+ fs.writeFileSync(file,`import {jsx} from 'jimu-core'
+const labels={ok:'Address matched',missing:'No address found'}
+function formatWhen(date: Date) { return 'Yesterday, ' + date.toLocaleTimeString() }
+export default function Widget(props: any) {
+ return jsx('div', {children:[labels[props.status],formatWhen(props.date)]})
+}`)
+ const before=auditWidget(dir)
+ assert.ok(before.findings.some(f=>f.text==='Address matched'))
+ assert.ok(before.findings.some(f=>f.text.includes('Yesterday')))
+ wireWidget(dir,{apply:true,localizeFormats:true})
+ // A containing sentence rewrite can cover a child formatting edit; repeat is
+ // deliberately supported and must converge without duplicate captures.
+ wireWidget(dir,{apply:true,localizeFormats:true})
+ const out=fs.readFileSync(file,'utf8')
+ assert.match(out,/get ok \(\)/)
+ assert.match(out,/toLocaleTimeString\(__locale\(\)\)/)
+ assert.equal(auditWidget(dir).findings.length,0)
+ assert.equal(wireWidget(dir,{apply:true,localizeFormats:true}).results.filter(r=>r.changed).length,0)
+})
+
+test('runtime and settings catalogs stay separate and backups sort by timestamp', () => {
+ const {auditWidget}=require('../lib/audit'),{restoreLatest}=require('../lib/localize')
+ const dir=freshWidget(),setting=path.join(dir,'src/setting/translations')
+ fs.mkdirSync(setting,{recursive:true});fs.writeFileSync(path.join(setting,'default.ts'),"export default {settingOnly: 'Settings only'}\n")
+ fs.writeFileSync(path.join(dir,'src/runtime/widget.tsx'),"import {__t} from './i18n-t'\nexport const text=__t('settingOnly')\n")
+ const a=auditWidget(dir)
+ assert.ok(a.missing.includes('settingOnly'))
+ assert.ok(a.findings.some(f=>f.kind==='timing'))
+ const root=path.join(dir,'i18n/backup')
+ for(const[name,text]of [['2030-01-01T01-01-01-wire','older'],['2030-01-01T01-01-01-100Z-abcd-wire','newer']]) {
+  const d=path.join(root,name,'src/runtime');fs.mkdirSync(d,{recursive:true});fs.writeFileSync(path.join(d,'widget.tsx'),text)
+ }
+ restoreLatest(dir)
+ assert.equal(fs.readFileSync(path.join(dir,'src/runtime/widget.tsx'),'utf8'),'newer')
+})

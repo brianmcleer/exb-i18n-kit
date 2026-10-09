@@ -191,7 +191,7 @@ Apache-2.0. Not affiliated with or endorsed by Esri.
 
 ## UI wiring beyond JSX
 
-The scanner follows local variables, metadata used by array callbacks, and parameters passed through local UI helpers. It detects `showMessage('success', 'Saved')` at argument 1 and preserves the severity. Module-level UI metadata uses getters so it follows locale changes after import. IDs, comparisons, constructors, code samples, and console output remain protected.
+The scanner follows local variables, metadata used by array callbacks, parameters passed through local UI helpers, local UI return helpers and dynamically indexed label tables. It detects `showMessage('success', 'Saved')` at argument 1 and preserves the severity. Module-level UI metadata uses getters so it follows locale changes after import. IDs, comparisons, constructors, code samples, and console output remain protected.
 
 For your own notification or UI API, configure zero-based argument positions in `exb-i18n.config.json`:
 
@@ -200,3 +200,5 @@ For your own notification or UI API, configure zero-based argument positions in 
 ```
 
 Run `audit` after wiring, then type check, build, and test runtime and settings. The scanner cannot prove coverage of external data, reflection, arbitrary imported helper functions, or all message interpolation. A filled locale file may still contain English fallbacks or unreviewed machine translations.
+
+`audit` also reports English or browser-default date/number locales. If these should follow the app language, run `wire <widget> --apply --localize-formats` (or set `"localizeFormats": true`). Explicit date styles, units and currencies remain unchanged. If an English format is intentional, keep it and document that decision.
