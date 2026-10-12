@@ -122,6 +122,11 @@ async function runSync (targets, cfg, args, log, writeReview) {
   if (provider) log(`Machine translation: ${provider.name || 'custom provider'}${cfg.shipMachine ? '' : ' (review only)'}`)
   const reports = []
   for (const w of targets) {
+    if (!args.dryRun) {
+      // Generated i18n-t.ts helpers from earlier kit versions get their fixes here, so sync is enough.
+      const up = require('../lib/wire').upgradeHelpers(w)
+      if (up.length) log(`${path.basename(w)}: updated generated ${up.join(', ')} to this kit version`)
+    }
     const r = await syncWidget(w, { cfg, tm, provider, memory, locales, log, dryRun: !!args.dryRun, writeReview: writeReview || cfg.reviewFiles === true })
     reports.push(r)
     const t = r.totals
@@ -245,29 +250,34 @@ async function main () {
     if (args.json) console.log(JSON.stringify(all, null, 2))
     if (args.strict && found) process.exitCode = 1
   } else if (cmd === 'localize') {
-    const { backupAndExtract } = require('../lib/localize')
+    const { localizeWidget } = require('../lib/localize')
     const { auditWidget } = require('../lib/audit')
     for (const w of targets) {
       const name = path.basename(w)
       log(`\n== ${name} ==`)
-      log('1/3 Moving hardcoded English into translations/default.ts')
-      // One backup folder for extract and wire, so a single restore undoes the whole localize run.
-      const runBackup = path.join(w, 'i18n', 'backup', require('../lib/localize').stamp() + '-localize')
-      const { result, backupDir, changed } = backupAndExtract(w, { client: cfg.client, prefix: args.prefix || cfg.prefix, sinks: cfg.sinks, sinkArgs: cfg.sinkArgs, backupDir: runBackup })
-      const edits = result.results.reduce((n, r) => n + r.edits.length, 0)
-      const skipped = result.results.flatMap(r => r.skipped)
-      const added = Object.values(result.added).reduce((n, a) => n + Object.keys(a).length, 0)
-      log(`    ${edits} change(s) in ${changed} file(s), ${added} new key(s)${backupDir ? `; originals saved in ${path.relative(w, backupDir)}` : ''}`)
-      if (!args.noWire) {
-        const { wireWidget } = require('../lib/wire')
-        const wr = wireWidget(w, { client: cfg.client, sinks: cfg.sinks, sinkArgs: cfg.sinkArgs, localizeFormats: args.localizeFormats || cfg.localizeFormats, apply: true, backupDir: runBackup })
-        const files = (wr.results || []).filter(r => r.changed).length
-        const keys = Object.values(wr.added || {}).reduce((n, a) => n + Object.keys(a).length, 0)
-        if (files) log(`    wire: ${files} more file(s), ${keys} new key(s) (English outside a translator, config defaults, messages reads)`)
-        for (const r of wr.results || []) for (const p of r.report) if (/by hand/.test(p.why)) log(`    hand edit: ${r.rel}: ${p.why}`)
-      }
-      log('2/3 Writing language files')
-      await runSync([w], cfg, args, log)
+      log('1/3 Moving hardcoded English into translations/default.ts' + (args.noWire ? '' : ' and wiring the rest'))
+      // extract, wire and sync share one backup folder: one restore undoes the whole run.
+      let skipped = []
+      const run = await localizeWidget(w, {
+        extract: { client: cfg.client, prefix: args.prefix || cfg.prefix, sinks: cfg.sinks, sinkArgs: cfg.sinkArgs },
+        wire: !args.noWire,
+        wireOpts: { client: cfg.client, sinks: cfg.sinks, sinkArgs: cfg.sinkArgs, localizeFormats: args.localizeFormats || cfg.localizeFormats },
+        onStep: (name, r) => {
+          if (name === 'extract') {
+            const edits = r.result.results.reduce((n, x) => n + x.edits.length, 0)
+            skipped = r.result.results.flatMap(x => x.skipped)
+            const added = Object.values(r.result.added).reduce((n, a) => n + Object.keys(a).length, 0)
+            log(`    extract: ${edits} change(s) in ${r.changed} file(s), ${added} new key(s)`)
+          } else if (name === 'wire') {
+            const files = (r.results || []).filter(x => x.changed).length
+            const keys = Object.values(r.added || {}).reduce((n, a) => n + Object.keys(a).length, 0)
+            if (files) log(`    wire: ${files} more file(s), ${keys} new key(s) (English outside a translator, config defaults, messages reads)`)
+            for (const x of r.results || []) for (const p of x.report) if (/by hand/.test(p.why)) log(`    hand edit: ${x.rel}: ${p.why}`)
+          }
+        },
+        sync: async dir => { log('2/3 Writing language files'); return runSync([dir], cfg, args, log) }
+      })
+      log(`    originals saved in ${path.relative(w, run.backupDir)}`)
       log('3/3 Checking what is left')
       const a = auditWidget(w, { client: cfg.client, sinks: cfg.sinks, sinkArgs: cfg.sinkArgs })
       if (!skipped.length && !a.findings.length && !a.missing.length) log('    No remaining findings in the supported static patterns. Test the UI in your target languages.')
@@ -276,12 +286,12 @@ async function main () {
       if (skipped.some(s => /translator/.test(s.why))) log('    "no translator in scope": see docs/WIRING.md, add one, then run localize again.')
     }
     log('\nNext: review the changes (git diff), test with ?locale=es, then add your widget to memory/sources.json for community translations.')
-    log('Undo: exb-i18n restore <widget>')
+    log('Undo: exb-i18n restore <widget> (source changes, language files, manifest.json and i18n/ state from this run)')
   } else if (cmd === 'restore') {
     const { restoreLatest } = require('../lib/localize')
     for (const w of targets) {
       const r = restoreLatest(w)
-      log(`${path.basename(w)}: restored ${r.restored.length} file(s) from i18n/backup/${r.from}. Run sync to refresh the language files.`)
+      log(`${path.basename(w)}: restored ${r.restored.length} file(s) from i18n/backup/${r.from}. After a localize run this is the state before it; after wire alone, run sync to refresh the language files.`)
     }
   } else if (cmd === 'wire') {
     const { wireWidget, formatWire } = require('../lib/wire')
