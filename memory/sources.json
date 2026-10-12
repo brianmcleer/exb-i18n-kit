@@ -1,5 +1,5 @@
 {
-  "about": "Widgets whose English the GitHub Action translates into the shared memory. Add yours by pull request: raw URLs of each translations/default.ts.",
+  "about": "Widgets whose English the GitHub Action translates into the shared memory. Add yours by pull request: raw URLs of each translations/default.ts. A widget whose repo is private can keep a copy of its default.ts files under memory/local/<widget>/ and list those paths instead.",
   "widgets": [
     {
       "name": "add-edit-etl",
@@ -102,8 +102,8 @@
     {
       "name": "print-custom",
       "files": [
-        "https://raw.githubusercontent.com/brianmcleer/print-custom-widget/master/print-custom/src/runtime/translations/default.ts",
-        "https://raw.githubusercontent.com/brianmcleer/print-custom-widget/master/print-custom/src/setting/translations/default.ts"
+        "local/print-custom/runtime.default.ts",
+        "local/print-custom/setting.default.ts"
       ]
     },
     {
@@ -174,6 +174,13 @@
       "files": [
         "https://raw.githubusercontent.com/brianmcleer/zone-lookup-widget/master/zone-lookup/src/runtime/translations/default.ts",
         "https://raw.githubusercontent.com/brianmcleer/zone-lookup-widget/master/zone-lookup/src/setting/translations/default.ts"
+      ]
+    },
+    {
+      "name": "dropletWidget",
+      "files": [
+        "local/dropletWidget/runtime.default.ts",
+        "local/dropletWidget/setting.default.ts"
       ]
     }
   ]
