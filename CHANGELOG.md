@@ -1,10 +1,11 @@
 # Changelog
 
-## 1.2.3 (2026-10-09)
+## 1.2.4 (2026-10-12)
 
-- Memory workflow: Docker Hub's anonymous pull limit failed runs 12 and 13 before anything was translated.
-  The LibreTranslate image now comes from Google's Docker Hub mirror (mirror.gcr.io) first, then Docker Hub
-  with retries, and if LibreTranslate still cannot start the run carries on with Opus-MT (bs, hr, sr) only.
+- print-custom's repo is private, so the memory workflow got 404 for its strings and the widget sat at 22%.
+  sources.json can now point at copies inside this repo (memory/local/<widget>/, paths relative to
+  sources.json; memory-build already read local paths). print-custom and dropletWidget use that.
+- CHANGELOG: removed the 1.2.3 entry that PR #19 added a second time.
 
 ## 1.2.3 (2026-10-09)
 
