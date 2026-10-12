@@ -251,14 +251,16 @@ async function main () {
       const name = path.basename(w)
       log(`\n== ${name} ==`)
       log('1/3 Moving hardcoded English into translations/default.ts')
-      const { result, backupDir, changed } = backupAndExtract(w, { client: cfg.client, prefix: args.prefix || cfg.prefix, sinks: cfg.sinks, sinkArgs: cfg.sinkArgs })
+      // One backup folder for extract and wire, so a single restore undoes the whole localize run.
+      const runBackup = path.join(w, 'i18n', 'backup', require('../lib/localize').stamp() + '-localize')
+      const { result, backupDir, changed } = backupAndExtract(w, { client: cfg.client, prefix: args.prefix || cfg.prefix, sinks: cfg.sinks, sinkArgs: cfg.sinkArgs, backupDir: runBackup })
       const edits = result.results.reduce((n, r) => n + r.edits.length, 0)
       const skipped = result.results.flatMap(r => r.skipped)
       const added = Object.values(result.added).reduce((n, a) => n + Object.keys(a).length, 0)
       log(`    ${edits} change(s) in ${changed} file(s), ${added} new key(s)${backupDir ? `; originals saved in ${path.relative(w, backupDir)}` : ''}`)
       if (!args.noWire) {
         const { wireWidget } = require('../lib/wire')
-        const wr = wireWidget(w, { client: cfg.client, sinks: cfg.sinks, sinkArgs: cfg.sinkArgs, localizeFormats: args.localizeFormats || cfg.localizeFormats, apply: true })
+        const wr = wireWidget(w, { client: cfg.client, sinks: cfg.sinks, sinkArgs: cfg.sinkArgs, localizeFormats: args.localizeFormats || cfg.localizeFormats, apply: true, backupDir: runBackup })
         const files = (wr.results || []).filter(r => r.changed).length
         const keys = Object.values(wr.added || {}).reduce((n, a) => n + Object.keys(a).length, 0)
         if (files) log(`    wire: ${files} more file(s), ${keys} new key(s) (English outside a translator, config defaults, messages reads)`)

@@ -579,3 +579,146 @@ test('wire leaves error, log and telemetry text alone (Oct 2026)', (t) => {
   assert.match(out, /return __t\("savedToTheMap"\)/, 'UI helper in the same file still wired')
   assert.match(fs.readFileSync(ignored, 'utf8'), /return 'Click the map'/, 'exb-i18n-ignore-file honored')
 })
+
+// ---------------------------------------------------------------- 1.3.0 (review follow-ups)
+
+const WIRE_SAMPLE = [
+  "import { React, jsx } from 'jimu-core'",
+  "import defaultMessages from './translations/default'",
+  'export default class Widget extends React.PureComponent<any, any> {',
+  '  getToolHint (tool: string): string {',
+  '    switch (tool) {',
+  "      case 'point': return 'Click on the map to place a point'",
+  "      default: return ''",
+  '    }',
+  '  }',
+  '  render () {',
+  "    const label: string = this.props.config.title || 'Freehand Area'",
+  "    return <div title=\"Mailing Labels\">{label}<p>Select features first</p>{this.getToolHint('point')}{defaultMessages.undo}</div>",
+  '  }',
+  '}',
+  ''
+].join('\n')
+
+function snapshot (dir) {
+  const out = {}
+  const walk = d => {
+    for (const e of fs.readdirSync(d, { withFileTypes: true })) {
+      const p = path.join(d, e.name)
+      const rel = path.relative(dir, p).replace(/\\/g, '/')
+      if (rel === 'i18n' || rel.startsWith('i18n/')) continue
+      if (e.isDirectory()) walk(p); else out[rel] = fs.readFileSync(p, 'utf8')
+    }
+  }
+  walk(dir)
+  return out
+}
+
+test('one restore undoes a whole localize run (extract + wire share one backup)', (t) => {
+  try { require('typescript') } catch (e) { return t.skip('typescript not installed') }
+  const { backupAndExtract, restoreLatest, stamp } = require('../lib/localize')
+  const { wireWidget } = require('../lib/wire')
+  const dir = freshWidget()
+  // The fixture widget gives extract work; a label helper module gives wire work after it.
+  fs.mkdirSync(path.join(dir, 'src/runtime/lib'), { recursive: true })
+  fs.writeFileSync(path.join(dir, 'src/runtime/lib/labels.ts'), "export function getStatusLabel (s: string): string {\n  if (s === 'a') return 'Ready to print'\n  return 'Waiting for map'\n}\n")
+  const before = snapshot(dir)
+  // Same order and options as the localize command.
+  const runBackup = path.join(dir, 'i18n', 'backup', stamp() + '-localize')
+  const ex = backupAndExtract(dir, { backupDir: runBackup })
+  assert.ok(ex.changed > 0, 'extract changed files')
+  const wr = wireWidget(dir, { apply: true, backupDir: runBackup })
+  assert.ok(wr.results.some(r => r.changed && r.rel === 'runtime/lib/labels.ts'), 'wire changed files after extract')
+  assert.match(fs.readFileSync(path.join(dir, 'src/runtime/widget.tsx'), 'utf8'), /__setIntl/, 'widget.tsx changed by both steps')
+  assert.strictEqual(fs.readdirSync(path.join(dir, 'i18n', 'backup')).length, 1, 'one backup folder for the run')
+  restoreLatest(dir)
+  assert.deepStrictEqual(snapshot(dir), before, 'every file back to the original, generated files removed')
+})
+
+test('wire alone keeps its own backup and still restores (no localize)', (t) => {
+  try { require('typescript') } catch (e) { return t.skip('typescript not installed') }
+  const { restoreLatest } = require('../lib/localize')
+  const { wireWidget } = require('../lib/wire')
+  const dir = freshWidget()
+  fs.writeFileSync(path.join(dir, 'src/runtime/widget.tsx'), WIRE_SAMPLE)
+  const before = snapshot(dir)
+  wireWidget(dir, { apply: true })
+  restoreLatest(dir)
+  assert.deepStrictEqual(snapshot(dir), before)
+})
+
+// Runs the generated helper for real: compiled to CommonJS, with a fake intl like Experience Builder's.
+function loadHelper (ts, messages) {
+  const { helperSource } = require('../lib/wire')
+  const js = ts.transpileModule(helperSource('./translations/default'), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2019, esModuleInterop: true } }).outputText
+  const mod = { exports: {} }
+  const req = id => { if (id === './translations/default') return { __esModule: true, default: messages }; return require(id) }
+  new Function('require', 'module', 'exports', js)(req, mod, mod.exports)
+  return mod.exports
+}
+const fakeIntl = (locale, messages) => ({
+  locale,
+  messages,
+  formatMessage: ({ id, defaultMessage }, values) => String(messages[id] ?? defaultMessage).replace(/\{(\w+)\}/g, (m, k) => (values && values[k] != null ? String(values[k]) : m))
+})
+
+test('generated helper at runtime: language switch, several instances, late callbacks', async (t) => {
+  let ts
+  try { ts = require('typescript') } catch (e) { return t.skip('typescript not installed') }
+  const en = { zoomTo: 'Zoom to {name}', clear: 'Clear', title: 'Freehand Area' }
+  const h = loadHelper(ts, en)
+  // Before any render: English with values filled.
+  assert.strictEqual(h.__t('zoomTo', { name: 'Parks' }), 'Zoom to Parks')
+  // Two instances of the same widget render in Spanish: same messages, either one may set intl.
+  const es = fakeIntl('es', { zoomTo: 'Acercar a {name}', clear: 'Borrar', title: 'Área a mano alzada' })
+  h.__setIntl(es); h.__setIntl(fakeIntl('es', es.messages))
+  assert.strictEqual(h.__t('zoomTo', { name: 'Parques' }), 'Acercar a Parques')
+  assert.strictEqual(h.__m.clear, 'Borrar', '__m reads the app language')
+  assert.strictEqual(h.__tc('', 'title'), 'Área a mano alzada', 'empty config value gets the app-language default')
+  assert.strictEqual(h.__tc('Freehand Area', 'title'), 'Área a mano alzada', 'config still equal to the English default is translated')
+  assert.strictEqual(h.__tc('My own title', 'title'), 'My own title', 'a builder-typed value is never touched')
+  // A callback scheduled in Spanish that fires after the Language Switcher changed to Bosnian
+  // shows the current language, which is what the user is looking at.
+  const late = new Promise(resolve => setTimeout(() => resolve(h.__t('clear')), 5))
+  h.__setIntl(fakeIntl('bs', { zoomTo: 'Uvećaj na {name}', clear: 'Očisti', title: 'Slobodna površina' }))
+  assert.strictEqual(await late, 'Očisti')
+  // A key the app language lacks falls back to English, never to the key name.
+  h.__setIntl(fakeIntl('fr', {}))
+  assert.strictEqual(h.__t('clear'), 'Clear')
+  assert.strictEqual(h.__tryIntl('clear'), undefined, '__tryIntl leaves hand-written translators alone when intl has no text')
+  // Something that is not an intl object is ignored.
+  h.__setIntl(undefined); h.__setIntl({})
+  assert.strictEqual(h.__t('clear'), 'Clear')
+})
+
+test('wired widget type-checks no worse than before (full program, stub jimu types)', (t) => {
+  let ts
+  try { ts = require('typescript') } catch (e) { return t.skip('typescript not installed') }
+  const { wireWidget } = require('../lib/wire')
+  const { backupAndExtract } = require('../lib/localize')
+  const dir = freshWidget()
+  fs.writeFileSync(path.join(dir, 'src/runtime/widget.tsx'), WIRE_SAMPLE)
+  // Minimal stand-ins for the Experience Builder packages, so the check runs in CI without an install.
+  fs.writeFileSync(path.join(dir, 'src/stubs.d.ts'), [
+    "declare module 'jimu-core' {",
+    '  export const React: any',
+    '  export function jsx (...a: any[]): any',
+    '  namespace React { class PureComponent<P = any, S = any> { props: P; state: S; setState (s: any): void } }',
+    '}',
+    'declare namespace JSX { interface IntrinsicElements { [e: string]: any } interface Element {} interface ElementClass { render (): any } }',
+    ''
+  ].join('\n'))
+  const check = () => {
+    const files = []
+    const walk = d => { for (const e of fs.readdirSync(d, { withFileTypes: true })) { const p = path.join(d, e.name); if (e.isDirectory()) walk(p); else if (/\.tsx?$/.test(e.name)) files.push(p) } }
+    walk(path.join(dir, 'src'))
+    const program = ts.createProgram(files, { noEmit: true, jsx: ts.JsxEmit.React, target: ts.ScriptTarget.ES2019, module: ts.ModuleKind.ESNext, moduleResolution: ts.ModuleResolutionKind.Node10 || ts.ModuleResolutionKind.NodeJs, esModuleInterop: true, skipLibCheck: true, strict: false, types: [] })
+    return ts.getPreEmitDiagnostics(program).map(d => ts.flattenDiagnosticMessageText(d.messageText, ' '))
+  }
+  const before = check()
+  backupAndExtract(dir, {})
+  wireWidget(dir, { apply: true })
+  const after = check()
+  assert.ok(fs.existsSync(path.join(dir, 'src/runtime/i18n-t.ts')), 'helper generated')
+  assert.ok(after.length <= before.length, `type errors went up after wiring:\n${after.join('\n')}`)
+})
