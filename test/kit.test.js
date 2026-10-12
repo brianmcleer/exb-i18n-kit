@@ -606,7 +606,7 @@ function snapshot (dir) {
     for (const e of fs.readdirSync(d, { withFileTypes: true })) {
       const p = path.join(d, e.name)
       const rel = path.relative(dir, p).replace(/\\/g, '/')
-      if (rel === 'i18n' || rel.startsWith('i18n/')) continue
+      if (rel === 'i18n/backup' || rel.startsWith('i18n/backup/')) continue
       if (e.isDirectory()) walk(p); else out[rel] = fs.readFileSync(p, 'utf8')
     }
   }
@@ -614,25 +614,45 @@ function snapshot (dir) {
   return out
 }
 
-test('one restore undoes a whole localize run (extract + wire share one backup)', (t) => {
-  try { require('typescript') } catch (e) { return t.skip('typescript not installed') }
-  const { backupAndExtract, restoreLatest, stamp } = require('../lib/localize')
-  const { wireWidget } = require('../lib/wire')
-  const dir = freshWidget()
-  // The fixture widget gives extract work; a label helper module gives wire work after it.
+function labelsModule (dir) {
   fs.mkdirSync(path.join(dir, 'src/runtime/lib'), { recursive: true })
   fs.writeFileSync(path.join(dir, 'src/runtime/lib/labels.ts'), "export function getStatusLabel (s: string): string {\n  if (s === 'a') return 'Ready to print'\n  return 'Waiting for map'\n}\n")
+}
+
+test('one restore undoes a whole localize run: source, language files, manifest.json, i18n state', async (t) => {
+  try { require('typescript') } catch (e) { return t.skip('typescript not installed') }
+  const { localizeWidget, restoreLatest } = require('../lib/localize')
+  const dir = freshWidget()
+  labelsModule(dir) // the fixture gives extract work; this module gives wire work after it
   const before = snapshot(dir)
-  // Same order and options as the localize command.
-  const runBackup = path.join(dir, 'i18n', 'backup', stamp() + '-localize')
-  const ex = backupAndExtract(dir, { backupDir: runBackup })
-  assert.ok(ex.changed > 0, 'extract changed files')
-  const wr = wireWidget(dir, { apply: true, backupDir: runBackup })
-  assert.ok(wr.results.some(r => r.changed && r.rel === 'runtime/lib/labels.ts'), 'wire changed files after extract')
-  assert.match(fs.readFileSync(path.join(dir, 'src/runtime/widget.tsx'), 'utf8'), /__setIntl/, 'widget.tsx changed by both steps')
+  // The same function the localize command runs, including sync.
+  const run = await localizeWidget(dir, { sync: d => sync(d) })
+  assert.ok(run.extract.changed > 0, 'extract changed files')
+  assert.ok(run.wire.results.some(r => r.changed && r.rel === 'runtime/lib/labels.ts'), 'wire changed files after extract')
+  const after = snapshot(dir)
+  assert.ok(after['src/runtime/translations/es.js'], 'sync wrote a language file')
+  assert.ok(after['i18n/translations.lock.json'], 'sync wrote translation state')
+  assert.notStrictEqual(after['manifest.json'], before['manifest.json'], 'sync updated manifest.json')
   assert.strictEqual(fs.readdirSync(path.join(dir, 'i18n', 'backup')).length, 1, 'one backup folder for the run')
   restoreLatest(dir)
-  assert.deepStrictEqual(snapshot(dir), before, 'every file back to the original, generated files removed')
+  assert.deepStrictEqual(snapshot(dir), before, 'every file back to the original; everything the run created removed')
+})
+
+test('restore after a second localize run returns to the first run\'s result, not the original', async (t) => {
+  try { require('typescript') } catch (e) { return t.skip('typescript not installed') }
+  const { localizeWidget, restoreLatest } = require('../lib/localize')
+  const dir = freshWidget()
+  await localizeWidget(dir, { sync: d => sync(d) })
+  const firstRun = snapshot(dir)
+  // New English shows up, then localize runs again: language files and lock exist and change now.
+  labelsModule(dir)
+  await new Promise(resolve => setTimeout(resolve, 5)) // distinct backup timestamps
+  await localizeWidget(dir, { sync: d => sync(d) })
+  assert.notDeepStrictEqual(snapshot(dir), Object.assign({}, firstRun), 'second run changed things')
+  restoreLatest(dir)
+  const back = snapshot(dir)
+  delete back['src/runtime/lib/labels.ts']; const expected = Object.assign({}, firstRun)
+  assert.deepStrictEqual(back, expected, 'second run undone, first run kept')
 })
 
 test('wire alone keeps its own backup and still restores (no localize)', (t) => {
@@ -691,34 +711,86 @@ test('generated helper at runtime: language switch, several instances, late call
   assert.strictEqual(h.__t('clear'), 'Clear')
 })
 
-test('wired widget type-checks no worse than before (full program, stub jimu types)', (t) => {
+// Typed stand-ins for the Experience Builder pieces the sample uses. Narrow on purpose: wrong argument
+// types, unknown members and bad imports are errors here, so the check means something in CI.
+const JIMU_STUBS = [
+  "declare module 'jimu-core' {",
+  '  export interface IntlShape { locale: string; messages: { [id: string]: string }; formatMessage (d: { id: string, defaultMessage?: string }, values?: { [k: string]: any }): string }',
+  '  export interface AllWidgetProps<C = any> { id: string; config: C; intl: IntlShape; label?: string }',
+  '  export namespace React {',
+  '    class PureComponent<P = {}, S = {}> { constructor (props: P); props: Readonly<P>; state: Readonly<S>; setState (s: Partial<S>): void; render (): any }',
+  '  }',
+  '  export function jsx (type: string, props: { [k: string]: any } | null, ...children: any[]): any',
+  '}',
+  'declare namespace JSX { interface IntrinsicElements { div: any; p: any; span: any; button: any; i: any } interface Element {} interface ElementClass { render (): any } interface ElementAttributesProperty { props: {} } }',
+  ''
+].join('\n')
+
+const TYPED_SAMPLE = [
+  "import { React, AllWidgetProps } from 'jimu-core'",
+  "import defaultMessages from './translations/default'",
+  'interface Config { title?: string }',
+  'export default class Widget extends React.PureComponent<AllWidgetProps<Config>, { n: number }> {',
+  '  getToolHint (tool: string): string {',
+  '    switch (tool) {',
+  "      case 'point': return 'Click on the map to place a point'",
+  "      default: return ''",
+  '    }',
+  '  }',
+  '  render () {',
+  "    const label: string = this.props.config.title || 'Freehand Area'",
+  "    return <div title=\"Mailing Labels\">{label}<p>Select features first</p>{this.getToolHint('point')}{defaultMessages.undo}</div>",
+  '  }',
+  '}',
+  ''
+].join('\n')
+
+function typeCheck (ts, dir, options) {
+  const files = []
+  const walk = d => { for (const e of fs.readdirSync(d, { withFileTypes: true })) { const p = path.join(d, e.name); if (e.isDirectory()) walk(p); else if (/\.tsx?$/.test(e.name)) files.push(p) } }
+  walk(path.join(dir, 'src'))
+  const program = ts.createProgram(files, options)
+  // Line numbers move when code is rewritten, so compare by file, code and message.
+  return ts.getPreEmitDiagnostics(program).map(d => `${d.file ? path.relative(dir, d.file.fileName).replace(/\\/g, '/') : '-'} TS${d.code} ${ts.flattenDiagnosticMessageText(d.messageText, ' ')}`).sort()
+}
+
+test('wired widget type-checks clean under strict settings (typed jimu stand-ins)', (t) => {
   let ts
   try { ts = require('typescript') } catch (e) { return t.skip('typescript not installed') }
-  const { wireWidget } = require('../lib/wire')
-  const { backupAndExtract } = require('../lib/localize')
+  const { localizeWidget } = require('../lib/localize')
   const dir = freshWidget()
-  fs.writeFileSync(path.join(dir, 'src/runtime/widget.tsx'), WIRE_SAMPLE)
-  // Minimal stand-ins for the Experience Builder packages, so the check runs in CI without an install.
-  fs.writeFileSync(path.join(dir, 'src/stubs.d.ts'), [
-    "declare module 'jimu-core' {",
-    '  export const React: any',
-    '  export function jsx (...a: any[]): any',
-    '  namespace React { class PureComponent<P = any, S = any> { props: P; state: S; setState (s: any): void } }',
-    '}',
-    'declare namespace JSX { interface IntrinsicElements { [e: string]: any } interface Element {} interface ElementClass { render (): any } }',
-    ''
-  ].join('\n'))
-  const check = () => {
-    const files = []
-    const walk = d => { for (const e of fs.readdirSync(d, { withFileTypes: true })) { const p = path.join(d, e.name); if (e.isDirectory()) walk(p); else if (/\.tsx?$/.test(e.name)) files.push(p) } }
-    walk(path.join(dir, 'src'))
-    const program = ts.createProgram(files, { noEmit: true, jsx: ts.JsxEmit.React, target: ts.ScriptTarget.ES2019, module: ts.ModuleKind.ESNext, moduleResolution: ts.ModuleResolutionKind.Node10 || ts.ModuleResolutionKind.NodeJs, esModuleInterop: true, skipLibCheck: true, strict: false, types: [] })
-    return ts.getPreEmitDiagnostics(program).map(d => ts.flattenDiagnosticMessageText(d.messageText, ' '))
-  }
-  const before = check()
-  backupAndExtract(dir, {})
-  wireWidget(dir, { apply: true })
-  const after = check()
-  assert.ok(fs.existsSync(path.join(dir, 'src/runtime/i18n-t.ts')), 'helper generated')
-  assert.ok(after.length <= before.length, `type errors went up after wiring:\n${after.join('\n')}`)
+  fs.writeFileSync(path.join(dir, 'src/runtime/widget.tsx'), TYPED_SAMPLE)
+  fs.writeFileSync(path.join(dir, 'src/runtime/translations/default.ts'), "export default {\n  undo: 'Undo'\n}\n")
+  fs.writeFileSync(path.join(dir, 'src/jimu-stubs.d.ts'), JIMU_STUBS)
+  labelsModule(dir)
+  const options = { noEmit: true, strict: true, noImplicitReturns: true, jsx: ts.JsxEmit.React, target: ts.ScriptTarget.ES2019, lib: ['lib.es2019.d.ts'], module: ts.ModuleKind.ESNext, moduleResolution: ts.ModuleResolutionKind.Node10 || ts.ModuleResolutionKind.NodeJs, esModuleInterop: true, types: [] }
+  assert.deepStrictEqual(typeCheck(ts, dir, options), [], 'sample starts with zero diagnostics')
+  return localizeWidget(dir, {}).then(run => {
+    assert.ok(fs.existsSync(path.join(dir, 'src/runtime/i18n-t.ts')), 'helper generated')
+    assert.match(fs.readFileSync(path.join(dir, 'src/runtime/widget.tsx'), 'utf8'), /__t\(|__tc\(/, 'widget was rewritten')
+    assert.deepStrictEqual(typeCheck(ts, dir, options), [], 'zero diagnostics after extract + wire')
+  })
+})
+
+// With the real Experience Builder client (EXB_CLIENT=C:\\arcgis-experience-builder-1.21\\client), the same
+// check runs against the real jimu-core and React types. Skipped in CI, where there is no client.
+test('wired widget adds no type errors against the real Experience Builder types (EXB_CLIENT)', async (t) => {
+  let ts
+  try { ts = require('typescript') } catch (e) { return t.skip('typescript not installed') }
+  const client = process.env.EXB_CLIENT
+  if (!client || !fs.existsSync(path.join(client, 'tsconfig.json'))) return t.skip('set EXB_CLIENT to an Experience Builder client folder to run')
+  const cfgFile = ts.readConfigFile(path.join(client, 'tsconfig.json'), ts.sys.readFile)
+  const parsed = ts.parseJsonConfigFileContent(cfgFile.config, ts.sys, client)
+  const options = Object.assign({}, parsed.options, { noEmit: true })
+  const { localizeWidget } = require('../lib/localize')
+  const dir = freshWidget()
+  fs.writeFileSync(path.join(dir, 'src/runtime/widget.tsx'), TYPED_SAMPLE)
+  fs.writeFileSync(path.join(dir, 'src/runtime/translations/default.ts'), "export default {\n  undo: 'Undo'\n}\n")
+  labelsModule(dir)
+  const before = typeCheck(ts, dir, options)
+  await localizeWidget(dir, {})
+  const after = typeCheck(ts, dir, options)
+  const pool = before.slice()
+  const added = after.filter(d => { const i = pool.indexOf(d); if (i >= 0) { pool.splice(i, 1); return false } return true })
+  assert.deepStrictEqual(added, [], 'diagnostics that appeared after wiring')
 })

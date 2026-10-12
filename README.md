@@ -46,7 +46,7 @@ That one command:
 2. Type check the widget, for example from the `client` folder: `npx tsc -p your-extensions\widgets\my-widget --noEmit`.
 3. Restart `pnpm start`, open your app with `?locale=es` (or `&locale=es` if the link already has a `?`) and click through runtime and settings in the languages you care about.
 
-Did not like the result? `node bin\exb-i18n.js restore <widget>` undoes the whole `localize` run (the text moves and the wiring) in one step.
+Did not like the result? `node bin\exb-i18n.js restore <widget>` puts back everything that `localize` run changed, in one step: your source files, the language files, `manifest.json` and the translation state in `i18n\`. Files the run created are removed.
 
 **4. Deploying a downloaded app?** In Builder's **Download** dialog, tick the languages you want under "Please select the required languages" (or **All**). With only English ticked, the download leaves out every other translation, Esri's widgets included, and `?locale=` has nothing to switch to.
 
@@ -132,7 +132,7 @@ Matching forgives case, spacing, trailing `:` `...`, placeholder names and artic
 |---|---|
 | `localize <widget>` | Everything for a new widget: backup, extract, wire, sync, report. |
 | `wire <widget or folder> [--apply]` | Second pass for what `extract` cannot reach (see below). Part of `localize`; run it on its own for widgets localized before 1.1. |
-| `restore <widget>` | Undo the last `localize` (both steps) or `wire`. |
+| `restore <widget>` | Undo the last run. After `localize`: source, language files, `manifest.json` and `i18n\` state. After `wire` alone: source only (run `sync` afterwards). |
 | `sync <widget or folder>` | Create or update the language files and `manifest.json`. |
 | `watch <widget or folder>` | `sync` on every save. |
 | `audit <widget or folder>` | List hardcoded English. `--strict` fails for CI. |
@@ -188,7 +188,7 @@ CSS, console and `Error` messages. Always review the diff and type check; `resto
 - The source rewrite uses the TypeScript compiler that ships with the Experience Builder client; nothing to install.
 - Text split by inline elements (`use the <b>Export</b> button`) stays in pieces.
 - Plurals follow your existing `n !== 1 ?` logic; languages with more plural forms can be hand-converted to ICU `{n, plural, ...}`.
-- The tests check the rewrite, a full type check of a wired sample widget (with stand-in Experience Builder types), and the generated helper running with a fake `intl` (language switch, several instances, late callbacks). They do not run your widget inside Experience Builder: always type check and test your own widget in its target languages.
+- What the tests prove: the rewrite itself; a sample widget that type-checks with zero errors under `strict` before and after `localize` (against typed stand-ins for `jimu-core`, and, when `EXB_CLIENT` points at an Experience Builder client, against the real types with no new errors); the generated helper running with a fake `intl` (language switch, several instances, late callbacks); and `localize` then `restore` giving back an identical widget. They do not run your widget inside Experience Builder: always type check and test your own widget in its target languages.
 - The generated `i18n-t.ts` keeps the widget's `intl` per widget part (runtime or settings). Every copy of a widget in an app shares it, which is safe because an app shows one language at a time and every copy has the same text; text built later (timers, promises) uses the language showing at that moment.
 
 ## Contributing

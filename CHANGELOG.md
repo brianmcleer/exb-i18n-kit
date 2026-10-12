@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.3.1 (2026-10-12)
+
+Second round of review follow-ups.
+
+- `restore` after `localize` now also undoes the `sync` step: language files, `manifest.json` and
+  `i18n/` state (lock, STATUS.md, review sheets) go into the same backup, and files sync created are
+  removed. The command runs through one function (`localizeWidget`) that the tests call too, so the
+  tested sequence is the shipped one. Tests: localize then restore is byte-identical including sync
+  output; a second localize then restore returns to the first run's result.
+- Type-check test is strict: zero diagnostics before and after, with typed `jimu-core` stand-ins
+  (props, intl, PureComponent) instead of `any`, `strict: true`, and diagnostics compared as text, so
+  one error can't hide another. A second test runs the same check against the real Experience
+  Builder types when `EXB_CLIENT` is set (no new diagnostics allowed); skipped in CI.
+- README: restore wording says exactly what comes back; "what the tests prove" spelled out.
+
 ## 1.3.0 (2026-10-12)
 
 Follow-ups from an outside review.
