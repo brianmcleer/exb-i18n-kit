@@ -763,7 +763,8 @@ test('wired widget type-checks clean under strict settings (typed jimu stand-ins
   fs.writeFileSync(path.join(dir, 'src/runtime/translations/default.ts'), "export default {\n  undo: 'Undo'\n}\n")
   fs.writeFileSync(path.join(dir, 'src/jimu-stubs.d.ts'), JIMU_STUBS)
   labelsModule(dir)
-  const options = { noEmit: true, strict: true, noImplicitReturns: true, jsx: ts.JsxEmit.React, target: ts.ScriptTarget.ES2019, lib: ['lib.es2019.d.ts'], module: ts.ModuleKind.ESNext, moduleResolution: ts.ModuleResolutionKind.Node10 || ts.ModuleResolutionKind.NodeJs, esModuleInterop: true, types: [] }
+  // ES2015 libs, as in the Experience Builder client's tsconfig: newer APIs must not be assumed.
+  const options = { noEmit: true, strict: true, noImplicitReturns: true, jsx: ts.JsxEmit.React, target: ts.ScriptTarget.ES2015, lib: ['lib.es2015.d.ts'], module: ts.ModuleKind.ESNext, moduleResolution: ts.ModuleResolutionKind.Node10 || ts.ModuleResolutionKind.NodeJs, esModuleInterop: true, types: [] }
   assert.deepStrictEqual(typeCheck(ts, dir, options), [], 'sample starts with zero diagnostics')
   return localizeWidget(dir, {}).then(run => {
     assert.ok(fs.existsSync(path.join(dir, 'src/runtime/i18n-t.ts')), 'helper generated')
@@ -793,4 +794,19 @@ test('wired widget adds no type errors against the real Experience Builder types
   const pool = before.slice()
   const added = after.filter(d => { const i = pool.indexOf(d); if (i >= 0) { pool.splice(i, 1); return false } return true })
   assert.deepStrictEqual(added, [], 'diagnostics that appeared after wiring')
+})
+
+test('sync updates generated helpers from earlier kit versions (ES2015 type-check fix)', () => {
+  const { upgradeHelpers, helperSource } = require('../lib/wire')
+  const dir = freshWidget()
+  const f = path.join(dir, 'src/runtime/i18n-t.ts')
+  const old = helperSource('./translations/default').replace(/  \/\/ Intl\.getCanonicalLocales[\s\S]*?try \{ return canon\(locale\)\[0\] \} catch \(e\) \{ return undefined \}/, '  try { return Intl.getCanonicalLocales(locale)[0] } catch (e) { return undefined }')
+  assert.match(old, /Intl\.getCanonicalLocales\(locale\)/, 'test builds a 1.3.0-style helper')
+  fs.writeFileSync(f, old)
+  assert.deepStrictEqual(upgradeHelpers(dir), ['src/runtime/i18n-t.ts'])
+  assert.strictEqual(fs.readFileSync(f, 'utf8'), helperSource('./translations/default'), 'same as a freshly generated helper')
+  assert.deepStrictEqual(upgradeHelpers(dir), [], 'second run changes nothing')
+  // A hand-written helper (no generated header) is never touched.
+  fs.writeFileSync(f, 'export function __t (id: string) { return Intl.getCanonicalLocales(id)[0] }\n')
+  assert.deepStrictEqual(upgradeHelpers(dir), [])
 })

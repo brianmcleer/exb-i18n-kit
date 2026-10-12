@@ -122,6 +122,11 @@ async function runSync (targets, cfg, args, log, writeReview) {
   if (provider) log(`Machine translation: ${provider.name || 'custom provider'}${cfg.shipMachine ? '' : ' (review only)'}`)
   const reports = []
   for (const w of targets) {
+    if (!args.dryRun) {
+      // Generated i18n-t.ts helpers from earlier kit versions get their fixes here, so sync is enough.
+      const up = require('../lib/wire').upgradeHelpers(w)
+      if (up.length) log(`${path.basename(w)}: updated generated ${up.join(', ')} to this kit version`)
+    }
     const r = await syncWidget(w, { cfg, tm, provider, memory, locales, log, dryRun: !!args.dryRun, writeReview: writeReview || cfg.reviewFiles === true })
     reports.push(r)
     const t = r.totals
