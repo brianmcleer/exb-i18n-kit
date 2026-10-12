@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.3.0 (2026-10-12)
+
+Follow-ups from an outside review.
+
+- `restore` now undoes a whole `localize` run. `localize` used to make two backups (extract, then wire)
+  and `restore` only rolled back the newer one, leaving the extract changes in place. Both steps now
+  share one backup folder; the first copy of a file wins, so the true original comes back, and files
+  either step created are removed. `wire` on its own still makes its own backup.
+- New tests: localize then restore gives back a byte-identical widget; the generated `i18n-t.ts` helper
+  runs with a fake Experience Builder `intl` (two instances, Language Switcher change, a late callback,
+  missing keys, config defaults); a full TypeScript program check of a wired widget with stand-in
+  `jimu-core` types must not gain errors. Each new test fails on the old code it guards against.
+- README: work on a branch and review `git diff`; type check before testing; Builder's Download dialog
+  must include the languages you want (only English ticked leaves out every other translation).
+
 ## 1.2.4 (2026-10-12)
 
 - print-custom's repo is private, so the memory workflow got 404 for its strings and the widget sat at 22%.
