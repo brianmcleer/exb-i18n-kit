@@ -291,6 +291,52 @@ test('localize automatically wires runtime and creates settings translations', a
   assert.ok(!fs.existsSync(settingDefault), 'restore removes newly generated settings default')
 })
 
+test('extract: renamed or state destructuring never passes for a translator; CSS values stay (rac-manager, Oct 2026)', (t) => {
+  let ts
+  try { ts = require('typescript') } catch (e) { return t.skip('typescript not installed') }
+  void ts
+  const { extractWidget } = require('../lib/extract')
+  const { looksLikeUiText } = require('../lib/audit')
+  const dir = freshWidget()
+  const file = path.join(dir, 'src/runtime/widget.tsx')
+  fs.writeFileSync(file, [
+    "import { React } from 'jimu-core'",
+    'const t = (id: string, values?: Record<string, string>): string => id',
+    'export class W extends React.Component<any, any> {',
+    '  renderDetail () {',
+    '    const { sel: t } = this.state',
+    '    if (!t) return null',
+    '    const navBtnStyle = (disabled: boolean): React.CSSProperties => ({ border: "1px solid rgba(255,255,255,0.25)", transition: "background 0.15s" })',
+    '    return <div aria-label="Ticket detail"><button style={navBtnStyle(false)} title="Next media">{t.description || "No description"}</button></div>',
+    '  }',
+    '  renderState () {',
+    '    const { t } = this.state',
+    '    return <span title="From state">{t}</span>',
+    '  }',
+    '  renderProps (props: { t: (id: string) => string }) {',
+    '    const { t } = props',
+    '    return <div aria-label="Real translator here">{t("x")}</div>',
+    '  }',
+    '  render () { return <div>{this.renderDetail()}</div> }',
+    '}',
+    ''
+  ].join('\n'))
+  extractWidget(dir, { apply: true, autoWire: true })
+  const out = fs.readFileSync(file, 'utf8')
+  // `{ sel: t }` is the ticket, not the translator: nothing in that scope may call t(...).
+  assert.match(out, /aria-label="Ticket detail"/)
+  assert.match(out, /title="Next media"/)
+  assert.match(out, /t\.description \|\| "No description"/)
+  // `{ t } = this.state` is data too.
+  assert.match(out, /title="From state"/)
+  // `{ t } = props` is a translator.
+  assert.match(out, /aria-label=\{t\('realTranslatorHere'\)\}/)
+  // CSS values are never UI text, wherever they sit.
+  assert.match(out, /border: "1px solid rgba\(255,255,255,0\.25\)", transition: "background 0\.15s"/)
+  for (const css of ['1px solid rgba(255,255,255,0.25)', 'background 0.15s', '0 0 0 3px rgba(37,99,235,0.25)', 'translateY(-50%)', '2px solid #93c5fd']) assert.strictEqual(looksLikeUiText(css), false, css)
+  for (const ui of ['Next media', 'Max 10 MB per photo', 'Wait 5 seconds']) assert.strictEqual(looksLikeUiText(ui), true, ui)
+})
+
 test('extract respects the real translator in scope (rollout regressions, Oct 2026)', (t) => {
   let ts
   try { ts = require('typescript') } catch (e) { return t.skip('typescript not installed') }

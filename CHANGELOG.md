@@ -1,5 +1,21 @@
 # Changelog
 
+## 1.3.2 (2026-10-15)
+
+Found by a crash in rac-manager after its October rollout: `TypeError: t is not a function` in the
+ticket table, cards and detail pane.
+
+- `extract` no longer takes a renamed destructuring for a translator. `const { sel: t } = this.state`
+  made the ticket `t`, so every string in that scope was written as `t('key')` and called the ticket.
+  Now only an element that keeps its own name (`{ t }`, `{ t: t }`) counts, and nothing pulled out of
+  `state`, `prevState` or `nextState` does. Same rule for parameters (`({ sel: t }) =>`). The widget
+  fix was to use the module translator `__t(...)`, which `wire` already emits for scopes with no
+  translator.
+- CSS values are never UI text: `1px solid rgba(255,255,255,0.25)`, `background 0.15s`,
+  `translateY(-50%)`, `0 0 0 3px #fff` and the like stay as they are in `extract`, `wire` and `audit`.
+  rac-manager had two of these harvested and machine translated ("de antecedentes 0,15").
+- Test: renamed and state destructuring, a props translator beside them, and the CSS value list.
+
 ## 1.3.1 (2026-10-12)
 
 Second round of review follow-ups.
