@@ -1,4 +1,10 @@
 {
+ " (WKID {wkid})": {
+  "t": "(WKID) {wkid})",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  " [layer reports: {value1}]": {
   "t": "[ผู้จัดการ: {value1})",
   "src": "libretranslate",
@@ -167,6 +173,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ ", rotated {deg}°": {
+  "t": "หมุน {deg}องศา",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  ", such as {a}": {
   "t": "เช่น {a}",
   "src": "libretranslate",
@@ -184,6 +196,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
+ },
+ "; drawn as a picture: {why}": {
+  "t": "สืบค้นเมื่อ: {why}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  ". Each table should show its title — if any say": {
   "t": "แต่ ละ โต๊ะ ควร แสดง ชื่อ ของ มัน — ถ้า มี ใคร บอก",
@@ -317,6 +335,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "(blank)": {
+  "t": "(เสียงกระโชก)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "(buffer area will be used for feature identification)": {
   "t": "(พื้นที่บัฟเฟอร์จะถูกใช้สําหรับการแสดงตัวของคุณสมบัติ)",
   "src": "libretranslate",
@@ -364,6 +388,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
+ },
+ "(no value)": {
+  "t": "(ไม่มีค่า)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "(none)": {
   "t": "(ไม่มี)",
@@ -586,6 +616,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
+ },
+ "{categoriesAll} and {categoriesNoneLink} above the categories tick or untick every box in one click. {categoriesNoValue} stands for features with nothing in that field.": {
+  "t": "{categoriesAll} และ {categoriesNoneLink} เหนือหมวดหมู่ติ๊กหรือปลดเสียงกรอบทุกช่องในหนึ่งคลิก {categoriesNoValue} ยืนหยัดเพื่อคุณสมบัติที่ไม่มีอะไรในสาขานั้น",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "{category} (not in layer)": {
   "t": "{category} (ไม่อยู่ในชั้น)",
@@ -1780,6 +1816,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
+ },
+ "{shown} of {total} shown": {
+  "t": "{shown} ของ {total} แสดง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "{side} selections cleared.": {
   "t": "{side} คัดเลือกเรียบร้อย",
@@ -3125,6 +3167,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "A layer printed as a picture instead of sharp lines: its symbols, labels or effects are ones the vector output cannot copy exactly, so it kept the picture on purpose. Open Details under the finished file to see which layers and why.": {
+  "t": "เลเยอร์ที่พิมพ์เป็นรูปภาพแทนที่จะเป็นเส้นคมชัด: สัญลักษณ์, ป้ายหรือลูกเล่นของมัน คืออันที่เวกเตอร์ปล่อยออกมา ไม่สามารถคัดลอกได้อย่างถูกต้อง ดังนั้นมันจึงเก็บภาพไว้โดยมีวัตถุประสงค์ เปิดรายละเอียดภายใต้แฟ้มที่เสร็จสิ้น เพื่อดูว่าชั้นใดและทําไม",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "A layer printed as a picture instead of sharp lines: its symbols, labels or effects are ones the vector output cannot copy exactly, so it kept the picture on purpose. The note under the finished file names each layer and the reason.": {
   "t": "เลเยอร์ที่พิมพ์เป็นรูปภาพแทนที่จะเป็นเส้นคมชัด: สัญลักษณ์, ป้ายหรือลูกเล่นของมัน คืออันที่เวกเตอร์ปล่อยออกมา ไม่สามารถคัดลอกได้อย่างถูกต้อง ดังนั้นมันจึงเก็บภาพไว้โดยมีวัตถุประสงค์ บันทึกช่วยจําใต้ชื่อแฟ้มที่เสร็จแล้ว แต่ละเลเยอร์และเหตุผล",
   "src": "libretranslate",
@@ -4282,6 +4330,30 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
+ },
+ "Adding the graticule (projecting coordinates)…": {
+  "t": "กําลังเพิ่มเครื่องหมาย gracule (ค่าพิกัดการฉีด)...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
+ "Adding the graticule…": {
+  "t": "เพิ่มรอยหยัก...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
+ "Adding the measured grid…": {
+  "t": "เพิ่มตารางวัด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
+ "Adding the reference grid…": {
+  "t": "เพิ่มตารางอ้างอิง...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "Adding your data": {
   "t": "เพิ่มข้อมูลของคุณ",
@@ -7715,6 +7787,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Building the legend…": {
+  "t": "สร้างตํานาน...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "Bulgarian (Български)": {
   "t": "บัลแกเรีย",
   "src": "libretranslate",
@@ -8009,6 +8087,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Capturing the map image…": {
+  "t": "การถ่ายภาพแผนที่...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "Card color": {
   "t": "สีการ์ด",
   "src": "libretranslate",
@@ -8068,6 +8152,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
+ },
+ "Categories by {field}": {
+  "t": "หมวดหมู่โดย {field}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
+ "Categories stay as you left them while the page is open. Reloading the page shows every category again.": {
+  "t": "หมวดหมู่ยังคงอยู่ ในขณะที่คุณทิ้งไว้ ในขณะที่หน้าเว็บถูกเปิด เรียกหน้าอีกครั้ง แสดงทุกหมวดหมู่อีกครั้ง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "Categories will be filtered for this area.": {
   "t": "หมวดหมู่จะถูกกรองสําหรับพื้นที่นี้",
@@ -9430,6 +9526,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
+ },
+ "Clear list": {
+  "t": "ล้างรายการ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "Clear paste area": {
   "t": "ล้างพื้นที่วาง",
@@ -11219,6 +11321,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Composing legend page {i} of {n}…": {
+  "t": "กําลังคอมไพล์หน้าตํานาน {i} ของ {n}...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
+ "Composing the page…": {
+  "t": "กําลังคํานวณหน้า...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "Composite": {
   "t": "คอมโพไซต์",
   "src": "libretranslate",
@@ -12604,6 +12718,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
+ },
+ "Creating the index page…": {
+  "t": "กําลังสร้างหน้าดัชนี...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "Critical": {
   "t": "วิกฤติ",
@@ -14423,6 +14543,18 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Details ({n})": {
+  "t": "รายละเอียด ({n})",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
+ "Details under a file shows the facts about it: file type, resolution, printed scale, pages and size. A number next to Details means there are notes about that file, for example a layer that printed as a picture, or a legend that did not fit. The list keeps your files while this app is open, even if you close this panel. Reloading or closing the browser tab empties it, so save anything you want to keep.": {
+  "t": "รายละเอียดใต้แฟ้ม แสดงข้อเท็จจริงเกี่ยวกับมัน: ประเภทแฟ้ม, ความละเอียด, พิมพ์ขนาด, หน้าและขนาด ตัว อย่าง เช่น ตัว อย่าง ของ ชั้น ที่ พิมพ์ เป็น ภาพ หรือ ตํานาน ที่ ไม่ เข้า กัน. รายการจะคงแฟ้มของคุณไว้ ในขณะที่โปรแกรมนี้ถูกเปิดใช้อยู่ แม้ว่าคุณจะปิดพาเนลนี้ก็ตาม ทําการเรียกหรือปิดแท็บเบราว์เซอร์ใหม่ ทําการลบทิ้ง ดังนั้นบันทึกทุกอย่างที่คุณต้องการเก็บไว้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "Detect your current GPS position": {
   "t": "ตรวจสอบตําแหน่ง GPS ของคุณในปัจจุบัน",
   "src": "libretranslate",
@@ -15803,6 +15935,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Drawing imagery at print scale…": {
+  "t": "วาดภาพตามสัดส่วนการพิมพ์...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "Drawing layer not available.": {
   "t": "ไม่พบเลเยอร์สําหรับวาดภาพ",
   "src": "libretranslate",
@@ -15880,6 +16018,30 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
+ },
+ "Drawing symbols at print size…": {
+  "t": "วาดสัญลักษณ์ที่ขนาดการพิมพ์...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
+ "Drawing the map at {dpi} DPI…": {
+  "t": "วาดแผนที่ {dpi} DPI...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
+ "Drawing the overview map at 1:{scale}…": {
+  "t": "วาด แผนที่ โดย สังเขป ที่ 1:{scale}...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
+ "Drawing the overview map for page {i}…": {
+  "t": "วาดแผนที่ภาพรวมสําหรับหน้า {i}...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "Drawing the page…": {
   "t": "วาดหน้า...",
@@ -16763,6 +16925,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Empty this list. Files you already saved stay on your computer.": {
+  "t": "ล้างรายการนี้ ไฟล์ที่คุณบันทึกไว้ คงอยู่บนคอมพิวเตอร์ของคุณ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "Empty trash": {
   "t": "เทถังขยะทิ้ง",
   "src": "libretranslate",
@@ -17392,6 +17560,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
+ },
+ "Encoding {format}…": {
+  "t": "ชุดรหัสอักขระ {format}...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "End": {
   "t": "จบ",
@@ -18485,6 +18659,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Expand layers by attribute value": {
+  "t": "เพิ่มเลเยอร์...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "Expand or collapse a measurement card": {
   "t": "ขยายหรือยุบใบวัด",
   "src": "libretranslate",
@@ -19060,6 +19240,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
+ },
+ "Exporting page {i} of {n}…": {
+  "t": "กําลังส่งออกหน้า {i} ของ {n}...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "Exporting to Excel, please wait...": {
   "t": "กําลังส่งออกไปยัง Excel โปรดรอสักครู่...",
@@ -19685,6 +19871,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Field to expand by for": {
+  "t": "ฟิลด์ที่จะขยายโดย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "Field used to group data (e.g., ZONE_TYPE, DISTRICT). Each unique value becomes a bar/slice in the chart.": {
   "t": "ช่องข้อมูลที่ใช้เพื่อจัดกลุ่มข้อมูล (เช่น, Zone TYPE, Descript) แต่ละค่าไม่ซ้ํากันจะกลายเป็นแท่ง/ สเกลในแผนภูมิ",
   "src": "libretranslate",
@@ -19805,6 +19997,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "File type: {v}": {
+  "t": "ประเภทแฟ้ม: {v}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "File: {name}": {
   "t": "แฟ้ม: {name}",
   "src": "libretranslate",
@@ -19816,6 +20014,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
+ },
+ "Files stay here while this app is open, even if you close this panel. Reloading the page empties the list.": {
+  "t": "แฟ้มอยู่ที่นี่ขณะที่โปรแกรมถูกเปิดใช้อยู่ แม้ว่าคุณจะปิดพาเนลนี้ก็ตาม กําลังเรียกหน้าเว็บที่ว่างเปล่าใหม่อีกครั้ง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "Filipino/Tagalog": {
   "t": "ฟิลิปปินส์/ ทากาล็อก",
@@ -20242,6 +20446,18 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
+ },
+ "Finished files are listed under Your files at the bottom of the panel, newest first, each marked Ready with the time it finished, its page count and size. Click the file name to open it in a new browser tab (PDF and image files) and Save to save a copy to your computer.": {
+  "t": "แฟ้มที่เสร็จแล้วจะถูกแสดงภายใต้แฟ้มของคุณที่ด้านล่างสุดของพาเนล ซึ่งแฟ้มแต่ละรายการจะมีสถานะที่ใหม่กว่า โดยจะพร้อมใช้งานกับเวลาสําเร็จ จะนับและขนาดหน้า คลิกชื่อแฟ้ม เพื่อเปิดใช้ในแท็บใหม่ (แฟ้ม PDF และแฟ้มภาพ) และบันทึกสําเนาไปยังเครื่องของคุณ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
+ "Finished: {v}": {
+  "t": "เสร็จสิ้น: {v}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "Finishing up…": {
   "t": "เสร็จสิ้น...",
@@ -21617,11 +21833,35 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "GeoPDF skipped: the map corners could not be placed on the globe.": {
+  "t": "GoPDF ข้าม: มุมแผนที่ไม่สามารถวางบนโลก",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
+ "GeoPDF: {done} of {n} map pages georeferenced.": {
+  "t": "GoPDF: {done} ของ {n} แผนที่เพจที่ควรใช้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
+ "GeoPDF: map frame georeferenced{wkid}.": {
+  "t": "GoPDF: แผนที่เฟรมที่ควรใช้{wkid}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "Georeference (world file)": {
   "t": "ตําแหน่งที่อยู่ URL (แฟ้มโลก)",
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
+ },
+ "Georeferencing for Google Earth…": {
+  "t": "Goreferenceing สําหรับ Google Earth...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "Georgia": {
   "t": "จอร์เจีย",
@@ -21851,6 +22091,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "graphics card limit": {
+  "t": "จํากัดการใช้การ์ดกราฟิก",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "Graphics Interchange Format (GIF)": {
   "t": "กราฟิกรูปแบบการเปลี่ยนภาพ (GIF)",
   "src": "libretranslate",
@@ -21874,6 +22120,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
+ },
+ "Graticule unavailable: the projection engine failed to load.": {
+  "t": "ไม่สามารถใช้ graticule ได้: เครื่องยนต์ฉายภาพล้มเหลว",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "Gray": {
   "t": "เทา",
@@ -22054,6 +22306,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
+ },
+ "Grid skipped: no map extent.": {
+  "t": "ตารางข้าม: ไม่มีขอบเขตแผนที่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "Grid snapping": {
   "t": "หมุน & 90",
@@ -25241,6 +25499,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "KMZ unavailable: exported the plain image instead.": {
+  "t": "ไม่สามารถใช้งาน KMZ ได้: ส่งออกภาพธรรมดาแทน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "Korean (한국어)": {
   "t": "เกาหลี (한국어)",
   "src": "libretranslate",
@@ -26003,6 +26267,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Layers and the field to expand by": {
+  "t": "ชั้นและสนามที่จะขยายโดย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "Layers can sit inside a group. Click the arrow beside the group name to open it.": {
   "t": "เลเยอร์สามารถอยู่ภายในกลุ่ม คลิกลูกศรข้าง ๆ ชื่อกลุ่มเพื่อเปิดมัน",
   "src": "libretranslate",
@@ -26470,6 +26740,24 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
+ },
+ "Legend: checking which layers have features in the print area…": {
+  "t": "ตํานาน: การ ตรวจ สอบ ว่า ชั้น ไหน มี ลักษณะ เฉพาะ ใน บริเวณ พิมพ์...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
+ "Legend: left out {n} item(s) that do not draw at 1:{scale}.": {
+  "t": "ตํานาน: ถูกทิ้งไว้ {n} รายการที่ไม่วาดที่ 1:{scale}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
+ "Legend: left out {n} item(s) with nothing in the print area.": {
+  "t": "ตํานาน: ถูกทิ้งไว้ {n} รายการที่ไม่มีอะไรในพื้นที่การพิมพ์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "Length": {
   "t": "ความยาว",
@@ -27317,6 +27605,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Loading font {name}…": {
+  "t": "กําลังโหลดแบบอักษร {name}...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "Loading form, please wait": {
   "t": "กําลังโหลดแบบฟอร์ม โปรดรอสักครู่",
   "src": "libretranslate",
@@ -27334,6 +27628,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
+ },
+ "Loading layers and fields from the map…": {
+  "t": "กําลังโหลดชั้นและสนามจากแผนที่...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "Loading layers from the map…": {
   "t": "กําลังโหลดเลเยอร์จากแผนที่...",
@@ -27767,6 +28067,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Made by: {v}": {
+  "t": "สร้างโดย: {v}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "Mailing Label Generator": {
   "t": "ตัวจําลองการส่งจดหมาย",
   "src": "libretranslate",
@@ -28024,6 +28330,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
+ },
+ "Map capture limited to {px} px ({why}); effective {dpi} DPI.": {
+  "t": "การจับแผนที่ จํากัด {px} px ({why}ได้ผล {dpi} DPI",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "Map clicks add nothing: Digitize is off or there is no start point yet. Set the start point first, then turn on Digitize.": {
   "t": "การคลิกบนแผนที่ จะเป็นการเพิ่มอะไรเข้าไป: ตั้งค่าจุดเริ่มต้นก่อน แล้วค่อยเปิดดิจิต",
@@ -29651,6 +29963,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Most categories to list per layer (1 to 500)": {
+  "t": "หมวดหมู่ส่วนใหญ่รายการต่อชั้น (1 ถึง 500)",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "Most layers vanished and a Layer focus card is showing: click Exit focus on the card to bring them back.": {
   "t": "ชั้นส่วนใหญ่หายไป และการ์ดโฟกัสชั้นในจะแสดง: คลิกที่จุดโฟกัสบนการ์ดเพื่อนํามันกลับมา",
   "src": "libretranslate",
@@ -30863,6 +31181,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "No layers with text or whole-number fields were found in this map.": {
+  "t": "ไม่มีชั้นที่มีข้อความหรือสนามตัวเลขทั้งหมดถูกพบในแผนที่นี้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "No layout component!": {
   "t": "ไม่มีส่วนประกอบผังแป้นพิมพ์!",
   "src": "libretranslate",
@@ -31529,6 +31853,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Not expanded": {
+  "t": "ไม่ขยาย",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "Not exported:": {
   "t": "ไม่ส่งออก:",
   "src": "libretranslate",
@@ -31625,6 +31955,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Notes about this file": {
+  "t": "บันทึกช่วยจําเกี่ยวกับแฟ้มนี้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "Notes for {name}": {
   "t": "บันทึกช่วยจําสําหรับ {name}",
   "src": "libretranslate",
@@ -31654,6 +31990,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
+ },
+ "Nothing downloaded: your browser may have blocked it. Look for a blocked download notice in the address bar, or press Save next to the file under Your files.": {
+  "t": "ไม่มีอะไรดาวน์โหลด: เบราว์เซอร์ของคุณอาจจะปิดกั้นมัน ค้นหาข้อความแสดงตัวที่ถูกบล็อคไว้ในแถบที่อยู่ หรือการกด ถัดไปจากแฟ้มใต้แฟ้มของคุณ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "Nothing earlier than this.": {
   "t": "ไม่มีอะไรเร็วกว่านี้",
@@ -32627,6 +32969,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Only the first {max} values are listed. Features with other values keep drawing.": {
+  "t": "แค่ครั้งแรก {max} มี รายการ ค่า ต่าง ๆ. ลักษณะที่เข้ากับค่าอื่น ๆ ให้วาด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "Only the first sheet of an Excel workbook is read, so put your addresses there.": {
   "t": "มี การ อ่าน เพียง แผ่น แรก ของ คู่มือ การ ทํา งาน แบบ เอก ซ์ ดัง นั้น ใส่ ที่ อยู่ ของ คุณ ไว้ ที่ นั่น.",
   "src": "libretranslate",
@@ -32891,6 +33239,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Open the categories as soon as the list loads": {
+  "t": "เปิดหมวดหมู่ทันทีที่รายการโหลด",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "Open the guide.": {
   "t": "เปิดคู่มือ",
   "src": "libretranslate",
@@ -32908,6 +33262,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
+ },
+ "Open this file in a new browser tab. Use Save to keep a copy.": {
+  "t": "เปิดแฟ้มนี้ในแท็บเบราว์เซอร์ตัวใหม่ ใช้ บันทึก เพื่อ เก็บ สําเนา ไว้.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "Open this widget's settings in Experience Builder and select a map widget.": {
   "t": "เปิดการตั้งค่าวิดเจ็ตนี้ในเครื่องมือสร้างภาพและเลือกวิดเจ็ต",
@@ -33623,6 +33983,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Packaging the KMZ…": {
+  "t": "เก็บของ KMZ...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "Padding (mm)": {
   "t": "การปัดเกลี่ย (ม. ม.)",
   "src": "libretranslate",
@@ -33670,6 +34036,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
+ },
+ "Page image limited to {px} px for this device’s memory; {dpi} DPI.": {
+  "t": "ภาพที่ถูกจํากัดโดยหน้า {px} px สําหรับหน่วยความจําของอุปกรณ์นี้; {dpi} DPI",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "Page name": {
   "t": "ชื่อหน้ากระดาษ",
@@ -33736,6 +34108,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
+ },
+ "Pages: {v}": {
+  "t": "หน้า: {v}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "Paginate large tables": {
   "t": "จัดวางตารางใหญ่",
@@ -34061,6 +34439,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "PDF layers: {names}.": {
+  "t": "เลเยอร์% 1 {names}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "PDF Max Features": {
   "t": "คุณสมบัติของ PDF",
   "src": "libretranslate",
@@ -34372,6 +34756,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
+ },
+ "Pick a field for any layer whose features should be listed by category under its name. Users tick and untick categories to show or hide those features; the web map and the layer itself are not changed. Works on feature layers and map service sublayers.": {
+  "t": "เลือกช่องสําหรับเลเยอร์ที่คุณสมบัติต่าง ๆ ควรจะถูกแสดงตามหมวดหมู่ที่มีชื่อ ผู้ใช้จะกาเลือกและแยกหมวดหมู่เพื่อแสดงหรือซ่อนคุณสมบัติเหล่านั้น; แผนที่เว็บและชั้นต่าง ๆ ไม่มีการเปลี่ยนแปลง ทํางานเกี่ยวกับคุณสมบัติชั้นและแผนที่สหกรณ์",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "Pick a Layout, then type a Map title. The title is what prints at the top of the page.": {
   "t": "เลือกผังแป้นพิมพ์ แล้วพิมพ์ชื่อแผนที่ หัวเรื่องคือลายพิมพ์บนหน้ากระดาษ",
@@ -34708,6 +35098,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
+ },
+ "Placing the legend panel beside the map…": {
+  "t": "วางแผงตํานานไว้ข้างๆแผนที่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "Plain (intro as ordinary text)": {
   "t": "ข้อความธรรมดา (intro เป็นข้อความธรรมดา)",
@@ -35789,6 +36185,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Press Export. A message tells you what it is working on. When it finishes, the file downloads and also appears under Your files at the bottom, marked Ready. Click its name to open it, or Save to keep another copy.": {
+  "t": "กดส่งออก ข้อความบอกคุณว่ามันทํางานอย่างไร เมื่อมันเสร็จสิ้น การดาวน์โหลดแฟ้มและยังปรากฏอยู่ภายใต้ไฟล์ของคุณที่ด้านล่าง ทําเครื่องหมายพร้อม คลิกที่ชื่อมันเพื่อเปิดมัน หรือบันทึกเพื่อเก็บสําเนาถัดไป",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "Press Export. The panel dims and a message tells you what it is working on. When it finishes, the file appears under Recent exports at the bottom. Click its name to save it.": {
   "t": "กดส่งออก แผงปิดและข้อความบอกคุณ ว่ามันทํางานอย่างไร เมื่อมันเสร็จสิ้น แฟ้มจะปรากฏภายใต้การส่งออกล่าสุดที่ด้านล่าง คลิกที่ชื่อมันเพื่อบันทึก",
   "src": "libretranslate",
@@ -36191,6 +36593,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Print-scale pass failed; using the standard capture.": {
+  "t": "การผ่านการพิมพ์- ขนาดล้มเหลว โดยใช้การจับภาพมาตรฐาน",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "PrintAdvancedConfig version=\"1\" ...>": {
   "t": "พิมพ์ AdvanedConfig รุ่น = \"1\".>",
   "src": "libretranslate",
@@ -36214,6 +36622,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
+ },
+ "Printed scale: {v}": {
+  "t": "ขนาดการพิมพ์: {v}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "printing": {
   "t": "พิมพ์",
@@ -36934,6 +37348,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-08"
+ },
+ "Reading values…": {
+  "t": "กําลังอ่านค่า...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "Reading your measurements": {
   "t": "กําลังอ่านการวัดของคุณ",
@@ -38189,6 +38609,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Resolution: {v} DPI": {
+  "t": "ความละเอียด: {v} จุดต่อนิ้ว",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "Resolve a Google Font family to its TTF files and fill the fields below.": {
   "t": "เรียกข้อมูลตระกูลแบบอักษรของกูเกิ้ลมายังแฟ้ม TTF และกรอกข้อมูลด้านล่างนี้",
   "src": "libretranslate",
@@ -39041,6 +39467,12 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Save this file to your computer.": {
+  "t": "บันทึกแฟ้มนี้ไปยังคอมพิวเตอร์ของคุณ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "Save this widget's configuration to an XML file, or load a saved file to copy settings between applications. Importing merges the file's values onto the current configuration. The selected map widget is not included.": {
   "t": "บันทึกการปรับแต่งวิดเจ็ตนี้ไปเป็นแฟ้ม XML หรือโหลดแฟ้มที่บันทึกไว้เพื่อคัดลอกการตั้งค่าระหว่างโปรแกรม กําลังรวมค่าของแฟ้มเข้ากับการปรับแต่งปัจจุบัน วิดเจ็ตของแผนที่ที่เลือกไว้ยังไม่ถูกรวมอยู่ด้วย",
   "src": "libretranslate",
@@ -39190,6 +39622,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
+ },
+ "Saving the PDF…": {
+  "t": "กําลังบันทึก PDF...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "Saving...": {
   "t": "กําลังบันทึก...",
@@ -41315,6 +41753,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "settings limit": {
+  "t": "จํากัดค่า",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "Settings reset to defaults": {
   "t": "ตั้งค่ากลับไปใช้ค่าปริยาย",
   "src": "libretranslate",
@@ -41627,6 +42071,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Show a feature count beside each category": {
+  "t": "แสดงจํานวนคุณสมบัติที่เรียงตามแต่ละหมวดหมู่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "Show a feature: layer id": {
   "t": "แสดงคุณสมบัติ: หมายเลขชั้น",
   "src": "libretranslate",
@@ -41770,6 +42220,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
+ },
+ "Show categories": {
+  "t": "แสดงหมวดหมู่",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "Show Clear All Button": {
   "t": "แสดง ล้าง ปุ่มทั้งหมด",
@@ -43019,6 +43475,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Size: {v}": {
+  "t": "ขนาด: {v}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "SketchViewModel is not available.": {
   "t": "ไม่พบ SketchView Model",
   "src": "libretranslate",
@@ -43355,6 +43817,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Some features of a layer are missing from the map: one of its categories is unticked. Open {categoriesPanelTitle} under the layer and click {categoriesAll}.": {
+  "t": "ลักษณะ บาง อย่าง ของ ชั้น บาง ชั้น ขาด ไป จาก แผนที่: ส่วน หนึ่ง ของ ชั้น ไม่ มี การ ระบุ ประเภท. เปิด {categoriesPanelTitle} อยู่ใต้เลเยอร์แล้วคลิก {categoriesAll}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "Some groups allow one layer at a time. Their layers have a round button instead of a box: pick one and the others in that group switch off.": {
   "t": "บางกลุ่มสามารถแบ่งชั้นทีละชั้นได้ ชั้นของพวกเขามีปุ่มกลมแทนกล่อง เลือกปุ่มหนึ่ง และปุ่มอื่น ๆ ในกลุ่มที่ปิด",
   "src": "libretranslate",
@@ -43366,6 +43834,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
+ },
+ "Some layers can be opened by category. Click the {categoriesPanelTitle} button beside the layer name to see its categories, each with a box: untick a category to hide those features and tick it to show them again.": {
+  "t": "บางชั้นสามารถเปิดได้ตามหมวดหมู่ คลิก {categoriesPanelTitle} ปุ่มข้าง ๆ ชื่อชั้นเพื่อดูหมวดหมู่ของมัน แต่ละปุ่มมีกล่อง คือ กดปุ่มเพื่อซ่อนลักษณะต่าง ๆ และคลิกเพื่อแสดงอีกครั้ง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "Some layers draw every matching feature on the map when the report loads.": {
   "t": "บางชั้นวาดคุณสมบัติที่ตรงกับแผนที่เมื่อรายงาน",
@@ -46211,6 +46685,12 @@
   "reviewed": false,
   "added": "2026-10-12"
  },
+ "The graticule produced no lines for this extent.": {
+  "t": "เกร คา ทูเล ไม่ ได้ สร้าง เส้น ทาง สําหรับ ขอบ เขต นี้.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "The Help button on the menu opens this guide any time.": {
   "t": "ปุ่มช่วยเหลือบนเมนู เปิดคู่มือนี้ทุกเวลา",
   "src": "libretranslate",
@@ -46391,6 +46871,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The map is still drawing after 45 s; capturing anyway. {warning}": {
+  "t": "แผนที่ยังวาดอยู่หลังจาก 45 s แต่จับได้ {warning}",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "The map layers changed. Comparison stopped; review your selections and start again.": {
   "t": "แผนที่เปลี่ยนไป การเปรียบเทียบหยุดแล้ว ทบทวนการคัดเลือกของคุณ และเริ่มต้นใหม่",
   "src": "libretranslate",
@@ -46486,6 +46972,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
+ },
+ "The number beside each category is how many features it has.": {
+  "t": "ตัว เลข นอก นั้น คือ จํานวน ที่ มี.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "The numbers describe the spot you clicked, not the center of the map.": {
   "t": "ตัวเลขอธิบายจุดที่คุณคลิก ไม่ใช่ศูนย์กลางของแผนที่",
@@ -47057,6 +47549,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "The values could not be read. Reload the page to try again.": {
+  "t": "ไม่สามารถอ่านค่าได้ เรียกหน้าเว็บใหม่อีกครั้งเพื่อลองอีกครั้ง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "The whole timeline is spread over this length.": {
   "t": "เส้นเวลาทั้งหมดกระจายไปตามความยาวนี้",
   "src": "libretranslate",
@@ -47206,6 +47704,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
+ },
+ "The x next to a file removes it from the list and Clear list empties the whole list. Neither deletes a file you have already saved.": {
+  "t": "ลบทั้งรายการออกจากรายการ ไม่ใช่ลบแฟ้มที่คุณบันทึกไปแล้ว",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "The Zoom to measurement button moves the map to that measurement.": {
   "t": "ปุ่มปรับขนาดที่จะย้ายแผนที่ไปยังการวัดที่",
@@ -47471,6 +47975,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "this device’s memory limit": {
+  "t": "การ จํากัด ความ จํา ของ อุปกรณ์ นี้",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "This Droplet belongs to {author} and is shared. Deleting it removes it for everyone. Continue?": {
   "t": "ลดลงนี้เป็นของ {author} และถูกแบ่งปัน ลบออกให้หมด พูดต่อ?",
   "src": "libretranslate",
@@ -47554,6 +48064,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
+ },
+ "This layer has no values to list.": {
+  "t": "เลเยอร์นี้ ไม่มีค่าที่จะแสดง",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "This layer type is not available for 2D comparison.": {
   "t": "ชนิดของเลเยอร์นี้ ไม่สามารถใช้สําหรับการเปรียบเทียบ 2 มิติได้",
@@ -50603,6 +51119,12 @@
   "reviewed": false,
   "added": "2026-10-09"
  },
+ "Vector layers: reading {n} layer(s)…": {
+  "t": "ชั้นของเวกเตอร์: การอ่าน {n} เลเยอร์...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "Vector page furniture; opens in Illustrator/Inkscape. Covers the AIX use case.": {
   "t": "Unknown Page เฟอร์นิเจอร์; เปิดใน Scientor/Inkspace. ครอบคลุมกรณี AIX",
   "src": "libretranslate",
@@ -50614,6 +51136,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
+ },
+ "Vector: {layers} layer(s), {features} feature(s){raster}.": {
+  "t": "คริสติน: {layers} เลเยอร์ {features} คุณสมบัติ{raster}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "Verdana": {
   "t": "แวร์ดานา",
@@ -50932,6 +51460,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-09"
+ },
+ "Waiting for basemap tiles on the index page…": {
+  "t": "กําลังรอกระเบื้องฐานในหน้าดัชนี...",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "Waiting for map layers to load...": {
   "t": "รอชั้นของแผนที่ที่จะโหลด...",
@@ -52031,6 +52565,24 @@
   "reviewed": false,
   "added": "2026-10-08"
  },
+ "Wrote a GeoTIFF (coordinate system embedded, EPSG:{epsg}{rot}).": {
+  "t": "เขียน GOTIF (ระบบพิกัดฝัง, ESG:{epsg}{rot})",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
+ "Wrote the KMZ for Google Earth ({kb} KB).": {
+  "t": "เขียน KMZ สําหรับ Google Earth (พ.ศ.{kb} คีท).",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
+ "Wrote world file {name}{rot}.": {
+  "t": "เขียนแฟ้มโลก {name}{rot}.",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
+ },
  "X (Easting):": {
   "t": "ค่า X (ค่า):",
   "src": "libretranslate",
@@ -52372,6 +52924,12 @@
   "src": "libretranslate",
   "reviewed": false,
   "added": "2026-10-12"
+ },
+ "Your files": {
+  "t": "แฟ้มของคุณ",
+  "src": "libretranslate",
+  "reviewed": false,
+  "added": "2026-10-19"
  },
  "your folder": {
   "t": "โฟลเดอร์ของคุณ",
