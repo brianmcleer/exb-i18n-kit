@@ -1,0 +1,11 @@
+name: Feature request
+description: An idea for the kit
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What it would do and why it helps when localizing a widget
+    validations:
+      required: true

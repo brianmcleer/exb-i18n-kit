@@ -1,0 +1,27 @@
+name: Translation fix
+description: A wrong or awkward translation in the shared memory
+labels: ["translation"]
+body:
+  - type: input
+    id: locale
+    attributes:
+      label: Locale
+      placeholder: "es, fr, de-DE"
+    validations:
+      required: true
+  - type: input
+    id: english
+    attributes:
+      label: English text
+    validations:
+      required: true
+  - type: input
+    id: current
+    attributes:
+      label: Current translation
+  - type: input
+    id: better
+    attributes:
+      label: Better translation
+    validations:
+      required: true

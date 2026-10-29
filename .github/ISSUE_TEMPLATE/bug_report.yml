@@ -1,0 +1,32 @@
+name: Bug report
+description: Something in the kit does not work
+labels: ["bug"]
+body:
+  - type: input
+    id: kit-version
+    attributes:
+      label: Kit version
+      description: From package.json, or the commit you are on
+      placeholder: "1.4.0"
+    validations:
+      required: true
+  - type: input
+    id: command
+    attributes:
+      label: Command
+      description: The exb-i18n command you ran
+      placeholder: "node bin/exb-i18n.js sync ../widgets/my-widget"
+    validations:
+      required: true
+  - type: input
+    id: node
+    attributes:
+      label: Node and Experience Builder versions
+      placeholder: "Node 20, Experience Builder 1.21 Developer Edition"
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you expected, what happened instead, and the console output
+    validations:
+      required: true
